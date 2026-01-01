@@ -1,0 +1,75 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "Change Application key to Command + Option + Shift + N",
+                        "manipulators": [
+                            {
+                                "from": { "key_code": "application" },
+                                "to": [
+                                    {
+                                        "key_code": "n",
+                                        "modifiers": ["left_command", "left_option", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 597,
+                        "vendor_id": 1452
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "consumer_key_code": "al_calculator" },
+                            "to": [{ "key_code": "mute" }]
+                        },
+                        {
+                            "from": { "consumer_key_code": "volume_decrement" },
+                            "to": [{ "key_code": "f16" }]
+                        },
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [{ "key_code": "f19" }]
+                        },
+                        {
+                            "from": { "key_code": "left_command" },
+                            "to": [{ "key_code": "left_option" }]
+                        },
+                        {
+                            "from": { "key_code": "left_option" },
+                            "to": [{ "key_code": "left_command" }]
+                        },
+                        {
+                            "from": { "key_code": "pause" },
+                            "to": [{ "key_code": "f16" }]
+                        },
+                        {
+                            "from": { "key_code": "print_screen" },
+                            "to": [{ "key_code": "f13" }]
+                        },
+                        {
+                            "from": { "key_code": "right_control" },
+                            "to": [{ "key_code": "right_command" }]
+                        },
+                        {
+                            "from": { "key_code": "scroll_lock" },
+                            "to": [{ "key_code": "f15" }]
+                        }
+                    ]
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
+        }
+    ]
+}

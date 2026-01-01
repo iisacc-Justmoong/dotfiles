@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+neofetch
+fortune
