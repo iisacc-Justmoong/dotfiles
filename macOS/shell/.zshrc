@@ -44,3 +44,5 @@ export CMAKE_PREFIX_PATH=$HOME/Qt/6.8.3/macos:$CMAKE_PREFIX_PATH
 export PATH="$HOME/Qt/6.8.3/macos/bin:$PATH"
 export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
 export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
+# Added by Antigravity
+export PATH="/Users/ymy/.antigravity/antigravity/bin:$PATH"
