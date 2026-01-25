@@ -15,9 +15,6 @@ launchctl setenv DYLD_LIBRARY_PATH /usr/local/kde4/lib:$DYLD_LIBRARY_PATH
 export XDG_DATA_HOME=$HOME/Library/Preferences/KDE/share
 export XDG_DATA_DIRS=/usr/local/kde4/share:/usr/local/share:/usr/share
 
-##
-# Your previous /Users/ymy/.zprofile file was backed up as /Users/ymy/.zprofile.macports-saved_2025-04-28_at_11:01:47
-##
 
 # MacPorts Installer addition on 2025-04-28_at_11:01:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"

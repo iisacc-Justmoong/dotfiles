@@ -3,7 +3,6 @@ ZSH_THEME="jonathan"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-#source ~/CraftRoot/craft/craftenv.sh
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -32,8 +31,6 @@ dot() {
     cd
 }
 
-eval "$(rbenv init - zsh)"
-
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
@@ -44,5 +41,3 @@ export CMAKE_PREFIX_PATH=$HOME/Qt/6.8.3/macos:$CMAKE_PREFIX_PATH
 export PATH="$HOME/Qt/6.8.3/macos/bin:$PATH"
 export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
 export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
-# Added by Antigravity
-export PATH="/Users/ymy/.antigravity/antigravity/bin:$PATH"
