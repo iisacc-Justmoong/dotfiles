@@ -1,44 +1,67 @@
+#!/bin/zsh
+
+[[ -o interactive ]] || return 0
+
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="jonathan"
+ZSH_THEME="${ZSH_THEME:-jonathan}"
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+if [[ -s "$ZSH/oh-my-zsh.sh" ]]; then
+  source "$ZSH/oh-my-zsh.sh"
+fi
 
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+for zsh_plugin in \
+  "${HOMEBREW_PREFIX:-/opt/homebrew}/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" \
+  "${HOMEBREW_PREFIX:-/opt/homebrew}/share/zsh-autosuggestions/zsh-autosuggestions.zsh"; do
+  [[ -r "$zsh_plugin" ]] && source "$zsh_plugin"
+done
+unset zsh_plugin
 
-alias python=python3
-alias pip=pip3
+if command -v nvim >/dev/null 2>&1; then
+  export EDITOR="${EDITOR:-nvim}"
+  export VISUAL="${VISUAL:-nvim}"
+elif command -v vim >/dev/null 2>&1; then
+  export EDITOR="${EDITOR:-vim}"
+  export VISUAL="${VISUAL:-vim}"
+else
+  export EDITOR="${EDITOR:-vi}"
+  export VISUAL="${VISUAL:-vi}"
+fi
+
+HISTFILE="${HISTFILE:-$HOME/.zsh_history}"
+HISTSIZE=200000
+SAVEHIST=200000
+setopt HIST_IGNORE_DUPS HIST_IGNORE_ALL_DUPS SHARE_HISTORY EXTENDED_HISTORY INC_APPEND_HISTORY
+
+alias python='python3'
+alias pip='pip3'
+alias ll='ls -alh'
+alias la='ls -A'
+alias l='ls -CF'
 alias brew-up='brew update && brew upgrade && brew cleanup'
+alias dot='cd "$HOME/.dotfiles"'
+alias env-doctor="$HOME/.dotfiles/Scripts/dev-env-doctor.sh"
 
 b() {
-    brew cleanup
-    brew update
-    brew upgrade
-    brew cleanup
-    echo "Check Complete at $(date)." >> ~/checkbrew.log
+  command -v brew >/dev/null 2>&1 || return 1
+  brew update && brew upgrade && brew cleanup
+  echo "Check Complete at $(date)." >>"$HOME/checkbrew.log"
 }
 
-dot() {
-    cd .dotfiles/
-    wait 2
-    echo "start sync .dotfiles on git"
-    sudo git add .
-    sudo git commit -m "Fixed at: $(date '+%Y-%m-%d %H:%M:%S')"
-    sudo git push
-    echo "Fixed at: $(date '+%Y-%m-%d %H:%M:%S')"
-    echo "Done"
-    cd
+dotsync() {
+  local repo="$HOME/.dotfiles"
+  [[ -d "$repo/.git" ]] || return 1
+  git -C "$repo" add -A
+  git -C "$repo" commit -m "Sync at: $(date '+%Y-%m-%d %H:%M:%S')" || return 0
+  git -C "$repo" push
 }
 
-export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
+[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && source "$NVM_DIR/bash_completion"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export DIST_CERT_SHA="${DIST_CERT_SHA:-<SHA1_PLACEHOLDER>}"
 
-export CMAKE_PREFIX_PATH=$HOME/Qt/6.8.3/macos:$CMAKE_PREFIX_PATH
-export PATH="$HOME/Qt/6.8.3/macos/bin:$PATH"
-export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
-export DIST_CERT_SHA=<SHA1_PLACEHOLDER>
-
+if [[ -f "$HOME/.zshrc.local" ]]; then
+  source "$HOME/.zshrc.local"
+fi
