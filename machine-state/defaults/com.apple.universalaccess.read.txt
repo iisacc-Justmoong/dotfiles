@@ -1,0 +1,174 @@
+{
+    FontSizeCategory =     {
+        "com.apple.Magnifier" = UseGlobal;
+        "com.apple.MobileSMS" = UseGlobal;
+        "com.apple.Notes" = UseGlobal;
+        "com.apple.accessibility.AccessibilityReader" = UseGlobal;
+        "com.apple.finder" = UseGlobal;
+        "com.apple.iBooksX" = UseGlobal;
+        "com.apple.iCal" = UseGlobal;
+        "com.apple.journal" = UseGlobal;
+        "com.apple.mail" = UseGlobal;
+        "com.apple.reminders" = UseGlobal;
+        "com.apple.stocks" = UseGlobal;
+        "com.apple.weather" = UseGlobal;
+        global = DEFAULT;
+        version = "3.0";
+    };
+    History =     {
+        MouseKeys =         (
+                        {
+                Date = "2026-01-17 00:56:22";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 00:56:26";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 00:56:26";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 00:56:30";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 00:56:31";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 18:01:08";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 19:32:05";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 19:40:21";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-17 20:08:11";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-01-29 10:25:31";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-02-01 17:04:36";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-02-05 21:46:50";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-02-07 00:00:07";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-02-18 00:42:15";
+                Reason = Reset;
+                State = 0;
+            }
+        );
+    };
+    closeViewCustomHotkeyKey =     {
+        "AX_ZOOM_FREEZE_PANNING" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 0;
+        };
+        "AX_ZOOM_MONITOR_SELECTION" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 0;
+        };
+        "AX_ZOOM_TEMP_DETACH" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 1310720;
+        };
+        "AX_ZOOM_TEMP_TOGGLE" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 786432;
+        };
+        "AX_ZOOM_TOGGLE_FS_AND_PIP" =         {
+            charCode = 102;
+            keyCode = 3;
+            modifiers = 1572864;
+        };
+    };
+    closeViewDesiredZoomFactor = "5.513416186870304";
+    closeViewHotkeysEnabled = 1;
+    closeViewPanningMode = 2;
+    closeViewScrollWheelToggle = 1;
+    closeViewSplitScreenRatio = "0.2";
+    closeViewWindowPosition = {length = 252, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c2 };
+    closeViewWindowSize = {length = 250, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c0 };
+    closeViewZoomDisplayID = 0;
+    closeViewZoomFactor = 1;
+    closeViewZoomFactorBeforeTermination = 1;
+    closeViewZoomMode = 1;
+    closeViewZoomScreenShareEnabledKey = 0;
+    closeViewZoomedIn = 0;
+    "com.apple.custommenu.apps" =     (
+        NSGlobalDomain,
+        LaunchNext
+    );
+    customFonts = 0;
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "1168.1484375";
+            Y = 1440;
+        };
+        2 =         {
+            X = "4886.5546875";
+            Y = "587.11328125";
+        };
+        5 =         {
+            X = "475.31640625";
+            Y = "464.109375";
+        };
+    };
+    grayscale = 0;
+    hoverColorEnabled = 0;
+    hoverTextEnabled = 0;
+    hoverTypingEnabled = 0;
+    hudNotifiedConstrast = 0;
+    keyboardAccessCommandMap = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000da };
+    keyboardAccessFocusRingTimeout = 15;
+    liveSpeechEnabled = 0;
+    login = 0;
+    reduceTransparency = 1;
+    sessionChange = 0;
+    slowKey = 0;
+    slowKeyDelay = 250;
+    stickyKey = 0;
+    switchAutoScanElementInterval = "0.5";
+    switchAutoScanPanelInterval = "0.5";
+    switchCoalescePressesDuration = 0;
+    switchFirstElementDelay = 0;
+    switchHideUITimeout = 15;
+    switchHoldBeforeRepeatDuration = 3;
+    switchMinimumPressDuration = 0;
+    switchSweepingCursorSpeed = 5;
+    useStickyKeysShortcutKeys = 0;
+}
