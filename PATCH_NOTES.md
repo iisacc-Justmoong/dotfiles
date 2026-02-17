@@ -2,6 +2,16 @@
 
 ## 2026-02-18
 
+### 환경 붕괴 방지 자동화 (launchd/launchctl)
+- `Scripts/machine-env-guard.sh`를 추가해 30분 주기의 환경 가드를 구성했다.
+- 가드 동작:
+- 홈 심볼릭 링크 무결성 점검 및 이탈 시 자동 복구
+- 생성 파일 정리 스크립트 실행
+- 일일 백업 누락 시 `machine-state-backup.sh` 자동 실행
+- 주기적 `dev-env-doctor.sh` 실행 및 로그 보존
+- `.git` 루트 소유권 이상 감지 및 가능 시 자동 복구
+- `macOS/com.dotfiles.machine-env-guard.plist`를 추가했고 `macOS/Scripts/launchctl.sh`에 통합해 bootstrap/kickstart 자동 등록하도록 확장했다.
+
 ### 시스템 정리
 - `~/` 기준 생성 파일 정리 스크립트 `Scripts/machine-clean-generated.sh`를 추가했다.
 - dotfiles 내부 Android 캐시/락 파일, `*.pysave`, `.DS_Store` 계열 정리 경로를 고정했다.

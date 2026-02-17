@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2450;
+    "mod-count" = 2451;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -590,6 +590,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 2546935503;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Photos";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Photos.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Photos;
+                "file-mod-date" = 3846664168;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3846664168;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2314632303;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
@@ -705,24 +723,6 @@
         }
     );
     "recent-apps" =     (
-                {
-            GUID = 2546935500;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 271755022246264;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
-            };
-            "tile-type" = "file-tile";
-        },
                 {
             GUID = 2546935501;
             "tile-data" =             {

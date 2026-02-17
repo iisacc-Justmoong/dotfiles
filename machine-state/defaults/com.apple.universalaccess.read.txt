@@ -135,17 +135,17 @@
     );
     customFonts = 0;
     displaysLastCursorLocation =     {
-        0 =         {
-            X = "1168.1484375";
-            Y = 1440;
+        1 =         {
+            X = "-109";
+            Y = "910.57421875";
         };
         2 =         {
-            X = "4886.5546875";
-            Y = "587.11328125";
+            X = "4563.76171875";
+            Y = "1282.71875";
         };
         5 =         {
-            X = "475.31640625";
-            Y = "464.109375";
+            X = "174.2265625";
+            Y = "813.3125";
         };
     };
     grayscale = 0;
@@ -157,7 +157,7 @@
     keyboardAccessFocusRingTimeout = 15;
     liveSpeechEnabled = 0;
     login = 0;
-    reduceTransparency = 1;
+    reduceTransparency = 0;
     sessionChange = 0;
     slowKey = 0;
     slowKeyDelay = 250;

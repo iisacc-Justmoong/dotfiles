@@ -20,6 +20,7 @@ done
 
 typeset -a managed_plists
 managed_plists=(
+  "com.dotfiles.machine-env-guard.plist"
   "com.dotfiles.machine-state-apply-next-day.plist"
   "com.dotfiles.machine-state-backup.plist"
 )
@@ -31,4 +32,4 @@ for plist_name in "${managed_plists[@]}"; do
   launchctl kickstart -k "gui/$USER_UID/${plist_name%.plist}" >/dev/null 2>&1 || true
 done
 
-ls -l "$LAUNCH_AGENTS_DIR" | grep "com.dotfiles.machine-state" || true
+ls -l "$LAUNCH_AGENTS_DIR" | grep "com.dotfiles.machine" || true

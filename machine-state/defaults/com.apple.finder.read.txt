@@ -32,7 +32,7 @@
         };
     };
     DownloadsFolderListViewSettingsVersion = 1;
-    EmptyTrashProgressWindowLocation = "{2343, 78}";
+    EmptyTrashProgressWindowLocation = "{2161, 78}";
     "FK_AppCentricShowSidebar" = 1;
     "FK_DefaultListViewSettingsV2" =     {
         calculateAllSizes = 0;
@@ -435,6 +435,30 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
+        },
+                {
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = Music;
+        },
+                {
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = Movies;
+        },
+                {
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
+        },
+                {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
@@ -449,30 +473,6 @@
                 {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Developer;
-        },
-                {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = LVRS;
-        },
-                {
-            "file-bookmark" = {length = 756, bytes = 0x626f6f6b f4020000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
-        },
-                {
-            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = ".porndata";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -716,6 +716,7 @@
     NewWindowTarget = PfHm;
     "PreferencesWindow.LastSelection" = GNRL;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/",
         "file:///Volumes/Storage/.porndata/",
         "file:///Users/ymy/Developer/LVRS/resources/iconset/",
         "file:///Users/ymy/Downloads/",
@@ -724,8 +725,7 @@
         "file:///Volumes/Storage/STATIC/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Volumes/Storage/Records/Artworking/",
-        "file:///Users/ymy/Documents/",
-        "file:///Users/ymy/Developer/"
+        "file:///Users/ymy/Documents/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
