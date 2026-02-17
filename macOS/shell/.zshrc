@@ -65,3 +65,10 @@ export DIST_CERT_SHA="${DIST_CERT_SHA:-<SHA1_PLACEHOLDER>}"
 if [[ -f "$HOME/.zshrc.local" ]]; then
   source "$HOME/.zshrc.local"
 fi
+
+# LVRS Android SDK/NDK
+export ANDROID_SDK_ROOT="/Users/ymy/Library/Android/sdk"
+export ANDROID_HOME="/Users/ymy/Library/Android/sdk"
+export ANDROID_NDK_ROOT="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
+export ANDROID_NDK_HOME="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
+export CMAKE_ANDROID_NDK="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
