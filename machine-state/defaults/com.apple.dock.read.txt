@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "793035745.436304"
+        "793068328.7522351"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2451;
+    "mod-count" = 2455;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -46,24 +46,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 158363593153407;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2964585283;
-            "tile-data" =             {
-                book = {length = 732, bytes = 0x626f6f6b dc020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.google.android.studio";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/Android%20Studio.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Android Studio";
-                "file-mod-date" = 54064607323020;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 24820175024563;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +207,7 @@
                 "file-mod-date" = 3851199885;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 202090654993922;
+                "parent-mod-date" = 158363593153407;
             };
             "tile-type" = "file-tile";
         },
@@ -724,24 +706,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2546935501;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 87071428514385;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2546935502;
             "tile-data" =             {
                 book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
@@ -756,6 +720,42 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 3849359466;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2546935504;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.daisydiskapp.DaisyDisk";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/DaisyDisk.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = DaisyDisk;
+                "file-mod-date" = 69526487108950;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 158363593153407;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3161268971;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 271755022246264;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 94948401265633;
             };
             "tile-type" = "file-tile";
         }
