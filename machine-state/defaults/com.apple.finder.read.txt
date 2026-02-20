@@ -402,10 +402,10 @@
             yRelative = 66;
         };
         "Macintosh HD_0x1.79a2f398p+29" =         {
-            AnchorRelativeTo = 1;
+            AnchorRelativeTo = 4;
             ScreenID = 0;
-            xRelative = "-36";
-            yRelative = 61;
+            xRelative = 214;
+            yRelative = 92;
         };
         "Photoshop Installer_0x1.74c6eac8p+29" =         {
             AnchorRelativeTo = 1;
@@ -414,10 +414,10 @@
             yRelative = 295;
         };
         "Storage_0x1.66928ef90b63p+29" =         {
-            AnchorRelativeTo = 4;
+            AnchorRelativeTo = 1;
             ScreenID = 0;
-            xRelative = 214;
-            yRelative = 163;
+            xRelative = "-36";
+            yRelative = 61;
         };
         "qt-online-installer-macOS-x64-4.10.0_0x1.6f76e64c474a1p+29" =         {
             AnchorRelativeTo = 1;
@@ -434,51 +434,51 @@
     FXICloudDriveEnabled = 1;
     FXICloudLoggedIn = 1;
     FXLastSearchScope = SCev;
-    "FXPreferencesWindow.Location" = "{{1168, 58}, {377, 832}}";
+    "FXPreferencesWindow.Location" = "{{1168, 299}, {377, 591}}";
     FXPreferredSearchViewStyle = Nlsv;
     FXPreferredSearchViewStyleVersion = "%00%00%00%01";
     FXPreferredViewStyle = Nlsv;
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1100, bytes = 0x626f6f6b 4c040000 00000510 40000000 ... 28020000 00000000 };
-            name = "1F603D14-FA04-48F0-BAD1-EFDE4D2310E8";
+            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+            name = LVRS;
         },
                 {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = Pictures;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 832, bytes = 0x626f6f6b 40030000 00000510 40000000 ... 04000000 00000000 };
-            name = Recents;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = InfraSystem;
         },
                 {
             "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            name = Service;
         },
                 {
             "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
             name = static;
         },
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
-            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 1072, bytes = 0x626f6f6b 30040000 00000510 40000000 ... 04000000 00000000 };
+            name = src;
         },
                 {
-            "file-bookmark" = {length = 1028, bytes = 0x626f6f6b 04040000 00000510 40000000 ... 04000000 00000000 };
-            name = Font;
+            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+            name = WhatSon;
         },
                 {
             "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Assets;
+            name = Product;
+        },
+                {
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = share;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = ".local";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -721,18 +721,18 @@
         };
     };
     NewWindowTarget = PfHm;
-    "PreferencesWindow.LastSelection" = SDBR;
+    "PreferencesWindow.LastSelection" = TAGS;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/static/Product/WhatSon/lib/TestHub.wshub/TestHub.wscontents/",
+        "file:///Volumes/Storage/static/Product/WhatSon/lib/TestHub.wshub/TestHub.wscontents/Library.wslibrary/",
+        "file:///Volumes/Storage/static/InfraSystem/",
         "file:///Volumes/Storage/static/Assets/Font/",
         "file:///Volumes/Storage/static/Assets/",
         "file:///Volumes/Storage/static/Service/",
         "file:///Volumes/Storage/static/",
         "file:///Volumes/Storage/",
         "file:///Volumes/Storage/.porndata/",
-        "file:///Users/ymy/Developer/LVRS/resources/iconset/",
-        "file:///Users/ymy/Downloads/",
-        "file:///Users/ymy/Developer/WhatSon/",
-        "file:///Applications/"
+        "file:///Users/ymy/Downloads/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

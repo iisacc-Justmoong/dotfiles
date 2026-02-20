@@ -72,3 +72,6 @@ export ANDROID_HOME="/Users/ymy/Library/Android/sdk"
 export ANDROID_NDK_ROOT="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 export ANDROID_NDK_HOME="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 export CMAKE_ANDROID_NDK="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
+
+# OpenClaw Completion
+source "/Users/ymy/.openclaw/completions/openclaw.zsh"

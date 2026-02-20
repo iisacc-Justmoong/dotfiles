@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "793068328.7522351"
+        "793302808.697735"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2455;
+    "mod-count" = 2483;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -45,7 +45,7 @@
                 "file-mod-date" = 71540826772547;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
+                "parent-mod-date" = 279000634822991;
             };
             "tile-type" = "file-tile";
         },
@@ -132,10 +132,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = TextEdit;
-                "file-mod-date" = 3846664168;
-                "file-type" = 1;
+                "file-mod-date" = 3853113203;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
@@ -160,7 +160,7 @@
                 {
             GUID = 2314632241;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
                 "bundle-identifier" = "com.figma.Desktop";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -168,10 +168,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 151169521401902;
+                "file-mod-date" = 252152794262431;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
+                "parent-mod-date" = 279000634822991;
             };
             "tile-type" = "file-tile";
         },
@@ -207,7 +207,7 @@
                 "file-mod-date" = 3851199885;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
+                "parent-mod-date" = 94948401265633;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +225,7 @@
                 "file-mod-date" = 268714185791998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 210933992331573;
+                "parent-mod-date" = 103473911354187;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 121581492483749;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 56993774748715;
+                "parent-mod-date" = 279000634822991;
             };
             "tile-type" = "file-tile";
         },
@@ -312,10 +312,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Stickies;
-                "file-mod-date" = 3824100362;
+                "file-mod-date" = 3853113203;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3824100362;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
@@ -438,10 +438,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "ChatGPT Atlas";
-                "file-mod-date" = 130935929895542;
+                "file-mod-date" = 237837667898813;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 83764304491855;
+                "parent-mod-date" = 118304433438749;
             };
             "tile-type" = "file-tile";
         },
@@ -464,24 +464,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3762217185;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Music";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Music.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Music;
-                "file-mod-date" = 3846664168;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2388809267;
             "tile-data" =             {
                 book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
@@ -492,10 +474,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "App Store";
-                "file-mod-date" = 3846664168;
+                "file-mod-date" = 3853113203;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
@@ -510,28 +492,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3846664168;
+                "file-mod-date" = 3853113203;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2314632247;
-            "tile-data" =             {
-                book = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Messages;
-                "file-mod-date" = 3846664168;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
@@ -554,18 +518,18 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 623595945;
+            GUID = 3762217185;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.journal";
+                "bundle-identifier" = "com.apple.Music";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Journal.app/";
+                    "_CFURLString" = "file:///System/Applications/Music.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Journal;
+                "file-label" = Music;
                 "file-mod-date" = 3846664168;
-                "file-type" = 1;
+                "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3846664168;
             };
@@ -582,28 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Photos;
-                "file-mod-date" = 3846664168;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2314632303;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.webull.trade.mac.v1";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Webull%20Desktop.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Webull Desktop";
-                "file-mod-date" = 52380978438824;
+                "file-mod-date" = 3853113203;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 276908984576265;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
@@ -654,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3846664168;
+                "file-mod-date" = 3853113203;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3846664168;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         }
@@ -706,56 +652,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2546935502;
+            GUID = 3161268977;
             "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Preview";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLString" = "file:///System/Applications/Preview.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 76716262366986;
+                "file-label" = Preview;
+                "file-mod-date" = 3853113203;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2546935504;
+            GUID = 3161268978;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.daisydiskapp.DaisyDisk";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/DaisyDisk.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = DaisyDisk;
-                "file-mod-date" = 69526487108950;
+                "file-label" = Messages;
+                "file-mod-date" = 3853113203;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
+                "parent-mod-date" = 3853113203;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3161268971;
+            GUID = 3161268979;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 271755022246264;
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3850606304;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 94948401265633;
+                "parent-mod-date" = 198010436533535;
             };
             "tile-type" = "file-tile";
         }
