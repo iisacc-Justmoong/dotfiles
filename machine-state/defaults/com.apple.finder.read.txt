@@ -11,7 +11,7 @@
             WindowBounds = "{{1358, 261}, {950, 1197}}";
         };
     };
-    CopyProgressWindowLocation = "{760, 253}";
+    CopyProgressWindowLocation = "{760, 252}";
     DataSeparatedDisplayNameCache = "";
     DesktopViewSettings =     {
         IconViewSettings =         {
@@ -405,7 +405,7 @@
             AnchorRelativeTo = 4;
             ScreenID = 0;
             xRelative = 214;
-            yRelative = 92;
+            yRelative = 82;
         };
         "Photoshop Installer_0x1.74c6eac8p+29" =         {
             AnchorRelativeTo = 1;
@@ -413,7 +413,19 @@
             xRelative = "-66";
             yRelative = 295;
         };
+        "Storage-1_0x1.75b752fe39823p+29" =         {
+            AnchorRelativeTo = 1;
+            ScreenID = 0;
+            xRelative = "-36";
+            yRelative = 139;
+        };
         "Storage_0x1.66928ef90b63p+29" =         {
+            AnchorRelativeTo = 4;
+            ScreenID = 0;
+            xRelative = 214;
+            yRelative = 163;
+        };
+        "output_0x1.75b779ec822f7p+29" =         {
             AnchorRelativeTo = 1;
             ScreenID = 0;
             xRelative = "-36";
@@ -433,6 +445,9 @@
     FXICloudDriveDocuments = 0;
     FXICloudDriveEnabled = 1;
     FXICloudLoggedIn = 1;
+    FXInfoPanesExpanded =     {
+        MetaData = 1;
+    };
     FXLastSearchScope = SCev;
     "FXPreferencesWindow.Location" = "{{1168, 299}, {377, 591}}";
     FXPreferredSearchViewStyle = Nlsv;
@@ -441,28 +456,24 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
-            name = LVRS;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = InfraSystem;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Service;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
             "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
             name = static;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 1072, bytes = 0x626f6f6b 30040000 00000510 40000000 ... 04000000 00000000 };
-            name = src;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
+        },
+                {
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = resources;
         },
                 {
             "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
@@ -473,19 +484,22 @@
             name = Product;
         },
                 {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = share;
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
         },
                 {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = ".local";
+            "file-bookmark" = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
+        },
+                {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -696,10 +710,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1066, 223}, {1056, 1001}}";
+            WindowBounds = "{{820, 336}, {979, 859}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 88010000 00000000 };
     "NSToolbar Configuration Browser" =     {
@@ -723,16 +737,16 @@
     NewWindowTarget = PfHm;
     "PreferencesWindow.LastSelection" = TAGS;
     RecentMoveAndCopyDestinations =     (
-        "file:///Volumes/Storage/static/Product/WhatSon/lib/TestHub.wshub/TestHub.wscontents/",
-        "file:///Volumes/Storage/static/Product/WhatSon/lib/TestHub.wshub/TestHub.wscontents/Library.wslibrary/",
+        "file:///Volumes/Storage/static/Assets/",
+        "file:///Users/ymy/Documents/",
+        "file:///Volumes/Storage/static/Service/iisacc.com/static/images/app/Vincent/",
+        "file:///Volumes/Storage/static/Product/Vincent/resources/",
+        "file:///Volumes/Storage/static/Service/iisacc.com/static/images/app/",
+        "file:///Volumes/Storage/static/Service/iisacc.com/static/apps/",
+        "file:///Volumes/Storage/static/InfraSystem/LVRS/resources/iconset/",
         "file:///Volumes/Storage/static/InfraSystem/",
         "file:///Volumes/Storage/static/Assets/Font/",
-        "file:///Volumes/Storage/static/Assets/",
-        "file:///Volumes/Storage/static/Service/",
-        "file:///Volumes/Storage/static/",
-        "file:///Volumes/Storage/",
-        "file:///Volumes/Storage/.porndata/",
-        "file:///Users/ymy/Downloads/"
+        "file:///Volumes/Storage/static/Service/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

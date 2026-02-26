@@ -106,6 +106,16 @@
                 Date = "2026-02-18 09:45:20";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-02-23 20:55:18";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-02-23 21:10:39";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -154,24 +164,6 @@
         LaunchNext
     );
     customFonts = 0;
-    displaysLastCursorLocation =     {
-        0 =         {
-            X = "1504.9140625";
-            Y = 1440;
-        };
-        1 =         {
-            X = "3550.2265625";
-            Y = "850.75390625";
-        };
-        3 =         {
-            X = "-1166.84375";
-            Y = "756.41015625";
-        };
-        4 =         {
-            X = "1719.23828125";
-            Y = "651.76953125";
-        };
-    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
