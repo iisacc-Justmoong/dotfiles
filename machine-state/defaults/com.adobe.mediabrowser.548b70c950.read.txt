@@ -1,0 +1,35 @@
+{
+    MRU =     {
+        Photoshop =         {
+            files =             (
+                                {
+                    "file-alias" = {length = 1324, bytes = 0x626f6f6b 2c050000 00000510 40000000 ... 3c030000 00000000 };
+                    "file-path" = "/Volumes/Storage/Artwork/Character/Other/maybeWitch.psd";
+                    "file-time" = {length = 8, bytes = 0xc92001bb3692c741};
+                },
+                                {
+                    "file-alias" = {length = 1268, bytes = 0x626f6f6b f4040000 00000510 40000000 ... 0c030000 00000000 };
+                    "file-path" = "/Volumes/Storage/Artwork/World/AmethystCave.psd";
+                    "file-time" = {length = 8, bytes = 0xb53314cc9e8fc741};
+                }
+            );
+        };
+        illustrator =         {
+            "application-path" = "/Applications/Adobe Illustrator 2026/Adobe Illustrator.app";
+            files =             (
+                                {
+                    "file-path" = "/Users/ymy/Downloads/iisacc.svg";
+                    "file-time" = "2026-01-22 07:28:15 +0000";
+                },
+                                {
+                    "file-path" = "/Users/ymy/Downloads/GDLikeGame-ship.svg";
+                    "file-time" = "2026-01-22 07:23:50 +0000";
+                },
+                                {
+                    "file-path" = "/Users/ymy/Developer/iisacc.com/static/icons/iisacc.svg";
+                    "file-time" = "2026-01-22 07:05:16 +0000";
+                }
+            );
+        };
+    };
+}

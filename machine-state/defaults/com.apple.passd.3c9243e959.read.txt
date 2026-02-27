@@ -1,0 +1,15 @@
+{
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    CloudKitAccountInfoCache =     {
+        aa9f63a96a8a9fdaa4faf7e8ca732a7f0fb664678adec7b57c7d6f0596355e82 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        c4b4dbc1b85a0ab5394fc2c25d9a58539c1c2d4d3dfb03aeaa9b03bb043928a0 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        d33fc763c9236cdbbb9d86942b27d7f17f49ee4dd01684efd259ef75fab17990 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    PDLastLogDate = "2026-02-23 12:00:51 +0000";
+    PDUpgradeTasksRetryCount = 0;
+    PDUpgradeTasksVersion = 2;
+    PassesDirectoryFileProtectionFixed = 1;
+}

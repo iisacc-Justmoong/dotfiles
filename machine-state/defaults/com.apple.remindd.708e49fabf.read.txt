@@ -1,0 +1,52 @@
+{
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
+    CloudKitAccountInfoCache =     {
+        d906965e608cdcdeb27d0c9c7c36a99512a57d2adc7b80aa848d1ed578470d30 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    CloudKitAccountStatus =     {
+        "D90329A2-2871-492C-AC19-4F46FA336D24" = 1;
+    };
+    CloudKitAccountZonesNeedingFetchChanges =     {
+    };
+    CloudKitLastSyncSinceInternetReachable = "793544404.491926";
+    SubscriptionIDs =     {
+        "D90329A2-2871-492C-AC19-4F46FA336D24" =         (
+            "DatabaseSubscription-Private",
+            "DatabaseSubscription-Shared"
+        );
+    };
+    SubscriptionIDsLastModifiedDate = "793035757.062276";
+    ThrottlingPolicyCurrentBatchCount = 1;
+    ThrottlingPolicyCurrentLevelIndex = 0;
+    ThrottlingPolicyStartTime = "793815283.931758";
+    accountsListCategorizedCountsCache = {length = 1585, bytes = 0x62706c69 73743030 d2010203 315e7265 ... 00000000 000005ad };
+    cloudKitSchemaCatchUpSyncSchedulingState = 0;
+    didShowReminderDeletePrivacyWarning = 1;
+    extraneousAlarmsCollectorContainerDeemedClean = 1;
+    hashtagLabelsInCustomSmartListFilterCache = {length = 947, bytes = 0x62706c69 73743030 d2010203 04566c61 ... 00000000 00000385 };
+    imageDeduplicationLastExecutionDate = "2026-01-20 15:12:29 +0000";
+    isDatabaseMigrated = 1;
+    lastCloudConfigurationDownload = "2026-02-26 09:17:37 +0000";
+    lastDatabaseMigrationSystemBuildVersion = 25C56;
+    lastDismissedNotificationsPermissionInlineRequestDate = "2026-01-18 13:51:54 +0000";
+    lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";
+    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-02-27 10:56:36 +0000";
+    lastSuggestedAttributesAutoTrainingToken = {length = 821, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000279 };
+    lastSyncPoll = "2026-01-17 08:56:40 +0000";
+    lastViewedNotificationsPermissionWarmingSheetDate = "2026-01-18 13:44:47 +0000";
+    preferredDefaultListID = "x-apple-reminderkit://REMCDList/F9CF7A5B-8D98-47E8-AE2A-5250D1AA326D";
+    preferredLocalizations =     (
+        "en_KR"
+    );
+    savedImageDeduplicationLastExecutionDate = "2026-01-21 19:01:44 +0000";
+    spotlightIndexVersion = 6;
+    staledFileAttachmentCleanupLastExecutionDate = "2026-01-18 17:48:20 +0000";
+    suggestConversionToGroceryListLastExecutionDate = "2026-01-22 22:49:21 +0000";
+    "syncActivityNotificationEngine_accountSignInTime" =     {
+        "<x-apple-reminderkit://REMCDAccount/D90329A2-2871-492C-AC19-4F46FA336D24>" = "2026-01-17 11:04:40 +0000";
+    };
+}

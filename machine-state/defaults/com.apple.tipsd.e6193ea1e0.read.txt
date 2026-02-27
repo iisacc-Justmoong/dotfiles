@@ -1,0 +1,40 @@
+{
+    ConsecutiveNotificationsCount = 3;
+    DeliveryEventIdentifierToDeliveryEventMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
+    DeliveryInfoVersion = 93c6896f754a03411af465c9f2c13f6b7a997aa25af2e6900d25024dc4eeecfe;
+    DiscoverabilityDeliveryInfoMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
+    Experiment = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d7 };
+    LastNotifiedCollectionIdentifier = WhatsNewInMacOS;
+    SearchItemIndexerSchemaVersion = 1;
+    "TPSAnalyticsHistoricTipsDataProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
+    TPSAnalyticsStore =     {
+        TPSLastNotificationTime = "2026-01-27 18:10:07 +0000";
+        TPSNotificationCount = 3;
+    };
+    "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
+    TPSContentUpdatedNotificationDate = "2026-02-27 10:48:04 +0000";
+    TPSDCloudHintDisplayed =     (
+        "VideoReactionTip-com.apple.Safari",
+        IconStyleMac,
+        EditSmartStack,
+        "CID-health-fitness-collection-fcs-watch"
+    );
+    TPSDidRevertArchivedTipStatuses = 1;
+    TPSFullTipUsageEventContextualInfo = {length = 2454, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000007b8 };
+    TPSLastMajorVersion = 26;
+    TPSLastNotificationDate = "2026-01-27 18:10:07 +0000";
+    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3449, bytes = 0x7b227665 7273696f 6e223a32 2c22646f ... 516a6f30 3d227d7d };
+    TPSTipKitProcessedDate = "2026-02-27 06:49:38 +0000";
+    TPSTipsAppInstalled = 1;
+    TPSWaitingToShowWelcomeNotification = 0;
+    TPSWelcomeNotificationReminderState = 1;
+    TPSWelcomeNotificationStartDate = "2026-01-17 09:01:37 +0000";
+    TPSWelcomeNotificationViewedVersion = 26;
+    TPSWidgetShownTips =     (
+        "doc0be4043d-0940-4c8d-b7b6-5e2f3df0e1af",
+        "doc83059283-d72d-42dd-84ed-34a46a00e4dc",
+        "doc4bc7d565-a56c-4aa1-9887-d6fc422b2c12",
+        "doc85f21202-4720-4708-b2fc-8a6d4d70c0c3"
+    );
+    TPSWidgetUpdateDate = "2026-02-27 00:50:08 +0000";
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.jetbrains.toolbox</string>
+    <key>ProgramArguments</key>
+    <array>
+       <string>/Applications/JetBrains Toolbox.app/Contents/MacOS/jetbrains-toolbox</string>
+       <string>--minimize</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/Users/ymy/Library/Logs/JetBrains/Toolbox/launchd-stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/ymy/Library/Logs/JetBrains/Toolbox/launchd-stderr.log</string>
+  </dict>
+</plist>

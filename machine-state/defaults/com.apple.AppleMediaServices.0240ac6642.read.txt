@@ -1,0 +1,50 @@
+{
+    AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
+    AMSDeviceBiometricsState = 2;
+    AMSDidSetUpServerDataCache = 1;
+    AMSFPCertExpiration = "2026-02-27 20:02:02 +0000";
+    AMSIncludeFullRequestInHARLogging = 0;
+    AMSIncludeFullResponseInHARLogging = 0;
+    AMSJSVersionMap =     {
+        analytics = "27.3.0";
+        internal = "24.0.38";
+        journeys = "2601.3.0";
+    };
+    AMSLastMigratedBuildVersion = 25D125;
+    AMSLogHARData = 0;
+    AMSMediaRestrictionsAccountData =     {
+        50ac767f226ef248100d1ea066437b6d680d79148a2c728207d631317850759b0f46be65aa16367654be8f0afdc6167090d149caaaddbec5a893af3b2e44e519 =         {
+            profileLockExists = 0;
+        };
+    };
+    AMSMigratedStorageToDefaultsForNonAMSInternal = 1;
+    AMSMigratedToNewAccountStore = 1;
+    AMSRegulatoryEligibilityAccounts =     (
+        "4D2685B9-6A63-479D-B3E1-F3C1F6F3B50E"
+    );
+    "AMSSamplingSession-TLSSessionTickets" =     {
+        date = "2026-02-22 07:23:40 +0000";
+        duration = 1800;
+        result = 1;
+    };
+    "AMSSamplingSession-xp_amp_appstore_log:qJO7Vty2LO98sz+eud1os9HfnMs" =     {
+        date = "2026-02-22 03:53:08 +0000";
+        duration = 60000;
+        result = 0;
+    };
+    "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
+        date = "2026-02-27 09:46:44 +0000";
+        duration = 86400000;
+        result = 0;
+    };
+    "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:u0WgqUTfJkW4zDLkXhfyLbzDNTI" =     {
+        date = "2026-02-17 15:43:34 +0000";
+        duration = 86400000;
+        result = 0;
+    };
+    AMSShowSandboxAccountUI = 1;
+    "com.apple.AppleMediaServicesKit.storefront-suffix.com.apple.Music" = " t:musicstore1";
+    "com.apple.AppleMediaServicesKit.storefront-suffix.com.apple.Safari" = " t:musicstore1";
+    "com.apple.AppleMediaServicesKit.storefront-suffix.com.apple.TV" = " t:tv1";
+    "com.apple.AppleMediaServicesKit.storefront-suffix.com.apple.podcasts" = " t:podcasts1";
+}

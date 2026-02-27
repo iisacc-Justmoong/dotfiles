@@ -1,0 +1,37 @@
+{
+    AMSActivityObserverDateLastCheckedIn = "1772188094.886923";
+    AMSMetricsIdentifierDateLastSynced = "1772150440.678963";
+    AMSMetricsIdentifierUserRecordName = "_379d556a1f9225f48b85f5ec819783a1";
+    AMSMetricsIdentifierZoneCreated = 1;
+    AMSMetricsIdentifierZoneSubscriptionCreated = 1;
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    CloudKitAccountInfoCache =     {
+        ced92354e000bb5d43e0682d0ceca065d36c2de7a70e38cd5de9aa741ceefe0b = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    TreatmentStoreLastSynchronizationDate = "2026-02-27T00:00:40Z";
+    dateAnalyticsJetPackLastModified = "Thu, 26 Feb 2026 18:49:12 GMT";
+    dateEngagementJetPackLastModified = "Mon, 1 Dec 2025 18:12:39 GMT";
+    dateJourneysJetPackLastModified = "Thu, 19 Feb 2026 13:26:54 GMT";
+    dateLastRequestedDynamicJetPack = "Fri, 27 Feb 2026 00:00:41 GMT";
+    engagementSourceURLHashes =     {
+        analytics = 76051d7550a9bd5ad901db3ea623d909f0073a000ef3e9fa8ec46f453ed828f9;
+        internal = f8ea1c4afc7a0f6db9233b6fe778b6a7be6ff0a4e93dd913a8555f99e60fb00a;
+        journeys = 7b918ece54f1ef8a22dda82562709ca25d5700e8f8e5e748909878336b67262f;
+    };
+    lastSync =     {
+        analytics = "2026-02-27 00:00:45 +0000";
+        internal = "2026-02-27 00:00:40 +0000";
+        journeys = "2026-02-27 00:00:43 +0000";
+        recommendations = "2026-02-27 00:00:45 +0000";
+    };
+    lastSyncBuildVersion = 25D125;
+    syncAttempts =     {
+        analytics = 0;
+        internal = 0;
+        journeys = 0;
+        recommendations = 1;
+    };
+}

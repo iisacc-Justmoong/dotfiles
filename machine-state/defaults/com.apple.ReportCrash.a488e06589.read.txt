@@ -1,0 +1,21 @@
+{
+    TrialCache =     {
+        experiments =         (
+        );
+        lastCheckTime = "793656078.484982";
+        rollouts =         (
+                        {
+                deploymentId = 240000011;
+                factorPackIds =                 (
+                );
+                rolloutId = 6410af69ed1e1e7ab93ed169;
+            },
+                        {
+                deploymentId = 240000005;
+                factorPackIds =                 (
+                );
+                rolloutId = 645eb1d0417dab722a215927;
+            }
+        );
+    };
+}

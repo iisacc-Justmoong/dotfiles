@@ -1,0 +1,56 @@
+{
+    MTAlarmModifiedDate = "2026-02-26 15:00:00 +0000";
+    MTAlarmStorageMigratedToCoreData = 1;
+    MTAlarmStorageVersion = "3.1";
+    MTAlarms =     {
+        MTAlarms =         (
+        );
+        MTSleepAlarms =         (
+        );
+    };
+    MTStopwatches =     {
+        MTStopwatches =         (
+                        {
+                "$MTStopwatch" =                 {
+                    MTStopwatchCurrentInterval = 0;
+                    MTStopwatchIdentifier = "29DCA5CE-C579-4FD1-BB7C-3667A5613115";
+                    MTStopwatchLaps =                     (
+                    );
+                    MTStopwatchOffset = 0;
+                    MTStopwatchPreviousLapsTotalInterval = 0;
+                    MTStopwatchState = 0;
+                };
+            }
+        );
+    };
+    MTTimerDefaultDuration = 900;
+    MTTimerModifiedDate = "2026-01-17 08:56:22 +0000";
+    MTTimerStorageMigratedToCoreData = 1;
+    MTTimerStorageVersion = "3.1";
+    MTTimers =     {
+        MTTimers =         (
+                        {
+                "$MTTimer" =                 {
+                    MTTimerDataVersion = "1.6";
+                    MTTimerDuration = 900;
+                    MTTimerFireTime =                     {
+                        "$MTTimerTimeInterval" =                         {
+                            MTTimerTimeInterval = 900;
+                        };
+                    };
+                    MTTimerFireTimerClass = MTTimerTimeInterval;
+                    MTTimerID = "15548FD6-EF24-4451-BA04-42D172DF397F";
+                    MTTimerSound =                     {
+                        "$MTSound" =                         {
+                            MTSoundToneID = "system:Radial";
+                            MTSoundType = 2;
+                        };
+                    };
+                    MTTimerState = 1;
+                    MTTimerTitle = "CURRENT_TIMER";
+                };
+            }
+        );
+    };
+    StopwatchStorageVersion = 1;
+}

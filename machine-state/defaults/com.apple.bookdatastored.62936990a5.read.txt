@@ -1,0 +1,15 @@
+{
+    "BookDataStore.ConnectionDate" = "2026-01-17 09:01:15 +0000";
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1768640003;
+    CloudKitAccountInfoCache =     {
+        db5973597fa5afbf7f55a0e5ee2c909c9f20aa79e296b06aa8e535c5ac362052 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+    };
+    "ReadingGoals.StreakDay" =     {
+        date = "2025-05-11 12:50:38 +0000";
+        goal = 60;
+    };
+    migratedSecureUserDataGeneration = 1;
+}

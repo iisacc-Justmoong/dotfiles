@@ -1,0 +1,32 @@
+{
+    "audio_feature_flag_enabled" = 0;
+    "com.apple.news.default_event_endpoint" = "https://news-events.apple.com/analyticseventsv2/async";
+    "com.apple.news.isNotificationDigestModeEnabled" = 0;
+    "com.apple.news.notification_receipt_channel_data_dictionary" =     {
+        "TNnh_aJ5aRwq5kNA_RjE9iA" = {length = 127, bytes = 0x7b0a2020 22616453 7570706f 72746564 ... 6a453969 41220a7d };
+        "TqT-jfrI0QXaYqGoz68HYeQ" = {length = 127, bytes = 0x7b0a2020 22697342 756e646c 65436861 ... 2066616c 73650a7d };
+    };
+    "com.apple.news.notification_receipt_event_app_data" = {length = 56, bytes = 0x7b0a2020 22617070 56657273 696f6e22 ... 22353738 39220a7d };
+    "com.apple.news.notification_receipt_event_device_data" = {length = 160, bytes = 0x7b0a2020 226f7356 65727369 6f6e2220 ... 65726e61 6c220a7d };
+    "com.apple.news.notification_receipt_event_endpoint" = "https://news-notification-events.apple.com/analyticseventsv2/async";
+    "com.apple.news.notification_receipt_event_session_data" = {length = 736, bytes = 0x7b0a2020 2270726f 64756374 54797065 ... 2066616c 73650a7d };
+    "com.apple.news.notification_receipt_event_subscription_data" = {length = 141, bytes = 0x7b226973 50616964 42756e64 6c655669 ... 63726962 6564227d };
+    "com.apple.news.notification_receipt_event_user_data" = {length = 285, bytes = 0x7b0a2020 22757365 72537461 72744461 ... 6c22203a 20310a7d };
+    "com.apple.news.notification_receipt_user_channel_context_data_dictionary" =     {
+        "TNnh_aJ5aRwq5kNA_RjE9iA" = {length = 135, bytes = 0x7b0a2020 22697342 6c6f636b 65642220 ... 6b6e6f77 6e220a7d };
+        "TqT-jfrI0QXaYqGoz68HYeQ" = {length = 135, bytes = 0x7b0a2020 22697346 6f6c6c6f 77696e67 ... 6b6e6f77 6e220a7d };
+    };
+    "com.apple.news.notification_settings_data" = {length = 360, bytes = 0x7b0a2020 22697353 6d617274 4e6f7469 ... 3a207472 75650a7d };
+    "com.apple.newsd.download.hasUnfinishedWork" = 0;
+    "food_feature_flag_enabled" = 0;
+    "force_refresh_user_segmentation" = 0;
+    "news_carplay_is_enabled" = 0;
+    "news_url_resolution_subscription_status" = 0;
+    notificationAssetPrefetchingRequiresWatch = 1;
+    notificationClientSideEngagementBoostEnabled = 0;
+    notificationEnableAssetPrefetching = 1;
+    notificationPersonalizationTreatmentDictionary = {length = 58175, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 0000b1bb };
+    "offline_mode_feature_flag_enabled" = 0;
+    "onboarding_version_widget" = 11002000;
+    "puzzles_feature_flag_enabled" = 1;
+}

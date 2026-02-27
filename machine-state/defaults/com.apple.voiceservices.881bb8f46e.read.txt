@@ -1,0 +1,82 @@
+{
+    subscribedAssets =     {
+        "" =         {
+            "com.apple.AssistantServices" =             (
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = nora;
+                }
+            );
+            "com.apple.TelephonyUtilities" =             (
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = nora;
+                }
+            );
+            "com.apple.translationd" =             (
+                                {
+                    Languages =                     (
+                        "ko-KR"
+                    );
+                    Name = Minji;
+                },
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = Nora;
+                },
+                                {
+                    Languages =                     (
+                        "ko-KR"
+                    );
+                    Name = Minji;
+                }
+            );
+        };
+    };
+    subscribedPreviousAssets =     {
+        "" =         {
+            "com.apple.AssistantServices" =             (
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = nora;
+                }
+            );
+            "com.apple.TelephonyUtilities" =             (
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = nora;
+                }
+            );
+            "com.apple.translationd" =             (
+                                {
+                    Languages =                     (
+                        "ko-KR"
+                    );
+                    Name = Minji;
+                },
+                                {
+                    Languages =                     (
+                        "en-US"
+                    );
+                    Name = Nora;
+                },
+                                {
+                    Languages =                     (
+                        "ko-KR"
+                    );
+                    Name = Minji;
+                }
+            );
+        };
+    };
+}

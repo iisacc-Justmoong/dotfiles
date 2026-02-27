@@ -1,0 +1,45 @@
+{
+    "NSSplitView Subview Frames NSColorPanelSplitView" =     (
+        "0.000000, 0.000000, 230.000000, 262.000000, NO, NO",
+        "0.000000, 263.000000, 230.000000, 67.000000, NO, NO"
+    );
+    "NSToolbar Configuration com.apple.NSColorPanel" =     {
+        "TB Is Shown" = 1;
+    };
+    "NSWindow Frame NSColorPanel" = "0 83 250 292 0 0 2560 1410 ";
+    activationAreaAppearance = {length = 11, bytes = 0x226175746f6d6174696322};
+    activationAreaBackgroundColor = {length = 10, bytes = 0x22324339324642434322};
+    activationAreaEdgeWidth = {length = 1, bytes = 0x34};
+    activationAreaOutlineColor = {length = 10, bytes = 0x22464646464646424622};
+    activationAreaOutlineWidth = {length = 1, bytes = 0x30};
+    activationAreaScale = {length = 2, bytes = 0x3830};
+    fitTightlyToScreenEdges = {length = 5, bytes = 0x66616c7365};
+    freshStart = {length = 5, bytes = 0x66616c7365};
+    greenButtonDelay = {length = 3, bytes = 0x313030};
+    greenButtonMenuAppearance = {length = 10, bytes = 0x227374616e6461726422};
+    greenButtonMenuModifier = {length = 9, bytes = 0x22636f6d6d616e6422};
+    hideMenuBarIcon = {length = 5, bytes = 0x66616c7365};
+    hideRemoveCommandDialog = {length = 5, bytes = 0x66616c7365};
+    hideRemoveSegmentDialog = {length = 5, bytes = 0x66616c7365};
+    highlightActivationAreas = {length = 5, bytes = 0x66616c7365};
+    horizontalCommands = {length = 15403, bytes = 0x5b7b226c 65676163 794b6579 223a2265 ... 66616c73 657d7d5d };
+    lastMigratedVersion = {length = 7, bytes = 0x22332e302e3022};
+    lastPreferenceSync = {length = 16, bytes = 0x3739333336343737302e373233393936};
+    launchAtLogin = {length = 4, bytes = 0x74727565};
+    launchCounter = {length = 2, bytes = 0x3130};
+    paddingAroundWindows = {length = 1, bytes = 0x38};
+    preferencesSync = {length = 4, bytes = 0x74727565};
+    pulseCommandsSidebarItem = {length = 5, bytes = 0x66616c7365};
+    pulseGreenButtonMenuItem = {length = 5, bytes = 0x66616c7365};
+    pulseStatusItemButton = {length = 5, bytes = 0x66616c7365};
+    pulseStatusMenuItem = {length = 5, bytes = 0x66616c7365};
+    restoreToOriginalSize = {length = 4, bytes = 0x74727565};
+    settingsOpened = {length = 4, bytes = 0x74727565};
+    showGreenButtonMenu = {length = 5, bytes = 0x66616c7365};
+    snapWindows = {length = 5, bytes = 0x66616c7365};
+    targetAreaAppearance = {length = 11, bytes = 0x226175746f6d6174696322};
+    targetAreaBackgroundColor = {length = 10, bytes = 0x22303041444646323622};
+    targetAreaOutlineColor = {length = 10, bytes = 0x22324339324641424622};
+    targetAreaOutlineWidth = {length = 1, bytes = 0x32};
+    verticalCommands = {length = 14214, bytes = 0x5b7b2261 78697322 3a227665 72746963 ... 65636961 6c227d5d };
+}

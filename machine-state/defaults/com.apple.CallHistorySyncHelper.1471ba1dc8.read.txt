@@ -1,0 +1,18 @@
+{
+    CHCallProvidersHashKey = 2;
+    CHFacetimeSearchableStatus = 3;
+    CHSpotlightReindexingReasonKey = 24;
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    CloudKitAccountInfoCache =     {
+        398eff5140da78fb4b523834103f0e6296c9a30adfd98ddfbdfdcaf2b5d5d293 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    PNRltc = "2026-02-24 00:27:47 +0000";
+    "com.apple.callhistory.cloud-storage2" =     {
+        previousServerChangeTokenData = {length = 292, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000ec };
+        transactionRecordZoneFetchDate = "2026-02-24 00:27:45 +0000";
+        transactionRecordZoneSubscriptionCreationDate = "2026-01-17 09:16:09 +0000";
+    };
+}

@@ -1,0 +1,36 @@
+{
+    "prod.energyServicesConfiguration" =     {
+        eTag = "\\"0ac07f1b2e163a560641f273f6a8320e4\\"";
+        utilityServices =         {
+            apiPath =             {
+                addressVerification = "v1/address-verification";
+                createSubscription = "v1/subscriptions";
+                getSubscription = "v1/subscriptions/{subscriptionId}";
+                getUtility = "https://konut-cdn.apple.com/v1/utilities/{utilityId}";
+                listUtilities = "https://konut-cdn.apple.com/v1/utilities";
+                metrics = "v1/metrics";
+                offboarding = "v1/subscriptions/{subscriptionId}";
+                peaks = "v1/rates/{utilityId}/peaks/{tariffProfileId}";
+                refreshAuthorizationToken = "v1/authorizations/refresh";
+                refreshToken = "v1/token";
+                resendHistoricalData = "v1/subscriptions/{subscriptionId}/resend";
+                serviceLocations = "v1/service-locations";
+                serviceTerritories = "https://konut-cdn.apple.com/v1/service-territories/{tile}";
+            };
+            configuration =             {
+                disabledUtilities =                 (
+                );
+                supportedRegions =                 (
+                    US
+                );
+                utilitiesEnabled = 1;
+            };
+            serverURL = "https://konut-server.apple.com";
+            serviceProxy =             {
+                issuerName = "issuer.gateway.icloud.com";
+                issuerPublicKey = "MIIBUjA9BgkqhkiG9w0BAQowMKANMAsGCWCGSAFlAwQCAqEaMBgGCSqGSIb3DQEBCDALBglghkgBZQMEAgKiAwIBMAOCAQ8AMIIBCgKCAQEAwlTlHZsTbl4WtM-M8i8HMyl_lOkhgQcjdgcQa2w-SDHDmYiT3Kr3U2OI3F7cRwqrmLtOPTUTaOGEdpdJjKKc6a7ERDq_spLElBHnQUKUfJj29PrM8uafxvWZNdRjQc_Q3vg8-alU6tHzEzieBvl0981HgbwQ5MlMODMhZwVDx5GgGdH44lO2WbOZHxu_cb8wuIaUaRUUIZhCO3ZNWv2abTxTQy8yMypu6PiwuSnoa0ITOiFJKvIZnvNz-HV03UsdBpWu7Tjm0-skXfRyQjN3tY0T521w6SVA66lswfieGJdzbd_IyaU6V3f2hOnWRhZwS4lqQ73rbXiiZQwaVPbeNwIDAQAB";
+            };
+        };
+        validUntil = "793943327.570426";
+    };
+}

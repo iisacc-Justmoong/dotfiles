@@ -1,0 +1,26 @@
+{
+    "Default Settings" =     {
+        "com.apple.print.preset.behavior" = 0;
+        "com.apple.print.preset.id" = "Default Settings";
+        "com.apple.print.preset.settings" =         {
+            Duplex = None;
+            "com.apple.print.PrintSettings.PMDuplexing" = 1;
+        };
+    };
+    "Last Used Settings" =     {
+        "com.apple.print.preset.behavior" = 0;
+        "com.apple.print.preset.id" = "Last Used Settings";
+        "com.apple.print.preset.settings" =         {
+            "AP_ColorMatchingMode" = "AP_VendorColorMatching";
+            Duplex = None;
+            HPInvalidPaperSize = false;
+            "com.apple.print.DialogDismissedBy" = Print;
+            "com.apple.print.PDEsUsed" = Safari;
+            "com.apple.print.PageToPaperMappingAllowScalingUp" = 1;
+            "com.apple.print.PrintSettings.PMColorSpaceModel" = 2;
+            "com.apple.print.PrintSettings.PMDuplexing" = 1;
+            "com.apple.print.pageRange" = "All 0 Pages";
+            "com.apple.print.totalPages" = 1;
+        };
+    };
+}

@@ -1,0 +1,60 @@
+{
+    RegisteredBooks =     {
+        "com.apple.inputmethod.Korean*104" =         (
+                        {
+                appBundleUrl = "file:///System/Library/Input%20Methods/KoreanIM.app/Contents/PlugIns/KIM_Extension.appex/";
+                appVersion = 104;
+                id = "com.apple.KoreanIM.help";
+                projectId = "korean-input-method";
+                url = "/System/Library/Input Methods/KoreanIM.app/Contents/PlugIns/KIM_Extension.appex/Contents/Resources/KoreanIM.help";
+            }
+        );
+        "com.apple.logic10*11.2.2" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro.app/";
+                appVersion = "11.2.2";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro.app/Contents/Resources/logic.help";
+                version = 6387;
+            }
+        );
+        "com.apple.logic10*12.0" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro.app/";
+                appVersion = "12.0";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro.app/Contents/Resources/logic.help";
+                version = 6584;
+            }
+        );
+        "com.apple.logic10*12.0.1" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro.app/";
+                appVersion = "12.0.1";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro.app/Contents/Resources/logic.help";
+                version = 6590;
+            }
+        );
+        "com.apple.mobilelogic*12.0" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro%20Creator%20Studio.app/";
+                appVersion = "12.0";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro Creator Studio.app/Contents/Resources/logic.help";
+                version = 6584;
+            }
+        );
+    };
+    RegistrationOrder =     (
+        "com.apple.logic10*11.2.2",
+        "com.apple.inputmethod.Korean*104",
+        "com.apple.logic10*12.0",
+        "com.apple.mobilelogic*12.0",
+        "com.apple.logic10*12.0.1"
+    );
+}

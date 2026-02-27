@@ -1,0 +1,20 @@
+{
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771375362;
+    GKActiveEnvironmentKeyV2 = 5;
+    GKFullscreenSignInPresentationDataKey =     {
+        count = 0;
+        exceededLimit = 0;
+    };
+    GKLastProtocolVersionUsedKeyV2 = "6.19.23.5.18.25.5.5.3";
+    GKPushEnvironmentKeyV2 = 2;
+    GKPushTokenKeyV2 = {length = 32, bytes = 0x40ccce18 b0907b75 a6829651 028a3815 ... bcbf3575 6830e4fc };
+    GKSignInBannerPresentationDataKey =     {
+        count = 0;
+        exceededLimit = 0;
+    };
+    GKURLPatternCacheBagURLUserDefaultsKey = {length = 307, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000f9 };
+    GKURLPatternCacheExpirationDateUserDefaultsKey = "2026-02-22 12:13:55 +0000";
+}

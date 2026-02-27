@@ -1,0 +1,124 @@
+{
+    AttachmentFileSizeUpdateWatermark = "-1";
+    AttachmentReuploadDate = "2026-02-23 13:16:52 +0000";
+    BackgroundProactiveRequestVersion = 1;
+    CKMOCAccountsMatch = 1;
+    CloudKitCheckedMiCSwitchEligibilityOnImagentLaunch = 1;
+    CloudKitEligibleToToggleMiCSwitch = 1;
+    CloudKitHasAvailableRecordsToDownload = 1;
+    CloudKitIsEligibleForTruthZone = 1;
+    CloudKitIsRemovedFromBackup = 0;
+    CloudKitIsSyncing = 0;
+    CloudKitLastDownloadProgress = 1;
+    CloudKitSyncDate = "2026-02-26 13:16:32 +0000";
+    CloudKitSyncingEnabled = 1;
+    CloudKitTelemetrySyncVersion = 1;
+    CloudKitVerifyFirstRestoreDateVersion = 1;
+    DonatedRecentLiteHandles = 2;
+    DonatedRecentLiteHandlesFromDevice = "A577DF48-AFCA-4A8A-A277-9833030FB26D";
+    IMCKRampState =     {
+        FeaturePromoted = 1;
+        FetchHadServerError = 0;
+    };
+    IMCloudKitACAccountRepairMigrationVersion = 1;
+    IMCloudKitAccountStatusKey = 4;
+    IMCloudKitAnalyticSyncDatesDictionary =     {
+        CloudKitAttachmentDownloadCompletedDate = "1771624463.730482";
+        CloudKitAttachmentDownloadCompletedDateProductBuildVersion = 25D125;
+        CloudKitAttachmentDownloadFirstCompletedDate = "1768641642.360717";
+        CloudKitAttachmentDownloadFirstCompletedDateProductBuildVersion = 25C56;
+        CloudKitAttachmentDownloadStartDate = "1771624431.548585";
+        CloudKitAttachmentDownloadStartDateProductBuildVersion = 25D125;
+        CloudKitFirstRestoreAttemptedDate = "1768641603.736055";
+        CloudKitFirstRestoreAttemptedDateProductBuildVersion = 25C56;
+        CloudKitFirstRestoreCompletedDate = "1768641635.074519";
+        CloudKitFirstRestoreCompletedDateProductBuildVersion = 25C56;
+        CloudKitFullSyncAttemptedDate = "1772111780.336043";
+        CloudKitFullSyncAttemptedDateProductBuildVersion = 25D125;
+        CloudKitFullSyncCompletedDate = "1772111792.215843";
+        CloudKitFullSyncCompletedDateProductBuildVersion = 25D125;
+        CloudKitFullSyncFirstCompletedDate = "1768641641.798997";
+        CloudKitFullSyncFirstCompletedDateProductBuildVersion = 25C56;
+        CloudKitInitialStartDate = "1768641394.8064";
+        CloudKitInitialStartDateProductBuildVersion = 25C56;
+        CloudKitInitialSyncCompletedDate = "1768641603.321866";
+        CloudKitInitialSyncCompletedDateProductBuildVersion = 25C56;
+        CloudKitInitialSyncFirstCompletedDate = "1768641603.321866";
+        CloudKitInitialSyncFirstCompletedDateProductBuildVersion = 25C56;
+        CloudKitSyncDate = "1772111792.215843";
+        CloudKitSyncDateProductBuildVersion = 25D125;
+    };
+    IMCloudKitStartingDisableDevices = 0;
+    IMCloudKitStartingEnabledSettingChange = 0;
+    IMCloudKitStartingInitialSync = 0;
+    IMCloudKitStartingPeriodicSync = 0;
+    IMCloudKitSyncCancelled = 0;
+    IMCloudKitSyncControllerSyncRecordTypeKey = 0;
+    IMCloudKitSyncControllerSyncStateKey = 0;
+    IMCloudKitSyncControllerSyncTypeKey = 0;
+    IMCloudKitSyncJobStateKey = 0;
+    IMCloudKitSyncPaused = 0;
+    IMCloudKitSyncStatusKey = 0;
+    IMCloudKitSyncTypeKey = 2;
+    "IMD-IDS-Aliases" =     {
+        allAliases =         (
+            "+821046168615",
+            "andudyun0504@gmail.com",
+            "andudyun0504@icloud.com"
+        );
+        selectedAliases =         (
+            "+821046168615",
+            "andudyun0504@gmail.com",
+            "andudyun0504@icloud.com"
+        );
+    };
+    LocalDBStats =     {
+        allSynced = 3427;
+        attStats =         {
+            "Status 0" = 1;
+            "Status 1" = 110;
+            total = 111;
+        };
+        chatStats =         {
+            "Status 1" = 698;
+            total = 698;
+        };
+        deletedAttachments = 0;
+        deletedChats = 0;
+        deletedMessages = 0;
+        deletedRecoverableMessages = 0;
+        msgStats =         {
+            "Status 0" = 4;
+            "Status 1" = 2604;
+            total = 2608;
+        };
+        syncedAttachments = 110;
+        syncedChats = 698;
+        syncedMessages = 2604;
+        syncedRecoverableMessages = 15;
+        totalAttachments = 111;
+        totalChats = 698;
+        totalCount = 3432;
+        totalMessages = 2608;
+        totalRecoverableMessages = 15;
+        updateT1NeedingSync = 0;
+        updateT2NeedingSync = 0;
+    };
+    MiCDeviceIdentifier = "09BB6ACB-D978-4E5D-9161-05F060B47063";
+    ReadReceiptsEnabled = 1;
+    "Server.TotalRecords.attachmentManateeZone" = 110;
+    "Server.TotalRecords.chat1ManateeZone" = 37;
+    "Server.TotalRecords.chatManateeZone" = 690;
+    "Server.TotalRecords.messageManateeZone" = 5833;
+    "Server.TotalRecords.messageUpdateZone" = 357;
+    "Server.TotalRecords.recoverableMessageDeleteZone" = 3538;
+    enableCKSyncingV2 = 1;
+    hadPriorPrefs = 1;
+    hasEnabledMiCByDefault = 1;
+    initialSyncRecordHasBeenWritten = 1;
+    markAttachmentsAsDirtyV6 = 1;
+    markChatsAsDirtyV4 = 1;
+    markMessagesAsDirtyV4 = 1;
+    oneTimeMOCAccountCheckV2 = 1;
+    resetMessageChangeTokenVersion = 1;
+}

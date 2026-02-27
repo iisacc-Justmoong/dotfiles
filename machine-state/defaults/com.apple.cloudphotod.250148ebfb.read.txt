@@ -1,0 +1,46 @@
+{
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    "CPLEngineParameters-AppLibrary[com.apple.GenerativePlayground]-00000000-0000-0000-0000-000000000001" =     {
+        clientLibraryBasePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.GenerativePlayground/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex";
+        cloudLibraryResourceStoragePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.GenerativePlayground/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        cloudLibraryStateStoragePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.GenerativePlayground/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        libraryIdentifier = "AppLibrary[com.apple.GenerativePlayground]-00000000-0000-0000-0000-000000000001";
+        mainScopeIdentifier = "AppLibrarySync-com.apple.GenerativePlayground-00000000-0000-0000-0000-000000000001";
+        options = 1;
+    };
+    "CPLEngineParameters-SystemLibrary" =     {
+        clientLibraryBasePath = "/Users/ymy/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex";
+        cloudLibraryResourceStoragePath = "/Users/ymy/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        cloudLibraryStateStoragePath = "/Users/ymy/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        libraryIdentifier = SystemLibrary;
+        mainScopeIdentifier = PrimarySync;
+        options = 1053;
+    };
+    CloudKitAccountInfoCache =     {
+        e4c4c934f1d3bb556746df38854efc103d84c120d30e91bea0b9c863a87739dc = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        ee0090c7b71dfbccb59fdc25a5c1a6b852859fae5cab5c56fc2af34197ff6007 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    "_CPLRegisteredTaskIdentifiers" =     (
+        "com.apple.cloudphotod.sync.AppLibrary[com.apple.GenerativePlayground]-00000000-0000-0000-0000-000000000001",
+        "com.apple.cloudphotod.sync.discretionary"
+    );
+    "_CPLUpgradeHistory-AppLibrary[com.apple.GenerativePlayground]-00000000-0000-0000-0000-000000000001" =     {
+        lastCPLUpgradeDate = "2026-02-18 00:44:51 +0000";
+        lastOSBuildUpgradeDate = "2026-02-18 00:44:51 +0000";
+        lastSeenCPLVersion = "CloudPhotoLibrary-831.0.104";
+        lastSeenOSBuildVersion = 25D125;
+        previousCPLVersion = "CloudPhotoLibrary-821.0.120";
+        previousOSBuildVersion = 25C56;
+    };
+    "_CPLUpgradeHistory-SystemLibrary" =     {
+        lastCPLUpgradeDate = "2026-02-18 00:44:51 +0000";
+        lastOSBuildUpgradeDate = "2026-02-18 00:44:51 +0000";
+        lastSeenCPLVersion = "CloudPhotoLibrary-831.0.104";
+        lastSeenOSBuildVersion = 25D125;
+        previousCPLVersion = "CloudPhotoLibrary-821.0.120";
+        previousOSBuildVersion = 25C56;
+    };
+}

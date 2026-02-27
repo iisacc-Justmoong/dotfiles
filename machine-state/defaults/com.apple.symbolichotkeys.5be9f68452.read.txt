@@ -1,0 +1,334 @@
+{
+    AppleSymbolicHotKeys =     {
+        118 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    18,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        119 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    19,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        120 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    20,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        15 =         {
+            enabled = 1;
+        };
+        16 =         {
+            enabled = 0;
+        };
+        163 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    120,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        164 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    262144,
+                    9223372036854775807
+                );
+                type = modifier;
+            };
+        };
+        17 =         {
+            enabled = 1;
+        };
+        175 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    97,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        176 =         {
+            enabled = 0;
+            value =             {
+                type = "SAE1.0";
+            };
+        };
+        179 =         {
+            enabled = 1;
+        };
+        18 =         {
+            enabled = 0;
+        };
+        184 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    105,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        19 =         {
+            enabled = 1;
+        };
+        190 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    113,
+                    12,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        20 =         {
+            enabled = 0;
+        };
+        21 =         {
+            enabled = 0;
+        };
+        22 =         {
+            enabled = 0;
+        };
+        222 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    96,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        23 =         {
+            enabled = 1;
+        };
+        24 =         {
+            enabled = 0;
+        };
+        25 =         {
+            enabled = 0;
+        };
+        26 =         {
+            enabled = 0;
+        };
+        260 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    53,
+                    1048576
+                );
+                type = standard;
+            };
+        };
+        28 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    51,
+                    20,
+                    1179648
+                );
+                type = standard;
+            };
+        };
+        29 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    51,
+                    20,
+                    1441792
+                );
+                type = standard;
+            };
+        };
+        30 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    52,
+                    21,
+                    1179648
+                );
+                type = standard;
+            };
+        };
+        31 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    115,
+                    1,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        32 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    126,
+                    8650752
+                );
+                type = standard;
+            };
+        };
+        33 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    125,
+                    8650752
+                );
+                type = standard;
+            };
+        };
+        35 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    125,
+                    8781824
+                );
+                type = standard;
+            };
+        };
+        36 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    103,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        60 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    32,
+                    49,
+                    262144
+                );
+                type = standard;
+            };
+        };
+        61 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    80,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        64 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    122,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        65 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    32,
+                    49,
+                    1572864
+                );
+                type = standard;
+            };
+        };
+        79 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    123,
+                    8650752
+                );
+                type = standard;
+            };
+        };
+        80 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    123,
+                    8781824
+                );
+                type = standard;
+            };
+        };
+        81 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    124,
+                    8650752
+                );
+                type = standard;
+            };
+        };
+        82 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    124,
+                    8781824
+                );
+                type = standard;
+            };
+        };
+    };
+}

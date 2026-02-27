@@ -1,0 +1,37 @@
+{
+    AJOInfra =     {
+        AcroNGLLicenseConfig = 1;
+        EnableIPMAnalyticsInAJO = 1;
+        countryCode = KR;
+        isAJOInfraEnabledForDTNontifications = 1;
+        isAJOInfraEnabledForDesktopPersonalization = 1;
+        isSynchronizerNGLEnabled = 1;
+    };
+    "Acrobat.com" =     {
+        DisableTryJoin = 0;
+        UniqueIdForEureka = "64e775ae-a759-4a54-8916-0db2678bc936";
+    };
+    EnableAcroWebDetect = 1;
+    EntitySyncCleanUpStatus =     {
+        EntitySyncCleanedUp = 1;
+    };
+    ProcessInfo =     {
+        Version = "25.1.20997";
+    };
+    SophiaDTNotifications =     {
+        countryCode = KR;
+        isDTNotificationsExpEnabled = 1;
+        isUserLoggedIn = 1;
+    };
+    SynchronizerPings =     {
+        "pingLocation_2" = 1768652352;
+        "pingLocation_5" = 1768652353;
+        "pingLocation_7" = 1768652354;
+    };
+    WebServers =     {
+        CommentingURL = "https://comments.adobe.io";
+        EchoSignApiURL = "https://api.na2.documents.adobe.com";
+        EchoSignWebURL = "https://na2.documents.adobe.com";
+        NotificationURL = "https://notify.adobe.io/ans/{+version}/notifications";
+    };
+}

@@ -1,0 +1,19 @@
+
+	disabled services = {
+		"N4RA379GBW.com.busymac.busycal3.alarm" => enabled
+		"com.adobe.AdobeCreativeCloud" => enabled
+		"com.apple.ManagedClientAgent.enrollagent" => disabled
+		"com.apple.Siri.agent" => enabled
+		"com.microsoft.update.agent" => enabled
+		"com.openclaw.morning-favorites-music" => enabled
+		"com.adobe.CCLibrary" => enabled
+		"com.renfei.SnippetsLabLaunchd" => enabled
+		"com.apple.weather.menu" => enabled
+		"io.tailscale.ipn.macos.login-item-helper" => enabled
+		"com.apple.FolderActionsDispatcher" => disabled
+		"ai.openclaw.gateway" => enabled
+		"com.openai.chat-helper" => enabled
+		"com.apple.appleseed.seedusaged.postinstall" => disabled
+		"com.apple.ScriptMenuApp" => disabled
+		"com.logi.cp-dev-mgr" => enabled
+	}

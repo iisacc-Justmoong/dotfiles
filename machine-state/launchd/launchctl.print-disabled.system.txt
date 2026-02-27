@@ -1,0 +1,8 @@
+
+	disabled services = {
+		"com.apple.CSCSupportd" => disabled
+		"com.apple.ftpd" => disabled
+		"com.apple.mdmclient.daemon.runatboot" => disabled
+		"com.adobe.AdobeDesktopService" => disabled
+		"com.microsoft.autoupdate.helper" => enabled
+	}

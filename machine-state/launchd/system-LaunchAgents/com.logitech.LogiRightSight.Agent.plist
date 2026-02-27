@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.logitech.LogiRightSight.Agent</string>
+	<key>LaunchEvents</key>
+	<dict>
+		<key>com.apple.iokit.matching</key>
+		<dict>
+			<key>com.apple.device-attach</key>
+			<dict>
+				<key>IOMatchLaunchStream</key>
+				<true/>
+				<key>IOProviderClass</key>
+				<string>IOUSBDevice</string>
+				<key>idProductArray</key>
+				<array>
+					<integer>2329</integer>
+					<integer>2371</integer>
+					<integer>2374</integer>
+					<integer>2333</integer>
+					<integer>2372</integer>
+					<integer>2375</integer>
+				</array>
+				<key>idVendor</key>
+				<integer>1133</integer>
+			</dict>
+		</dict>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>Priority</key>
+	<integer>1</integer>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Application Support/Logitech.localized/LogiRightSightForWebcams/LogiRightSight.app/Contents/MacOS/LogiRightSight</string>
+	</array>
+</dict>
+</plist>

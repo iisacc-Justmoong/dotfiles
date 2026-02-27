@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>Label</key>
+	<string>com.wacom.DataStoreMgr</string>
+	<key>MachServices</key>
+	<dict>
+		<key>com.wacom.DataStoreMgr</key>
+		<true/>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>Program</key>
+	<string>/Library/PrivilegedHelperTools/com.wacom.DataStoreMgr.app/Contents/MacOS/com.wacom.DataStoreMgr</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>ThrottleInterval</key>
+	<integer>2</integer>
+	<key>WaitForDebugger</key>
+	<false/>
+	<key>EnableTransactions</key>
+	<true/>
+</dict>
+</plist>

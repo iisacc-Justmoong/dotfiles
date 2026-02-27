@@ -1,0 +1,91 @@
+{
+    ICDefaultsCachedSubscriptionStatus =     {
+        lastKnownActiveDSID = 17533321770;
+        lastKnownOSVersion = 25D125;
+        responses =         {
+            "{\\"phoneNumber\\":\\"\\",\\"dsid\\":\\"17533321770\\",\\"storefrontID\\":\\"143466\\"}" =             {
+                status =                 {
+                    "_ICMusicSubscriptionStatusAdditionalProperties" =                     {
+                        carrierBundlingStatusType = 0;
+                    };
+                    acceptSilentAuth = 1;
+                    account =                     {
+                        identityLastVerified = 1742570286000;
+                        isMinor = 0;
+                        suspectUnderage = 0;
+                        verifiedExpirationDate = 1774106286000;
+                    };
+                    family =                     {
+                        hasFamily = 1;
+                        hasFamilyGreaterThanOneMember = 1;
+                        isHoH = 1;
+                    };
+                    match =                     {
+                        status = Disabled;
+                    };
+                    music =                     {
+                        expirationDate = 1773363742000;
+                        hasOfflineSlots = 1;
+                        initialPurchaseTimestamp = 1679512430000;
+                        isAdmin = 0;
+                        isAutoRenewEnabled = 1;
+                        isFamilySubscription = 0;
+                        isInFreePeriod = 0;
+                        isInFreeTrial = 0;
+                        isNotEligibleForFreeTrial = 1;
+                        isPurchaser = 1;
+                        reason = Individual;
+                        serviceBeginsTimestamp = 1749776542000;
+                        status = Enabled;
+                    };
+                    status = 0;
+                    terms =                     (
+                                                {
+                            agreedToTerms = 30;
+                            latestTerms = 23;
+                            source = account;
+                            type = Store;
+                        }
+                    );
+                };
+                valid = 1;
+            };
+        };
+    };
+    ICDefaultsKeyAuthServiceClientTokenCache =     {
+        17533321770 = {length = 1026, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000036c };
+    };
+    ICDefaultsKeyCachedU18MinorAccountStatus = 0;
+    ICDefaultsKeyLastKnownSubscriptionStatusBaseCacheKey =     {
+        phoneNumber = "";
+        storefrontID = 143466;
+    };
+    ICDefaultsKeyLastKnownUserAgeVerificationState =     {
+        17533321770 =         {
+            ICAgeVerificationStateKeyAgeVerifierExpirationDate = "2026-03-21 15:18:06 +0000";
+            ICAgeVerificationStateKeyDSID = 17533321770;
+            ICAgeVerificationStateKeyStatus = 3;
+            ICAgeVerificationStateKeyTreatment = 1;
+            ICAgeVerificationStateKeyVerificationURL = "https://music.apple.com/account/age-verification";
+        };
+    };
+    ICDefaultsKeyMediaLibraryAccessApplicationIdentifiersWithTCCAcceptanceDates =     {
+    };
+    ICDefaultsKeyPrefetchKeyIdentifiers =     (
+        "skd://itunes.apple.com/P000000000/s1/e1"
+    );
+    ICDefaultsKeySharedControlsCapability = 1;
+    ICDefaultsKeySocialProfileSupported = 1;
+    ICDefaultsRegisteredPushNotificationState =     {
+        accountStates =         {
+            17533321770 =             {
+                APNSToken = {length = 32, bytes = 0x40ccce18 b0907b75 a6829651 028a3815 ... bcbf3575 6830e4fc };
+                mediaKinds =                 (
+                    book,
+                    "tv-episode",
+                    "feature-movie"
+                );
+            };
+        };
+    };
+}

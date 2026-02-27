@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.logi.cp-dev-mgr</string>
+	<key>Program</key>
+	<string>/Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logioptionsplus_agent</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Application Support/Logitech.localized/LogiOptionsPlus/logioptionsplus_agent.app/Contents/MacOS/logioptionsplus_agent</string>
+		<string>--launchd</string>
+	</array>
+	<key>ProcessType</key>
+	<string>Interactive</string>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>SYSTEM_VERSION_COMPAT</key>
+		<string>0</string>
+	</dict>
+	<key>LimitLoadToSessionType</key>
+	<string>Aqua</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
+	<dict>
+		<key>SuccessfulExit</key>
+		<false/>
+	</dict>
+	<key>AssociatedBundleIdentifiers</key>
+	<array>
+		<string>com.logi.cp-dev-mgr</string>
+	</array>
+ </dict>
+</plist>

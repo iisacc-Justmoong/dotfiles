@@ -1,0 +1,45 @@
+{
+    AcknowledgedDataCollectionPolicy = RequiredDataOnly;
+    AppCustomPref =     {
+        "/Applications/Microsoft Excel.app" =         {
+            OfficeActivationLicense = "2021-Consumer";
+        };
+    };
+    AppExitGraceful = 1;
+    AppVersions =     {
+        "/Applications/Microsoft Excel.app" = "16.106.26022219";
+        "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" = "4.82.26020434";
+        "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" = "16.105.26011018";
+    };
+    Applications =     {
+        "/Applications/Microsoft Excel.app" =         {
+            "App Domain" = "com.microsoft.office";
+            "Application ID" = XCEL2019;
+            LCID = 1033;
+            "Last Updated Version" = "16.106.26022219";
+        };
+        "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" =         {
+            "Application ID" = MSau04;
+            "Last Update Seen" = "2026-02-18 04:47:27 +0000";
+        };
+        "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" =         {
+            "App Domain" = "com.microsoft.office";
+            "Application ID" = OLIC02;
+            HideOnGUI = YES;
+            LCID = 1033;
+        };
+    };
+    ApplicationsForcedUpdateSchedule =     {
+    };
+    CrashActionServiceUrlKey = "https://officeci.azurewebsites.net/api/";
+    LastUpdate = "2026-02-27 08:25:49 +0000";
+    OSLocale = "en_KR";
+    OSVersion = "26.2";
+    SessionDuration = "3.316947937011719";
+    SessionId = "67152D75-9FB6-4A2A-B588-BECA102869DB";
+    SessionLongBuildNumber = 25121042;
+    SessionTelemetryVersion = "4.81.1210.2";
+    SessionVersion = "4.81.2";
+    TerminationDuration = "790336495.4266419";
+    UAEUnknownOnBoot = 1;
+}

@@ -1,0 +1,31 @@
+{
+    NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
+    NSOSPLastRootDirectory = {length = 744, bytes = 0x626f6f6b e8020000 00000510 40000000 ... 78010000 00000000 };
+    "NSWindow Frame SUUpdateAlert2" = "979 769 602 402 0 0 2560 1409 ";
+    "NSWindow Frame com_apple_SwiftUI_Settings_window" = "1222 145 824 878 0 0 2560 1409 ";
+    SUAutomaticallyUpdate = 1;
+    SUEnableAutomaticChecks = 1;
+    SUHasLaunchedBefore = 1;
+    SULastCheckTime = "2026-02-23 11:59:34 +0000";
+    SUUpdateGroupIdentifier = 3983147542;
+    "openclaw.canvasEnabled" = 0;
+    "openclaw.cliInstallPromptedVersion" = "2026.2.3";
+    "openclaw.connectionMode" = local;
+    "openclaw.debugPaneEnabled" = 1;
+    "openclaw.deepLinkKey" = 1Ad3aJoi6KbMsv6hydZNcQp0CcqgS9jXbWo25ew23zg;
+    "openclaw.heartbeatsEnabled" = 1;
+    "openclaw.iconAnimationsEnabled" = 1;
+    "openclaw.iconOverride" = system;
+    "openclaw.locationMode" = always;
+    "openclaw.modelCatalogReload" = 7;
+    "openclaw.onboardingSeen" = 1;
+    "openclaw.onboardingVersion" = 7;
+    "openclaw.pauseEnabled" = 0;
+    "openclaw.swabbleTriggers" =     (
+        openclaw,
+        claude,
+        computer
+    );
+    "openclaw.talkEnabled" = 0;
+    "openclaw.voiceWakeMicName" = "";
+}

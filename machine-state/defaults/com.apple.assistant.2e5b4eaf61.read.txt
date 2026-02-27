@@ -1,0 +1,61 @@
+{
+    "Account Status Server Change Token" = {length = 280, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e0 };
+    Accounts =     {
+        "044D5455-AF76-4CC0-B22B-DCFB67609DF3" =         {
+            "Ace Host" = se12sa;
+            "Build Version" = 25D125;
+            "Connection Policy" =             {
+                "$class" = ConnectionPolicy;
+                "$group" = "com.apple.ace.system";
+                "$v" = "13.0";
+                disableMPTCP = 0;
+                enableOptimisticDNS = 1;
+                enableTCPNagle = 0;
+                enableTLS13 = 0;
+                enableTLS13ZeroRTT = 0;
+                enableTcpFastOpen = 0;
+                globalTimeout = 0;
+                mptcpFallbackPort = "-2147483648";
+                policyId = "odns_odns-on_v1";
+                routes =                 (
+                );
+                timeToLive = 43200;
+            };
+            "Connection Policy Date" = "2026-02-23 12:11:30 +0000";
+            "Connection Policy Hostname" = "https://guzzoni.apple.com";
+            "Last Assistant Data Anchor" = cdba57410121610f61236d62d3006940534809ee;
+            "Validation Expiration" = "2026-03-01 21:18:28 +0000";
+            "Validation Version" = 1;
+        };
+    };
+    "Country Code" = KR;
+    "Experiment Identifierinvocation_feedback_experiment" = "2892EF2B-1E6A-4462-ACBB-CAE577CBA1DC";
+    "Experiment Identifiersiri_vox_sounds_experiment" = "133CC545-9939-43CD-B233-D903D43AA32E";
+    "Experiment Identifiersiri_vox_tap_to_siri_behavior_experiment" = "044F9D0D-CEEB-42BD-999B-5AB235D19671";
+    "Flush Session Tickets Cache" = 0;
+    "Has Set Up Account Status Subscription" = 1;
+    "Has Set Up Key Value Subscription" = 1;
+    "Has Set Up MultiUser Shared Record Subscription" = 1;
+    "Home Automation Server Flow Bypassed" = 1;
+    "Initial Interstitial Delay" = "3.5";
+    "Initial Interstitial Delay - stark" = 5;
+    "Initial Interstitial Delay for VoiceTrigger One-Shot without Audio Ducking" = "1.75";
+    "Is Siri full UOD Supported" = 0;
+    "Is Trial config set to disable NL Server Fallback for Domain" = 1;
+    "Is Trial config set to disable NL Server Fallback for NL" = 1;
+    "Is Trial config set to disable media entity sync" = 1;
+    "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
+    "Is user data sync needed for peer watch" = 0;
+    "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
+    "Last client experiment check date" = "2026-02-23 12:11:02 +0000";
+    "Last server experiment check date" = "2026-02-23 12:11:02 +0000";
+    "Manual Endpointing Threshold" = 2;
+    "MultiUser Shared Data Needs Sync" = 1;
+    "Myriad Device Adjust" = "-10";
+    "Myriad Device Class" = 9;
+    "Myriad Device Delay" = 0;
+    "Myriad Device Trump Delay" = "1.75";
+    "Myriad VTEndtimeDistanceThreshold" = "0.5";
+    "Server Has Provisioned Myriad" = 1;
+    "Voice Trigger Needs Sync" = 1;
+}

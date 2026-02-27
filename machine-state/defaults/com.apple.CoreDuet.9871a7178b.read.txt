@@ -1,0 +1,10 @@
+{
+    CloudSync2Policies =     {
+    };
+    DKSync2PolicyDisableSyncForFeature =     {
+        ScreenTime =         {
+            Cloud = 1;
+            Rapport = 1;
+        };
+    };
+}

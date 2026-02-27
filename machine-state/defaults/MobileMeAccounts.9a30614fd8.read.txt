@@ -1,0 +1,234 @@
+{
+    Accounts =     (
+                {
+            AccountID = "andudyun0504@gmail.com";
+            AccountUUID = "D90329A2-2871-492C-AC19-4F46FA336D24";
+            Services =             (
+                                {
+                    Name = CLOUDDESKTOP;
+                    ServiceID = "com.apple.Dataclass.CloudDesktop";
+                    status = active;
+                },
+                                {
+                    "ALL_SUBSCRIPTIONS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=18";
+                    "APPLE_MUSIC" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=2";
+                    "APPLE_SUBSCRIPTIONS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=12";
+                    "APPLE_TV_PLUS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=9";
+                    "APP_STORE_SUBSCRIPTIONS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=13";
+                    ARCADE = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=8";
+                    "ASK_TO_BUY" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=11";
+                    "ICLOUD_STORAGE" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=3";
+                    "NEWS_PLUS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=6";
+                    Name = FAMILY;
+                    PODCASTS = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=17";
+                    "PURCHASE_SHARING" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=1";
+                    "SCREEN_TIME" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=5";
+                    "SHARE_MY_LOCATION" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=4";
+                    ServiceID = "com.apple.Dataclass.Family";
+                    "TV_CHANNELS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=7";
+                    askToBuyOverMessageKillSwitch = 1;
+                    askToBuyUpsellPage = "https://support.apple.com/HT201089";
+                    megadomeKillSwitch = 0;
+                    preventAskToBuyMessageDeviceValidation = 0;
+                    preventScreenTimeMessageDeviceValidation = 0;
+                    ruiEnabledPages =                     {
+                        "ADD_MEMBER" = 1;
+                        "APPLE_SUBSCRIPTIONS" = 1;
+                        "ATB_MEMBER_DETAILS" = 1;
+                        "ICLOUD_STORAGE" = 1;
+                        "PURCHASE_SHARING_MEMBER_DETAILS" = 1;
+                        "PURCHASE_SHARING_SPLASH" = 0;
+                        "SETUP_FAMILY" = 1;
+                        "SUBSCRIPTION_MEMBER_DETAILS" = 1;
+                    };
+                    screenTimeOverMessageKillSwitch = 0;
+                    screenTimeUpsellPage = "https://support.apple.com/HT208982";
+                    showManageFamily = 1;
+                    usePDS = 1;
+                },
+                                {
+                    Name = "MOBILE_DOCUMENTS";
+                    ServiceID = "com.apple.Dataclass.Ubiquity";
+                    apsEnv = production;
+                    authMechanism = token;
+                    url = "https://p64-ubiquity.icloud.com:443";
+                    wsUrl = "https://p64-ubiquityws.icloud.com:443";
+                },
+                                {
+                    Name = "PHOTO_STREAM";
+                    ServiceID = "com.apple.Dataclass.Photos";
+                },
+                                {
+                    Name = MESSAGES;
+                    ServiceID = "com.apple.Dataclass.Messages";
+                },
+                                {
+                    CategorySyncEnabled = 0;
+                    ClearAllOverridesURL = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/clearalloverrides";
+                    EmailAddress = "andudyun0504@icloud.com";
+                    FetchOverridesUrl = "https://p158-mccgateway.icloud.com:443/iungo/sender/v1/senders/category";
+                    FullCategoryOverrideSyncEnabled = 1;
+                    FullUserName = "\\Uc724\\Ubb34\\Uc601";
+                    Name = "MAIL_AND_NOTES";
+                    RecategorizationSyncFrequencyMinutes = 10080;
+                    RecategorizationSyncUrl = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/sync";
+                    ServiceID = "com.apple.Dataclass.Mail";
+                    StartSyncURL = "https://p158-mccgateway.icloud.com:443/iungo/sender/v1/categories/sync/status";
+                    SyncAllFrequencyDays = 14;
+                    SyncNewOldURL = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/newold/sync";
+                    Username = andudyun0504;
+                    dotMacMailSupported = 0;
+                    "iCloudMailSettings.MCCGatewayUrl" = "https://p158-mccgateway.icloud.com:443";
+                    "iCloudMailSettings.MailAssistant.InlineTipCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.IsMailCleanupFeatureAvailable" = 1;
+                    "iCloudMailSettings.MailAssistant.PreferencesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.UnifiedRulesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailCommandCenterUrl" = "https://p158-mcc.icloud.com:443";
+                    imapHostname = "p64-imap.mail.me.com";
+                    imapPort = 993;
+                    imapRequiresSSL = 1;
+                    mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+                    mailAliasLookupJSONURL = "https://p64-mcc.icloud.com:443/cc/wm/alias.json";
+                    mailAliasLookupXMLURL = "https://p64-mcc.icloud.com:443/cc/wm/alias.xml";
+                    mailSupportURL = "http://www.apple.com/support/icloud";
+                    sendFromAddressJSONURL = "https://p64-mcc.icloud.com:443/cc/wm/ext/sendfrom";
+                    smtpHostname = "p64-smtp.mail.me.com";
+                    smtpPort = 587;
+                    smtpRequiresSSL = 1;
+                },
+                                {
+                    Name = "SETTINGS_SYNC";
+                    ServiceID = "com.apple.Dataclass.SettingsSync";
+                },
+                                {
+                    Name = CONTACTS;
+                    ServiceID = "com.apple.Dataclass.Contacts";
+                    authMechanism = token;
+                    beta = 0;
+                    protocol = dav;
+                    url = "https://p64-contacts.icloud.com:443";
+                },
+                                {
+                    Name = CALENDAR;
+                    ServiceID = "com.apple.Dataclass.Calendars";
+                    authMechanism = token;
+                    beta = 0;
+                    getSettingsUrl = "https://p64-caldav.icloud.com:443/api/settings";
+                    isMakoAccount = 0;
+                    protocol = dav;
+                    sendReceiveURL = "https://p64-caldav.icloud.com:443/api/settings/sendreceive";
+                    setEmailUrl = "https://p64-caldav.icloud.com:443/api/settings/email";
+                    setInvitationUrl = "https://p64-caldav.icloud.com:443/api/settings/invitation";
+                    sharedCalendar = "https://p64-caldav.icloud.com:443/api/settings/sharedcalendar";
+                    url = "https://p64-caldav.icloud.com:443";
+                },
+                                {
+                    Name = REMINDERS;
+                    ServiceID = "com.apple.Dataclass.Reminders";
+                    authMechanism = token;
+                    beta = 0;
+                    protocol = dav;
+                    url = "https://p64-caldav.icloud.com:443";
+                },
+                                {
+                    Name = BOOKMARKS;
+                    ServiceID = "com.apple.Dataclass.Bookmarks";
+                    apsEnv = production;
+                    authMechanism = token;
+                    beta = 0;
+                    protocol = dav;
+                    url = "https://p66-bookmarks.icloud.com:443";
+                },
+                                {
+                    CategorySyncEnabled = 0;
+                    ClearAllOverridesURL = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/clearalloverrides";
+                    EmailAddress = "andudyun0504@icloud.com";
+                    FetchOverridesUrl = "https://p158-mccgateway.icloud.com:443/iungo/sender/v1/senders/category";
+                    FullCategoryOverrideSyncEnabled = 1;
+                    FullUserName = "\\Uc724\\Ubb34\\Uc601";
+                    Name = NOTES;
+                    RecategorizationSyncFrequencyMinutes = 10080;
+                    RecategorizationSyncUrl = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/sync";
+                    ServiceID = "com.apple.Dataclass.Notes";
+                    StartSyncURL = "https://p158-mccgateway.icloud.com:443/iungo/sender/v1/categories/sync/status";
+                    SyncAllFrequencyDays = 14;
+                    SyncNewOldURL = "https://p158-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/newold/sync";
+                    Username = andudyun0504;
+                    dotMacMailSupported = 0;
+                    "iCloudMailSettings.MCCGatewayUrl" = "https://p158-mccgateway.icloud.com:443";
+                    "iCloudMailSettings.MailAssistant.InlineTipCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.IsMailCleanupFeatureAvailable" = 1;
+                    "iCloudMailSettings.MailAssistant.PreferencesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.UnifiedRulesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailCommandCenterUrl" = "https://p158-mcc.icloud.com:443";
+                    imapHostname = "p64-imap.mail.me.com";
+                    imapPort = 993;
+                    imapRequiresSSL = 1;
+                    mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+                    mailAliasLookupJSONURL = "https://p64-mcc.icloud.com:443/cc/wm/alias.json";
+                    mailAliasLookupXMLURL = "https://p64-mcc.icloud.com:443/cc/wm/alias.xml";
+                    mailSupportURL = "http://www.apple.com/support/icloud";
+                    sendFromAddressJSONURL = "https://p64-mcc.icloud.com:443/cc/wm/ext/sendfrom";
+                    smtpHostname = "p64-smtp.mail.me.com";
+                    smtpPort = 587;
+                    smtpRequiresSSL = 1;
+                },
+                                {
+                    Name = SIRI;
+                    ServiceID = "com.apple.Dataclass.Siri";
+                },
+                                {
+                    Name = FREEFORM;
+                    ServiceID = "com.apple.Dataclass.Boards";
+                },
+                                {
+                    Name = MOMENTS;
+                    ServiceID = "com.apple.Dataclass.Moments";
+                },
+                                {
+                    Name = PHONEFACETIME;
+                    ServiceID = "com.apple.Dataclass.PhoneFaceTime";
+                },
+                                {
+                    Name = IMAGEPLAYGROUND;
+                    ServiceID = "com.apple.Dataclass.ImagePlayground";
+                },
+                                {
+                    Enabled = 1;
+                    Name = "KEYCHAIN_SYNC";
+                    ServiceID = "com.apple.Dataclass.KeychainSync";
+                    authMechanism = token;
+                    escrowProxyUrl = "https://p64-escrowproxy.icloud.com:443";
+                },
+                                {
+                    Enabled = 1;
+                    Name = "FIND_MY_MAC";
+                    ServiceID = "com.apple.Dataclass.DeviceLocator";
+                    appHostname = "p64-fmipmobile.icloud.com";
+                    apsEnv = production;
+                    authMechanism = token;
+                    "fmadminws_gateway_url" = "https://gateway.icloud.com/fmadminws/";
+                    hostname = "p64-fmip.icloud.com";
+                    "icloud_fmip_al_service" = "https://fmipalservice.icloud.com/alservice/";
+                    pairingURL = "https://gateway.icloud.com/fmadminws";
+                    url = "https://p64-fmip.icloud.com:443";
+                },
+                                {
+                    Name = STOCKS;
+                    ServiceID = "com.apple.Dataclass.Stocks";
+                },
+                                {
+                    Name = HOME;
+                    ServiceID = "com.apple.Dataclass.Home";
+                },
+                                {
+                    Name = WALLET;
+                    ServiceID = "com.apple.Dataclass.Shoebox";
+                }
+            );
+            beta = 0;
+            isManagedAppleID = 0;
+            primaryEmailVerified = 1;
+        }
+    );
+}

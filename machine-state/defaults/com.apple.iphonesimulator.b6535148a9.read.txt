@@ -1,0 +1,79 @@
+{
+    CurrentDeviceUDID = "3AC811A0-8381-4127-A60E-C7F645C69566";
+    DevicePreferences =     {
+        "03AECC51-F6D4-4047-8E53-165FC397B07E" =         {
+            ChromeTint = "";
+            ExternalWindowGeometry =             {
+                "252334ED-6341-4AF5-BC0F-03422C6BD466" =                 {
+                    WindowCenter = "{-1280, 921}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorExternalDisplay = 2114;
+        };
+        "3AC811A0-8381-4127-A60E-C7F645C69566" =         {
+            ChromeTint = "";
+            ExternalWindowGeometry =             {
+                "79EC4B4F-B0F3-4AD7-B4A1-762A26BCAE47" =                 {
+                    WindowCenter = "{513, 1096}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorExternalDisplay = 2114;
+            SimulatorWindowGeometry =             {
+                "252334ED-6341-4AF5-BC0F-03422C6BD466" =                 {
+                    WindowCenter = "{-585, 941}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorWindowOrientation = Portrait;
+            SimulatorWindowRotationAngle = 0;
+        };
+        "994A56CD-A434-4EE6-99A6-801C88255719" =         {
+            ChromeTint = "";
+            ExternalWindowGeometry =             {
+                "252334ED-6341-4AF5-BC0F-03422C6BD466" =                 {
+                    WindowCenter = "{1211, 775}";
+                    WindowScale = 1;
+                };
+                "79EC4B4F-B0F3-4AD7-B4A1-762A26BCAE47" =                 {
+                    WindowCenter = "{648, 1039}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorExternalDisplay = 2114;
+            SimulatorWindowGeometry =             {
+                "567C882D-D708-41D2-8EA9-F39E1443B393" =                 {
+                    WindowCenter = "{-533, 653}";
+                    WindowScale = 1;
+                };
+                "79EC4B4F-B0F3-4AD7-B4A1-762A26BCAE47" =                 {
+                    WindowCenter = "{464, 1011}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorWindowOrientation = Portrait;
+            SimulatorWindowRotationAngle = 0;
+        };
+    };
+    LocationMode = 5102;
+    "NSWindow Frame Apple TV Remote Window" = "-541 1029 155 515 -2560 0 2560 1409 ";
+    PasteboardAutomaticSync = 1;
+    ScreenConfigurations =     {
+        "252334ED-6341-4AF5-BC0F-03422C6BD466" =         (
+            "{{0, 0}, {2752, 1548}}",
+            "{{2752, 108}, {2560, 1440}}",
+            "{{-2560, 108}, {2560, 1440}}"
+        );
+        "567C882D-D708-41D2-8EA9-F39E1443B393" =         (
+            "{{0, 0}, {2560, 1440}}",
+            "{{-2560, 0}, {2560, 1440}}",
+            "{{2560, 0}, {2560, 1440}}"
+        );
+        "79EC4B4F-B0F3-4AD7-B4A1-762A26BCAE47" =         (
+            "{{0, 0}, {3840, 2160}}",
+            "{{3840, 720}, {2560, 1440}}",
+            "{{-3840, 0}, {3840, 2160}}"
+        );
+    };
+}

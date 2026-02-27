@@ -1,0 +1,35 @@
+{
+    AfterFirstUseExpirationDate = "2026-03-14 13:20:59 +0000";
+    AirDropRandomHashUUIDKey1 = "DC9B10CA-82C2-4999-B27C-1B1AE654A628";
+    AirDropRandomHashUUIDKey2 = "B65E0DAF-ECB5-4367-9FF0-C156D2EC8367";
+    AirDropRandomHashUUIDKey3 = "6D85D287-9733-4101-BE3C-B1AFC65A698B";
+    AirDropRandomHashUUIDKey4 = "34A35503-1B85-4B5E-B094-C85D2E258724";
+    AuthenticationMetrics = "4DC0670C-FF9E-450A-BD49-349CF87F5ADD\\nDevice was screen on: true";
+    AutoUnlockLastSeenWatchDate = "2026-02-18 00:47:19 +0000";
+    AutoUnlockPeerRetries =     {
+        "FAE16FEF-0C06-4784-B7D5-50AA0169C786" =         {
+            AutoUnlockRetryDate = "2026-01-18 09:52:15 +0000";
+            AutoUnlockRetryMultiplier = 2;
+        };
+    };
+    AutoUnlockPresentedBluetoothError = 0;
+    AutoUnlockPresentedWiFiError = 0;
+    AutoUnlockSuggestedPeers =     (
+        "FAE16FEF-0C06-4784-B7D5-50AA0169C786"
+    );
+    AutoUnlockWatchCurrentlyInList = 1;
+    AutoUnlockWatchExistedInUnlockList = 1;
+    "HashManager-LastConsumedHistoryTokenKey" = {length = 579, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c9 };
+    "HashManager-LastDeviceIDHashKey" = 671931041659213140;
+    "HashManager-LastRebuiltDateKey" = "2026-02-23 11:55:22 +0000";
+    "HashManager-LastUpdatedDateKey" = "2026-02-25 09:02:06 +0000";
+    "HashManager-StoredDatabaseVersionKey" = 3;
+    OneTimeAirDropReset2 = 1;
+    SDAirDropIDMSServiceAccountAltDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
+    SDAirDropIDMSServiceContactsHistoryToken = {length = 579, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c9 };
+    SDLastConnectedDateByDeviceID =     {
+        "3927ED26-2D06-4875-B219-FEACF9C6E035" = "2026-02-23 12:10:52 +0000";
+    };
+    "SFCollaborationUserDefaults." = 0;
+    "SFCollaborationUserDefaults.com.apple.finder" = 0;
+}

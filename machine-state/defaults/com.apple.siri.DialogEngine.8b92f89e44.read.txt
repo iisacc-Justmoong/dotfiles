@@ -1,0 +1,166 @@
+{
+    AudioSuggestions =     {
+        count = 104;
+        timestamp = "1772176355.027132";
+    };
+    "AudioSuggestions#PlayMusic" =     {
+        count = 42;
+        timestamp = "1772176355.02872";
+    };
+    "AudioSuggestions#PlayTheNews" =     {
+        count = 42;
+        timestamp = "1772176355.027132";
+    };
+    "AudioSuggestions#WhatSongIsThis" =     {
+        count = 42;
+        timestamp = "1772176355.02718";
+    };
+    BaseSuggestions =     {
+        count = 396;
+        timestamp = "1772176355.028146";
+    };
+    "BaseSuggestions#Calendar_CheckSchedule" =     {
+        count = 42;
+        timestamp = "1772176355.02714";
+    };
+    "BaseSuggestions#Calendar_CreateNewEvent" =     {
+        count = 42;
+        timestamp = "1772176355.026434";
+    };
+    "BaseSuggestions#Mail_UnreadMail" =     {
+        count = 42;
+        timestamp = "1772176355.027217";
+    };
+    "BaseSuggestions#Settings_ChangeSettings" =     {
+        count = 285;
+        timestamp = "1772176355.028146";
+    };
+    "BaseSuggestions#Stocks_CheckMarketToday" =     {
+        count = 42;
+        timestamp = "1772176355.027101";
+    };
+    "BaseSuggestions#System_SearchRestaurants" =     {
+        count = 42;
+        timestamp = "1772176355.026259";
+    };
+    "BaseSuggestions#Weather_Condition" =     {
+        count = 190;
+        timestamp = "1772176355.028836";
+    };
+    SiriAutoComplete =     {
+        count = 744;
+        timestamp = "1771850168.59546";
+    };
+    "SiriAutoComplete#appLaunchPhrase" =     {
+        count = 697;
+        timestamp = "1771850168.59546";
+    };
+    "SiriAutoComplete#appMentionSuffix" =     {
+        count = 47;
+        timestamp = "1771375723.325612";
+    };
+    SocialSuggestions =     {
+        count = 142;
+        timestamp = "1772176355.027819";
+    };
+    "SocialSuggestions#flipACoin" =     {
+        count = 42;
+        timestamp = "1772176355.026505";
+    };
+    "SocialSuggestions#readMeAPoem" =     {
+        count = 42;
+        timestamp = "1772176355.027586";
+    };
+    "SocialSuggestions#tellMeAJoke" =     {
+        allRandomIds =         (
+            "SocialSuggestions#tellMeAJoke#en",
+            "SocialSuggestions#tellMeAJoke#en#phrase#random1"
+        );
+        count = 42;
+        lastRandomIds =         (
+            "SocialSuggestions#tellMeAJoke#en",
+            "SocialSuggestions#tellMeAJoke#en#phrase#random1"
+        );
+        timestamp = "1772176355.027819";
+    };
+    "SocialSuggestions#tellMeAStory" =     {
+        count = 42;
+        timestamp = "1772176355.028824";
+    };
+    Suggestions =     {
+        count = 308;
+        timestamp = "1772176355.488902";
+    };
+    "Suggestions#messages_ReadMyMessages" =     {
+        count = 42;
+        timestamp = "1772176355.026387";
+    };
+    "Suggestions#messages_SendAMessage" =     {
+        count = 226;
+        timestamp = "1772176355.488902";
+    };
+    "Suggestions#phoneCall_StartCall" =     {
+        count = 42;
+        timestamp = "1772176355.029086";
+    };
+    "Suggestions#suggestHelp" =     {
+        count = 42;
+        timestamp = "1772176355.029066";
+    };
+    TimeSuggestions =     {
+        count = 236;
+        timestamp = "1772176355.026505";
+    };
+    "TimeSuggestions#deleteAlarm" =     {
+        count = 42;
+        timestamp = "1772176355.02622";
+    };
+    "TimeSuggestions#deleteTimer" =     {
+        count = 42;
+        timestamp = "1772176355.026505";
+    };
+    "TimeSuggestions#resetTimer" =     {
+        count = 42;
+        timestamp = "1772176355.025258";
+    };
+    "TimeSuggestions#searchAlarm" =     {
+        count = 42;
+        timestamp = "1772176355.026302";
+    };
+    "TimeSuggestions#searchTimer" =     {
+        count = 42;
+        timestamp = "1772176355.02786";
+    };
+    "TimeSuggestions#setATimer" =     {
+        count = 42;
+        timestamp = "1772176355.029332";
+    };
+    "TimeSuggestions#setAnAlarm" =     {
+        count = 42;
+        timestamp = "1772176355.028229";
+    };
+    "TimeSuggestions#setTimerHint" =     {
+        count = 42;
+        timestamp = "1772176355.027537";
+    };
+    "TimeSuggestions#turnOffAllAlarms" =     {
+        count = 42;
+        timestamp = "1772176355.026396";
+    };
+    "TimeSuggestions#updateAlarm" =     {
+        count = 42;
+        timestamp = "1772176355.027478";
+    };
+    notebookSuggestions =     {
+        count = 72;
+        timestamp = "1772176355.025565";
+    };
+    "notebookSuggestions#createNote" =     {
+        count = 42;
+        timestamp = "1772176355.025565";
+    };
+    "notebookSuggestions#createReminder" =     {
+        count = 42;
+        timestamp = "1772176355.027911";
+    };
+}

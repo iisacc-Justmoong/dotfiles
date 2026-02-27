@@ -1,0 +1,26 @@
+{
+    AddressMapping =     {
+        "2494C782-0B99-4C61-AAD9-FA307059EC78" = "20:15:82:24:47:D4";
+        "3927ED26-2D06-4875-B219-FEACF9C6E035" = "7C:4B:26:D7:F4:CC";
+        "FAE16FEF-0C06-4784-B7D5-50AA0169C786" = "E8:1C:D8:DB:AA:1C";
+    };
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1771848613;
+    CloudKitAccountInfoCache =     {
+        2692f03ebb1bac47f6a5a9b1e4d83f10c2179571d1db109f6a3711df4dc8b498 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        cdbefc749dcf8313e5302b95ae801aa8420e16ecd87d3e91e6b635cfa70e22fd = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
+    MagicCloudPairingAccessorySubscriptionID = "77C7E81F-1A50-4EFD-8C6B-07868FD11283";
+    MagicCloudPairingAccessorySubscriptionManateeID = "49D615B2-3411-4122-969F-B364F83AEA7C";
+    MagicCloudPairingManateeUpgradedAccount = 1;
+    MagicCloudPairingMasterSubscriptionID = "FA613DD5-F027-43DD-B0F4-F3494296BA6B";
+    MagicCloudPairingMasterSubscriptionManateeID = "67C592C2-E96D-4FDE-B116-B975E606744A";
+    "com.apple.cloudpaird.subscription.created.001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3" = 1;
+    "com.apple.cloudpaird.zones.created.001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3" =     (
+        SoundProfileZone,
+        BluetoothDeviceInformationZone,
+        AudioAccessoryZone
+    );
+}
