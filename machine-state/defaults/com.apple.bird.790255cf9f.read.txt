@@ -2,7 +2,10 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1771848613;
+    CKStartupTime = 1772238865;
+    CloudKitAccountInfoCache =     {
+        20d3e94557aee7646a52e64821d7d90ef05f4e47bf13686a45b358aa6767aec8 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
     "icloud-drive.account-migration-status.17533321770" = 4;
     "optimize-storage" = 1;
 }

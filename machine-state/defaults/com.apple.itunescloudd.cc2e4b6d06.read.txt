@@ -16,21 +16,16 @@
             "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer" =             {
                 identifier = "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer";
                 "is_recurring" = 0;
-                time = "794747432.000003";
+                time = "794747432.000005";
                 userData =                 {
                     dsid = 17533321770;
                 };
-            };
-            "com.apple.itunescloud.ICPlayActivityServer.flush_task" =             {
-                identifier = "com.apple.itunescloud.ICPlayActivityServer.flush_task";
-                "is_recurring" = 0;
-                time = "793801468.204003";
             };
             "com.apple.itunescloud.subscription_status_refresh" =             {
                 identifier = "com.apple.itunescloud.subscription_status_refresh";
                 interval = 86400;
                 "is_recurring" = 1;
-                time = "793875383.179099";
+                time = "793961783.179099";
             };
         };
     };

@@ -5,11 +5,11 @@
     CKMOCAccountsMatch = 1;
     CloudKitCheckedMiCSwitchEligibilityOnImagentLaunch = 1;
     CloudKitEligibleToToggleMiCSwitch = 1;
-    CloudKitHasAvailableRecordsToDownload = 1;
+    CloudKitHasAvailableRecordsToDownload = 0;
     CloudKitIsEligibleForTruthZone = 1;
     CloudKitIsRemovedFromBackup = 0;
     CloudKitIsSyncing = 0;
-    CloudKitLastDownloadProgress = 1;
+    CloudKitLastDownloadProgress = 0;
     CloudKitSyncDate = "2026-02-26 13:16:32 +0000";
     CloudKitSyncingEnabled = 1;
     CloudKitTelemetrySyncVersion = 1;

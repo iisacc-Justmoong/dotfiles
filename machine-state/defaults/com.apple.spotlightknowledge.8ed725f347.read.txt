@@ -2,6 +2,7 @@
     SpotlightKnowledgeV2 =     {
         cleanupPerBundleCount =         {
             2 =             {
+                "com.apple.duetexpertd" = 1;
                 "com.apple.helpviewer" = 29;
             };
         };
@@ -22,25 +23,27 @@
             )
         );
         embeddingDonationCount =         {
-            "com.apple.CalendarUI" = 11;
+            "com.apple.CalendarUI" = 14;
             "com.apple.Image_Capture" = 0;
             "com.apple.MobileSMS" = 0;
             "com.apple.Notes" = 4;
-            "com.apple.Safari" = 5;
+            "com.apple.Safari" = 11;
+            "com.apple.Software-Update-Settings.extension" = 0;
             "com.apple.Stickies" = 0;
             "com.apple.TextInputMenuAgent" = 0;
             "com.apple.contactsd" = 0;
             "com.apple.controlcenter" = 0;
             "com.apple.finder" = 0;
-            "com.apple.helpviewer" = 145;
+            "com.apple.helpviewer" = 174;
             "com.apple.journal" = 0;
             "com.apple.loginwindow" = 0;
             "com.apple.mobilephone" = 0;
             "com.apple.notificationcenterui" = 0;
-            "com.apple.reminders" = 0;
+            "com.apple.reminders" = 5;
+            "com.apple.systempreferences" = 13;
             "com.apple.weather.menu" = 0;
             "com.boardtack.ScanTexter" = 0;
-            "com.busymac.busycal3" = 7;
+            "com.busymac.busycal3" = 10;
             "com.chouti.github-streak" = 0;
             "com.crowdcafe.windowmagnet" = 0;
             "com.jetbrains.toolbox" = 0;
@@ -209,7 +212,7 @@
         "embeddingGenCompleteness#pro.betterdisplay.BetterDisplay" = 0;
         embeddingGenStartTime = "2026-01-17T09:01:20Z";
         embeddingGenUpdateReindexCount = 0;
-        embeddingGenUpdates = 22;
+        embeddingGenUpdates = 30;
         embeddingModelVersion = 9;
         graphVersionV2 = 27;
         keyphraseGenStartTime = "2026-01-17T08:57:02Z";
@@ -219,14 +222,14 @@
         );
         stats =         (
             "2026-02-27:didScoreGraph:21",
-            "2026-02-27:[2]queryItemUpdatedCount:109",
+            "2026-02-27:currentPid:578",
             "2026-02-27:people indexing all done:26",
-            "2026-02-27:[2]queryItemExtractedCount:109",
+            "2026-02-27:[4]queryItemUpdatedCount:10",
             "2026-02-27:completed graph analysis:27",
             "2026-02-27:processing all done:25",
             "2026-02-27:text processing all done:23",
-            "2026-02-27:currentPid:329",
-            "2026-02-27:[4]queryItemUpdatedCount:10"
+            "2026-02-27:[2]queryItemUpdatedCount:109",
+            "2026-02-27:[2]queryItemExtractedCount:109"
         );
         version = V2;
     };

@@ -1,7 +1,7 @@
 {
     AXSClassicInvertColorsPreference = 0;
-    AccessibilityEnabled = 1;
-    ApplicationAccessibilityEnabled = 1;
+    AccessibilityEnabled = 0;
+    ApplicationAccessibilityEnabled = 0;
     AutomationEnabled = 0;
     BrailleInputDeviceConnected = 0;
     CommandAndControlEnabled = 0;
@@ -10,7 +10,7 @@
     EnhancedBackgroundContrastEnabled = 0;
     FullKeyboardAccessEnabled = 0;
     FullKeyboardAccessFocusRingEnabled = 1;
-    GenericAccessibilityClientEnabled = 1;
+    GenericAccessibilityClientEnabled = 0;
     GrayscaleDisplay = 0;
     GuestPassDeviceUUID = "582862C3-8600-4C49-84D6-4BF6C82CCABD";
     InvertColorsEnabled = 0;

@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "793541445.271089"
+        "793931701.261103"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2525;
+    "mod-count" = 2526;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -652,42 +652,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2176554892;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 87071428514385;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 250284483903035;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2176554893;
-            "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 76716262366986;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1946032455;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -702,6 +666,42 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 18639717790571;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2308872170;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 271755022246264;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 124304503549030;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2308872171;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 87071428514385;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 124304503549030;
             };
             "tile-type" = "file-tile";
         }

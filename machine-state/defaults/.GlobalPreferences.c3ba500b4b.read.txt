@@ -42,7 +42,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-02-26 11:42:36 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-02-27 12:46:26 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -391,16 +391,6 @@
         )
     );
     NSUserDictionaryReplacementItems =     (
-                {
-            on = 1;
-            replace = omw;
-            with = "On my way!";
-        },
-                {
-            on = 1;
-            replace = "\\U3148\\U3131\\U3148";
-            with = "\\Uc9c0\\Uae08 \\Uac00\\Ub294 \\Uc911!";
-        }
     );
     NSUserQuotesArray =     (
         "\\U201c",

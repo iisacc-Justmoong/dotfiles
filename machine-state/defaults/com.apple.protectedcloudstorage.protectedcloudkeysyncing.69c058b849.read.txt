@@ -2,7 +2,10 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1771848613;
+    CKStartupTime = 1772238865;
+    CloudKitAccountInfoCache =     {
+        f996b78146894ec8aa3037ec3dc9b10b8d27cc62600ac8b006b555950621abca = {length = 562, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c6 };
+    };
     initialWState = 0;
     knownWState = 0;
     nextRegistrySync = "2026-01-17 10:57:38 +0000";
