@@ -1,6 +1,23 @@
 {
     ConfirmSiriInvokedViaEitherCmdTwice = 0;
     GMSignedUp = 1;
+    KeyboardShortcutPreSAE =     {
+        enabled = 1;
+        value =         {
+            parameters =             (
+                32,
+                49,
+                2148532224
+            );
+            type = modifier;
+        };
+    };
+    KeyboardShortcutSAE =     {
+        enabled = 0;
+        value =         {
+            type = "SAE1.0";
+        };
+    };
     StatusMenuVisible = 0;
     VoiceTriggerUserEnabled = 1;
 }

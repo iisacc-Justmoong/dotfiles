@@ -75,9 +75,14 @@
             };
         };
         176 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
-                type = "SAE1.0";
+                parameters =                 (
+                    32,
+                    49,
+                    2148532224
+                );
+                type = modifier;
             };
         };
         179 =         {

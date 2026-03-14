@@ -1,7 +1,7 @@
 {
     ICDefaultsCachedSubscriptionStatus =     {
         lastKnownActiveDSID = 17533321770;
-        lastKnownOSVersion = 25D125;
+        lastKnownOSVersion = 25D2128;
         responses =         {
             "{\\"phoneNumber\\":\\"\\",\\"dsid\\":\\"17533321770\\",\\"storefrontID\\":\\"143466\\"}" =             {
                 status =                 {
@@ -24,11 +24,12 @@
                         status = Disabled;
                     };
                     music =                     {
-                        expirationDate = 1773363742000;
+                        expirationDate = 1776042142000;
                         hasOfflineSlots = 1;
                         initialPurchaseTimestamp = 1679512430000;
                         isAdmin = 0;
                         isAutoRenewEnabled = 1;
+                        isCipFunded = 0;
                         isFamilySubscription = 0;
                         isInFreePeriod = 0;
                         isInFreeTrial = 0;

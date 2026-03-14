@@ -43,6 +43,7 @@
         "com.apple.GamePolicyAgent" = 1;
         "com.apple.GenerativePlaygroundApp" = 1;
         "com.apple.Home" = 1;
+        "com.apple.IconComposer" = 1;
         "com.apple.Image_Capture" = 1;
         "com.apple.Internet-Accounts-Settings.extension" = 1;
         "com.apple.Keyboard-Settings.extension" = 1;
@@ -78,6 +79,7 @@
         "com.apple.SetupAssistant" = 1;
         "com.apple.Siri" = 1;
         "com.apple.Siri-Settings.extension" = 1;
+        "com.apple.SiriNCService" = 1;
         "com.apple.Software-Update-Settings.extension" = 1;
         "com.apple.Sound-Settings.extension" = 1;
         "com.apple.Spotlight" = 1;
@@ -97,6 +99,7 @@
         "com.apple.TranslationUIServices.TranslationUIService" = 1;
         "com.apple.TransporterApp" = 1;
         "com.apple.UserNotificationCenter" = 1;
+        "com.apple.VoiceMemos" = 1;
         "com.apple.WalletSettingsExtension" = 1;
         "com.apple.Wallpaper-Settings.extension" = 1;
         "com.apple.WorkflowKit.ShortcutsViewService" = 1;
@@ -110,6 +113,7 @@
         "com.apple.archiveutility" = 1;
         "com.apple.bootcampassistant" = 1;
         "com.apple.calculator" = 1;
+        "com.apple.clock" = 1;
         "com.apple.contactsd" = 1;
         "com.apple.controlcenter" = 1;
         "com.apple.coreservices.UASharedPasteboardProgressUI" = 1;
@@ -137,6 +141,7 @@
         "com.apple.motionappApp" = 1;
         "com.apple.news" = 1;
         "com.apple.notificationcenterui" = 1;
+        "com.apple.osascript" = 1;
         "com.apple.parsecd" = 1;
         "com.apple.peopled" = 1;
         "com.apple.pixelmator" = 1;
@@ -167,6 +172,7 @@
         "com.autodesk.AdskIdentityManager" = 1;
         "com.autodesk.fusion360" = 1;
         "com.bambulab.bambu-studio" = 1;
+        "com.blackmagic-design.DaVinciResolveLite" = 1;
         "com.boardtack.ScanTexter" = 1;
         "com.busymac.busycal3" = 1;
         "com.busymac.busycal3.alarm" = 1;
@@ -192,10 +198,14 @@
         "com.literatureandlatte.scrivener3" = 1;
         "com.logi.cp-dev-mgr" = 1;
         "com.logi.optionsplus" = 1;
+        "com.logi.pluginservice" = 1;
         "com.manytricks.TimeSinkClient" = 1;
         "com.microsoft.Excel" = 1;
+        "com.microsoft.Powerpoint" = 1;
         "com.microsoft.VSCode" = 1;
+        "com.microsoft.Word" = 1;
         "com.microsoft.autoupdate2" = 1;
+        "com.microsoft.onenote.mac" = 1;
         "com.mortenjust.AndroidTool" = 1;
         "com.ngocluu.goodlinks" = 1;
         "com.openai.atlas" = 1;
@@ -229,7 +239,9 @@
         "org.adblockplus.adblockplussafarimac" = 1;
         "org.brunolemos.simplifiedtwitter" = 1;
         "org.qt-project.pixeltool" = 1;
+        "org.sparkle-project.Sparkle.Autoupdate" = 1;
         "org.sparkle-project.Sparkle.Updater" = 1;
         "pro.betterdisplay.BetterDisplay" = 1;
+        "us.electronic.mas.macdroid" = 1;
     };
 }

@@ -151,6 +151,7 @@ com.apple.TextInputMenuAgent
 com.apple.TransporterApp
 com.apple.TrustedPeersHelper
 com.apple.UserAccountUpdater
+com.apple.VoiceMemos
 com.apple.Wallpaper-Settings.extension
 com.apple.WatchListKit
 com.apple.WindowManager
@@ -232,6 +233,7 @@ com.apple.driver.AppleHIDMouse
 com.apple.dt.InstrumentsCLI
 com.apple.dt.SKAgent
 com.apple.dt.Xcode
+com.apple.dt.xcdevice
 com.apple.dt.xcodebuild
 com.apple.facetime.bag
 com.apple.fileproviderd
@@ -325,6 +327,7 @@ com.apple.newscore
 com.apple.newscore2
 com.apple.newsd
 com.apple.onetimepasscodes
+com.apple.osascript
 com.apple.osprey
 com.apple.parsecd
 com.apple.passd
@@ -414,6 +417,7 @@ com.apple.triald
 com.apple.universalaccess
 com.apple.universalaccessAuthWarning
 com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331
+com.apple.voicememod
 com.apple.voiceservices
 com.apple.voicetrigger
 com.apple.wallpaper
@@ -453,8 +457,10 @@ com.jetbrains.cefserver.helper.renderer
 com.jetbrains.pycharm
 com.jetbrains.toolbox
 com.logi.cp-dev-mgr
+com.logi.lps.settings
 com.logi.optionsplus
 com.logi.optionsplus.driverhost
+com.logi.pluginservice
 com.microsoft.VSCode
 com.microsoft.VSCode.ShipIt.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.microsoft.autoupdate.fba
@@ -463,16 +469,19 @@ com.microsoft.office
 com.microsoft.shared
 com.mortenjust.AndroidTool
 com.openai.atlas
+com.openai.atlas.local-agent-xpc-helper
 com.openai.atlas.web
 com.openai.chat
 com.openai.chat.RemoteFeatureFlags.4f80f7fc-6e88-4841-85b3-8c42ab64a4e1
 com.openai.chat.StatsigService
 com.openai.codex
 com.pilotmoon.popclip
+com.qtproject
 com.qtproject.UserFeedback.QtCreator
 com.qtproject.UserFeedback.QtTools
 com.segment.storage.oai
 com.the-qt-company.Qt Apps
+com.whatson-local.WhatSon
 diagnostics_agent
 embeddedBinaryValidationUtility
 familycircled
@@ -496,6 +505,7 @@ loginwindow
 mbuseragent
 openclaw
 org.cups.PrintingPrefs
+org.sparkle-project.Sparkle.Autoupdate
 pbs
 pro.betterdisplay.BetterDisplay
 sharedfilelistd
