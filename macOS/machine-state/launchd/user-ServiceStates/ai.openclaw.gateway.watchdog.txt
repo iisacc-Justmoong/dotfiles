@@ -1,0 +1,62 @@
+gui/501/ai.openclaw.gateway.watchdog = {
+	active count = 0
+	path = /Users/ymy/Library/LaunchAgents/ai.openclaw.gateway.watchdog.plist
+	type = LaunchAgent
+	state = not running
+
+	program = /Users/ymy/.openclaw/bin/gateway-watchdog.sh
+	arguments = {
+		/Users/ymy/.openclaw/bin/gateway-watchdog.sh
+	}
+
+	stdout path = /Users/ymy/.openclaw/logs/gateway-watchdog.out.log
+	stderr path = /Users/ymy/.openclaw/logs/gateway-watchdog.err.log
+	inherited environment = {
+		SSH_AUTH_SOCK => /private/tmp/com.apple.launchd.bas5Tnhf4j/Listeners
+	}
+
+	default environment = {
+		PATH => /usr/bin:/bin:/usr/sbin:/sbin
+	}
+
+	environment = {
+		OSLogRateLimit => 64
+		PATH => /opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+		HOME => /Users/ymy
+		XPC_SERVICE_NAME => ai.openclaw.gateway.watchdog
+	}
+
+	domain = gui/501 [100024]
+	asid = 100024
+	minimum runtime = 10
+	exit timeout = 5
+	runs = 9
+	last exit code = 0
+
+	resource coalition = {
+		ID = 2177
+		type = resource
+		state = active
+		active count = 1
+		name = ai.openclaw.gateway.watchdog
+	}
+
+	jetsam coalition = {
+		ID = 2178
+		type = jetsam
+		state = active
+		active count = 1
+		name = ai.openclaw.gateway.watchdog
+	}
+
+	spawn type = daemon (3)
+	jetsam priority = 40
+	jetsam memory limit (active) = (unlimited)
+	jetsam memory limit (inactive) = (unlimited)
+	jetsamproperties category = daemon
+	jetsam thread limit = 32
+	cpumon = default
+	run interval = 60 seconds
+
+	properties = runatload | inferred program
+}

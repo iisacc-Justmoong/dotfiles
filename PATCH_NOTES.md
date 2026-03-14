@@ -24,6 +24,8 @@
 - `macOS/com.dotfiles.machine-state-apply-next-day.plist` (02:50)
 - `macOS/com.dotfiles.machine-state-backup.plist` (03:00)
 - Replaced `Scripts/launchctl.sh` with the managed agent set.
+- Added `launchctl print` snapshots for headless user services that match `openclaw`, `gateway`, `watchdog`, or `headless`.
+- Normalized restored user LaunchAgents so home-dependent paths are rewritten for the current user during restore.
 
 ### Package and Preference Preservation
 - Configured the backup script to run `brew bundle dump --force --file "$DOTFILES_DIR/Brewfile"`.

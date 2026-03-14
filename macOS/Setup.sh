@@ -35,6 +35,18 @@ require_file() {
   [[ -f "$path" ]] || fail "required file missing: $path"
 }
 
+upsert_plist_string() {
+  local plist="$1"
+  local key_path="$2"
+  local value="$3"
+  local parent_path="${key_path%:*}"
+
+  /usr/libexec/PlistBuddy -c "Set $key_path $value" "$plist" >/dev/null 2>&1 && return 0
+  /usr/libexec/PlistBuddy -c "Print $parent_path" "$plist" >/dev/null 2>&1 \
+    || /usr/libexec/PlistBuddy -c "Add $parent_path dict" "$plist" >/dev/null 2>&1 || true
+  /usr/libexec/PlistBuddy -c "Add $key_path string $value" "$plist" >/dev/null 2>&1 || true
+}
+
 ensure_dotfiles_home_link() {
   local canonical_dotfiles="$HOME/.dotfiles"
 
@@ -208,6 +220,31 @@ restore_preferences_snapshot() {
   log "preferences snapshot restored"
 }
 
+rewrite_user_launchagent_paths() {
+  local plist="$1"
+  local backup_user_home=""
+
+  if [[ -f "$METADATA_FILE" ]]; then
+    local backup_user=""
+    # shellcheck disable=SC1090
+    source "$METADATA_FILE" || true
+    backup_user="${BACKUP_USER:-}"
+    if [[ -n "$backup_user" && "$backup_user" != "unknown" ]]; then
+      backup_user_home="/Users/$backup_user"
+    fi
+  fi
+
+  plutil -convert xml1 "$plist" >/dev/null 2>&1 || true
+
+  if [[ -n "$backup_user_home" && "$backup_user_home" != "$HOME" ]]; then
+    BACKUP_HOME="$backup_user_home" CURRENT_HOME="$HOME" \
+      perl -0pi -e 's/\Q$ENV{BACKUP_HOME}\E/\Q$ENV{CURRENT_HOME}\E/g' "$plist"
+  fi
+
+  upsert_plist_string "$plist" ":EnvironmentVariables:HOME" "$HOME"
+  [[ -n "${TMPDIR:-}" ]] && upsert_plist_string "$plist" ":EnvironmentVariables:TMPDIR" "$TMPDIR"
+}
+
 rewrite_dotfiles_launchagent_program() {
   local plist="$1"
   local label script_path
@@ -251,6 +288,7 @@ restore_user_launchagents() {
   while IFS= read -r plist_name; do
     plist_path="$dst/$plist_name"
     [[ -f "$plist_path" ]] || continue
+    rewrite_user_launchagent_paths "$plist_path"
     rewrite_dotfiles_launchagent_program "$plist_path"
     launchctl bootout "gui/$uid" "$plist_path" >/dev/null 2>&1 || true
     launchctl bootstrap "gui/$uid" "$plist_path" >/dev/null 2>&1 || true

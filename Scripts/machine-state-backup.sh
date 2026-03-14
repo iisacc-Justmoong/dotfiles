@@ -360,6 +360,22 @@ backup_launchd_state() {
   capture_command "$LAUNCHD_DIR/launchctl.list.txt" launchctl list
   capture_shell "$LAUNCHD_DIR/launchctl.print-disabled.user.txt" "launchctl print-disabled gui/$USER_UID"
   capture_shell "$LAUNCHD_DIR/launchctl.print-disabled.system.txt" "launchctl print-disabled system"
+
+  local service_state_dir="$LAUNCHD_DIR/user-ServiceStates"
+  mkdir -p "$service_state_dir"
+  find "$service_state_dir" -maxdepth 1 -type f -name "*.txt" -delete 2>/dev/null || true
+
+  local label state_file
+  while IFS= read -r label; do
+    [[ -n "$label" ]] || continue
+    state_file="$service_state_dir/$(sanitize_filename "$label").txt"
+    capture_shell "$state_file" "launchctl print gui/$USER_UID/$label"
+  done < <(
+    launchctl list 2>/dev/null \
+      | awk 'NR > 1 { print $3 }' \
+      | sort -u \
+      | grep -E '(^ai\.openclaw\.|watchdog|headless|gateway)' || true
+  )
 }
 
 capture_package_state() {
@@ -396,6 +412,7 @@ write_summary() {
   local defaults_domain_count defaults_export_count
   local preferences_user_count preferences_byhost_count
   local user_launchagents_count system_launchagents_count system_launchdaemons_count
+  local headless_user_service_count
 
   defaults_domain_count="$(wc -l <"$DEFAULTS_DOMAIN_LIST" | tr -d ' ')"
   defaults_export_count="$(find "$DEFAULTS_DIR" -maxdepth 1 -type f -name "*.export.plist" | wc -l | tr -d ' ')"
@@ -404,6 +421,7 @@ write_summary() {
   user_launchagents_count="$(find "$LAUNCHD_DIR/user-LaunchAgents" -maxdepth 1 -type f -name "*.plist" 2>/dev/null | wc -l | tr -d ' ')"
   system_launchagents_count="$(find "$LAUNCHD_DIR/system-LaunchAgents" -maxdepth 1 -type f -name "*.plist" 2>/dev/null | wc -l | tr -d ' ')"
   system_launchdaemons_count="$(find "$LAUNCHD_DIR/system-LaunchDaemons" -maxdepth 1 -type f -name "*.plist" 2>/dev/null | wc -l | tr -d ' ')"
+  headless_user_service_count="$(find "$LAUNCHD_DIR/user-ServiceStates" -maxdepth 1 -type f -name "*.txt" 2>/dev/null | wc -l | tr -d ' ')"
 
   cat >"$SUMMARY_FILE" <<EOF
 BACKUP_TS=$BACKUP_TS
@@ -414,6 +432,7 @@ PREFERENCES_BYHOST_PLIST_COUNT=$preferences_byhost_count
 LAUNCHAGENTS_USER_COUNT=$user_launchagents_count
 LAUNCHAGENTS_SYSTEM_COUNT=$system_launchagents_count
 LAUNCHDAEMONS_SYSTEM_COUNT=$system_launchdaemons_count
+HEADLESS_USER_SERVICE_COUNT=$headless_user_service_count
 EOF
 }
 
