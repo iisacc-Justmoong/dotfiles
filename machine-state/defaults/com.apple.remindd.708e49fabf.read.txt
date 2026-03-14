@@ -2,7 +2,7 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1773447524;
+    CKStartupTime = 1773463065;
     CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
     CloudKitAccountInfoCache =     {
         d906965e608cdcdeb27d0c9c7c36a99512a57d2adc7b80aa848d1ed578470d30 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
@@ -20,7 +20,7 @@
         );
     };
     SubscriptionIDsLastModifiedDate = "794832444.249218";
-    ThrottlingPolicyCurrentBatchCount = 0;
+    ThrottlingPolicyCurrentBatchCount = 4;
     ThrottlingPolicyCurrentLevelIndex = 0;
     ThrottlingPolicyStartTime = "795100099.112699";
     accountsListCategorizedCountsCache = {length = 1414, bytes = 0x62706c69 73743030 d2010203 285e7265 ... 00000000 00000514 };
@@ -34,7 +34,7 @@
     lastDatabaseMigrationSystemBuildVersion = 25C56;
     lastDismissedNotificationsPermissionInlineRequestDate = "2026-01-18 13:51:54 +0000";
     lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";
-    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-03-12 15:07:55 +0000";
+    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-03-14 00:27:52 +0000";
     lastSuggestedAttributesAutoTrainingToken = {length = 821, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000279 };
     lastSyncPoll = "2026-01-17 08:56:40 +0000";
     lastViewedNotificationsPermissionWarmingSheetDate = "2026-01-18 13:44:47 +0000";

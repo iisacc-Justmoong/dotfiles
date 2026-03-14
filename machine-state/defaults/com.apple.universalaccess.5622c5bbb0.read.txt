@@ -201,6 +201,11 @@
                 Date = "2026-03-14 09:19:23";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-03-14 13:39:48";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -249,6 +254,16 @@
         LaunchNext
     );
     customFonts = 0;
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "6.64453125";
+            Y = 1440;
+        };
+        2 =         {
+            X = "628.7734375";
+            Y = "49.98828125";
+        };
+    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;

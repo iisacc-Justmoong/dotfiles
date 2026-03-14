@@ -89,6 +89,56 @@
                 url = "https://music.apple.com/kr/artist/mili/906934266?l=en-GB";
             };
             timestamp = "2026-02-28T03:56:28.975Z";
+        },
+                {
+            contentDescriptor =             {
+                identifiers =                 {
+                    storeAdamID = 1827080328;
+                };
+                kind = artist;
+                url = "https://music.apple.com/kr/artist/maeloux/1827080328?l=en-GB";
+            };
+            timestamp = "2026-03-14T01:21:45.279Z";
+        },
+                {
+            contentDescriptor =             {
+                identifiers =                 {
+                    storeAdamID = 636913487;
+                };
+                kind = song;
+                url = "https://music.apple.com/kr/album/it-passed-you-by/636913324?i=636913487&l=en-GB";
+            };
+            timestamp = "2026-03-14T01:27:25.690Z";
+        },
+                {
+            contentDescriptor =             {
+                identifiers =                 {
+                    storeAdamID = 1746610469;
+                };
+                kind = artist;
+                url = "https://music.apple.com/kr/artist/mr-jazzman/1746610469?l=en-GB";
+            };
+            timestamp = "2026-03-14T01:29:14.421Z";
+        },
+                {
+            contentDescriptor =             {
+                identifiers =                 {
+                    storeAdamID = 695744710;
+                };
+                kind = artist;
+                url = "https://music.apple.com/kr/artist/djvi/695744710?l=en-GB";
+            };
+            timestamp = "2026-03-14T01:31:17.515Z";
+        },
+                {
+            contentDescriptor =             {
+                identifiers =                 {
+                    storeAdamID = 695744710;
+                };
+                kind = artist;
+                url = "https://music.apple.com/kr/artist/djvi/695744710?l=en-GB";
+            };
+            timestamp = "2026-03-14T01:32:35.117Z";
         }
     );
 }

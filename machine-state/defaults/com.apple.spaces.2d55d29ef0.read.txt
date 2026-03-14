@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "42438.17915145833";
+            Age = "47399.26813475";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -35,93 +35,6 @@
                             id64 = 5;
                             type = 0;
                             uuid = "549500BA-87CC-4E35-9E61-1DBAC4259948";
-                        },
-                                                {
-                            ManagedSpaceID = 22;
-                            TileLayoutManager =                             {
-                                Age = "19.38924000000001";
-                                ConfigAge = "19.38852829166667";
-                                "Inter-Tile Spacing" =                                 {
-                                    Height = 12;
-                                    Width = 12;
-                                };
-                                "Layout Rect" =                                 {
-                                    Height = 1440;
-                                    Width = 2560;
-                                    X = "-2560";
-                                    Y = 0;
-                                };
-                                "Max Tile Config" =                                 {
-                                    Height = 1;
-                                    Width = 2;
-                                };
-                                PreferredLayout =                                 (
-                                                                        {
-                                        DisplaySize =                                         {
-                                            Height = 1440;
-                                            Width = 2560;
-                                        };
-                                        FirstTileSize =                                         {
-                                            Height = 1440;
-                                            Width = 2560;
-                                        };
-                                    }
-                                );
-                                ReservedArea =                                 {
-                                    Bottom = 0;
-                                    Left = 0;
-                                    Right = 0;
-                                    Top = 0;
-                                };
-                                TileSpaces =                                 (
-                                                                        {
-                                        ManagedSpaceID = 22;
-                                        SizeConstraints =                                         {
-                                            Max =                                             {
-                                                Height = 100000;
-                                                Width = 100000;
-                                            };
-                                            Min =                                             {
-                                                Height = 231;
-                                                Width = 320;
-                                            };
-                                            Preferred =                                             {
-                                                Height = 920;
-                                                Width = 320;
-                                            };
-                                        };
-                                        TileLimitedClipping = 1;
-                                        TileRect =                                         {
-                                            Height = 1440;
-                                            Width = 2560;
-                                            X = "-2560";
-                                            Y = 0;
-                                        };
-                                        TileType = Primary;
-                                        TileWindowID = 233;
-                                        appName = Music;
-                                        "com.apple.appkit.disablemcexit" = 0;
-                                        fromSpace = "549500BA-87CC-4E35-9E61-1DBAC4259948";
-                                        "fs_wid" = 233;
-                                        id64 = 24;
-                                        name = MiniPlayer;
-                                        pid = 926;
-                                        type = 5;
-                                        uuid = "C02E5146-547C-4343-8861-0B84B040D802";
-                                    }
-                                );
-                            };
-                            WallSpace =                             {
-                                ManagedSpaceID = 22;
-                                id64 = 23;
-                                type = 6;
-                                uuid = "8732B622-44A8-4119-8170-B7EDA13E6918";
-                            };
-                            "fs_wid" = 233;
-                            id64 = 22;
-                            pid = 926;
-                            type = 4;
-                            uuid = "D03C22CF-89A9-4107-99DC-5B0D98F3A417";
                         }
                     );
                 },
@@ -154,11 +67,11 @@
             );
             Primary =             {
                 CreatedCount = 5;
-                DeletedCount = 2;
-                LifetimeEntryCount = 2;
+                DeletedCount = 3;
+                LifetimeEntryCount = 3;
                 LifetimeMax = "1428.113705583335";
                 LifetimeMin = "148.7187548750001";
-                LifetimeSum = "1576.832460458335";
+                LifetimeSum = "2440.780037250002";
                 PersistedCount = 0;
             };
             Secondary =             {
@@ -175,48 +88,43 @@
                         {
                 name = "";
                 windows =                 (
-                    232,
-                    208,
-                    97,
-                    204,
-                    156,
-                    136,
-                    94,
-                    92,
-                    90,
-                    76,
-                    290
+                    271,
+                    180,
+                    205,
+                    116,
+                    143,
+                    159,
+                    160,
+                    256,
+                    254,
+                    252,
+                    249,
+                    38
                 );
             },
                         {
                 name = "549500BA-87CC-4E35-9E61-1DBAC4259948";
                 windows =                 (
-                    167,
-                    165,
-                    160,
-                    164,
-                    163,
-                    166,
-                    93,
-                    91,
-                    89,
-                    88,
-                    291,
-                    281
+                    184,
+                    183,
+                    182,
+                    176,
+                    181,
+                    179,
+                    255,
+                    253,
+                    251,
+                    250,
+                    39
                 );
             },
                         {
                 name = "0D2B2DF4-1A3E-4ACB-AFB9-E7F936F36F38";
                 windows =                 (
-                    231,
-                    292
-                );
-            },
-                        {
-                name = "D03C22CF-89A9-4107-99DC-5B0D98F3A417";
-                windows =                 (
-                    234,
-                    233
+                    292,
+                    291,
+                    218,
+                    40
                 );
             }
         );
