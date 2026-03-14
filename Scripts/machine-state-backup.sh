@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DOTFILES_DIR="${DOTFILES_DIR:-$HOME/.dotfiles}"
-STATE_DIR="${STATE_DIR:-$DOTFILES_DIR/machine-state}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+MACOS_DIR="$DOTFILES_DIR/macOS"
+STATE_DIR="${STATE_DIR:-$MACOS_DIR/machine-state}"
 PLIST_DIR="$STATE_DIR/plists"
 DEFAULTS_DIR="$STATE_DIR/defaults"
 RUNTIME_DIR="$STATE_DIR/runtime"
@@ -431,7 +433,7 @@ write_metadata() {
   {
     printf 'BACKUP_DATE=%q\n' "$BACKUP_DATE"
     printf 'BACKUP_TS=%q\n' "$BACKUP_TS"
-    printf 'DOTFILES_DIR=%q\n' "$DOTFILES_DIR"
+    printf 'DOTFILES_DIR=${DOTFILES_DIR:-$HOME/.dotfiles}\n'
     printf 'BACKUP_USER=%q\n' "$backup_user"
     printf 'BACKUP_GROUP=%q\n' "$backup_group"
     printf 'BACKUP_UID=%q\n' "$USER_UID"

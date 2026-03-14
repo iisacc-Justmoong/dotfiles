@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DOTFILES_DIR="${DOTFILES_DIR:-$HOME/.dotfiles}"
-STATE_DIR="${STATE_DIR:-$DOTFILES_DIR/machine-state}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+MACOS_DIR="$DOTFILES_DIR/macOS"
+STATE_DIR="${STATE_DIR:-$MACOS_DIR/machine-state}"
 PLIST_DIR="$STATE_DIR/plists"
 RUNTIME_DIR="$STATE_DIR/runtime"
 METADATA_FILE="$STATE_DIR/metadata.env"

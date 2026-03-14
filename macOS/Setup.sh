@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 MACOS_DIR="$DOTFILES_DIR/macOS"
 SCRIPTS_DIR="$DOTFILES_DIR/Scripts"
-STATE_DIR="$DOTFILES_DIR/machine-state"
+STATE_DIR="$MACOS_DIR/machine-state"
 PLIST_STATE_DIR="$STATE_DIR/plists"
 DEFAULTS_STATE_DIR="$STATE_DIR/defaults"
 PREFERENCES_STATE_DIR="$STATE_DIR/preferences"
@@ -110,7 +110,6 @@ copy_dir_contents_sudo() {
 
 grant_exec_permissions() {
   chmod +x "$SCRIPTS_DIR"/*.sh
-  chmod +x "$MACOS_DIR"/Scripts/*.sh
   chmod +x "$MACOS_DIR"/macos
   chmod +x "$MACOS_DIR"/shell/symlink.sh
 }
@@ -229,7 +228,9 @@ rewrite_dotfiles_launchagent_program() {
   esac
 
   if [[ -n "$script_path" && -f "$script_path" ]]; then
-    /usr/libexec/PlistBuddy -c "Set :ProgramArguments:0 $script_path" "$plist" >/dev/null 2>&1 || true
+    /usr/libexec/PlistBuddy -c "Delete :ProgramArguments" "$plist" >/dev/null 2>&1 || true
+    /usr/libexec/PlistBuddy -c "Add :ProgramArguments array" "$plist" >/dev/null
+    /usr/libexec/PlistBuddy -c "Add :ProgramArguments:0 string $script_path" "$plist" >/dev/null
   fi
 }
 
@@ -463,7 +464,7 @@ main() {
   zsh --version
 
   require_file "$DOTFILES_DIR/Brewfile"
-  require_file "$MACOS_DIR/Scripts/install_homebrew.sh"
+  require_file "$SCRIPTS_DIR/install_homebrew.sh"
   require_file "$MACOS_DIR/macos"
   require_file "$MACOS_DIR/shell/symlink.sh"
 
@@ -471,7 +472,7 @@ main() {
   grant_exec_permissions
   ensure_xcode_clt
 
-  "$MACOS_DIR/Scripts/install_homebrew.sh"
+  "$SCRIPTS_DIR/install_homebrew.sh"
   log "Homebrew installed"
 
   "$MACOS_DIR/shell/symlink.sh"

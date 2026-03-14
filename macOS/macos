@@ -1,6 +1,9 @@
 #!/bin/zsh
 # Inspired by https://github.com/mathiasbynens/dotfiles/blob/main/.macos
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+
 # Terminate System Prefernce Before Launch Scripts
 osascript -e 'tell application "System Preferences" to quit'
 
@@ -175,9 +178,9 @@ sudo spctl --master-disable
 
 # Apply
 # Dock Preference
-cp ~/.dotfiles/macOS/com.apple.dock.plist ~/Library/Preferences/com.apple.dock.plist
+cp "$DOTFILES_DIR/macOS/com.apple.dock.plist" "$HOME/Library/Preferences/com.apple.dock.plist"
 
-killAll Dock
-killAll Finder
+killall Dock
+killall Finder
 
 echo "macOS setup done"

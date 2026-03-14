@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-DOTFILES_DIR="${DOTFILES_DIR:-$HOME/.dotfiles}"
-STATE_DIR="${STATE_DIR:-$DOTFILES_DIR/machine-state}"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
+MACOS_DIR="$DOTFILES_DIR/macOS"
+STATE_DIR="${STATE_DIR:-$MACOS_DIR/machine-state}"
 RUNTIME_DIR="$STATE_DIR/runtime"
 BACKUP_DIR="$RUNTIME_DIR/pre-guard-backups"
 LOG_FILE="$RUNTIME_DIR/dev-env-guard.log"

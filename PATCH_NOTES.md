@@ -2,34 +2,34 @@
 
 ## 2026-02-18
 
-### 환경 붕괴 방지 자동화 (launchd/launchctl)
-- `Scripts/machine-env-guard.sh`를 추가해 30분 주기의 환경 가드를 구성했다.
-- 가드 동작:
-- 홈 심볼릭 링크 무결성 점검 및 이탈 시 자동 복구
-- 생성 파일 정리 스크립트 실행
-- 일일 백업 누락 시 `machine-state-backup.sh` 자동 실행
-- 주기적 `dev-env-doctor.sh` 실행 및 로그 보존
-- `.git` 루트 소유권 이상 감지 및 가능 시 자동 복구
-- `macOS/com.dotfiles.machine-env-guard.plist`를 추가했고 `macOS/Scripts/launchctl.sh`에 통합해 bootstrap/kickstart 자동 등록하도록 확장했다.
+### Environment Guard Automation (launchd/launchctl)
+- Added `Scripts/machine-env-guard.sh` as a 30-minute environment guard.
+- Guard behavior:
+- Verifies home-directory symlink integrity and repairs drift automatically.
+- Runs the generated-file cleanup script.
+- Triggers `machine-state-backup.sh` when the daily backup is missing.
+- Runs `dev-env-doctor.sh` periodically and keeps its logs.
+- Detects unexpected root ownership inside `.git` and repairs it when possible.
+- Added `macOS/com.dotfiles.machine-env-guard.plist` and integrated it into `Scripts/launchctl.sh` for automatic bootstrap and kickstart registration.
 
-### 시스템 정리
-- `~/` 기준 생성 파일 정리 스크립트 `Scripts/machine-clean-generated.sh`를 추가했다.
-- dotfiles 내부 Android 캐시/락 파일, `*.pysave`, `.DS_Store` 계열 정리 경로를 고정했다.
-- 기존 `com.user.*.plist` 및 `*.command` 레거시 실행 파일 제거 상태를 유지했다.
+### System Cleanup
+- Added `Scripts/machine-clean-generated.sh` for regenerable files under `~/`.
+- Fixed cleanup targets for Android cache and lock files, `*.pysave`, and `.DS_Store` artifacts inside dotfiles.
+- Preserved removal of legacy `com.user.*.plist` entries and `*.command` launchers.
 
-### 머신 상태 백업/복원
-- Dock/Finder 상태를 백업하는 `Scripts/machine-state-backup.sh`를 추가했다.
-- 다음 날 Dock/Finder를 덮어쓰는 `Scripts/machine-state-apply-next-day.sh`를 추가했다.
-- launchd 에이전트:
-  - `macOS/com.dotfiles.machine-state-apply-next-day.plist` (02:50)
-  - `macOS/com.dotfiles.machine-state-backup.plist` (03:00)
-- `macOS/Scripts/launchctl.sh`를 신규 에이전트 기준으로 교체했다.
+### Machine State Backup and Restore
+- Added `Scripts/machine-state-backup.sh` to capture Dock and Finder state.
+- Added `Scripts/machine-state-apply-next-day.sh` to re-apply Dock and Finder state on the next day.
+- launchd agents:
+- `macOS/com.dotfiles.machine-state-apply-next-day.plist` (02:50)
+- `macOS/com.dotfiles.machine-state-backup.plist` (03:00)
+- Replaced `Scripts/launchctl.sh` with the managed agent set.
 
-### 패키지/설정 보존 자동화
-- 백업 스크립트에서 `brew bundle dump --force --file ~/.dotfiles/Brewfile`을 실행하도록 구성했다.
-- `defaults read` 결과를 `machine-state/defaults/*.read.txt`로 저장하도록 구성했다.
-- `defaults read` 결과를 기반으로 `defaults write` 복원 스크립트 `machine-state/defaults/apply-defaults-write.sh`를 자동 생성하도록 구성했다.
+### Package and Preference Preservation
+- Configured the backup script to run `brew bundle dump --force --file "$DOTFILES_DIR/Brewfile"`.
+- Stored `defaults read` output under `macOS/machine-state/defaults/*.read.txt`.
+- Generated `macOS/machine-state/defaults/apply-defaults-write.sh` from captured `defaults read` output.
 
-### 설치 흐름 정리
-- `.command` 제거 정책에 맞춰 `macOS/Scripts/install_homebrew.sh`를 추가했다.
-- `macOS/Setup.sh`에서 끊어진 경로(`Scripts/*`) 참조를 `macOS/...` 기반 경로로 정정했다.
+### Setup Flow
+- Added `Scripts/install_homebrew.sh` under the `.command` removal policy.
+- Reworked `macOS/Setup.sh` and the machine-state scripts around `macOS/machine-state` and the root `Scripts/` directory.

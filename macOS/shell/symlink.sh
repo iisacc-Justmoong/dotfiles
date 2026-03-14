@@ -1,14 +1,19 @@
 #!/bin/zsh
+set -euo pipefail
 
-ln -sf ~/.dotfiles/.config ~/.config
-ln -sf ~/.dotfiles/macOS/shell/.oh-my-zsh ~/.oh-my-zsh
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+DOTFILES_DIR="${DOTFILES_DIR:-$(cd "$SCRIPT_DIR/../.." && pwd)}"
+MACOS_DIR="$DOTFILES_DIR/macOS"
 
-ln -sf ~/.dotfiles/macOS/shell/.zshrc ~/.zshrc
-ln -sf ~/.dotfiles/macOS/shell/.zshenv ~/.zshenv
-ln -sf ~/.dotfiles/macOS/shell/.zprofile ~/.zprofile
-ln -sf ~/.dotfiles/macOS/shell/.zlogin ~/.zlogin
-ln -sf ~/.dotfiles/macOS/shell/.profile ~/.profile
+ln -sf "$DOTFILES_DIR/.config" "$HOME/.config"
+ln -sf "$MACOS_DIR/shell/.oh-my-zsh" "$HOME/.oh-my-zsh"
 
-ln -sf ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/.dotfiles/.gitignore ~/.gitignore
-ln -sf ~/.dotfiles/.gitignore_global ~/.gitignore_global
+ln -sf "$MACOS_DIR/shell/.zshrc" "$HOME/.zshrc"
+ln -sf "$MACOS_DIR/shell/.zshenv" "$HOME/.zshenv"
+ln -sf "$MACOS_DIR/shell/.zprofile" "$HOME/.zprofile"
+ln -sf "$MACOS_DIR/shell/.zlogin" "$HOME/.zlogin"
+ln -sf "$MACOS_DIR/shell/.profile" "$HOME/.profile"
+
+ln -sf "$DOTFILES_DIR/.gitconfig" "$HOME/.gitconfig"
+ln -sf "$DOTFILES_DIR/.gitignore" "$HOME/.gitignore"
+ln -sf "$DOTFILES_DIR/.gitignore_global" "$HOME/.gitignore_global"

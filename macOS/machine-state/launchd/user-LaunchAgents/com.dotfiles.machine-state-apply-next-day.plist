@@ -3,19 +3,21 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.dotfiles.machine-state-backup</string>
+    <string>com.dotfiles.machine-state-apply-next-day</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/ymy/.dotfiles/Scripts/machine-state-backup.sh</string>
+      <string>/bin/bash</string>
+      <string>-lc</string>
+      <string>exec "${DOTFILES_DIR:-$HOME/.dotfiles}/Scripts/machine-state-apply-next-day.sh"</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>StartCalendarInterval</key>
     <dict>
       <key>Hour</key>
-      <integer>3</integer>
+      <integer>2</integer>
       <key>Minute</key>
-      <integer>0</integer>
+      <integer>50</integer>
     </dict>
   </dict>
 </plist>
