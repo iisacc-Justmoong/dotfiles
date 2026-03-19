@@ -7,7 +7,8 @@
     };
     AppExitGraceful = 1;
     AppVersions =     {
-        "/Applications/Microsoft Excel.app" = "16.107.26030819";
+        "/Applications/Microsoft Excel.app" = "16.107.26031524";
+        "/Applications/Microsoft Teams.app" = "26032.605.4378.6183";
         "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" = "4.82.26020434";
         "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" = "16.105.26011018";
     };
@@ -16,7 +17,13 @@
             "App Domain" = "com.microsoft.office";
             "Application ID" = XCEL2019;
             LCID = 1033;
-            "Last Updated Version" = "16.107.26030819";
+            "Last Updated Version" = "16.107.26031524";
+        };
+        "/Applications/Microsoft Teams.app" =         {
+            "Application ID" = TEAMS21;
+            ChannelName = Current;
+            LCID = 1033;
+            "Last Update Seen" = "2026-03-19 05:21:42 +0000";
         };
         "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" =         {
             "Application ID" = MSau04;
@@ -32,9 +39,14 @@
     ApplicationsForcedUpdateSchedule =     {
     };
     CrashActionServiceUrlKey = "https://officeci.azurewebsites.net/api/";
-    LastUpdate = "2026-03-14 00:19:53 +0000";
+    LastUpdate = "2026-03-19 05:21:42 +0000";
     OSLocale = "en_KR";
     OSVersion = "26.2";
+    OptionalUpdatesDeferrals =     {
+        DeferralVersions =         {
+            TEAMS21 = "26043.2109.4484.3337";
+        };
+    };
     SessionDuration = "3.316947937011719";
     SessionId = "67152D75-9FB6-4A2A-B588-BECA102869DB";
     SessionLongBuildNumber = 25121042;

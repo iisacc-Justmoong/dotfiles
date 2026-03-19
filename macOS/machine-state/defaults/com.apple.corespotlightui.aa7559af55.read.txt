@@ -1,8 +1,8 @@
 {
     CSReceiverBundleIdentifierState =     {
+        "Cisco-Systems.Spark" = 1;
         "Kevin.LaunchNow" = 1;
         LaunchNext = 1;
-        "N4RA379GBW.com.busymac.busycal3.alarm" = 1;
         "bot.molt.mac" = 1;
         "com.adobe.Acrobat.Pro" = 1;
         "com.adobe.Photoshop" = 1;
@@ -23,6 +23,7 @@
         "com.apple.AvatarUI.AvatarPickerMemojiPicker" = 1;
         "com.apple.Battery-Settings.extension" = 1;
         "com.apple.BluetoothSettings" = 1;
+        "com.apple.CMViewSrvc" = 1;
         "com.apple.CalendarUI" = 1;
         "com.apple.CertificateAssistant" = 1;
         "com.apple.ContactsUI.ContactPickerService" = 1;
@@ -38,6 +39,7 @@
         "com.apple.ExtensionsSettings.DefaultExtensionEnablement" = 1;
         "com.apple.Family-Settings.extension" = 1;
         "com.apple.FinalCut" = 1;
+        "com.apple.Focus-Settings.extension" = 1;
         "com.apple.FolderActionsSetup" = 1;
         "com.apple.FollowUpSettings.FollowUpSettingsExtension" = 1;
         "com.apple.GamePolicyAgent" = 1;
@@ -77,6 +79,7 @@
         "com.apple.ScreenContinuity" = 1;
         "com.apple.SecurityAgent" = 1;
         "com.apple.SetupAssistant" = 1;
+        "com.apple.Sharing-Settings.extension" = 1;
         "com.apple.Siri" = 1;
         "com.apple.Siri-Settings.extension" = 1;
         "com.apple.SiriNCService" = 1;
@@ -94,11 +97,13 @@
         "com.apple.TextInputMenuAgent" = 1;
         "com.apple.TextInputSwitcher" = 1;
         "com.apple.TextInputUI.xpc.CursorUIViewService" = 1;
+        "com.apple.Ticket-Viewer" = 1;
         "com.apple.Touch-ID-Settings.extension" = 1;
         "com.apple.Translation.TranslationAPISupportExtension" = 1;
         "com.apple.TranslationUIServices.TranslationUIService" = 1;
         "com.apple.TransporterApp" = 1;
         "com.apple.UserNotificationCenter" = 1;
+        "com.apple.Users-Groups-Settings.extension" = 1;
         "com.apple.VoiceMemos" = 1;
         "com.apple.WalletSettingsExtension" = 1;
         "com.apple.Wallpaper-Settings.extension" = 1;
@@ -124,6 +129,7 @@
         "com.apple.duetexpertd" = 1;
         "com.apple.fileprovider.fileproviderd" = 1;
         "com.apple.finder" = 1;
+        "com.apple.frameworks.diskimages.diuiagent" = 1;
         "com.apple.helpviewer" = 1;
         "com.apple.iCal" = 1;
         "com.apple.inputmethod.ironwood" = 1;
@@ -142,9 +148,11 @@
         "com.apple.news" = 1;
         "com.apple.notificationcenterui" = 1;
         "com.apple.osascript" = 1;
+        "com.apple.parsec.itunes.desktopApp" = 1;
         "com.apple.parsecd" = 1;
         "com.apple.peopled" = 1;
         "com.apple.pixelmator" = 1;
+        "com.apple.preferences.sharing.SharingPrefsExtension" = 1;
         "com.apple.print.add" = 1;
         "com.apple.printcenter" = 1;
         "com.apple.quicklook.QuickLookUIService" = 1;
@@ -159,6 +167,7 @@
         "com.apple.spotlight.contacts" = 1;
         "com.apple.spotlightknowledged" = 1;
         "com.apple.stocks" = 1;
+        "com.apple.systemevents" = 1;
         "com.apple.systempreferences" = 1;
         "com.apple.systempreferences.AppleIDSettings" = 1;
         "com.apple.systemuiserver" = 1;
@@ -174,6 +183,9 @@
         "com.bambulab.bambu-studio" = 1;
         "com.blackmagic-design.DaVinciResolveLite" = 1;
         "com.boardtack.ScanTexter" = 1;
+        "com.box.Box-Edit-Installer" = 1;
+        "com.box.desktop" = 1;
+        "com.box.desktop.ui" = 1;
         "com.busymac.busycal3" = 1;
         "com.busymac.busycal3.alarm" = 1;
         "com.canva.CanvaDesktop" = 1;
@@ -189,11 +201,14 @@
         "com.googlecode.iterm2" = 1;
         "com.hnc.Discord" = 1;
         "com.iisacc.vincent.painter" = 1;
+        "com.isaacmarovitz.Whisky" = 1;
         "com.jetbrains.CLion" = 1;
         "com.jetbrains.WebStorm" = 1;
+        "com.jetbrains.air" = 1;
         "com.jetbrains.pycharm" = 1;
         "com.jetbrains.toolbox" = 1;
         "com.kakao.KakaoTalkMac" = 1;
+        "com.kodlian.Icon-Slate" = 1;
         "com.kyome.RunCat" = 1;
         "com.literatureandlatte.scrivener3" = 1;
         "com.logi.cp-dev-mgr" = 1;
@@ -206,6 +221,7 @@
         "com.microsoft.Word" = 1;
         "com.microsoft.autoupdate2" = 1;
         "com.microsoft.onenote.mac" = 1;
+        "com.microsoft.teams2" = 1;
         "com.mortenjust.AndroidTool" = 1;
         "com.ngocluu.goodlinks" = 1;
         "com.openai.atlas" = 1;
@@ -215,9 +231,12 @@
         "com.pilotmoon.popclip" = 1;
         "com.pixelmatorteam.pixelmator.x" = 1;
         "com.renfei.SnippetsLab" = 1;
+        "com.robtop.geometrydashmac" = 1;
         "com.robtop.geometryjump" = 1;
         "com.sindresorhus.Day-Progress" = 1;
+        "com.tinyspeck.slackmacgap" = 1;
         "com.unicorn-soft.unicornhttpsformac" = 1;
+        "com.valvesoftware.steam" = 1;
         "com.valvesoftware.steam.helper" = 1;
         "com.wacom.FirmwareUpdater" = 1;
         "com.wacom.IOManager" = 1;
@@ -232,6 +251,7 @@
         "io.fadel.MissionControlPlus" = 1;
         "io.tailscale.ipn.macos" = 1;
         "jh.dayplanner" = 1;
+        "kr.co.lylstudio.unicorn-mac-safari" = 1;
         "mertbulan.TranslateBar" = 1;
         "net.televator.Vimari" = 1;
         "net.whatsapp.WhatsApp" = 1;

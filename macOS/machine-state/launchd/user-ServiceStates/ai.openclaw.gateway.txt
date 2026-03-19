@@ -16,7 +16,7 @@ gui/501/ai.openclaw.gateway = {
 	stdout path = /Users/ymy/.openclaw/logs/gateway.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /private/tmp/com.apple.launchd.bas5Tnhf4j/Listeners
+		SSH_AUTH_SOCK => /private/tmp/com.apple.launchd.LEXHhsp1aJ/Listeners
 	}
 
 	default environment = {
@@ -32,7 +32,7 @@ gui/501/ai.openclaw.gateway = {
 		OPENCLAW_WINDOWS_TASK_NAME => OpenClaw Gateway
 		NODE_EXTRA_CA_CERTS => /etc/ssl/cert.pem
 		OPENCLAW_LAUNCHD_LABEL => ai.openclaw.gateway
-		PATH => /Users/ymy/.nvm:/Users/ymy/.local/bin:/Users/ymy/.npm-global/bin:/Users/ymy/bin:/Users/ymy/.volta/bin:/Users/ymy/.asdf/shims:/Users/ymy/.bun/bin:/Users/ymy/Library/Application Support/fnm/aliases/default/bin:/Users/ymy/.fnm/aliases/default/bin:/Users/ymy/Library/pnpm:/Users/ymy/.local/share/pnpm:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+		PATH => /Users/ymy/.local/bin:/Users/ymy/.npm-global/bin:/Users/ymy/bin:/Users/ymy/.volta/bin:/Users/ymy/.asdf/shims:/Users/ymy/.bun/bin:/Users/ymy/Library/Application Support/fnm/aliases/default/bin:/Users/ymy/.fnm/aliases/default/bin:/Users/ymy/Library/pnpm:/Users/ymy/.local/share/pnpm:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
 		HOME => /Users/ymy
 		OPENCLAW_SERVICE_KIND => gateway
 		OPENCLAW_SERVICE_MARKER => openclaw
@@ -45,10 +45,10 @@ gui/501/ai.openclaw.gateway = {
 	asid = 100024
 	minimum runtime = 1
 	exit timeout = 5
-	runs = 61
-	pid = 25981
-	immediate reason = inefficient
-	forks = 13
+	runs = 1
+	pid = 1046
+	immediate reason = speculative
+	forks = 20
 	execs = 1
 	initialized = 1
 	trampolined = 1
@@ -57,10 +57,10 @@ gui/501/ai.openclaw.gateway = {
 	checked allocations = 0 (queried = 1)
 	checked allocations reason = no host
 	checked allocations flags = 0x0
-	last exit code = 1
+	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 2179
+		ID = 1143
 		type = resource
 		state = active
 		active count = 1
@@ -68,7 +68,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 2180
+		ID = 1144
 		type = jetsam
 		state = active
 		active count = 1
@@ -84,5 +84,5 @@ gui/501/ai.openclaw.gateway = {
 	cpumon = default
 	job state = running
 
-	properties = partial import | keepalive | runatload | inferred program
+	properties = partial import | keepalive | runatload | inferred program | managed LWCR | has LWCR
 }

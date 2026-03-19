@@ -1140,6 +1140,48 @@
                     "public.plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0x10e0690fbf28143718e2d0e312b3b08ce940c455};
+            },
+                        {
+                NSBundleIdentifier = "com.kodlian.Icon-Slate";
+                NSBundlePath = "/Applications/Icon Slate.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Convert to icon(s)";
+                    default = "Convert to icon(s)";
+                    empty = "Convert to icon(s)";
+                    en = "Convert to icon(s)";
+                    "en-US" = "Convert to icon(s)";
+                };
+                NSMessage = convertFromPasteboard;
+                NSRequiredContext =                 {
+                };
+                NSSendFileTypes =                 (
+                    "public.image"
+                );
+                NSUUID = {length = 20, bytes = 0x531f3822ad6589f088ff39fec0edc2b40e272841};
+                NSUserData = "";
+            },
+                        {
+                NSBundleIdentifier = "com.kodlian.Icon-Slate";
+                NSBundlePath = "/Applications/Icon Slate.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Combine into one icon";
+                    default = "Combine into one icon";
+                    empty = "Combine into one icon";
+                    en = "Combine into one icon";
+                    "en-US" = "Combine into one icon";
+                };
+                NSMessage = combineFromPasteboard;
+                NSRequiredContext =                 {
+                };
+                NSSendFileTypes =                 (
+                    "public.image"
+                );
+                NSUUID = {length = 20, bytes = 0x4b3646093a84966ac8d7deb8dfd2db8fa0decc26};
+                NSUserData = group;
             }
         );
         CFVersion = 2;

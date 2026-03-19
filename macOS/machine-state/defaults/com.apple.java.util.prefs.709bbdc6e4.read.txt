@@ -23,9 +23,11 @@
                 };
             };
             "device_id" = "17012623e7fb4d6-b83c-4302-bb70-0d6325418f96";
-            "ea_device_id" = "1701262e66a7b5e-69d6-452d-a73b-88744e2d895f";
+            "ea_device_id" = "2026-03-16_fb3da1ea-abce-4c82-9550-4d5b3094ba04";
             "feature_usage_event_log_salt" = "F1IFXKhv8hfoBKL+Ui6CyAyYTvhr3K+spvNhCla20Yk=";
             "feature_usage_event_log_salt_tba" = "u/sfJWVpciJStnf6mnmaekmIbyz846BAkVN+V4BuDqA=";
+            "flt_device_id" = "2026-03-16_9b2450dc-e18e-4126-a606-40f12dfde625";
+            "flt_llmc_device_id" = "2026-03-16_ea45f86e-fae9-401d-877f-6c7bd49aafec";
             "jetprofile/" =             {
                 "asset/" =                 {
                 };
@@ -34,7 +36,7 @@
             };
             "llmc_device_id" = "180126273718d7e-70c6-4192-b896-976ae2d80f7e";
             "llmc_feature_usage_event_log_salt" = "soQ1uF6GB3RMn0p65Gx196kPYqcvZV/JCK01XZQ9XqQ=";
-            "marketplacedownloads_device_id" = "1701262ac456aaa-686a-41f9-9cd8-dd2a25721f6d";
+            "marketplacedownloads_device_id" = "2026-03-16_aba3f9a1-17ad-403b-b8ea-e0bac3155f6f";
             "ml_device_id" = "1801262681233cf-4d60-426f-a24a-b110121ad0d1";
             "ml_feature_usage_event_log_salt" = "Ycaqn6AKoSJjhGe/bBz63Uwdt1/YCI1KBIeSdM0AfRw=";
             "mp_device_id" = "1801262cfa97449-6e92-41b8-8cba-464784835934";
@@ -53,6 +55,7 @@
                 machineid = "9c227b7e-4adf-4a07-8c4a-26a0a00fbc47";
             };
             "region/" =             {
+                code = apac;
             };
             "trace_device_id" = "0602262e81ed85d-d5f6-4dde-b1bb-c4747e20568a";
             "trace_feature_usage_event_log_salt" = "J2p64gjanGyyMreFYvr/YiXjYHq8TFUP97kX9lVY8/I=";

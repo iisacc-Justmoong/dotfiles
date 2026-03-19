@@ -15,12 +15,12 @@
             Duplex = None;
             HPInvalidPaperSize = false;
             "com.apple.print.DialogDismissedBy" = Print;
-            "com.apple.print.PDEsUsed" = Safari;
+            "com.apple.print.PDEsUsed" = Preview;
             "com.apple.print.PageToPaperMappingAllowScalingUp" = 1;
             "com.apple.print.PrintSettings.PMColorSpaceModel" = 2;
             "com.apple.print.PrintSettings.PMDuplexing" = 1;
-            "com.apple.print.pageRange" = "All 0 Pages";
-            "com.apple.print.totalPages" = 1;
+            "com.apple.print.pageRange" = "All 7 Pages";
+            "com.apple.print.totalPages" = 7;
         };
     };
 }

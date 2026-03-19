@@ -1,5 +1,5 @@
 {
-    ACDMonthlyAnalyticsLastPosted = "792925858.359748";
+    ACDMonthlyAnalyticsLastPosted = "795519846.949706";
     AKLastIDMSEnvironment = 0;
     AKLastLocale = "en_KR";
     AppleAntiAliasingThreshold = 4;
@@ -42,7 +42,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-03-13 13:09:28 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-03-18 13:28:44 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -414,8 +414,12 @@
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
+            "com.Box.Box-Edit.BoxEditFinderExtension" = 1;
         };
         dirMap =         {
+            "com.Box.Box-Edit.BoxEditFinderExtension" =             (
+                "file:///Users/ymy/Library/Application%20Support/Box/Box%20Edit/"
+            );
         };
     };
     "com.apple.mouse.scaling" = "0.5";

@@ -206,6 +206,46 @@
                 Date = "2026-03-14 13:39:48";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-03-14 22:57:50";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-14 23:03:29";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-15 08:18:31";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-16 04:41:18";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-16 20:30:22";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-17 13:21:45";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-18 12:29:44";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-19 14:20:57";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -255,13 +295,9 @@
     );
     customFonts = 0;
     displaysLastCursorLocation =     {
-        0 =         {
-            X = "6.64453125";
-            Y = 1440;
-        };
-        2 =         {
-            X = "628.7734375";
-            Y = "49.98828125";
+        1 =         {
+            X = 10;
+            Y = 1430;
         };
     };
     grayscale = 0;

@@ -32,7 +32,7 @@
         };
     };
     DownloadsFolderListViewSettingsVersion = 1;
-    EmptyTrashProgressWindowLocation = "{1462, 385}";
+    EmptyTrashProgressWindowLocation = "{2102, 690}";
     "FK_AppCentricShowSidebar" = 1;
     "FK_DefaultListViewSettingsV2" =     {
         calculateAllSizes = 0;
@@ -41,7 +41,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 275;
+                width = 258;
             },
                         {
                 ascending = 0;
@@ -462,51 +462,42 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 672, bytes = 0x626f6f6b a0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Qt;
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = emsdk;
-        },
-                {
-            "file-bookmark" = {length = 876, bytes = 0x626f6f6b 6c030000 00000510 40000000 ... 04000000 00000000 };
-            name = "Linked Files";
-        },
-                {
-            "file-bookmark" = {length = 832, bytes = 0x626f6f6b 40030000 00000510 40000000 ... 04000000 00000000 };
-            name = Photomator;
+            "file-bookmark" = {length = 820, bytes = 0x626f6f6b 34030000 00000510 40000000 ... 04000000 00000000 };
+            name = Keynote;
         },
                 {
             "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
             name = "iCloud Drive";
         },
                 {
-            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
-            name = emulated;
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
         },
                 {
-            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
-            name = static;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            "file-bookmark" = {length = 896, bytes = 0x626f6f6b 80030000 00000510 40000000 ... 04000000 00000000 };
+            name = navigation;
+        },
+                {
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -717,10 +708,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{575, 436}, {979, 859}}";
+            WindowBounds = "{{820, 501}, {920, 694}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 88010000 00000000 };
     "NSToolbar Configuration Browser" =     {
@@ -738,12 +729,25 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1939, 363}, {920, 939}}";
+            WindowBounds = "{{820, 501}, {920, 694}}";
         };
     };
     NewWindowTarget = PfHm;
+    PackageViewSettings =     {
+        WindowState =         {
+            ContainerShowSidebar = 1;
+            ShowSidebar = 1;
+            ShowStatusBar = 1;
+            ShowTabView = 0;
+            ShowToolbar = 1;
+            WindowBounds = "{{709, 546}, {920, 492}}";
+        };
+    };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
+        "file:///Users/ymy/Pictures/",
+        "file:///Users/ymy/Library/Application%20Support/Steam/steamapps/common/Geometry%20Dash/Geometry%20Dash.app/Contents/geode/mods/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Users/ymy/Library/CloudStorage/MacDroid-samsungSM-G988N/storage/emulated/0/",
         "file:///Users/ymy/Documents/"

@@ -2,17 +2,18 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	active count = 0
 	path = /Users/ymy/Library/LaunchAgents/ai.openclaw.gateway.watchdog.plist
 	type = LaunchAgent
-	state = not running
+	state = spawn scheduled
 
 	program = /Users/ymy/.openclaw/bin/gateway-watchdog.sh
 	arguments = {
 		/Users/ymy/.openclaw/bin/gateway-watchdog.sh
+		--daemon
 	}
 
 	stdout path = /Users/ymy/.openclaw/logs/gateway-watchdog.out.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway-watchdog.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /private/tmp/com.apple.launchd.bas5Tnhf4j/Listeners
+		SSH_AUTH_SOCK => /private/tmp/com.apple.launchd.LEXHhsp1aJ/Listeners
 	}
 
 	default environment = {
@@ -28,13 +29,13 @@ gui/501/ai.openclaw.gateway.watchdog = {
 
 	domain = gui/501 [100024]
 	asid = 100024
-	minimum runtime = 10
+	minimum runtime = 5
 	exit timeout = 5
-	runs = 9
+	runs = 12
 	last exit code = 0
 
 	resource coalition = {
-		ID = 2177
+		ID = 1191
 		type = resource
 		state = active
 		active count = 1
@@ -42,7 +43,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	}
 
 	jetsam coalition = {
-		ID = 2178
+		ID = 1192
 		type = jetsam
 		state = active
 		active count = 1
@@ -56,7 +57,6 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	jetsamproperties category = daemon
 	jetsam thread limit = 32
 	cpumon = default
-	run interval = 60 seconds
 
-	properties = runatload | inferred program
+	properties = keepalive | runatload | inferred program | managed LWCR
 }

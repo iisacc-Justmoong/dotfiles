@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "795155995.54695"
+        "795497390.560804"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2606;
+    "mod-count" = 2686;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -28,6 +28,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3854750534;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1152347582;
+            "tile-data" =             {
+                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3850606304;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 208661957576666;
             };
             "tile-type" = "file-tile";
         },
@@ -63,7 +81,7 @@
                 "file-mod-date" = 33173887120584;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 245057509686847;
+                "parent-mod-date" = 258225880218756;
             };
             "tile-type" = "file-tile";
         },
@@ -117,7 +135,7 @@
                 "file-mod-date" = 252152794262431;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 62414025480110;
+                "parent-mod-date" = 13468578900911;
             };
             "tile-type" = "file-tile";
         },
@@ -132,10 +150,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Vincent;
-                "file-mod-date" = 99728700149501;
+                "file-mod-date" = 117625830756477;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 77424934981373;
+                "parent-mod-date" = 96945563226237;
             };
             "tile-type" = "file-tile";
         },
@@ -176,74 +194,56 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2314632289;
-            "tile-data" =             {
-                book = {length = 604, bytes = 0x626f6f6b 5c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.QuickTimePlayerX";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/QuickTime%20Player.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "QuickTime Player";
-                "file-mod-date" = 3854835692;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3854835692;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1629221519;
+            GUID = 1152347579;
             "tile-data" =             {
                 book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.blackmagic-design.DaVinciResolveLite";
+                "bundle-identifier" = "com.apple.FinalCut";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/DaVinci%20Resolve.app/";
+                    "_CFURLString" = "file:///Applications/Final%20Cut%20Pro.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "DaVinci Resolve";
-                "file-mod-date" = 23690600310644;
+                "file-label" = "Final Cut Pro";
+                "file-mod-date" = 156572594210343;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 79752808425523;
+                "parent-mod-date" = 208661957576666;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2314632279;
+            GUID = 1152347580;
+            "tile-data" =             {
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.motionapp";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Motion.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Motion;
+                "file-mod-date" = 80908155357144;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 208661957576666;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1152347581;
             "tile-data" =             {
                 book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.logic10";
+                "bundle-identifier" = "com.apple.garageband10";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Logic%20Pro.app/";
+                    "_CFURLString" = "file:///Applications/GarageBand.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Logic Pro";
-                "file-mod-date" = 121581492483749;
+                "file-label" = GarageBand;
+                "file-mod-date" = 212089341408978;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 279000634822991;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3758810805;
-            "tile-data" =             {
-                book = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.freeform";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Freeform.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Freeform;
-                "file-mod-date" = 3854835692;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3854835692;
+                "parent-mod-date" = 208661957576666;
             };
             "tile-type" = "file-tile";
         },
@@ -284,38 +284,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 623595927;
+            GUID = 1152347586;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.microsoft.Excel";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Microsoft%20Excel.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Microsoft Excel";
-                "file-mod-date" = 45556277383480;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 7081960693644;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 625966331;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.busymac.busycal3";
+                book = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.iCal";
                 "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/BusyCal.app/";
+                    "_CFURLString" = "file:///System/Applications/Calendar.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = BusyCal;
-                "file-mod-date" = 3832236210;
+                "file-label" = Calendar;
+                "file-mod-date" = 3854835692;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 158363593153407;
+                "parent-mod-date" = 3854835692;
             };
             "tile-type" = "file-tile";
         },
@@ -338,24 +320,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 625966332;
-            "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.openai.atlas";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/ChatGPT%20Atlas.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "ChatGPT Atlas";
-                "file-mod-date" = 114026646057821;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 250284483903035;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 623595938;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -366,10 +330,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 138104234594328;
+                "file-mod-date" = 77661160021955;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 81376306683819;
+                "parent-mod-date" = 13468578900911;
             };
             "tile-type" = "file-tile";
         },
@@ -402,10 +366,46 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3853113203;
+                "file-mod-date" = 3854835692;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3853113203;
+                "parent-mod-date" = 3854835692;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1152347584;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.tinyspeck.slackmacgap";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Slack.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Slack;
+                "file-mod-date" = 242476235122118;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 8275963438609;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1152347585;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "Cisco-Systems.Spark";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Webex.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Webex;
+                "file-mod-date" = 3855382205;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 193706881476460;
             };
             "tile-type" = "file-tile";
         },
@@ -562,25 +562,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3758810806;
+            GUID = 2144178191;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.daisydiskapp.DaisyDisk";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/DaisyDisk.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = DaisyDisk;
-                "file-mod-date" = 134487870967423;
+                "file-label" = Messages;
+                "file-mod-date" = 3854835692;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 42382298605854;
+                "parent-mod-date" = 3854835692;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4267311732;
+            GUID = 4131446957;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -593,12 +593,12 @@
                 "file-mod-date" = 271755022246264;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 138546616374886;
+                "parent-mod-date" = 42077356312810;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4267311733;
+            GUID = 4131446958;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -608,10 +608,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 87071428514385;
+                "file-mod-date" = 119949408324825;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 138546616374886;
+                "parent-mod-date" = 42077356312810;
             };
             "tile-type" = "file-tile";
         }
@@ -621,7 +621,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

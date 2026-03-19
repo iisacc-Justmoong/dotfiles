@@ -21,7 +21,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 18, missing cask: 5
+[WARN] Missing formula: 18, missing cask: 6
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openai-whisper
@@ -42,10 +42,11 @@ steipete/tap/wacli
 yakitrak/yakitrak/obsidian-cli
 1password-cli
 balenaetcher
+chatgpt-atlas
 discord
 obs
 visual-studio-code
-[WARN] Extra formula: 130, extra cask: 0
+[WARN] Extra formula: 130, extra cask: 2
 ada-url
 aom
 apr
@@ -66,6 +67,8 @@ emacs
 fmt
 fontconfig
 freetds
+chatgpt
+steam
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=/Users/ymy/Qt/6.8.3/macos

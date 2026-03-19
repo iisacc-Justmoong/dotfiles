@@ -5,14 +5,14 @@
     "ATXIntentCache.OSVersion" = 25D2128;
     ATXPrivacyPreservingLocationHashDeviceSpecificSalt = {length = 8, bytes = 0xbd84be40576f22e8};
     "ATXUpdatePredictionsLoggerCountsDictionary-ActionPredictions" =     {
-        "TRIGGER_TYPE_APPLAUNCH" = 1702;
-        "TRIGGER_TYPE_CTS" = 420;
-        "TRIGGER_TYPE_OTHER" = 314;
-        "TRIGGER_TYPE_TOTAL" = 2436;
+        "TRIGGER_TYPE_APPLAUNCH" = 1869;
+        "TRIGGER_TYPE_CTS" = 436;
+        "TRIGGER_TYPE_OTHER" = 354;
+        "TRIGGER_TYPE_TOTAL" = 2659;
     };
     AppDirectoryLastLogProcessedDate = "2026-01-17 11:39:27 +0000";
     CurrentMirroredPhoneIDSIdentifier = "3927ED26-2D06-4875-B219-FEACF9C6E035";
-    "NotificationNextAppLaunchRecorder-AppLaunchTimestamp" = "795093292.00761";
+    "NotificationNextAppLaunchRecorder-AppLaunchTimestamp" = "795514790.406546";
     "com.apple.duetexpertd.anchormodel.dataharvester.enrollmentmanager::currentEnrollmentUserId" = "8AA46DEB-243F-400C-ABF6-5D8971B5CE9B";
     "com.apple.duetexpertd.anchormodel.dataharvester.enrollmentmanager::lastEnrolled" = "1768709546.621963";
     "com.apple.duetexpertd.anchormodel.dataharvester.samplinggroup.samplinggroupid" = 1;
@@ -23,11 +23,11 @@
     lastMinorOSUpgradeMinorVersion = 3;
     luckMigration = 1;
     modeAppSessionPipelineLastKnownModeKey = 14;
-    modeAppSessionPipelineLastRunTimestampKey = "795143436.8786139";
+    modeAppSessionPipelineLastRunTimestampKey = "795497823.811635";
     modeDeviceUsagePipelineLastKnownModeKey = 14;
-    modeDeviceUsagePipelineLastRunTimestampKey = "795093087.807711";
+    modeDeviceUsagePipelineLastRunTimestampKey = "795414099.270875";
     modeScoreFilesUpgradeTimeKey = "790332981.870167";
-    notificationTelemetryLoggingTimestampKey = "794488607.335885";
+    notificationTelemetryLoggingTimestampKey = "794910044.000191";
     showInSearchToSuggestOnHomeScreenMigration = 1;
     suggestionsMetricsTimestamp = 0;
 }
