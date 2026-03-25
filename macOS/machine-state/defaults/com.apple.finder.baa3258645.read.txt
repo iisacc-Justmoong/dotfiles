@@ -462,20 +462,24 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Student;
+            "file-bookmark" = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
         },
                 {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Noted;
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
-            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
-            name = History;
+            "file-bookmark" = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
         },
                 {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
+            "file-bookmark" = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+            name = homebrew;
+        },
+                {
+            "file-bookmark" = {length = 532, bytes = 0x626f6f6b 14020000 00000510 40000000 ... 04000000 00000000 };
+            name = opt;
         },
                 {
             "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
@@ -486,28 +490,22 @@
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Records;
-        },
-                {
-            "file-bookmark" = {length = 1132, bytes = 0x626f6f6b 6c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Screenshots;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = resources;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            name = WhatSon;
+        },
+                {
+            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
+            name = "build-trial";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "com.box.desktop.findersyncext",
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -718,10 +716,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{950, 374}, {962, 715}}";
+            WindowBounds = "{{878, 231}, {920, 714}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
     "NSToolbar Configuration Browser" =     {

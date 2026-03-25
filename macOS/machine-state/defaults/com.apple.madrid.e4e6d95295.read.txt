@@ -10,7 +10,7 @@
     CloudKitIsRemovedFromBackup = 0;
     CloudKitIsSyncing = 0;
     CloudKitLastDownloadProgress = 0;
-    CloudKitSyncDate = "2026-03-24 09:26:55 +0000";
+    CloudKitSyncDate = "2026-03-25 07:57:59 +0000";
     CloudKitSyncingEnabled = 1;
     CloudKitTelemetrySyncVersion = 1;
     CloudKitVerifyFirstRestoreDateVersion = 1;
@@ -33,9 +33,9 @@
         CloudKitFirstRestoreAttemptedDateProductBuildVersion = 25C56;
         CloudKitFirstRestoreCompletedDate = "1768641635.074519";
         CloudKitFirstRestoreCompletedDateProductBuildVersion = 25C56;
-        CloudKitFullSyncAttemptedDate = "1774344398.213932";
+        CloudKitFullSyncAttemptedDate = "1774425467.300847";
         CloudKitFullSyncAttemptedDateProductBuildVersion = 25D2128;
-        CloudKitFullSyncCompletedDate = "1774344415.676393";
+        CloudKitFullSyncCompletedDate = "1774425479.211758";
         CloudKitFullSyncCompletedDateProductBuildVersion = 25D2128;
         CloudKitFullSyncFirstCompletedDate = "1768641641.798997";
         CloudKitFullSyncFirstCompletedDateProductBuildVersion = 25C56;
@@ -45,7 +45,7 @@
         CloudKitInitialSyncCompletedDateProductBuildVersion = 25C56;
         CloudKitInitialSyncFirstCompletedDate = "1768641603.321866";
         CloudKitInitialSyncFirstCompletedDateProductBuildVersion = 25C56;
-        CloudKitSyncDate = "1774344415.676393";
+        CloudKitSyncDate = "1774425479.211758";
         CloudKitSyncDateProductBuildVersion = 25D2128;
     };
     IMCloudKitStartingDisableDevices = 0;
@@ -73,15 +73,15 @@
         );
     };
     LocalDBStats =     {
-        allSynced = 3570;
+        allSynced = 3577;
         attStats =         {
-            "Status 0" = 2;
-            "Status 1" = 116;
+            "Status 0" = 1;
+            "Status 1" = 117;
             total = 118;
         };
         chatStats =         {
-            "Status 0" = 2;
-            "Status 1" = 712;
+            "Status 0" = 1;
+            "Status 1" = 713;
             total = 714;
         };
         deletedAttachments = 0;
@@ -90,17 +90,17 @@
         deletedRecoverableMessages = 0;
         msgStats =         {
             "Status 0" = 2;
-            "Status 1" = 2740;
-            total = 2742;
+            "Status 1" = 2745;
+            total = 2747;
         };
-        syncedAttachments = 116;
-        syncedChats = 712;
-        syncedMessages = 2740;
+        syncedAttachments = 117;
+        syncedChats = 713;
+        syncedMessages = 2745;
         syncedRecoverableMessages = 2;
         totalAttachments = 118;
         totalChats = 714;
-        totalCount = 3576;
-        totalMessages = 2742;
+        totalCount = 3581;
+        totalMessages = 2747;
         totalRecoverableMessages = 2;
         updateT1NeedingSync = 0;
         updateT2NeedingSync = 0;
@@ -110,7 +110,7 @@
     "Server.TotalRecords.attachmentManateeZone" = 117;
     "Server.TotalRecords.chat1ManateeZone" = 36;
     "Server.TotalRecords.chatManateeZone" = 708;
-    "Server.TotalRecords.messageManateeZone" = 5765;
+    "Server.TotalRecords.messageManateeZone" = 5764;
     "Server.TotalRecords.messageUpdateZone" = 389;
     "Server.TotalRecords.recoverableMessageDeleteZone" = 3312;
     enableCKSyncingV2 = 1;

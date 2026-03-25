@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796005278.091319"
+        "796143497.399597"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2742;
+    "mod-count" = 2756;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -45,7 +45,7 @@
                 "file-mod-date" = 3850606304;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 146595385594847;
+                "parent-mod-date" = 257010405272964;
             };
             "tile-type" = "file-tile";
         },
@@ -374,24 +374,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3574671505;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.openai.chat";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/ChatGPT.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = ChatGPT;
-                "file-mod-date" = 3854476466;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 91512430206332;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 623595938;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -402,10 +384,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 28780137690547;
+                "file-mod-date" = 192079089692033;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 91512430206332;
+                "parent-mod-date" = 257010405272964;
             };
             "tile-type" = "file-tile";
         },
@@ -531,7 +513,7 @@
                 "file-mod-date" = 52380978438824;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 91512430206332;
+                "parent-mod-date" = 275233951495179;
             };
             "tile-type" = "file-tile";
         },
@@ -652,43 +634,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3702912407;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.valvesoftware.steam";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Steam.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Steam;
-                "file-mod-date" = 3855341262;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 47901332391464;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2391949049;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 271755022246264;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 47901332391464;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2391949050;
+            GUID = 1067892422;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -701,7 +647,43 @@
                 "file-mod-date" = 119949408324825;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 47901332391464;
+                "parent-mod-date" = 257010405272964;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1067892423;
+            "tile-data" =             {
+                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.wacom.WacomCenter";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Wacom Center";
+                "file-mod-date" = 76716262366986;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3849359466;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1067892424;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3850606304;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 257010405272964;
             };
             "tile-type" = "file-tile";
         }
@@ -711,7 +693,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

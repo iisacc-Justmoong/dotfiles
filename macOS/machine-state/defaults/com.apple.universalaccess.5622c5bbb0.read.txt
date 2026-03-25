@@ -18,16 +18,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-01-17 00:56:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-01-17 00:56:30";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-01-17 00:56:31";
                 Reason = Reset;
                 State = 0;
@@ -266,6 +256,16 @@
                 Date = "2026-03-25 06:33:18";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-03-25 16:55:57";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-03-25 23:58:11";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -314,6 +314,20 @@
         LaunchNext
     );
     customFonts = 0;
+    displaysLastCursorLocation =     {
+        2 =         {
+            X = "896.39453125";
+            Y = "173.0078125";
+        };
+        3 =         {
+            X = "-494.43359375";
+            Y = "868.3125";
+        };
+        4 =         {
+            X = "3042.21875";
+            Y = "888.03515625";
+        };
+    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;

@@ -1,12 +1,11 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-03-24 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xb88eb0fd b40914d8 089574d3 f093709a ... 16b21fe9 82e1a7a8 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-03-25 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x67418909 eb1a94b4 a991c483 8c800e8f ... 186d4607 0ae79029 };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.logi.cp-dev-mgr",
         "com.apple.Music",
-        "com.apple.MobileSMS",
         "jh.dayplanner",
         "com.jetbrains.CLion",
+        "com.apple.MobileSMS",
         "com.openai.codex"
     );
 }
