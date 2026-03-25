@@ -10,10 +10,8 @@
                     };
                     acceptSilentAuth = 1;
                     account =                     {
-                        identityLastVerified = 1742570286000;
                         isMinor = 0;
                         suspectUnderage = 0;
-                        verifiedExpirationDate = 1774106286000;
                     };
                     family =                     {
                         hasFamily = 1;
@@ -65,7 +63,7 @@
         17533321770 =         {
             ICAgeVerificationStateKeyAgeVerifierExpirationDate = "2026-03-21 15:18:06 +0000";
             ICAgeVerificationStateKeyDSID = 17533321770;
-            ICAgeVerificationStateKeyStatus = 3;
+            ICAgeVerificationStateKeyStatus = 2;
             ICAgeVerificationStateKeyTreatment = 1;
             ICAgeVerificationStateKeyVerificationURL = "https://music.apple.com/account/age-verification";
         };

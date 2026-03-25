@@ -9,25 +9,25 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-03-08 22:31:53 +0000",
-            "2026-03-12 11:18:12 +0000",
-            "2026-03-14 23:29:03 +0000",
-            "2026-03-17 07:42:17 +0000"
+            "2026-03-17 07:42:17 +0000",
+            "2026-03-19 15:30:34 +0000",
+            "2026-03-21 10:43:40 +0000",
+            "2026-03-24 00:45:22 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-03-14 23:29:03 +0000",
-            "2026-03-15 19:58:09 +0000",
-            "2026-03-17 04:26:56 +0000",
-            "2026-03-18 03:40:16 +0000"
+            "2026-03-21 01:13:04 +0000",
+            "2026-03-22 04:25:53 +0000",
+            "2026-03-23 01:58:48 +0000",
+            "2026-03-24 00:45:22 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-03-08 22:31:53 +0000",
-            "2026-03-12 11:18:12 +0000",
-            "2026-03-14 23:29:03 +0000",
-            "2026-03-17 07:42:17 +0000"
+            "2026-03-17 07:42:17 +0000",
+            "2026-03-19 15:30:34 +0000",
+            "2026-03-21 10:43:40 +0000",
+            "2026-03-24 00:45:22 +0000"
         );
     };
-    StoreCurrentBootTime = "795589873.4299459";
+    StoreCurrentBootTime = "796080745.049041";
     StoreLoaders =     {
         "ausp_axsr_appl" =         {
             record =             {
@@ -96,6 +96,27 @@
         };
     };
     StoreTasks =     {
+        "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate" =         {
+            configuration =             {
+                cardinality =                 {
+                    once =                     {
+                    };
+                };
+                identifier = "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate";
+                requiredConditions = 2;
+                type =                 {
+                    periodic =                     {
+                        "_0" = 21600;
+                    };
+                };
+            };
+            failures =             (
+            );
+            state =             {
+                completed =                 {
+                };
+            };
+        };
         "com.apple.accessibility.voices.upgrader" =         {
             configuration =             {
                 cardinality =                 {
@@ -113,7 +134,7 @@
             failures =             (
             );
             state =             {
-                completed =                 {
+                scheduled =                 {
                 };
             };
         };
@@ -154,21 +175,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-03-17 07:42:18 +0000";
+                Date = "2026-03-24 00:45:22 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-03-18 03:40:17 +0000";
+                Date = "2026-03-24 00:45:22 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-03-17 07:42:18 +0000";
+                Date = "2026-03-24 00:45:23 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };

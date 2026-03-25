@@ -1,4 +1,18 @@
 {
     DUDebugMenuEnabled = 1;
+    NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
+    NSOSPLastRootDirectory = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+    "NSSplitView Subview Frames SUMainWindow" =     (
+        "0.000000, 0.000000, 264.000000, 600.000000, NO, NO",
+        "264.000000, 0.000000, 843.000000, 600.000000, NO, NO"
+    );
+    "NSToolbar Configuration kMainToolbarIdentifier" =     {
+        "TB Display Mode" = 1;
+        "TB Icon Size Mode" = 1;
+        "TB Is Shown" = 1;
+        "TB Size Mode" = 1;
+    };
+    "NSWindow Frame MainWindow" = "719 357 1107 600 0 0 2560 1410 ";
+    "NSWindow Frame OperationProgress" = "1042 633 475 174 0 0 2560 1410 ";
     "advanced-image-options" = 1;
 }

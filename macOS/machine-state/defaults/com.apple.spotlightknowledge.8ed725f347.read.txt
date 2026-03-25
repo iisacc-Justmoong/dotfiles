@@ -304,7 +304,7 @@
         "embeddingGenCompleteness#pro.betterdisplay.BetterDisplay" = 0;
         embeddingGenStartTime = "2026-01-17T09:01:20Z";
         embeddingGenUpdateReindexCount = 2;
-        embeddingGenUpdates = 315;
+        embeddingGenUpdates = 332;
         graphVersionV2 = 27;
         keyphraseGenStartTime = "2026-01-17T08:57:02Z";
         reindexRequestPerBundleCount =         {
@@ -314,13 +314,10 @@
         sessions =         (
         );
         stats =         (
-            "2026-03-18:[2]queryItemExtractedCount:85",
-            "2026-03-18:people indexing all done:26",
-            "2026-03-18:[1]journalProcessedCount:2",
-            "2026-03-18:[2]journalProcessedCount:2",
-            "2026-03-18:text processing all done:23",
-            "2026-03-18:[2]queryItemUpdatedCount:82",
-            "2026-03-18:currentPid:77"
+            "2026-03-24:text processing all done:23",
+            "2026-03-24:currentPid:193",
+            "2026-03-24:[2]journalProcessedCount:2",
+            "2026-03-24:[1]journalProcessedCount:2"
         );
         version = V2;
     };

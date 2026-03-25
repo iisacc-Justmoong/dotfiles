@@ -11,7 +11,7 @@
     AnnouncePlayheadScrubbing = 0;
     Appearance = 0;
     ApplePersistenceIgnoreState = 1;
-    ApplicationLaunchCount = 3;
+    ApplicationLaunchCount = 5;
     ArrangeSearchZeroCross = 0;
     "AskToCloseDocument_n" = 0;
     AudioHardwarePreferences =     {
@@ -1552,12 +1552,6 @@
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Analog Swirl/PWM Atmosphere.pst"
             );
             "_DfShowAlways" = "_DfShowAlways";
-        };
-        "_DfGarageBandUnknownLocal" =         {
-            Manufacturer = "_DfUnknownManufacturer";
-            "_DfDisplayName" = "GarageBand Settings";
-            "_DfILEnabled" = 1;
-            "_DfKey" = "_DfGarageBandUnknownLocal";
         };
         "_DfJamPack1x" =         {
             Manufacturer = Apple;
@@ -7940,13 +7934,13 @@
     "LiveGroove_n" = 0;
     LiveLoopsCellSelectionFollowMode = 0;
     LockArrangePositionWhenMovingAnchor = 1;
-    LogicProgressGroupWindowPositionHorizontal = "-2128";
-    LogicProgressGroupWindowPositionVertical = 1623;
+    LogicProgressGroupWindowPositionHorizontal = 1072;
+    LogicProgressGroupWindowPositionVertical = 1098;
     LowLatencyMaxPluginDelay = 5;
     LowLatencyMode = 0;
     MANPDNotFirstLaunch = 1;
     MANPDSelectedCategory = 100;
-    MANPDWindowFrame = "123 679 1042 626 0 0 2560 1409 ";
+    MANPDWindowFrame = "123 680 1042 626 0 0 2560 1410 ";
     "MAPrefs_ActiveDownloads_2" =     {
         downloads =         {
         };
@@ -8025,8 +8019,8 @@
     );
     "NSWindow Frame AdditionalContent" = "1645 1270 550 454 0 0 3840 2129 ";
     "NSWindow Frame Basic Content Download" = "2911 1191 650 387 0 0 3840 2129 ";
-    "NSWindow Frame NewProjectDialog" = "123 679 1042 626 0 0 2560 1409 ";
-    "NSWindow Frame QuickHelpBalloonWindow" = "1271 912 264 173 0 0 2560 1409 ";
+    "NSWindow Frame NewProjectDialog" = "123 680 1042 626 0 0 2560 1410 ";
+    "NSWindow Frame QuickHelpBalloonWindow" = "1271 913 264 173 0 0 2560 1410 ";
     NewRecordingSource = 0;
     NonDestructiveRegionGainAffect = 0;
     NonDestructiveRegionGainAlgorithm = 0;
@@ -8227,6 +8221,7 @@
     UnavailableMIDIInputEnabled =     (
     );
     UndoSteps = 100;
+    UniversalContentLibraryUUID = "AD9DC361-2A64-4C42-BF4E-1DDA7D35CA50";
     UseAudioUnits = 1;
     UseAudioUnitsUserEdited = 0;
     UseGlobalTrackForDefaultProgression = 1;

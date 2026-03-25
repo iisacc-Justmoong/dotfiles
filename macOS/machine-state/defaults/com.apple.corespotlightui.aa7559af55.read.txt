@@ -3,16 +3,19 @@
         "Cisco-Systems.Spark" = 1;
         "Kevin.LaunchNow" = 1;
         LaunchNext = 1;
+        "ai.moeru.airi" = 1;
         "bot.molt.mac" = 1;
         "com.adobe.Acrobat.Pro" = 1;
         "com.adobe.Photoshop" = 1;
         "com.adobe.acc.AdobeCreativeCloud" = 1;
         "com.adobe.cc.Install" = 1;
         "com.adobe.illustrator" = 1;
+        "com.anthropic.claudefordesktop" = 1;
         "com.apple.AMSUIPaymentViewService" = 1;
         "com.apple.Accessibility-Settings.extension" = 1;
         "com.apple.AccessibilityVisualsAgent" = 1;
         "com.apple.ActivityMonitor" = 1;
+        "com.apple.AddressBook" = 1;
         "com.apple.AppStore" = 1;
         "com.apple.Appearance-Settings.extension" = 1;
         "com.apple.AppleAccountUI.AAUIFollowUpExtension" = 1;
@@ -35,6 +38,7 @@
         "com.apple.Desktop-Settings.extension" = 1;
         "com.apple.Dictionary" = 1;
         "com.apple.DiskImageMounter" = 1;
+        "com.apple.DiskUtility" = 1;
         "com.apple.Displays-Settings.extension" = 1;
         "com.apple.ExtensionsSettings.DefaultExtensionEnablement" = 1;
         "com.apple.Family-Settings.extension" = 1;
@@ -51,12 +55,14 @@
         "com.apple.Keyboard-Settings.extension" = 1;
         "com.apple.KeyboardSetupAssistant" = 1;
         "com.apple.Keynote" = 1;
+        "com.apple.LinkedNotesUIService" = 1;
         "com.apple.LocalAuthentication.UIAgent" = 1;
         "com.apple.LocalAuthenticationRemoteService" = 1;
         "com.apple.Localization-Settings.extension" = 1;
         "com.apple.Lock-Screen-Settings.extension" = 1;
         "com.apple.LoginItems-Settings.extension" = 1;
         "com.apple.LookupViewService" = 1;
+        "com.apple.MobileAddressBook.RemoteCatalystPosterExtension" = 1;
         "com.apple.MobileSMS" = 1;
         "com.apple.Mouse-Settings.extension" = 1;
         "com.apple.Music" = 1;
@@ -78,6 +84,7 @@
         "com.apple.Screen-Time-Settings.extension" = 1;
         "com.apple.ScreenContinuity" = 1;
         "com.apple.SecurityAgent" = 1;
+        "com.apple.SecurityImprovements-Settings.extension" = 1;
         "com.apple.SetupAssistant" = 1;
         "com.apple.Sharing-Settings.extension" = 1;
         "com.apple.Siri" = 1;
@@ -118,9 +125,11 @@
         "com.apple.archiveutility" = 1;
         "com.apple.bootcampassistant" = 1;
         "com.apple.calculator" = 1;
+        "com.apple.calendar" = 1;
         "com.apple.clock" = 1;
         "com.apple.contactsd" = 1;
         "com.apple.controlcenter" = 1;
+        "com.apple.controlcenter.helper" = 1;
         "com.apple.coreservices.UASharedPasteboardProgressUI" = 1;
         "com.apple.coreservices.uiagent" = 1;
         "com.apple.dock.helper" = 1;
@@ -229,6 +238,7 @@
         "com.openai.chat" = 1;
         "com.openai.codex" = 1;
         "com.pilotmoon.popclip" = 1;
+        "com.pixelmatorteam.pixelmator.touch.x.photo" = 1;
         "com.pixelmatorteam.pixelmator.x" = 1;
         "com.renfei.SnippetsLab" = 1;
         "com.robtop.geometrydashmac" = 1;
@@ -248,6 +258,7 @@
         "com.yourcompany.installerbase" = 1;
         "fr.madrau.switchresx.app" = 1;
         "fr.madrau.switchresx.daemon" = 1;
+        "io.balena.etcher" = 1;
         "io.fadel.MissionControlPlus" = 1;
         "io.tailscale.ipn.macos" = 1;
         "jh.dayplanner" = 1;
@@ -259,9 +270,11 @@
         "org.adblockplus.adblockplussafarimac" = 1;
         "org.brunolemos.simplifiedtwitter" = 1;
         "org.qt-project.pixeltool" = 1;
+        "org.qt-project.qtcreator" = 1;
         "org.sparkle-project.Sparkle.Autoupdate" = 1;
         "org.sparkle-project.Sparkle.Updater" = 1;
         "pro.betterdisplay.BetterDisplay" = 1;
+        "ru.keepcoder.Telegram" = 1;
         "us.electronic.mas.macdroid" = 1;
     };
 }
