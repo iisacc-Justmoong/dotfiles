@@ -9,7 +9,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-03-15 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-02-28 15:00:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -22,23 +22,25 @@
             );
         };
     };
-    LastSaveDate = "2026-03-25 00:25:52 +0000";
+    LastSaveDate = "2026-03-26 11:32:09 +0000";
+    LastUnfinishedSpotlightReindex = "2026-03-26 11:54:14 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
         "0.000000, 0.000000, 228.000000, 1136.000000, YES, NO",
-        "0.000000, 0.000000, 1309.000000, 1136.000000, NO, NO",
+        "0.000000, 0.000000, 1309.000000, 1050.000000, NO, NO",
         "695.000000, 0.000000, 240.000000, 598.000000, YES, NO"
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "770 89 1309 1136 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "574 111 1309 1050 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
+    ReindexAttemptsWithoutProgress = 1;
+    ReindexState = {length = 3, bytes = 0x000301};
     SelectedEvents =     {
         iCal =         (
-            "7AFB31B7-575A-40D5-908E-FA0460B3E462"
         );
     };
     TabbedWindowGroups =     (
@@ -55,7 +57,7 @@
     kCalDBLastSpotLightIndexVersion = 24;
     "last calendar view description" = Monthly;
     "last minute of day time range" = 1440;
-    "last selected calendar list item" = "B985EE1F-679E-4384-AEA7-29E971B5B24D";
+    "last selected calendar list item" = "CED09B2B-E30D-4300-91E4-1F2F0FDDF869";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "view rects" =     {

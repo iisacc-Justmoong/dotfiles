@@ -16,7 +16,7 @@
             "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer" =             {
                 identifier = "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer";
                 "is_recurring" = 0;
-                time = "796925684.000005";
+                time = "796925684.0000069";
                 userData =                 {
                     dsid = 17533321770;
                 };
@@ -25,7 +25,7 @@
                 identifier = "com.apple.itunescloud.subscription_status_refresh";
                 interval = 86400;
                 "is_recurring" = 1;
-                time = "796208183.179099";
+                time = "796294583.179099";
             };
         };
     };

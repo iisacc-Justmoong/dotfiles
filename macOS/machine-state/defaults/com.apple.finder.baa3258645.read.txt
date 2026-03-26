@@ -462,50 +462,52 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
-            name = bin;
-        },
-                {
             "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
             name = Applications;
         },
                 {
-            "file-bookmark" = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
-            name = bin;
+            "file-bookmark" = {length = 1528, bytes = 0x626f6f6b f8050000 00000510 40000000 ... cc040000 00000000 };
+            name = "Codex Installer";
         },
                 {
-            "file-bookmark" = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-            name = homebrew;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
         },
                 {
-            "file-bookmark" = {length = 532, bytes = 0x626f6f6b 14020000 00000510 40000000 ... 04000000 00000000 };
-            name = opt;
-        },
-                {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
+            name = "build-trial";
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
             name = WhatSon;
         },
                 {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "build-trial";
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
+        },
+                {
+            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
+            name = "Macintosh HD";
+        },
+                {
+            "file-bookmark" = {length = 532, bytes = 0x626f6f6b 14020000 00000510 40000000 ... 04000000 00000000 };
+            name = opt;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "com.box.desktop.findersyncext",
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -719,7 +721,7 @@
             WindowBounds = "{{878, 231}, {920, 714}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
     "NSToolbar Configuration Browser" =     {
@@ -753,16 +755,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
+        "file:///Users/ymy/Documents/",
         "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Document/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Volumes/Storage/Workspace/InfraSystem/LVRS/resources/iconset/",
         "file:///Users/ymy/Downloads/",
-        "file:///Applications/",
         "file:///Users/ymy/Pictures/",
         "file:///Users/ymy/Library/Application%20Support/Steam/steamapps/common/Geometry%20Dash/Geometry%20Dash.app/Contents/geode/mods/",
-        "file:///Users/ymy/Library/CloudStorage/MacDroid-samsungSM-G988N/storage/emulated/0/",
-        "file:///Users/ymy/Documents/"
+        "file:///Users/ymy/Library/CloudStorage/MacDroid-samsungSM-G988N/storage/emulated/0/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

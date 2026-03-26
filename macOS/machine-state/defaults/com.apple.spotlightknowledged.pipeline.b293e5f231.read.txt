@@ -1,0 +1,38 @@
+{
+    SKDUserDefaultsRoot =     {
+        SKDUserDefaultsMap =         {
+            default =             {
+                timestamp = "796218847.1983531";
+                versionNumber = 1;
+            };
+            "pipeline:Embedding" =             {
+                timestamp = "796218943.845371";
+            };
+            "pipeline:Keyphrase" =             {
+                enabledDate = "2026-03-26 11:54:18 +0000";
+                journalsPurged = 0;
+                loggingVersion = 13;
+                timestamp = "796218858.536006";
+            };
+            "pipeline:LSSR5EventsandordersBackground" =             {
+                enabledDate = "2026-03-26 11:54:18 +0000";
+                journalsPurged = 0;
+                loggingVersion = NA;
+                timestamp = "796218858.5405689";
+            };
+            "pipeline:LSSR5EventsandordersUrgent" =             {
+                enabledDate = "2026-03-26 11:54:18 +0000";
+                journalsPurged = 0;
+                loggingVersion = NA;
+                timestamp = "796218858.538499";
+            };
+            "pipeline:LSSR5IdentificationdocumentsBackground" =             {
+                enabledDate = "2026-03-26 11:54:18 +0000";
+                journalsPurged = 0;
+                loggingVersion = NA;
+                timestamp = "796218858.534039";
+            };
+        };
+        SKDUserDefaultsVersion = 1;
+    };
+}

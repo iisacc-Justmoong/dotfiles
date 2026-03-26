@@ -4,6 +4,7 @@
     ApplicationAccessibilityEnabled = 0;
     AutomationEnabled = 0;
     BrailleInputDeviceConnected = 0;
+    ButtonShapesEnabled = 0;
     CommandAndControlEnabled = 0;
     DarkenSystemColors = 0;
     DifferentiateWithoutColor = 0;
@@ -14,9 +15,9 @@
     GrayscaleDisplay = 0;
     GuestPassDeviceUUID = "582862C3-8600-4C49-84D6-4BF6C82CCABD";
     InvertColorsEnabled = 0;
-    KeyRepeatDelay = "0.25";
+    KeyRepeatDelay = "0.5";
     KeyRepeatEnabled = 1;
-    KeyRepeatInterval = "0.03333333299999999";
+    KeyRepeatInterval = "0.083333333";
     ReduceMotionEnabled = 0;
     SpeakThisEnabled = 0;
     VoiceOverTouchEnabled = 0;

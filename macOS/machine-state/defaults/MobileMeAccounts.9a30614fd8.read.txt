@@ -207,6 +207,7 @@
                     appHostname = "p64-fmipmobile.icloud.com";
                     apsEnv = production;
                     authMechanism = token;
+                    fmRegion = aodc;
                     "fmadminws_gateway_url" = "https://gateway.icloud.com/fmadminws/";
                     hostname = "p64-fmip.icloud.com";
                     "icloud_fmip_al_service" = "https://fmipalservice.icloud.com/alservice/";

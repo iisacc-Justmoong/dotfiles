@@ -40,4 +40,15 @@
             Source = buddy;
         }
     );
+    SiriAvailability =     {
+        allCapabilities =         {
+            fullUODCapabilities = 15;
+            hybridCapabilities = 9;
+            saeCapabilities = 15;
+        };
+        desiredOrchestrationMode = 2;
+        isAvailable = 1;
+        siriLocale = "en-US";
+        unavailabilityReasons = 0;
+    };
 }

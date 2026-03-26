@@ -1,14 +1,15 @@
 {
-    "NetworkEnabledAfterBootNotification.lastLaunchBootSessionUUID" = "03726755-4393-499B-8003-31D9EB6F4623";
+    "NetworkEnabledAfterBootNotification.lastLaunchBootSessionUUID" = "09CCD765-F457-432C-80F1-0223825D02E7";
     effectiveRemoteWidgetsEnabled = 0;
     extensionsPendingDescriptorRefetch =     (
     );
     hasMigratedRemoteWidgetsEnabledState = 1;
     hasRemoteWidgets = 0;
+    lastEffectiveSignificantTimeChange = "2026-03-26 11:54:10 +0000";
     lastKnownTimes =     {
         timeZoneSecondsFromGMT = 32400;
-        world = "1774450800.023084";
+        world = "1774526050.043579";
     };
-    migrationState = {length = 80, bytes = 0x7b227379 7374656d 56657273 696f6e22 ... 32354431 3235227d };
+    migrationState = {length = 80, bytes = 0x7b227072 696f7253 79737465 6d566572 ... 32354532 3436227d };
     remoteWidgetsEnabled = 0;
 }

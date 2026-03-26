@@ -12,6 +12,7 @@ M683GB7CPW.com.box.tools
 MiniLauncher
 MobileMeAccounts
 NSGlobalDomain
+TokenBucketRateLimiter
 ai.moeru.airi
 ai.openclaw.shared
 bot.molt.mac
@@ -193,6 +194,7 @@ com.apple.audio.AudioComponentCache
 com.apple.backgroundassets.managed
 com.apple.biomesyncd
 com.apple.bird
+com.apple.bird.containers.notifications
 com.apple.bluetooth
 com.apple.bluetoothuserd
 com.apple.bookdatastored
@@ -274,6 +276,7 @@ com.apple.ibtool
 com.apple.icloud.gm
 com.apple.icloud.searchpartyuseragent
 com.apple.iclouddrive.features
+com.apple.icloudmailagent
 com.apple.identityservicesd
 com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.ids
@@ -399,6 +402,7 @@ com.apple.spaces
 com.apple.speech.recognition.AppleSpeechRecognition.prefs
 com.apple.spotlight.mdwrite
 com.apple.spotlightknowledge
+com.apple.spotlightknowledged.pipeline
 com.apple.springboard
 com.apple.stickersd
 com.apple.stockholm
