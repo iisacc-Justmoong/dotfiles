@@ -315,13 +315,15 @@
         );
         stats =         (
             "2026-03-26:[2]queryItemExtractedCount:22",
-            "2026-03-26:[4]queryItemUpdatedCount:10",
+            "2026-03-26:currentPid:143",
             "2026-03-26:people indexing all done:26",
             "2026-03-26:[2]journalProcessedCount:6",
+            "2026-03-26:completed graph analysis:27",
+            "2026-03-26:[1]journalProcessedCount:2",
             "2026-03-26:processing all done:25",
             "2026-03-26:text processing all done:23",
             "2026-03-26:[2]queryItemUpdatedCount:22",
-            "2026-03-26:currentPid:142"
+            "2026-03-26:[4]queryItemUpdatedCount:10"
         );
         version = V2;
     };

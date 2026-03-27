@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "38345.39735325001";
+            Age = "38473.76694941668";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -59,8 +59,8 @@
                     "Current Space" =                     {
                         ManagedSpaceID = 9;
                         TileLayoutManager =                         {
-                            Age = "20967.32061133334";
-                            ConfigAge = "20967.31856962501";
+                            Age = "21095.69016691667";
+                            ConfigAge = "21095.68812520834";
                             "Inter-Tile Spacing" =                             {
                                 Height = 12;
                                 Width = 12;
@@ -167,8 +167,8 @@
                                                 {
                             ManagedSpaceID = 6;
                             TileLayoutManager =                             {
-                                Age = "26462.66541575";
-                                ConfigAge = "26462.65836354167";
+                                Age = "26591.034993625";
+                                ConfigAge = "26591.02794141667";
                                 "Inter-Tile Spacing" =                                 {
                                     Height = 12;
                                     Width = 12;
@@ -267,8 +267,8 @@
                                                 {
                             ManagedSpaceID = 9;
                             TileLayoutManager =                             {
-                                Age = "20967.32067604167";
-                                ConfigAge = "20967.31863433334";
+                                Age = "21095.690264875";
+                                ConfigAge = "21095.68822316667";
                                 "Inter-Tile Spacing" =                                 {
                                     Height = 12;
                                     Width = 12;
@@ -400,7 +400,9 @@
                 name = "";
                 windows =                 (
                     238,
+                    244,
                     151,
+                    250,
                     237,
                     222,
                     167,
@@ -453,6 +455,7 @@
                         {
                 name = "0D2B2DF4-1A3E-4ACB-AFB9-E7F936F36F38";
                 windows =                 (
+                    251,
                     229,
                     228,
                     100,

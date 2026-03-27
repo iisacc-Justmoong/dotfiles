@@ -52,6 +52,7 @@ com.apple.ActivityMonitor
 com.apple.AdLib
 com.apple.AdPlatforms
 com.apple.AddressBook
+com.apple.AddressBook.abd
 com.apple.AppStoreComponents
 com.apple.AppleMediaServices
 com.apple.AppleMediaServices.notbackedup
@@ -131,9 +132,11 @@ com.apple.Safari.SafeBrowsing
 com.apple.Safari.SandboxBroker
 com.apple.SafariBookmarksSyncAgent
 com.apple.SafariCloudHistoryPushAgent
+com.apple.ScreenTimeSettingsAgent
 com.apple.ServicesMenu.Services
 com.apple.SetupAssistant
 com.apple.Sharing
+com.apple.ShazamKit
 com.apple.Siri
 com.apple.SiriExperimentMetricsWorker
 com.apple.SiriMetricsWorker
@@ -384,6 +387,7 @@ com.apple.sidecar.display
 com.apple.siri.DialogEngine
 com.apple.siri.ODDI.ExperimentationWorker
 com.apple.siri.ODDI.MetricsWorker
+com.apple.siri.ODDI.PoirotExperimentationWorker
 com.apple.siri.ODDI.PoirotMetricsWorker
 com.apple.siri.VoiceShortcuts
 com.apple.siri.analytics.assistant
@@ -430,6 +434,7 @@ com.apple.trackpad
 com.apple.translationd
 com.apple.transparencyd
 com.apple.triald
+com.apple.unilog.MacMailSearch
 com.apple.universalaccess
 com.apple.universalaccessAuthWarning
 com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331

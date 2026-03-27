@@ -1,6 +1,56 @@
 {
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
+            "InstantProcessing+Embedding" =             {
+                timestamp = "796240540.095437";
+                timestampLastReplenished = "796240458.486949";
+                tokenCount = 500;
+            };
+            "InstantProcessing+Keyphrase" =             {
+                timestamp = "796240540.084269";
+                timestampLastReplenished = "796240458.5347929";
+                tokenCount = 500;
+            };
+            "InstantProcessing+LSSR5EventsandordersBackground" =             {
+                timestamp = "796240540.092901";
+                timestampLastReplenished = "796240458.5387499";
+                tokenCount = 500;
+            };
+            "InstantProcessing+LSSR5EventsandordersUrgent" =             {
+                timestamp = "796240540.098181";
+                timestampLastReplenished = "796240458.536502";
+                tokenCount = 500;
+            };
+            "InstantProcessing+LSSR5IdentificationdocumentsBackground" =             {
+                timestamp = "796240540.089893";
+                timestampLastReplenished = "796240458.5336599";
+                tokenCount = 500;
+            };
+            "PriorityProcessing+Embedding" =             {
+                timestamp = "796240540.096377";
+                timestampLastReplenished = "796240516.086959";
+                tokenCount = 1500;
+            };
+            "PriorityProcessing+Keyphrase" =             {
+                timestamp = "796240540.0871511";
+                timestampLastReplenished = "796240516.134797";
+                tokenCount = 1500;
+            };
+            "PriorityProcessing+LSSR5EventsandordersBackground" =             {
+                timestamp = "796240540.093859";
+                timestampLastReplenished = "796240523.3387541";
+                tokenCount = 4000;
+            };
+            "PriorityProcessing+LSSR5EventsandordersUrgent" =             {
+                timestamp = "796240540.099112";
+                timestampLastReplenished = "796240523.3365061";
+                tokenCount = 4000;
+            };
+            "PriorityProcessing+LSSR5IdentificationdocumentsBackground" =             {
+                timestamp = "796240540.09094";
+                timestampLastReplenished = "796240523.3336661";
+                tokenCount = 4000;
+            };
         };
         SKDUserDefaultsVersion = 1;
     };

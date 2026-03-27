@@ -6,19 +6,40 @@
                 versionNumber = 1;
             };
             "pipeline:Embedding" =             {
-                timestamp = "796218943.845371";
+                timestamp = "796221341.533844";
             };
             "pipeline:Keyphrase" =             {
+                awaitingRedonationBundles =                 (
+                    "com.apple.mail",
+                    "com.apple.Safari",
+                    "com.apple.Notes",
+                    "com.apple.MobileSMS"
+                );
+                completedProcessingNoResultCount = 745;
                 enabledDate = "2026-03-26 11:54:18 +0000";
+                "itemsAwaitingRedonation_com.apple.MobileSMS" = 1249;
+                "itemsAwaitingRedonation_com.apple.Notes" = 0;
+                "itemsAwaitingRedonation_com.apple.Safari" = 0;
+                "itemsAwaitingRedonation_com.apple.mail" = 124;
+                "journalCookie_3" = "8E639053-3344-44C8-A0C1-920BDAE40B9F";
+                "journalCookie_5" = "C4EEBE56-BCBA-4D53-9B94-1967F948CD6E";
                 journalsPurged = 0;
                 loggingVersion = 13;
-                timestamp = "796218858.536006";
+                redonationsRequested = 1834;
+                "serialNumber_3" = 130832;
+                "serialNumber_5" = 118498;
+                timeSpentProcessing = 11;
+                timestamp = "796222904.044219";
             };
             "pipeline:LSSR5EventsandordersBackground" =             {
                 enabledDate = "2026-03-26 11:54:18 +0000";
+                "journalCookie_3" = "8E639053-3344-44C8-A0C1-920BDAE40B9F";
+                "journalCookie_5" = "C4EEBE56-BCBA-4D53-9B94-1967F948CD6E";
                 journalsPurged = 0;
                 loggingVersion = NA;
-                timestamp = "796218858.5405689";
+                "serialNumber_3" = 130832;
+                "serialNumber_5" = 118498;
+                timestamp = "796222593.023097";
             };
             "pipeline:LSSR5EventsandordersUrgent" =             {
                 enabledDate = "2026-03-26 11:54:18 +0000";
@@ -28,9 +49,13 @@
             };
             "pipeline:LSSR5IdentificationdocumentsBackground" =             {
                 enabledDate = "2026-03-26 11:54:18 +0000";
+                "journalCookie_3" = "8E639053-3344-44C8-A0C1-920BDAE40B9F";
+                "journalCookie_5" = "C4EEBE56-BCBA-4D53-9B94-1967F948CD6E";
                 journalsPurged = 0;
                 loggingVersion = NA;
-                timestamp = "796218858.534039";
+                "serialNumber_3" = 130780;
+                "serialNumber_5" = 118498;
+                timestamp = "796220962.817948";
             };
         };
         SKDUserDefaultsVersion = 1;
