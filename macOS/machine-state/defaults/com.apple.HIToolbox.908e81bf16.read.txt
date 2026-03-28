@@ -1,5 +1,5 @@
 {
-    AppleCurrentKeyboardLayoutInputSourceID = "com.apple.keylayout.ABC";
+    AppleCurrentKeyboardLayoutInputSourceID = "com.apple.keylayout.2SetHangul";
     AppleDictationAutoEnable = 0;
     AppleEnabledInputSources =     (
                 {
@@ -27,31 +27,26 @@
     );
     AppleInputSourceHistory =     (
                 {
-            InputSourceKind = "Keyboard Layout";
-            "KeyboardLayout ID" = 252;
-            "KeyboardLayout Name" = ABC;
-        },
-                {
             "Bundle ID" = "com.apple.inputmethod.Korean";
             "Input Mode" = "com.apple.inputmethod.Korean.2SetKorean";
             InputSourceKind = "Input Mode";
+        },
+                {
+            InputSourceKind = "Keyboard Layout";
+            "KeyboardLayout ID" = 252;
+            "KeyboardLayout Name" = ABC;
         }
     );
-    AppleInputSourceUpdateTime = "2026-03-26 10:26:40 +0000";
-    AppleSavedCurrentInputSource =     {
-        InputSourceKind = "Keyboard Layout";
-        "KeyboardLayout ID" = 252;
-        "KeyboardLayout Name" = ABC;
-    };
+    AppleInputSourceUpdateTime = "2026-03-27 02:53:20 +0000";
     AppleSelectedInputSources =     (
                 {
             "Bundle ID" = "com.apple.PressAndHold";
             InputSourceKind = "Non Keyboard Input Method";
         },
                 {
-            InputSourceKind = "Keyboard Layout";
-            "KeyboardLayout ID" = 252;
-            "KeyboardLayout Name" = ABC;
+            "Bundle ID" = "com.apple.inputmethod.Korean";
+            "Input Mode" = "com.apple.inputmethod.Korean.2SetKorean";
+            InputSourceKind = "Input Mode";
         }
     );
 }

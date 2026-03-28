@@ -462,28 +462,12 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
+            "file-bookmark" = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
+            name = "ios-xcode-artifact";
         },
                 {
-            "file-bookmark" = {length = 1528, bytes = 0x626f6f6b f8050000 00000510 40000000 ... cc040000 00000000 };
-            name = "Codex Installer";
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Documents;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "build-trial";
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
@@ -494,12 +478,28 @@
             name = Product;
         },
                 {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
             "file-bookmark" = {length = 532, bytes = 0x626f6f6b 14020000 00000510 40000000 ... 04000000 00000000 };
             name = opt;
+        },
+                {
+            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
+            name = "Macintosh HD";
+        },
+                {
+            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
+            name = "build-trial";
         }
     );
     FXSidebarUpgradedToSixteen = 1;

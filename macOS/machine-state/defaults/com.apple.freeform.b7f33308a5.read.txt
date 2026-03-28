@@ -1,0 +1,236 @@
+{
+    CKPerBootTasks =     (
+        CKAccountInfoCacheReset
+    );
+    CKStartupTime = 1774525916;
+    CRLAnalyticsActiveUseDeviceID = "7A03276D-84C8-490D-808B-C180312C46F4";
+    CRLAnalyticsActiveUseLastDeviceIDRotationDate = "2026-03-27 02:01:48 +0000";
+    CRLApplicationUpdateNotifierBaselineVersion = "4.4";
+    CRLConnectICloudDialogShown = 26004000;
+    CRLRemoteDefaults =     {
+        CRLAppStoreReviewRequirements =         {
+            minimumDaysBetweenFirstAppLaunch = 7;
+            minimumDaysBetweenReviewPrompts = 120;
+            minimumNumberOfBoardsRequired = 5;
+        };
+        LatestApplicationVersion = "4.0";
+        OSXUpdateInfo =         {
+            UnsupportedModels =             (
+                "iMac7,1",
+                "iMac8,1",
+                "iMac9,1",
+                "iMac10,1",
+                "iMac11,1",
+                "iMac11,2",
+                "iMac11,3",
+                "iMac12,1",
+                "iMac12,2",
+                "iMac13,1",
+                "iMac13,2",
+                "iMac13,3",
+                "iMac14,1",
+                "iMac14,2",
+                "iMac14,3",
+                "iMac14,4",
+                "iMac15,1",
+                "iMac16,1",
+                "iMac16,2",
+                "iMac17,1",
+                "iMac18,1",
+                "iMac18,2",
+                "iMac18,3",
+                "iMac19,1",
+                "iMac19,2",
+                "iMacPro1,1",
+                "MacBook4,1",
+                "MacBook5,1",
+                "MacBook5,2",
+                "MacBook6,1",
+                "MacBook7,1",
+                "MacBook8,1",
+                "MacBook9,1",
+                "MacBook10,1",
+                "MacBookAir2,1",
+                "MacBookAir3,1",
+                "MacBookAir3,2",
+                "MacBookAir4,1",
+                "MacBookAir4,2",
+                "MacBookAir5,1",
+                "MacBookAir5,2",
+                "MacBookAir6,1",
+                "MacBookAir6,2",
+                "MacBookAir7,1",
+                "MacBookAir7,2",
+                "MacBookAir8,1",
+                "MacBookAir8,2",
+                "MacBookAir9,1",
+                "MacBookPro3,1",
+                "MacBookPro4,1",
+                "MacBookPro5,1",
+                "MacBookPro5,2",
+                "MacBookPro5,3",
+                "MacBookPro5,4",
+                "MacBookPro5,5",
+                "MacBookPro6,1",
+                "MacBookPro6,2",
+                "MacBookPro7,1",
+                "MacBookPro8,1",
+                "MacBookPro8,2",
+                "MacBookPro8,3",
+                "MacBookPro9,1",
+                "MacBookPro9,2",
+                "MacBookPro10,1",
+                "MacBookPro10,2",
+                "MacBookPro11,1",
+                "MacBookPro11,2",
+                "MacBookPro11,3",
+                "MacBookPro11,4",
+                "MacBookPro11,5",
+                "MacBookPro12,1",
+                "MacBookPro13,1",
+                "MacBookPro13,2",
+                "MacBookPro13,3",
+                "MacBookPro14,1",
+                "MacBookPro14,2",
+                "MacBookPro14,3",
+                "MacBookPro15,1",
+                "MacBookPro15,2",
+                "MacBookPro15,3",
+                "MacBookPro15,4",
+                "MacBookPro16,3",
+                "Macmini3,1",
+                "Macmini4,1",
+                "Macmini5,1",
+                "Macmini5,2",
+                "Macmini5,3",
+                "Macmini6,1",
+                "Macmini6,2",
+                "Macmini7,1",
+                "Macmini8,1",
+                "MacPro3,1",
+                "MacPro4,1",
+                "MacPro5,1",
+                "MacPro6,1",
+                "Xserve3,1"
+            );
+        };
+        iOSUpdateInfo =         {
+            UnsupportedDevices =             (
+                "iPad2,1",
+                "iPad2,2",
+                "iPad2,3",
+                "iPad2,4",
+                "iPad2,5",
+                "iPad2,6",
+                "iPad2,7",
+                "iPad3,1",
+                "iPad3,2",
+                "iPad3,3",
+                "iPad3,4",
+                "iPad3,5",
+                "iPad3,6",
+                "iPad4,1",
+                "iPad4,2",
+                "iPad4,3",
+                "iPad4,4",
+                "iPad4,5",
+                "iPad4,6",
+                "iPad4,7",
+                "iPad4,8",
+                "iPad4,9",
+                "iPad5,1",
+                "iPad5,2",
+                "iPad5,3",
+                "iPad5,4",
+                "iPad6,3",
+                "iPad6,4",
+                "iPad6,7",
+                "iPad6,8",
+                "iPad6,11",
+                "iPad6,12",
+                "iPad7,1",
+                "iPad7,2",
+                "iPad7,3",
+                "iPad7,4",
+                "iPad7,5",
+                "iPad7,6",
+                "iPad7,11",
+                "iPad7,12",
+                "iPhone3,1",
+                "iPhone3,2",
+                "iPhone3,3",
+                "iPhone4,1",
+                "iPhone5,1",
+                "iPhone5,2",
+                "iPhone5,3",
+                "iPhone5,4",
+                "iPhone6,1",
+                "iPhone6,2",
+                "iPhone7,1",
+                "iPhone7,2",
+                "iPhone8,1",
+                "iPhone8,2",
+                "iPhone8,4",
+                "iPhone9,1",
+                "iPhone9,2",
+                "iPhone9,3",
+                "iPhone9,4",
+                "iPhone10,1",
+                "iPhone10,2",
+                "iPhone10,3",
+                "iPhone10,4",
+                "iPhone10,5",
+                "iPhone10,6",
+                "iPhone11,2",
+                "iPhone11,4",
+                "iPhone11,6",
+                "iPhone11,8",
+                "iPod5,1",
+                "iPod7,1",
+                "iPod9,1"
+            );
+        };
+        vOSUpdateInfo =         {
+            UnsupportedDevices =             (
+            );
+        };
+    };
+    CRLWelcomeVersion = 65541;
+    CloudKitAccountInfoCache =     {
+        7e5c8448181b09e201b84b528ebee53bb58c6ad30eacebf4642b1d320032b124 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+        acef2838b5e538acf3f7155010ae0baada40a002926dfeb768188ec491ca144c = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+    };
+    "NSSplitView Subview Frames SplitViewAutoSave" =     (
+        "0.000000, 0.000000, 248.000000, 957.000000, NO, NO",
+        "0.000000, 0.000000, 1122.000000, 957.000000, NO, NO"
+    );
+    "NSWindow Frame CRLMacWindowController" = "266 191 1122 957 0 0 2560 1410 ";
+    "NSWindow Frame TSMLMediaLibraryPanel" = "880 583 800 652 0 0 2560 1410 ";
+    SKSubscriptionStatusUpdatesLastChecked = "796269707.803802";
+    SKTransactionUpdatesLastChecked = "796269707.81455";
+    TSULastSubscriptionStatus = 1;
+    TSURemoteDefaultsETag = "\\"1746-643e51ba91450\\"";
+    TSURemoteDefaultsNextUpdate = "2026-03-28 02:01:47 +0000";
+    "appAnalytics.kUserStartDate;local" = "2026-01-16 12:20:35 +0000";
+    "com-apple-AppSubscriptions-MediaActiveAccountIdentifierKey" = "default-identifier-iTunes";
+    "com-apple-AppSubscriptions-MediaiCloudAccountIdentifierKey" = "default-identifier-iCloud";
+    "com-apple-AppSubscriptions-appInfo.remoteConfigEndpoint" = prod;
+    "com-apple-AppSubscriptions-appInfo.shouldOverrideAppBundleID" = 0;
+    "com-apple-AppSubscriptions-buyFlow.showDebugUMKitSheet" = 0;
+    "com-apple-AppSubscriptions-conditionEvaluatorOverrides.appLaunchCountIntervalOverride" = 0;
+    "com-apple-AppSubscriptions-conditionEvaluatorOverrides.overrideEngagementEventData" = 0;
+    "com-apple-AppSubscriptions-general.forceConfigRefreshEachLaunch" = 0;
+    "com-apple-AppSubscriptions-general.forceConfigRefreshNextLaunch" = 0;
+    "com-apple-AppSubscriptions-general.forceSelfServiceManaged" = 0;
+    "com-apple-AppSubscriptions-general.verboseLoggingEnabled" = 0;
+    "com-apple-AppSubscriptions-needsSubmission" = 0;
+    "com-apple-AppSubscriptions-reportStatusChangeInProgress" = 0;
+    "com-apple-AppSubscriptions-userSegmentation.additionalSSIDs" = "";
+    "com-apple-AppSubscriptions-userSegmentation.disableABTesting" = 0;
+    "com-apple-AppSubscriptions-userSegmentation.enableOverrides" = 0;
+    "com-apple-AppSubscriptions-userSegmentation.overrideSSIDs" = "";
+    "com.apple.app-analytics.crash-detection.last-app-instance-date" = "2026-03-27 02:01:47 +0000";
+    "com.apple.app-analytics.crash-detection.will-terminate" = 1;
+    "com.apple.app-analytics.transparency.last-flush-date" = "2026-03-27 02:01:48 +0000";
+    "com.apple.appanalytics.trackingconsent.decision" = {length = 53, bytes = 0x7b226461 7465223a 37393632 36393730 ... 6564223a 7b7d7d7d };
+}

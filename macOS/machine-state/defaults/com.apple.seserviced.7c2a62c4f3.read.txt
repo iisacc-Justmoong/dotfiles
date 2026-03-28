@@ -1,14 +1,15 @@
 {
-    "debug.have.logging.applet" = 1;
+    "debug.have.logging.applet" = 0;
+    "debug.have.logging.applet.version" = 0;
     "debug.have.logging.profile" = 0;
-    "debug.logging.last.check.uuid" = "E6ADF4BA-FE24-415D-A201-1E5B4A12055F";
+    "debug.logging.last.check.uuid" = "09CCD765-F457-432C-80F1-0223825D02E7";
     "keysync.last.dsid.can.sync" = {length = 46, bytes = 0x30303137 33332d30 382d6564 61646530 ... 32343162 65316333 };
     "keysync.recovery.required" = 1;
     "lpem.state" =     {
-        uuid = "E6ADF4BA-FE24-415D-A201-1E5B4A12055F";
+        uuid = "09CCD765-F457-432C-80F1-0223825D02E7";
         value = 0;
     };
-    "sekeysyncmanager.bootsessionuuid" = "E6ADF4BA-FE24-415D-A201-1E5B4A12055F";
+    "sekeysyncmanager.bootsessionuuid" = "09CCD765-F457-432C-80F1-0223825D02E7";
     "storage.sheet.cancelled.count" = 0;
     "storage.sheet.completed.count" = 0;
     "storage.sheet.shown.count" = 0;

@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796218865.743565"
+        "796350040.0324351"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2783;
+    "mod-count" = 2787;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 6729776123814;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 51891357255585;
+                "parent-mod-date" = 79048435486383;
             };
             "tile-type" = "file-tile";
         },
@@ -132,10 +132,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 3856871026;
+                "file-mod-date" = 3857283296;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 272798705148687;
+                "parent-mod-date" = 79048435486383;
             };
             "tile-type" = "file-tile";
         },
@@ -634,7 +634,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 4291956096;
+            GUID = 4291956099;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.freeform";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Freeform.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Freeform;
+                "file-mod-date" = 3856829157;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3856829157;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1377446513;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -647,12 +665,12 @@
                 "file-mod-date" = 271755022246264;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 79048435486383;
+                "parent-mod-date" = 88463003902228;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4291956097;
+            GUID = 1377446514;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -665,25 +683,7 @@
                 "file-mod-date" = 119949408324825;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 79048435486383;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4291956098;
-            "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 76716262366986;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
+                "parent-mod-date" = 88463003902228;
             };
             "tile-type" = "file-tile";
         }

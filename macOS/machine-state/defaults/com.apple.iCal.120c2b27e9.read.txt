@@ -23,7 +23,6 @@
         };
     };
     LastSaveDate = "2026-03-26 11:32:09 +0000";
-    LastUnfinishedSpotlightReindex = "2026-03-26 11:54:14 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -37,8 +36,7 @@
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
-    ReindexAttemptsWithoutProgress = 1;
-    ReindexState = {length = 3, bytes = 0x000301};
+    ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
         );
@@ -54,6 +52,7 @@
     "first minute of day time range" = 0;
     "first shown minute of day" = "292.6163391933816";
     "iCal version" = 150994944;
+    kCalDBLastSpotLightIndexCalendarsVersion = 1;
     kCalDBLastSpotLightIndexVersion = 24;
     "last calendar view description" = Monthly;
     "last minute of day time range" = 1440;
