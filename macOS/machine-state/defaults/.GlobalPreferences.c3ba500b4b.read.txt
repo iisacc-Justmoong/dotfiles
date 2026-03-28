@@ -25,7 +25,9 @@
     AppleLocale = "en_KR";
     AppleMiniaturizeOnDoubleClick = 0;
     AppleReduceDesktopTinting = 0;
+    AppleScrollerPagingBehavior = 1;
     AppleShowAllExtensions = 1;
+    AppleShowScrollBars = WhenScrolling;
     AppleWindowTabbingMode = fullscreen;
     CGDisableCursorLocationMagnification = 1;
     InitialKeyRepeat = 15;
@@ -42,7 +44,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-03-27 08:12:29 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-03-28 05:54:47 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -52,21 +54,11 @@
         mul,
         "mul_Hani",
         "mul_Latn",
-        fr,
-        cs,
-        da,
-        pl,
         ar,
-        fi
+        cs
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
-        en,
-        ko,
-        fr,
-        da,
-        pl,
-        ar,
-        fi
+        en
     );
     NSNavPanelFileLastListModeForOpenModeKey = 2;
     NSNavPanelFileLastListModeForSaveModeKey = 2;

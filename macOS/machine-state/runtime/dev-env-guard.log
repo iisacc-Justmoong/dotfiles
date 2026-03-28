@@ -2253,3 +2253,33 @@
 [INFO] doctor interval not reached
 [OK] git ownership healthy
 === [2026-03-28 13:48:41] machine-env-guard end ===
+=== [2026-03-28 14:18:41] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 14:18:41] machine-env-guard end ===
+=== [2026-03-28 14:48:42] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 14:48:42] machine-env-guard end ===
+=== [2026-03-28 17:23:30] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[OK] dev-env doctor ran (log: /Users/ymy/.dotfiles/macOS/machine-state/runtime/dev-env-doctor.last.log)
+[OK] git ownership healthy
+=== [2026-03-28 17:23:30] machine-env-guard end ===
+=== [2026-03-28 17:54:57] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 17:54:57] machine-env-guard end ===
+=== [2026-03-28 18:16:59] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 18:16:59] machine-env-guard end ===

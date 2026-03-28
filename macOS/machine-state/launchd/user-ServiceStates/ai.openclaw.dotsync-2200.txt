@@ -12,7 +12,7 @@ gui/501/ai.openclaw.dotsync-2200 = {
 	}
 
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.QKlsgb1tTC/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.cnzJnmvMUV/Listeners
 	}
 
 	default environment = {
@@ -26,15 +26,15 @@ gui/501/ai.openclaw.dotsync-2200 = {
 		XPC_SERVICE_NAME => ai.openclaw.dotsync-2200
 	}
 
-	domain = gui/501 [100100]
-	asid = 100100
+	domain = gui/501 [100024]
+	asid = 100024
 	minimum runtime = 10
 	exit timeout = 5
 	runs = 0
 	last exit code = (never exited)
 
 	event triggers = {
-		ai.openclaw.dotsync-2200.268435485 => {
+		ai.openclaw.dotsync-2200.268435472 => {
 			keepalive = 0
 			service = ai.openclaw.dotsync-2200
 			stream = com.apple.launchd.calendarinterval
@@ -65,5 +65,5 @@ gui/501/ai.openclaw.dotsync-2200 = {
 	jetsam thread limit = 32
 	cpumon = default
 
-	properties = inferred program
+	properties = inferred program | needs LWCR update | managed LWCR
 }

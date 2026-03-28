@@ -462,28 +462,16 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = ".dotfiles";
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         },
                 {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "build-trial";
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = shell;
         },
                 {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
-        },
-                {
-            "file-bookmark" = {length = 532, bytes = 0x626f6f6b 14020000 00000510 40000000 ... 04000000 00000000 };
-            name = opt;
-        },
-                {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
@@ -491,15 +479,27 @@
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            name = Service;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = WhatSon;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
+            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
+            name = "Macintosh HD";
+        },
+                {
+            "file-bookmark" = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+            name = opt;
+        },
+                {
+            "file-bookmark" = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+            name = homebrew;
+        },
+                {
+            "file-bookmark" = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -520,6 +520,7 @@
         Purple,
         Gray
     );
+    FontSizeCategory = Custom;
     GoToField = "/opt/homebrew/Cellar/imsg/0.4.0/bin/";
     GoToFieldHistory =     (
         "/opt/homebrew/Cellar/imsg/0.4.0/bin",
@@ -716,10 +717,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{878, 231}, {920, 714}}";
+            WindowBounds = "{{1276, 49}, {893, 673}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
     "NSToolbar Configuration Browser" =     {
@@ -797,6 +798,7 @@
             );
         }
     );
+    SearchRecentsSavedViewStyle = Nlsv;
     SearchRecentsSavedViewStyleVersion = "%00%00%00%01";
     SearchRecentsViewSettings =     {
         WindowState =         {
@@ -805,7 +807,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1395, 111}, {950, 1197}}";
+            WindowBounds = "{{1192, 162}, {893, 673}}";
         };
     };
     SearchViewSettings =     {
@@ -829,6 +831,29 @@
     SidebarMediaBrowserSectionDisclosedState = 1;
     SidebarPlacesSectionDisclosedState = 1;
     SidebarWidth2 = 176;
+    SmartSharedSearchViewSettings =     {
+        WindowState =         {
+            ContainerShowSidebar = 1;
+            ShowSidebar = 1;
+            ShowStatusBar = 1;
+            ShowTabView = 0;
+            ShowToolbar = 1;
+            WindowBounds = "{{1192, 162}, {893, 673}}";
+        };
+    };
+    StandardViewOptions =     {
+        ColumnViewOptions =         {
+            ArrangeBy = dnam;
+            ColumnShowFolderArrow = 1;
+            ColumnShowIcons = 1;
+            ColumnWidth = 245;
+            FontSize = 13;
+            PreviewDisclosureState = 1;
+            SharedArrangeBy = kipl;
+            ShowIconThumbnails = 1;
+            ShowPreview = 1;
+        };
+    };
     StandardViewSettings =     {
         ExtendedListViewSettingsV2 =         {
             calculateAllSizes = 1;

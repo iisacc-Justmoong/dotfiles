@@ -1,10 +1,16 @@
 
 	disabled services = {
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
-		"com.apple.Siri.agent" => disabled
 		"com.microsoft.update.agent" => enabled
+		"org.pqrs.service.agent.Karabiner-Menu" => enabled
+		"com.apple.Siri.agent" => enabled
+		"org.pqrs.service.agent.Karabiner-Core-Service" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
+		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
+		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
+		"ai.openclaw.gateway" => enabled
 		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"com.apple.ScriptMenuApp" => disabled
 		"com.logi.cp-dev-mgr" => enabled
+		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
 	}

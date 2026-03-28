@@ -1,12 +1,9 @@
 {
-    ActionsPaneHeight = 432;
+    ActionsPaneHeight = 415;
     CombinedItemOrder =     (
-        copy,
         search,
         openlink,
-        "ext-com.popclip.extension.instant-translate",
-        "ext-com.pilotmoon.popclip.extension.notes",
-        "ext-com.pilotmoon.popclip.extension.SnippetsLab",
+        copy,
         lookup,
         cut,
         paste,
@@ -14,15 +11,15 @@
         openmail
     );
     LastRunVersion = 5155;
-    LastUpdateInfoDate = "2026-03-28 00:20:40 +0000";
+    LastUpdateInfoDate = "2026-03-28 08:34:11 +0000";
     NSRequiresAquaSystemAppearance = 0;
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-03-28 00:20:40 +0000";
+    SULastCheckTime = "2026-03-28 08:34:11 +0000";
     SUUpdateGroupIdentifier = 1171297494;
     TrialData = {length = 256, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c3 };
     UsageCount = 605;
-    "enable-action-copy" = 0;
     "enable-action-cut" = 0;
+    "enable-action-lookup" = 0;
     "enable-action-paste" = 0;
     "enable-action-revealfile" = 0;
     "enable-action-spelling" = 0;

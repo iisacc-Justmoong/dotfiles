@@ -2,19 +2,34 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1774525915;
+    CKStartupTime = 1774688067;
     GKActiveEnvironmentKeyV2 = 5;
+    GKContactsIntegrationHasMigratedCredentials = 1;
     GKFullscreenSignInPresentationDataKey =     {
         count = 0;
         exceededLimit = 0;
     };
+    "GKLastGamesCrossUseConsentNoticeVersionDisplayedForHashedPlayerID_ytJUp66Zqdng3MZO9A1bgpIt1L3lza/7lMzR8qtRlNk=" = 1;
+    "GKLastGamesPrivacyNoticeVersionDisplayedForHashedPlayerID_ytJUp66Zqdng3MZO9A1bgpIt1L3lza/7lMzR8qtRlNk=" = 1;
+    "GKLastLinkedDSIDForHashedPlayerID_ytJUp66Zqdng3MZO9A1bgpIt1L3lza/7lMzR8qtRlNk=" = 17533321770;
+    GKLastPreferredSystemLanguage = en;
+    "GKLastPrivacyNoticeVersionDisplayedForHashedPlayerID_ytJUp66Zqdng3MZO9A1bgpIt1L3lza/7lMzR8qtRlNk=" = 6;
     GKLastProtocolVersionUsedKeyV2 = "6.19.23.5.19.25.5.5.3";
+    GKLastPushTokenDateKey = "2026-03-28 08:32:33 +0000";
+    GKLastPushTokenEnvironment = 5;
+    GKLastPushTokenKey = {length = 32, bytes = 0x691f4ff7 a9f15b14 a7617cca 9e4c6b38 ... b131dff1 742a7a88 };
+    GKLastPushTokenPlayerID = "U:1b7fe2d722ad886b2655fd24d4acb9cf";
     GKPushEnvironmentKeyV2 = 2;
-    GKPushTokenKeyV2 = {length = 32, bytes = 0x40ccce18 b0907b75 a6829651 028a3815 ... bcbf3575 6830e4fc };
+    GKPushTokenKeyV2 = {length = 32, bytes = 0x691f4ff7 a9f15b14 a7617cca 9e4c6b38 ... b131dff1 742a7a88 };
+    GKSavedAppInitState =     {
+        bundleID = "com.apple.Chess";
+        pid = 15590;
+        state = GKAppInitialized;
+    };
     GKSignInBannerPresentationDataKey =     {
         count = 0;
         exceededLimit = 0;
     };
     GKURLPatternCacheBagURLUserDefaultsKey = {length = 307, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000f9 };
-    GKURLPatternCacheExpirationDateUserDefaultsKey = "2026-03-27 00:22:15 +0000";
+    GKURLPatternCacheExpirationDateUserDefaultsKey = "2026-03-28 09:32:31 +0000";
 }

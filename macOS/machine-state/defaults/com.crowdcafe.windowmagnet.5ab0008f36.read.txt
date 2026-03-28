@@ -19,14 +19,14 @@
     greenButtonMenuAppearance = {length = 10, bytes = 0x227374616e6461726422};
     greenButtonMenuModifier = {length = 9, bytes = 0x22636f6d6d616e6422};
     hideMenuBarIcon = {length = 5, bytes = 0x66616c7365};
-    hideRemoveCommandDialog = {length = 5, bytes = 0x66616c7365};
+    hideRemoveCommandDialog = {length = 4, bytes = 0x74727565};
     hideRemoveSegmentDialog = {length = 5, bytes = 0x66616c7365};
     highlightActivationAreas = {length = 5, bytes = 0x66616c7365};
-    horizontalCommands = {length = 15403, bytes = 0x5b7b226c 65676163 794b6579 223a2265 ... 66616c73 657d7d5d };
+    horizontalCommands = {length = 14866, bytes = 0x5b7b2274 61726765 74417265 61223a7b ... 3a747275 657d7d5d };
     lastMigratedVersion = {length = 7, bytes = 0x22332e302e3022};
-    lastPreferenceSync = {length = 16, bytes = 0x3739333336343737302e373233393936};
+    lastPreferenceSync = {length = 16, bytes = 0x3739363338303938342e383836393938};
     launchAtLogin = {length = 4, bytes = 0x74727565};
-    launchCounter = {length = 2, bytes = 0x3434};
+    launchCounter = {length = 2, bytes = 0x3438};
     paddingAroundWindows = {length = 1, bytes = 0x38};
     preferencesSync = {length = 4, bytes = 0x74727565};
     pulseCommandsSidebarItem = {length = 5, bytes = 0x66616c7365};

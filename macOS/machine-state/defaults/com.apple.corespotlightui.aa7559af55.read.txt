@@ -29,6 +29,9 @@
         "com.apple.CMViewSrvc" = 1;
         "com.apple.CalendarUI" = 1;
         "com.apple.CertificateAssistant" = 1;
+        "com.apple.Chess" = 1;
+        "com.apple.CloudDocs.iCloudDriveFileProvider" = 1;
+        "com.apple.Compressor" = 1;
         "com.apple.ContactsUI.ContactPickerService" = 1;
         "com.apple.ContinuityCaptureOnboardingUI" = 1;
         "com.apple.ControlCenter-Settings.extension" = 1;
@@ -41,11 +44,13 @@
         "com.apple.DiskUtility" = 1;
         "com.apple.Displays-Settings.extension" = 1;
         "com.apple.ExtensionsSettings.DefaultExtensionEnablement" = 1;
+        "com.apple.FaceTime" = 1;
         "com.apple.Family-Settings.extension" = 1;
         "com.apple.FinalCut" = 1;
         "com.apple.Focus-Settings.extension" = 1;
         "com.apple.FolderActionsSetup" = 1;
         "com.apple.FollowUpSettings.FollowUpSettingsExtension" = 1;
+        "com.apple.FontBook" = 1;
         "com.apple.GamePolicyAgent" = 1;
         "com.apple.GenerativePlaygroundApp" = 1;
         "com.apple.Home" = 1;
@@ -62,6 +67,7 @@
         "com.apple.Lock-Screen-Settings.extension" = 1;
         "com.apple.LoginItems-Settings.extension" = 1;
         "com.apple.LookupViewService" = 1;
+        "com.apple.Maps" = 1;
         "com.apple.MobileAddressBook.RemoteCatalystPosterExtension" = 1;
         "com.apple.MobileSMS" = 1;
         "com.apple.Mouse-Settings.extension" = 1;
@@ -74,10 +80,13 @@
         "com.apple.Numbers" = 1;
         "com.apple.Pages" = 1;
         "com.apple.PassKit.PaymentAuthorizationUIExtension" = 1;
+        "com.apple.Passwords" = 1;
         "com.apple.Passwords-Settings.extension" = 1;
+        "com.apple.PhotoBooth" = 1;
         "com.apple.Photos" = 1;
         "com.apple.Print-Scan-Settings.extension" = 1;
         "com.apple.QuickTimePlayerX" = 1;
+        "com.apple.SFSymbols" = 1;
         "com.apple.Safari" = 1;
         "com.apple.Safari.SandboxBroker" = 1;
         "com.apple.SafariPlatformSupport.Helper" = 1;
@@ -96,6 +105,7 @@
         "com.apple.Spotlight-Settings.extension" = 1;
         "com.apple.Stickers" = 1;
         "com.apple.Stickies" = 1;
+        "com.apple.SystemExtensions-Settings.extension" = 1;
         "com.apple.SystemProfiler.AboutExtension" = 1;
         "com.apple.TV" = 1;
         "com.apple.Terminal" = 1;
@@ -109,6 +119,7 @@
         "com.apple.Translation.TranslationAPISupportExtension" = 1;
         "com.apple.TranslationUIServices.TranslationUIService" = 1;
         "com.apple.TransporterApp" = 1;
+        "com.apple.UnmountAssistantAgent" = 1;
         "com.apple.UserNotificationCenter" = 1;
         "com.apple.Users-Groups-Settings.extension" = 1;
         "com.apple.VoiceMemos" = 1;
@@ -138,8 +149,10 @@
         "com.apple.duetexpertd" = 1;
         "com.apple.fileprovider.fileproviderd" = 1;
         "com.apple.finder" = 1;
+        "com.apple.findmy" = 1;
         "com.apple.frameworks.diskimages.diuiagent" = 1;
         "com.apple.freeform" = 1;
+        "com.apple.games" = 1;
         "com.apple.helpviewer" = 1;
         "com.apple.iCal" = 1;
         "com.apple.inputmethod.ironwood" = 1;
@@ -154,6 +167,7 @@
         "com.apple.mobilelogic" = 1;
         "com.apple.mobilephone" = 1;
         "com.apple.mobileslideshow.photospicker" = 1;
+        "com.apple.motionapp" = 1;
         "com.apple.motionappApp" = 1;
         "com.apple.news" = 1;
         "com.apple.notificationcenterui" = 1;
@@ -162,6 +176,7 @@
         "com.apple.parsecd" = 1;
         "com.apple.peopled" = 1;
         "com.apple.pixelmator" = 1;
+        "com.apple.podcasts" = 1;
         "com.apple.preferences.sharing.SharingPrefsExtension" = 1;
         "com.apple.print.add" = 1;
         "com.apple.printcenter" = 1;
@@ -194,6 +209,7 @@
         "com.blackmagic-design.DaVinciResolveLite" = 1;
         "com.boardtack.ScanTexter" = 1;
         "com.box.Box-Edit-Installer" = 1;
+        "com.box.Box-Local-Com-Server" = 1;
         "com.box.desktop" = 1;
         "com.box.desktop.ui" = 1;
         "com.busymac.busycal3" = 1;
@@ -255,6 +271,7 @@
         "com.wacom.WacomCenter" = 1;
         "com.wacom.WacomExperienceProgram" = 1;
         "com.wacom.wacomtablet" = 1;
+        "com.wappalyzer.Wappalyzer" = 1;
         "com.webull.trade.mac.v1" = 1;
         "com.yourcompany.installerbase" = 1;
         "fr.madrau.switchresx.app" = 1;
@@ -270,6 +287,8 @@
         "nl.jeffreykuiken.NoirApp.mac" = 1;
         "org.adblockplus.adblockplussafarimac" = 1;
         "org.brunolemos.simplifiedtwitter" = 1;
+        "org.pqrs.Karabiner-Elements.Settings" = 1;
+        "org.pqrs.Karabiner-Menu" = 1;
         "org.qt-project.pixeltool" = 1;
         "org.qt-project.qtcreator" = 1;
         "org.sparkle-project.Sparkle.Autoupdate" = 1;

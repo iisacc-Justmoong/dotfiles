@@ -2,7 +2,7 @@
     Accounts =     (
                 {
             AccountID = "andudyun0504@gmail.com";
-            AccountUUID = "D90329A2-2871-492C-AC19-4F46FA336D24";
+            AccountUUID = "CC8F39A4-D359-4D74-A376-A0D78845301C";
             Services =             (
                                 {
                     Name = CLOUDDESKTOP;
@@ -225,6 +225,78 @@
                                 {
                     Name = WALLET;
                     ServiceID = "com.apple.Dataclass.Shoebox";
+                }
+            );
+            beta = 0;
+            isManagedAppleID = 0;
+            primaryEmailVerified = 1;
+        },
+                {
+            AccountID = "ymyeong0504@gmail.com";
+            Services =             (
+                                {
+                    CategorySyncEnabled = 0;
+                    ClearAllOverridesURL = "https://p51-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/clearalloverrides";
+                    EmailAddress = "iisacc.moong@icloud.com";
+                    FetchOverridesUrl = "https://p51-mccgateway.icloud.com:443/iungo/sender/v1/senders/category";
+                    FullCategoryOverrideSyncEnabled = 1;
+                    FullUserName = "Justmoong Developer";
+                    Name = "MAIL_AND_NOTES";
+                    RecategorizationSyncFrequencyMinutes = 10080;
+                    RecategorizationSyncUrl = "https://p51-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/sync";
+                    ServiceID = "com.apple.Dataclass.Mail";
+                    StartSyncURL = "https://p51-mccgateway.icloud.com:443/iungo/sender/v1/categories/sync/status";
+                    SyncAllFrequencyDays = 14;
+                    SyncNewOldURL = "https://p51-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/newold/sync";
+                    Username = "iisacc.moong";
+                    dotMacMailSupported = 0;
+                    "iCloudMailSettings.MCCGatewayUrl" = "https://p51-mccgateway.icloud.com:443";
+                    "iCloudMailSettings.MailAssistant.InlineTipCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.IsMailCleanupFeatureAvailable" = 1;
+                    "iCloudMailSettings.MailAssistant.PreferencesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailAssistant.UnifiedRulesCacheTTLInSeconds" = 600;
+                    "iCloudMailSettings.MailCommandCenterUrl" = "https://p51-mcc.icloud.com:443";
+                    imapHostname = "p51-imap.mail.me.com";
+                    imapPort = 993;
+                    imapRequiresSSL = 1;
+                    mailAliasEditingURL = "https://www.icloud.com/#mail/prefs-addresses";
+                    mailAliasLookupJSONURL = "https://p51-mcc.icloud.com:443/cc/wm/alias.json";
+                    mailAliasLookupXMLURL = "https://p51-mcc.icloud.com:443/cc/wm/alias.xml";
+                    mailSupportURL = "http://www.apple.com/support/icloud";
+                    sendFromAddressJSONURL = "https://p51-mcc.icloud.com:443/cc/wm/ext/sendfrom";
+                    smtpHostname = "p51-smtp.mail.me.com";
+                    smtpPort = 587;
+                    smtpRequiresSSL = 1;
+                },
+                                {
+                    Name = CONTACTS;
+                    ServiceID = "com.apple.Dataclass.Contacts";
+                    authMechanism = token;
+                    beta = 0;
+                    protocol = dav;
+                    url = "https://p51-contacts.icloud.com:443";
+                },
+                                {
+                    Name = CALENDAR;
+                    ServiceID = "com.apple.Dataclass.Calendars";
+                    authMechanism = token;
+                    beta = 0;
+                    getSettingsUrl = "https://p51-caldav.icloud.com:443/api/settings";
+                    isMakoAccount = 0;
+                    protocol = dav;
+                    sendReceiveURL = "https://p51-caldav.icloud.com:443/api/settings/sendreceive";
+                    setEmailUrl = "https://p51-caldav.icloud.com:443/api/settings/email";
+                    setInvitationUrl = "https://p51-caldav.icloud.com:443/api/settings/invitation";
+                    sharedCalendar = "https://p51-caldav.icloud.com:443/api/settings/sharedcalendar";
+                    url = "https://p51-caldav.icloud.com:443";
+                },
+                                {
+                    Name = REMINDERS;
+                    ServiceID = "com.apple.Dataclass.Reminders";
+                    authMechanism = token;
+                    beta = 0;
+                    protocol = dav;
+                    url = "https://p51-caldav.icloud.com:443";
                 }
             );
             beta = 0;

@@ -1,6 +1,9 @@
 
 	disabled services = {
+		"com.apple.CSCSupportd" => disabled
 		"com.apple.ftpd" => disabled
 		"com.apple.mdmclient.daemon.runatboot" => disabled
+		"org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon" => enabled
+		"org.pqrs.service.daemon.Karabiner-Core-Service" => enabled
 		"com.microsoft.autoupdate.helper" => enabled
 	}

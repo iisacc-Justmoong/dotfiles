@@ -74,6 +74,13 @@ export ANDROID_NDK_ROOT="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 export ANDROID_NDK_HOME="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 export CMAKE_ANDROID_NDK="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 
+# Emscripten SDK
+export EMSDK="$HOME/emsdk"
+if [[ -f "$EMSDK/emsdk_env.sh" ]]; then
+  export EMSDK_QUIET=1
+  source "$EMSDK/emsdk_env.sh" >/dev/null
+fi
+
 # OpenClaw Completion
 if [[ -r "$HOME/.openclaw/completions/openclaw.zsh" ]]; then
   source "$HOME/.openclaw/completions/openclaw.zsh"

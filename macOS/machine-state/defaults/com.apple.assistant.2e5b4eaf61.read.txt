@@ -2,6 +2,12 @@
     "Account Status Server Change Token" = {length = 280, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e0 };
     Accounts =     {
         "044D5455-AF76-4CC0-B22B-DCFB67609DF3" =         {
+            "Build Version" = 25E246;
+            "Needs Creation" = 1;
+            "Validation Expiration" = "2026-03-31 10:17:14 +0000";
+            "Validation Version" = 1;
+        };
+        "201DF8E0-B64B-4855-B9C0-AE460F7EBB6A" =         {
             "Ace Host" = se12sa;
             "Build Version" = 25E246;
             "Connection Policy" =             {
@@ -21,10 +27,10 @@
                 );
                 timeToLive = 43200;
             };
-            "Connection Policy Date" = "2026-03-28 00:21:14 +0000";
+            "Connection Policy Date" = "2026-03-28 05:51:40 +0000";
             "Connection Policy Hostname" = "https://guzzoni.apple.com";
-            "Last Assistant Data Anchor" = 31fca7bdffc8e534134e9d2059a60e65ebfea461;
-            "Validation Expiration" = "2026-03-31 01:21:12 +0000";
+            "Last Assistant Data Anchor" = 1f7bf8d853b5befcd1c12b3dbc5a853b23751d8b;
+            "Validation Expiration" = "2026-03-31 02:00:07 +0000";
             "Validation Version" = 1;
         };
     };
@@ -47,8 +53,8 @@
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
     "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-03-28 00:21:01 +0000";
-    "Last server experiment check date" = "2026-03-28 00:21:01 +0000";
+    "Last client experiment check date" = "2026-03-28 09:17:14 +0000";
+    "Last server experiment check date" = "2026-03-28 09:17:14 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 1;
     "Myriad Device Adjust" = "-10";

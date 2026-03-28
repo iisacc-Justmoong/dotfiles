@@ -9,7 +9,7 @@
     AppVersions =     {
         "/Applications/Microsoft Excel.app" = "16.107.26032211";
         "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" = "4.82.26020434";
-        "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" = "16.105.26011018";
+        "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" = "16.107.26032211";
     };
     Applications =     {
         "/Applications/Microsoft Excel.app" =         {
@@ -35,17 +35,16 @@
     IOCRestoreFailCount = 0;
     LastUpdate = "2026-03-28 00:21:03 +0000";
     OSLocale = "en_KR";
-    OSVersion = "26.2";
+    OSVersion = "26.4";
     OptionalUpdatesDeferrals =     {
         DeferralVersions =         {
             TEAMS21 = "26043.2109.4484.3337";
         };
     };
-    SessionDuration = "3.316947937011719";
-    SessionId = "67152D75-9FB6-4A2A-B588-BECA102869DB";
-    SessionLongBuildNumber = 25121042;
-    SessionTelemetryVersion = "4.81.1210.2";
-    SessionVersion = "4.81.2";
-    TerminationDuration = "790336495.4266419";
-    UAEUnknownOnBoot = 1;
+    SessionDuration = "10.12016701698303";
+    SessionId = "CCEF1A14-1FF8-4422-A1D6-F8DD1F9C6736";
+    SessionLongBuildNumber = 26020434;
+    SessionTelemetryVersion = "4.82.204.0";
+    SessionVersion = "4.82";
+    TerminationDuration = "796382236.412943";
 }

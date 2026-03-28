@@ -22,7 +22,7 @@
             );
         };
     };
-    LastSaveDate = "2026-03-26 11:32:09 +0000";
+    LastSaveDate = "2026-03-28 08:32:46 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -32,21 +32,22 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "574 111 1309 1050 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "539 101 1309 1050 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
+            "ADB9ACA6-5417-4251-AC4E-DC06949E10C7"
         );
     };
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x996c56160>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [21208], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 796029650;
+    defaultCalendarChangedReason = "Old default (B985EE1F-679E-4384-AEA7-29E971B5B24D) not valid";
+    defaultCalendarChangedTimestamp = 796360900;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "B985EE1F-679E-4384-AEA7-29E971B5B24D";
+    defaultCalendarID = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -56,7 +57,7 @@
     kCalDBLastSpotLightIndexVersion = 24;
     "last calendar view description" = Monthly;
     "last minute of day time range" = 1440;
-    "last selected calendar list item" = "CED09B2B-E30D-4300-91E4-1F2F0FDDF869";
+    "last selected calendar list item" = "07E984B4-C63E-44FB-9CF0-CD8ECF1833BD";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "view rects" =     {

@@ -64,12 +64,12 @@
             enabled = 1;
         };
         175 =         {
-            enabled = 1;
+            enabled = 0;
             value =             {
                 parameters =                 (
                     65535,
-                    97,
-                    8388608
+                    125,
+                    8650752
                 );
                 type = standard;
             };
@@ -242,6 +242,39 @@
                 parameters =                 (
                     65535,
                     103,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        52 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    100,
+                    2,
+                    1572864
+                );
+                type = standard;
+            };
+        };
+        53 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    107,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        54 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    65535,
+                    113,
                     8388608
                 );
                 type = standard;

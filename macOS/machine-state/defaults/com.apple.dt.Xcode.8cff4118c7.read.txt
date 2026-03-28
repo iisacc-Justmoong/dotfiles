@@ -32,7 +32,7 @@
     DVTDeveloperAccountManagerAppleIDLists =     {
         "IDE.Identifiers.Prod" =         (
                         {
-                identifier = "3EA13137-AA34-4678-BCC9-4BF22A1872B1";
+                identifier = "B0573AA7-1BB4-4BF7-B247-1D560FF69237";
             }
         );
     };
@@ -54,18 +54,9 @@
             DVTSourceControlAccountUsernameKey = git;
             DVTSourceControlRepositoryIdentifierKey = 86C86D51382EBAB0A0DC30BE3AB86A4505590D3D;
             DVTSourceControlSystemIdentifierKey = "com.apple.dt.Xcode.sourcecontrol.Git";
-        },
-                {
-            DVTSourceControlAccountAuthTypeKey = 4;
-            DVTSourceControlAccountNameKey = TimeScopes;
-            DVTSourceControlAccountSSHKeyPath = "/Users/ymy/.ssh/id_ed25519";
-            DVTSourceControlAccountURLKey = "git@github.com:iisacc-Justmoong/TimeScopes.git";
-            DVTSourceControlAccountUsernameKey = git;
-            DVTSourceControlRepositoryIdentifierKey = 86C86D51382EBAB0A0DC30BE3AB86A4505590D3D;
-            DVTSourceControlSystemIdentifierKey = "com.apple.dt.Xcode.sourcecontrol.Git";
         }
     );
-    DVTTextEnablePredictiveCompletion = 1;
+    DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
     "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-03-27 10:31:43 +0000";
     IDEAppStatisticsRunDestinationPlatform =     {
@@ -75,7 +66,7 @@
     IDEAppStatisticsXcodeVersionMetricsHistoryStorage =     {
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
-        17E192 = "2026-03-27 16:25:22 +0000";
+        17E192 = "2026-03-28 05:54:57 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -129,7 +120,7 @@
             WhatSon
         );
     };
-    IDELanguageModelSelectedDuringFirstLaunch = 1;
+    IDELanguageModelSelectedDuringFirstLaunch = 0;
     IDELastLSRegisterHashes =     {
         "/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app" = {length = 20, bytes = 0x6039b20469fe8afccac9a5ee2fec6636070e233a};
         "/Applications/Xcode.app/Contents/Applications/FileMerge.app" = {length = 20, bytes = 0xdf40ea7706360d6b86727e4d635c25eeeceda182};
@@ -140,7 +131,7 @@
         "/System/Library/CoreServices/CoreTypes.bundle" = {length = 20, bytes = 0x3f330126bf6311bf44f3ceab7e7bf1ce6fac11cd};
     };
     IDELastShownWhatsNewContentRevision = 5;
-    IDELastViewedSettingsPane = "Xcode.IDEIntelligenceChat.IDESettingsPane";
+    IDELastViewedSettingsPane = "IDESourceControlUI.SettingsPane";
     "IDELibrary.lastSelectedLibraryExtensionIDByEditorID" =     {
         "" = "Xcode.IDECodeSnippetLibrary";
         "Xcode.IDEKit.EditorDocument.DeltaCommitViewerDocument" = "Xcode.IDECodeSnippetLibrary";
@@ -159,7 +150,7 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-03-27 02:20:18 +0000";
+    IDEMostRecentPostFLEDate = "2026-03-28 05:54:51 +0000";
     IDEMostRecentPostFLEToolsVersion = "26.4";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         23L236,
@@ -218,21 +209,32 @@
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlHostAccounts_10" =     (
+                {
+            AccountName = GitHub;
+            Authentication =             {
+                TokenKeychainEntryName = "Xcode-SCM-Token-D64B5C18-55BB-4D98-9A56-F7994EF7BE8C";
+                Type = Bearer;
+            };
+            CloneType = 0;
+            ExtensionIdentifier = "com.apple.dt.GitHubHostBuiltInExtension";
+            HostURL = "https://github.com";
+            Username = "iisacc-Justmoong";
+        }
     );
     IDESourceControlModernKnownSSHHostsDefaultsKey =     {
     };
     IDESourceControlPreferencesVersion = 201;
     IDESourceTreeDisplayNames =     {
     };
-    IDEStringCatalogAutomaticCommentGenerationEnabled = 1;
+    IDEStringCatalogAutomaticCommentGenerationEnabled = 0;
     IDESuppressStopExecutionWarning = 1;
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LanguageModel" = "enabled,usable";
-    "IDE_CA_Daily_LastReport" = "796270819.097801";
+    "IDE_CA_Daily_LanguageModel" = "enabled,downloading";
+    "IDE_CA_Daily_LastReport" = "796365953.427326";
     "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "14.08499620775463";
+    "IDE_CA_Daily_UptimeHours" = "0.006314175069444443";
     LastExplicitInspectorVisibility = 0;
     LastPersistenceCleanupDateKey = "2026-03-19 23:24:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
@@ -245,8 +247,8 @@
     "NSTableView Sort Ordering v2 PlistColumns" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
     "NSTableView Supports v2 PlistColumns" = 1;
     "NSWindow Frame AppShortcutsEditorUI" = "967 402 800 800 0 0 2560 1410 ";
-    "NSWindow Frame IDEDownloadProgressWindow" = "-643 1292 400 104 -2560 0 2560 1410 ";
-    "NSWindow Frame IDESettingsPanel" = "-1474 460 710 452 -2560 0 2560 1410 ";
+    "NSWindow Frame IDEDownloadProgressWindow" = "6270 587 400 104 5120 -291 1920 1050 ";
+    "NSWindow Frame IDESettingsPanel" = "1086 408 710 452 0 0 2560 1410 ";
     "NSWindow Frame Products" = "1040 85 1024 640 0 0 2560 1410 ";
     "NSWindow Frame com.apple.dt.xcode.devicesWindow" = "309 168 1047 700 0 0 2560 1410 ";
     ProductMappingKey = {length = 202, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 000000a0 };

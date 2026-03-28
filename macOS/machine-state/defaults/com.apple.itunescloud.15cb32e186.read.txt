@@ -65,7 +65,7 @@
             ICAgeVerificationStateKeyDSID = 17533321770;
             ICAgeVerificationStateKeyStatus = 2;
             ICAgeVerificationStateKeyTreatment = 1;
-            ICAgeVerificationStateKeyVerificationURL = "https://music.apple.com/account/age-verification";
+            ICAgeVerificationStateKeyVerificationURL = "https://apps.mzstatic.com/content/1ae2998afc5d4d6cabf5effc124a94f6/age-verification";
         };
     };
     ICDefaultsKeyMediaLibraryAccessApplicationIdentifiersWithTCCAcceptanceDates =     {
@@ -78,7 +78,7 @@
     ICDefaultsRegisteredPushNotificationState =     {
         accountStates =         {
             17533321770 =             {
-                APNSToken = {length = 32, bytes = 0x40ccce18 b0907b75 a6829651 028a3815 ... bcbf3575 6830e4fc };
+                APNSToken = {length = 32, bytes = 0x691f4ff7 a9f15b14 a7617cca 9e4c6b38 ... b131dff1 742a7a88 };
                 mediaKinds =                 (
                     book,
                     "tv-episode",
