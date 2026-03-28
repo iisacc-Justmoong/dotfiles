@@ -51,6 +51,7 @@ b() {
 dotsync() {
   local repo="$HOME/.dotfiles"
   [[ -d "$repo/.git" ]] || return 1
+  "$repo/Scripts/capture-dock-state.sh" || return 1
   git -C "$repo" add -A
   git -C "$repo" commit -m "Sync at: $(date '+%Y-%m-%d %H:%M:%S')" || return 0
   git -C "$repo" push
@@ -74,4 +75,6 @@ export ANDROID_NDK_HOME="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 export CMAKE_ANDROID_NDK="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
 
 # OpenClaw Completion
-source "/Users/ymy/.openclaw/completions/openclaw.zsh"
+if [[ -r "$HOME/.openclaw/completions/openclaw.zsh" ]]; then
+  source "$HOME/.openclaw/completions/openclaw.zsh"
+fi

@@ -2213,3 +2213,31 @@
 [OK] dev-env doctor ran (log: /Users/ymy/.dotfiles/macOS/machine-state/runtime/dev-env-doctor.last.log)
 [OK] git ownership healthy
 === [2026-03-28 09:20:33] machine-env-guard end ===
+=== [2026-03-28 11:19:38] machine-env-guard start ===
+[WARN] target does not exist: /Users/ymy/.dotfiles/.gitconfig
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 11:19:38] machine-env-guard end ===
+=== [2026-03-28 11:49:39] machine-env-guard start ===
+[WARN] target does not exist: /Users/ymy/.dotfiles/.gitconfig
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 11:49:39] machine-env-guard end ===
+=== [2026-03-28 12:18:40] machine-env-guard start ===
+[WARN] target does not exist: /Users/ymy/.dotfiles/.gitconfig
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 12:18:40] machine-env-guard end ===
+=== [2026-03-28 12:48:40] machine-env-guard start ===
+[WARN] target does not exist: /Users/ymy/.dotfiles/.gitconfig
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-03-28
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-03-28 12:48:40] machine-env-guard end ===

@@ -33,7 +33,11 @@ ensure_symlink() {
   local link_path="$1"
   local target_path="$2"
 
-  if [[ ! -e "$target_path" ]]; then
+  if [[ ! -e "$target_path" && ! -L "$target_path" ]]; then
+    if [[ -L "$link_path" && ! -e "$link_path" ]]; then
+      rm -f "$link_path"
+      echo "[WARN] removed broken symlink: $link_path"
+    fi
     echo "[WARN] target does not exist: $target_path"
     return 0
   fi
@@ -51,6 +55,15 @@ ensure_symlink() {
 
   ln -sfn "$target_path" "$link_path"
   echo "[OK] symlink enforced: $link_path -> $target_path"
+}
+
+remove_broken_link() {
+  local link_path="$1"
+
+  if [[ -L "$link_path" && ! -e "$link_path" ]]; then
+    rm -f "$link_path"
+    echo "[WARN] removed broken symlink: $link_path"
+  fi
 }
 
 run_clean_generated() {
@@ -130,6 +143,7 @@ repair_git_permission_if_possible() {
 }
 
 ensure_symlink "$HOME/.config" "$DOTFILES_DIR/.config"
+remove_broken_link "$HOME/.oh-my-zsh"
 ensure_symlink "$HOME/.zshenv" "$DOTFILES_DIR/macOS/shell/.zshenv"
 ensure_symlink "$HOME/.zprofile" "$DOTFILES_DIR/macOS/shell/.zprofile"
 ensure_symlink "$HOME/.zshrc" "$DOTFILES_DIR/macOS/shell/.zshrc"

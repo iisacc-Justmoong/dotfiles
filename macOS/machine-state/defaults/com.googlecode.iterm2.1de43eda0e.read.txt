@@ -581,6 +581,8 @@
         "JetBrains Mono",
         Monaco
     );
+    NoSyncConfirmRunOpenFile = 1;
+    "NoSyncConfirmRunOpenFile_selection" = 0;
     "NoSyncFrame_SharedPreferences" =     {
         screenFrame = "{{0, 0}, {2560, 1440}}";
         topLeft = "{818, 965}";

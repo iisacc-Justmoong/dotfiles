@@ -1,8 +1,8 @@
 gui/501/ai.openclaw.gateway = {
-	active count = 1
+	active count = 0
 	path = /Users/ymy/Library/LaunchAgents/ai.openclaw.gateway.plist
 	type = LaunchAgent
-	state = running
+	state = spawn scheduled
 
 	program = /opt/homebrew/opt/node/bin/node
 	arguments = {
@@ -16,7 +16,7 @@ gui/501/ai.openclaw.gateway = {
 	stdout path = /Users/ymy/.openclaw/logs/gateway.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.hl0jSdek3x/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.QKlsgb1tTC/Listeners
 	}
 
 	default environment = {
@@ -27,40 +27,29 @@ gui/501/ai.openclaw.gateway = {
 		OSLogRateLimit => 64
 		OPENCLAW_GATEWAY_PORT => 18789
 		NODE_USE_SYSTEM_CA => 1
-		OPENCLAW_SERVICE_VERSION => 2026.3.7
 		OPENCLAW_SYSTEMD_UNIT => openclaw-gateway.service
+		OPENCLAW_SERVICE_VERSION => 2026.3.7
 		OPENCLAW_WINDOWS_TASK_NAME => OpenClaw Gateway
 		NODE_EXTRA_CA_CERTS => /etc/ssl/cert.pem
-		OPENCLAW_LAUNCHD_LABEL => ai.openclaw.gateway
 		PATH => /Users/ymy/.local/bin:/Users/ymy/.npm-global/bin:/Users/ymy/bin:/Users/ymy/.volta/bin:/Users/ymy/.asdf/shims:/Users/ymy/.bun/bin:/Users/ymy/Library/Application Support/fnm/aliases/default/bin:/Users/ymy/.fnm/aliases/default/bin:/Users/ymy/Library/pnpm:/Users/ymy/.local/share/pnpm:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
+		OPENCLAW_LAUNCHD_LABEL => ai.openclaw.gateway
 		HOME => /Users/ymy
-		OPENCLAW_SERVICE_KIND => gateway
+		TMPDIR => /var/folders/z9/lk9dmnss5xb6x8xd6ztd72nh0000gn/T/
 		OPENCLAW_SERVICE_MARKER => openclaw
-		TMPDIR => /var/folders/hj/7syc90h51tg_1_zpvjvhfdcr0000gn/T/
+		OPENCLAW_SERVICE_KIND => gateway
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100025]
+	domain = gui/501 [100100]
 	umask = 77
-	asid = 100025
+	asid = 100100
 	minimum runtime = 1
 	exit timeout = 5
-	runs = 1
-	pid = 778
-	immediate reason = speculative
-	forks = 10
-	execs = 1
-	initialized = 1
-	trampolined = 1
-	started suspended = 0
-	proxy started suspended = 0
-	checked allocations = 0 (queried = 1)
-	checked allocations reason = no host
-	checked allocations flags = 0x0
-	last exit code = (never exited)
+	runs = 34
+	last exit code = 1
 
 	resource coalition = {
-		ID = 854
+		ID = 3549
 		type = resource
 		state = active
 		active count = 1
@@ -68,7 +57,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 855
+		ID = 3550
 		type = jetsam
 		state = active
 		active count = 1
@@ -82,7 +71,6 @@ gui/501/ai.openclaw.gateway = {
 	jetsamproperties category = daemon
 	jetsam thread limit = 32
 	cpumon = default
-	job state = running
 
-	properties = partial import | keepalive | runatload | inferred program | managed LWCR | has LWCR
+	properties = partial import | keepalive | runatload | inferred program
 }

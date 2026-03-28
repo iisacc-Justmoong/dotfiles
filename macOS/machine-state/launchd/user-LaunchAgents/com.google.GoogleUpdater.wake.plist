@@ -8,6 +8,13 @@
 	<array>
 		<string>com.google.GoogleUpdater</string>
 	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>HOME</key>
+		<string>/Users/ymy</string>
+		<key>TMPDIR</key>
+		<string>/var/folders/z9/lk9dmnss5xb6x8xd6ztd72nh0000gn/T/</string>
+	</dict>
 	<key>Label</key>
 	<string>com.google.GoogleUpdater.wake</string>
 	<key>LimitLoadToSessionType</key>

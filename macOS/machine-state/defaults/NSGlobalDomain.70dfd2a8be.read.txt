@@ -414,12 +414,8 @@
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
-            "com.Box.Box-Edit.BoxEditFinderExtension" = 1;
         };
         dirMap =         {
-            "com.Box.Box-Edit.BoxEditFinderExtension" =             (
-                "file:///Users/ymy/Library/Application%20Support/Box/Box%20Edit/"
-            );
         };
     };
     "com.apple.mouse.scaling" = "0.5";

@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>Label</key>
-    <string>ai.openclaw.gateway.watchdog</string>
-
-    <key>RunAtLoad</key>
-    <true/>
-    <key>KeepAlive</key>
-    <true/>
-    <key>ThrottleInterval</key>
-    <integer>5</integer>
-
-    <key>ProgramArguments</key>
-    <array>
-      <string>/Users/ymy/.openclaw/bin/gateway-watchdog.sh</string>
-      <string>--daemon</string>
-    </array>
-
-    <key>StandardOutPath</key>
-    <string>/Users/ymy/.openclaw/logs/gateway-watchdog.out.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/ymy/.openclaw/logs/gateway-watchdog.err.log</string>
-
-    <key>EnvironmentVariables</key>
-    <dict>
-      <key>HOME</key>
-      <string>/Users/ymy</string>
-      <key>PATH</key>
-      <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
-    </dict>
-  </dict>
+<dict>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>HOME</key>
+		<string>/Users/ymy</string>
+		<key>PATH</key>
+		<string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+		<key>TMPDIR</key>
+		<string>/var/folders/z9/lk9dmnss5xb6x8xd6ztd72nh0000gn/T/</string>
+	</dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>ai.openclaw.gateway.watchdog</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/ymy/.openclaw/bin/gateway-watchdog.sh</string>
+		<string>--daemon</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/ymy/.openclaw/logs/gateway-watchdog.err.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/ymy/.openclaw/logs/gateway-watchdog.out.log</string>
+	<key>ThrottleInterval</key>
+	<integer>5</integer>
+</dict>
 </plist>

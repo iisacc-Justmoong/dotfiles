@@ -32,6 +32,17 @@ backup_plist() {
   fi
 }
 
+capture_dock_state() {
+  local capture_script="$DOTFILES_DIR/Scripts/capture-dock-state.sh"
+  if [[ -x "$capture_script" ]]; then
+    "$capture_script" >/dev/null
+    return 0
+  fi
+
+  backup_plist "$HOME/Library/Preferences/com.apple.dock.plist" "$PLIST_DIR/com.apple.dock.snapshot.plist"
+  defaults export com.apple.dock "$PLIST_DIR/com.apple.dock.export.plist" >/dev/null 2>&1 || true
+}
+
 trim_value() {
   printf "%s" "$1" | awk '{$1=$1; print}'
 }
@@ -235,6 +246,10 @@ set -euo pipefail
 SCRIPT_DIR="\$(cd "\$(dirname "\$0")" && pwd)"
 DOMAIN_INDEX_FILE="\$SCRIPT_DIR/domains.index.tsv"
 
+safe_defaults_write() {
+  defaults write "\$@" >/dev/null 2>&1 || return 0
+}
+
 if [[ -f "\$DOMAIN_INDEX_FILE" ]]; then
   while IFS=\$'\t' read -r domain file_base; do
     [[ -n "\$domain" && -n "\$file_base" ]] || continue
@@ -317,27 +332,27 @@ EOF
     case "$value_type" in
       bool)
         if bool_value="$(normalize_bool "$trimmed_value")"; then
-          printf "defaults write %q %q -bool %s\n" "$domain" "$key" "$bool_value" >>"$DEFAULTS_WRITE_SCRIPT"
+          printf "safe_defaults_write %q %q -bool %s\n" "$domain" "$key" "$bool_value" >>"$DEFAULTS_WRITE_SCRIPT"
         else
           printf "# skipped invalid bool: %s %s=%q\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
         fi
         ;;
       int)
         if [[ "$trimmed_value" =~ ^-?[0-9]+$ ]]; then
-          printf "defaults write %q %q -int %s\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
+          printf "safe_defaults_write %q %q -int %s\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
         else
           printf "# skipped invalid int: %s %s=%q\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
         fi
         ;;
       float)
         if [[ "$trimmed_value" =~ ^-?[0-9]+([.][0-9]+)?$ ]]; then
-          printf "defaults write %q %q -float %s\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
+          printf "safe_defaults_write %q %q -float %s\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
         else
           printf "# skipped invalid float: %s %s=%q\n" "$domain" "$key" "$trimmed_value" >>"$DEFAULTS_WRITE_SCRIPT"
         fi
         ;;
       string)
-        printf "defaults write %q %q -string %q\n" "$domain" "$key" "$first_line" >>"$DEFAULTS_WRITE_SCRIPT"
+        printf "safe_defaults_write %q %q -string %q\n" "$domain" "$key" "$first_line" >>"$DEFAULTS_WRITE_SCRIPT"
         ;;
     esac
   done
@@ -469,9 +484,8 @@ if [[ -x "$DOTFILES_DIR/Scripts/machine-clean-generated.sh" ]]; then
   "$DOTFILES_DIR/Scripts/machine-clean-generated.sh" >/dev/null 2>&1 || true
 fi
 
-backup_plist "$HOME/Library/Preferences/com.apple.dock.plist" "$PLIST_DIR/com.apple.dock.snapshot.plist"
+capture_dock_state
 backup_plist "$HOME/Library/Preferences/com.apple.finder.plist" "$PLIST_DIR/com.apple.finder.snapshot.plist"
-defaults export com.apple.dock "$PLIST_DIR/com.apple.dock.export.plist" >/dev/null 2>&1 || true
 defaults export com.apple.finder "$PLIST_DIR/com.apple.finder.export.plist" >/dev/null 2>&1 || true
 
 if command -v brew >/dev/null 2>&1; then

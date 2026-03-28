@@ -126,5 +126,7 @@ fi
 
 unset -f _pathvar_prepend_unique
 unset base_path brew_prefix_candidate jdk_candidate qt_fallback lvrs_candidate
-. "$HOME/.cargo/env"
+if [[ -r "$HOME/.cargo/env" ]]; then
+  . "$HOME/.cargo/env"
+fi
 export PATH=/usr/local/RemoteDevelopmentToolkit/bin:$PATH
