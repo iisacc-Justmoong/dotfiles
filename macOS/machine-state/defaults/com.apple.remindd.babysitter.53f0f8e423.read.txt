@@ -3,6 +3,12 @@
     };
     LastSystemVersion = 25E246;
     RefreshingWaiters =     {
+        ICCloudContext =         {
+            "SYNC[COREDATA]" = 1;
+        };
+        "com.apple.remindd.RDTemplateOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItems = 1;
+        };
     };
     RestrictedWaiters =     {
     };

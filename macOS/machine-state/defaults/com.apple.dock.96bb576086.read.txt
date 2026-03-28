@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796382221.461579"
+        "796382782.309363"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2852;
+    "mod-count" = 2855;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -598,7 +598,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 485408810;
+            GUID = 27615396;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 234917093767569;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 124051102977563;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 27615397;
             "tile-data" =             {
                 book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "mertbulan.TranslateBar";
@@ -611,30 +629,12 @@
                 "file-mod-date" = 195729812158437;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 239903550817704;
+                "parent-mod-date" = 124051102977563;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 607633160;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.logi.optionsplus";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/logioptionsplus.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Logi Options+";
-                "file-mod-date" = 26645539648906;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 239903550817704;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496803012;
+            GUID = 27615398;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -647,7 +647,7 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 239903550817704;
+                "parent-mod-date" = 124051102977563;
             };
             "tile-type" = "file-tile";
         }

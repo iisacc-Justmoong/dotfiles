@@ -81,6 +81,11 @@
                 Date = "2026-03-28 18:16:54";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-03-28 18:26:16";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -130,12 +135,8 @@
     customFonts = 1;
     displaysLastCursorLocation =     {
         3 =         {
-            X = 10;
-            Y = 1430;
-        };
-        5 =         {
-            X = "-882.3984375";
-            Y = "1390.23828125";
+            X = "1328.234375";
+            Y = "832.9609375";
         };
     };
     grayscale = 0;
