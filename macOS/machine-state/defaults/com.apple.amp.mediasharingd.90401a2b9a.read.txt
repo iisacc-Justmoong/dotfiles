@@ -4,7 +4,7 @@
     "home-sharing-group-id" = "";
     "home-sharing-sequence-id" = 100;
     "home-sharing-settings" =     {
-        "home-sharing-update-play-counts" = 0;
+        "home-sharing-update-play-counts" = 1;
         "home-sharing-user-id" = 0;
         "home-sharing-user-name" = "";
     };
@@ -50,6 +50,12 @@
     "public-sharing-settings" =     {
         "public-sharing-playlists" =         (
                         {
+                "public-sharing-playlist-domain" = 8;
+                "public-sharing-playlist-id" = 17078719515832793;
+                "public-sharing-playlist-name" = Audiobooks;
+                "public-sharing-playlist-shared" = 1;
+            },
+                        {
                 "public-sharing-playlist-domain" = 2;
                 "public-sharing-playlist-id" = 3740470342416060176;
                 "public-sharing-playlist-name" = "TV Shows";
@@ -89,7 +95,7 @@
                 "public-sharing-playlist-domain" = 1;
                 "public-sharing-playlist-id" = "-4848717990928295974";
                 "public-sharing-playlist-name" = "Favourite Songs";
-                "public-sharing-playlist-shared" = 0;
+                "public-sharing-playlist-shared" = 1;
             },
                         {
                 "public-sharing-playlist-domain" = 1;
@@ -98,7 +104,7 @@
                 "public-sharing-playlist-shared" = 0;
             }
         );
-        "public-sharing-share-all-playlists" = 0;
+        "public-sharing-share-all-playlists" = 1;
     };
     "shared-library-id" = 3697122077364629497;
     "shared-library-machine-id" = 2098261275161874510;

@@ -1,10 +1,15 @@
 {
     AutoPlayVideoSetting = on;
+    LastLowPowerModeValue = 0;
+    LastMotionAutoPlayVideoValue = 1;
+    LowPowerModeSetLastAutoPlayVideoValue = 0;
+    MotionAutoPlayVideoSetLastAutoPlayVideoValue = 0;
+    "NSWindow Frame com_apple_SwiftUI_Settings_window" = "1100 456 350 500 0 0 2560 1410 ";
     "NSWindow Frame main-AppWindow-1" = "680 374 1200 720 0 0 2560 1410 ";
     accountProperties =     {
         accountPlayerID = "U:1b7fe2d722ad886b2655fd24d4acb9cf";
-        appLastLaunchDate = "2026-03-28 08:32:50 +0000";
-        appLaunchCount = 1;
+        appLastLaunchDate = "2026-03-28 14:15:46 +0000";
+        appLaunchCount = 3;
         gameLaunchCount = 0;
         onboardingStateLastRefreshDate = "2026-03-28 08:32:52 +0000";
         requestReviewPropertiesLastResetAppVersion = "1.0";
@@ -15,7 +20,7 @@
     "com.apple.GameStoreKit.show3DChicletsForGameHero" = 1;
     "com.apple.GameStoreKit.show3DChicletsForHomeHero" = 1;
     "com.apple.GameStoreKit.useVFXFor3DChiclets" = 1;
-    lastBootstrapDate = "796379571.598048";
+    lastBootstrapDate = "796400146.239984";
     lastBootstrapTimeZone = "Asia/Seoul";
     mapLinkEventTimestamp = "1774686772.44606";
     mostRecentTabIdentifier = "play-now";

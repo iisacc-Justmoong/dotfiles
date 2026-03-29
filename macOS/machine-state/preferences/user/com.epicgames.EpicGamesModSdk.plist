@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>ModSdkAppToCheck</key>
+		<string>EpicGamesLauncher-Mac-Shipping</string>
+		<key>ModSdkCommand</key>
+		<string>/Applications/Epic Games Launcher.app/Contents/MacOS/EpicGamesLauncher-Mac-Shipping</string>
+		<key>ModSdkArguments</key>
+		<string>--args -ApplicationMode=ModSdk</string>
+		<key>ModSdkMetadataDir</key>
+		<string>/Users/ymy/Library/Application Support/Epic/EpicGamesLauncher/Data/Manifests</string>
+	</dict>
+</plist>

@@ -21,7 +21,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 17, missing cask: 5
+[WARN] Missing formula: 17, missing cask: 7
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openhue/cli/openhue-cli
@@ -42,9 +42,11 @@ yakitrak/yakitrak/obsidian-cli
 1password-cli
 chatgpt-atlas
 discord
+logi-options+
+microsoft-auto-update
 obs
 visual-studio-code
-[WARN] Extra formula: 144, extra cask: 4
+[WARN] Extra formula: 144, extra cask: 5
 abseil
 ada-url
 aom
@@ -68,6 +70,7 @@ emacs
 blender
 box-drive
 box-tools
+epic-games
 karabiner-elements
 
 === Zsh Environment Snapshot ===

@@ -4,8 +4,8 @@
     AddFilterToSelectionAction = 0;
     AddMaskToSelectionAction = 0;
     AlertOnActions = 1;
-    AppGamma = "0.2";
-    AppTextGammaUIKey = 1;
+    AppGamma = "0.1282480581647399";
+    AppTextGammaUIKey = "1.6";
     ApplyGainMaps = 1;
     ArtboardGrayLevelBackground = "0.16";
     AutoHideExtension = 0;
@@ -35,7 +35,7 @@
     DevelopLensProfileSelectionMode = 1;
     DevelopMapDefault = 2;
     DevelopOutputLinear = 0;
-    DockContextToolbar = 0;
+    DockContextToolbar = 1;
     DuplicateSelectionFromImageNodeAction = 0;
     EffectOnVectorSelectionAction = 0;
     "EffectsSettingsPanel-Frame" = {length = 267, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d1 };
@@ -43,7 +43,7 @@
     FillColumnGuides = 1;
     FillFlyoutModelTag = 5;
     GlobalEnable = 1;
-    GrayLevelBackground = "0.16";
+    GrayLevelBackground = 0;
     GridMainColour = {length = 287, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e6 };
     GridSubColour = {length = 287, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e6 };
     KnifeToolAutoCloseMode = 0;
@@ -59,7 +59,7 @@
     NSNavPanelExpandedSizeForSaveMode = "{880, 721}";
     NSNavPanelExpandedStateForSaveMode = 1;
     NSNavPanelMediaBrowserTypeForOpenModeKey = 1;
-    NSOSPLastRootDirectory = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+    NSOSPLastRootDirectory = {length = 1132, bytes = 0x626f6f6b 6c040000 00000510 40000000 ... 04000000 00000000 };
     NSTreatUnknownArgumentsAsOpen = NO;
     OtherBrushOnVectorSelectionAction = 0;
     PaintOnNoSelectionAction = 0;
@@ -119,7 +119,7 @@
     SnappingScreenMinSize = 8;
     SnappingScreenTolerance = 10;
     SnappingShowSnappingCandidates = 0;
-    SpreadPropertiesController = {length = 62, bytes = 0x00ff4b53 02007473 69750100 1e000000 ... 00297066 73740100 };
+    SpreadPropertiesController = {length = 62, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 00297066 73740100 };
     StickyTools = 0;
     SubToolsAnchorPoint = "{1, 1}";
     SubToolsLayoutAxis = 0;
@@ -129,7 +129,7 @@
     "Tab-ToolUIPanel-NumberOfColumns" = 1;
     "Tab-ToolsUI-DockedState" = 1;
     ToolSizeDeltaIndex = 0;
-    "com.canva.affinity.CharacterPage.ControllerState" = {length = 50, bytes = 0x00ff4b53 02007473 69750100 1e000000 ... 67676c72 67616f00 };
+    "com.canva.affinity.CharacterPage.ControllerState" = {length = 50, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67676c72 67616f00 };
     "com.canva.affinity.Colour.Advance" = 0;
     "com.canva.affinity.DataMergeManager.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501001f00000000};
     "com.canva.affinity.DocumentEditingSessionCount" = 10;
@@ -150,6 +150,7 @@
     "com.canva.affinity.ParagraphPage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67647072 67627400 };
     "com.canva.affinity.PinningPage.ControllerState" = {length = 23, bytes = 0x00ff4b5302007473697501001f000000296b6e6c690100};
     "com.canva.affinity.Preferences.FontSizeDelta" = 0;
+    "com.canva.affinity.Preferences.HomeScreenItems" = {length = 255, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c2 };
     "com.canva.affinity.Preferences.LoadXmpSidecarMetadata" = 1;
     "com.canva.affinity.Preferences.RetinaPassType" = 2;
     "com.canva.affinity.Preferences.ShowBrushesAsGrid" = 0;
@@ -157,8 +158,12 @@
     "com.canva.affinity.PreferredUserDisplayName" = ymy;
     "com.canva.affinity.SchemaVersion" = 6;
     "com.canva.affinity.StatusBar.HiddenState" = 0;
-    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3151, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 0000097b };
+    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3780, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000b60 };
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.east" = 0;
+    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.west" = 0;
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 4992, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000f02 };
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.east" = 0;
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.west" = 0;
     "com.canva.affinity.Studio.Data.1.HideState" = 0;
     "com.canva.affinity.Studio.Preset.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.Painting" = {length = 4746, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000e42 };
     "com.canva.affinity.TablePage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67707672 67676200 };
@@ -168,15 +173,17 @@
     "com.canva.affinity.export.panel.startupdir" = "/Volumes/Storage/static/Assets/Artwork";
     "com.canva.affinity.exportcontrol.selectedformat.key" = PNG;
     "com.canva.affinity.favourites.fonts.names-migrated" = 1;
+    "com.canva.affinity.homescreen.document.category.index" = 4;
+    "com.canva.affinity.homescreen.document.item.index" = 1;
     "com.canva.affinity.homescreen.frame" = "{{3286, 350}, {1098, 741}}";
-    "com.canva.affinity.opensave.panel.startupdir" = "file:/Volumes/Storage/static/Assets/Artwork";
+    "com.canva.affinity.opensave.panel.startupdir" = "file:/Volumes/Storage/Workspace/Assets/Artwork/Character/Neriel%20Heize";
     "com.canva.affinity.ourc.lastSessionExpiryTime" = "2026-04-09 16:38:50 +0000";
     "com.canva.affinity.ourc.lastSessionExpiryWarningTime" = "1970-01-01 00:00:00 +0000";
     "com.canva.affinity.recent.fonts.names-migrated" = 1;
     "com.canva.affinity.restoration.urls" =     (
     );
     "com.canva.affinity.restore.mainwindow.frame" = {length = 267, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d1 };
-    "com.canva.affinity.tools.sub.frame" = "{{4786, 1230}, {48, 32}}";
+    "com.canva.affinity.tools.sub.frame" = "{{4786, 1072}, {48, 180}}";
     "com.canva.affinity.tools.sub.horizontal" = 0;
     "com.canva.affinity.tools.sub.visible" = 0;
     "com.canva.affinity.watchForCrash" = 0;

@@ -35,7 +35,7 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "1080 953 400 139 0 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "970 770 620 402 0 0 2560 1410 ";
-    "NSWindow Frame iTerm Window 0" = "187 92 710 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Window 0" = "-710 0 710 842 -2560 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1427 59 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 727 842 0 0 2560 1410 ";
     "New Bookmarks" =     (
@@ -591,7 +591,7 @@
     NoSyncInstallationId = "5E395F17-3A68-4107-85A8-61388C2E1C13";
     NoSyncLastOSVersion = "Version 26.4 (Build 25E246)";
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 63;
+    NoSyncLaunchExperienceControllerRunCount = 66;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
     NoSyncRecordedVariables =     {
@@ -1139,7 +1139,7 @@
     NoSyncRemoveDeprecatedKeyMappings = 1;
     NoSyncRestoreWindowsCount = 0;
     NoSyncSavedWindowPositions =     {
-        0 = "{187, 934}";
+        0 = "{-710, 842}";
         1 = "{1427, 901}";
         2 = "{66, 1135}";
     };
@@ -1173,7 +1173,7 @@
     SUFeedAlternateAppNameKey = iTerm;
     SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=76";
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-03-28 04:14:49 +0000";
+    SULastCheckTime = "2026-03-29 04:38:38 +0000";
     SUSendProfileInfo = 0;
     SUUpdateGroupIdentifier = 470148434;
     SUUpdateRelaunchingMarker = 0;

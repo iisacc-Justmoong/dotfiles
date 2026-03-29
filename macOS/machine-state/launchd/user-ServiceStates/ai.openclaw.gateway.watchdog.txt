@@ -13,7 +13,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	stdout path = /Users/ymy/.openclaw/logs/gateway-watchdog.out.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway-watchdog.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.juoxFmTkiW/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.OivbV9PFkn/Listeners
 	}
 
 	default environment = {
@@ -28,8 +28,8 @@ gui/501/ai.openclaw.gateway.watchdog = {
 		XPC_SERVICE_NAME => ai.openclaw.gateway.watchdog
 	}
 
-	domain = gui/501 [100023]
-	asid = 100023
+	domain = gui/501 [100024]
+	asid = 100024
 	minimum runtime = 5
 	exit timeout = 5
 	runs = 1
@@ -60,7 +60,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	}
 
 	resource coalition = {
-		ID = 1026
+		ID = 1287
 		type = resource
 		state = active
 		active count = 1
@@ -68,7 +68,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	}
 
 	jetsam coalition = {
-		ID = 1027
+		ID = 1288
 		type = jetsam
 		state = active
 		active count = 1

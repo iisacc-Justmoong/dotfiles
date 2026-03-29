@@ -8,6 +8,8 @@ AtlasUpdateHelper
 ChatGPTHelper
 Cisco-Systems.Spark
 ContextStoreAgent
+EpicWebHelper
+JBDeviceService
 Kevin.LaunchNow
 LaunchNext
 M683GB7CPW.com.box.tools
@@ -74,6 +76,7 @@ com.apple.AuthenticationServicesCore.AuthenticationServicesAgent
 com.apple.AvatarUI.Staryu
 com.apple.BatteryCenter.BatteryWidget
 com.apple.BezelServices
+com.apple.Bluetooth.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.Bluetooth.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.Bluetooth.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.CallHistorySyncHelper
@@ -112,6 +115,8 @@ com.apple.FamilyCircle
 com.apple.FolderActionsDispatcher
 com.apple.FontRegistry.user
 com.apple.GEO
+com.apple.GameController
+com.apple.GameOverlayUI
 com.apple.GamePolicyAgent
 com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation
 com.apple.HIToolbox
@@ -142,9 +147,11 @@ com.apple.NewDeviceOutreach
 com.apple.Passwords
 com.apple.PersonalAudio
 com.apple.PhotoBooth
+com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.QuickTimePlayerX
+com.apple.RemoteManagement
 com.apple.ReportCrash
 com.apple.SFSymbols
 com.apple.Safari
@@ -157,6 +164,7 @@ com.apple.ScreenTimeSettingsAgent
 com.apple.ServicesMenu.Services
 com.apple.SetupAssistant
 com.apple.Sharing
+com.apple.Sharing-Settings.extension
 com.apple.ShazamKit
 com.apple.Siri
 com.apple.SiriExperimentMetricsWorker
@@ -166,6 +174,7 @@ com.apple.SoftwareUpdate
 com.apple.SpeakSelection
 com.apple.SpeechRecognitionCore
 com.apple.Spotlight
+com.apple.Spotlight.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.Spotlight.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.Spotlight.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.SpotlightResources.Defaults
@@ -403,6 +412,7 @@ com.apple.passd.class-d
 com.apple.people
 com.apple.personalizationportrait.TextUnderstandingObserver
 com.apple.photos.shareddefaults
+com.apple.preferences.extensions.ShareMenu
 com.apple.preferences.softwareupdate
 com.apple.print.add
 com.apple.print.custompresets
@@ -421,6 +431,7 @@ com.apple.scheduler
 com.apple.screencapture
 com.apple.screencaptureui
 com.apple.screensaver
+com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.scriptmenu
@@ -476,6 +487,7 @@ com.apple.symbolichotkeys
 com.apple.sync.NanoHome
 com.apple.syncdefaultsd
 com.apple.syncserver
+com.apple.syncservices.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.systemevents
 com.apple.systempreferences
 com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -524,6 +536,9 @@ com.canva.affinity
 com.cherpake.macrc.server
 com.cisco.webex.Cisco-WebEx-Start
 com.crowdcafe.windowmagnet
+com.epicgames.EpicGamesLauncher
+com.epicgames.EpicGamesModSdk
+com.epicgames.UnrealEditor
 com.figma.Desktop
 com.getupnote.desktop
 com.google.Chrome
@@ -537,7 +552,9 @@ com.isaacmarovitz.Whisky
 com.jetbrains.CLion
 com.jetbrains.WebStorm
 com.jetbrains.air
+com.jetbrains.cefserver.helper.renderer
 com.jetbrains.pycharm
+com.jetbrains.rider
 com.jetbrains.toolbox
 com.logi.cp-dev-mgr
 com.logi.lps.settings
@@ -567,6 +584,7 @@ com.segment.storage.oai
 com.the-qt-company.Qt Apps
 com.whatson-local.WhatSon
 diagnostics_agent
+dotnet
 familycircled
 fr.madrau.switchresx.app
 fr.madrau.switchresx.daemon
@@ -582,6 +600,7 @@ jetbrains.cl.261
 jetbrains.cl.csat
 jetbrains.jetprofile.asset
 jetbrains.py.253
+jetbrains.rd.253
 jetbrains.ws.251
 jetbrains.ws.253
 jetbrains.ws.261
@@ -592,6 +611,7 @@ mbuseragent
 openclaw
 org.cups.PrintingPrefs
 org.pqrs.Karabiner-Elements.Settings
+org.pqrs.Karabiner-Menu
 org.pqrs.Karabiner-Updater
 org.qt-project.qtcreator
 org.sparkle-project.Sparkle.Autoupdate

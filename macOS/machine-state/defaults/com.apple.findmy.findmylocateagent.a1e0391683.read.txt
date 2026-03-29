@@ -2,12 +2,12 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1774689949;
+    CKStartupTime = 1774783142;
     CloudKitAccountInfoCache =     {
         d073b91c23d51cade70befcaec47c92d63b34ab7c68637cb9bf910dadb5df2b9 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     "CloudKitStorage::modifiedCKZones" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    "Daemon::LastLaunchBootSessionUUID" = "5623F653-EDD3-4626-A511-5E0B74759D2A";
+    "Daemon::LastLaunchBootSessionUUID" = "0D5433A3-DAD9-4CFA-A764-A969277F5AD1";
     "Daemon::LastOSLaunchVersion" = 25E246;
     "DataManager::isInitialized" = 1;
     "DataManager::lastRefreshClientSuccessDate" = "2026-03-26 12:12:47 +0000";

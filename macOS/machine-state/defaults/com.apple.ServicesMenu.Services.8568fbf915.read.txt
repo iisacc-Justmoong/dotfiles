@@ -1106,6 +1106,72 @@
                 NSUUID = {length = 20, bytes = 0xb2f07f415fa9a00c9ef0d5bd7e275ea20487fcf0};
             },
                         {
+                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
+                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Launch Game";
+                };
+                NSMessage = launchGameService;
+                NSPortName = UnrealEditorServices;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                    NSTextContent =                     (
+                        URL,
+                        FilePath
+                    );
+                };
+                NSSendFileTypes =                 (
+                    "com.epicgames.uproject"
+                );
+                NSUUID = {length = 20, bytes = 0x3fbec803add75a7ad80864181576ebe18ddfc767};
+            },
+                        {
+                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
+                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Generate Xcode Project";
+                };
+                NSMessage = generateXcodeProjectService;
+                NSPortName = UnrealEditorServices;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                    NSTextContent =                     (
+                        URL,
+                        FilePath
+                    );
+                };
+                NSSendFileTypes =                 (
+                    "com.epicgames.uproject"
+                );
+                NSUUID = {length = 20, bytes = 0xd238c05c6756e8710f333991b9ec1e48876411c7};
+            },
+                        {
+                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
+                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Switch Unreal Engine Version";
+                };
+                NSMessage = switchUnrealEngineVersionService;
+                NSPortName = UnrealEditorServices;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                    NSTextContent =                     (
+                        URL,
+                        FilePath
+                    );
+                };
+                NSSendFileTypes =                 (
+                    "com.epicgames.uproject"
+                );
+                NSUUID = {length = 20, bytes = 0x5c1d9f60ba4d112c5fadc881c7b54f437ea216e4};
+            },
+                        {
                 NSBundleIdentifier = "com.googlecode.iterm2";
                 NSBundlePath = "/Applications/iTerm.app";
                 NSKeyEquivalent =                 {

@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796382782.309363"
+        "796475993.10423"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2855;
+    "mod-count" = 2877;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -68,6 +68,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 27615403;
+            "tile-data" =             {
+                book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.rider";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/Rider.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Rider;
+                "file-mod-date" = 138503667929504;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 270273264570807;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2293371079;
             "tile-data" =             {
                 book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
@@ -78,10 +96,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = CLion;
-                "file-mod-date" = 237751772184050;
+                "file-mod-date" = 246311642041078;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 270904624745568;
+                "parent-mod-date" = 170922081094907;
             };
             "tile-type" = "file-tile";
         },
@@ -124,7 +142,7 @@
                 {
             GUID = 2314632241;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.figma.Desktop";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -135,7 +153,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 20933233146846;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -186,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Affinity;
-                "file-mod-date" = 3851199885;
+                "file-mod-date" = 3856090399;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 62414025480110;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +279,7 @@
                 "file-mod-date" = 9396950990400;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 54601481780803;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -298,6 +316,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 94407237974145;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 69630559;
+            "tile-data" =             {
+                book = {length = 812, bytes = 0x626f6f6b 2c030000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.epicgames.UnrealEditor";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/Shared/Epic%20Games/UE_5.7/Engine/Binaries/Mac/UnrealEditor.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = UnrealEditor;
+                "file-mod-date" = 0;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 0;
             };
             "tile-type" = "file-tile";
         },
@@ -376,7 +412,7 @@
                 {
             GUID = 2293371083;
             "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -384,10 +420,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 3857332891;
+                "file-mod-date" = 174589983123705;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 51891357255585;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -513,7 +549,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 239903550817704;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -598,7 +634,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 27615396;
+            GUID = 69630565;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.clock";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Clock.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Clock;
+                "file-mod-date" = 3856829157;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3856829157;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2071120208;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -611,30 +665,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 124051102977563;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 27615397;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "mertbulan.TranslateBar";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Offline%20Translate.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Offline Translate";
-                "file-mod-date" = 195729812158437;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 124051102977563;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 27615398;
+            GUID = 2071120209;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -647,7 +683,7 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 124051102977563;
+                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         }
