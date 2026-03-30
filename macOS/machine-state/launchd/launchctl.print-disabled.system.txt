@@ -1,7 +1,7 @@
 
 	disabled services = {
 		"com.apple.AEServer" => disabled
-		"com.apple.screensharing" => enabled
+		"com.apple.screensharing" => disabled
 		"com.apple.CSCSupportd" => disabled
 		"com.apple.ftpd" => disabled
 		"com.apple.mdmclient.daemon.runatboot" => disabled

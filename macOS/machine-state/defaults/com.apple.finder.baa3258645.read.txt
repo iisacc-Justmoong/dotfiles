@@ -455,15 +455,27 @@
         MetaData = 1;
     };
     FXLastSearchScope = SCev;
-    "FXPreferencesWindow.Location" = "{{1168, 498}, {377, 392}}";
+    "FXPreferencesWindow.Location" = "{{1168, 58}, {377, 832}}";
     FXPreferredSearchViewStyle = Nlsv;
     FXPreferredSearchViewStyleVersion = "%00%00%00%01";
     FXPreferredViewStyle = Nlsv;
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = Movies;
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
+        },
+                {
+            "file-bookmark" = {length = 844, bytes = 0x626f6f6b 4c030000 00000510 40000000 ... 04000000 00000000 };
+            name = "2026-03-29";
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
@@ -472,40 +484,15 @@
                 {
             "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
             name = build;
-        },
-                {
-            "file-bookmark" = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
-            name = "ios-xcode-artifact";
-        },
-                {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
-        },
-                {
-            "file-bookmark" = {length = 836, bytes = 0x626f6f6b 44030000 00000510 40000000 ... 04000000 00000000 };
-            name = Shared;
-        },
-                {
-            "file-bookmark" = {length = 832, bytes = 0x626f6f6b 40030000 00000510 40000000 ... 04000000 00000000 };
-            name = Recents;
-        },
-                {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = Music;
-        },
-                {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = Logic;
-        },
-                {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = Pictures;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync",
+        "com.Box.Box-Edit.BoxEditFinderExtension",
+        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -720,7 +707,7 @@
             WindowBounds = "{{-1143, 497}, {876, 723}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -749,7 +736,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{249, 100}, {876, 723}}";
+            WindowBounds = "{{1417, 497}, {876, 723}}";
         };
     };
     NewWindowTarget = PfHm;
@@ -763,8 +750,9 @@
             WindowBounds = "{{709, 546}, {920, 492}}";
         };
     };
-    "PreferencesWindow.LastSelection" = ADVD;
+    "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Users/ymy/Library/CloudStorage/Box-Box/SDOutput/2026-03-29/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/",
         "file:///Applications/",
         "file:///Users/ymy/Documents/",
