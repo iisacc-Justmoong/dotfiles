@@ -1,4 +1,22 @@
 {
     currentEnrollmentProgress = 0;
     shouldUpdateAccessory = 1;
+    transparencyAmplification =     {
+        "58:64:C4:C4:ED:D4" = "0.5";
+    };
+    transparencyBalance =     {
+        "58:64:C4:C4:ED:D4" = "0.5";
+    };
+    transparencyBeamforming =     {
+        "58:64:C4:C4:ED:D4" = 0;
+    };
+    transparencyCustomized =     {
+        "58:64:C4:C4:ED:D4" = 0;
+    };
+    transparencyNoiseSupressor =     {
+        "58:64:C4:C4:ED:D4" = 0;
+    };
+    transparencyTone =     {
+        "58:64:C4:C4:ED:D4" = "0.5";
+    };
 }

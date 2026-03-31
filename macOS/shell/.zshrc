@@ -85,3 +85,8 @@ fi
 if [[ -r "$HOME/.openclaw/completions/openclaw.zsh" ]]; then
   source "$HOME/.openclaw/completions/openclaw.zsh"
 fi
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/ymy/.lmstudio/bin"
+# End of LM Studio CLI section
+

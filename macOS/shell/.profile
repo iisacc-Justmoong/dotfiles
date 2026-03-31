@@ -10,3 +10,8 @@
 [ -d "$HOME/.lmstudio/bin" ] && PATH="$PATH:$HOME/.lmstudio/bin"
 
 export PATH
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/ymy/.lmstudio/bin"
+# End of LM Studio CLI section
+

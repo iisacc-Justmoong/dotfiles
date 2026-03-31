@@ -9,7 +9,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-03-28 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-03-30 15:00:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -17,8 +17,12 @@
         );
     };
     DelegatesInSeparateWindows =     {
+        iCal =         {
+            inspectors =             (
+            );
+        };
     };
-    LastSaveDate = "2026-03-29 12:38:32 +0000";
+    LastSaveDate = "2026-03-31 11:20:14 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -28,7 +32,7 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "539 101 1309 1050 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "-1361 148 1309 1050 -2560 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
@@ -46,11 +50,11 @@
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
-    "first shown minute of day" = "292.6163391933816";
+    "first shown minute of day" = "212.4858115777525";
     "iCal version" = 150994944;
     kCalDBLastSpotLightIndexCalendarsVersion = 1;
     kCalDBLastSpotLightIndexVersion = 24;
-    "last calendar view description" = Monthly;
+    "last calendar view description" = Daily;
     "last minute of day time range" = 1440;
     "last selected calendar list item" = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
     lastViewsTimeZone = "Asia/Seoul";

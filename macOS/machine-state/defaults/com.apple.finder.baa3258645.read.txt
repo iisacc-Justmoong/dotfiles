@@ -466,10 +466,6 @@
             name = Box;
         },
                 {
-            "file-bookmark" = {length = 844, bytes = 0x626f6f6b 4c030000 00000510 40000000 ... 04000000 00000000 };
-            name = "2026-03-29";
-        },
-                {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
             name = Workspace;
         },
@@ -484,15 +480,28 @@
                 {
             "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
             name = build;
+        },
+                {
+            "file-bookmark" = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
+            name = "ios-xcode-artifact";
+        },
+                {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync",
-        "com.Box.Box-Edit.BoxEditFinderExtension",
-        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -736,7 +745,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1417, 497}, {876, 723}}";
+            WindowBounds = "{{-1740, 330}, {1093, 850}}";
         };
     };
     NewWindowTarget = PfHm;

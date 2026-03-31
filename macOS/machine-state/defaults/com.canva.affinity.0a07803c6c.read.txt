@@ -43,7 +43,7 @@
     FillColumnGuides = 1;
     FillFlyoutModelTag = 5;
     GlobalEnable = 1;
-    GrayLevelBackground = 0;
+    GrayLevelBackground = "0.16";
     GridMainColour = {length = 287, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e6 };
     GridSubColour = {length = 287, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e6 };
     KnifeToolAutoCloseMode = 0;
@@ -161,7 +161,7 @@
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3780, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000b60 };
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.east" = 0;
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.west" = 0;
-    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 4992, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000f02 };
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 4995, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000f05 };
     "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.east" = 0;
     "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.west" = 0;
     "com.canva.affinity.Studio.Data.1.HideState" = 0;

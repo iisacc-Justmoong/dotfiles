@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796533801.675886"
+        "796685673.088076"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2884;
+    "mod-count" = 2897;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -140,6 +140,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 2293371083;
+            "tile-data" =             {
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.openai.codex";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Codex.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Codex;
+                "file-mod-date" = 174589983123705;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 255245174177727;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2314632241;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -153,7 +171,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
@@ -302,6 +320,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 720179651;
+            "tile-data" =             {
+                book = {length = 732, bytes = 0x626f6f6b dc020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.autodesk.dls.streamer.scriptapp.Autodesk-Fusion";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/Autodesk%20Fusion.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Autodesk Fusion";
+                "file-mod-date" = 202399896367883;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 170922081094907;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 567659847;
             "tile-data" =             {
                 book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
@@ -356,24 +392,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2071120211;
-            "tile-data" =             {
-                book = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = ":no-bundle:1296122707";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Volumes/Storage/Workspace/Product/WhatSon/build/WhatSon.app%20alias";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "WhatSon.app alias";
-                "file-mod-date" = 128646718082459;
-                "file-type" = 37;
-                "is-beta" = 0;
-                "parent-mod-date" = 123428332817819;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2277882256;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -424,24 +442,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3856829157;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2293371083;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.openai.codex";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Codex.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Codex;
-                "file-mod-date" = 174589983123705;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
             };
             "tile-type" = "file-tile";
         },
@@ -567,7 +567,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
+                "parent-mod-date" = 255245174177727;
             };
             "tile-type" = "file-tile";
         },
@@ -652,25 +652,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2071120208;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 234917093767569;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2071120209;
+            GUID = 1510465823;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -683,25 +665,43 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2071120210;
+            GUID = 1510465824;
             "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 64926583158619;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
+                "parent-mod-date" = 280795934687193;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1510465825;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "ai.elementlabs.lmstudio";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "LM Studio";
+                "file-mod-date" = 148906078593021;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         }
