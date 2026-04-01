@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796685673.088076"
+        "796736082.391783"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2897;
+    "mod-count" = 2910;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -68,6 +68,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 3496674533;
+            "tile-data" =             {
+                book = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.intellij";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/IntelliJ%20IDEA.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "IntelliJ IDEA";
+                "file-mod-date" = 183025299227101;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 50229205402091;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 27615403;
             "tile-data" =             {
                 book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
@@ -100,6 +118,42 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 170922081094907;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3496674532;
+            "tile-data" =             {
+                book = {length = 728, bytes = 0x626f6f6b d8020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.rustrover";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/RustRover.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = RustRover;
+                "file-mod-date" = 63023912976480;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 97177492914299;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3496674531;
+            "tile-data" =             {
+                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.goland";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/GoLand.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = GoLand;
+                "file-mod-date" = 162168938037365;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 97177492914299;
             };
             "tile-type" = "file-tile";
         },
@@ -153,7 +207,7 @@
                 "file-mod-date" = 174589983123705;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 255245174177727;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
@@ -208,6 +262,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 60575781113736;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3496674530;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.pixelmatorteam.pixelmator.x";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Pixelmator%20Pro.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Pixelmator Pro";
+                "file-mod-date" = 147213861584157;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
@@ -518,6 +590,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 3496674529;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Steam.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 280795934687193;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 1629221523;
             "tile-data" =             {
                 book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
@@ -528,10 +618,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Webull Desktop";
-                "file-mod-date" = 52380978438824;
+                "file-mod-date" = 108589220690361;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 275233951495179;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
@@ -567,7 +657,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 255245174177727;
+                "parent-mod-date" = 280795934687193;
             };
             "tile-type" = "file-tile";
         },
@@ -652,25 +742,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1510465823;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1510465824;
+            GUID = 2346304317;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -688,7 +760,25 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1510465825;
+            GUID = 2346304318;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 280795934687193;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2346304319;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";

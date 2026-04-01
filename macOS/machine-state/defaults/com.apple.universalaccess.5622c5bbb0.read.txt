@@ -136,6 +136,16 @@
                 Date = "2026-04-01 06:34:26";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-04-01 06:49:37";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-04-01 20:34:35";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -183,6 +193,16 @@
         NSGlobalDomain
     );
     customFonts = 1;
+    displaysLastCursorLocation =     {
+        3 =         {
+            X = "-1438.6015625";
+            Y = "1086.07421875";
+        };
+        5 =         {
+            X = "834.12109375";
+            Y = "257.328125";
+        };
+    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;

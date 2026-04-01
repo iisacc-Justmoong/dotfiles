@@ -64,12 +64,12 @@
             enabled = 1;
         };
         175 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    125,
-                    8650752
+                    97,
+                    8388608
                 );
                 type = standard;
             };
@@ -171,7 +171,7 @@
             };
         };
         29 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     51,
@@ -204,12 +204,12 @@
             };
         };
         32 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    126,
-                    8650752
+                    99,
+                    8388608
                 );
                 type = standard;
             };
@@ -219,8 +219,19 @@
             value =             {
                 parameters =                 (
                     65535,
-                    125,
-                    8650752
+                    118,
+                    8388608
+                );
+                type = standard;
+            };
+        };
+        34 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    99,
+                    8519680
                 );
                 type = standard;
             };
@@ -230,19 +241,30 @@
             value =             {
                 parameters =                 (
                     65535,
-                    125,
-                    8781824
+                    118,
+                    8519680
                 );
                 type = standard;
             };
         };
         36 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    103,
+                    118,
                     8388608
+                );
+                type = standard;
+            };
+        };
+        37 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    118,
+                    8519680
                 );
                 type = standard;
             };
