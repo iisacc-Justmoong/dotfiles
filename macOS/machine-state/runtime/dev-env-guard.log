@@ -3126,3 +3126,21 @@ find: -delete: unlink(/Users/ymy/.dotfiles/.DS_Store): No such file or directory
 [OK] dev-env doctor ran (log: /Users/ymy/.dotfiles/macOS/machine-state/runtime/dev-env-doctor.last.log)
 [OK] git ownership healthy
 === [2026-04-02 20:14:07] machine-env-guard end ===
+=== [2026-04-02 20:44:08] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-04-02
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-04-02 20:44:08] machine-env-guard end ===
+=== [2026-04-02 21:14:08] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-04-02
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-04-02 21:14:08] machine-env-guard end ===
+=== [2026-04-02 21:44:08] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-04-02
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-04-02 21:44:08] machine-env-guard end ===
