@@ -3,7 +3,7 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1775043248;
+    CKStartupTime = 1775115740;
     CloudKitAccountInfoCache =     {
         64d09dae61135326b01284621e787b8013042e45176b3c3190fb6f34a321a8ad = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
         e71fe61b216cb058f6aa4739b1c62e7eae282cbf6182e24f5b3eb405f8a5ab72 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
@@ -11,10 +11,10 @@
     "CloudKitCoalescer.executeDate" = "2026-03-29 09:26:54 +0000";
     "CloudKitCoalescer.requestDate" = "2026-03-29 09:26:54 +0000";
     "CloudKitStorage::modifiedCKZones" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    "Daemon::LastLaunchBootSessionUUID" = "6DD2CD2A-DB3A-434B-83E8-A92DBC506DEF";
+    "Daemon::LastLaunchBootSessionUUID" = "6B18939B-D31B-4FEA-BDB1-0615F0C796AC";
     "Daemon::LastOSLaunchVersion" = 25E246;
     "FMIPStateManager.fmipState" = 1;
-    OwnedDeviceLastPublishDate = "2026-04-01 11:36:23 +0000";
+    OwnedDeviceLastPublishDate = "2026-04-02 07:30:09 +0000";
     PersistenceLayerVersion = 28;
     "ProductInfoManager.oneTimeMigration" = 1;
     "baseDate.LocalBeaconingManager" = "2026-03-29 09:26:49 +0000";

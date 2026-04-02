@@ -8,6 +8,7 @@
     "activationPriority@DisplayGroup:-1001" = 0;
     "airPlay@Display:10" = 0;
     "airPlay@Display:11" = 0;
+    "airPlay@Display:12" = 0;
     "airPlay@Display:2" = 0;
     "airPlay@Display:3" = 0;
     "airPlay@Display:4" = 0;
@@ -19,6 +20,7 @@
     appAlreadyLaunched = 1;
     "appDisconnected@Display:10" = 0;
     "appDisconnected@Display:11" = 0;
+    "appDisconnected@Display:12" = 0;
     "appDisconnected@Display:2" = 0;
     "appDisconnected@Display:3" = 0;
     "appDisconnected@Display:4" = 0;
@@ -29,6 +31,7 @@
     "appDisconnected@Display:9" = 0;
     "appleCapable@Display:10" = 0;
     "appleCapable@Display:11" = 0;
+    "appleCapable@Display:12" = 0;
     "appleCapable@Display:2" = 0;
     "appleCapable@Display:3" = 0;
     "appleCapable@Display:4" = 0;
@@ -39,6 +42,7 @@
     "appleCapable@Display:9" = 0;
     "appleMade@Display:10" = 0;
     "appleMade@Display:11" = 0;
+    "appleMade@Display:12" = 0;
     "appleMade@Display:2" = 0;
     "appleMade@Display:3" = 0;
     "appleMade@Display:4" = 0;
@@ -49,6 +53,7 @@
     "appleMade@Display:9" = 0;
     "appleVisionPro@Display:10" = 0;
     "appleVisionPro@Display:11" = 0;
+    "appleVisionPro@Display:12" = 0;
     "appleVisionPro@Display:2" = 0;
     "appleVisionPro@Display:3" = 0;
     "appleVisionPro@Display:4" = 0;
@@ -59,6 +64,7 @@
     buildNumber = 48120;
     "builtIn@Display:10" = 0;
     "builtIn@Display:11" = 0;
+    "builtIn@Display:12" = 0;
     "builtIn@Display:2" = 0;
     "builtIn@Display:3" = 0;
     "builtIn@Display:4" = 0;
@@ -69,6 +75,7 @@
     "builtIn@Display:9" = 0;
     "canChangeOrientation@Display:10" = 1;
     "canChangeOrientation@Display:11" = 1;
+    "canChangeOrientation@Display:12" = 1;
     "canChangeOrientation@Display:2" = 1;
     "canChangeOrientation@Display:3" = 1;
     "canChangeOrientation@Display:4" = 1;
@@ -78,6 +85,7 @@
     "canChangeOrientation@Display:9" = 1;
     "colorProfilesSupported@Display:10" = 1;
     "colorProfilesSupported@Display:11" = 1;
+    "colorProfilesSupported@Display:12" = 1;
     "colorProfilesSupported@Display:2" = 1;
     "colorProfilesSupported@Display:3" = 1;
     "colorProfilesSupported@Display:4" = 1;
@@ -88,6 +96,7 @@
     "colorProfilesSupported@Display:9" = 1;
     "colorTableCapable@Display:10" = 1;
     "colorTableCapable@Display:11" = 1;
+    "colorTableCapable@Display:12" = 1;
     "colorTableCapable@Display:2" = 1;
     "colorTableCapable@Display:3" = 1;
     "colorTableCapable@Display:4" = 1;
@@ -98,6 +107,7 @@
     "colorTableCapable@Display:9" = 1;
     "configuredPotentialEDR@Display:10" = 1;
     "configuredPotentialEDR@Display:11" = 1;
+    "configuredPotentialEDR@Display:12" = 1;
     "configuredPotentialEDR@Display:2" = 1;
     "configuredPotentialEDR@Display:3" = 1;
     "configuredPotentialEDR@Display:4" = 1;
@@ -108,6 +118,7 @@
     "configuredPotentialEDR@Display:9" = 1;
     "configuredReferenceEDR@Display:10" = 1;
     "configuredReferenceEDR@Display:11" = 1;
+    "configuredReferenceEDR@Display:12" = 1;
     "configuredReferenceEDR@Display:2" = 1;
     "configuredReferenceEDR@Display:3" = 1;
     "configuredReferenceEDR@Display:4" = 1;
@@ -118,6 +129,7 @@
     "configuredReferenceEDR@Display:9" = 1;
     "connected@Display:10" = 1;
     "connected@Display:11" = 1;
+    "connected@Display:12" = 1;
     "connected@Display:2" = 0;
     "connected@Display:3" = 0;
     "connected@Display:4" = 0;
@@ -125,9 +137,10 @@
     "connected@Display:6" = 0;
     "connected@Display:7" = 0;
     "connected@Display:8" = 1;
-    "connected@Display:9" = 1;
+    "connected@Display:9" = 0;
     "currentColorProfileURL@Display:10" = "file:///Library/ColorSync/Profiles/Displays/Cintiq%20Pro%2027-A2E6E5D0-0919-41E9-88DA-EF55AE91CB37.icc";
     "currentColorProfileURL@Display:11" = "file:///Library/ColorSync/Profiles/Displays/DP-CA5C3929-BED3-41CA-A3E8-F56BA7DACD04.icc";
+    "currentColorProfileURL@Display:12" = "file:///Library/ColorSync/Profiles/Displays/DP-30C36F08-5712-43A3-A04C-E90DDF6BD7FF.icc";
     "currentColorProfileURL@Display:2" = "file:///Library/ColorSync/Profiles/Displays/Cintiq%20Pro%2027-F223329C-FE2A-40B1-9A19-6DA0C410AB18.icc";
     "currentColorProfileURL@Display:3" = "file:///Library/Application%20Support/Adobe/Color/Profiles/Recommended/AppleRGB.icc";
     "currentColorProfileURL@Display:4" = "file:///Library/Application%20Support/Adobe/Color/Profiles/Recommended/AppleRGB.icc";
@@ -139,6 +152,7 @@
     "ddcConfigurationNoticeDismissed@Display:5" = 1;
     "defaultBitsPerSample@Display:10" = 10;
     "defaultBitsPerSample@Display:11" = 10;
+    "defaultBitsPerSample@Display:12" = 10;
     "defaultBitsPerSample@Display:2" = 10;
     "defaultBitsPerSample@Display:3" = 10;
     "defaultBitsPerSample@Display:4" = 10;
@@ -149,6 +163,7 @@
     "defaultBitsPerSample@Display:9" = 10;
     "defaultHeight@Display:10" = 1080;
     "defaultHeight@Display:11" = 1080;
+    "defaultHeight@Display:12" = 1080;
     "defaultHeight@Display:2" = 1080;
     "defaultHeight@Display:3" = 1080;
     "defaultHeight@Display:4" = 1080;
@@ -159,6 +174,7 @@
     "defaultHeight@Display:9" = 1080;
     "defaultIsHiDPI@Display:10" = 1;
     "defaultIsHiDPI@Display:11" = 1;
+    "defaultIsHiDPI@Display:12" = 1;
     "defaultIsHiDPI@Display:2" = 1;
     "defaultIsHiDPI@Display:3" = 1;
     "defaultIsHiDPI@Display:4" = 1;
@@ -169,6 +185,7 @@
     "defaultIsHiDPI@Display:9" = 1;
     "defaultModeNumber@Display:10" = 67;
     "defaultModeNumber@Display:11" = 20;
+    "defaultModeNumber@Display:12" = 20;
     "defaultModeNumber@Display:2" = 351;
     "defaultModeNumber@Display:3" = 92;
     "defaultModeNumber@Display:4" = 92;
@@ -179,6 +196,7 @@
     "defaultModeNumber@Display:9" = 20;
     "defaultRefreshRate@Display:10" = 120;
     "defaultRefreshRate@Display:11" = 60;
+    "defaultRefreshRate@Display:12" = 60;
     "defaultRefreshRate@Display:2" = 120;
     "defaultRefreshRate@Display:3" = 60;
     "defaultRefreshRate@Display:4" = 60;
@@ -189,6 +207,7 @@
     "defaultRefreshRate@Display:9" = 60;
     "defaultRefreshString@Display:10" = 120Hz;
     "defaultRefreshString@Display:11" = 60Hz;
+    "defaultRefreshString@Display:12" = 60Hz;
     "defaultRefreshString@Display:2" = 120Hz;
     "defaultRefreshString@Display:3" = 60Hz;
     "defaultRefreshString@Display:4" = 60Hz;
@@ -199,6 +218,7 @@
     "defaultRefreshString@Display:9" = 60Hz;
     "defaultWidth@Display:10" = 1920;
     "defaultWidth@Display:11" = 1920;
+    "defaultWidth@Display:12" = 1920;
     "defaultWidth@Display:2" = 1920;
     "defaultWidth@Display:3" = 1920;
     "defaultWidth@Display:4" = 1920;
@@ -207,24 +227,26 @@
     "defaultWidth@Display:7" = 1920;
     "defaultWidth@Display:8" = 1920;
     "defaultWidth@Display:9" = 1920;
-    displayConfigurationId = 441;
-    "displayConfigurationId@Display:10" = 441;
-    "displayConfigurationId@Display:11" = 441;
+    displayConfigurationId = 482;
+    "displayConfigurationId@Display:10" = 482;
+    "displayConfigurationId@Display:11" = 482;
+    "displayConfigurationId@Display:12" = 482;
     "displayConfigurationId@Display:2" = 345;
     "displayConfigurationId@Display:3" = 345;
     "displayConfigurationId@Display:4" = 345;
     "displayConfigurationId@Display:5" = 83;
     "displayConfigurationId@Display:6" = 102;
     "displayConfigurationId@Display:7" = 345;
-    "displayConfigurationId@Display:8" = 441;
-    "displayConfigurationId@Display:9" = 441;
+    "displayConfigurationId@Display:8" = 482;
+    "displayConfigurationId@Display:9" = 472;
     "displayIsTV_overrideUndo@v23587m4226" = 0;
     "displayIsTV_overrideUndo@v23597m10240" = 0;
     "displayName_overrideUndo@v23587m4226" = "";
     "displayName_overrideUndo@v23597m10240" = "";
-    displayTagIDs = "[2,3,4,5,6,7,8,9,10,11]";
+    displayTagIDs = "[2,3,4,5,6,7,8,9,10,11,12]";
     "factoryColorProfileURL@Display:10" = "file:///Library/ColorSync/Profiles/Displays/Cintiq%20Pro%2027-A2E6E5D0-0919-41E9-88DA-EF55AE91CB37.icc";
     "factoryColorProfileURL@Display:11" = "file:///Library/ColorSync/Profiles/Displays/DP-CA5C3929-BED3-41CA-A3E8-F56BA7DACD04.icc";
+    "factoryColorProfileURL@Display:12" = "file:///Library/ColorSync/Profiles/Displays/DP-30C36F08-5712-43A3-A04C-E90DDF6BD7FF.icc";
     "factoryColorProfileURL@Display:2" = "file:///Library/ColorSync/Profiles/Displays/Cintiq%20Pro%2027-F223329C-FE2A-40B1-9A19-6DA0C410AB18.icc";
     "factoryColorProfileURL@Display:3" = "file:///Library/ColorSync/Profiles/Displays/DP-83902D81-4CA2-4434-AB9B-D8E9565FC519.icc";
     "factoryColorProfileURL@Display:4" = "file:///Library/ColorSync/Profiles/Displays/DP-78F22A53-4817-44F6-815E-A8EDB8A438B2.icc";
@@ -234,6 +256,7 @@
     "factoryColorProfileURL@Display:9" = "file:///Library/ColorSync/Profiles/Displays/DP-7FFFE775-13F7-4947-9228-7DD3D8E2C6FC.icc";
     "firstAdded@Display:10" = "796379549.560269";
     "firstAdded@Display:11" = "796379549.632023";
+    "firstAdded@Display:12" = "796807448.484627";
     "firstAdded@Display:2" = "791133283.238414";
     "firstAdded@Display:3" = "791133283.279317";
     "firstAdded@Display:4" = "791133283.312045";
@@ -244,6 +267,7 @@
     "firstAdded@Display:9" = "796379549.498891";
     "hasAutoBrightness@Display:10" = 0;
     "hasAutoBrightness@Display:11" = 0;
+    "hasAutoBrightness@Display:12" = 0;
     "hasAutoBrightness@Display:2" = 0;
     "hasAutoBrightness@Display:3" = 0;
     "hasAutoBrightness@Display:4" = 0;
@@ -254,6 +278,7 @@
     "hasAutoBrightness@Display:9" = 0;
     "hasHDR@Display:10" = 0;
     "hasHDR@Display:11" = 1;
+    "hasHDR@Display:12" = 1;
     "hasHDR@Display:2" = 0;
     "hasHDR@Display:3" = 1;
     "hasHDR@Display:4" = 1;
@@ -264,6 +289,7 @@
     "hasHDR@Display:9" = 1;
     "hasHiDPI@Display:10" = 1;
     "hasHiDPI@Display:11" = 1;
+    "hasHiDPI@Display:12" = 1;
     "hasHiDPI@Display:2" = 1;
     "hasHiDPI@Display:3" = 1;
     "hasHiDPI@Display:4" = 1;
@@ -274,6 +300,7 @@
     "hasHiDPI@Display:9" = 1;
     "hasNotch@Display:10" = 0;
     "hasNotch@Display:11" = 0;
+    "hasNotch@Display:12" = 0;
     "hasNotch@Display:2" = 0;
     "hasNotch@Display:3" = 0;
     "hasNotch@Display:4" = 0;
@@ -284,6 +311,7 @@
     "hasNotch@Display:9" = 0;
     "hasUnderscanSupport@Display:10" = 0;
     "hasUnderscanSupport@Display:11" = 0;
+    "hasUnderscanSupport@Display:12" = 0;
     "hasUnderscanSupport@Display:2" = 0;
     "hasUnderscanSupport@Display:3" = 0;
     "hasUnderscanSupport@Display:4" = 0;
@@ -291,8 +319,9 @@
     "hasUnderscanSupport@Display:7" = 0;
     "hasUnderscanSupport@Display:8" = 0;
     "hasUnderscanSupport@Display:9" = 0;
-    "heightMillimeters@Display:10" = "329.5135085647171";
+    "heightMillimeters@Display:10" = "330.590764265794";
     "heightMillimeters@Display:11" = "350.0095641213741";
+    "heightMillimeters@Display:12" = "350.0095641213741";
     "heightMillimeters@Display:2" = "329.5135085647171";
     "heightMillimeters@Display:3" = "350.0095641213741";
     "heightMillimeters@Display:4" = "350.0095641213741";
@@ -329,25 +358,27 @@
     "isUnavailable@redHardwareGain-DDCController@Display:2" = 0;
     "isUnavailable@temperature-OverlayController@Display:5" = 1;
     "isUnavailable@volume-DDCController@Display:2" = 1;
-    "lastConnected@Display:10" = "796736102.0166169";
-    "lastConnected@Display:11" = "796736101.982663";
+    "lastConnected@Display:10" = "796808641.01885";
+    "lastConnected@Display:11" = "796808640.961154";
+    "lastConnected@Display:12" = "796808640.987318";
     "lastConnected@Display:2" = "796350038.487422";
     "lastConnected@Display:3" = "796350038.703108";
     "lastConnected@Display:4" = "796350038.6529469";
     "lastConnected@Display:5" = "791952876.616816";
     "lastConnected@Display:6" = "792133593.59138";
     "lastConnected@Display:7" = "796350038.4444391";
-    "lastConnected@Display:8" = "796736101.943725";
-    "lastConnected@Display:9" = "796736102.059247";
-    "lastUnseen@Display:11" = "796567432.55723";
+    "lastConnected@Display:8" = "796808640.927376";
+    "lastConnected@Display:9" = "796807251.797142";
+    "lastUnseen@Display:10" = "796807227.647517";
+    "lastUnseen@Display:11" = "796807247.785875";
     "lastUnseen@Display:2" = "796379549.645577";
     "lastUnseen@Display:3" = "796379549.6480989";
     "lastUnseen@Display:4" = "796379549.6504591";
     "lastUnseen@Display:5" = "791956759.91445";
     "lastUnseen@Display:6" = "792133594.388788";
     "lastUnseen@Display:7" = "796379549.6527441";
-    "lastUnseen@Display:8" = "796686168.15312";
-    "lastUnseen@Display:9" = "796567431.8478611";
+    "lastUnseen@Display:8" = "796736259.8999521";
+    "lastUnseen@Display:9" = "796807440.875188";
     "lowValue@blueHardwareGain-DDCController@Display:2" = 0;
     "lowValue@greenHardwareGain-DDCController@Display:2" = 0;
     "lowValue@hardwareBrightness-DDCController@Display:2" = 0;
@@ -403,7 +434,8 @@
     "moreOptions@Display:8" = 1;
     "moreOptions@Display:9" = 0;
     "name@Display:10" = "Cintiq Pro 27";
-    "name@Display:11" = "DP 2";
+    "name@Display:11" = "DP 1";
+    "name@Display:12" = "DP 2";
     "name@Display:2" = "Cintiq Pro 27";
     "name@Display:3" = "DP 1";
     "name@Display:4" = "DP 2";
@@ -414,6 +446,7 @@
     "name@Display:9" = "DP 1";
     "nativeHeight@Display:10" = 2160;
     "nativeHeight@Display:11" = 2160;
+    "nativeHeight@Display:12" = 2160;
     "nativeHeight@Display:2" = 2160;
     "nativeHeight@Display:3" = 2160;
     "nativeHeight@Display:4" = 2160;
@@ -424,6 +457,7 @@
     "nativeHeight@Display:9" = 2160;
     "nativeModeNumber@Display:10" = 120;
     "nativeModeNumber@Display:11" = 34;
+    "nativeModeNumber@Display:12" = 34;
     "nativeModeNumber@Display:2" = 807;
     "nativeModeNumber@Display:3" = 211;
     "nativeModeNumber@Display:4" = 211;
@@ -434,6 +468,7 @@
     "nativeModeNumber@Display:9" = 34;
     "nativeWidth@Display:10" = 3840;
     "nativeWidth@Display:11" = 3840;
+    "nativeWidth@Display:12" = 3840;
     "nativeWidth@Display:2" = 3840;
     "nativeWidth@Display:3" = 3840;
     "nativeWidth@Display:4" = 3840;
@@ -448,6 +483,7 @@
     "neutralValueOverride@redHardwareGain-DDCController@Display:2" = "0.5019607843137255";
     "nonAppleRealDisplay@Display:10" = 1;
     "nonAppleRealDisplay@Display:11" = 1;
+    "nonAppleRealDisplay@Display:12" = 1;
     "nonAppleRealDisplay@Display:2" = 1;
     "nonAppleRealDisplay@Display:3" = 1;
     "nonAppleRealDisplay@Display:4" = 1;
@@ -461,6 +497,7 @@
     onboardingSettingsIcon = 0;
     "overrideCapable@Display:10" = 1;
     "overrideCapable@Display:11" = 1;
+    "overrideCapable@Display:12" = 1;
     "overrideCapable@Display:2" = 1;
     "overrideCapable@Display:3" = 1;
     "overrideCapable@Display:4" = 1;
@@ -489,14 +526,15 @@
     "overridesRequireApply@v23597m10240" = 0;
     "overridesRequireApply_overrideUndo@v23587m4226" = 0;
     "overridesRequireApply_overrideUndo@v23597m10240" = 0;
-    "persistedDisplayID@Display:10" = 4;
-    "persistedDisplayID@Display:11" = 3;
+    "persistedDisplayID@Display:10" = 5;
+    "persistedDisplayID@Display:11" = 2;
+    "persistedDisplayID@Display:12" = 3;
     "persistedDisplayID@Display:3" = 0;
     "persistedDisplayID@Display:4" = 0;
     "persistedDisplayID@Display:5" = 12;
     "persistedDisplayID@Display:7" = 0;
     "persistedDisplayID@Display:8" = 1;
-    "persistedDisplayID@Display:9" = 5;
+    "persistedDisplayID@Display:9" = 0;
     "preferSoftwareContrastControl@Display:2" = 1;
     settingsDisplayGroupPaneSelectedTagID = 0;
     settingsDisplayPaneSelectedTagID = 2;
@@ -507,6 +545,7 @@
     "showSmoothScaleAdvancedSettings@Display:3" = 1;
     "sidecar@Display:10" = 0;
     "sidecar@Display:11" = 0;
+    "sidecar@Display:12" = 0;
     "sidecar@Display:2" = 0;
     "sidecar@Display:3" = 0;
     "sidecar@Display:4" = 0;
@@ -522,18 +561,20 @@
     "smoothScaling@v23597m10240" = 1;
     "smoothScaling_overrideUndo@v23587m4226" = 0;
     "smoothScaling_overrideUndo@v23597m10240" = 0;
-    "storedIdentifiers@Display:10" = "[{\\"infoDictionaryModelNumber\\":4226,\\"alphanumericSerialNumber\\":\\"5FH01A1000248\\",\\"yearOfManufacture\\":2025,\\"weekOfManufacture\\":25,\\"modelNumber\\":4226,\\"infoDictionarySerial\\":248,\\"serial\\":248,\\"vendorNumber\\":23587,\\"productName\\":\\"Cintiq Pro 27\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext1@8B000000\\\\/AppleCLCD2\\",\\"portID\\":32,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcI4IQ+AAAABkjAQS1OyF4Omw1r08zvSYMUFShCADRwIGAgcCpQAEBAQEBAQEBTdAAoPBwPoAwIDUAVE8hAAAaAAAA\\\\/ABDaW50aXEgUHJvIDI3AAAA\\\\/QgXeBsUdwEKICAgICAgAAAA\\\\/wA1RkgwMUExMDAwMjQ4AuECAyKwT3ZhYHJdPxAfbyAEEwMSAeIA6uMFwIHmBg0BYGAAVl4AoKCgKVAwIDUAVE8hAAAa71EAoPBwGYAwIDUAVE8hAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT3ASeQMAAwEoO6QBhP8OTwAHgB8Abwh+AHAABwC3vAAE\\\\/wlPAAeAHwCfBVQARgAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALuQ\\",\\"edidProductName\\":\\"Cintiq Pro 27\\",\\"systemUUID\\":\\"A2E6E5D0-0919-41E9-88DA-EF55AE91CB37\\",\\"infoDictionaryVendorNumber\\":23587}]";
-    "storedIdentifiers@Display:11" = "[{\\"infoDictionaryModelNumber\\":10240,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"yearOfManufacture\\":2021,\\"weekOfManufacture\\":1,\\"modelNumber\\":10240,\\"infoDictionarySerial\\":0,\\"serial\\":0,\\"vendorNumber\\":23597,\\"productName\\":\\"DP\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext2@8A000000\\\\/AppleCLCD2\\",\\"portID\\":16,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\",\\"edidProductName\\":\\"DP\\",\\"systemUUID\\":\\"CA5C3929-BED3-41CA-A3E8-F56BA7DACD04\\",\\"infoDictionaryVendorNumber\\":23597}]";
+    "storedIdentifiers@Display:10" = "[{\\"systemUUID\\":\\"A2E6E5D0-0919-41E9-88DA-EF55AE91CB37\\",\\"edidProductName\\":\\"Cintiq Pro 27\\",\\"modelNumber\\":4226,\\"vendorNumber\\":23587,\\"infoDictionarySerial\\":248,\\"weekOfManufacture\\":25,\\"portID\\":48,\\"infoDictionaryModelNumber\\":4226,\\"serial\\":248,\\"yearOfManufacture\\":2025,\\"alphanumericSerialNumber\\":\\"5FH01A1000248\\",\\"productName\\":\\"Cintiq Pro 27\\",\\"infoDictionaryVendorNumber\\":23587,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext1@8B000000\\\\/AppleCLCD2\\",\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcI4IQ+AAAABkjAQS1OyF4Omw1r08zvSYMUFShCADRwIGAgcCpQAEBAQEBAQEBTdAAoPBwPoAwIDUAVE8hAAAaAAAA\\\\/ABDaW50aXEgUHJvIDI3AAAA\\\\/QgXeBsUdwEKICAgICAgAAAA\\\\/wA1RkgwMUExMDAwMjQ4AuECAyKwT3ZhYHJdPxAfbyAEEwMSAeIA6uMFwIHmBg0BYGAAVl4AoKCgKVAwIDUAVE8hAAAa71EAoPBwGYAwIDUAVE8hAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT3ASeQMAAwEoO6QBhP8OTwAHgB8Abwh+AHAABwC3vAAE\\\\/wlPAAeAHwCfBVQARgAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALuQ\\"}]";
+    "storedIdentifiers@Display:11" = "[{\\"systemUUID\\":\\"CA5C3929-BED3-41CA-A3E8-F56BA7DACD04\\",\\"edidProductName\\":\\"DP\\",\\"modelNumber\\":10240,\\"vendorNumber\\":23597,\\"infoDictionarySerial\\":0,\\"weekOfManufacture\\":1,\\"portID\\":16,\\"infoDictionaryModelNumber\\":10240,\\"serial\\":0,\\"yearOfManufacture\\":2021,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"productName\\":\\"DP\\",\\"infoDictionaryVendorNumber\\":23597,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext2@8A000000\\\\/AppleCLCD2\\",\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\"}]";
+    "storedIdentifiers@Display:12" = "[{\\"systemUUID\\":\\"30C36F08-5712-43A3-A04C-E90DDF6BD7FF\\",\\"edidProductName\\":\\"DP\\",\\"modelNumber\\":10240,\\"vendorNumber\\":23597,\\"infoDictionarySerial\\":0,\\"weekOfManufacture\\":1,\\"portID\\":32,\\"infoDictionaryModelNumber\\":10240,\\"serial\\":0,\\"yearOfManufacture\\":2021,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"productName\\":\\"DP\\",\\"infoDictionaryVendorNumber\\":23597,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext0@88000000\\\\/AppleCLCD2\\",\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\"}]";
     "storedIdentifiers@Display:2" = "[{\\"serial\\":248,\\"edidProductName\\":\\"Cintiq Pro 27\\",\\"systemUUID\\":\\"F223329C-FE2A-40B1-9A19-6DA0C410AB18\\",\\"weekOfManufacture\\":25,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext1@8B000000\\\\/AppleCLCD2\\",\\"productName\\":\\"Cintiq Pro 27\\",\\"infoDictionarySerial\\":248,\\"alphanumericSerialNumber\\":\\"5FH01A1000248\\",\\"infoDictionaryModelNumber\\":4226,\\"vendorNumber\\":23587,\\"modelNumber\\":4226,\\"yearOfManufacture\\":2025,\\"infoDictionaryVendorNumber\\":23587,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcI4IQ+AAAABkjAQS1OyF4Omw1r08zvSYMUFShCADRwIGAgcCpQAEBAQEBAQEBTdAAoPBwPoAwIDUAVE8hAAAaAAAA\\\\/ABDaW50aXEgUHJvIDI3AAAA\\\\/QgXeBsUdwEKICAgICAgAAAA\\\\/wA1RkgwMUExMDAwMjQ4AuECAyKwT3ZhYHJdPxAfbyAEEwMSAeIA6uMFwIHmBg0BYGAAVl4AoKCgKVAwIDUAVE8hAAAa71EAoPBwGYAwIDUAVE8hAAAaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAT3ASeQMAAwEoO6QBhP8OTwAHgB8Abwh+AHAABwC3vAAE\\\\/wlPAAeAHwCfBVQARgAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALuQ\\",\\"portID\\":32}]";
     "storedIdentifiers@Display:3" = "[{\\"serial\\":0,\\"edidProductName\\":\\"DP\\",\\"systemUUID\\":\\"83902D81-4CA2-4434-AB9B-D8E9565FC519\\",\\"weekOfManufacture\\":1,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext2@8A000000\\\\/AppleCLCD2\\",\\"productName\\":\\"DP\\",\\"infoDictionarySerial\\":0,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"infoDictionaryModelNumber\\":10240,\\"vendorNumber\\":23597,\\"modelNumber\\":10240,\\"yearOfManufacture\\":2021,\\"infoDictionaryVendorNumber\\":23597,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\",\\"portID\\":16}]";
     "storedIdentifiers@Display:4" = "[{\\"serial\\":0,\\"edidProductName\\":\\"DP\\",\\"systemUUID\\":\\"78F22A53-4817-44F6-815E-A8EDB8A438B2\\",\\"weekOfManufacture\\":1,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext0@88000000\\\\/AppleCLCD2\\",\\"productName\\":\\"DP\\",\\"infoDictionarySerial\\":0,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"infoDictionaryModelNumber\\":10240,\\"vendorNumber\\":23597,\\"modelNumber\\":10240,\\"yearOfManufacture\\":2021,\\"infoDictionaryVendorNumber\\":23597,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\",\\"portID\\":48}]";
     "storedIdentifiers@Display:5" = "[{\\"infoDictionarySerial\\":613730178,\\"infoDictionaryVendorNumber\\":1633775724,\\"productName\\":\\"iPad mini\\",\\"infoDictionaryModelNumber\\":1766875492,\\"serial\\":613730178,\\"systemUUID\\":\\"51A6A59B-8A6A-4198-8EA1-97ACEF5BB116\\",\\"yearOfManufacture\\":0,\\"modelNumber\\":1766875492,\\"vendorNumber\\":1633775724,\\"weekOfManufacture\\":0}]";
     "storedIdentifiers@Display:6" = "[{\\"systemUUID\\":\\"UNKNOWN\\",\\"serial\\":0,\\"vendorNumber\\":23597,\\"modelNumber\\":10240,\\"productName\\":\\"Generic Display\\"}]";
     "storedIdentifiers@Display:7" = "[{\\"edidProductName\\":\\"Digital\\",\\"serial\\":1,\\"systemUUID\\":\\"F055AE8D-C280-4E22-90F3-930A76BC61C1\\",\\"weekOfManufacture\\":29,\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/disp0@8A000000\\\\/AppleCLCD2\\",\\"productName\\":\\"Digital\\",\\"infoDictionarySerial\\":1,\\"infoDictionaryModelNumber\\":1,\\"vendorNumber\\":20976,\\"modelNumber\\":1,\\"yearOfManufacture\\":2009,\\"infoDictionaryVendorNumber\\":20976,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBR8AEAAQAAAB0TAQOIAAAAigAToFdJmyYQSE6tzwBFSmFMgYABAYGKgYwBAQEBsDaAoHA4H0AwICUAAAAAAAAaAAAA\\\\/ABEaWdpdGFsCgoKCgoKAAAAEAAaJ0BYkDQAmgARAAAcAAAAEAAKCgoKCgoKCgoKCgoKAFQ=\\",\\"portID\\":4294967295}]";
-    "storedIdentifiers@Display:8" = "[{\\"infoDictionaryModelNumber\\":1,\\"yearOfManufacture\\":2009,\\"weekOfManufacture\\":29,\\"modelNumber\\":1,\\"infoDictionarySerial\\":1,\\"vendorNumber\\":20976,\\"serial\\":1,\\"productName\\":\\"Digital\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/disp0@8A000000\\\\/AppleCLCD2\\",\\"portID\\":4294967295,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBR8AEAAQAAAB0TAQOIAAAAigAToFdJmyYQSE6tzwBFSmFMgYABAYGKgYwBAQEBsDaAoHA4H0AwICUAAAAAAAAaAAAA\\\\/ABEaWdpdGFsCgoKCgoKAAAAEAAaJ0BYkDQAmgARAAAcAAAAEAAKCgoKCgoKCgoKCgoKAFQ=\\",\\"edidProductName\\":\\"Digital\\",\\"systemUUID\\":\\"9DABB1D3-9571-4180-9D38-EA60221A96B4\\",\\"infoDictionaryVendorNumber\\":20976}]";
-    "storedIdentifiers@Display:9" = "[{\\"infoDictionaryModelNumber\\":10240,\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"yearOfManufacture\\":2021,\\"weekOfManufacture\\":1,\\"modelNumber\\":10240,\\"infoDictionarySerial\\":0,\\"serial\\":0,\\"vendorNumber\\":23597,\\"productName\\":\\"DP\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext0@88000000\\\\/AppleCLCD2\\",\\"portID\\":48,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\",\\"edidProductName\\":\\"DP\\",\\"systemUUID\\":\\"7FFFE775-13F7-4947-9228-7DD3D8E2C6FC\\",\\"infoDictionaryVendorNumber\\":23597}]";
+    "storedIdentifiers@Display:8" = "[{\\"systemUUID\\":\\"9DABB1D3-9571-4180-9D38-EA60221A96B4\\",\\"edidProductName\\":\\"Digital\\",\\"modelNumber\\":1,\\"vendorNumber\\":20976,\\"infoDictionarySerial\\":1,\\"weekOfManufacture\\":29,\\"portID\\":4294967295,\\"infoDictionaryModelNumber\\":1,\\"serial\\":1,\\"yearOfManufacture\\":2009,\\"productName\\":\\"Digital\\",\\"infoDictionaryVendorNumber\\":20976,\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBR8AEAAQAAAB0TAQOIAAAAigAToFdJmyYQSE6tzwBFSmFMgYABAYGKgYwBAQEBsDaAoHA4H0AwICUAAAAAAAAaAAAA\\\\/ABEaWdpdGFsCgoKCgoKAAAAEAAaJ0BYkDQAmgARAAAcAAAAEAAKCgoKCgoKCgoKCgoKAFQ=\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/disp0@8A000000\\\\/AppleCLCD2\\"}]";
+    "storedIdentifiers@Display:9" = "[{\\"alphanumericSerialNumber\\":\\"demoset-1\\",\\"ioDisplayLocation\\":\\"IOService:\\\\/AppleARMPE\\\\/arm-io\\\\/AppleT600xIO\\\\/dispext0@88000000\\\\/AppleCLCD2\\",\\"portID\\":48,\\"infoDictionaryVendorNumber\\":23597,\\"yearOfManufacture\\":2021,\\"productName\\":\\"DP\\",\\"vendorNumber\\":23597,\\"edidProductName\\":\\"DP\\",\\"weekOfManufacture\\":1,\\"systemUUID\\":\\"7FFFE775-13F7-4947-9228-7DD3D8E2C6FC\\",\\"edidData\\":\\"AP\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/\\\\/wBcLQAoAAAAAAEfAQS1PiN4P+6Ro1RMmSYPUFQhCADRwAEBAQGVAJBAgYCBQIHAQNAAoPBwPoAwIDUAbF4hAAAaAAAA\\\\/ABEUAogICAgICAgICAgAAAA\\\\/wBkZW1vc2V0LTEKIDAgAAAA\\\\/QAwS5GRRgEKICAgICAgAWMCAyHyRuEBAgMEEOIAwCMJfweDAQAA4wXAAOYGBQFiYgACOoAYcTgtQFgsJQAPKCEAAB5qXgCgoKApUDAgNQAPKCEAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATA==\\",\\"infoDictionarySerial\\":0,\\"serial\\":0,\\"modelNumber\\":10240,\\"infoDictionaryModelNumber\\":10240}]";
     "systemVirtual@Display:10" = 0;
     "systemVirtual@Display:11" = 0;
+    "systemVirtual@Display:12" = 0;
     "systemVirtual@Display:2" = 0;
     "systemVirtual@Display:3" = 0;
     "systemVirtual@Display:4" = 0;
@@ -542,9 +583,10 @@
     "systemVirtual@Display:7" = 0;
     "systemVirtual@Display:8" = 0;
     "systemVirtual@Display:9" = 0;
-    tagIDCounter = 11;
+    tagIDCounter = 12;
     "thirdPartyVirtual@Display:10" = 0;
     "thirdPartyVirtual@Display:11" = 0;
+    "thirdPartyVirtual@Display:12" = 0;
     "thirdPartyVirtual@Display:2" = 0;
     "thirdPartyVirtual@Display:3" = 0;
     "thirdPartyVirtual@Display:4" = 0;
@@ -555,6 +597,7 @@
     toolsMoreOptions = 0;
     "tv@Display:10" = 0;
     "tv@Display:11" = 0;
+    "tv@Display:12" = 0;
     "tv@Display:2" = 0;
     "tv@Display:3" = 0;
     "tv@Display:4" = 0;
@@ -564,6 +607,7 @@
     "tv@Display:9" = 0;
     "unknownDisplay@Display:10" = 0;
     "unknownDisplay@Display:11" = 0;
+    "unknownDisplay@Display:12" = 0;
     "unknownDisplay@Display:2" = 0;
     "unknownDisplay@Display:3" = 0;
     "unknownDisplay@Display:4" = 0;
@@ -576,6 +620,7 @@
     "uuid@Display:0" = 0;
     "uuid@Display:10" = 10;
     "uuid@Display:11" = 11;
+    "uuid@Display:12" = 12;
     "uuid@Display:2" = 2;
     "uuid@Display:3" = 3;
     "uuid@Display:4" = 4;
@@ -590,6 +635,7 @@
     "value@blueHardwareGain-DDCController@Display:2" = "0.5019607843137255";
     "value@blueHardwareGain-DDCController@Display:3" = "0.5";
     "value@blueLight-BlueLightController" = "0.5";
+    "value@combinedBrightness-CombinedController@Display:12" = 1;
     "value@combinedBrightness-CombinedController@Display:2" = 1;
     "value@combinedBrightness-CombinedController@Display:3" = "0.749828506097561";
     "value@combinedBrightness-CombinedController@Display:4" = "0.7517149390243902";
@@ -600,6 +646,7 @@
     "value@greenHardwareGain-DDCController@Display:2" = "0.5019607843137255";
     "value@greenHardwareGain-DDCController@Display:3" = "0.5";
     "value@hardwareBrightness-AppleController@Display:4" = "0.8220160603523254";
+    "value@hardwareBrightness-DDCController@Display:12" = 1;
     "value@hardwareBrightness-DDCController@Display:2" = 1;
     "value@hardwareBrightness-DDCController@Display:3" = "0.499657012195122";
     "value@hardwareBrightness-DDCController@Display:4" = "0.5034298780487805";
@@ -614,6 +661,7 @@
     "value@redHardwareGain-DDCController@Display:3" = "0.5";
     "value@softwareBrightness-ColorController@Display:10" = 1;
     "value@softwareBrightness-ColorController@Display:11" = 1;
+    "value@softwareBrightness-ColorController@Display:12" = 1;
     "value@softwareBrightness-ColorController@Display:2" = 1;
     "value@softwareBrightness-ColorController@Display:3" = 1;
     "value@softwareBrightness-ColorController@Display:4" = 1;
@@ -626,6 +674,7 @@
     "value@volume-DDCController@Display:4" = "0.5";
     "virtualScreenLinked@Display:10" = 0;
     "virtualScreenLinked@Display:11" = 0;
+    "virtualScreenLinked@Display:12" = 0;
     "virtualScreenLinked@Display:2" = 0;
     "virtualScreenLinked@Display:3" = 0;
     "virtualScreenLinked@Display:4" = 0;
@@ -635,8 +684,9 @@
     "virtualScreenLinked@Display:8" = 0;
     "virtualScreenLinked@Display:9" = 0;
     warningsDismissed = "[\\"DdcBacklight\\",\\"DdcBacklightMain\\"]";
-    "widthMillimeters@Display:10" = "591.1272638494319";
+    "widthMillimeters@Display:10" = "589.9860915253981";
     "widthMillimeters@Display:11" = "619.2761811755952";
+    "widthMillimeters@Display:12" = "619.2761811755952";
     "widthMillimeters@Display:2" = "591.1272638494319";
     "widthMillimeters@Display:3" = "619.2761811755952";
     "widthMillimeters@Display:4" = "619.2761811755952";
@@ -647,6 +697,7 @@
     "widthMillimeters@Display:9" = "619.2761811755952";
     "xdrPresetsSupported@Display:10" = 0;
     "xdrPresetsSupported@Display:11" = 0;
+    "xdrPresetsSupported@Display:12" = 0;
     "xdrPresetsSupported@Display:2" = 0;
     "xdrPresetsSupported@Display:3" = 0;
     "xdrPresetsSupported@Display:4" = 0;

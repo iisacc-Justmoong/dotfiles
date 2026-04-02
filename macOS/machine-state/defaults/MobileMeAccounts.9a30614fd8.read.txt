@@ -194,7 +194,7 @@
                     ServiceID = "com.apple.Dataclass.ImagePlayground";
                 },
                                 {
-                    Enabled = 0;
+                    Enabled = 1;
                     Name = "KEYCHAIN_SYNC";
                     ServiceID = "com.apple.Dataclass.KeychainSync";
                     authMechanism = token;
