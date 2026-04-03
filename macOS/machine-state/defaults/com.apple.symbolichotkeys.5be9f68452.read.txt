@@ -39,6 +39,17 @@
         16 =         {
             enabled = 0;
         };
+        160 =         {
+            enabled = 0;
+            value =             {
+                parameters =                 (
+                    104,
+                    4,
+                    1048576
+                );
+                type = standard;
+            };
+        };
         163 =         {
             enabled = 1;
             value =             {
@@ -298,6 +309,28 @@
                     65535,
                     113,
                     8388608
+                );
+                type = standard;
+            };
+        };
+        55 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    107,
+                    8912896
+                );
+                type = standard;
+            };
+        };
+        56 =         {
+            enabled = 1;
+            value =             {
+                parameters =                 (
+                    65535,
+                    113,
+                    8912896
                 );
                 type = standard;
             };

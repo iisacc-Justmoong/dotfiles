@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796808637.260319"
+        "796893426.4580981"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2920;
+    "mod-count" = 2939;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 82978330708308;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 117814810446179;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -207,7 +207,7 @@
                 "file-mod-date" = 174589983123705;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +225,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -297,7 +297,7 @@
                 "file-mod-date" = 3856090399;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -603,7 +603,7 @@
                 "file-mod-date" = 3855341262;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -657,7 +657,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
@@ -723,7 +723,7 @@
             GUID = 2388809269;
             "tile-data" =             {
                 arrangement = 2;
-                book = {length = 668, bytes = 0x626f6f6b 9c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 04000000 00000000 };
                 displayas = 1;
                 "file-data" =                 {
                     "_CFURLString" = "file:///Users/ymy/Downloads/";
@@ -742,7 +742,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1546578583;
+            GUID = 1574485889;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 234917093767569;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 238168384459188;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1574485890;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -755,12 +773,12 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 119605812244436;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1546578584;
+            GUID = 1574485891;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,25 +791,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 119605812244436;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1546578585;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.anthropic.claudefordesktop";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Claude.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Claude;
-                "file-mod-date" = 3857876002;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 119605812244436;
+                "parent-mod-date" = 238168384459188;
             };
             "tile-type" = "file-tile";
         }

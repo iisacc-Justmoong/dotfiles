@@ -166,6 +166,26 @@
                 Date = "2026-04-02 16:43:50";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-04-02 16:59:36";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-04-03 09:23:43";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-04-03 09:39:45";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-04-03 16:16:59";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -213,16 +233,6 @@
         NSGlobalDomain
     );
     customFonts = 1;
-    displaysLastCursorLocation =     {
-        2 =         {
-            X = "-40.625";
-            Y = "1380.86328125";
-        };
-        3 =         {
-            X = "1027.19921875";
-            Y = "1021.0625";
-        };
-    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;

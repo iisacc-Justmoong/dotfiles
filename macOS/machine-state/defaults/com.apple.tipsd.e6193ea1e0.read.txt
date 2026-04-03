@@ -1,31 +1,32 @@
 {
-    ConsecutiveNotificationsCount = 0;
+    ConsecutiveNotificationsCount = 1;
     DeliveryEventIdentifierToDeliveryEventMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
     DeliveryInfoVersion = 93c6896f754a03411af465c9f2c13f6b7a997aa25af2e6900d25024dc4eeecfe;
     DiscoverabilityDeliveryInfoMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
     Experiment = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d7 };
-    LastNotifiedCollectionIdentifier = WelcomeToMac;
+    LastNotifiedCollectionIdentifier = Continuity;
     SearchItemIndexerSchemaVersion = 1;
     "TPSAnalyticsHistoricTipsDataProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
     TPSAnalyticsStore =     {
-        TPSLastNotificationTime = "2026-03-28 03:55:59 +0000";
-        TPSNotificationCount = 4;
+        TPSLastNotificationTime = "2026-04-02 07:59:20 +0000";
+        TPSNotificationCount = 5;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-04-02 07:33:16 +0000";
+    TPSContentUpdatedNotificationDate = "2026-04-03 04:07:38 +0000";
     TPSDCloudHintDisplayed =     (
         "VideoReactionTip-com.apple.Safari",
         IconStyleMac,
         EditSmartStack,
         "CID-health-fitness-collection-fcs-watch",
-        "CID-welcome-mac-collection-wwdc"
+        "CID-welcome-mac-collection-wwdc",
+        ContinuityCollection
     );
     TPSDidRevertArchivedTipStatuses = 1;
     TPSFullTipUsageEventContextualInfo = {length = 2454, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000007b8 };
     TPSLastMajorVersion = 26;
-    TPSLastNotificationDate = "2026-03-28 03:55:59 +0000";
+    TPSLastNotificationDate = "2026-04-02 07:59:20 +0000";
     "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-04-02 02:02:09 +0000";
+    TPSTipKitProcessedDate = "2026-04-03 03:26:25 +0000";
     TPSTipsAppInstalled = 1;
     TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
     TPSWelcomeNotificationReminderState = 1;
@@ -63,7 +64,8 @@
         "doc3e3a19ca-6d22-45e7-8fce-8d0127947eab",
         "doce00d164d-247b-49a0-9c0c-b292bec048d8",
         "doc6bacd122-5c5f-4b96-aea7-4e460c0437db",
-        "doc70b3014d-48cd-47a4-a93e-a27e826d5262"
+        "doc70b3014d-48cd-47a4-a93e-a27e826d5262",
+        "docdcae8cf5-3969-437d-be52-4ed954d5f966"
     );
-    TPSWidgetUpdateDate = "2026-04-01 23:01:50 +0000";
+    TPSWidgetUpdateDate = "2026-04-03 00:26:16 +0000";
 }

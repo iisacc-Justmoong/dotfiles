@@ -9,25 +9,25 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-03-24 00:45:22 +0000",
             "2026-03-26 09:33:29 +0000",
             "2026-03-29 12:55:49 +0000",
-            "2026-03-31 21:45:10 +0000"
+            "2026-03-31 21:45:10 +0000",
+            "2026-04-03 00:29:13 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-03-29 12:54:33 +0000",
             "2026-03-30 12:50:20 +0000",
             "2026-03-31 21:45:10 +0000",
-            "2026-04-01 12:43:34 +0000"
+            "2026-04-01 12:43:34 +0000",
+            "2026-04-02 11:05:18 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-03-24 00:45:22 +0000",
             "2026-03-26 09:33:29 +0000",
             "2026-03-29 12:55:49 +0000",
-            "2026-03-31 21:45:10 +0000"
+            "2026-03-31 21:45:10 +0000",
+            "2026-04-03 00:29:13 +0000"
         );
     };
-    StoreCurrentBootTime = "796808540.194396";
+    StoreCurrentBootTime = "796893393.3835139";
     StoreLoaders =     {
         "ausp_crnc_appl" =         {
             record =             {
@@ -115,21 +115,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-03-31 21:45:11 +0000";
+                Date = "2026-04-03 00:29:14 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-04-01 12:43:34 +0000";
+                Date = "2026-04-02 11:05:19 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-03-31 21:45:10 +0000";
+                Date = "2026-04-03 00:29:13 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };

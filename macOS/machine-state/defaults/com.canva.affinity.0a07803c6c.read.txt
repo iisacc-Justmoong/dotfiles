@@ -129,6 +129,7 @@
     "Tab-ToolUIPanel-NumberOfColumns" = 1;
     "Tab-ToolsUI-DockedState" = 1;
     ToolSizeDeltaIndex = 0;
+    "com.canva.affinity.Brush.BasicSettings.Visible" = 1;
     "com.canva.affinity.CharacterPage.ControllerState" = {length = 50, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67676c72 67616f00 };
     "com.canva.affinity.Colour.Advance" = 0;
     "com.canva.affinity.DataMergeManager.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501001f00000000};
@@ -161,7 +162,7 @@
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3780, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000b60 };
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.east" = 0;
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.west" = 0;
-    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 4995, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000f05 };
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 5301, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000ff1 };
     "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.east" = 0;
     "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.west" = 0;
     "com.canva.affinity.Studio.Data.1.HideState" = 0;
@@ -175,15 +176,15 @@
     "com.canva.affinity.favourites.fonts.names-migrated" = 1;
     "com.canva.affinity.homescreen.document.category.index" = 4;
     "com.canva.affinity.homescreen.document.item.index" = 1;
-    "com.canva.affinity.homescreen.frame" = "{{3286, 350}, {1098, 741}}";
+    "com.canva.affinity.homescreen.frame" = "{{3286, 737}, {1098, 741}}";
     "com.canva.affinity.opensave.panel.startupdir" = "file:/Volumes/Storage/Workspace/Assets/Artwork/Character/Neriel%20Heize";
     "com.canva.affinity.ourc.lastSessionExpiryTime" = "2026-04-09 16:38:50 +0000";
     "com.canva.affinity.ourc.lastSessionExpiryWarningTime" = "1970-01-01 00:00:00 +0000";
     "com.canva.affinity.recent.fonts.names-migrated" = 1;
     "com.canva.affinity.restoration.urls" =     (
     );
-    "com.canva.affinity.restore.mainwindow.frame" = {length = 267, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d1 };
-    "com.canva.affinity.tools.sub.frame" = "{{4786, 1072}, {48, 180}}";
+    "com.canva.affinity.restore.mainwindow.frame" = {length = 269, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d3 };
+    "com.canva.affinity.tools.sub.frame" = "{{5234, 1296}, {48, 180}}";
     "com.canva.affinity.tools.sub.horizontal" = 0;
     "com.canva.affinity.tools.sub.visible" = 0;
     "com.canva.affinity.watchForCrash" = 0;

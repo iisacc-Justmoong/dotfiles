@@ -23,10 +23,6 @@
                 {
                     "from": { "key_code": "f3" },
                     "to": [{ "key_code": "f3" }]
-                },
-                {
-                    "from": { "key_code": "f5" },
-                    "to": [{ "key_code": "f5" }]
                 }
             ],
             "name": "Default profile",
@@ -39,14 +35,6 @@
                 {
                     "from": { "key_code": "caps_lock" },
                     "to": [{ "key_code": "f19" }]
-                },
-                {
-                    "from": { "key_code": "left_command" },
-                    "to": [{ "key_code": "left_option" }]
-                },
-                {
-                    "from": { "key_code": "left_option" },
-                    "to": [{ "key_code": "left_command" }]
                 },
                 {
                     "from": { "key_code": "pause" },
