@@ -13,7 +13,7 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	stdout path = /Users/ymy/.cache/openclaw/launchd-cache-clean.log
 	stderr path = /Users/ymy/.cache/openclaw/launchd-cache-clean.err
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.Dydp2wjmUP/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.x7jFk3H11X/Listeners
 	}
 
 	default environment = {
@@ -27,8 +27,8 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 		XPC_SERVICE_NAME => ai.openclaw.cache-clean-2200
 	}
 
-	domain = gui/501 [100023]
-	asid = 100023
+	domain = gui/501 [100024]
+	asid = 100024
 	minimum runtime = 10
 	exit timeout = 5
 	runs = 0

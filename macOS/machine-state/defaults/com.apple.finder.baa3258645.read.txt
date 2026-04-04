@@ -466,20 +466,20 @@
             name = Box;
         },
                 {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = plans;
+            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = ".claude";
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "0l7dEAN6gB3qJnf9-8taZabUo8CqLasXz.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
             "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = plugins;
-        },
-                {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = projects;
+            name = sessions;
         },
                 {
             "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
@@ -487,19 +487,19 @@
         },
                 {
             "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = sessions;
+            name = projects;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = plugins;
         },
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "0l7dEAN6gB3qJnf9-8taZabUo8CqLasXz.wsnote";
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = ".claude";
         },
                 {
-            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = plans;
         }
     );
     FXSidebarUpgradedToSixteen = 1;

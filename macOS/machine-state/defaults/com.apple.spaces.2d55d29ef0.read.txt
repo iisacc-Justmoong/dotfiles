@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "21782.29159475";
+            Age = "77219.00348833334";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -23,16 +23,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 6;
-                        id64 = 6;
+                        ManagedSpaceID = 9;
+                        id64 = 9;
                         type = 0;
                         uuid = "78ACD192-2C4F-4921-8D49-E3B72C7C94A1";
                     };
                     "Display Identifier" = "A2E6E5D0-0919-41E9-88DA-EF55AE91CB37";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 6;
-                            id64 = 6;
+                            ManagedSpaceID = 9;
+                            id64 = 9;
                             type = 0;
                             uuid = "78ACD192-2C4F-4921-8D49-E3B72C7C94A1";
                         }
@@ -40,16 +40,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 7;
-                        id64 = 7;
+                        ManagedSpaceID = 10;
+                        id64 = 10;
                         type = 0;
                         uuid = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                     };
                     "Display Identifier" = "9DABB1D3-9571-4180-9D38-EA60221A96B4";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 7;
-                            id64 = 7;
+                            ManagedSpaceID = 10;
+                            id64 = 10;
                             type = 0;
                             uuid = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                         }
@@ -57,16 +57,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 8;
-                        id64 = 8;
+                        ManagedSpaceID = 11;
+                        id64 = 11;
                         type = 0;
                         uuid = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                     };
                     "Display Identifier" = "CA5C3929-BED3-41CA-A3E8-F56BA7DACD04";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 8;
-                            id64 = 8;
+                            ManagedSpaceID = 11;
+                            id64 = 11;
                             type = 0;
                             uuid = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                         }
@@ -83,12 +83,12 @@
                 }
             );
             Primary =             {
-                CreatedCount = 0;
-                DeletedCount = 0;
-                LifetimeEntryCount = 0;
-                LifetimeMax = 0;
-                LifetimeMin = 0;
-                LifetimeSum = 0;
+                CreatedCount = 4;
+                DeletedCount = 3;
+                LifetimeEntryCount = 3;
+                LifetimeMax = "29143.84211245834";
+                LifetimeMin = "7.838646833330131";
+                LifetimeSum = "29565.93300258334";
                 PersistedCount = 0;
             };
             Secondary =             {
@@ -105,36 +105,42 @@
                         {
                 name = "";
                 windows =                 (
-                    213,
-                    43,
-                    190,
-                    210,
-                    209,
-                    208,
-                    207,
-                    206,
-                    196,
-                    27
+                    180,
+                    222,
+                    294,
+                    59,
+                    57,
+                    56,
+                    55,
+                    54,
+                    52,
+                    214
                 );
             },
                         {
                 name = "78ACD192-2C4F-4921-8D49-E3B72C7C94A1";
                 windows =                 (
-                    30
+                    137,
+                    217
                 );
             },
                         {
                 name = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                 windows =                 (
-                    28
+                    181,
+                    60,
+                    215
                 );
             },
                         {
                 name = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                 windows =                 (
-                    184,
-                    205,
-                    29
+                    307,
+                    230,
+                    258,
+                    101,
+                    53,
+                    216
                 );
             }
         );

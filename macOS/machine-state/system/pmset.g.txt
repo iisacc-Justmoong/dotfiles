@@ -7,8 +7,8 @@ Currently in use:
  powernap             1
  networkoversleep     0
  disksleep            0
- sleep                1 (sleep prevented by cloudd, cloudd, powerd, runningboardd)
+ sleep                1 (sleep prevented by coreaudiod, runningboardd, runningboardd, runningboardd, runningboardd, runningboardd, runningboardd, powerd, bluetoothd)
  ttyskeepawake        1
- displaysleep         0
+ displaysleep         0 (display sleep prevented by Safari)
  tcpkeepalive         1
  womp                 0
