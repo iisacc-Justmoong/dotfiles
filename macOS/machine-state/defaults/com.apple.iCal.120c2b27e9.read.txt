@@ -9,7 +9,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-04-04 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-04-05 15:00:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -22,7 +22,7 @@
             );
         };
     };
-    LastSaveDate = "2026-04-01 11:44:00 +0000";
+    LastSaveDate = "2026-04-04 11:59:15 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -39,6 +39,7 @@
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
+            "20260329T010000Z/556846A1-E7D9-40C2-B4C7-7E1DF3B86240"
         );
     };
     SharedCalendarNotificationsDisabled = 0;

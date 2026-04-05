@@ -2,10 +2,10 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1775200593;
+    CKStartupTime = 1775349202;
     CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
     CloudKitAccountInfoCache =     {
-        b029063a134eefef5cfc31272a9e952b0f62b3986a4c1cfdc695defa1ac6905e = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+        b029063a134eefef5cfc31272a9e952b0f62b3986a4c1cfdc695defa1ac6905e = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     CloudKitAccountStatus =     {
         "CC8F39A4-D359-4D74-A376-A0D78845301C" = 1;
@@ -20,9 +20,9 @@
         );
     };
     SubscriptionIDsLastModifiedDate = "796367263.027745";
-    ThrottlingPolicyCurrentBatchCount = 0;
+    ThrottlingPolicyCurrentBatchCount = 1;
     ThrottlingPolicyCurrentLevelIndex = 0;
-    ThrottlingPolicyStartTime = "796900239.1380219";
+    ThrottlingPolicyStartTime = "796986639.33742";
     accountsListCategorizedCountsCache = {length = 1591, bytes = 0x62706c69 73743030 d2010203 2d5e7265 ... 00000000 000005bb };
     analyticsActivityLastExecutionDate = "2026-03-26 23:43:18 +0000";
     cloudKitSchemaCatchUpSyncSchedulingState = 0;

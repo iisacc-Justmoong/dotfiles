@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2948;
+    "mod-count" = 2956;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -225,7 +225,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 238168384459188;
+                "parent-mod-date" = 235273576586026;
             };
             "tile-type" = "file-tile";
         },
@@ -554,24 +554,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3702912408;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "ru.keepcoder.Telegram";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Telegram.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Telegram;
-                "file-mod-date" = 198396986443288;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 47901332391464;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 3762217185;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -742,25 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3138533631;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3138533632;
+            GUID = 1538287789;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -778,7 +742,25 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3138533633;
+            GUID = 1538287790;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 235273576586026;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1538287791;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
