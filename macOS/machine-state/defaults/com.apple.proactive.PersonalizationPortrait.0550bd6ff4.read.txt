@@ -1,10 +1,11 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-04-04 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xf723cd98 6c2cb90b d7160e29 0bc59cc0 ... cbe1450c 4c57460f };
+    "BundleIdRedactor.lastRolloverDay" = "2026-04-05 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xb9ff10b3 c595e36b bbccac6f 1009c018 ... cf820a2b 1df3fade };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.apple.MobileSMS",
+        "com.apple.Passwords",
         "com.openai.codex",
         "com.jetbrains.CLion",
-        "com.apple.dt.Xcode"
+        "com.apple.mail",
+        "com.apple.MobileSMS"
     );
 }

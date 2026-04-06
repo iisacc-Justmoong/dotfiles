@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "796976647.703426"
+        "797106980.291258"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2956;
+    "mod-count" = 2962;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -297,7 +297,7 @@
                 "file-mod-date" = 3856090399;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 238168384459188;
+                "parent-mod-date" = 235273576586026;
             };
             "tile-type" = "file-tile";
         },
@@ -654,10 +654,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "iPhone Mirroring";
-                "file-mod-date" = 3854835692;
+                "file-mod-date" = 3856829157;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3854835692;
+                "parent-mod-date" = 3856829157;
             };
             "tile-type" = "file-tile";
         },
@@ -724,7 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1538287789;
+            GUID = 3269958040;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -742,7 +742,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1538287790;
+            GUID = 3269958041;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -760,7 +760,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1538287791;
+            GUID = 3269958042;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
