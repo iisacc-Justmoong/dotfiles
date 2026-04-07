@@ -44,7 +44,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-04-05 11:38:29 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-04-06 12:30:29 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -406,8 +406,11 @@
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
+            "us.electronic.mas.macdroid.AFTFinderSync" = 0;
         };
         dirMap =         {
+            "us.electronic.mas.macdroid.AFTFinderSync" =             (
+            );
         };
     };
     "com.apple.keyboard.fnState" = 0;

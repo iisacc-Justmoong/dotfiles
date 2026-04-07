@@ -1,6 +1,7 @@
 
 	disabled services = {
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
+		"us.electronic.mas.macdroid.launcher" => enabled
 		"com.microsoft.update.agent" => enabled
 		"org.pqrs.service.agent.Karabiner-Menu" => enabled
 		"com.apple.Siri.agent" => enabled

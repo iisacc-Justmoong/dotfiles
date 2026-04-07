@@ -9,7 +9,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-04-05 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-04-19 15:00:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -22,7 +22,7 @@
             );
         };
     };
-    LastSaveDate = "2026-04-04 11:59:15 +0000";
+    LastSaveDate = "2026-04-06 14:06:55 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -32,14 +32,13 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "746 133 1309 1050 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "797 59 1309 1050 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
-            "20260329T010000Z/556846A1-E7D9-40C2-B4C7-7E1DF3B86240"
         );
     };
     SharedCalendarNotificationsDisabled = 0;

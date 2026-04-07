@@ -15,10 +15,10 @@
             "2026-04-05 00:39:16 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-04-02 11:05:18 +0000",
             "2026-04-03 11:09:27 +0000",
             "2026-04-04 11:06:29 +0000",
-            "2026-04-05 11:04:30 +0000"
+            "2026-04-05 11:04:30 +0000",
+            "2026-04-06 06:42:27 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-03-29 12:55:49 +0000",
@@ -27,7 +27,7 @@
             "2026-04-05 00:39:16 +0000"
         );
     };
-    StoreCurrentBootTime = "797106926.7711611";
+    StoreCurrentBootTime = "797213439.210933";
     StoreLoaders =     {
         "ausp_crnc_appl" =         {
             record =             {
@@ -57,27 +57,6 @@
         };
     };
     StoreTasks =     {
-        "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate" =         {
-            configuration =             {
-                cardinality =                 {
-                    once =                     {
-                    };
-                };
-                identifier = "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate";
-                requiredConditions = 2;
-                type =                 {
-                    periodic =                     {
-                        "_0" = 21600;
-                    };
-                };
-            };
-            failures =             (
-            );
-            state =             {
-                pending =                 {
-                };
-            };
-        };
         "com.apple.accessibility.voices.upgrader" =         {
             configuration =             {
                 cardinality =                 {
@@ -95,7 +74,40 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
+                };
+            };
+        };
+        "com.apple.voicedb.firstUnlock" =         {
+            configuration =             {
+                cardinality =                 {
+                    once =                     {
+                    };
+                };
+                identifier = "com.apple.voicedb.firstUnlock";
+                requiredConditions = 1;
+                type =                 {
+                    delay =                     {
+                        "_0" = 0;
+                        "_1" =                         {
+                            retry =                             {
+                                "_0" =                                 {
+                                    exponential =                                     {
+                                        max = 3600;
+                                        multiplier = "1.5";
+                                        start = 1;
+                                    };
+                                };
+                                maxAttempts = 5;
+                            };
+                        };
+                    };
+                };
+            };
+            failures =             (
+            );
+            state =             {
+                completed =                 {
                 };
             };
         };
@@ -110,7 +122,7 @@
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-04-05 11:04:31 +0000";
+                Date = "2026-04-06 06:42:28 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
