@@ -44,7 +44,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-04-06 12:30:29 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-04-09 00:41:14 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -406,10 +406,15 @@
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
+            "com.Box.Box-Edit.BoxEditFinderExtension" = 1;
             "us.electronic.mas.macdroid.AFTFinderSync" = 0;
         };
         dirMap =         {
+            "com.Box.Box-Edit.BoxEditFinderExtension" =             (
+                "file:///Users/ymy/Library/Application%20Support/Box/Box%20Edit/"
+            );
             "us.electronic.mas.macdroid.AFTFinderSync" =             (
+                "file:///Users/ymy/Library/Containers/us.electronic.mas.macdroid/Data/Library/Application%20Support/us.electronic.mas.macdroid/.sidebar.aliases/samsung%20SM-G988N"
             );
         };
     };

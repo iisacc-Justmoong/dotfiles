@@ -2,23 +2,13 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1775520639;
+    CKStartupTime = 1775695224;
     CloudKitAccountInfoCache =     {
         58af695e099cc219c764831a065dffac1c69209f9710c2cfc27c70f13b46ef86 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     IMChatVocabularyUpdaterDidPerformInitialUpdateKey = 1;
     "Setting.EnableReadReceipts" = 1;
     "Setting.GlobalReadReceiptsVersionID" = 2;
-    SpotlightPersistentTaskCriticalExecutionRanges =     (
-                (
-            "2026-04-06 06:25:40 +0000",
-            "2026-04-06 06:25:40 +0000"
-        ),
-                (
-            "2026-04-07 00:11:31 +0000",
-            "2026-04-07 00:11:32 +0000"
-        )
-    );
     "attachmentZoneChangeToken-syncStoreVersion" = 1;
     "changeToken-syncStoreVersion" = 1;
 }

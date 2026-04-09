@@ -1,39 +1,19 @@
 {
     AccessibilityHearingNearby =     {
         IncomingData =         {
-            TimeStamp = "2026-04-05 10:04:36:81";
-            TotalCount = 6;
+            TimeStamp = "2026-04-08 10:54:35:84";
+            TotalCount = 2;
             "com.apple.heard.xpc" =             {
-                Count = 6;
+                Count = 2;
                 TimeStamps =                 (
                                         (
-                        "2026-04-05 10:04:36:81",
-                        628,
+                        "2026-04-08 10:54:35:84",
+                        626,
                         "New XPC"
                     ),
                                         (
-                        "2026-04-05 10:04:36:81",
-                        628,
-                        "RegisterForAvailableDevicesUpdates (2)"
-                    ),
-                                        (
-                        "2026-04-05 23:38:17:61",
-                        628,
-                        "New XPC"
-                    ),
-                                        (
-                        "2026-04-05 23:38:17:61",
-                        628,
-                        "RegisterForDevicesUpdates (4)"
-                    ),
-                                        (
-                        "2026-04-06 04:27:47:00",
-                        632,
-                        "New XPC"
-                    ),
-                                        (
-                        "2026-04-06 04:27:47:01",
-                        632,
+                        "2026-04-08 10:54:35:84",
+                        626,
                         "RegisterForAvailableDevicesUpdates (2)"
                     )
                 );
