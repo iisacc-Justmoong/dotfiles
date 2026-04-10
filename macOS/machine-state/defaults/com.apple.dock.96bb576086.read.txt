@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "797388066.660385"
+        "797474619.704092"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 2975;
+    "mod-count" = 2984;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 82978330708308;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 253041856689911;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 174589983123705;
+                "file-mod-date" = 47660815658040;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +225,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
@@ -585,7 +585,7 @@
                 "file-mod-date" = 3855341262;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
@@ -639,7 +639,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
@@ -724,7 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 615879556;
+            GUID = 3991612240;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -737,12 +737,12 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 235273576586026;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 336791459;
+            GUID = 3991612241;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -755,12 +755,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 253041856689911;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 336791460;
+            GUID = 3991612242;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,7 +773,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 253041856689911;
+                "parent-mod-date" = 29153801581555;
             };
             "tile-type" = "file-tile";
         }
