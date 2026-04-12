@@ -9,7 +9,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-04-09 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-04-10 12:15:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -22,7 +22,7 @@
             );
         };
     };
-    LastSaveDate = "2026-04-09 06:50:40 +0000";
+    LastSaveDate = "2026-04-10 10:15:15 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -45,10 +45,10 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x8b2fd7180>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [94516], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 797400236;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x9a64124c0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [25467], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 797508837;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
+    defaultCalendarID = "687339AF-D194-46B8-9DBE-86955DA93689";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -59,7 +59,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
+    "last selected calendar list item" = "687339AF-D194-46B8-9DBE-86955DA93689";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

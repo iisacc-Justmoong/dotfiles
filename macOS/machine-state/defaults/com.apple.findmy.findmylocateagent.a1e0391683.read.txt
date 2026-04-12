@@ -2,14 +2,14 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1775781580;
+    CKStartupTime = 1775953081;
     CloudKitAccountInfoCache =     {
         d073b91c23d51cade70befcaec47c92d63b34ab7c68637cb9bf910dadb5df2b9 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     "CloudKitStorage::modifiedCKZones" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    "Daemon::LastLaunchBootSessionUUID" = "C954BA7D-02E5-4984-9E94-3806AF9B25CD";
-    "Daemon::LastOSLaunchVersion" = 25E246;
+    "Daemon::LastLaunchBootSessionUUID" = "45FDFDD9-0FC4-4F97-83FE-E20C1EB8E0DA";
+    "Daemon::LastOSLaunchVersion" = 25E253;
     "DataManager::isInitialized" = 1;
-    "DataManager::lastRefreshClientSuccessDate" = "2026-03-26 12:12:47 +0000";
+    "DataManager::lastRefreshClientSuccessDate" = "2026-04-10 23:54:54 +0000";
     SecureLocationConfigNextCheck = "1771232244.8894";
 }

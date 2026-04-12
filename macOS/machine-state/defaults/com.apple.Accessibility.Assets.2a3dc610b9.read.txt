@@ -9,25 +9,25 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-04-03 00:29:13 +0000",
             "2026-04-05 00:39:16 +0000",
             "2026-04-07 07:21:19 +0000",
-            "2026-04-09 10:28:48 +0000"
+            "2026-04-09 10:28:48 +0000",
+            "2026-04-11 12:44:44 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-04-06 06:42:27 +0000",
-            "2026-04-07 07:04:35 +0000",
             "2026-04-08 06:42:33 +0000",
-            "2026-04-09 06:36:23 +0000"
+            "2026-04-09 06:36:23 +0000",
+            "2026-04-10 07:18:16 +0000",
+            "2026-04-11 07:15:44 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-04-03 00:29:13 +0000",
             "2026-04-05 00:39:16 +0000",
             "2026-04-07 07:21:19 +0000",
-            "2026-04-09 10:28:48 +0000"
+            "2026-04-09 10:28:48 +0000",
+            "2026-04-11 12:44:44 +0000"
         );
     };
-    StoreCurrentBootTime = "797474380.2823701";
+    StoreCurrentBootTime = "797645881.8078439";
     StoreLoaders =     {
         "ausp_crnc_appl" =         {
             record =             {
@@ -115,21 +115,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-04-09 10:28:48 +0000";
+                Date = "2026-04-11 12:44:46 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-04-09 06:36:28 +0000";
+                Date = "2026-04-11 07:15:45 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-04-09 10:28:48 +0000";
+                Date = "2026-04-11 12:44:45 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };

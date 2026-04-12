@@ -50,12 +50,6 @@
     "public-sharing-settings" =     {
         "public-sharing-playlists" =         (
                         {
-                "public-sharing-playlist-domain" = 8;
-                "public-sharing-playlist-id" = 827510741282540920;
-                "public-sharing-playlist-name" = Audiobooks;
-                "public-sharing-playlist-shared" = 1;
-            },
-                        {
                 "public-sharing-playlist-domain" = 2;
                 "public-sharing-playlist-id" = 3740470342416060176;
                 "public-sharing-playlist-name" = "TV Shows";
@@ -83,6 +77,12 @@
                 "public-sharing-playlist-domain" = 1;
                 "public-sharing-playlist-id" = "-5840183823999260851";
                 "public-sharing-playlist-name" = Music;
+                "public-sharing-playlist-shared" = 1;
+            },
+                        {
+                "public-sharing-playlist-domain" = 8;
+                "public-sharing-playlist-id" = "-5754323080645726984";
+                "public-sharing-playlist-name" = Audiobooks;
                 "public-sharing-playlist-shared" = 1;
             },
                         {

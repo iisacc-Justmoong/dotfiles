@@ -463,7 +463,11 @@
     FXRecentFolders =     (
                 {
             "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "QHQUw1OG26HaAohI-oe3NhUrq6FxkY37h.wsnote";
+            name = "43tuEUReSO0Jj0FY-Yeos2z3siH3U5A6y.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "Bhnr9Xd7izQ7b3li-iyl8DA4qkDam7RrT.wsnote";
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
@@ -486,20 +490,16 @@
             name = ymy;
         },
                 {
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
+        },
+                {
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "QHQUw1OG26HaAohI-oe3NhUrq6FxkY37h.wsnote";
+        },
+                {
             "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
             name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
-        },
-                {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -718,7 +718,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{907, 410}, {969, 716}}";
+            WindowBounds = "{{820, 563}, {920, 632}}";
         };
     };
     LastTrashState = 1;
