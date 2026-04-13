@@ -462,51 +462,50 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "43tuEUReSO0Jj0FY-Yeos2z3siH3U5A6y.wsnote";
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         },
                 {
             "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
             name = "Bhnr9Xd7izQ7b3li-iyl8DA4qkDam7RrT.wsnote";
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
-            name = "Library.wslibrary";
-        },
-                {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
-            name = "icloud.wscontents";
-        },
-                {
-            "file-bookmark" = {length = 888, bytes = 0x626f6f6b 78030000 00000510 40000000 ... 54010000 00000000 };
-            name = "iCloud.wshub";
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "QHQUw1OG26HaAohI-oe3NhUrq6FxkY37h.wsnote";
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Box;
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 888, bytes = 0x626f6f6b 78030000 00000510 40000000 ... 54010000 00000000 };
+            name = "iCloud.wshub";
+        },
+                {
+            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
+            name = "icloud.wscontents";
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
+            name = "Library.wslibrary";
         },
                 {
             "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "QHQUw1OG26HaAohI-oe3NhUrq6FxkY37h.wsnote";
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
+            name = "FEBbOcMp6f5AuFxD-kfcnqHi8iV3oUewF.wsnote";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -718,7 +717,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{820, 563}, {920, 632}}";
+            WindowBounds = "{{820, 703}, {920, 492}}";
         };
     };
     LastTrashState = 1;

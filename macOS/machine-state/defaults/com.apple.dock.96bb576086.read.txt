@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "797645914.877471"
+        "797726412.363767"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3001;
+    "mod-count" = 3009;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 82978330708308;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 78868048205955;
+                "parent-mod-date" = 30777299474102;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 47660815658040;
+                "file-mod-date" = 95614125692564;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 90425805192624;
+                "parent-mod-date" = 30777299474102;
             };
             "tile-type" = "file-tile";
         },
@@ -546,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3856829157;
+                "file-mod-date" = 3858307857;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3856829157;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         },
@@ -672,10 +672,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3856829157;
+                "file-mod-date" = 3858307857;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3856829157;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         }
@@ -724,25 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 387781055;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 78868048205955;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 387781056;
+            GUID = 1435947957;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -755,12 +737,30 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 78868048205955;
+                "parent-mod-date" = 30777299474102;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 387781057;
+            GUID = 1435947958;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 30777299474102;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1435947959;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,7 +773,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 78868048205955;
+                "parent-mod-date" = 30777299474102;
             };
             "tile-type" = "file-tile";
         }
