@@ -11,42 +11,8 @@
         "com.apple.print.preset.behavior" = 0;
         "com.apple.print.preset.id" = "Last Used Settings";
         "com.apple.print.preset.settings" =         {
-            "AP_ColorMatchingMode" = "AP_VendorColorMatching";
             Duplex = None;
-            HPInvalidPaperSize = false;
-            "com.apple.print.DialogDismissedBy" = Print;
-            "com.apple.print.PDEsUsed" = Safari;
-            "com.apple.print.PageToPaperMappingAllowScalingUp" = 1;
-            "com.apple.print.PrintSettings.PMColorSpaceModel" = 2;
             "com.apple.print.PrintSettings.PMDuplexing" = 1;
-            "com.apple.print.pageRange" = "All 2 Pages";
-            "com.apple.print.subTicket.paper_info_ticket" =             {
-                PMPPDPaperCodeName = A4;
-                PMPPDTranslationStringPaperName = A4;
-                PMTiogaPaperName = "iso-a4";
-                "com.apple.print.PaperInfo.PMPPDPaperDimension" =                 (
-                    0,
-                    0,
-                    "595.2899780273438",
-                    "841.8900146484375"
-                );
-                "com.apple.print.PaperInfo.PMPaperName" = "iso-a4";
-                "com.apple.print.PaperInfo.PMUnadjustedPageRect" =                 (
-                    0,
-                    0,
-                    "796.5599975585938",
-                    "577.2899780273438"
-                );
-                "com.apple.print.PaperInfo.PMUnadjustedPaperRect" =                 (
-                    "-4.32000732421875",
-                    "-9",
-                    "837.5700073242188",
-                    "586.2899780273438"
-                );
-                "com.apple.print.PaperInfo.ppd.PMPaperName" = A4;
-                "com.apple.print.ticket.type" = "com.apple.print.PaperInfoTicket";
-            };
-            "com.apple.print.totalPages" = 1;
         };
     };
 }

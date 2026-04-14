@@ -1,8 +1,8 @@
 gui/501/ai.openclaw.gateway.watchdog = {
-	active count = 0
+	active count = 1
 	path = /Users/ymy/Library/LaunchAgents/ai.openclaw.gateway.watchdog.plist
 	type = LaunchAgent
-	state = spawn scheduled
+	state = running
 
 	program = /Users/ymy/.openclaw/bin/gateway-watchdog.sh
 	arguments = {
@@ -13,7 +13,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	stdout path = /Users/ymy/.openclaw/logs/gateway-watchdog.out.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway-watchdog.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.RIY6qlCOpM/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.dUWlvcrPxY/Listeners
 	}
 
 	default environment = {
@@ -33,34 +33,21 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	minimum runtime = 5
 	exit timeout = 5
 	runs = 1
-	last exit code = 78: EX_CONFIG
-
-	event triggers = {
-		ai.openclaw.gateway.watchdog => {
-			keepalive = 0
-			service = ai.openclaw.gateway.watchdog
-			stream = com.apple.launchd.helper
-			monitor = com.apple.UserEventAgent-Aqua
-			descriptor = {
-				"Executable" => "/Users/ymy/.openclaw/bin/gateway-watchdog.sh"
-				"SkipImmediatePoll" => false
-			}
-		}
-	}
-
-	event channels = {
-		"com.apple.launchd.helper" = {
-			port = 0x0
-			active = 0
-			managed = 1
-			reset = 0
-			hide = 0
-			watching = 0
-		}
-	}
+	pid = 790
+	immediate reason = speculative
+	forks = 5
+	execs = 1
+	initialized = 1
+	trampolined = 1
+	started suspended = 0
+	proxy started suspended = 0
+	checked allocations = 0 (queried = 1)
+	checked allocations reason = no host
+	checked allocations flags = 0x0
+	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 919
+		ID = 944
 		type = resource
 		state = active
 		active count = 1
@@ -68,7 +55,7 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	}
 
 	jetsam coalition = {
-		ID = 920
+		ID = 945
 		type = jetsam
 		state = active
 		active count = 1
@@ -83,5 +70,5 @@ gui/501/ai.openclaw.gateway.watchdog = {
 	jetsam thread limit = 32
 	cpumon = default
 
-	properties = keepalive | runatload | penalty box | inferred program | managed LWCR
+	properties = keepalive | runatload | inferred program | managed LWCR
 }

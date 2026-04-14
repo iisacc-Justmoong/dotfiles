@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "75296.46430120834";
+            Age = "42902.570439";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -93,12 +93,12 @@
                 }
             );
             Primary =             {
-                CreatedCount = 3;
-                DeletedCount = 2;
-                LifetimeEntryCount = 2;
-                LifetimeMax = "1772.582236583334";
-                LifetimeMin = "1.294531625000673";
-                LifetimeSum = "1773.876768208334";
+                CreatedCount = 0;
+                DeletedCount = 0;
+                LifetimeEntryCount = 0;
+                LifetimeMax = 0;
+                LifetimeMin = 0;
+                LifetimeSum = 0;
                 PersistedCount = 0;
             };
             Secondary =             {
@@ -115,38 +115,41 @@
                         {
                 name = "";
                 windows =                 (
-                    254,
-                    84,
-                    197,
-                    209,
+                    275,
+                    274,
                     208,
-                    207,
-                    206,
-                    205,
-                    203,
-                    223
+                    223,
+                    83,
+                    220,
+                    244,
+                    243,
+                    242,
+                    241,
+                    240,
+                    238,
+                    56
                 );
             },
                         {
                 name = "78ACD192-2C4F-4921-8D49-E3B72C7C94A1";
                 windows =                 (
-                    224
+                    59
                 );
             },
                         {
                 name = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                 windows =                 (
-                    225
+                    57
                 );
             },
                         {
                 name = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                 windows =                 (
-                    195,
-                    192,
-                    194,
-                    204,
-                    226
+                    216,
+                    212,
+                    215,
+                    239,
+                    58
                 );
             }
         );

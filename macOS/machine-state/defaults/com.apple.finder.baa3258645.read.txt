@@ -466,40 +466,40 @@
             name = Box;
         },
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "Bhnr9Xd7izQ7b3li-iyl8DA4qkDam7RrT.wsnote";
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
         },
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "QHQUw1OG26HaAohI-oe3NhUrq6FxkY37h.wsnote";
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = World;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
-        },
-                {
-            "file-bookmark" = {length = 888, bytes = 0x626f6f6b 78030000 00000510 40000000 ... 54010000 00000000 };
-            name = "iCloud.wshub";
-        },
-                {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
-            name = "icloud.wscontents";
+            "file-bookmark" = {length = 1044, bytes = 0x626f6f6b 14040000 00000510 40000000 ... 04000000 00000000 };
+            name = UnrealInstance;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
             name = "Library.wslibrary";
         },
                 {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Assets;
+        },
+                {
             "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "FEBbOcMp6f5AuFxD-kfcnqHi8iV3oUewF.wsnote";
+            name = "xZZQGlbV30ovPX88-OTf2x4XulBeNiH8C.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 1236, bytes = 0x626f6f6b d4040000 00000510 40000000 ... 04000000 00000000 };
+            name = Materials;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -717,7 +717,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{820, 703}, {920, 492}}";
+            WindowBounds = "{{-920, 454}, {920, 492}}";
         };
     };
     LastTrashState = 1;

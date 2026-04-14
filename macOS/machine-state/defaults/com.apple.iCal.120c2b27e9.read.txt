@@ -5,11 +5,12 @@
         "53F306EB-CB95-4FB8-B92B-671EC5370B2C",
         "C51CB5E9-E073-4F45-A65D-B54649635956"
     );
+    AllDayAreaHeight = 0;
     BirthdayEventsGenerationAttemptsToResetKey = 0;
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-04-10 12:15:00 +0000";
+    CalFirstVisibleDate = "2026-04-14 15:00:00 +0000";
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -22,7 +23,7 @@
             );
         };
     };
-    LastSaveDate = "2026-04-10 10:15:15 +0000";
+    LastSaveDate = "2026-04-13 12:30:32 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -31,8 +32,8 @@
         "695.000000, 0.000000, 240.000000, 598.000000, YES, NO"
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
-    "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "792 126 1309 1050 0 0 2560 1410 ";
+    "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "-1868 399 359 150 -2560 0 2560 1410 ";
+    "NSWindow Frame iCal" = "-1445 301 1309 1050 -2560 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
     PrefMigrationSeed = 6;
@@ -45,10 +46,10 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x9a64124c0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [25467], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 797508837;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0xadf3c64c0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [46655], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 797752575;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "687339AF-D194-46B8-9DBE-86955DA93689";
+    defaultCalendarID = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -59,7 +60,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "687339AF-D194-46B8-9DBE-86955DA93689";
+    "last selected calendar list item" = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

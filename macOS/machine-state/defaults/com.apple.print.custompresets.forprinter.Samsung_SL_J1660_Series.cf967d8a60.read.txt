@@ -9,7 +9,7 @@
         "com.apple.print.PageToPaperMappingAllowScalingUp" = 1;
         "com.apple.print.PrintSettings.PMColorSpaceModel" = 2;
         "com.apple.print.PrintSettings.PMDuplexing" = 1;
-        "com.apple.print.pageRange" = "All 2 Pages";
+        "com.apple.print.pageRange" = "All 3 Pages";
         "com.apple.print.subTicket.paper_info_ticket" =         {
             PMPPDPaperCodeName = A4;
             PMPPDTranslationStringPaperName = A4;
@@ -36,6 +36,6 @@
             "com.apple.print.PaperInfo.ppd.PMPaperName" = A4;
             "com.apple.print.ticket.type" = "com.apple.print.PaperInfoTicket";
         };
-        "com.apple.print.totalPages" = 1;
+        "com.apple.print.totalPages" = 3;
     };
 }
