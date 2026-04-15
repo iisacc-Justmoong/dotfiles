@@ -21,6 +21,11 @@
                     dsid = 17533321770;
                 };
             };
+            "com.apple.itunescloud.ICPlayActivityServer.flush_task" =             {
+                identifier = "com.apple.itunescloud.ICPlayActivityServer.flush_task";
+                "is_recurring" = 0;
+                time = "797865813.5208139";
+            };
             "com.apple.itunescloud.subscription_status_refresh" =             {
                 identifier = "com.apple.itunescloud.subscription_status_refresh";
                 interval = 86400;
