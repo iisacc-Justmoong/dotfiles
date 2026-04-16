@@ -70,6 +70,7 @@
                 NSMenuItem =                 {
                     English = "Create Service";
                     default = "Create Service";
+                    empty = "Create Service";
                     en = "Create Service";
                     "en-US" = "Create Service";
                 };
@@ -89,6 +90,7 @@
                 NSMenuItem =                 {
                     English = "Create Workflow";
                     default = "Create Workflow";
+                    empty = "Create Workflow";
                     en = "Create Workflow";
                     "en-US" = "Create Workflow";
                 };
@@ -109,6 +111,7 @@
                 NSMenuItem =                 {
                     English = "Send File To Bluetooth Device";
                     default = "Send File To Bluetooth Device";
+                    empty = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
                     "en-US" = "Send File To Bluetooth Device";
                 };
@@ -130,12 +133,14 @@
                 NSKeyEquivalent =                 {
                     English = "$^@C";
                     default = "$^@C";
+                    empty = "$^@C";
                     en = "$^@C";
                     "en-US" = "$^@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Traditional Chinese";
                     default = "Convert Text from Simplified to Traditional Chinese";
+                    empty = "Convert Text to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
                     "en-US" = "Convert Text to Traditional Chinese";
                 };
@@ -161,12 +166,14 @@
                 NSKeyEquivalent =                 {
                     English = "$^~@C";
                     default = "$^~@C";
+                    empty = "$^~@C";
                     en = "$^~@C";
                     "en-US" = "$^~@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Simplified Chinese";
                     default = "Convert Text from Traditional to Simplified Chinese";
+                    empty = "Convert Text to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
                     "en-US" = "Convert Text to Simplified Chinese";
                 };
@@ -194,6 +201,7 @@
                 NSMenuItem =                 {
                     English = "Convert Text to Full Width";
                     default = "Convert Text to Full Width";
+                    empty = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
                     "en-US" = "Convert Text to Full Width";
                 };
@@ -218,6 +226,7 @@
                 NSMenuItem =                 {
                     English = "Convert Text to Half Width";
                     default = "Convert Text to Half Width";
+                    empty = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
                     "en-US" = "Convert Text to Half Width";
                 };
@@ -242,6 +251,7 @@
                 NSMenuItem =                 {
                     English = "Look Up in Dictionary";
                     default = "Look Up in Dictionary";
+                    empty = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
                     "en-US" = "Look Up in Dictionary";
                 };
@@ -295,6 +305,7 @@
                 NSMenuItem =                 {
                     English = "Folder Actions Setup\\U2026";
                     default = "Folder Actions Setup";
+                    empty = "Folder Actions Setup\\U2026";
                     en = "Folder Actions Setup\\U2026";
                     "en-US" = "Folder Actions Setup\\U2026";
                 };
@@ -329,6 +340,7 @@
                 NSMenuItem =                 {
                     English = "Preview/Open images";
                     default = "Preview/Open images";
+                    empty = "Preview/Open images";
                     en = "Preview/Open images";
                     "en-US" = "Preview/Open images";
                 };
@@ -347,6 +359,7 @@
                 NSMenuItem =                 {
                     English = "Encode Selected Audio Files";
                     default = "Encode Selected Audio Files";
+                    empty = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
                     "en-US" = "Encode Selected Audio Files";
                 };
@@ -368,6 +381,7 @@
                 NSMenuItem =                 {
                     English = "Search With %WebSearchProvider@";
                     default = "Search With %WebSearchProvider@";
+                    empty = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
                     "en-US" = "Search With %WebSearchProvider@";
                 };
@@ -386,6 +400,7 @@
                 NSMenuItem =                 {
                     English = "Add to Reading List";
                     default = "Add to Reading List";
+                    empty = "Add to Reading List";
                     en = "Add to Reading List";
                     "en-US" = "Add to Reading List";
                 };
@@ -416,6 +431,7 @@
                 NSMenuItem =                 {
                     English = "Script Editor/Make New AppleScript";
                     default = "Script Editor/Make New AppleScript";
+                    empty = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
                     "en-US" = "Script Editor/Make New AppleScript";
                 };
@@ -434,6 +450,7 @@
                 NSMenuItem =                 {
                     English = "Script Editor/Run as AppleScript";
                     default = "Script Editor/Run as AppleScript";
+                    empty = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
                     "en-US" = "Script Editor/Run as AppleScript";
                 };
@@ -451,12 +468,14 @@
                 NSKeyEquivalent =                 {
                     English = "*";
                     default = "*";
+                    empty = "*";
                     en = "*";
                     "en-US" = "*";
                 };
                 NSMenuItem =                 {
                     English = "Script Editor/Get Result of AppleScript";
                     default = "Script Editor/Get Result of AppleScript";
+                    empty = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
                     "en-US" = "Script Editor/Get Result of AppleScript";
                 };
@@ -482,6 +501,7 @@
                 NSMenuItem =                 {
                     English = Spotlight;
                     default = "SEARCH_WITH_SPOTLIGHT";
+                    empty = Spotlight;
                     en = Spotlight;
                     "en-US" = Spotlight;
                 };
@@ -498,12 +518,14 @@
                 NSKeyEquivalent =                 {
                     English = Y;
                     default = Y;
+                    empty = Y;
                     en = Y;
                     "en-US" = Y;
                 };
                 NSMenuItem =                 {
                     English = "Make New Sticky Note";
                     default = "Make Sticky";
+                    empty = "Make New Sticky Note";
                     en = "Make New Sticky Note";
                     "en-US" = "Make New Sticky Note";
                 };
@@ -524,6 +546,7 @@
                 NSMenuItem =                 {
                     English = Summarize;
                     default = Summarize;
+                    empty = Summarize;
                     en = Summarize;
                     "en-US" = Summarize;
                 };
@@ -542,6 +565,7 @@
                 NSMenuItem =                 {
                     English = "New Terminal at Folder";
                     default = "New Terminal at Folder";
+                    empty = "New Terminal at Folder";
                     en = "New Terminal at Folder";
                     "en-US" = "New Terminal at Folder";
                 };
@@ -567,6 +591,7 @@
                 NSMenuItem =                 {
                     English = "New Terminal Tab at Folder";
                     default = "New Terminal Tab at Folder";
+                    empty = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
                     "en-US" = "New Terminal Tab at Folder";
                 };
@@ -594,6 +619,7 @@
                 NSMenuItem =                 {
                     English = "Open man Page in Terminal";
                     default = "Open man Page in Terminal";
+                    empty = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
                     "en-US" = "Open man Page in Terminal";
                 };
@@ -616,6 +642,7 @@
                 NSMenuItem =                 {
                     English = "Search man Page Index in Terminal";
                     default = "Search man Page Index in Terminal";
+                    empty = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
                     "en-US" = "Search man Page Index in Terminal";
                 };
@@ -637,6 +664,7 @@
                 NSMenuItem =                 {
                     English = "New TextEdit Window Containing Selection";
                     default = "New TextEdit Window Containing Selection";
+                    empty = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
                     "en-US" = "New TextEdit Window Containing Selection";
                 };
@@ -657,6 +685,7 @@
                 NSMenuItem =                 {
                     English = "Open Selected File in TextEdit";
                     default = "Open Selected File in TextEdit";
+                    empty = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
                     "en-US" = "Open Selected File in TextEdit";
                 };
@@ -829,6 +858,7 @@
                 NSMenuItem =                 {
                     English = "Finder/Open";
                     default = "Finder/Open";
+                    empty = "Finder/Open";
                     en = "Finder/Open";
                     "en-US" = "Finder/Open";
                 };
@@ -854,6 +884,7 @@
                 NSMenuItem =                 {
                     English = "Finder/Show in Finder";
                     default = "Finder/Reveal";
+                    empty = "Finder/Show in Finder";
                     en = "Finder/Show in Finder";
                     "en-US" = "Finder/Show in Finder";
                 };
@@ -879,6 +910,7 @@
                 NSMenuItem =                 {
                     English = "Finder/Show Info in Finder";
                     default = "Finder/Show Info";
+                    empty = "Finder/Show Info in Finder";
                     en = "Finder/Show Info in Finder";
                     "en-US" = "Finder/Show Info in Finder";
                 };
@@ -901,6 +933,7 @@
                 NSMenuItem =                 {
                     English = "Mail/New Email With Selection";
                     default = "Mail/New Email With Selection";
+                    empty = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
                     "en-US" = "Mail/New Email With Selection";
                 };
@@ -922,6 +955,7 @@
                 NSMenuItem =                 {
                     English = "Mail/New Email To Address";
                     default = "Mail/New Email To Address";
+                    empty = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
                     "en-US" = "Mail/New Email To Address";
                 };
@@ -940,6 +974,7 @@
                 NSMenuItem =                 {
                     English = "Add to Music as a Spoken Track";
                     default = "Add to Music as a Spoken Track";
+                    empty = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
                     "en-US" = "Add to Music as a Spoken Track";
                 };
@@ -958,6 +993,7 @@
                 NSMenuItem =                 {
                     English = "Encode Selected Video Files";
                     default = "Encode Selected Video Files";
+                    empty = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
                     "en-US" = "Encode Selected Video Files";
                 };
@@ -978,6 +1014,7 @@
                 NSMenuItem =                 {
                     English = "Set Desktop Picture";
                     default = "Set Desktop Picture";
+                    empty = "Set Desktop Picture";
                     en = "Set Desktop Picture";
                     "en-US" = "Set Desktop Picture";
                 };
@@ -995,6 +1032,7 @@
                 NSMenuItem =                 {
                     English = "Show Map";
                     default = "Show Map";
+                    empty = "Show Map";
                     en = "Show Map";
                     "en-US" = "Show Map";
                 };
@@ -1016,6 +1054,7 @@
                 NSMenuItem =                 {
                     English = "Speech/Start Speaking Text";
                     default = "Speech/Start Speaking Text";
+                    empty = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
                     "en-US" = "Speech/Start Speaking Text";
                 };
@@ -1034,6 +1073,7 @@
                 NSMenuItem =                 {
                     English = "Speech/Stop Speaking";
                     default = "Speech/Stop Speaking";
+                    empty = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
                     "en-US" = "Speech/Stop Speaking";
                 };
@@ -1052,6 +1092,7 @@
                 NSMenuItem =                 {
                     English = "Open URL";
                     default = "Open URL";
+                    empty = "Open URL";
                     en = "Open URL";
                     "en-US" = "Open URL";
                 };
@@ -1174,6 +1215,7 @@
                 NSMenuItem =                 {
                     English = "Convert to icon(s)";
                     default = "Convert to icon(s)";
+                    empty = "Convert to icon(s)";
                     en = "Convert to icon(s)";
                     "en-US" = "Convert to icon(s)";
                 };
@@ -1194,6 +1236,7 @@
                 NSMenuItem =                 {
                     English = "Combine into one icon";
                     default = "Combine into one icon";
+                    empty = "Combine into one icon";
                     en = "Combine into one icon";
                     "en-US" = "Combine into one icon";
                 };

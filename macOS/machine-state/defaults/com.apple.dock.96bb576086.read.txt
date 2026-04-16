@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "797828489.698408"
+        "798024884.412302"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3036;
+    "mod-count" = 3045;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 82978330708308;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 30777299474102;
+                "parent-mod-date" = 9358297789489;
             };
             "tile-type" = "file-tile";
         },
@@ -171,7 +171,7 @@
                 "file-mod-date" = 214773697185939;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 50229205402091;
+                "parent-mod-date" = 263697671011119;
             };
             "tile-type" = "file-tile";
         },
@@ -585,7 +585,7 @@
                 "file-mod-date" = 3855341262;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 128457740810522;
+                "parent-mod-date" = 9358297789489;
             };
             "tile-type" = "file-tile";
         },
@@ -724,56 +724,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2877205760;
+            GUID = 1835150257;
             "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 64926583158619;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
+                "parent-mod-date" = 172068838919028;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2877205761;
+            GUID = 1835150258;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.TextEdit";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = TextEdit;
-                "file-mod-date" = 3858307857;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 172068838919028;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2877205762;
+            GUID = 1835150259;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "ai.elementlabs.lmstudio";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3858307857;
+                "file-label" = "LM Studio";
+                "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 172068838919028;
             };
             "tile-type" = "file-tile";
         }

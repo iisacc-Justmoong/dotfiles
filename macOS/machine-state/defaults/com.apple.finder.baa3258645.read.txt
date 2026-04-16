@@ -8,7 +8,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1358, 261}, {950, 1197}}";
+            WindowBounds = "{{1575, 164}, {844, 776}}";
         };
     };
     CopyProgressWindowLocation = "{760, 252}";
@@ -462,38 +462,51 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "HiuPzzU0fuAVq9Aj-T0ej2fV0CxT8Ggp8.wsnote";
+            "file-bookmark" = {length = 1088, bytes = 0x626f6f6b 40040000 00000510 40000000 ... 04000000 00000000 };
+            name = "build-qmldebug";
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
-            name = "Library.wslibrary";
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = WhatSon;
         },
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Documents;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 672, bytes = 0x626f6f6b a0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Qt;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Artwork;
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = Qt;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Assets;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
         },
                 {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            "file-bookmark" = {length = 1584, bytes = 0x626f6f6b 30060000 00000510 40000000 ... c4000000 00000000 };
+            name = "qt-online-installer-macOS-universal-4.11.0";
+        },
+                {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -705,7 +718,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{354, 743}, {920, 492}}";
+            WindowBounds = "{{1575, 164}, {844, 776}}";
         };
     };
     LastTrashState = 1;
@@ -753,16 +766,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Users/ymy/Qt/",
+        "file:///Applications/",
         "file:///Volumes/Storage/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/SDOutput/2026-03-29/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/",
-        "file:///Applications/",
         "file:///Users/ymy/Documents/",
         "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Document/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Volumes/Storage/Workspace/InfraSystem/LVRS/resources/iconset/",
-        "file:///Users/ymy/Downloads/"
+        "file:///Volumes/Storage/Workspace/InfraSystem/LVRS/resources/iconset/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

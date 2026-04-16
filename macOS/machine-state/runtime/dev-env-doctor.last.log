@@ -17,8 +17,8 @@
 [OK] cargo: /opt/homebrew/bin/cargo
 [OK] cmake: /opt/homebrew/bin/cmake
 [OK] ninja: /opt/homebrew/bin/ninja
-[WARN] qmake is not available
-[WARN] qtpaths is not available
+[OK] qmake: /opt/homebrew/bin/qmake
+[OK] qtpaths: /opt/homebrew/bin/qtpaths
 
 === Brewfile Drift ===
 [WARN] Missing formula: 17, missing cask: 8
@@ -47,7 +47,7 @@ logi-options+
 microsoft-auto-update
 obs
 visual-studio-code
-[WARN] Extra formula: 144, extra cask: 7
+[WARN] Extra formula: 174, extra cask: 7
 abseil
 ada-url
 aom
@@ -55,6 +55,7 @@ apache-serf
 apr
 apr-util
 argon2
+assimp
 autoconf
 berkeley-db@5
 blake3
@@ -66,8 +67,7 @@ certifi
 coreutils
 curl
 dav1d
-eigen
-emacs
+double-conversion
 blender
 box-drive
 box-tools
@@ -84,4 +84,4 @@ CMAKE_PREFIX_PATH=/Users/ymy/Qt/6.8.3/macos
 [OK] zsh clean environment probe completed
 
 === Summary ===
-OK=17 WARN=4 FAIL=0
+OK=19 WARN=2 FAIL=0
