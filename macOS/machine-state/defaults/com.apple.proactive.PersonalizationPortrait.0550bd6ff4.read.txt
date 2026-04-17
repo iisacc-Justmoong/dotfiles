@@ -1,12 +1,9 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-04-15 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0x70148fbf 6c881f51 be815f62 8edebbea ... 545bc911 985c9958 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-04-16 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x2f97d8d5 8ece3903 b3129870 ae628282 ... fca7ad40 0c1717ff };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.jetbrains.CLion",
-        "com.apple.dt.Xcode",
-        "com.openai.codex",
-        "com.apple.iCal",
-        "com.apple.MobileSMS",
-        "com.webull.trade.mac.v1"
+        "com.apple.mail",
+        "com.openai.codex"
     );
 }

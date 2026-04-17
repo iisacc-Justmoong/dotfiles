@@ -2,13 +2,179 @@
     AppleShowAllFiles = 1;
     ComputerViewSettings =     {
         CustomViewStyleVersion = 1;
+        ExtendedListViewSettingsV2 =         {
+            axTextSize = 13;
+            calculateAllSizes = 1;
+            columns =             (
+                                {
+                    ascending = 1;
+                    identifier = name;
+                    visible = 1;
+                    width = 444;
+                },
+                                {
+                    ascending = 0;
+                    identifier = ubiquity;
+                    visible = 0;
+                    width = 35;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateModified;
+                    visible = 1;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateCreated;
+                    visible = 0;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = size;
+                    visible = 1;
+                    width = 97;
+                },
+                                {
+                    ascending = 1;
+                    identifier = kind;
+                    visible = 1;
+                    width = 115;
+                },
+                                {
+                    ascending = 1;
+                    identifier = label;
+                    visible = 0;
+                    width = 100;
+                },
+                                {
+                    ascending = 1;
+                    identifier = version;
+                    visible = 0;
+                    width = 75;
+                },
+                                {
+                    ascending = 1;
+                    identifier = comments;
+                    visible = 0;
+                    width = 300;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateLastOpened;
+                    visible = 0;
+                    width = 196;
+                },
+                                {
+                    ascending = 0;
+                    identifier = shareOwner;
+                    visible = 0;
+                    width = 200;
+                },
+                                {
+                    ascending = 0;
+                    identifier = shareLastEditor;
+                    visible = 0;
+                    width = 200;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateAdded;
+                    visible = 0;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = invitationStatus;
+                    visible = 0;
+                    width = 210;
+                }
+            );
+            iconSize = 16;
+            scrollPositionX = "-184";
+            scrollPositionY = 0;
+            showIconPreview = 1;
+            sortColumn = name;
+            textSize = 13;
+            useRelativeDates = 0;
+            viewOptionsVersion = 1;
+        };
+        ListViewSettings =         {
+            axTextSize = 13;
+            calculateAllSizes = 1;
+            columns =             {
+                comments =                 {
+                    ascending = 1;
+                    index = 7;
+                    visible = 0;
+                    width = 300;
+                };
+                dateCreated =                 {
+                    ascending = 0;
+                    index = 2;
+                    visible = 0;
+                    width = 181;
+                };
+                dateLastOpened =                 {
+                    ascending = 0;
+                    index = 8;
+                    visible = 0;
+                    width = 196;
+                };
+                dateModified =                 {
+                    ascending = 0;
+                    index = 1;
+                    visible = 1;
+                    width = 181;
+                };
+                kind =                 {
+                    ascending = 1;
+                    index = 4;
+                    visible = 1;
+                    width = 115;
+                };
+                label =                 {
+                    ascending = 1;
+                    index = 5;
+                    visible = 0;
+                    width = 100;
+                };
+                name =                 {
+                    ascending = 1;
+                    index = 0;
+                    visible = 1;
+                    width = 444;
+                };
+                size =                 {
+                    ascending = 0;
+                    index = 3;
+                    visible = 1;
+                    width = 97;
+                };
+                version =                 {
+                    ascending = 1;
+                    index = 6;
+                    visible = 0;
+                    width = 75;
+                };
+            };
+            iconSize = 16;
+            scrollPositionX = "-184";
+            scrollPositionY = 0;
+            showIconPreview = 1;
+            sortColumn = name;
+            textSize = 13;
+            useRelativeDates = 0;
+            viewOptionsVersion = 1;
+        };
         WindowState =         {
             ContainerShowSidebar = 1;
             ShowSidebar = 1;
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1575, 164}, {844, 776}}";
+            WindowBounds = "{{1166, 88}, {844, 776}}";
         };
     };
     CopyProgressWindowLocation = "{760, 252}";
@@ -32,7 +198,7 @@
         };
     };
     DownloadsFolderListViewSettingsVersion = 1;
-    EmptyTrashProgressWindowLocation = "{2102, 690}";
+    EmptyTrashProgressWindowLocation = "{789, 281}";
     "FK_AppCentricShowSidebar" = 1;
     "FK_DefaultListViewSettingsV2" =     {
         calculateAllSizes = 0;
@@ -462,51 +628,50 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1088, bytes = 0x626f6f6b 40040000 00000510 40000000 ... 04000000 00000000 };
-            name = "build-qmldebug";
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = WhatSon;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
             name = Workspace;
         },
                 {
-            "file-bookmark" = {length = 672, bytes = 0x626f6f6b a0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Qt;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = WhatSon;
         },
                 {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = Qt;
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         },
                 {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Documents;
         },
                 {
-            "file-bookmark" = {length = 1584, bytes = 0x626f6f6b 30060000 00000510 40000000 ... c4000000 00000000 };
-            name = "qt-online-installer-macOS-universal-4.11.0";
+            "file-bookmark" = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
+            name = LagacyPhoto;
         },
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = LagacyPhoto;
+        },
+                {
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = Phone;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -766,16 +931,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/LagacyPhoto/",
+        "file:///Volumes/Storage/",
+        "file:///Volumes/%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A7%E1%86%BC's%20USB/",
+        "file:///Users/ymy/Documents/LagacyPhoto/",
+        "file:///Users/ymy/Documents/",
         "file:///Users/ymy/Qt/",
         "file:///Applications/",
-        "file:///Volumes/Storage/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/SDOutput/2026-03-29/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/",
-        "file:///Users/ymy/Documents/",
-        "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/",
-        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Document/",
-        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Volumes/Storage/Workspace/InfraSystem/LVRS/resources/iconset/"
+        "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
