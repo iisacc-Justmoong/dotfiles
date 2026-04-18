@@ -1,6 +1,7 @@
 {
     appPairing = 1;
     auraAvailable = 1;
+    codexOnly = 0;
     disableModelUpsell = 0;
     disableUpgradeUI = 0;
     memoryAvailable = 1;
@@ -8,9 +9,14 @@
     searchTool = 1;
     voiceAvailable = 1;
     voiceFileUpload = 1;
+    voiceFileUploadWingman = 0;
     voiceImageUpload = 0;
+    voiceImageUploadWingman = 0;
     voiceLiveCamera = 0;
+    voiceLiveCameraWingman = 0;
     voiceScreenSharing = 0;
+    voiceScreenSharingWingman = 0;
     voiceTextUpload = 1;
+    voiceTextUploadWingman = 0;
     whisperKillswitch = 0;
 }
