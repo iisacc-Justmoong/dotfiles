@@ -1,8 +1,10 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-04-17 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xe9e135e7 52e698b2 31ec718f 6e238e77 ... 7f0a6fa2 1cf7ac67 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-04-19 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xa115e80c 83d7e866 fbc3924a 325d9825 ... e07a65d9 93e76f27 };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.jetbrains.CLion",
+        "com.apple.dt.Xcode",
+        "com.apple.iCal",
         "com.openai.codex"
     );
 }

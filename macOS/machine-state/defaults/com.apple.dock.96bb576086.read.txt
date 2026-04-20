@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "798161151.587665"
+        "798369847.133764"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3065;
+    "mod-count" = 3092;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -50,24 +50,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2151948633;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.dt.Xcode";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Xcode.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Xcode;
-                "file-mod-date" = 82978330708308;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 62542877976953;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 3496674533;
             "tile-data" =             {
                 book = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
@@ -96,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Rider;
-                "file-mod-date" = 138503667929504;
+                "file-mod-date" = 140556662312173;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 270273264570807;
+                "parent-mod-date" = 263697671011119;
             };
             "tile-type" = "file-tile";
         },
@@ -117,7 +99,7 @@
                 "file-mod-date" = 246311642041078;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 263697671011119;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -194,6 +176,60 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 3999960189;
+            "tile-data" =             {
+                book = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.dataspell";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/DataSpell.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = DataSpell;
+                "file-mod-date" = 250469172179378;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 192353969697212;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3999960190;
+            "tile-data" =             {
+                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.datagrip";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/ymy/Applications/DataGrip.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = DataGrip;
+                "file-mod-date" = 37554758414743;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 192353969697212;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2151948633;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.dt.Xcode";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Xcode.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Xcode;
+                "file-mod-date" = 173322969528998;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 193681114665754;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2293371083;
             "tile-data" =             {
                 book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
@@ -204,10 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 95614125692564;
+                "file-mod-date" = 158196094855535;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 62542877976953;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +261,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 128457740810522;
+                "parent-mod-date" = 14404884657378;
             };
             "tile-type" = "file-tile";
         },
@@ -510,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Reminders;
-                "file-mod-date" = 3856829157;
+                "file-mod-date" = 3858307857;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3856829157;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         },
@@ -582,28 +618,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 3858680535;
+                "file-mod-date" = 109955022140784;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 172051659209356;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496674529;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.valvesoftware.steam";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Steam.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Steam;
-                "file-mod-date" = 3855341262;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 62542877976953;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         },
@@ -657,7 +675,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 242579317087769;
+                "parent-mod-date" = 14404884657378;
             };
             "tile-type" = "file-tile";
         },
@@ -742,7 +760,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3742381714;
+            GUID = 165424613;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -755,12 +773,12 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 235406721805957;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3742381715;
+            GUID = 2110007808;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -773,12 +791,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 235406721805957;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3742381716;
+            GUID = 2110007809;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -791,7 +809,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 235406721805957;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         }
@@ -801,7 +819,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
