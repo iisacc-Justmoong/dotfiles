@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3092;
+    "mod-count" = 3100;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -63,7 +63,7 @@
                 "file-mod-date" = 183025299227101;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 50229205402091;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -117,7 +117,7 @@
                 "file-mod-date" = 63023912976480;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 97177492914299;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -135,7 +135,7 @@
                 "file-mod-date" = 162168938037365;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 50229205402091;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -168,10 +168,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = PyCharm;
-                "file-mod-date" = 56096130223858;
+                "file-mod-date" = 76896657049906;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 9096303103712;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 14404884657378;
+                "parent-mod-date" = 193681114665754;
             };
             "tile-type" = "file-tile";
         },
@@ -482,24 +482,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1931435783;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Notes";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Notes.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Notes;
-                "file-mod-date" = 3858307857;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2277882256;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -622,24 +604,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 193681114665754;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1629221523;
-            "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.webull.trade.mac.v1";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Webull%20Desktop.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Webull Desktop";
-                "file-mod-date" = 108589220690361;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 150125851173869;
             };
             "tile-type" = "file-tile";
         },
@@ -778,24 +742,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2110007808;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 234917093767569;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 193681114665754;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2110007809;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -810,6 +756,24 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 193681114665754;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3687186345;
+            "tile-data" =             {
+                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.wacom.WacomCenter";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Wacom Center";
+                "file-mod-date" = 64926583158619;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3849359466;
             };
             "tile-type" = "file-tile";
         }
