@@ -2,11 +2,11 @@
     AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
     AMSDeviceBiometricsState = 2;
     AMSDidSetUpServerDataCache = 1;
-    AMSFPCertExpiration = "2026-04-21 09:24:06 +0000";
+    AMSFPCertExpiration = "2026-04-22 09:25:40 +0000";
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
-        analytics = "27.11.0";
+        analytics = "27.17.0";
         internal = "24.0.41";
         journeys = "2603.2.0";
     };
@@ -28,7 +28,7 @@
         "83F8FF71-32B2-4DA6-BBCC-0DA12AF24B21"
     );
     "AMSSamplingSession-TLSSessionTickets" =     {
-        date = "2026-04-20 09:27:51 +0000";
+        date = "2026-04-21 10:03:13 +0000";
         duration = 1800;
         result = 1;
     };
@@ -38,7 +38,7 @@
         result = 0;
     };
     "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
-        date = "2026-04-20 17:39:09 +0000";
+        date = "2026-04-21 10:33:36 +0000";
         duration = 86400000;
         result = 0;
     };

@@ -1,30 +1,40 @@
 {
     AccessibilityHearingNearby =     {
         IncomingData =         {
-            TimeStamp = "2026-04-19 18:42:43:33";
-            TotalCount = 4;
+            TimeStamp = "2026-04-21 16:37:35:41";
+            TotalCount = 6;
             "com.apple.heard.xpc" =             {
-                Count = 4;
+                Count = 6;
                 TimeStamps =                 (
                                         (
-                        "2026-04-19 18:42:43:33",
-                        626,
-                        "New XPC"
-                    ),
-                                        (
-                        "2026-04-19 18:42:43:33",
-                        626,
-                        "RegisterForAvailableDevicesUpdates (2)"
-                    ),
-                                        (
-                        "2026-04-20 18:26:35:62",
+                        "2026-04-21 16:37:35:41",
                         671,
                         "New XPC"
                     ),
                                         (
-                        "2026-04-20 18:26:35:62",
+                        "2026-04-21 16:37:35:41",
                         671,
-                        "RegisterForAvailableDevicesUpdates (2)"
+                        "RegisterForDevicesUpdates (4)"
+                    ),
+                                        (
+                        "2026-04-21 17:37:19:39",
+                        671,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-04-21 17:37:19:40",
+                        671,
+                        "RegisterForDevicesUpdates (4)"
+                    ),
+                                        (
+                        "2026-04-21 18:58:09:12",
+                        671,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-04-21 18:58:09:12",
+                        671,
+                        "RegisterForDevicesUpdates (4)"
                     )
                 );
             };
