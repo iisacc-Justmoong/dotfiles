@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "798505845.234308"
+        "798638026.634694"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3105;
+    "mod-count" = 3114;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -225,7 +225,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 193681114665754;
+                "parent-mod-date" = 260897353216614;
             };
             "tile-type" = "file-tile";
         },
@@ -240,10 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 99711525326633;
+                "file-mod-date" = 193792784004338;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 181934379300037;
+                "parent-mod-date" = 260897353216614;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 193681114665754;
+                "parent-mod-date" = 87917545205812;
             };
             "tile-type" = "file-tile";
         },
@@ -600,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 109955022140784;
+                "file-mod-date" = 251104827602144;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 193681114665754;
+                "parent-mod-date" = 87917545205812;
             };
             "tile-type" = "file-tile";
         },
@@ -724,25 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2052074217;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 87917545205812;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2052074218;
+            GUID = 811915081;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -755,12 +737,30 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 87917545205812;
+                "parent-mod-date" = 260897353216614;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2052074219;
+            GUID = 811915082;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 260897353216614;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 811915083;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,7 +773,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 87917545205812;
+                "parent-mod-date" = 260897353216614;
             };
             "tile-type" = "file-tile";
         }
@@ -783,7 +783,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

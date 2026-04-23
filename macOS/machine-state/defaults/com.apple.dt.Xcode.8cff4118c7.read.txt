@@ -59,7 +59,7 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-04-21 09:45:51 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-04-23 11:46:15 +0000";
     IDEAppStatisticsRunDestinationPlatform =     {
         iphoneos = 1;
         iphonesimulator = 1;
@@ -68,13 +68,13 @@
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
-        17E202 = "2026-04-21 13:46:29 +0000";
+        17E202 = "2026-04-23 11:51:42 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
             "App Store Product Source Accounts: 2175062D-3C00-4EBB-BA9E-653CC69F38C9" = "2026-03-05 10:30:34 +0000";
             "App Store Product Source Accounts: 3EA13137-AA34-4678-BCC9-4BF22A1872B1" = "2026-03-27 02:28:50 +0000";
-            "App Store Product Source Accounts: B0573AA7-1BB4-4BF7-B247-1D560FF69237" = "2026-04-20 22:35:13 +0000";
+            "App Store Product Source Accounts: B0573AA7-1BB4-4BF7-B247-1D560FF69237" = "2026-04-23 11:49:16 +0000";
         };
         DVTUserDefaultsCachingKeysRecentlyUsed =         (
             "App Store Product Source Accounts: 2175062D-3C00-4EBB-BA9E-653CC69F38C9",
@@ -171,7 +171,7 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-04-20 22:31:05 +0000";
+    IDEMostRecentPostFLEDate = "2026-04-23 11:44:16 +0000";
     IDEMostRecentPostFLEToolsVersion = "26.4.1";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         23L236,
@@ -223,14 +223,14 @@
     IDERecentEditorDocuments =     (
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 },
         {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 1636, bytes = 0x626f6f6b 64060000 00000510 40000000 ... 48040000 00000000 },
         {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 }
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlHostAccounts_10" =     (
                 {
@@ -256,11 +256,11 @@
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LastReport" = "798417066.693041";
+    "IDE_CA_Daily_LastReport" = "798637457.862192";
     "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "15.25735625344907";
+    "IDE_CA_Daily_UptimeHours" = "0.124701442083339";
     LastExplicitInspectorVisibility = 1;
-    LastPersistenceCleanupDateKey = "2026-04-11 09:36:24 +0000";
+    LastPersistenceCleanupDateKey = "2026-04-23 11:44:35 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
     NSOSPLastRootDirectory = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
     "NSSplitView Subview Frames com.apple.dt.Xcode.DevicesWidow.DevicesSplit" =     (
@@ -270,7 +270,7 @@
     "NSTableView Columns v3 PlistColumns" = {length = 586, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000019c };
     "NSTableView Sort Ordering v2 PlistColumns" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
     "NSTableView Supports v2 PlistColumns" = 1;
-    "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
+    "NSWindow Frame AppShortcutsEditorUI" = "966 400 800 800 0 0 2560 1410 ";
     "NSWindow Frame IDEDownloadProgressWindow" = "1634 1212 400 104 0 0 2560 1410 ";
     "NSWindow Frame IDESettingsPanel" = "1086 408 710 452 0 0 2560 1410 ";
     "NSWindow Frame Products" = "-1520 85 1024 640 -2560 0 2560 1410 ";

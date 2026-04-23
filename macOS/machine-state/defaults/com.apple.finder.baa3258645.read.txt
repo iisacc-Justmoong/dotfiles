@@ -628,12 +628,8 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
@@ -641,38 +637,43 @@
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            name = WhatSon;
         },
                 {
             "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
             name = resources;
         },
                 {
-            "file-bookmark" = {length = 888, bytes = 0x626f6f6b 78030000 00000510 40000000 ... 54010000 00000000 };
-            name = "iCloud.wshub";
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
         },
                 {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
-            name = "icloud.wscontents";
+            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Records;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
-            name = "Library.wslibrary";
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
-            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Box;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
-            "file-bookmark" = {length = 800, bytes = 0x626f6f6b 20030000 00000510 40000000 ... 04000000 00000000 };
-            name = SDOutput;
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Desktop;
+        },
+                {
+            "file-bookmark" = {length = 1132, bytes = 0x626f6f6b 6c040000 00000510 40000000 ... 04000000 00000000 };
+            name = screenshots;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "com.box.desktop.findersyncext"
+        "com.box.desktop.findersyncext",
+        "com.Box.Box-Edit.BoxEditFinderExtension"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -889,7 +890,7 @@
             WindowBounds = "{{221, 321}, {1042, 776}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -934,12 +935,12 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/Workspace/Product/WhatSon/resources/screenshots/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Volumes/Storage/",
         "file:///Users/ymy/Documents/",
         "file:///Users/ymy/Qt/",
         "file:///Applications/",
-        "file:///Users/ymy/Library/CloudStorage/Box-Box/SDOutput/2026-03-29/",
         "file:///Users/ymy/Library/CloudStorage/Box-Box/",
         "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/"
     );
