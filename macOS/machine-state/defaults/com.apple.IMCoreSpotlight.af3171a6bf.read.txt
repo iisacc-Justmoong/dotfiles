@@ -1,5 +1,6 @@
 {
     IMCSDoNotIndex =     (
+        "690779C1-99AC-1910-75E4-E31937EEB3A4"
     );
     IMCSLastDonationProgressRebuildDate = "2026-04-18 02:03:36 +0000";
     IMCSPreviousClientStateData = {length = 558, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001b2 };
@@ -16,6 +17,11 @@
                 error = "Error Domain=CSIndexErrorDomain Code=-1006 \\"(null)\\"";
                 expiresAt = "2026-03-28 03:58:29 +0000";
                 startedAt = "2026-03-28 03:43:29 +0000";
+            },
+                        {
+                error = "Error Domain=com.apple.Messages.IMSpotlightErrorDomain Code=2 \\"Indexing timed out.\\" UserInfo={NSDebugDescription=Indexing timed out., _IMDIndexingUnfinishedJobs=(\\n    IMDCoreSpotlightMessageIndexingJob,\\n    IMDSmartRepliesMessageDonationJob\\n)}";
+                expiresAt = "2026-04-23 15:33:39 +0000";
+                startedAt = "2026-04-23 15:18:39 +0000";
             }
         );
     };

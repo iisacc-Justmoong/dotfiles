@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "798638026.634694"
+        "798720068.470988"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3114;
+    "mod-count" = 3120;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -153,7 +153,7 @@
                 "file-mod-date" = 214773697185939;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 263697671011119;
+                "parent-mod-date" = 192353969697212;
             };
             "tile-type" = "file-tile";
         },
@@ -600,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 251104827602144;
+                "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 87917545205812;
+                "parent-mod-date" = 260897353216614;
             };
             "tile-type" = "file-tile";
         },
@@ -618,10 +618,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Photos;
-                "file-mod-date" = 3856829157;
+                "file-mod-date" = 3858307857;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3856829157;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         },
@@ -724,7 +724,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 811915081;
+            GUID = 3642473874;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -737,30 +737,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
+                "parent-mod-date" = 197318952415916;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 811915082;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 811915083;
+            GUID = 3642473875;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,7 +755,25 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
+                "parent-mod-date" = 197318952415916;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3642473876;
+            "tile-data" =             {
+                book = {length = 648, bytes = 0x626f6f6b 88020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.ActivityMonitor";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Utilities/Activity%20Monitor.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Activity Monitor";
+                "file-mod-date" = 3858307857;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         }
