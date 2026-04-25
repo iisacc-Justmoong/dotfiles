@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3120;
+    "mod-count" = 3129;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -96,10 +96,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = CLion;
-                "file-mod-date" = 246311642041078;
+                "file-mod-date" = 38220478874858;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
+                "parent-mod-date" = 34114490139947;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +225,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
+                "parent-mod-date" = 107012970052213;
             };
             "tile-type" = "file-tile";
         },
@@ -240,10 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 193792784004338;
+                "file-mod-date" = 7988204013125;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
+                "parent-mod-date" = 107012970052213;
             };
             "tile-type" = "file-tile";
         },
@@ -603,7 +603,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 260897353216614;
+                "parent-mod-date" = 107012970052213;
             };
             "tile-type" = "file-tile";
         },
@@ -639,7 +639,7 @@
                 "file-mod-date" = 3856019785;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 14404884657378;
+                "parent-mod-date" = 197318952415916;
             };
             "tile-type" = "file-tile";
         },
@@ -724,7 +724,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3642473874;
+            GUID = 443798404;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 123909371404228;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 443798405;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -737,12 +755,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 197318952415916;
+                "parent-mod-date" = 123909371404228;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3642473875;
+            GUID = 443798406;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -755,25 +773,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 197318952415916;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3642473876;
-            "tile-data" =             {
-                book = {length = 648, bytes = 0x626f6f6b 88020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.ActivityMonitor";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Activity%20Monitor.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Activity Monitor";
-                "file-mod-date" = 3858307857;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 123909371404228;
             };
             "tile-type" = "file-tile";
         }
