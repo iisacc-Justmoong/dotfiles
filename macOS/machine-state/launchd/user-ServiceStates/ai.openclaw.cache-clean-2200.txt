@@ -31,8 +31,8 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	asid = 100024
 	minimum runtime = 10
 	exit timeout = 5
-	runs = 0
-	last exit code = (never exited)
+	runs = 1
+	last exit code = 127
 
 	event triggers = {
 		ai.openclaw.cache-clean-2200.268435470 => {
@@ -49,13 +49,29 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 
 	event channels = {
 		"com.apple.launchd.calendarinterval" = {
-			port = 0x0
+			port = 0x12d0f3
 			active = 0
 			managed = 1
 			reset = 0
 			hide = 0
 			watching = 1
 		}
+	}
+
+	resource coalition = {
+		ID = 4327
+		type = resource
+		state = active
+		active count = 1
+		name = ai.openclaw.cache-clean-2200
+	}
+
+	jetsam coalition = {
+		ID = 4328
+		type = jetsam
+		state = active
+		active count = 1
+		name = ai.openclaw.cache-clean-2200
 	}
 
 	spawn type = daemon (3)
@@ -66,5 +82,5 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	jetsam thread limit = 32
 	cpumon = default
 
-	properties = inferred program | needs LWCR update | managed LWCR
+	properties = inferred program | managed LWCR | has LWCR
 }

@@ -45,10 +45,10 @@ gui/501/ai.openclaw.gateway = {
 	asid = 100024
 	minimum runtime = 1
 	exit timeout = 5
-	runs = 1
-	pid = 870
-	immediate reason = speculative
-	forks = 40
+	runs = 3
+	pid = 56669
+	immediate reason = inefficient
+	forks = 178
 	execs = 1
 	initialized = 1
 	trampolined = 1
@@ -57,7 +57,7 @@ gui/501/ai.openclaw.gateway = {
 	checked allocations = 0 (queried = 1)
 	checked allocations reason = no host
 	checked allocations flags = 0x0
-	last exit code = (never exited)
+	last exit code = 1
 
 	resource coalition = {
 		ID = 1045

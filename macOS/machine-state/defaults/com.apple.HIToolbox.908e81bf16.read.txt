@@ -37,7 +37,12 @@
             InputSourceKind = "Input Mode";
         }
     );
-    AppleInputSourceUpdateTime = "2026-04-24 13:46:30 +0000";
+    AppleInputSourceUpdateTime = "2026-04-25 15:58:30 +0000";
+    AppleSavedCurrentInputSource =     {
+        "Bundle ID" = "com.apple.inputmethod.Korean";
+        "Input Mode" = "com.apple.inputmethod.Korean.2SetKorean";
+        InputSourceKind = "Input Mode";
+    };
     AppleSelectedInputSources =     (
                 {
             "Bundle ID" = "com.apple.PressAndHold";

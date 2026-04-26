@@ -628,6 +628,14 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = LVRS;
+        },
+                {
             "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
             name = Box;
         },
@@ -658,20 +666,13 @@
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Desktop;
-        },
-                {
-            "file-bookmark" = {length = 1132, bytes = 0x626f6f6b 6c040000 00000510 40000000 ... 04000000 00000000 };
-            name = screenshots;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -885,7 +886,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{221, 321}, {1042, 776}}";
+            WindowBounds = "{{858, 178}, {1042, 776}}";
         };
     };
     LastTrashState = 1;
