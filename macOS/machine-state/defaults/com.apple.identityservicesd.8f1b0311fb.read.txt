@@ -10,16 +10,18 @@
     ImportedLegacyIMAccounts = 1;
     LastKeyGeneration = "1768640181.632508";
     MigratedToNewDisabledState = 1;
-    PurgePreviousIdentityInterval = "799140965.190226";
+    PurgePreviousIdentityInterval = "802081929.416232";
     ReRegisteredForDevices = 1924;
     ReRegisteredForDevicesHash = 5FFCEBC941E50DED6DD191F9A2E88BD54D1ADC3232CB9396269FDD728995BF1B;
     activityTopics =     (
         "com.apple.private.alloy.home-com.apple.HomeKit"
     );
     hasRegIdentityContainer = 1;
-    hasUnregIdentityContainer = 1;
+    hasUnregIdentityContainer = 0;
     "ids-swift-data-force-version" = 3;
+    last24PeriodGDRPerformed = "798876731.738795";
     "performed-user-intent-migrate" = 1;
+    performedGDROverrides = 1;
     "persister-migration-com.apple.identityservices.accountInfoStore" = 1;
     "persister-migration-com.apple.identityservices.dailyDeviceAddedNotificationData" = 1;
     "persister-migration-com.apple.identityservices.userStore" = 1;
@@ -27,6 +29,6 @@
     "persister-migration-com.apple.identityservicesd.offgrid.provisioning.store" = 1;
     "persister-migration-com.apple.identityservicesd.pinned-identity" = 1;
     "persister-migration-com.apple.identityservicesd.waking-push-priority" = 1;
-    services = {length = 13486, bytes = 0x1f8b0800 00000000 0013cdbd 075c5357 ... 0df9860f e9960000 };
+    services = {length = 13534, bytes = 0x1f8b0800 00000000 0013cdbd 077c1465 ... d1ceef63 3c970000 };
     triggeredRemoteSessionVersion = 1;
 }

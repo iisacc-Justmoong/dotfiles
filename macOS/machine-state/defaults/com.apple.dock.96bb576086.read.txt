@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3133;
+    "mod-count" = 3137;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -150,10 +150,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = WebStorm;
-                "file-mod-date" = 214773697185939;
+                "file-mod-date" = 164376553260013;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
+                "parent-mod-date" = 34114490139947;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +225,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 107012970052213;
+                "parent-mod-date" = 197267412905342;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 3857315695;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 87917545205812;
+                "parent-mod-date" = 197267412905342;
             };
             "tile-type" = "file-tile";
         },
@@ -724,24 +724,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 443798404;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 123909371404228;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 443798406;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -774,6 +756,24 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 3849359466;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3446853809;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TextEdit";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = TextEdit;
+                "file-mod-date" = 3858307857;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         }

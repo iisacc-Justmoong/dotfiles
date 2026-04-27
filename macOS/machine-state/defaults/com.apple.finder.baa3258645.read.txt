@@ -628,40 +628,40 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 936, bytes = 0x626f6f6b a8030000 00000510 40000000 ... 04000000 00000000 };
+            name = ".porndata";
+        },
+                {
+            "file-bookmark" = {length = 892, bytes = 0x626f6f6b 7c030000 00000510 40000000 ... 04000000 00000000 };
+            name = 0;
+        },
+                {
+            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
+            name = emulated;
+        },
+                {
+            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
+            name = storage;
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = MacDroid;
+        },
+                {
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "e2YNkEDtY38n5Cp1-0n7sIuVjzKVc9e50.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
+            name = "Library.wslibrary";
+        },
+                {
+            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
+            name = "icloud.wscontents";
+        },
+                {
             "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
             name = "iCloud Drive";
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = LVRS;
-        },
-                {
-            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Box;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = WhatSon;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = resources;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Records;
-        },
-                {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
@@ -672,7 +672,6 @@
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "com.box.desktop.findersyncext"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -886,7 +885,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{858, 178}, {1042, 776}}";
+            WindowBounds = "{{826, 557}, {920, 492}}";
         };
     };
     LastTrashState = 1;
@@ -929,7 +928,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{858, 178}, {1042, 776}}";
+            WindowBounds = "{{826, 557}, {920, 492}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;

@@ -10,7 +10,8 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-04-25 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-04-19 15:00:00 +0000";
+    CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 1;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
@@ -23,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-04-25 17:21:47 +0000";
+    LastSaveDate = "2026-04-26 14:32:51 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -32,8 +33,8 @@
         "1312.000000, 0.000000, 240.000000, 1050.000000, YES, NO"
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
-    "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "-1899 148 1312 1050 -2560 0 2560 1410 ";
+    "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "-1868 399 359 150 -2560 0 2560 1410 ";
+    "NSWindow Frame iCal" = "-1312 254 1312 1050 -2560 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -47,8 +48,8 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x956fba880>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [84429], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 798730999;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x9af055c80>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [38252], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 798900581;
     defaultCalendarDatabaseID = 0;
     defaultCalendarID = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
     defaultCalendarStoreUID = 4;
@@ -58,7 +59,7 @@
     "iCal version" = 150994944;
     kCalDBLastSpotLightIndexCalendarsVersion = 1;
     kCalDBLastSpotLightIndexVersion = 24;
-    "last calendar view description" = "7-day";
+    "last calendar view description" = Monthly;
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
     "last selected calendar list item" = "37589ADA-9EA8-4A53-AB05-CA896D31722B";
