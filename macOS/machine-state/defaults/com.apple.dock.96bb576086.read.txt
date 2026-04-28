@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3137;
+    "mod-count" = 3145;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -99,7 +99,7 @@
                 "file-mod-date" = 38220478874858;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 34114490139947;
+                "parent-mod-date" = 52638684329304;
             };
             "tile-type" = "file-tile";
         },
@@ -153,7 +153,7 @@
                 "file-mod-date" = 164376553260013;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 34114490139947;
+                "parent-mod-date" = 52638684329304;
             };
             "tile-type" = "file-tile";
         },
@@ -603,7 +603,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 197267412905342;
+                "parent-mod-date" = 30034271450418;
             };
             "tile-type" = "file-tile";
         },
@@ -724,43 +724,43 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 443798406;
+            GUID = 3446853810;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "ai.elementlabs.lmstudio";
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "com.naver.Whale";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
+                    "_CFURLString" = "file:///Applications/Whale.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "LM Studio";
-                "file-mod-date" = 148906078593021;
+                "file-label" = "NAVER Whale";
+                "file-mod-date" = 3859641984;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 123909371404228;
+                "parent-mod-date" = 30034271450418;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3446853808;
+            GUID = 3446853812;
             "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLString" = "file:///Applications/Steam.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 64926583158619;
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
+                "parent-mod-date" = 30034271450418;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3446853809;
+            GUID = 3446853813;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.TextEdit";

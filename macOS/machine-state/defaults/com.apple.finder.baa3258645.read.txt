@@ -628,28 +628,8 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 936, bytes = 0x626f6f6b a8030000 00000510 40000000 ... 04000000 00000000 };
-            name = ".porndata";
-        },
-                {
-            "file-bookmark" = {length = 892, bytes = 0x626f6f6b 7c030000 00000510 40000000 ... 04000000 00000000 };
-            name = 0;
-        },
-                {
-            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
-            name = emulated;
-        },
-                {
-            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
-            name = storage;
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = MacDroid;
-        },
-                {
             "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "e2YNkEDtY38n5Cp1-0n7sIuVjzKVc9e50.wsnote";
+            name = "k4uKasQQf9uI1ygr-7u0ANRh0kK0hh3jx.wsnote";
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
@@ -666,6 +646,22 @@
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 892, bytes = 0x626f6f6b 7c030000 00000510 40000000 ... 04000000 00000000 };
+            name = 0;
+        },
+                {
+            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
+            name = emulated;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -885,7 +881,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{826, 557}, {920, 492}}";
+            WindowBounds = "{{-1673, 95}, {844, 811}}";
         };
     };
     LastTrashState = 1;
@@ -928,7 +924,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{826, 557}, {920, 492}}";
+            WindowBounds = "{{-1673, 95}, {844, 811}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;

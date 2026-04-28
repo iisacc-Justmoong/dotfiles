@@ -1,10 +1,10 @@
 {
     KnownClients =     (
-        "com.apple.printcenter",
         "com.apple.news",
+        "com.apple.controlcenter",
+        "com.apple.printcenter",
         "com.apple.WorkflowKit.ShortcutsViewService",
-        "com.apple.chronod",
-        "com.apple.controlcenter"
+        "com.apple.chronod"
     );
-    LastAuthorizationStatusEventDate = "2026-04-26 02:33:34 +0000";
+    LastAuthorizationStatusEventDate = "2026-04-27 12:09:43 +0000";
 }
