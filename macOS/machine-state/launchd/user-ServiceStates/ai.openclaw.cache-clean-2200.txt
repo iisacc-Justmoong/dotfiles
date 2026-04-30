@@ -13,7 +13,7 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	stdout path = /Users/ymy/.cache/openclaw/launchd-cache-clean.log
 	stderr path = /Users/ymy/.cache/openclaw/launchd-cache-clean.err
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.ysNaNcaN7z/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.Sxs7Ar9kDx/Listeners
 	}
 
 	default environment = {
@@ -31,8 +31,8 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	asid = 100024
 	minimum runtime = 10
 	exit timeout = 5
-	runs = 4
-	last exit code = 127
+	runs = 0
+	last exit code = (never exited)
 
 	event triggers = {
 		ai.openclaw.cache-clean-2200.268435470 => {
@@ -49,29 +49,13 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 
 	event channels = {
 		"com.apple.launchd.calendarinterval" = {
-			port = 0x12d0f3
+			port = 0x0
 			active = 0
 			managed = 1
 			reset = 0
 			hide = 0
 			watching = 1
 		}
-	}
-
-	resource coalition = {
-		ID = 4327
-		type = resource
-		state = active
-		active count = 1
-		name = ai.openclaw.cache-clean-2200
-	}
-
-	jetsam coalition = {
-		ID = 4328
-		type = jetsam
-		state = active
-		active count = 1
-		name = ai.openclaw.cache-clean-2200
 	}
 
 	spawn type = daemon (3)
@@ -82,5 +66,5 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	jetsam thread limit = 32
 	cpumon = default
 
-	properties = inferred program | managed LWCR | has LWCR
+	properties = inferred program | needs LWCR update | managed LWCR
 }

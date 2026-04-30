@@ -628,40 +628,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
+            "file-bookmark" = {length = 760, bytes = 0x626f6f6b f8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Box;
         },
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "k4uKasQQf9uI1ygr-7u0ANRh0kK0hh3jx.wsnote";
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
-            name = "Library.wslibrary";
-        },
-                {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
-            name = "icloud.wscontents";
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
+            name = emulated;
         },
                 {
             "file-bookmark" = {length = 892, bytes = 0x626f6f6b 7c030000 00000510 40000000 ... 04000000 00000000 };
             name = 0;
         },
                 {
-            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
-            name = emulated;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
+            name = "icloud.wscontents";
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
+            name = "Library.wslibrary";
+        },
+                {
+            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
+            name = "k4uKasQQf9uI1ygr-7u0ANRh0kK0hh3jx.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
         }
     );
     FXSidebarUpgradedToSixteen = 1;

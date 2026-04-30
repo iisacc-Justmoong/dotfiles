@@ -29,6 +29,18 @@
             SimulatorWindowOrientation = Portrait;
             SimulatorWindowRotationAngle = 0;
         };
+        "69DE569F-FE55-4055-8572-9614B9A990AF" =         {
+            ChromeTint = "";
+            SimulatorExternalDisplay = 2114;
+            SimulatorWindowGeometry =             {
+                "0CBCC300-E277-4DA5-9B8A-882CF66EECD7" =                 {
+                    WindowCenter = "{-594, 695}";
+                    WindowScale = 1;
+                };
+            };
+            SimulatorWindowOrientation = Portrait;
+            SimulatorWindowRotationAngle = 0;
+        };
         "994A56CD-A434-4EE6-99A6-801C88255719" =         {
             ChromeTint = "";
             ExternalWindowGeometry =             {
@@ -57,9 +69,15 @@
         };
     };
     LocationMode = 5102;
-    "NSWindow Frame Apple TV Remote Window" = "-541 1029 155 515 -2560 0 2560 1409 ";
+    "NSWindow Frame Apple TV Remote Window" = "-541 1030 155 515 -2560 0 2560 1410 ";
     PasteboardAutomaticSync = 1;
     ScreenConfigurations =     {
+        "0CBCC300-E277-4DA5-9B8A-882CF66EECD7" =         (
+            "{{0, 0}, {2560, 1440}}",
+            "{{5120, 397}, {1920, 1080}}",
+            "{{-2560, 0}, {2560, 1440}}",
+            "{{2560, 37}, {2560, 1440}}"
+        );
         "252334ED-6341-4AF5-BC0F-03422C6BD466" =         (
             "{{0, 0}, {2752, 1548}}",
             "{{2752, 108}, {2560, 1440}}",

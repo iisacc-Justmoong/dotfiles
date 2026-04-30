@@ -1,10 +1,8 @@
 {
-    "KeyboardShortcuts_toggleAttachedLauncher" = "{\\"carbonModifiers\\":2560,\\"carbonKeyCode\\":18}";
-    "KeyboardShortcuts_toggleLauncher" = "{\\"carbonModifiers\\":4096,\\"carbonKeyCode\\":49}";
-    "com.Statsig.InternalStore.cacheKeyMappingKey" = {length = 78, bytes = 0x7b223339 38393131 31333939 223a2232 ... 6c50474b 6375227d };
-    "com.Statsig.InternalStore.localStorageKeyV2" = {length = 4030888, bytes = 0x7b223237 39363033 33363438 3a636c69 ... 6573223a 7b7d7d7d };
+    "KeyboardShortcuts_toggleAttachedLauncher" = 0;
+    "KeyboardShortcuts_toggleLauncher" = 0;
     "com.Statsig.InternalStore.stableIDKey" = "8F385F70-F3E1-4CFB-BAEB-9B27BBEAAA04";
-    "com.Statsig.StorageService.migrationStatus" = migrating;
+    "com.Statsig.StorageService.migrationStatus" = "multi-file";
     deviceIDBackup = "8F385F70-F3E1-4CFB-BAEB-9B27BBEAAA04";
     "statsig_clear_20240920" = 1;
 }
