@@ -1,6 +1,7 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
+            "en-US",
             en
         );
         CFVendedServices =         (
@@ -72,6 +73,7 @@
                     default = "Create Service";
                     empty = "Create Service";
                     en = "Create Service";
+                    "en-KR" = "Create Service";
                     "en-US" = "Create Service";
                 };
                 NSMessage = makeNewServiceWithPasteboard;
@@ -92,6 +94,7 @@
                     default = "Create Workflow";
                     empty = "Create Workflow";
                     en = "Create Workflow";
+                    "en-KR" = "Create Workflow";
                     "en-US" = "Create Workflow";
                 };
                 NSMessage = makeNewWorkflowServiceWithPasteboard;
@@ -113,6 +116,7 @@
                     default = "Send File To Bluetooth Device";
                     empty = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
+                    "en-KR" = "Send File To Bluetooth Device";
                     "en-US" = "Send File To Bluetooth Device";
                 };
                 NSMessage = sendFileUsingBluetoothOBEXService;
@@ -135,6 +139,7 @@
                     default = "$^@C";
                     empty = "$^@C";
                     en = "$^@C";
+                    "en-KR" = "$^@C";
                     "en-US" = "$^@C";
                 };
                 NSMenuItem =                 {
@@ -142,6 +147,7 @@
                     default = "Convert Text from Simplified to Traditional Chinese";
                     empty = "Convert Text to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
+                    "en-KR" = "Convert Text to Traditional Chinese";
                     "en-US" = "Convert Text to Traditional Chinese";
                 };
                 NSMessage = convertTextToTraditionalChinese;
@@ -168,6 +174,7 @@
                     default = "$^~@C";
                     empty = "$^~@C";
                     en = "$^~@C";
+                    "en-KR" = "$^~@C";
                     "en-US" = "$^~@C";
                 };
                 NSMenuItem =                 {
@@ -175,6 +182,7 @@
                     default = "Convert Text from Traditional to Simplified Chinese";
                     empty = "Convert Text to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
+                    "en-KR" = "Convert Text to Simplified Chinese";
                     "en-US" = "Convert Text to Simplified Chinese";
                 };
                 NSMessage = convertTextToSimplifiedChinese;
@@ -203,6 +211,7 @@
                     default = "Convert Text to Full Width";
                     empty = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
+                    "en-KR" = "Convert Text to Full Width";
                     "en-US" = "Convert Text to Full Width";
                 };
                 NSMessage = convertTextToFullWidth;
@@ -228,6 +237,7 @@
                     default = "Convert Text to Half Width";
                     empty = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
+                    "en-KR" = "Convert Text to Half Width";
                     "en-US" = "Convert Text to Half Width";
                 };
                 NSMessage = convertTextToHalfWidth;
@@ -253,6 +263,7 @@
                     default = "Look Up in Dictionary";
                     empty = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
+                    "en-KR" = "Look Up in Dictionary";
                     "en-US" = "Look Up in Dictionary";
                 };
                 NSMessage = doLookupService;
@@ -307,6 +318,7 @@
                     default = "Folder Actions Setup";
                     empty = "Folder Actions Setup\\U2026";
                     en = "Folder Actions Setup\\U2026";
+                    "en-KR" = "Folder Actions Setup\\U2026";
                     "en-US" = "Folder Actions Setup\\U2026";
                 };
                 NSMessage = openFilesFromPasteboard;
@@ -342,6 +354,7 @@
                     default = "Preview/Open images";
                     empty = "Preview/Open images";
                     en = "Preview/Open images";
+                    "en-KR" = "Preview/Open images";
                     "en-US" = "Preview/Open images";
                 };
                 NSMessage = serviceOpenImage;
@@ -361,6 +374,7 @@
                     default = "Encode Selected Audio Files";
                     empty = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
+                    "en-KR" = "Encode Selected Audio Files";
                     "en-US" = "Encode Selected Audio Files";
                 };
                 NSMessage = runWorkflowAsService;
@@ -383,6 +397,7 @@
                     default = "Search With %WebSearchProvider@";
                     empty = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
+                    "en-KR" = "Search With %WebSearchProvider@";
                     "en-US" = "Search With %WebSearchProvider@";
                 };
                 NSMessage = searchWithWebSearchProvider;
@@ -402,6 +417,7 @@
                     default = "Add to Reading List";
                     empty = "Add to Reading List";
                     en = "Add to Reading List";
+                    "en-KR" = "Add to Reading List";
                     "en-US" = "Add to Reading List";
                 };
                 NSMessage = addToReadingList;
@@ -433,6 +449,7 @@
                     default = "Script Editor/Make New AppleScript";
                     empty = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
+                    "en-KR" = "Script Editor/Make New AppleScript";
                     "en-US" = "Script Editor/Make New AppleScript";
                 };
                 NSMessage = makeNewAppleScript;
@@ -452,6 +469,7 @@
                     default = "Script Editor/Run as AppleScript";
                     empty = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
+                    "en-KR" = "Script Editor/Run as AppleScript";
                     "en-US" = "Script Editor/Run as AppleScript";
                 };
                 NSMessage = runAsAppleScript;
@@ -470,6 +488,7 @@
                     default = "*";
                     empty = "*";
                     en = "*";
+                    "en-KR" = "*";
                     "en-US" = "*";
                 };
                 NSMenuItem =                 {
@@ -477,6 +496,7 @@
                     default = "Script Editor/Get Result of AppleScript";
                     empty = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
+                    "en-KR" = "Script Editor/Get Result of AppleScript";
                     "en-US" = "Script Editor/Get Result of AppleScript";
                 };
                 NSMessage = runAsAppleScript;
@@ -503,6 +523,7 @@
                     default = "SEARCH_WITH_SPOTLIGHT";
                     empty = Spotlight;
                     en = Spotlight;
+                    "en-KR" = Spotlight;
                     "en-US" = Spotlight;
                 };
                 NSMessage = doSearchWithSpotlight;
@@ -520,6 +541,7 @@
                     default = Y;
                     empty = Y;
                     en = Y;
+                    "en-KR" = Y;
                     "en-US" = Y;
                 };
                 NSMenuItem =                 {
@@ -527,6 +549,7 @@
                     default = "Make Sticky";
                     empty = "Make New Sticky Note";
                     en = "Make New Sticky Note";
+                    "en-KR" = "Make New Sticky Note";
                     "en-US" = "Make New Sticky Note";
                 };
                 NSMessage = makeStickyFromTextService;
@@ -548,6 +571,7 @@
                     default = Summarize;
                     empty = Summarize;
                     en = Summarize;
+                    "en-KR" = Summarize;
                     "en-US" = Summarize;
                 };
                 NSMessage = doSummarization;
@@ -567,6 +591,7 @@
                     default = "New Terminal at Folder";
                     empty = "New Terminal at Folder";
                     en = "New Terminal at Folder";
+                    "en-KR" = "New Terminal at Folder";
                     "en-US" = "New Terminal at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
@@ -593,6 +618,7 @@
                     default = "New Terminal Tab at Folder";
                     empty = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
+                    "en-KR" = "New Terminal Tab at Folder";
                     "en-US" = "New Terminal Tab at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
@@ -621,6 +647,7 @@
                     default = "Open man Page in Terminal";
                     empty = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
+                    "en-KR" = "Open man Page in Terminal";
                     "en-US" = "Open man Page in Terminal";
                 };
                 NSMessage = openManPage;
@@ -644,6 +671,7 @@
                     default = "Search man Page Index in Terminal";
                     empty = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
+                    "en-KR" = "Search man Page Index in Terminal";
                     "en-US" = "Search man Page Index in Terminal";
                 };
                 NSMessage = searchManPages;
@@ -666,6 +694,7 @@
                     default = "New TextEdit Window Containing Selection";
                     empty = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
+                    "en-KR" = "New TextEdit Window Containing Selection";
                     "en-US" = "New TextEdit Window Containing Selection";
                 };
                 NSMessage = openSelection;
@@ -687,6 +716,7 @@
                     default = "Open Selected File in TextEdit";
                     empty = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
+                    "en-KR" = "Open Selected File in TextEdit";
                     "en-US" = "Open Selected File in TextEdit";
                 };
                 NSMessage = openFile;
@@ -860,6 +890,7 @@
                     default = "Finder/Open";
                     empty = "Finder/Open";
                     en = "Finder/Open";
+                    "en-KR" = "Finder/Open";
                     "en-US" = "Finder/Open";
                 };
                 NSMessage = open;
@@ -886,6 +917,7 @@
                     default = "Finder/Reveal";
                     empty = "Finder/Show in Finder";
                     en = "Finder/Show in Finder";
+                    "en-KR" = "Finder/Show in Finder";
                     "en-US" = "Finder/Show in Finder";
                 };
                 NSMessage = reveal;
@@ -912,6 +944,7 @@
                     default = "Finder/Show Info";
                     empty = "Finder/Show Info in Finder";
                     en = "Finder/Show Info in Finder";
+                    "en-KR" = "Finder/Show Info in Finder";
                     "en-US" = "Finder/Show Info in Finder";
                 };
                 NSMessage = showInfo;
@@ -935,6 +968,7 @@
                     default = "Mail/New Email With Selection";
                     empty = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
+                    "en-KR" = "Mail/New Email With Selection";
                     "en-US" = "Mail/New Email With Selection";
                 };
                 NSMessage = mailSelection;
@@ -957,6 +991,7 @@
                     default = "Mail/New Email To Address";
                     empty = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
+                    "en-KR" = "Mail/New Email To Address";
                     "en-US" = "Mail/New Email To Address";
                 };
                 NSMessage = mailTo;
@@ -976,6 +1011,7 @@
                     default = "Add to Music as a Spoken Track";
                     empty = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
+                    "en-KR" = "Add to Music as a Spoken Track";
                     "en-US" = "Add to Music as a Spoken Track";
                 };
                 NSMessage = runWorkflowAsService;
@@ -995,6 +1031,7 @@
                     default = "Encode Selected Video Files";
                     empty = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
+                    "en-KR" = "Encode Selected Video Files";
                     "en-US" = "Encode Selected Video Files";
                 };
                 NSMessage = runWorkflowAsService;
@@ -1016,6 +1053,7 @@
                     default = "Set Desktop Picture";
                     empty = "Set Desktop Picture";
                     en = "Set Desktop Picture";
+                    "en-KR" = "Set Desktop Picture";
                     "en-US" = "Set Desktop Picture";
                 };
                 NSMessage = runWorkflowAsService;
@@ -1034,6 +1072,7 @@
                     default = "Show Map";
                     empty = "Show Map";
                     en = "Show Map";
+                    "en-KR" = "Show Map";
                     "en-US" = "Show Map";
                 };
                 NSMessage = runWorkflowAsService;
@@ -1056,6 +1095,7 @@
                     default = "Speech/Start Speaking Text";
                     empty = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
+                    "en-KR" = "Speech/Start Speaking Text";
                     "en-US" = "Speech/Start Speaking Text";
                 };
                 NSMessage = doSpeakSelectedText;
@@ -1075,6 +1115,7 @@
                     default = "Speech/Stop Speaking";
                     empty = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
+                    "en-KR" = "Speech/Stop Speaking";
                     "en-US" = "Speech/Stop Speaking";
                 };
                 NSMessage = doStopSpeaking;
@@ -1094,6 +1135,7 @@
                     default = "Open URL";
                     empty = "Open URL";
                     en = "Open URL";
+                    "en-KR" = "Open URL";
                     "en-US" = "Open URL";
                 };
                 NSMessage = openURL;
@@ -1217,6 +1259,7 @@
                     default = "Convert to icon(s)";
                     empty = "Convert to icon(s)";
                     en = "Convert to icon(s)";
+                    "en-KR" = "Convert to icon(s)";
                     "en-US" = "Convert to icon(s)";
                 };
                 NSMessage = convertFromPasteboard;
@@ -1238,6 +1281,7 @@
                     default = "Combine into one icon";
                     empty = "Combine into one icon";
                     en = "Combine into one icon";
+                    "en-KR" = "Combine into one icon";
                     "en-US" = "Combine into one icon";
                 };
                 NSMessage = combineFromPasteboard;
@@ -1248,6 +1292,120 @@
                 );
                 NSUUID = {length = 20, bytes = 0x4b3646093a84966ac8d7deb8dfd2db8fa0decc26};
                 NSUserData = group;
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Make New Clipping";
+                    en = "Scrivener/Scrivener: Make New Clipping";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping";
+                };
+                NSMessage = createClipping;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0xa310b3588fafde8c5d723ed74c547b39c0ff609a};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    en = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                };
+                NSMessage = createPlainTextClipping;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x9f3918860a219ac4c30855f3f758a37890bae2c1};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Append to Text";
+                    en = "Scrivener/Scrivener: Append to Text";
+                    "en-US" = "Scrivener/Scrivener: Append to Text";
+                };
+                NSMessage = appendSelection;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0xdb3db2558ed2f263adff5703ee33dde2010b71de};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    en = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                };
+                NSMessage = appendSelectionAsPlainText;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0xcff0c2f584621fedbe667dafae69e3685c556c88};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Append to Notes";
+                    en = "Scrivener/Scrivener: Append to Notes";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes";
+                };
+                NSMessage = appendSelectionToNotes;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x92e41bd341e911307ad013b36c5bfb965a275735};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener 3.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    en = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                };
+                NSMessage = appendSelectionToNotesAsPlainText;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x205ec4a10d0c4d1f7d77b7a7d1ffeea8957c3ca7};
             },
                         {
                 NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";

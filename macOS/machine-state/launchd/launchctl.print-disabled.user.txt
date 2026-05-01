@@ -6,12 +6,15 @@
 		"org.pqrs.service.agent.Karabiner-Menu" => enabled
 		"com.apple.Siri.agent" => enabled
 		"com.unicorn-soft.AutoLaunchHelper" => enabled
+		"com.google.keystone.system.agent" => enabled
 		"org.pqrs.service.agent.Karabiner-Core-Service" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
 		"ai.openclaw.gateway" => enabled
 		"com.openai.chat-helper" => enabled
+		"com.google.keystone.system.xpcservice" => enabled
+		"org.chromium.chromoting" => enabled
 		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"com.apple.ScriptMenuApp" => disabled
 		"com.logi.cp-dev-mgr" => enabled

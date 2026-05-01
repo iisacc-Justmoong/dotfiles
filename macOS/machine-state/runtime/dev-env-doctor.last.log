@@ -21,7 +21,7 @@
 [OK] qtpaths: /opt/homebrew/bin/qtpaths
 
 === Brewfile Drift ===
-[WARN] Missing formula: 17, missing cask: 8
+[WARN] Missing formula: 17, missing cask: 9
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openhue/cli/openhue-cli
@@ -40,6 +40,7 @@ steipete/tap/summarize
 steipete/tap/wacli
 yakitrak/yakitrak/obsidian-cli
 1password-cli
+androidtool
 canva
 chatgpt-atlas
 discord
@@ -47,7 +48,7 @@ logi-options+
 microsoft-auto-update
 obs
 visual-studio-code
-[WARN] Extra formula: 174, extra cask: 10
+[WARN] Extra formula: 174, extra cask: 8
 abseil
 ada-url
 aom
@@ -69,8 +70,6 @@ curl
 dav1d
 double-conversion
 blender
-box-drive
-box-tools
 chatgpt
 chrome-remote-desktop-host
 epic-games

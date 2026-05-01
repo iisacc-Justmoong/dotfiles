@@ -13,7 +13,7 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	stdout path = /Users/ymy/.cache/openclaw/launchd-cache-clean.log
 	stderr path = /Users/ymy/.cache/openclaw/launchd-cache-clean.err
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.Sxs7Ar9kDx/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.smDioMTUoB/Listeners
 	}
 
 	default environment = {
