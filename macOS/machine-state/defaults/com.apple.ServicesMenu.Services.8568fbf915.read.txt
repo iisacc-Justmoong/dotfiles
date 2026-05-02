@@ -1,7 +1,6 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
-            "en-US",
             en
         );
         CFVendedServices =         (
@@ -1299,6 +1298,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Make New Clipping";
                     default = "Scrivener/Scrivener: Make New Clipping";
                     en = "Scrivener/Scrivener: Make New Clipping";
                     "en-US" = "Scrivener/Scrivener: Make New Clipping";
@@ -1318,6 +1318,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     default = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     en = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
@@ -1337,6 +1338,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text";
                     default = "Scrivener/Scrivener: Append to Text";
                     en = "Scrivener/Scrivener: Append to Text";
                     "en-US" = "Scrivener/Scrivener: Append to Text";
@@ -1356,6 +1358,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
@@ -1375,6 +1378,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes";
                     default = "Scrivener/Scrivener: Append to Notes";
                     en = "Scrivener/Scrivener: Append to Notes";
                     "en-US" = "Scrivener/Scrivener: Append to Notes";
@@ -1394,6 +1398,7 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
@@ -1406,37 +1411,6 @@
                     "public.utf8-plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0x205ec4a10d0c4d1f7d77b7a7d1ffeea8957c3ca7};
-            },
-                        {
-                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
-                NSBundlePath = "/Applications/Pixelmator Pro.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Open with Pixelmator Pro";
-                };
-                NSMessage = loadDataFromExternalSource;
-                NSPortName = PixelmatorPro;
-                NSSendFileTypes =                 (
-                    "public.image"
-                );
-                NSSendTypes =                 (
-                    NSPasteboardTypeTIFF
-                );
-                NSUUID = {length = 20, bytes = 0x674d86bbaf525dc9847e58587fdfe72366a9181f};
-            },
-                        {
-                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
-                NSBundlePath = "/Applications/Pixelmator Pro.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                };
-                NSMessage = openSelection;
-                NSSendTypes =                 (
-                    "public.rtf"
-                );
-                NSUUID = {length = 20, bytes = 0xe0ae3bb808a733ca922eb0c2eb1673ce03ee1f07};
             }
         );
         CFVersion = 2;

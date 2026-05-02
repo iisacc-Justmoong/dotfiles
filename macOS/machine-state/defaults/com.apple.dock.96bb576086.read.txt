@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "799268113.111201"
+        "799376052.015805"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3167;
+    "mod-count" = 3188;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -243,7 +243,7 @@
                 "file-mod-date" = 87651257882320;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 33349986440419;
+                "parent-mod-date" = 141656176809814;
             };
             "tile-type" = "file-tile";
         },
@@ -258,10 +258,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 3857315695;
+                "file-mod-date" = 3858506316;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 33349986440419;
+                "parent-mod-date" = 213747202873346;
             };
             "tile-type" = "file-tile";
         },
@@ -284,42 +284,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 567659848;
-            "tile-data" =             {
-                book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.pixelmatorteam.pixelmator.touch.x.photo";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Photomator.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Photomator;
-                "file-mod-date" = 245753295147812;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 60575781113736;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496674530;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.pixelmatorteam.pixelmator.x";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Pixelmator%20Pro.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Pixelmator Pro";
-                "file-mod-date" = 147213861584157;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 280795934687193;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2314632282;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -338,56 +302,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2662310686;
+            GUID = 3929836110;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.canva.canvaeditor";
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.blackmagic-design.DaVinciResolve";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Canva.app/";
+                    "_CFURLString" = "file:///Applications/DaVinci%20Resolve/DaVinci%20Resolve.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Canva;
-                "file-mod-date" = 58123356371202;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 128457740810522;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1152347579;
-            "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.FinalCut";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Final%20Cut%20Pro.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Final Cut Pro";
-                "file-mod-date" = 7240877408273;
+                "file-label" = "DaVinci Resolve";
+                "file-mod-date" = 30811660867529;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 201386284089369;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1152347580;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.motionapp";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Motion.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Motion;
-                "file-mod-date" = 12145730061229;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 37606296191920;
+                "parent-mod-date" = 261554483877819;
             };
             "tile-type" = "file-tile";
         },
@@ -406,42 +334,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 138331869237394;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1152347581;
-            "tile-data" =             {
-                book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.garageband10";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/GarageBand.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = GarageBand;
-                "file-mod-date" = 212089341408978;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 208661957576666;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 720179651;
-            "tile-data" =             {
-                book = {length = 732, bytes = 0x626f6f6b dc020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.autodesk.dls.streamer.scriptapp.Autodesk-Fusion";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/Autodesk%20Fusion.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Autodesk Fusion";
-                "file-mod-date" = 202399896367883;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 170922081094907;
             };
             "tile-type" = "file-tile";
         },
@@ -603,7 +495,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 33349986440419;
+                "parent-mod-date" = 96713639057502;
             };
             "tile-type" = "file-tile";
         },
@@ -639,7 +531,7 @@
                 "file-mod-date" = 106600653191797;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 33349986440419;
+                "parent-mod-date" = 213747202873346;
             };
             "tile-type" = "file-tile";
         },
@@ -724,25 +616,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3929836102;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 184150583217218;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3929836103;
+            GUID = 3315430931;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -755,12 +629,30 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 184150583217218;
+                "parent-mod-date" = 96713639057502;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3929836104;
+            GUID = 3315430932;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 96713639057502;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3315430933;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -773,7 +665,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 184150583217218;
+                "parent-mod-date" = 96713639057502;
             };
             "tile-type" = "file-tile";
         }
