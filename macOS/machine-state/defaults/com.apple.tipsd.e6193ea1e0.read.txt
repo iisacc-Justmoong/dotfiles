@@ -12,7 +12,7 @@
         TPSNotificationCount = 7;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-05-01 10:47:21 +0000";
+    TPSContentUpdatedNotificationDate = "2026-05-02 11:12:34 +0000";
     TPSDCloudHintDisplayed =     (
         "CID-health-fitness-collection-fcs-watch",
         IconStyleMac,
@@ -28,7 +28,7 @@
     TPSLastMajorVersion = 26;
     TPSLastNotificationDate = "2026-04-12 09:18:37 +0000";
     "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-05-01 08:20:27 +0000";
+    TPSTipKitProcessedDate = "2026-05-02 09:54:29 +0000";
     TPSTipsAppInstalled = 1;
     TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
     TPSWelcomeNotificationReminderState = 1;
@@ -57,7 +57,8 @@
         "docc2cffe8c-b5db-4565-a610-33c9ab277dad",
         "doc67a55856-31fc-4518-9411-ced1f74f5659",
         "doc3e3a19ca-6d22-45e7-8fce-8d0127947eab",
-        "doce00d164d-247b-49a0-9c0c-b292bec048d8"
+        "doce00d164d-247b-49a0-9c0c-b292bec048d8",
+        "doc6bacd122-5c5f-4b96-aea7-4e460c0437db"
     );
-    TPSWidgetUpdateDate = "2026-05-01 02:17:08 +0000";
+    TPSWidgetUpdateDate = "2026-05-02 03:57:16 +0000";
 }

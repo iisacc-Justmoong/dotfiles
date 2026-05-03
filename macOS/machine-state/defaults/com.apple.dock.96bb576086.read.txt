@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "799376052.015805"
+        "799455405.704975"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3188;
+    "mod-count" = 3197;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -240,28 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 87651257882320;
+                "file-mod-date" = 228938502199266;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 141656176809814;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2314632241;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.figma.Desktop";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Figma.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Figma;
-                "file-mod-date" = 3858506316;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 213747202873346;
+                "parent-mod-date" = 248832790822125;
             };
             "tile-type" = "file-tile";
         },
@@ -280,6 +262,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 224682186703691;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2314632241;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.figma.Desktop";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Figma.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Figma;
+                "file-mod-date" = 3858506316;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 277776575439845;
             };
             "tile-type" = "file-tile";
         },
@@ -495,7 +495,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 96713639057502;
+                "parent-mod-date" = 248832790822125;
             };
             "tile-type" = "file-tile";
         },
@@ -531,7 +531,7 @@
                 "file-mod-date" = 106600653191797;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 213747202873346;
+                "parent-mod-date" = 277776575439845;
             };
             "tile-type" = "file-tile";
         },
@@ -616,7 +616,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3315430931;
+            GUID = 3770206721;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -629,12 +629,12 @@
                 "file-mod-date" = 234917093767569;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 96713639057502;
+                "parent-mod-date" = 277776575439845;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3315430932;
+            GUID = 3770206722;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -647,12 +647,12 @@
                 "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 96713639057502;
+                "parent-mod-date" = 277776575439845;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3315430933;
+            GUID = 3770206723;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -665,7 +665,7 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 96713639057502;
+                "parent-mod-date" = 277776575439845;
             };
             "tile-type" = "file-tile";
         }

@@ -6,8 +6,13 @@
         sessions =         (
         );
         stats =         (
-            "2026-05-01:[2]journalProcessedCount:2",
-            "2026-05-01:currentPid:21"
+            "2026-05-02:didScoreGraph:21",
+            "2026-05-02:people indexing all done:26",
+            "2026-05-02:[2]journalProcessedCount:4",
+            "2026-05-02:completed graph analysis:27",
+            "2026-05-02:[2]queryItemExtractedCount:1042",
+            "2026-05-02:[2]queryItemUpdatedCount:1038",
+            "2026-05-02:currentPid:27"
         );
         version = V2;
     };
