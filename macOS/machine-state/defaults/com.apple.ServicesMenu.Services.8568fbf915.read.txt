@@ -1411,6 +1411,23 @@
                     "public.utf8-plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0x205ec4a10d0c4d1f7d77b7a7d1ffeea8957c3ca7};
+            },
+                        {
+                NSBundleIdentifier = "com.renfei.SnippetsLab";
+                NSBundlePath = "/Applications/SnippetsLab.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Add to SnippetsLab";
+                };
+                NSMessage = addToSnippetsLab;
+                NSPortName = SnippetsLab;
+                NSRequiredContext =                 {
+                };
+                NSSendTypes =                 (
+                    NSStringPboardType
+                );
+                NSUUID = {length = 20, bytes = 0xb262f3ec55e753832178f9b592d26d6e188b1bfb};
             }
         );
         CFVersion = 2;

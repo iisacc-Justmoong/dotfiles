@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3197;
+    "mod-count" = 3203;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -240,10 +240,28 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 228938502199266;
+                "file-mod-date" = 170050205721436;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 248832790822125;
+                "parent-mod-date" = 277776575439845;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2908170798;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.renfei.SnippetsLab";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/SnippetsLab.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = SnippetsLab;
+                "file-mod-date" = 104221242052705;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 197134143592;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +297,7 @@
                 "file-mod-date" = 3858506316;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
+                "parent-mod-date" = 197134143592;
             };
             "tile-type" = "file-tile";
         },
@@ -616,24 +634,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3770206721;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 234917093767569;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 3770206722;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
@@ -652,20 +652,38 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3770206723;
+            GUID = 2908170797;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "ai.elementlabs.lmstudio";
+                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.wacom.WacomCenter";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
+                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "LM Studio";
-                "file-mod-date" = 148906078593021;
+                "file-label" = "Wacom Center";
+                "file-mod-date" = 64926583158619;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
+                "parent-mod-date" = 3849359466;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2908170799;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Steam.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 197134143592;
             };
             "tile-type" = "file-tile";
         }

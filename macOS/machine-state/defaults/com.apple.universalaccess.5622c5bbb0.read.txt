@@ -18,11 +18,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-04-11 08:39:58";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-04-11 08:52:45";
                 Reason = Reset;
                 State = 0;
@@ -266,6 +261,11 @@
                 Date = "2026-05-03 07:56:39";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-05-03 08:12:19";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -313,6 +313,28 @@
         NSGlobalDomain
     );
     customFonts = 1;
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "-682.09375";
+            Y = 1440;
+        };
+        1 =         {
+            X = "5257.4609375";
+            Y = "1471.44921875";
+        };
+        3 =         {
+            X = "4249.6875";
+            Y = "218.00390625";
+        };
+        4 =         {
+            X = "-1652.609375";
+            Y = "975.6953125";
+        };
+        5 =         {
+            X = "1328.609375";
+            Y = "650.69921875";
+        };
+    };
     grayscale = 0;
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
