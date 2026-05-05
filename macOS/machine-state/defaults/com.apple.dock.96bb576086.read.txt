@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3203;
+    "mod-count" = 3208;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -225,7 +225,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 52917857391716;
+                "parent-mod-date" = 127414065544927;
             };
             "tile-type" = "file-tile";
         },
@@ -513,7 +513,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 248832790822125;
+                "parent-mod-date" = 127414065544927;
             };
             "tile-type" = "file-tile";
         },
@@ -634,42 +634,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3770206722;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 188527152003186;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2908170797;
-            "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 64926583158619;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3849359466;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2908170799;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -681,9 +645,45 @@
                 };
                 "file-label" = Steam;
                 "file-mod-date" = 3855341262;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 127414065544927;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2908170800;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Notes";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Notes.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Notes;
+                "file-mod-date" = 3858307857;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 197134143592;
+                "parent-mod-date" = 3858307857;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2908170801;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TextEdit";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = TextEdit;
+                "file-mod-date" = 3858307857;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         }

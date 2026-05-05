@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "1953.704436541666";
+            Age = "83071.20420304168";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -40,16 +40,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 7;
-                        id64 = 7;
+                        ManagedSpaceID = 114;
+                        id64 = 114;
                         type = 0;
                         uuid = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                     };
                     "Display Identifier" = "9DABB1D3-9571-4180-9D38-EA60221A96B4";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 7;
-                            id64 = 7;
+                            ManagedSpaceID = 114;
+                            id64 = 114;
                             type = 0;
                             uuid = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                         }
@@ -57,16 +57,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 8;
-                        id64 = 8;
+                        ManagedSpaceID = 119;
+                        id64 = 119;
                         type = 0;
                         uuid = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                     };
                     "Display Identifier" = "CA5C3929-BED3-41CA-A3E8-F56BA7DACD04";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 8;
-                            id64 = 8;
+                            ManagedSpaceID = 119;
+                            id64 = 119;
                             type = 0;
                             uuid = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                         }
@@ -115,9 +115,13 @@
                         {
                 name = "";
                 windows =                 (
-                    2214,
+                    3881,
+                    3980,
                     294,
-                    205,
+                    3886,
+                    2780,
+                    2452,
+                    3273,
                     50,
                     49,
                     48,
@@ -131,25 +135,28 @@
                 name = "78ACD192-2C4F-4921-8D49-E3B72C7C94A1";
                 windows =                 (
                     334,
-                    213
+                    3148
                 );
             },
                         {
                 name = "18F8C5DD-BBC9-4974-8EA2-59AE43583753";
                 windows =                 (
+                    3855,
                     212
                 );
             },
                         {
                 name = "1117951A-4706-4C43-8D1E-BED6EB369E48";
                 windows =                 (
-                    1931,
+                    3939,
+                    3822,
+                    2476,
                     179,
                     183,
                     182,
                     181,
                     45,
-                    214
+                    3218
                 );
             }
         );

@@ -1,0 +1,64 @@
+{
+    meetingCenter =     {
+        AudioVideo =         {
+            MuteUnmuteYourself = {length = 718, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000232 };
+            StartOrStopVideo = {length = 722, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000234 };
+            switchSmartAudio = {length = 727, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000239 };
+        };
+        HostControl =         {
+            AdmitLobbyParticipants = {length = 734, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000240 };
+            AssignPrivilegesToParticipants = {length = 730, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000023c };
+            ExpelAttendee = {length = 681, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000020b };
+            LeaveOrEndTheMeeting = {length = 711, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000229 };
+            LockMeeting = {length = 702, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000220 };
+            LowerAllParticipantsHand = {length = 736, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000242 };
+            MuteAllParticipants = {length = 723, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000235 };
+            StartOrStopAssistant = {length = 733, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000023f };
+        };
+        MeetingControl =         {
+            OpenOrCloseInterpretationDialog = {length = 751, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000251 };
+            OpenShortcutPreferences = {length = 715, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000022d };
+            RaiseLowerHand = {length = 719, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000231 };
+            ShowOrHideNameInVideos = {length = 733, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000023f };
+            ShowOrHideParticipantsWithoutVideo = {length = 756, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000256 };
+            ShowOrHideTheMeetingControls = {length = 744, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000024a };
+            ShowParticipantsVideo = {length = 735, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000241 };
+            SwitchBetweenContentAndTabView = {length = 718, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000230 };
+            SwitchBetweenPanelAndTabView = {length = 716, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000022e };
+            SwitchOutputLanguageInterpreter = {length = 759, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000259 };
+            SwitchToFullScreen = {length = 722, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000234 };
+            SwitchToThumbnailsView = {length = 735, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000241 };
+            TransferAFile = {length = 693, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000217 };
+            TurnOnOffScreenReaderForChat = {length = 779, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000026d };
+            manageClosedCaptions = {length = 709, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000227 };
+            openOrCloseChatPanel = {length = 727, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000239 };
+            rightClickMenus = {length = 699, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000021f };
+        };
+        Share =         {
+            AddPageWhileSharingAFile = {length = 728, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000023a };
+            ClearAllAnnotationsOnWhiteboard = {length = 747, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000024d };
+            ClearAllMyPointer = {length = 742, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000248 };
+            ClearMyPointer = {length = 724, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000236 };
+            CloseSharedFileOrWhiteBoard = {length = 734, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000240 };
+            EndRemoteControl = {length = 711, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000229 };
+            EnterCleanModeDuringShare = {length = 753, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000253 };
+            FitSharedContentToViewer = {length = 719, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000231 };
+            FitSharedContentToWidth = {length = 735, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000241 };
+            OpenAndShare = {length = 696, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000021a };
+            RotateThePageToTheLeftDuringFileSharing = {length = 769, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000263 };
+            RotateThePageToTheRightDuringFileSharing = {length = 771, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000265 };
+            SetTheWhiteboardFontSize = {length = 735, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000241 };
+            ShareAWhiteboard = {length = 717, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000022f };
+            "ShareWebBrowser " = {length = 718, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000230 };
+            "ShareYourScreen " = {length = 712, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000022a };
+            ShowOrHideVideoInFloatingPanelDuringSharing = {length = 774, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000268 };
+            ShowTheMeetingControlPanelDuringContentSharing = {length = 798, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000280 };
+            StopShare = {length = 700, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000021e };
+            SyncTheDisplayASharedPageSlideOrWhiteboardSoEveryoneSeesTheSameView = {length = 820, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000296 };
+            ZoomInTo100 = {length = 691, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000215 };
+            ZoomInTo200 = {length = 691, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000215 };
+            ZoomInTo400 = {length = 691, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000215 };
+        };
+        version = "2.2022.12.15";
+    };
+}

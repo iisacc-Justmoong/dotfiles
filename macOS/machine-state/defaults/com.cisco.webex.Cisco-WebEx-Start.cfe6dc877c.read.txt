@@ -1,4 +1,24 @@
 {
-    MeetingManagerPrimarySite = "meet1754245389211-9925.webex.com";
+    AppleTextDirection = 0;
+    EnableJoinViaWbxApp =     {
+        "appleinc.webex.com" = 1;
+    };
+    LaunchedClientPIDs =     {
+        49744 = "MC_45.2.3.28";
+    };
+    MeetingManagerDaemonPID = 49791;
+    MeetingManagerPrimarySite = "appleinc.webex.com";
     MeetingManagerPrimarySiteEnabled = 1;
+    NSForceRightToLeftWritingDirection = 0;
+    UniversalLinks =     {
+        UniversalLinksEnabledCache =         {
+            "appleinc.webex.com" = 0;
+        };
+    };
+    UsedProductVersions =     (
+        MC
+    );
+    Versions =     {
+        "MC_45.2.3.28" = 3c44a25841f097f697afc457b892225c588b12a57de723031685a8a87ed12b40;
+    };
 }

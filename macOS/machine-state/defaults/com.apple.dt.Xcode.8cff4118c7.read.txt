@@ -59,7 +59,7 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-04-29 12:14:20 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-04 12:11:44 +0000";
     IDEAppStatisticsRunDestinationPlatform =     {
         iphoneos = 1;
         iphonesimulator = 1;
@@ -68,7 +68,7 @@
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
-        17E202 = "2026-04-29 13:06:47 +0000";
+        17E202 = "2026-05-04 12:10:46 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -85,7 +85,7 @@
     IDEChatCurrentErrorsContextEnabled = 1;
     IDEChatIsBuiltInChatGPTEnabled = 1;
     IDEChatIsBuiltInChatGPTOnboardingComplete = 1;
-    IDEChatLastServerResourcesRetrieval = "1777465038.984205";
+    IDEChatLastServerResourcesRetrieval = "1777896589.308533";
     IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b226d6f 64656c49 64656e74 69666965 ... 223a7b7d 7d7d7d7d };
     IDECodingIntelligenceUseHistory =     {
         HasEverUsed = 1;
@@ -182,7 +182,7 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-04-29 12:17:15 +0000";
+    IDEMostRecentPostFLEDate = "2026-05-04 12:09:44 +0000";
     IDEMostRecentPostFLEToolsVersion = "26.4.1";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         23L236,
@@ -233,6 +233,8 @@
     };
     IDEProvisioningTeamManagerLastSelectedTeamID = 5U49ST9XZH;
     IDERecentEditorDocuments =     (
+        {length = 1440, bytes = 0x626f6f6b a0050000 00000510 40000000 ... 68030000 00000000 },
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 508, bytes = 0x626f6f6b fc010000 00000510 40000000 ... a8000000 00000000 },
         {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... c0000000 00000000 },
         {length = 488, bytes = 0x626f6f6b e8010000 00000510 40000000 ... 94000000 00000000 },
@@ -240,9 +242,7 @@
         {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... c0000000 00000000 },
         {length = 488, bytes = 0x626f6f6b e8010000 00000510 40000000 ... 94000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 488, bytes = 0x626f6f6b e8010000 00000510 40000000 ... 94000000 00000000 }
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlEnableSourceControl_10_0" = 1;
     "IDESourceControlHostAccounts_10" =     (
@@ -285,12 +285,9 @@
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LanguageModel" = "enabled,usable";
-    "IDE_CA_Daily_LastReport" = "799157541.805546";
-    "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "0.8258654545370276";
+    "IDE_CA_Daily_LastReport" = "799589385.9398381";
     LastExplicitInspectorVisibility = 1;
-    LastPersistenceCleanupDateKey = "2026-04-23 11:44:35 +0000";
+    LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
     NSOSPLastRootDirectory = {length = 672, bytes = 0x626f6f6b a0020000 00000510 40000000 ... 04000000 00000000 };
     "NSSplitView Subview Frames com.apple.dt.Xcode.DevicesWidow.DevicesSplit" =     (
@@ -307,7 +304,7 @@
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
     "NSWindow Frame Products" = "-1814 414 1024 640 -2560 0 2560 1410 ";
     "NSWindow Frame com.apple.dt.xcode.devicesWindow" = "-2251 168 1065 700 -2560 0 2560 1410 ";
-    ProductMappingKey = {length = 184, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 0000008e };
+    ProductMappingKey = {length = 202, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 000000a0 };
     "UVLastDeviceSetPurge-iOS" = 23C54;
     "UVLastDeviceSetPurge-watchOS" = 23S303;
     UVLastUsedDate = {length = 16, bytes = 0x3739323134383739342e303530393831};
