@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3208;
+    "mod-count" = 3212;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -670,7 +670,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2908170801;
+            GUID = 2908170803;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.TextEdit";
