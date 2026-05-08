@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AbandonProcessGroup</key>
+	<true/>
+	<key>Label</key>
+	<string>com.nexon.ngsx.daemon</string>
+	<key>Program</key>
+	<string>/Library/Application Support/Nexon/NGS/NGSDaemon</string>
+	<key>Sockets</key>
+	<dict>
+		<key>com.nexon.ngsx.daemon.sock</key>
+		<dict>
+			<key>SockFamily</key>
+			<string>Unix</string>
+			<key>SockPathName</key>
+			<string>/var/run/com.nexon.ngsx.daemon.sock</string>
+			<key>SockPathMode</key>
+			<integer>502</integer>
+			<key>SockType</key>
+			<string>Stream</string>
+		</dict>
+	</dict>
+	<key>OnDemand</key>
+	<true/>
+	<key>KeepAlive</key>
+	<false/>
+</dict>
+</plist>

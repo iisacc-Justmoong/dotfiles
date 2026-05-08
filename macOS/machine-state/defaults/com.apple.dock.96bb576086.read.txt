@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "799455405.704975"
+        "799886013.740271"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3212;
+    "mod-count" = 3223;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -225,7 +225,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 127414065544927;
+                "parent-mod-date" = 150014183745964;
             };
             "tile-type" = "file-tile";
         },
@@ -240,10 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 170050205721436;
+                "file-mod-date" = 114061012362644;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
+                "parent-mod-date" = 96224013237014;
             };
             "tile-type" = "file-tile";
         },
@@ -513,7 +513,7 @@
                 "file-mod-date" = 272236066795179;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 127414065544927;
+                "parent-mod-date" = 96224013237014;
             };
             "tile-type" = "file-tile";
         },
@@ -549,7 +549,7 @@
                 "file-mod-date" = 106600653191797;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 277776575439845;
+                "parent-mod-date" = 96224013237014;
             };
             "tile-type" = "file-tile";
         },
@@ -634,56 +634,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2908170799;
+            GUID = 3995076281;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.valvesoftware.steam";
+                "bundle-identifier" = "Cisco-Systems.Spark";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Steam.app/";
+                    "_CFURLString" = "file:///Applications/Webex.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Steam;
-                "file-mod-date" = 3855341262;
-                "file-type" = 41;
+                "file-label" = Webex;
+                "file-mod-date" = 3769356031;
+                "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 127414065544927;
+                "parent-mod-date" = 150014183745964;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2908170800;
+            GUID = 3995076282;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Notes";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Notes.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Notes;
-                "file-mod-date" = 3858307857;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 188527152003186;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 150014183745964;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2908170803;
+            GUID = 3995076283;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.TextEdit";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "ai.elementlabs.lmstudio";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = TextEdit;
-                "file-mod-date" = 3858307857;
+                "file-label" = "LM Studio";
+                "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 150014183745964;
             };
             "tile-type" = "file-tile";
         }
@@ -693,7 +693,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

@@ -628,44 +628,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
-            name = Imported;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Lagacy;
-        },
-                {
-            "file-bookmark" = {length = 1108, bytes = 0x626f6f6b 54040000 00000510 40000000 ... 20010000 00000000 };
-            name = Manufacture;
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = WhatSon;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Assets;
+            name = Product;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
             name = Workspace;
         },
                 {
-            "file-bookmark" = {length = 1064, bytes = 0x626f6f6b 28040000 00000510 40000000 ... 04020000 00000000 };
-            name = "jXf6wsEPgVMWjYUf-5DjIjoKY6zra8At7.wsnote";
+            "file-bookmark" = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
+            name = private;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... bc010000 00000000 };
-            name = "Library.wslibrary";
+            "file-bookmark" = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
         },
                 {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 88010000 00000000 };
-            name = "icloud.wscontents";
+            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
+            name = cores;
         },
                 {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
+            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
+            name = Volumes;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 620, bytes = 0x626f6f6b 6c020000 00000510 40000000 ... 04000000 00000000 };
+            name = "Epic Games";
+        },
+                {
+            "file-bookmark" = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
+            name = SelfUpdateStaging;
+        },
+                {
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = Launcher;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -885,10 +885,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1004, 164}, {844, 776}}";
+            WindowBounds = "{{858, 178}, {844, 776}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -928,7 +928,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1004, 164}, {844, 776}}";
+            WindowBounds = "{{858, 178}, {844, 776}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;
