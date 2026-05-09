@@ -8,7 +8,7 @@
 		"com.unicorn-soft.AutoLaunchHelper" => enabled
 		"com.google.keystone.system.agent" => enabled
 		"org.pqrs.service.agent.Karabiner-Core-Service" => enabled
-		"com.apple.FolderActionsDispatcher" => disabled
+		"com.apple.FolderActionsDispatcher" => enabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
 		"ai.openclaw.gateway" => enabled
@@ -20,4 +20,5 @@
 		"com.logi.cp-dev-mgr" => enabled
 		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
 		"com.nexon.plug.helper" => disabled
+		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled
 	}
