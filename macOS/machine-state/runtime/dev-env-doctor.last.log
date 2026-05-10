@@ -21,7 +21,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 20, missing cask: 8
+[WARN] Missing formula: 20, missing cask: 10
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 gemini-cli
@@ -48,8 +48,10 @@ autodesk-fusion
 canva
 chatgpt-atlas
 discord
+jetbrains-toolbox
+logi-options+
+mission-control-plus
 obs
-visual-studio-code
 [WARN] Extra formula: 121, extra cask: 4
 ada-url
 aom

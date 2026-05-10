@@ -11,7 +11,7 @@
     AnnouncePlayheadScrubbing = 0;
     Appearance = 0;
     ApplePersistenceIgnoreState = 1;
-    ApplicationLaunchCount = 8;
+    ApplicationLaunchCount = 3;
     ArrangeSearchZeroCross = 0;
     "AskToCloseDocument_n" = 0;
     AudioHardwarePreferences =     {
@@ -7160,7 +7160,7 @@
     "NSWindow Frame AdditionalContent" = "1645 1270 550 454 0 0 3840 2129 ";
     "NSWindow Frame Basic Content Download" = "2911 1191 650 387 0 0 3840 2129 ";
     "NSWindow Frame NewProjectDialog" = "142 607 1042 626 0 0 2560 1410 ";
-    "NSWindow Frame QuickHelpBalloonWindow" = "1271 913 264 173 0 0 2560 1410 ";
+    "NSWindow Frame QuickHelpBalloonWindow" = "1271 914 263 172 0 0 2560 1410 ";
     NewRecordingSource = 0;
     NonDestructiveRegionGainAffect = 0;
     NonDestructiveRegionGainAlgorithm = 0;
@@ -7220,7 +7220,7 @@
     RecOptMidiCycle = 2;
     RecOptMidiNoCycle = 2;
     RecOptMidiReplace = 0;
-    RecentCFBundleShortVersionString = "12.0.1";
+    RecentCFBundleShortVersionString = "12.2";
     RecentWhatsNewPanelVersion = 17;
     RecordButtonBehavior = 0;
     "RecordNormalizeOperationsInUndoHistory_n" = 1;
@@ -7361,7 +7361,7 @@
     UnavailableMIDIInputEnabled =     (
     );
     UndoSteps = 100;
-    UniversalContentLibraryUUID = "182929EC-9FFF-45DF-9B63-9B8179BE34C1";
+    UniversalContentLibraryUUID = "5474E9C0-92B1-4D93-AEFC-16BDEBB4646B";
     UseAudioUnits = 1;
     UseAudioUnitsUserEdited = 0;
     UseGlobalTrackForDefaultProgression = 1;
@@ -74414,96 +74414,98 @@
     lastSelectedKeyCommandsTouched = 0;
     recommendedDownloadWasShownPreviously = 1;
     "s_ContentDefaultsKey_ReadContentPacksDict" =     (
-        "ml_0025_brushdrummers",
-        "ml_apc0001_boysnoize",
-        "ml_0006_reggaetonpop",
-        "ml_apc0009_pompom",
-        "ml_apc0011_corywong",
-        "ml_ccp0017_alchemy_textures",
-        "ml_apc0005_tommisch",
-        "ml_0036_studiostrings",
-        "ml_0012_vintagedrummachines",
-        "ml_apc0008_trakgirl",
-        "ml_0037_studiohorns",
-        "ml_0005_futurebass",
-        "ml_ccp0010_logic_studio2_compatibility",
-        "ml_apc0012_thekount",
-        "ml_ccp0003_jampack_remix",
-        "ml_0022_ultimate808s",
-        "ml_0016_newdisco",
-        "ml_ccp0009_logic10_appleloops",
-        "ml_0014_basshouse",
-        "ml_arx0006_demosong_1",
-        "ml_0013_risers",
-        "ml_0042_sessionplayerspiano",
-        "ml_ccp0015_alchemy_dance",
-        "ml_0038_vintagebreaks",
         "ml_0054_sessionplayerssynth",
-        "ml_0035_beattape",
-        "ml_ccp0004_jampack_rhythmsection",
-        "ml_0003_kototaiko",
-        "ml_0008_additionaldrummers",
-        "ml_ccp0006_jampack_world",
-        "ml_0046_magneticimperfections",
-        "ml_0034_mellotron",
-        "ml_0002_guzheng",
-        "ml_0027_obliquestructures",
-        "ml_0024_modernambient",
+        "ml_0037_studiohorns",
+        "ml_0022_ultimate808s",
         "ml_0043_sessionplayersdrummeracoustic",
-        "ml_0053_visions",
-        "ml_ccp0005_jampack_orchestral",
-        "ml_0017_mainstreamhiphop",
-        "ml_ccp0002_jampack_1",
-        "ml_ccp0014_alchemy_cinematic",
-        "ml_ccp0007_jampack_voices",
-        "ml_0051_irs_stereo",
-        "ml_apc0006_takeadaytrip",
-        "ml_apc0002_oakfelder",
-        "ml_apc0010_tosinabasi",
-        "ml_apc0004_soulection",
-        "ml_0033_cinematicsynth",
-        "ml_arx0009_spatialaudiodemogrid",
-        "ml_ccp0013_alchemy_basic_additions",
-        "ml_0010_toybox",
-        "ml_0045_modularmelodies",
-        "ml_0019_boombaphiphop",
-        "ml_ecp0001_essentialhiphop",
-        "ml_0001_guitarampsounds",
-        "ml_ccp0008_logic10_instruments",
-        "ml_0015_rnbdrummers",
-        "ml_0050_multichannel_drumkits",
-        "ml_ccp0012_alchemy_atmospheric",
-        "ml_0039_quickalchemy",
-        "ml_ecp0002_essentialelectronic",
-        "ml_0040_vocalloops",
-        "ml_0004_electronicdrumkits",
-        "ml_0007_percussionists",
-        "ml_0023_slaphouse",
-        "ml_0020_keyboardcollection",
-        "ml_0011_songwriterdrummers",
-        "ml_apc0013_hardwell",
-        "ml_arx0007_elliedixon",
-        "ml_0047_dancefloor_drumbass",
-        "ml_ccp0016_alchemy_modern_synth",
-        "ml_ccp0018_alchemy_vintage_synth",
+        "ml_ccp0006_jampack_world",
+        "ml_ccp0011_garageband11_compatibility",
+        "ml_0005_futurebass",
         "ml_0009_chillrap",
-        "ml_0030_chiptune",
+        "ml_0006_reggaetonpop",
+        "ml_0017_mainstreamhiphop",
+        "ml_0040_vocalloops",
+        "ml_0008_additionaldrummers",
+        "ml_0012_vintagedrummachines",
+        "ml_0004_electronicdrumkits",
+        "ml_ccp0015_alchemy_dance",
         "ml_0041_sessionplayersbass",
-        "ml_apc0003_marklettieri",
-        "ml_0026_modularrhythms",
-        "ml_0029_alternativedrummers",
         "ml_apc0007_watchthesound",
-        "ml_0044_sessionplayersdrummerelectronic",
-        "ml_0018_bassampsounds",
-        "ml_0032_modernsynth",
-        "ml_ecp0003_essentialinstruments",
-        "ml_0028_stepsequencer",
-        "ml_arx0010_manzanamac",
         "ml_0021_electronicdrummers",
-        "ml_0031_vintagesynth",
+        "ml_0045_modularmelodies",
+        "ml_apc0004_soulection",
+        "ml_0013_risers",
+        "ml_0036_studiostrings",
+        "ml_arx0007_elliedixon",
+        "ml_0028_stepsequencer",
+        "ml_0007_percussionists",
         "ml_0052_irs_surround",
+        "ml_0027_obliquestructures",
+        "ml_0046_magneticimperfections",
+        "ml_0024_modernambient",
+        "ml_0038_vintagebreaks",
+        "ml_0042_sessionplayerspiano",
+        "ml_apc0001_boysnoize",
+        "ml_0032_modernsynth",
+        "ml_apc0013_hardwell",
+        "ml_0020_keyboardcollection",
+        "ml_apc0003_marklettieri",
+        "ml_apc0008_trakgirl",
+        "ml_0029_alternativedrummers",
+        "ml_ccp0009_logic10_appleloops",
+        "ml_apc0010_tosinabasi",
+        "ml_apc0006_takeadaytrip",
+        "ml_ccp0003_jampack_remix",
+        "ml_apc0011_corywong",
+        "ml_apc0005_tommisch",
+        "ml_ccp0010_logic_studio2_compatibility",
+        "ml_ccp0020_logic10_patches",
+        "ml_ecp0001_essentialhiphop",
+        "ml_0055_moderngarage",
+        "ml_0033_cinematicsynth",
+        "ml_0014_basshouse",
+        "ml_ccp0016_alchemy_modern_synth",
+        "ml_arx0009_spatialaudiodemogrid",
         "ml_ccp0019_alchemy_modern_songwriter",
-        "ml_ccp0011_garageband11_compatibility"
+        "ml_0031_vintagesynth",
+        "ml_0011_songwriterdrummers",
+        "ml_0053_visions",
+        "ml_0018_bassampsounds",
+        "ml_ecp0002_essentialelectronic",
+        "ml_apc0009_pompom",
+        "ml_0010_toybox",
+        "ml_0034_mellotron",
+        "ml_ccp0004_jampack_rhythmsection",
+        "ml_ccp0018_alchemy_vintage_synth",
+        "ml_0002_guzheng",
+        "ml_apc0002_oakfelder",
+        "ml_ccp0007_jampack_voices",
+        "ml_0044_sessionplayersdrummerelectronic",
+        "ml_0026_modularrhythms",
+        "ml_ecp0003_essentialinstruments",
+        "ml_0025_brushdrummers",
+        "ml_0035_beattape",
+        "ml_ccp0012_alchemy_atmospheric",
+        "ml_0047_dancefloor_drumbass",
+        "ml_apc0012_thekount",
+        "ml_0023_slaphouse",
+        "ml_0015_rnbdrummers",
+        "ml_arx0006_demosong_1",
+        "ml_ccp0014_alchemy_cinematic",
+        "ml_0003_kototaiko",
+        "ml_0001_guitarampsounds",
+        "ml_ccp0002_jampack_1",
+        "ml_ccp0008_logic10_instruments",
+        "ml_ccp0005_jampack_orchestral",
+        "ml_0051_irs_stereo",
+        "ml_0030_chiptune",
+        "ml_ccp0017_alchemy_textures",
+        "ml_ccp0013_alchemy_basic_additions",
+        "ml_0050_multichannel_drumkits",
+        "ml_0039_quickalchemy",
+        "ml_0016_newdisco",
+        "ml_0019_boombaphiphop",
+        "ml_arx0010_manzanamac"
     );
     unsavedAutosavedURLs =     (
     );

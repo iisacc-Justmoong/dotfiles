@@ -40,9 +40,6 @@
     };
     DVTDeveloperAccountManagerAppleIDLists =     {
         "IDE.Identifiers.Prod" =         (
-                        {
-                identifier = "B0573AA7-1BB4-4BF7-B247-1D560FF69237";
-            }
         );
     };
     DVTDeviceVisibilityPreferences =     {
@@ -59,7 +56,7 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-08 12:16:52 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-10 03:28:39 +0000";
     IDEAppStatisticsRunDestinationPlatform =     {
         iphoneos = 1;
         iphonesimulator = 1;
@@ -68,7 +65,7 @@
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
-        17E202 = "2026-05-09 02:35:18 +0000";
+        17E202 = "2026-05-10 07:03:53 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -190,7 +187,7 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-05-09 02:23:10 +0000";
+    IDEMostRecentPostFLEDate = "2026-05-10 03:26:34 +0000";
     IDEMostRecentPostFLEToolsVersion = "26.4.1";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         23L236,
@@ -294,10 +291,9 @@
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
     "IDE_CA_Daily_LanguageModel" = "enabled,usable";
-    "IDE_CA_Daily_LastReport" = "799986133.5348409";
-    "IDE_CA_Daily_SessionCount" = 2;
-    "IDE_CA_Daily_SessionCrashed" = 1;
-    "IDE_CA_Daily_UptimeHours" = "0.2181778490393521";
+    "IDE_CA_Daily_LastReport" = "800076424.585446";
+    "IDE_CA_Daily_SessionCount" = 1;
+    "IDE_CA_Daily_UptimeHours" = "3.622256301875";
     LastExplicitInspectorVisibility = 1;
     LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
@@ -310,7 +306,7 @@
     "NSTableView Sort Ordering v2 PlistColumns" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
     "NSTableView Supports v2 PlistColumns" = 1;
     "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
-    "NSWindow Frame IDEDownloadProgressWindow" = "1634 1212 400 104 0 0 2560 1410 ";
+    "NSWindow Frame IDEDownloadProgressWindow" = "1634 1104 400 212 0 0 2560 1410 ";
     "NSWindow Frame IDESettingsPanel" = "777 233 918 716 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";

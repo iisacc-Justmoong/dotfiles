@@ -1,27 +1,20 @@
 {
     IMCSDoNotIndex =     (
-        "690779C1-99AC-1910-75E4-E31937EEB3A4"
     );
-    IMCSLastDonationProgressRebuildDate = "2026-05-03 00:35:33 +0000";
-    IMCSPreviousClientStateData = {length = 558, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001b2 };
+    IMCSLastDonationProgressRebuildDate = "2026-05-10 01:57:19 +0000";
     IMDCoreSpotlightLastFullReindexRequestTime = "2026-01-17 08:56:19 +0000";
     IMDIndexingLastThrottleState = 2;
     IMDIndexingThrottleHistory =     {
         "com.apple.messages.indexing" =         (
                         {
                 error = "Error Domain=CSIndexErrorDomain Code=-1006 \\"(null)\\"";
-                expiresAt = "2026-03-28 01:58:16 +0000";
-                startedAt = "2026-03-28 01:43:16 +0000";
+                expiresAt = "2026-05-10 02:12:19 +0000";
+                startedAt = "2026-05-10 01:57:19 +0000";
             },
                         {
-                error = "Error Domain=CSIndexErrorDomain Code=-1006 \\"(null)\\"";
-                expiresAt = "2026-03-28 03:58:29 +0000";
-                startedAt = "2026-03-28 03:43:29 +0000";
-            },
-                        {
-                error = "Error Domain=com.apple.Messages.IMSpotlightErrorDomain Code=2 \\"Indexing timed out.\\" UserInfo={NSDebugDescription=Indexing timed out., _IMDIndexingUnfinishedJobs=(\\n    IMDCoreSpotlightMessageIndexingJob,\\n    IMDSmartRepliesMessageDonationJob\\n)}";
-                expiresAt = "2026-04-23 15:33:39 +0000";
-                startedAt = "2026-04-23 15:18:39 +0000";
+                error = "Error Domain=com.apple.Messages.IMSpotlightErrorDomain Code=2 \\"Timed out talking to Spotlight.\\" UserInfo={NSDebugDescription=Timed out talking to Spotlight.}";
+                expiresAt = "2026-05-10 06:27:52 +0000";
+                startedAt = "2026-05-10 06:12:52 +0000";
             }
         );
     };

@@ -35,12 +35,20 @@
                 Date = "2026-05-10 10:50:33";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-05-10 16:04:49";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
     closeViewHotkeysEnabled = 0;
     closeViewZoomDisplayID = 0;
     closeViewZoomFactor = 1;
+    "com.apple.custommenu.apps" =     (
+        NSGlobalDomain
+    );
     login = 0;
     sessionChange = 0;
 }

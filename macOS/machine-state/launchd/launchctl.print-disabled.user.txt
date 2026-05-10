@@ -1,7 +1,19 @@
 
 	disabled services = {
+		"us.electronic.mas.macdroid.launcher" => enabled
+		"com.apple.ManagedClientAgent.enrollagent" => disabled
 		"com.apple.Siri.agent" => disabled
+		"org.pqrs.service.agent.Karabiner-Menu" => enabled
+		"com.microsoft.update.agent" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
+		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
+		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
+		"ai.openclaw.gateway" => enabled
+		"com.openai.chat-helper" => enabled
 		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"com.apple.ScriptMenuApp" => disabled
+		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
+		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled
+		"com.logi.cp-dev-mgr" => enabled
+		"com.nexon.plug.helper" => disabled
 	}

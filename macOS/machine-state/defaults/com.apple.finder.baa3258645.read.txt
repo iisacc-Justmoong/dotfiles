@@ -628,40 +628,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-            name = macOS;
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = ".oh-my-zsh";
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
+            "file-bookmark" = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
+            name = "Application Support";
+        },
+                {
+            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
+            name = JetBrains;
+        },
+                {
+            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
+            name = "CLion2026.1";
+        },
+                {
+            "file-bookmark" = {length = 856, bytes = 0x626f6f6b 58030000 00000510 40000000 ... 04000000 00000000 };
+            name = grazie;
+        },
+                {
+            "file-bookmark" = {length = 672, bytes = 0x626f6f6b a0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Qt;
+        },
+                {
             "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Library;
+            name = ".vscode";
         },
                 {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Developer;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
-            name = Users;
-        },
-                {
-            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
-            name = Shared;
-        },
-                {
-            "file-bookmark" = {length = 620, bytes = 0x626f6f6b 6c020000 00000510 40000000 ... 04000000 00000000 };
-            name = "Epic Games";
-        },
-                {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = "UE_5.7";
+            "file-bookmark" = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
+            name = cli;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -929,13 +933,12 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
         "file:///Volumes/Storage/Workspace/Product/WhatSon/resources/screenshots/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Volumes/Storage/",
         "file:///Users/ymy/Documents/",
         "file:///Users/ymy/Qt/",
-        "file:///Applications/",
-        "file:///Users/ymy/Library/CloudStorage/Box-Box/",
         "file:///Volumes/Storage/Workspace/Product/Vincent/resources/Screenshots/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";

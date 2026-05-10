@@ -1,8 +1,8 @@
 gui/501/ai.openclaw.gateway = {
-	active count = 0
+	active count = 1
 	path = /Users/ymy/Library/LaunchAgents/ai.openclaw.gateway.plist
 	type = LaunchAgent
-	state = spawn scheduled
+	state = running
 
 	program = /Users/ymy/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh
 	arguments = {
@@ -20,7 +20,7 @@ gui/501/ai.openclaw.gateway = {
 	stdout path = /Users/ymy/.openclaw/logs/gateway.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.zyoZ7ujvZg/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.IXluRPvxbH/Listeners
 	}
 
 	default environment = {
@@ -29,45 +29,30 @@ gui/501/ai.openclaw.gateway = {
 
 	environment = {
 		OSLogRateLimit => 64
-		HOME => /Users/ymy
-		TMPDIR => /var/folders/j3/5qyn3r610nsfxzwk8_q8w9gm0000gn/T/
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100093]
+	domain = gui/501 [100024]
 	umask = 77
-	asid = 100093
+	asid = 100024
 	minimum runtime = 1
 	exit timeout = 5
 	runs = 1
-	last exit code = 78: EX_CONFIG
-
-	event triggers = {
-		ai.openclaw.gateway => {
-			keepalive = 0
-			service = ai.openclaw.gateway
-			stream = com.apple.launchd.helper
-			monitor = com.apple.UserEventAgent-Aqua
-			descriptor = {
-				"Executable" => "/Users/ymy/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh"
-				"SkipImmediatePoll" => false
-			}
-		}
-	}
-
-	event channels = {
-		"com.apple.launchd.helper" = {
-			port = 0x0
-			active = 0
-			managed = 1
-			reset = 0
-			hide = 0
-			watching = 0
-		}
-	}
+	pid = 809
+	immediate reason = speculative
+	forks = 16
+	execs = 3
+	initialized = 1
+	trampolined = 1
+	started suspended = 0
+	proxy started suspended = 0
+	checked allocations = 0 (queried = 1)
+	checked allocations reason = no host
+	checked allocations flags = 0x0
+	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 2131
+		ID = 961
 		type = resource
 		state = active
 		active count = 1
@@ -75,7 +60,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 2132
+		ID = 962
 		type = jetsam
 		state = active
 		active count = 1
@@ -90,5 +75,5 @@ gui/501/ai.openclaw.gateway = {
 	jetsam thread limit = 32
 	cpumon = default
 
-	properties = partial import | keepalive | runatload | penalty box | inferred program
+	properties = partial import | keepalive | runatload | inferred program | managed LWCR
 }

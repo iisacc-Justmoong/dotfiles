@@ -39,6 +39,16 @@
                 version = 6590;
             }
         );
+        "com.apple.logic10*12.2" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro.app/";
+                appVersion = "12.2";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro.app/Contents/Resources/logic.help";
+                version = 6644;
+            }
+        );
         "com.apple.mobilelogic*12.0" =         (
                         {
                 appBundleUrl = "file:///Applications/Logic%20Pro%20Creator%20Studio.app/";
@@ -55,6 +65,7 @@
         "com.apple.inputmethod.Korean*104",
         "com.apple.logic10*12.0",
         "com.apple.mobilelogic*12.0",
-        "com.apple.logic10*12.0.1"
+        "com.apple.logic10*12.0.1",
+        "com.apple.logic10*12.2"
     );
 }

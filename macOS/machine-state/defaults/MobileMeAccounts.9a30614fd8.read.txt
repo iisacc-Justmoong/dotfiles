@@ -2,7 +2,7 @@
     Accounts =     (
                 {
             AccountID = "andudyun0504@gmail.com";
-            AccountUUID = "CC8F39A4-D359-4D74-A376-A0D78845301C";
+            AccountUUID = "6FD043A0-7295-41C4-B9C7-812A91491C63";
             Services =             (
                                 {
                     Name = CLOUDDESKTOP;
@@ -238,6 +238,7 @@
                     CategorySyncEnabled = 0;
                     ClearAllOverridesURL = "https://p51-mccgateway.icloud.com:443/ecs/v1/mcc/events/iungo/recategorization/clearalloverrides";
                     EmailAddress = "iisacc.moong@icloud.com";
+                    Enabled = 1;
                     FetchOverridesUrl = "https://p51-mccgateway.icloud.com:443/iungo/sender/v1/senders/category";
                     FullCategoryOverrideSyncEnabled = 1;
                     FullUserName = "Justmoong Developer";
@@ -269,6 +270,7 @@
                     smtpRequiresSSL = 1;
                 },
                                 {
+                    Enabled = 1;
                     Name = CONTACTS;
                     ServiceID = "com.apple.Dataclass.Contacts";
                     authMechanism = token;
@@ -277,6 +279,7 @@
                     url = "https://p51-contacts.icloud.com:443";
                 },
                                 {
+                    Enabled = 1;
                     Name = CALENDAR;
                     ServiceID = "com.apple.Dataclass.Calendars";
                     authMechanism = token;
@@ -291,6 +294,7 @@
                     url = "https://p51-caldav.icloud.com:443";
                 },
                                 {
+                    Enabled = 1;
                     Name = REMINDERS;
                     ServiceID = "com.apple.Dataclass.Reminders";
                     authMechanism = token;

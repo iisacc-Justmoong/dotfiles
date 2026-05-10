@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "800055067.9449691"
+        "800089497.119864"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3258;
+    "mod-count" = 3288;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -24,172 +24,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Google Chrome";
-                "file-mod-date" = 3856909636;
+                "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496674533;
-            "tile-data" =             {
-                book = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.intellij";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/IntelliJ%20IDEA.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "IntelliJ IDEA";
-                "file-mod-date" = 183025299227101;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 27615403;
-            "tile-data" =             {
-                book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.rider";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/Rider.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Rider;
-                "file-mod-date" = 140556662312173;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 263697671011119;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3278974364;
-            "tile-data" =             {
-                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.CLion";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/CLion.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = CLion;
-                "file-mod-date" = 193092705946439;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 256791365913441;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496674532;
-            "tile-data" =             {
-                book = {length = 728, bytes = 0x626f6f6b d8020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.rustrover";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/RustRover.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = RustRover;
-                "file-mod-date" = 63023912976480;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3496674531;
-            "tile-data" =             {
-                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.goland";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/GoLand.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = GoLand;
-                "file-mod-date" = 162168938037365;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2293371078;
-            "tile-data" =             {
-                book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.WebStorm";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/WebStorm.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = WebStorm;
-                "file-mod-date" = 164376553260013;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 52638684329304;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2293371081;
-            "tile-data" =             {
-                book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.pycharm";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/PyCharm.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = PyCharm;
-                "file-mod-date" = 76896657049906;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3999960189;
-            "tile-data" =             {
-                book = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.dataspell";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/DataSpell.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = DataSpell;
-                "file-mod-date" = 250469172179378;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3999960190;
-            "tile-data" =             {
-                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.jetbrains.datagrip";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/ymy/Applications/DataGrip.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = DataGrip;
-                "file-mod-date" = 37554758414743;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 192353969697212;
+                "parent-mod-date" = 112278601312829;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +42,28 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Xcode;
-                "file-mod-date" = 173322969528998;
+                "file-mod-date" = 180121904720443;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 117763274458191;
+                "parent-mod-date" = 112278601312829;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3883099824;
+            "tile-data" =             {
+                book = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... b4000000 00000000 };
+                "bundle-identifier" = "com.microsoft.VSCode";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Visual%20Studio%20Code.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Visual Studio Code";
+                "file-mod-date" = 3859294680;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 203293253295008;
             };
             "tile-type" = "file-tile";
         },
@@ -222,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 45869816890439;
+                "file-mod-date" = 3861125148;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
+                "parent-mod-date" = 32478108958870;
             };
             "tile-type" = "file-tile";
         },
@@ -240,10 +96,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = SnippetsLab;
-                "file-mod-date" = 104221242052705;
-                "file-type" = 1;
+                "file-mod-date" = 221727252915811;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 197134143592;
+                "parent-mod-date" = 112278601312829;
             };
             "tile-type" = "file-tile";
         },
@@ -258,10 +114,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Vincent;
-                "file-mod-date" = 247346729124683;
+                "file-mod-date" = 168972169618381;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 224682186703691;
+                "parent-mod-date" = 151599026906120;
             };
             "tile-type" = "file-tile";
         },
@@ -330,46 +186,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Logic Pro";
-                "file-mod-date" = 9396950990400;
+                "file-mod-date" = 173108223125063;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 138331869237394;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 567659847;
-            "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
-                "bundle-identifier" = "org.blenderfoundation.blender";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Blender.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Blender;
-                "file-mod-date" = 3856556927;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 128457740810522;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 69630559;
-            "tile-data" =             {
-                book = {length = 812, bytes = 0x626f6f6b 2c030000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.epicgames.UnrealEditor";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/Shared/Epic%20Games/UE_5.7/Engine/Binaries/Mac/UnrealEditor.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = UnrealEditor;
-                "file-mod-date" = 208511634856465;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 213631235929030;
+                "parent-mod-date" = 133710488121077;
             };
             "tile-type" = "file-tile";
         },
@@ -484,7 +304,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
                 "bundle-identifier" = "com.openai.chat";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -492,10 +312,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 15929599730984;
+                "file-mod-date" = 3860528425;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
+                "parent-mod-date" = 59416143832487;
             };
             "tile-type" = "file-tile";
         },
@@ -520,7 +340,7 @@
                 {
             GUID = 625966327;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
                 "bundle-identifier" = "com.googlecode.iterm2";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -528,10 +348,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = iTerm;
-                "file-mod-date" = 106600653191797;
+                "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
+                "parent-mod-date" = 17596047270764;
             };
             "tile-type" = "file-tile";
         },
@@ -616,20 +436,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1329190082;
+            GUID = 3883099821;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Terminal";
+                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 50010000 00000000 };
+                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Terminal.app/";
+                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Terminal;
-                "file-mod-date" = 3858307857;
+                "file-label" = "Epic Games Launcher";
+                "file-mod-date" = 3856602935;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 179722472762658;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 314417664;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 203293253295008;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 314417665;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.logi.optionsplus";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/logioptionsplus.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Logi Options+";
+                "file-mod-date" = 185812736384531;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 203293253295008;
             };
             "tile-type" = "file-tile";
         }

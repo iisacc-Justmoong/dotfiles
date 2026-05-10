@@ -27,7 +27,7 @@
             "2026-05-09 10:35:01 +0000"
         );
     };
-    StoreCurrentBootTime = "800055031.9572141";
+    StoreCurrentBootTime = "800089456.498225";
     StoreLoaders =     {
         "ausp_crnc_appl" =         {
             record =             {
@@ -57,17 +57,29 @@
         };
     };
     StoreTasks =     {
-        "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate" =         {
+        "com.apple.voicedb.firstUnlock" =         {
             configuration =             {
                 cardinality =                 {
                     once =                     {
                     };
                 };
-                identifier = "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate";
-                requiredConditions = 2;
+                identifier = "com.apple.voicedb.firstUnlock";
+                requiredConditions = 1;
                 type =                 {
-                    periodic =                     {
-                        "_0" = 21600;
+                    delay =                     {
+                        "_0" = 0;
+                        "_1" =                         {
+                            retry =                             {
+                                "_0" =                                 {
+                                    exponential =                                     {
+                                        max = 3600;
+                                        multiplier = "1.5";
+                                        start = 1;
+                                    };
+                                };
+                                maxAttempts = 5;
+                            };
+                        };
                     };
                 };
             };
@@ -75,27 +87,6 @@
             );
             state =             {
                 completed =                 {
-                };
-            };
-        };
-        "com.apple.accessibility.voices.upgrader" =         {
-            configuration =             {
-                cardinality =                 {
-                    once =                     {
-                    };
-                };
-                identifier = "com.apple.accessibility.voices.upgrader";
-                requiredConditions = 2;
-                type =                 {
-                    periodic =                     {
-                        "_0" = 172800;
-                    };
-                };
-            };
-            failures =             (
-            );
-            state =             {
-                scheduled =                 {
                 };
             };
         };

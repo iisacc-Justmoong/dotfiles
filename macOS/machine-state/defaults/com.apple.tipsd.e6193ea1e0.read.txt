@@ -1,39 +1,41 @@
 {
-    ConsecutiveNotificationsCount = 3;
+    ConsecutiveNotificationsCount = 1;
     DeliveryEventIdentifierToDeliveryEventMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
     DeliveryInfoVersion = 93c6896f754a03411af465c9f2c13f6b7a997aa25af2e6900d25024dc4eeecfe;
     DiscoverabilityDeliveryInfoMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
     Experiment = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d7 };
-    LastNotifiedCollectionIdentifier = WelcomeToMac;
+    LastNotifiedCollectionIdentifier = EssentialsMac;
     SearchItemIndexerSchemaVersion = 1;
     "TPSAnalyticsHistoricTipsDataProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
     TPSAnalyticsStore =     {
-        TPSLastNotificationTime = "2026-04-12 09:18:37 +0000";
-        TPSNotificationCount = 7;
+        TPSLastNotificationTime = "2026-05-10 04:35:57 +0000";
+        TPSNotificationCount = 8;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-05-09 13:38:21 +0000";
+    TPSContentUpdatedNotificationDate = "2026-05-10 07:01:01 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
-        "CID-whats-new-macos-collection-15",
-        "VideoReactionTip-com.apple.Safari",
+        ContinuityCollection,
         "CID-photos-collection-organize-edit-photos",
+        "CID-welcome-hardware-collection-welcome",
+        "CID-screenshot-learn-a-screenshot",
         "CID-health-fitness-collection-fcs-watch",
+        "CID-whats-new-macos-collection-15",
         IconStyleMac,
         "CID-filterAllPhotos-mini-tip",
         "CID-welcome-mac-collection-wwdc",
         EditSmartStack,
         MenuBarControls,
-        ContinuityCollection,
-        "CID-welcome-hardware-collection-welcome"
+        "VideoReactionTip-com.apple.Safari"
     );
     TPSDidRevertArchivedTipStatuses = 1;
     TPSFullTipUsageEventContextualInfo = {length = 2454, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000007b8 };
     TPSLastMajorVersion = 26;
-    TPSLastNotificationDate = "2026-04-12 09:18:37 +0000";
+    TPSLastNotificationDate = "2026-05-10 04:35:57 +0000";
     "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-05-09 12:23:56 +0000";
+    TPSTipKitProcessedDate = "2026-05-10 04:35:47 +0000";
     TPSTipsAppInstalled = 1;
+    TPSWaitingToShowWelcomeNotification = 0;
     TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
     TPSWelcomeNotificationReminderState = 1;
     TPSWelcomeNotificationStartDate = "2026-01-17 09:01:37 +0000";

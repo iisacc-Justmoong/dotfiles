@@ -44,7 +44,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassDiffusionSetting = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-05-09 10:50:17 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-05-10 07:05:03 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -58,7 +58,6 @@
         cs
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
-        en
     );
     NSNavPanelFileLastListModeForOpenModeKey = 2;
     NSNavPanelFileLastListModeForSaveModeKey = 2;
@@ -410,7 +409,7 @@
         dirMap =         {
         };
     };
-    "com.apple.keyboard.fnState" = 0;
+    "com.apple.keyboard.fnState" = 1;
     "com.apple.mouse.scaling" = "0.5";
     "com.apple.sound.beep.flash" = 0;
     "com.apple.springing.delay" = 0;
