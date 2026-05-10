@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AssociatedBundleIdentifiers</key>
+	<array>
+		<string>com.jetbrains.rider</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>HOME</key>
+		<string>/Users/ymy</string>
+		<key>TMPDIR</key>
+		<string>/var/folders/j3/5qyn3r610nsfxzwk8_q8w9gm0000gn/T/</string>
+	</dict>
 	<key>Label</key>
 	<string>com.jetbrains.AppCode.BridgeService</string>
 	<key>MachServices</key>
@@ -13,9 +24,5 @@
 	<string>/Users/ymy/Applications/Rider.app/Contents/bin/Bridge.framework/Versions/A/Resources/BridgeService</string>
 	<key>RunAtLoad</key>
 	<false/>
-	<key>AssociatedBundleIdentifiers</key>
-	<array>
-		<string>com.jetbrains.rider</string>
-	</array>
 </dict>
 </plist>

@@ -628,36 +628,40 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = "UE_5.7";
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = macOS;
         },
                 {
-            "file-bookmark" = {length = 620, bytes = 0x626f6f6b 6c020000 00000510 40000000 ... 04000000 00000000 };
-            name = "Epic Games";
-        },
-                {
-            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
-            name = Shared;
-        },
-                {
-            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
-            name = Users;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Developer;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
             "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
             name = Library;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Developer;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
+            name = Users;
+        },
+                {
+            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
+            name = Shared;
+        },
+                {
+            "file-bookmark" = {length = 620, bytes = 0x626f6f6b 6c020000 00000510 40000000 ... 04000000 00000000 };
+            name = "Epic Games";
+        },
+                {
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = "UE_5.7";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -880,7 +884,7 @@
             WindowBounds = "{{755, 407}, {920, 653}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {

@@ -1,4 +1,5 @@
 {
+    "global": { "show_in_menu_bar": false },
     "profiles": [
         {
             "devices": [
@@ -21,10 +22,6 @@
                     "to": [{ "key_code": "f2" }]
                 },
                 {
-                    "from": { "key_code": "f3" },
-                    "to": [{ "key_code": "f3" }]
-                },
-                {
                     "from": { "key_code": "f5" },
                     "to": [{ "key_code": "f5" }]
                 }
@@ -41,20 +38,44 @@
                     "to": [{ "key_code": "f19" }]
                 },
                 {
-                    "from": { "key_code": "left_command" },
-                    "to": [{ "key_code": "left_option" }]
+                    "from": { "key_code": "pause" },
+                    "to": [{ "key_code": "power" }]
                 },
                 {
                     "from": { "key_code": "left_option" },
                     "to": [{ "key_code": "left_command" }]
                 },
                 {
-                    "from": { "key_code": "pause" },
-                    "to": [{ "key_code": "power" }]
+                    "from": { "key_code": "left_command" },
+                    "to": [{ "key_code": "left_option" }]
                 },
                 {
                     "from": { "key_code": "right_option" },
                     "to": [{ "key_code": "right_command" }]
+                },
+                {
+                    "from": { "key_code": "f10" },
+                    "to": [{ "consumer_key_code": "mute" }]
+                },
+                {
+                    "from": { "key_code": "f11" },
+                    "to": [{ "consumer_key_code": "volume_decrement" }]
+                },
+                {
+                    "from": { "key_code": "f12" },
+                    "to": [{ "consumer_key_code": "volume_increment" }]
+                },
+                {
+                    "from": { "key_code": "f7" },
+                    "to": [{ "consumer_key_code": "scan_previous_track" }]
+                },
+                {
+                    "from": { "key_code": "f8" },
+                    "to": [{ "consumer_key_code": "play_or_pause" }]
+                },
+                {
+                    "from": { "key_code": "f9" },
+                    "to": [{ "consumer_key_code": "scan_next_track" }]
                 }
             ],
             "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }

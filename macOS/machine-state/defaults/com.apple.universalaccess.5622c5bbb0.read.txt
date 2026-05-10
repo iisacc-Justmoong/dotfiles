@@ -1,325 +1,46 @@
 {
-    FontSizeCategory =     {
-        "com.apple.Magnifier" = UseGlobal;
-        "com.apple.MobileSMS" = UseGlobal;
-        "com.apple.Notes" = UseGlobal;
-        "com.apple.accessibility.AccessibilityReader" = UseGlobal;
-        "com.apple.finder" = Custom;
-        "com.apple.iBooksX" = UseGlobal;
-        "com.apple.iCal" = UseGlobal;
-        "com.apple.journal" = UseGlobal;
-        "com.apple.mail" = UseGlobal;
-        "com.apple.reminders" = UseGlobal;
-        "com.apple.stocks" = UseGlobal;
-        "com.apple.weather" = UseGlobal;
-        global = DEFAULT;
-        version = "3.0";
-    };
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-04-14 12:01:23";
+                Date = "2026-05-09 18:35:11";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-14 12:16:30";
+                Date = "2026-05-09 18:35:15";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-15 12:17:58";
+                Date = "2026-05-09 18:35:15";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-16 18:34:38";
+                Date = "2026-05-09 18:35:20";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-16 19:32:18";
+                Date = "2026-05-09 18:35:20";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-17 18:23:55";
+                Date = "2026-05-10 10:40:33";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-04-17 18:38:57";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-18 08:25:45";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-18 08:41:42";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 09:54:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 10:05:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 11:07:20";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 11:23:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 18:40:09";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-19 18:55:57";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-20 18:24:00";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-20 18:39:10";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-21 18:39:32";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-22 08:10:38";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-22 08:31:44";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-23 08:25:58";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-23 20:53:40";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-23 21:09:48";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-24 19:40:51";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-24 19:56:10";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-25 08:33:10";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-25 09:20:12";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-26 10:23:50";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-27 08:48:28";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-28 08:49:55";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-29 08:48:46";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-30 08:16:52";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-04-30 08:42:46";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-01 03:55:06";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-01 04:10:41";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-02 09:54:05";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-02 10:14:54";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-03 07:56:39";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-03 08:12:19";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-04 04:10:43";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-05 10:32:03";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-06 04:10:36";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-07 04:10:41";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-08 07:33:29";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-08 07:49:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-09 06:23:53";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-09 06:39:35";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-09 22:27:59";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-09 22:43:08";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-10 06:31:01";
+                Date = "2026-05-10 10:50:33";
                 Reason = Reset;
                 State = 0;
             }
         );
     };
-    closeViewCustomHotkeyKey =     {
-        "AX_ZOOM_FREEZE_PANNING" =         {
-            charCode = 65535;
-            keyCode = 65535;
-            modifiers = 0;
-        };
-        "AX_ZOOM_MONITOR_SELECTION" =         {
-            charCode = 65535;
-            keyCode = 65535;
-            modifiers = 0;
-        };
-        "AX_ZOOM_TEMP_DETACH" =         {
-            charCode = 65535;
-            keyCode = 65535;
-            modifiers = 1310720;
-        };
-        "AX_ZOOM_TEMP_TOGGLE" =         {
-            charCode = 65535;
-            keyCode = 65535;
-            modifiers = 786432;
-        };
-        "AX_ZOOM_TOGGLE_FS_AND_PIP" =         {
-            charCode = 102;
-            keyCode = 3;
-            modifiers = 1572864;
-        };
-    };
-    closeViewDesiredZoomFactor = "1.207114411971518";
-    closeViewHotkeysEnabled = 1;
-    closeViewPanningMode = 2;
-    closeViewScrollWheelToggle = 1;
-    closeViewSplitScreenRatio = "0.2";
-    closeViewWindowPosition = {length = 252, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c2 };
-    closeViewWindowSize = {length = 250, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c0 };
+    closeViewHotkeysEnabled = 0;
     closeViewZoomDisplayID = 0;
     closeViewZoomFactor = 1;
-    closeViewZoomFactorBeforeTermination = 1;
-    closeViewZoomMode = 1;
-    closeViewZoomScreenShareEnabledKey = 0;
-    closeViewZoomedIn = 0;
-    "com.apple.custommenu.apps" =     (
-        NSGlobalDomain
-    );
-    customFonts = 1;
-    grayscale = 0;
-    hoverColorEnabled = 0;
-    hoverTextEnabled = 0;
-    hoverTypingEnabled = 0;
-    hudNotifiedConstrast = 0;
-    keyboardAccessCommandMap = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000da };
-    keyboardAccessFocusRingTimeout = 15;
     login = 0;
     sessionChange = 0;
 }

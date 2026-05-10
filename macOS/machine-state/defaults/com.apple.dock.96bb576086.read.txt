@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3248;
+    "mod-count" = 3258;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -68,9 +68,9 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2293371079;
+            GUID = 3278974364;
             "tile-data" =             {
-                book = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.jetbrains.CLion";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -78,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = CLion;
-                "file-mod-date" = 213004174253160;
+                "file-mod-date" = 193092705946439;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 121890738035942;
+                "parent-mod-date" = 256791365913441;
             };
             "tile-type" = "file-tile";
         },
@@ -222,10 +222,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 84996968863355;
+                "file-mod-date" = 45869816890439;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         },
@@ -495,7 +495,7 @@
                 "file-mod-date" = 15929599730984;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 117763274458191;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         },
@@ -616,56 +616,20 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1666948185;
+            GUID = 1329190082;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "Cisco-Systems.Spark";
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Terminal";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Webex.app/";
+                    "_CFURLString" = "file:///System/Applications/Utilities/Terminal.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Webex;
-                "file-mod-date" = 97783086525733;
+                "file-label" = Terminal;
+                "file-mod-date" = 3858307857;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1666948186;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "ai.elementlabs.lmstudio";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LM%20Studio.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "LM Studio";
-                "file-mod-date" = 148906078593021;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1666948187;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 80968289556556;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 203619670712625;
+                "parent-mod-date" = 3858307857;
             };
             "tile-type" = "file-tile";
         }
@@ -675,7 +639,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
