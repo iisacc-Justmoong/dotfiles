@@ -4,33 +4,15 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "799968239.886363"
+        "800055067.9449691"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3233;
+    "mod-count" = 3248;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
-                {
-            GUID = 3457776715;
-            "tile-data" =             {
-                book = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Safari";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Safari;
-                "file-mod-date" = 3855538109;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3855538109;
-            };
-            "tile-type" = "file-tile";
-        },
                 {
             GUID = 1152347582;
             "tile-data" =             {
@@ -45,7 +27,7 @@
                 "file-mod-date" = 3856909636;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         },
@@ -96,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = CLion;
-                "file-mod-date" = 38220478874858;
+                "file-mod-date" = 213004174253160;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 248257265594072;
+                "parent-mod-date" = 121890738035942;
             };
             "tile-type" = "file-tile";
         },
@@ -225,7 +207,7 @@
                 "file-mod-date" = 173322969528998;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
+                "parent-mod-date" = 117763274458191;
             };
             "tile-type" = "file-tile";
         },
@@ -240,10 +222,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 114061012362644;
+                "file-mod-date" = 84996968863355;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 187487773443636;
+                "parent-mod-date" = 124437653579835;
             };
             "tile-type" = "file-tile";
         },
@@ -513,7 +495,7 @@
                 "file-mod-date" = 15929599730984;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 260639656455512;
+                "parent-mod-date" = 117763274458191;
             };
             "tile-type" = "file-tile";
         },
@@ -549,7 +531,7 @@
                 "file-mod-date" = 106600653191797;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 96224013237014;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         },
@@ -634,27 +616,9 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 85691667;
+            GUID = 1666948185;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 80968289556556;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 85691669;
-            "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "Cisco-Systems.Spark";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -665,12 +629,12 @@
                 "file-mod-date" = 97783086525733;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 85691670;
+            GUID = 1666948186;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "ai.elementlabs.lmstudio";
@@ -683,7 +647,25 @@
                 "file-mod-date" = 148906078593021;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 124437653579835;
+                "parent-mod-date" = 203619670712625;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1666948187;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 80968289556556;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 203619670712625;
             };
             "tile-type" = "file-tile";
         }

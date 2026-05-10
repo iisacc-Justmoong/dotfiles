@@ -6,7 +6,7 @@
     <string>ai.openclaw.gateway</string>
     
     <key>Comment</key>
-    <string>OpenClaw Gateway (v2026.3.24)</string>
+    <string>OpenClaw Gateway (v2026.5.7)</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
@@ -17,6 +17,8 @@
     <integer>63</integer>
     <key>ProgramArguments</key>
     <array>
+      <string>/Users/ymy/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh</string>
+      <string>/Users/ymy/.openclaw/service-env/ai.openclaw.gateway.env</string>
       <string>/opt/homebrew/opt/node/bin/node</string>
       <string>/opt/homebrew/lib/node_modules/openclaw/dist/index.js</string>
       <string>gateway</string>
@@ -24,36 +26,11 @@
       <string>18789</string>
     </array>
     
+    <key>WorkingDirectory</key>
+    <string>/Users/ymy/.openclaw</string>
     <key>StandardOutPath</key>
     <string>/Users/ymy/.openclaw/logs/gateway.log</string>
     <key>StandardErrorPath</key>
     <string>/Users/ymy/.openclaw/logs/gateway.err.log</string>
-    <key>EnvironmentVariables</key>
-    <dict>
-    <key>HOME</key>
-    <string>/Users/ymy</string>
-    <key>TMPDIR</key>
-    <string>/var/folders/z9/lk9dmnss5xb6x8xd6ztd72nh0000gn/T/</string>
-    <key>NODE_EXTRA_CA_CERTS</key>
-    <string>/etc/ssl/cert.pem</string>
-    <key>NODE_USE_SYSTEM_CA</key>
-    <string>1</string>
-    <key>PATH</key>
-    <string>/opt/homebrew/opt/node/bin:/Users/ymy/.nvm:/Users/ymy/.local/bin:/Users/ymy/.npm-global/bin:/Users/ymy/bin:/Users/ymy/.volta/bin:/Users/ymy/.asdf/shims:/Users/ymy/.bun/bin:/Users/ymy/Library/Application Support/fnm/aliases/default/bin:/Users/ymy/.fnm/aliases/default/bin:/Users/ymy/Library/pnpm:/Users/ymy/.local/share/pnpm:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
-    <key>OPENCLAW_GATEWAY_PORT</key>
-    <string>18789</string>
-    <key>OPENCLAW_LAUNCHD_LABEL</key>
-    <string>ai.openclaw.gateway</string>
-    <key>OPENCLAW_SYSTEMD_UNIT</key>
-    <string>openclaw-gateway.service</string>
-    <key>OPENCLAW_WINDOWS_TASK_NAME</key>
-    <string>OpenClaw Gateway</string>
-    <key>OPENCLAW_SERVICE_MARKER</key>
-    <string>openclaw</string>
-    <key>OPENCLAW_SERVICE_KIND</key>
-    <string>gateway</string>
-    <key>OPENCLAW_SERVICE_VERSION</key>
-    <string>2026.3.24</string>
-    </dict>
   </dict>
 </plist>

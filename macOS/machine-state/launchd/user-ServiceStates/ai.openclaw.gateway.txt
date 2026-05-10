@@ -4,8 +4,10 @@ gui/501/ai.openclaw.gateway = {
 	type = LaunchAgent
 	state = running
 
-	program = /opt/homebrew/opt/node/bin/node
+	program = /Users/ymy/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh
 	arguments = {
+		/Users/ymy/.openclaw/service-env/ai.openclaw.gateway-env-wrapper.sh
+		/Users/ymy/.openclaw/service-env/ai.openclaw.gateway.env
 		/opt/homebrew/opt/node/bin/node
 		/opt/homebrew/lib/node_modules/openclaw/dist/index.js
 		gateway
@@ -13,10 +15,12 @@ gui/501/ai.openclaw.gateway = {
 		18789
 	}
 
+	working directory = /Users/ymy/.openclaw
+
 	stdout path = /Users/ymy/.openclaw/logs/gateway.log
 	stderr path = /Users/ymy/.openclaw/logs/gateway.err.log
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.ntjuqQeSJT/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.NanG0SUPuY/Listeners
 	}
 
 	default environment = {
@@ -25,31 +29,19 @@ gui/501/ai.openclaw.gateway = {
 
 	environment = {
 		OSLogRateLimit => 64
-		OPENCLAW_GATEWAY_PORT => 18789
-		NODE_USE_SYSTEM_CA => 1
-		OPENCLAW_SERVICE_VERSION => 2026.3.24
-		OPENCLAW_SYSTEMD_UNIT => openclaw-gateway.service
-		OPENCLAW_WINDOWS_TASK_NAME => OpenClaw Gateway
-		NODE_EXTRA_CA_CERTS => /etc/ssl/cert.pem
-		OPENCLAW_LAUNCHD_LABEL => ai.openclaw.gateway
-		PATH => /opt/homebrew/opt/node/bin:/Users/ymy/.nvm:/Users/ymy/.local/bin:/Users/ymy/.npm-global/bin:/Users/ymy/bin:/Users/ymy/.volta/bin:/Users/ymy/.asdf/shims:/Users/ymy/.bun/bin:/Users/ymy/Library/Application Support/fnm/aliases/default/bin:/Users/ymy/.fnm/aliases/default/bin:/Users/ymy/Library/pnpm:/Users/ymy/.local/share/pnpm:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin
-		HOME => /Users/ymy
-		OPENCLAW_SERVICE_KIND => gateway
-		OPENCLAW_SERVICE_MARKER => openclaw
-		TMPDIR => /var/folders/z9/lk9dmnss5xb6x8xd6ztd72nh0000gn/T/
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100024]
+	domain = gui/501 [100023]
 	umask = 77
-	asid = 100024
+	asid = 100023
 	minimum runtime = 1
 	exit timeout = 5
 	runs = 1
-	pid = 794
+	pid = 749
 	immediate reason = speculative
-	forks = 12
-	execs = 1
+	forks = 19
+	execs = 3
 	initialized = 1
 	trampolined = 1
 	started suspended = 0
@@ -60,7 +52,7 @@ gui/501/ai.openclaw.gateway = {
 	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 910
+		ID = 861
 		type = resource
 		state = active
 		active count = 1
@@ -68,7 +60,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 911
+		ID = 862
 		type = jetsam
 		state = active
 		active count = 1
@@ -82,7 +74,6 @@ gui/501/ai.openclaw.gateway = {
 	jetsamproperties category = daemon
 	jetsam thread limit = 32
 	cpumon = default
-	job state = running
 
-	properties = partial import | keepalive | runatload | inferred program | managed LWCR | has LWCR
+	properties = partial import | keepalive | runatload | inferred program | managed LWCR
 }

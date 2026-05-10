@@ -207,7 +207,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 301;
+                width = 275;
             },
                         {
                 ascending = 0;
@@ -628,44 +628,36 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = WhatSon;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
-            name = private;
-        },
-                {
-            "file-bookmark" = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-            name = bin;
-        },
-                {
-            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
-            name = cores;
-        },
-                {
-            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
-            name = Volumes;
+            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
+            name = "UE_5.7";
         },
                 {
             "file-bookmark" = {length = 620, bytes = 0x626f6f6b 6c020000 00000510 40000000 ... 04000000 00000000 };
             name = "Epic Games";
         },
                 {
-            "file-bookmark" = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
-            name = SelfUpdateStaging;
+            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
+            name = Shared;
         },
                 {
-            "file-bookmark" = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... 04000000 00000000 };
-            name = Launcher;
+            "file-bookmark" = {length = 536, bytes = 0x626f6f6b 18020000 00000510 40000000 ... 04000000 00000000 };
+            name = Users;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Developer;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Library;
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -885,7 +877,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{858, 178}, {844, 776}}";
+            WindowBounds = "{{755, 407}, {920, 653}}";
         };
     };
     LastTrashState = 1;
@@ -928,7 +920,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{858, 178}, {844, 776}}";
+            WindowBounds = "{{755, 568}, {920, 492}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;
