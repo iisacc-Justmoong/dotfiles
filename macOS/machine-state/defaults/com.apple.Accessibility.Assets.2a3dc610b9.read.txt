@@ -15,10 +15,10 @@
             "2026-05-09 10:35:01 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-05-05 23:54:03 +0000",
             "2026-05-06 23:53:56 +0000",
             "2026-05-08 10:33:30 +0000",
-            "2026-05-09 09:34:57 +0000"
+            "2026-05-09 09:34:57 +0000",
+            "2026-05-10 13:35:17 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-05-01 11:20:17 +0000",
@@ -27,7 +27,7 @@
             "2026-05-09 10:35:01 +0000"
         );
     };
-    StoreCurrentBootTime = "800089456.498225";
+    StoreCurrentBootTime = "800165251.885597";
     StoreLoaders =     {
         "ausp_crnc_appl" =         {
             record =             {
@@ -57,6 +57,27 @@
         };
     };
     StoreTasks =     {
+        "com.apple.accessibility.voices.upgrader" =         {
+            configuration =             {
+                cardinality =                 {
+                    once =                     {
+                    };
+                };
+                identifier = "com.apple.accessibility.voices.upgrader";
+                requiredConditions = 2;
+                type =                 {
+                    periodic =                     {
+                        "_0" = 172800;
+                    };
+                };
+            };
+            failures =             (
+            );
+            state =             {
+                scheduled =                 {
+                };
+            };
+        };
         "com.apple.voicedb.firstUnlock" =         {
             configuration =             {
                 cardinality =                 {
@@ -101,7 +122,7 @@
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-09 09:34:57 +0000";
+                Date = "2026-05-10 13:35:18 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };

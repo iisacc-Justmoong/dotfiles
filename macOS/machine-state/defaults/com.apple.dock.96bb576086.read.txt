@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "800089497.119864"
+        "800165401.597953"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3288;
+    "mod-count" = 3302;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 112278601312829;
+                "parent-mod-date" = 154158827451259;
             };
             "tile-type" = "file-tile";
         },
@@ -52,7 +52,7 @@
                 {
             GUID = 3883099824;
             "tile-data" =             {
-                book = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... b4000000 00000000 };
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.microsoft.VSCode";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -63,7 +63,7 @@
                 "file-mod-date" = 3859294680;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203293253295008;
+                "parent-mod-date" = 212093641285545;
             };
             "tile-type" = "file-tile";
         },
@@ -81,7 +81,7 @@
                 "file-mod-date" = 3861125148;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 32478108958870;
+                "parent-mod-date" = 212093641285545;
             };
             "tile-type" = "file-tile";
         },
@@ -304,7 +304,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.openai.chat";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -315,7 +315,7 @@
                 "file-mod-date" = 3860528425;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 59416143832487;
+                "parent-mod-date" = 212093641285545;
             };
             "tile-type" = "file-tile";
         },
@@ -340,7 +340,7 @@
                 {
             GUID = 625966327;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.googlecode.iterm2";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -351,7 +351,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 17596047270764;
+                "parent-mod-date" = 212093641285545;
             };
             "tile-type" = "file-tile";
         },
@@ -436,25 +436,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3883099821;
-            "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 50010000 00000000 };
-                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Epic Games Launcher";
-                "file-mod-date" = 3856602935;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 179722472762658;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 314417664;
+            GUID = 2079205853;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -467,25 +449,43 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 203293253295008;
+                "parent-mod-date" = 154158827451259;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 314417665;
+            GUID = 2079205854;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.logi.optionsplus";
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/logioptionsplus.app/";
+                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Logi Options+";
-                "file-mod-date" = 185812736384531;
+                "file-label" = "Epic Games Launcher";
+                "file-mod-date" = 3856602935;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 203293253295008;
+                "parent-mod-date" = 154158827451259;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2079205855;
+            "tile-data" =             {
+                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.wacom.WacomCenter";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Wacom Center";
+                "file-mod-date" = 269882426236797;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3859896025;
             };
             "tile-type" = "file-tile";
         }
@@ -495,7 +495,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
