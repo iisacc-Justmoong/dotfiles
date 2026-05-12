@@ -628,51 +628,46 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
+            "file-bookmark" = {length = 876, bytes = 0x626f6f6b 6c030000 00000510 40000000 ... 04000000 00000000 };
+            name = "untitled.wscontents";
         },
                 {
-            "file-bookmark" = {length = 1460, bytes = 0x626f6f6b b4050000 00000510 40000000 ... a0000000 00000000 };
-            name = OpenClaw;
+            "file-bookmark" = {length = 768, bytes = 0x626f6f6b 00030000 00000510 40000000 ... 04000000 00000000 };
+            name = Google;
         },
                 {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
+            "file-bookmark" = {length = 768, bytes = 0x626f6f6b 00030000 00000510 40000000 ... 04000000 00000000 };
+            name = Autodesk;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = WhatSon;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 1028, bytes = 0x626f6f6b 04040000 00000510 40000000 ... 04000000 00000000 };
-            name = LVRS;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = lib;
+            "file-bookmark" = {length = 804, bytes = 0x626f6f6b 24030000 00000510 40000000 ... 00010000 00000000 };
+            name = "Chrome Apps";
         },
                 {
             "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = "i6LzPh7Ia3O6hTLs-ioPSoV63i7tLF2eW.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 928, bytes = 0x626f6f6b a0030000 00000510 40000000 ... 04000000 00000000 };
+            name = "Library.wslibrary";
+        },
+                {
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = "IlXQAtF8irx0ZuV5-URS5H593eW1dBnVQ.wsnote";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -886,7 +881,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{755, 407}, {920, 653}}";
+            WindowBounds = "{{858, 178}, {844, 776}}";
         };
     };
     LastTrashState = 1;
@@ -929,7 +924,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{755, 568}, {920, 492}}";
+            WindowBounds = "{{858, 178}, {844, 776}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;
@@ -945,6 +940,23 @@
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
+                {
+            attributes =             (
+                kMDItemTextContent,
+                MDItemPhotosSceneClassificationSynonyms,
+                MDItemPhotosSceneClassificationLabels,
+                MDItemPhotosSeasons,
+                MDItemPhotosDescription
+            );
+            enforceStrictMatch = 0;
+            exactMatch = 0;
+            name = nexon;
+            scope = 9223372036854775806;
+            type = "com.apple.finder";
+            values =             (
+                nexon
+            );
+        },
                 {
             attributes =             (
                 kMDItemContentTypeTree
@@ -996,7 +1008,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1203, 220}, {1056, 1001}}";
+            WindowBounds = "{{640, 161}, {844, 811}}";
         };
     };
     ShowExternalHardDrivesOnDesktop = 0;

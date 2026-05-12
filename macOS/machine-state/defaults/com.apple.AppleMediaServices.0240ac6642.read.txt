@@ -2,7 +2,7 @@
     AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
     AMSDeviceBiometricsState = 2;
     AMSDidSetUpServerDataCache = 1;
-    AMSFPCertExpiration = "2026-05-12 04:10:00 +0000";
+    AMSFPCertExpiration = "2026-05-13 05:45:06 +0000";
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
@@ -10,7 +10,7 @@
         internal = "24.0.41";
         journeys = "2604.15.0";
     };
-    AMSLastMigratedBuildVersion = 25E253;
+    AMSLastMigratedBuildVersion = 25F71;
     AMSLogHARData = 0;
     AMSMediaRestrictionsAccountData =     {
         3fb2ce4c9640e88a03fe581a83f6fff0fc853ebcda72fba6847434ac44fec3ce5d672ad9e3750f2350eda320fb811bc0397654a34a5fc6ca6ed3861f8b571737 =         {
@@ -28,7 +28,7 @@
         "39A454FB-CD00-4267-86FD-089AAE1162E2"
     );
     "AMSSamplingSession-TLSSessionTickets" =     {
-        date = "2026-05-10 04:20:29 +0000";
+        date = "2026-05-11 04:15:11 +0000";
         duration = 1800;
         result = 1;
     };
@@ -38,7 +38,7 @@
         result = 0;
     };
     "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
-        date = "2026-05-10 10:02:38 +0000";
+        date = "2026-05-12 05:05:05 +0000";
         duration = 86400000;
         result = 0;
     };

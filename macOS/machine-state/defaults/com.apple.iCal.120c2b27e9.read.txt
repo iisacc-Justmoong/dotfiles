@@ -10,7 +10,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-05-09 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-05-13 05:45:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 1;
     CalendarSidebarView = 0;
@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-05-10 03:19:26 +0000";
+    LastSaveDate = "2026-05-12 04:42:02 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -34,7 +34,7 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "554 185 1231 999 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "1103 178 1231 999 0 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -42,15 +42,14 @@
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
-            "411B958B-147C-4F40-AB0D-479CB922B0F7"
         );
     };
     SharedCalendarNotificationsDisabled = 0;
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "Old default (687339AF-D194-46B8-9DBE-86955DA93689) not valid";
-    defaultCalendarChangedTimestamp = 800071197;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x82a43e220>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [27157], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 800253652;
     defaultCalendarDatabaseID = 0;
     defaultCalendarID = "FD9F74D2-4181-43C6-BF52-461AE8931399";
     defaultCalendarStoreUID = 4;
@@ -63,7 +62,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
+    "last selected calendar list item" = "FD9F74D2-4181-43C6-BF52-461AE8931399";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

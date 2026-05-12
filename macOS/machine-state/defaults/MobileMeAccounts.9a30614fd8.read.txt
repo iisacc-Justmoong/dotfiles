@@ -28,7 +28,9 @@
                     "TV_CHANNELS" = "https://setup.icloud.com/setup/family/v2/macos/viewSubscriptionDetails?subId=7";
                     askToBuyOverMessageKillSwitch = 1;
                     askToBuyUpsellPage = "https://support.apple.com/HT201089";
+                    inviteFollowUpNotificationsEnabled = 1;
                     megadomeKillSwitch = 0;
+                    openPendingMemberFlowInFamilyProcess = 0;
                     preventAskToBuyMessageDeviceValidation = 0;
                     preventScreenTimeMessageDeviceValidation = 0;
                     ruiEnabledPages =                     {

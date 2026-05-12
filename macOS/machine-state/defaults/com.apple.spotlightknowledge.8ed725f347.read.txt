@@ -1,14 +1,14 @@
 {
     SpotlightKnowledgeV2 =     {
         embeddingGenStartTime = "2026-01-17T09:01:20Z";
-        graphVersionV2 = 28;
+        graphVersionV2 = 29;
         keyphraseGenStartTime = "2026-01-17T08:57:02Z";
         sessions =         (
         );
         stats =         (
-            "2026-05-09:people indexing all done:26",
-            "2026-05-09:[2]journalProcessedCount:2",
-            "2026-05-09:currentPid:23"
+            "2026-05-12:[2]queryItemUpdatedCount:1920",
+            "2026-05-12:[2]queryItemExtractedCount:1963",
+            "2026-05-12:currentPid:8"
         );
         version = V2;
     };

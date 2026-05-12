@@ -2,12 +2,13 @@ System-wide power settings:
 Currently in use:
  standby              0
  Sleep On Power Button 1
+ autorestartatconnect 0
  autorestart          0
  SleepServices        1
  powernap             1
  networkoversleep     0
  disksleep            0
- sleep                1 (sleep prevented by CloudTelemetryService, CloudTelemetryService, CloudTelemetryService, runningboardd, EpicGamesLauncher-Mac-Shipping, powerd)
+ sleep                1 (sleep prevented by runningboardd, EpicGamesLauncher-Mac-Shipping, powerd)
  ttyskeepawake        1
  displaysleep         0
  tcpkeepalive         1

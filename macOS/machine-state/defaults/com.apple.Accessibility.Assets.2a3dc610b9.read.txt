@@ -9,26 +9,39 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-05-01 11:20:17 +0000",
             "2026-05-03 12:54:14 +0000",
             "2026-05-06 12:57:11 +0000",
-            "2026-05-09 10:35:01 +0000"
+            "2026-05-09 10:35:01 +0000",
+            "2026-05-11 23:34:49 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-05-06 23:53:56 +0000",
-            "2026-05-08 10:33:30 +0000",
             "2026-05-09 09:34:57 +0000",
-            "2026-05-10 13:35:17 +0000"
+            "2026-05-10 13:35:17 +0000",
+            "2026-05-11 04:15:06 +0000",
+            "2026-05-12 01:57:07 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-05-01 11:20:17 +0000",
             "2026-05-03 12:54:14 +0000",
             "2026-05-06 12:57:11 +0000",
-            "2026-05-09 10:35:01 +0000"
+            "2026-05-09 10:35:01 +0000",
+            "2026-05-11 23:34:49 +0000"
         );
     };
-    StoreCurrentBootTime = "800165251.885597";
+    StoreCurrentBootTime = "800257331.20029";
     StoreLoaders =     {
+        "ausp_axsr_appl" =         {
+            record =             {
+                component =                 {
+                    flags = 0;
+                    flagsMask = 0;
+                    manufacturer = 1634758764;
+                    subtype = 1635283826;
+                    type = 1635087216;
+                };
+                firstParty = 1;
+                identifier = "com.apple.texttospeech.SiriAUSP";
+            };
+        };
         "ausp_crnc_appl" =         {
             record =             {
                 component =                 {
@@ -40,6 +53,32 @@
                 };
                 firstParty = 1;
                 identifier = "com.apple.ax.MauiTTSSupport.MauiAUSP";
+            };
+        };
+        "ausp_kona_appl" =         {
+            record =             {
+                component =                 {
+                    flags = 0;
+                    flagsMask = 0;
+                    manufacturer = 1634758764;
+                    subtype = 1802464865;
+                    type = 1635087216;
+                };
+                firstParty = 1;
+                identifier = "com.apple.ax.KonaTTSSupport.KonaSynthesizer";
+            };
+        };
+        "ausp_mctk_appl" =         {
+            record =             {
+                component =                 {
+                    flags = 0;
+                    flagsMask = 0;
+                    manufacturer = 1634758764;
+                    subtype = 1835234411;
+                    type = 1635087216;
+                };
+                firstParty = 1;
+                identifier = "com.apple.speech.MacinTalkFramework.MacinTalkAUSP";
             };
         };
         "ausp_wrda_appl" =         {
@@ -115,21 +154,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-09 10:35:04 +0000";
+                Date = "2026-05-11 23:34:49 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-10 13:35:18 +0000";
+                Date = "2026-05-12 01:57:07 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-09 10:35:04 +0000";
+                Date = "2026-05-11 23:34:49 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };

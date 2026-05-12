@@ -1,11 +1,12 @@
 {
+    IMDNicknameHashCalculationVersion = 1;
     MeCardPendingNicknamesVersion = 3;
     MeCardSharingAudience = 1;
     MeCardSharingEnabled = 1;
     MeCardSharingImageForkedFromMeCard = 0;
     MeCardSharingNameForkedFromMeCard = 1;
     MeCardSharingVersion = 4;
-    MeCardWhitelistBlacklistNicknamesVersion = 14;
+    MeCardWhitelistBlacklistNicknamesVersion = 15;
     NicknameInfoRequestedFromPeers = 1;
     NicknameScrutinyDoNotHandle = 0;
     NicknameiCloudAccountSignedInStatusKey = 1;

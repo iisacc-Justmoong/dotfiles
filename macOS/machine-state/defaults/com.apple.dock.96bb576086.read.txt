@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "800165401.597953"
+        "800257495.787606"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3302;
+    "mod-count" = 3333;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -42,10 +42,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Xcode;
-                "file-mod-date" = 180121904720443;
+                "file-mod-date" = 13034792165057;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 112278601312829;
+                "parent-mod-date" = 229930640614614;
             };
             "tile-type" = "file-tile";
         },
@@ -63,7 +63,7 @@
                 "file-mod-date" = 3859294680;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 212093641285545;
+                "parent-mod-date" = 204955405786796;
             };
             "tile-type" = "file-tile";
         },
@@ -81,7 +81,7 @@
                 "file-mod-date" = 3861125148;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 212093641285545;
+                "parent-mod-date" = 204955405786796;
             };
             "tile-type" = "file-tile";
         },
@@ -132,10 +132,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 3858506316;
+                "file-mod-date" = 3858538715;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 260639656455512;
+                "parent-mod-date" = 154158827451259;
             };
             "tile-type" = "file-tile";
         },
@@ -194,6 +194,42 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 4207793650;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "org.blenderfoundation.blender";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Blender.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Blender;
+                "file-mod-date" = 3858976010;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 154158827451259;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4207793651;
+            "tile-data" =             {
+                book = {length = 812, bytes = 0x626f6f6b 2c030000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.epicgames.UnrealEditor";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Users/Shared/Epic%20Games/UE_5.7/Engine/Binaries/Mac/UnrealEditor.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = UnrealEditor;
+                "file-mod-date" = 243472672339754;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 275749351569194;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2277882256;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -244,6 +280,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3858307857;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4207793654;
+            "tile-data" =             {
+                book = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.iisacc.app.whatson";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Volumes/Storage/Workspace/Product/WhatSon/build/WhatSon.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = WhatSon;
+                "file-mod-date" = 10930258143708;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 241174865002725;
             };
             "tile-type" = "file-tile";
         },
@@ -315,7 +369,7 @@
                 "file-mod-date" = 3860528425;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 212093641285545;
+                "parent-mod-date" = 229930640614614;
             };
             "tile-type" = "file-tile";
         },
@@ -351,7 +405,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 212093641285545;
+                "parent-mod-date" = 154158827451259;
             };
             "tile-type" = "file-tile";
         },
@@ -436,7 +490,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2079205853;
+            GUID = 782644972;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Steam.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 229930640614614;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1208958106;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -449,12 +521,12 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 154158827451259;
+                "parent-mod-date" = 178459752558229;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2079205854;
+            GUID = 1208958107;
             "tile-data" =             {
                 book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
@@ -467,25 +539,7 @@
                 "file-mod-date" = 3856602935;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 154158827451259;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2079205855;
-            "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 269882426236797;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3859896025;
+                "parent-mod-date" = 178459752558229;
             };
             "tile-type" = "file-tile";
         }
