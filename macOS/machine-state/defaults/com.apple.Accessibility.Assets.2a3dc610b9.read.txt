@@ -27,7 +27,7 @@
             "2026-05-11 23:34:49 +0000"
         );
     };
-    StoreCurrentBootTime = "800257331.20029";
+    StoreCurrentBootTime = "800322709.253577";
     StoreLoaders =     {
         "ausp_axsr_appl" =         {
             record =             {
@@ -96,6 +96,27 @@
         };
     };
     StoreTasks =     {
+        "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate" =         {
+            configuration =             {
+                cardinality =                 {
+                    once =                     {
+                    };
+                };
+                identifier = "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate";
+                requiredConditions = 2;
+                type =                 {
+                    periodic =                     {
+                        "_0" = 21600;
+                    };
+                };
+            };
+            failures =             (
+            );
+            state =             {
+                completed =                 {
+                };
+            };
+        };
         "com.apple.accessibility.voices.upgrader" =         {
             configuration =             {
                 cardinality =                 {

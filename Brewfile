@@ -30,8 +30,6 @@ brew "fastlane"
 brew "ffmpeg"
 brew "flex"
 brew "fortune"
-brew "node"
-brew "gemini-cli"
 brew "gh"
 brew "git"
 brew "git-lfs"
@@ -47,9 +45,8 @@ brew "ninja"
 brew "meson"
 brew "molten-vk"
 brew "mpfi"
-brew "neofetch"
 brew "nmap"
-brew "openai-whisper"
+brew "node"
 brew "openjdk"
 brew "openjdk@21"
 brew "perl"
@@ -77,10 +74,8 @@ brew "zsh-syntax-highlighting"
 brew "antoniorodr/memo/memo"
 brew "felixkratz/formulae/sketchybar"
 brew "openhue/cli/openhue-cli"
-brew "steipete/tap/bird"
 brew "steipete/tap/camsnap"
 brew "steipete/tap/gifgrep"
-brew "steipete/tap/gogcli"
 brew "steipete/tap/goplaces"
 brew "steipete/tap/imsg"
 brew "steipete/tap/ordercli"
@@ -88,22 +83,17 @@ brew "steipete/tap/peekaboo"
 brew "steipete/tap/remindctl"
 brew "steipete/tap/sag"
 brew "steipete/tap/songsee"
-brew "steipete/tap/summarize"
 brew "steipete/tap/wacli"
-brew "yakitrak/yakitrak/obsidian-cli"
-cask "1password-cli"
 cask "affinity"
 cask "android-ndk"
 cask "android-platform-tools"
-cask "androidtool"
-cask "autodesk-fusion"
 cask "balenaetcher"
 cask "bambu-studio"
 cask "betterdisplay"
-cask "canva"
-cask "chatgpt-atlas"
+cask "blender"
+cask "chatgpt"
 cask "codex"
-cask "discord"
+cask "epic-games"
 cask "figma"
 cask "font-hack-nerd-font"
 cask "font-inter"
@@ -114,84 +104,64 @@ cask "font-sf-mono"
 cask "font-sf-pro"
 cask "google-chrome"
 cask "iterm2"
-cask "jetbrains-toolbox"
-cask "logi-options+"
+cask "karabiner-elements"
 cask "microsoft-auto-update"
 cask "microsoft-excel"
-cask "mission-control-plus"
-cask "obs"
 cask "popclip"
 cask "sf-symbols"
 cask "visual-studio-code"
 cask "wacom-tablet"
-mas "Adblock Plus", id: 1432731683
-mas "Color Picker", id: 1545870783
-mas "DaisyDisk", id: 411643860
-mas "Day Progress", id: 6450280202
-mas "Developer", id: 640199958
-mas "Final Cut Pro", id: 424389933
 mas "GarageBand", id: 682658836
 mas "Git Streaks", id: 1525795950
-mas "GoodLinks", id: 1474335294
-mas "Keynote", id: 361285480
+mas "Icon Slate", id: 439697913
 mas "Logic Pro", id: 634148309
 mas "MacDroid", id: 1476545828
 mas "Magnet", id: 441258766
-mas "Noir", id: 1592917505
-mas "Numbers", id: 361304891
 mas "Offline Translate", id: 6686403979
-mas "Pages", id: 361309726
-mas "Photomator", id: 1444636541
-mas "Pixelmator Pro", id: 1289583905
-mas "Right Click", id: 1364038646
 mas "RunCat", id: 1429033973
 mas "ScanTexter", id: 1635954549
-mas "Simplified for Twitter", id: 1479307973
 mas "SnippetsLab", id: 1006087419
-mas "Time Sink", id: 404363161
 mas "Transporter", id: 1450874784
-mas "Unicorn Blocker", id: 1231935892
 mas "Unicorn HTTPS", id: 1475628500
-mas "UpNote", id: 1398373917
-mas "Vimari", id: 1480933944
-mas "Wappalyzer - Technology profiler", id: 1520333300
 mas "Webull Desktop", id: 1334590352
-mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
 vscode "1yib.svelte-bundle"
 vscode "ardenivanov.svelte-intellisense"
 vscode "christian-kohler.path-intellisense"
 vscode "davidanson.vscode-markdownlint"
-vscode "eamodio.gitlens"
 vscode "ecmel.vscode-html-css"
 vscode "esbenp.prettier-vscode"
+vscode "file-icons.file-icons"
 vscode "fivethree.vscode-svelte-snippets"
 vscode "formulahendry.auto-close-tag"
+vscode "github.github-vscode-theme"
 vscode "hasanpasha.qml-preview"
 vscode "melihaltintas.svelte-format"
-vscode "ms-azuretools.vscode-azureresourcegroups"
 vscode "ms-python.debugpy"
 vscode "ms-python.python"
 vscode "ms-python.vscode-pylance"
 vscode "ms-python.vscode-python-envs"
 vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
 vscode "ms-vscode.live-server"
 vscode "ms-vscode.wasm-dwarf-debugging"
-vscode "ms-windows-ai-studio.windows-ai-studio"
 vscode "openai.chatgpt"
 vscode "pivaszbs.svelte-autoimport"
+vscode "pkief.material-icon-theme"
+vscode "pkief.material-product-icons"
 vscode "ritwickdey.liveserver"
 vscode "svelte.svelte-vscode"
-vscode "teamsdevapp.vscode-ai-foundry"
 vscode "theqtcompany.qt"
 vscode "theqtcompany.qt-core"
 vscode "theqtcompany.qt-cpp"
 vscode "theqtcompany.qt-cpp-pack"
+vscode "theqtcompany.qt-python"
 vscode "theqtcompany.qt-python-pack"
 vscode "theqtcompany.qt-qml"
 vscode "theqtcompany.qt-ui"
 vscode "theqtcompany.qt-wasm-pack"
 vscode "twxs.cmake"
+vscode "vscode-icons-team.vscode-icons"

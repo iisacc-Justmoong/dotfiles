@@ -1,14 +1,14 @@
 {
     ATXAnchorModelOfflineDataHarvesterDeviceSpecificSalt = {length = 32, bytes = 0x0db1108c 8b804682 efc056c8 bb3b7426 ... 99b4684a 4a4a8cab };
-    "ATXAppLaunchMonitor_LastLaunchWasHomescreen" = 1;
+    "ATXAppLaunchMonitor_LastLaunchWasHomescreen" = 0;
     ATXEnterLOIUpdateSourceLastRefreshDate = "2026-01-17 08:56:22 +0000";
     "ATXIntentCache.OSVersion" = 25F71;
     ATXPrivacyPreservingLocationHashDeviceSpecificSalt = {length = 8, bytes = 0xbd84be40576f22e8};
     "ATXUpdatePredictionsLoggerCountsDictionary-ActionPredictions" =     {
-        "TRIGGER_TYPE_APPLAUNCH" = 3680;
-        "TRIGGER_TYPE_CTS" = 720;
-        "TRIGGER_TYPE_OTHER" = 927;
-        "TRIGGER_TYPE_TOTAL" = 5327;
+        "TRIGGER_TYPE_APPLAUNCH" = 3707;
+        "TRIGGER_TYPE_CTS" = 722;
+        "TRIGGER_TYPE_OTHER" = 930;
+        "TRIGGER_TYPE_TOTAL" = 5359;
     };
     AppDirectoryLastLogProcessedDate = "2026-05-12 00:28:12 +0000";
     CurrentMirroredPhoneIDSIdentifier = "3927ED26-2D06-4875-B219-FEACF9C6E035";

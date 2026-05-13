@@ -50,21 +50,27 @@
     "public-sharing-settings" =     {
         "public-sharing-playlists" =         (
                         {
-                "public-sharing-playlist-domain" = 2;
-                "public-sharing-playlist-id" = 4028292310444645727;
-                "public-sharing-playlist-name" = "TV Shows";
+                "public-sharing-playlist-domain" = 8;
+                "public-sharing-playlist-id" = 921582402019069590;
+                "public-sharing-playlist-name" = Audiobooks;
                 "public-sharing-playlist-shared" = 1;
             },
                         {
                 "public-sharing-playlist-domain" = 2;
-                "public-sharing-playlist-id" = 6001376169759182603;
+                "public-sharing-playlist-id" = 1740710930633259402;
                 "public-sharing-playlist-name" = Rentals;
                 "public-sharing-playlist-shared" = 0;
             },
                         {
-                "public-sharing-playlist-domain" = 8;
-                "public-sharing-playlist-id" = 8129372178157703784;
-                "public-sharing-playlist-name" = Audiobooks;
+                "public-sharing-playlist-domain" = 2;
+                "public-sharing-playlist-id" = 4820469857528760421;
+                "public-sharing-playlist-name" = "Home Videos";
+                "public-sharing-playlist-shared" = 1;
+            },
+                        {
+                "public-sharing-playlist-domain" = 2;
+                "public-sharing-playlist-id" = 6716752400180884633;
+                "public-sharing-playlist-name" = Movies;
                 "public-sharing-playlist-shared" = 1;
             },
                         {
@@ -72,6 +78,12 @@
                 "public-sharing-playlist-id" = 8402892927057215585;
                 "public-sharing-playlist-name" = "\\Ub0b4 Shazam \\Uace1";
                 "public-sharing-playlist-shared" = 0;
+            },
+                        {
+                "public-sharing-playlist-domain" = 2;
+                "public-sharing-playlist-id" = "-6867068367211031118";
+                "public-sharing-playlist-name" = "TV Shows";
+                "public-sharing-playlist-shared" = 1;
             },
                         {
                 "public-sharing-playlist-domain" = 1;
@@ -86,27 +98,15 @@
                 "public-sharing-playlist-shared" = 0;
             },
                         {
-                "public-sharing-playlist-domain" = 2;
-                "public-sharing-playlist-id" = "-2842293565016838605";
-                "public-sharing-playlist-name" = "Home Videos";
-                "public-sharing-playlist-shared" = 1;
-            },
-                        {
                 "public-sharing-playlist-domain" = 1;
                 "public-sharing-playlist-id" = "-2259805166753986003";
                 "public-sharing-playlist-name" = "Favourite Songs";
                 "public-sharing-playlist-shared" = 0;
-            },
-                        {
-                "public-sharing-playlist-domain" = 2;
-                "public-sharing-playlist-id" = "-737004559564083437";
-                "public-sharing-playlist-name" = Movies;
-                "public-sharing-playlist-shared" = 1;
             }
         );
         "public-sharing-share-all-playlists" = 1;
     };
-    "shared-library-id" = 145645650489534164;
+    "shared-library-id" = "-1715391195230789588";
     "shared-library-machine-id" = 5719355364770522879;
     "shared-library-name" = "ymy\\U2019s Library";
 }

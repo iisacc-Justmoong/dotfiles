@@ -4,6 +4,8 @@
     "BundleIdRedactor.seenBundleIds" =     (
         "com.openai.codex",
         "com.apple.iCal",
-        "com.apple.MobileSMS"
+        "com.apple.MobileSMS",
+        "com.apple.SoftwareUpdateNotification",
+        "com.apple.dt.Xcode"
     );
 }

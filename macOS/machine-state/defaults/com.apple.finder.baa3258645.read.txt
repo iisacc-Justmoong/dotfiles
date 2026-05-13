@@ -668,6 +668,7 @@
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -884,7 +885,7 @@
             WindowBounds = "{{858, 178}, {844, 776}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
