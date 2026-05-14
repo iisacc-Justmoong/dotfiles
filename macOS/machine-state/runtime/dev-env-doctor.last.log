@@ -21,17 +21,12 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 20, missing cask: 10
+[WARN] Missing formula: 13, missing cask: 0
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
-gemini-cli
-neofetch
-openai-whisper
 openhue/cli/openhue-cli
-steipete/tap/bird
 steipete/tap/camsnap
 steipete/tap/gifgrep
-steipete/tap/gogcli
 steipete/tap/goplaces
 steipete/tap/imsg
 steipete/tap/ordercli
@@ -39,20 +34,8 @@ steipete/tap/peekaboo
 steipete/tap/remindctl
 steipete/tap/sag
 steipete/tap/songsee
-steipete/tap/summarize
 steipete/tap/wacli
-yakitrak/yakitrak/obsidian-cli
-1password-cli
-androidtool
-autodesk-fusion
-canva
-chatgpt-atlas
-discord
-jetbrains-toolbox
-logi-options+
-mission-control-plus
-obs
-[WARN] Extra formula: 121, extra cask: 5
+[WARN] Extra formula: 121, extra cask: 1
 ada-url
 aom
 apache-serf
@@ -73,10 +56,6 @@ fmt
 fontconfig
 freetds
 freetype
-blender
-chatgpt
-epic-games
-karabiner-elements
 steam
 
 === Zsh Environment Snapshot ===

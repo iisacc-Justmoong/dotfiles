@@ -628,28 +628,20 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 876, bytes = 0x626f6f6b 6c030000 00000510 40000000 ... 04000000 00000000 };
-            name = "untitled.wscontents";
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
-            "file-bookmark" = {length = 768, bytes = 0x626f6f6b 00030000 00000510 40000000 ... 04000000 00000000 };
-            name = Google;
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = dotfiles;
         },
                 {
-            "file-bookmark" = {length = 768, bytes = 0x626f6f6b 00030000 00000510 40000000 ... 04000000 00000000 };
-            name = Autodesk;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
-            "file-bookmark" = {length = 804, bytes = 0x626f6f6b 24030000 00000510 40000000 ... 00010000 00000000 };
-            name = "Chrome Apps";
-        },
-                {
-            "file-bookmark" = {length = 664, bytes = 0x626f6f6b 98020000 00000510 40000000 ... 04000000 00000000 };
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
         },
                 {
             "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
@@ -658,17 +650,12 @@
                 {
             "file-bookmark" = {length = 928, bytes = 0x626f6f6b a0030000 00000510 40000000 ... 04000000 00000000 };
             name = "Library.wslibrary";
-        },
-                {
-            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
-            name = "IlXQAtF8irx0ZuV5-URS5H593eW1dBnVQ.wsnote";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -697,7 +684,7 @@
             calculateAllSizes = 1;
             columns =             (
                                 {
-                    ascending = 1;
+                    ascending = 0;
                     identifier = name;
                     visible = 1;
                     width = 433;
@@ -785,7 +772,7 @@
             scrollPositionX = "-184";
             scrollPositionY = 0;
             showIconPreview = 1;
-            sortColumn = dateModified;
+            sortColumn = name;
             textSize = 13;
             useRelativeDates = 0;
             viewOptionsVersion = 1;
@@ -849,7 +836,7 @@
                     width = 100;
                 };
                 name =                 {
-                    ascending = 1;
+                    ascending = 0;
                     index = 0;
                     visible = 1;
                     width = 433;
@@ -871,7 +858,7 @@
             scrollPositionX = "-184";
             scrollPositionY = 0;
             showIconPreview = 1;
-            sortColumn = dateModified;
+            sortColumn = name;
             textSize = 13;
             useRelativeDates = 0;
             viewOptionsVersion = 1;
@@ -930,6 +917,7 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Users/ymy/dotfiles/",
         "file:///Applications/",
         "file:///Applications/Utilities/",
         "file:///Volumes/Storage/Workspace/Product/WhatSon/resources/screenshots/",

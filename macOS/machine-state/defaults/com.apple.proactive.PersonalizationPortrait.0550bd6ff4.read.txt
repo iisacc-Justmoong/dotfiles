@@ -1,11 +1,12 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-05-12 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xf110722f 7391300f 9f7ae02a f4cf7f2b ... e0b8e827 2dd11160 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-05-13 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x61a9b1d3 067c7513 6080f24d 170cc37b ... 3d9ecba0 139d7e49 };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.openai.codex",
         "com.apple.iCal",
+        "com.apple.Passwords",
+        "com.apple.dt.Xcode",
         "com.apple.MobileSMS",
-        "com.apple.SoftwareUpdateNotification",
-        "com.apple.dt.Xcode"
+        "com.apple.mail"
     );
 }

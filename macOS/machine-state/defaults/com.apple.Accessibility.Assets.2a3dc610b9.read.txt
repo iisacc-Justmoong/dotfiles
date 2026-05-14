@@ -9,22 +9,22 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-05-03 12:54:14 +0000",
             "2026-05-06 12:57:11 +0000",
             "2026-05-09 10:35:01 +0000",
-            "2026-05-11 23:34:49 +0000"
+            "2026-05-11 23:34:49 +0000",
+            "2026-05-13 17:44:26 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-05-09 09:34:57 +0000",
-            "2026-05-10 13:35:17 +0000",
             "2026-05-11 04:15:06 +0000",
-            "2026-05-12 01:57:07 +0000"
+            "2026-05-12 01:57:07 +0000",
+            "2026-05-13 00:03:05 +0000",
+            "2026-05-13 17:44:26 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-05-03 12:54:14 +0000",
             "2026-05-06 12:57:11 +0000",
             "2026-05-09 10:35:01 +0000",
-            "2026-05-11 23:34:49 +0000"
+            "2026-05-11 23:34:49 +0000",
+            "2026-05-13 17:44:26 +0000"
         );
     };
     StoreCurrentBootTime = "800322709.253577";
@@ -134,7 +134,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -175,21 +175,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-11 23:34:49 +0000";
+                Date = "2026-05-13 17:44:27 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-12 01:57:07 +0000";
+                Date = "2026-05-13 17:44:27 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-11 23:34:49 +0000";
+                Date = "2026-05-13 17:44:27 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
