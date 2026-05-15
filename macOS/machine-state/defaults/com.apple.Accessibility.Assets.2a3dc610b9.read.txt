@@ -15,10 +15,10 @@
             "2026-05-13 17:44:26 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-05-11 04:15:06 +0000",
             "2026-05-12 01:57:07 +0000",
             "2026-05-13 00:03:05 +0000",
-            "2026-05-13 17:44:26 +0000"
+            "2026-05-13 17:44:26 +0000",
+            "2026-05-14 17:54:28 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-05-06 12:57:11 +0000",
@@ -27,7 +27,7 @@
             "2026-05-13 17:44:26 +0000"
         );
     };
-    StoreCurrentBootTime = "800322709.253577";
+    StoreCurrentBootTime = "800322709.2631071";
     StoreLoaders =     {
         "ausp_axsr_appl" =         {
             record =             {
@@ -96,27 +96,6 @@
         };
     };
     StoreTasks =     {
-        "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate" =         {
-            configuration =             {
-                cardinality =                 {
-                    once =                     {
-                    };
-                };
-                identifier = "com.apple.MobileAsset.TTSAXResourceModelAssets.catalogUpdate";
-                requiredConditions = 2;
-                type =                 {
-                    periodic =                     {
-                        "_0" = 21600;
-                    };
-                };
-            };
-            failures =             (
-            );
-            state =             {
-                completed =                 {
-                };
-            };
-        };
         "com.apple.accessibility.voices.upgrader" =         {
             configuration =             {
                 cardinality =                 {
@@ -134,7 +113,7 @@
             failures =             (
             );
             state =             {
-                completed =                 {
+                pending =                 {
                 };
             };
         };
@@ -182,7 +161,7 @@
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-13 17:44:27 +0000";
+                Date = "2026-05-14 17:54:28 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };

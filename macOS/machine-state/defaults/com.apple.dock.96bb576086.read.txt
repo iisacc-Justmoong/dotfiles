@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3363;
+    "mod-count" = 3384;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -45,7 +45,7 @@
                 "file-mod-date" = 13034792165057;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 129110578392632;
+                "parent-mod-date" = 220047921065472;
             };
             "tile-type" = "file-tile";
         },
@@ -63,7 +63,7 @@
                 "file-mod-date" = 3859294680;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 129110578392632;
+                "parent-mod-date" = 131309601682052;
             };
             "tile-type" = "file-tile";
         },
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3858538715;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 233731686766883;
+                "parent-mod-date" = 220047921065472;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 10930258143708;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 166644297625273;
+                "parent-mod-date" = 128234405193090;
             };
             "tile-type" = "file-tile";
         },
@@ -369,7 +369,7 @@
                 "file-mod-date" = 3860528425;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 233731686766883;
+                "parent-mod-date" = 131309601682052;
             };
             "tile-type" = "file-tile";
         },
@@ -405,7 +405,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 129110578392632;
+                "parent-mod-date" = 131309601682052;
             };
             "tile-type" = "file-tile";
         },
@@ -490,7 +490,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3739703315;
+            GUID = 3739703319;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TextEdit";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = TextEdit;
+                "file-mod-date" = 3860422397;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3860422397;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3739703321;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.valvesoftware.steam";
@@ -501,45 +519,27 @@
                 };
                 "file-label" = Steam;
                 "file-mod-date" = 3855341262;
-                "file-type" = 41;
+                "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 131309601682052;
+                "parent-mod-date" = 220047921065472;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3739703316;
+            GUID = 3739703322;
             "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Preview";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
+                    "_CFURLString" = "file:///System/Applications/Preview.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Epic Games Launcher";
-                "file-mod-date" = 3856602935;
+                "file-label" = Preview;
+                "file-mod-date" = 3860422397;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 233731686766883;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3739703317;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.agiletortoise.Drafts-OSX";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Drafts.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Drafts;
-                "file-mod-date" = 259999706771802;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 147467268649312;
+                "parent-mod-date" = 3860422397;
             };
             "tile-type" = "file-tile";
         }

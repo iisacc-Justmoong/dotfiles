@@ -628,28 +628,28 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = dotfiles;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
-            name = "i6LzPh7Ia3O6hTLs-ioPSoV63i7tLF2eW.wsnote";
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
         },
                 {
-            "file-bookmark" = {length = 928, bytes = 0x626f6f6b a0030000 00000510 40000000 ... 04000000 00000000 };
-            name = "Library.wslibrary";
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Music;
+        },
+                {
+            "file-bookmark" = {length = 716, bytes = 0x626f6f6b cc020000 00000510 40000000 ... 04000000 00000000 };
+            name = Caches;
+        },
+                {
+            "file-bookmark" = {length = 728, bytes = 0x626f6f6b d8020000 00000510 40000000 ... 04000000 00000000 };
+            name = "Application Support";
+        },
+                {
+            "file-bookmark" = {length = 804, bytes = 0x626f6f6b 24030000 00000510 40000000 ... 04000000 00000000 };
+            name = DerivedData;
         }
     );
     FXSidebarUpgradedToSixteen = 1;

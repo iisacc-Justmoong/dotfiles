@@ -59,7 +59,7 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-12 12:27:27 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-14 09:45:01 +0000";
     IDEAppStatisticsRunDestinationPlatform =     {
         iphoneos = 1;
         iphonesimulator = 1;
@@ -69,12 +69,12 @@
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
         17E202 = "2026-05-11 12:48:31 +0000";
-        17F42 = "2026-05-13 02:57:37 +0000";
+        17F42 = "2026-05-14 09:44:04 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
             "App Store Product Source Accounts: 2175062D-3C00-4EBB-BA9E-653CC69F38C9" = "2026-03-05 10:30:34 +0000";
-            "App Store Product Source Accounts: 2CEC1C0E-3FFB-4975-85DF-BB1E338428E9" = "2026-05-13 01:56:24 +0000";
+            "App Store Product Source Accounts: 2CEC1C0E-3FFB-4975-85DF-BB1E338428E9" = "2026-05-14 09:47:53 +0000";
             "App Store Product Source Accounts: 3EA13137-AA34-4678-BCC9-4BF22A1872B1" = "2026-03-27 02:28:50 +0000";
             "App Store Product Source Accounts: B0573AA7-1BB4-4BF7-B247-1D560FF69237" = "2026-05-09 02:22:52 +0000";
         };
@@ -89,7 +89,7 @@
     IDEChatIsBuiltInChatGPTEnabled = 1;
     IDEChatIsBuiltInChatGPTOnboardingComplete = 1;
     IDEChatLastServerResourcesRetrieval = "1778294095.858059";
-    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b227072 6f766964 65724964 656e7469 ... 68617467 7074227d };
+    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b226d6f 64656c49 64656e74 69666965 ... 223a7b7d 7d7d7d7d };
     IDECodingIntelligenceUseHistory =     {
         HasEverUsed = 1;
         LastUpdatedDate = "2026-04-29";
@@ -194,7 +194,7 @@
     IDELogNavigatorGroupByKey = 0;
     "IDEMetalToolchainLastNotified-17F42" = 17F42;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-05-13 01:54:11 +0000";
+    IDEMostRecentPostFLEDate = "2026-05-14 09:43:01 +0000";
     IDEMostRecentPostFLEToolsVersion = "26.5";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         23L470,
@@ -254,12 +254,12 @@
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 }
+        {length = 184, bytes = 0x626f6f6b b8000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlEnableSourceControl_10_0" = 1;
     "IDESourceControlHostAccounts_10" =     (
@@ -302,10 +302,7 @@
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LanguageModel" = "enabled,usable";
-    "IDE_CA_Daily_LastReport" = "800330052.1094511";
-    "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "1.057409797245371";
+    "IDE_CA_Daily_LastReport" = "800444583.400169";
     LastExplicitInspectorVisibility = 1;
     LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
