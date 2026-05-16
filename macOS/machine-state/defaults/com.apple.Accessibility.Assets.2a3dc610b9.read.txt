@@ -27,7 +27,7 @@
             "2026-05-13 17:44:26 +0000"
         );
     };
-    StoreCurrentBootTime = "800322709.2631071";
+    StoreCurrentBootTime = "800631303.6182699";
     StoreLoaders =     {
         "ausp_axsr_appl" =         {
             record =             {
@@ -96,27 +96,6 @@
         };
     };
     StoreTasks =     {
-        "com.apple.accessibility.voices.upgrader" =         {
-            configuration =             {
-                cardinality =                 {
-                    once =                     {
-                    };
-                };
-                identifier = "com.apple.accessibility.voices.upgrader";
-                requiredConditions = 2;
-                type =                 {
-                    periodic =                     {
-                        "_0" = 172800;
-                    };
-                };
-            };
-            failures =             (
-            );
-            state =             {
-                pending =                 {
-                };
-            };
-        };
         "com.apple.voicedb.firstUnlock" =         {
             configuration =             {
                 cardinality =                 {

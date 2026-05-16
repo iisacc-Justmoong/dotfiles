@@ -1,7 +1,7 @@
 {
     "com.apple.fileproviderd.did-drop-daemon-corespotlight-index" = 1;
     iCDPackageExtensions =     (
-        "itmsp-app",
+        itlp,
         cyndata,
         pxm,
         pzdoc,
@@ -359,6 +359,6 @@
         mqtz,
         adiumlistlayout,
         transport,
-        itlp
+        "itmsp-app"
     );
 }
