@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "800631339.985798"
+        "800667065.455565"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3394;
+    "mod-count" = 3401;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -78,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 3861125148;
+                "file-mod-date" = 33981347916770;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 129110578392632;
+                "parent-mod-date" = 181779762652114;
             };
             "tile-type" = "file-tile";
         },
@@ -405,7 +405,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 131309601682052;
+                "parent-mod-date" = 277914015501124;
             };
             "tile-type" = "file-tile";
         },
@@ -490,25 +490,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3739703324;
+            GUID = 4279013467;
             "tile-data" =             {
-                book = {length = 648, bytes = 0x626f6f6b 88020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.ActivityMonitor";
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Activity%20Monitor.app/";
+                    "_CFURLString" = "file:///Applications/Steam.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Activity Monitor";
-                "file-mod-date" = 3860422397;
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3860422397;
+                "parent-mod-date" = 280791643727956;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2159019550;
+            GUID = 3441658892;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -521,12 +521,12 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 277914015501124;
+                "parent-mod-date" = 280791643727956;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2159019551;
+            GUID = 3441658893;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -539,7 +539,7 @@
                 "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 277914015501124;
+                "parent-mod-date" = 280791643727956;
             };
             "tile-type" = "file-tile";
         }
@@ -549,7 +549,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
