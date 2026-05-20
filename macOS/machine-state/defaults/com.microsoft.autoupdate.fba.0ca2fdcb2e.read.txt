@@ -1,12 +1,14 @@
 {
-    AppExitGraceful = 0;
+    AppExitGraceful = 1;
     CrashActionServiceUrlKey = "https://officeci.azurewebsites.net/api/";
     OSLocale = "en_KR";
     OSVersion = "26.5";
-    SessionId = "B1EECC91-C63A-481C-A163-C577051634AB";
+    SessionDuration = "41.3443009853363";
+    SessionId = "5DDE956E-8BFD-485D-90E0-804064F65A67";
     SessionLongBuildNumber = 26040910;
     SessionTelemetryVersion = "4.83.409.0";
     SessionVersion = "4.83";
+    TerminationDuration = "800906022.437762";
     UAEUnknownOnForceQuit = 1;
-    kAppBootTimeForUAE = "2026-05-18 23:46:40 +0000";
+    kAppBootTimeForUAE = "2026-05-19 17:53:01 +0000";
 }

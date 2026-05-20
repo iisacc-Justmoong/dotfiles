@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3418;
+    "mod-count" = 3419;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -490,24 +490,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1112306795;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.naver.Whale";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Whale.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "NAVER Whale";
-                "file-mod-date" = 3861102729;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2978202028;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -540,6 +522,24 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 280791643727956;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 883706013;
+            "tile-data" =             {
+                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.wacom.WacomCenter";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Wacom Center";
+                "file-mod-date" = 269882426236797;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3859896025;
             };
             "tile-type" = "file-tile";
         }
