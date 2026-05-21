@@ -9,22 +9,22 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-05-09 10:35:01 +0000",
             "2026-05-11 23:34:49 +0000",
             "2026-05-13 17:44:26 +0000",
-            "2026-05-18 01:40:49 +0000"
+            "2026-05-18 01:40:49 +0000",
+            "2026-05-20 11:47:02 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-05-16 13:46:58 +0000",
             "2026-05-17 01:40:57 +0000",
             "2026-05-18 01:35:44 +0000",
-            "2026-05-19 01:41:06 +0000"
+            "2026-05-19 01:41:06 +0000",
+            "2026-05-20 01:35:36 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
-            "2026-05-09 10:35:01 +0000",
             "2026-05-11 23:34:49 +0000",
             "2026-05-13 17:44:26 +0000",
-            "2026-05-18 01:40:49 +0000"
+            "2026-05-18 01:40:49 +0000",
+            "2026-05-20 11:47:02 +0000"
         );
     };
     StoreCurrentBootTime = "800840702.227989";
@@ -113,7 +113,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -154,21 +154,21 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-18 01:40:50 +0000";
+                Date = "2026-05-20 11:47:03 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-19 01:41:06 +0000";
+                Date = "2026-05-20 01:35:37 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.MagnifierAsset" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-05-18 01:40:49 +0000";
+                Date = "2026-05-20 11:47:02 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
