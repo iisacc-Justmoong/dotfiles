@@ -1,8 +1,8 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-05-20 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0x658c9aee 74a9433e ba5dae51 a06e4240 ... 65799021 b3cc261a };
+    "BundleIdRedactor.lastRolloverDay" = "2026-05-23 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xba21ed09 17ba0923 2eb3b67f 4ffaa59a ... b2fb9b5e ef09235a };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.apple.iCal",
-        "com.apple.MobileSMS"
+        "com.apple.MobileSMS",
+        "com.openai.codex"
     );
 }

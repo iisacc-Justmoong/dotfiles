@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "800840805.6936229"
+        "801263074.972638"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3421;
+    "mod-count" = 3465;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
+                "parent-mod-date" = 274727150317702;
             };
             "tile-type" = "file-tile";
         },
@@ -50,6 +50,150 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 2152616459;
+            "tile-data" =             {
+                book = {length = 648, bytes = 0x626f6f6b 88020000 00000510 40000000 ... 4c010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.intellij";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/IntelliJ%20IDEA.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "IntelliJ IDEA";
+                "file-mod-date" = 3859556640;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616460;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.rider";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Rider.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Rider;
+                "file-mod-date" = 3859547662;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616457;
+            "tile-data" =             {
+                book = {length = 616, bytes = 0x626f6f6b 68020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.CLion";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Utilities/CLion.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = CLion;
+                "file-mod-date" = 3859556640;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 249245109348986;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616462;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.goland";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/GoLand.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = GoLand;
+                "file-mod-date" = 3859556640;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616465;
+            "tile-data" =             {
+                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
+                "bundle-identifier" = "com.jetbrains.WebStorm";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/WebStorm.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = WebStorm;
+                "file-mod-date" = 3859560240;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 274727150317702;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616461;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.pycharm";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/PyCharm.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = PyCharm;
+                "file-mod-date" = 3859560240;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616463;
+            "tile-data" =             {
+                book = {length = 644, bytes = 0x626f6f6b 84020000 00000510 40000000 ... 48010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.dataspell";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/DataSpell.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = DataSpell;
+                "file-mod-date" = 3859772640;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616464;
+            "tile-data" =             {
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                "bundle-identifier" = "com.jetbrains.datagrip";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/DataGrip.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = DataGrip;
+                "file-mod-date" = 3859560240;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 171188373712971;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 3883099824;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -63,7 +207,7 @@
                 "file-mod-date" = 3859294680;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
+                "parent-mod-date" = 190610215723428;
             };
             "tile-type" = "file-tile";
         },
@@ -81,7 +225,7 @@
                 "file-mod-date" = 198869437523232;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
+                "parent-mod-date" = 274727150317702;
             };
             "tile-type" = "file-tile";
         },
@@ -135,7 +279,7 @@
                 "file-mod-date" = 3858538715;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
+                "parent-mod-date" = 216895415746305;
             };
             "tile-type" = "file-tile";
         },
@@ -207,7 +351,7 @@
                 "file-mod-date" = 3858976010;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 154158827451259;
+                "parent-mod-date" = 190610215723428;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +405,25 @@
                 "file-mod-date" = 10930258143708;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 254635292944521;
+                "parent-mod-date" = 195734111896163;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2152616452;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.literatureandlatte.scrivener3";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Scrivener.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Scrivener;
+                "file-mod-date" = 183291591538959;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 23054951659804;
             };
             "tile-type" = "file-tile";
         },
@@ -369,7 +531,7 @@
                 "file-mod-date" = 3860528425;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 190610215723428;
+                "parent-mod-date" = 274727150317702;
             };
             "tile-type" = "file-tile";
         },
@@ -405,7 +567,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 190610215723428;
+                "parent-mod-date" = 242484830907808;
             };
             "tile-type" = "file-tile";
         },
@@ -490,7 +652,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2978202028;
+            GUID = 1296581662;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.valvesoftware.steam";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Steam.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Steam;
+                "file-mod-date" = 3855341262;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 162405165745655;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 371491433;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -503,12 +683,12 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
+                "parent-mod-date" = 211866009131270;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2978202029;
+            GUID = 371491434;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -521,25 +701,7 @@
                 "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 280791643727956;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 883706013;
-            "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 269882426236797;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3859896025;
+                "parent-mod-date" = 211866009131270;
             };
             "tile-type" = "file-tile";
         }
