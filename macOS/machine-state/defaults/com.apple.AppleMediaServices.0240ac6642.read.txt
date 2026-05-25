@@ -2,7 +2,7 @@
     AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
     AMSDeviceBiometricsState = 2;
     AMSDidSetUpServerDataCache = 1;
-    AMSFPCertExpiration = "2026-05-24 11:16:23 +0000";
+    AMSFPCertExpiration = "2026-05-25 23:45:11 +0000";
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
@@ -23,7 +23,6 @@
     AMSMigratedStorageToDefaultsForNonAMSInternal = 1;
     AMSMigratedToNewAccountStore = 1;
     AMSOnStartupURLsForDeletion =     (
-        "file:///Users/ymy/Library/AppleMediaServices/Accounts/.DS_Store"
     );
     AMSRegulatoryEligibilityAccounts =     (
         "39A454FB-CD00-4267-86FD-089AAE1162E2"
@@ -39,7 +38,7 @@
         result = 0;
     };
     "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
-        date = "2026-05-23 10:56:54 +0000";
+        date = "2026-05-24 11:05:56 +0000";
         duration = 86400000;
         result = 0;
     };
