@@ -200,16 +200,78 @@
                 Date = "2026-05-25 08:45:02";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-05-25 09:01:06";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
+    closeViewCustomHotkeyKey =     {
+        "AX_ZOOM_FREEZE_PANNING" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 0;
+        };
+        "AX_ZOOM_MONITOR_SELECTION" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 0;
+        };
+        "AX_ZOOM_TEMP_DETACH" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 1310720;
+        };
+        "AX_ZOOM_TEMP_TOGGLE" =         {
+            charCode = 65535;
+            keyCode = 65535;
+            modifiers = 786432;
+        };
+        "AX_ZOOM_TOGGLE_FS_AND_PIP" =         {
+            charCode = 102;
+            keyCode = 3;
+            modifiers = 1572864;
+        };
+    };
+    closeViewDesiredZoomFactor = "2.606516719250614";
     closeViewHotkeysEnabled = 0;
+    closeViewPanningMode = 2;
+    closeViewScrollWheelToggle = 1;
+    closeViewSplitScreenRatio = "0.2";
+    closeViewWindowPosition = {length = 252, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c2 };
+    closeViewWindowSize = {length = 250, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c0 };
     closeViewZoomDisplayID = 0;
     closeViewZoomFactor = 1;
     closeViewZoomFactorBeforeTermination = 1;
+    closeViewZoomMode = 1;
+    closeViewZoomScreenShareEnabledKey = 0;
+    closeViewZoomedIn = 0;
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "5729.14453125";
+            Y = 1440;
+        };
+        1 =         {
+            X = "6469.4140625";
+            Y = "549.90234375";
+        };
+        3 =         {
+            X = "2678.12890625";
+            Y = "978.98046875";
+        };
+        4 =         {
+            X = "425.06640625";
+            Y = "1261.71875";
+        };
+    };
+    hoverColorEnabled = 0;
+    hoverTextEnabled = 0;
+    hoverTypingEnabled = 0;
     login = 0;
     sessionChange = 0;
 }

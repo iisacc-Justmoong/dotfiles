@@ -6,13 +6,17 @@
     <string>ai.openclaw.gateway</string>
     
     <key>Comment</key>
-    <string>OpenClaw Gateway (v2026.5.7)</string>
+    <string>OpenClaw Gateway (v2026.5.22)</string>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
+    <key>ExitTimeOut</key>
+    <integer>20</integer>
+    <key>ProcessType</key>
+    <string>Interactive</string>
     <key>ThrottleInterval</key>
-    <integer>1</integer>
+    <integer>10</integer>
     <key>Umask</key>
     <integer>63</integer>
     <key>ProgramArguments</key>
@@ -28,9 +32,11 @@
     
     <key>WorkingDirectory</key>
     <string>/Users/ymy/.openclaw</string>
+    <key>StandardInPath</key>
+    <string>/dev/null</string>
     <key>StandardOutPath</key>
-    <string>/Users/ymy/.openclaw/logs/gateway.log</string>
+    <string>/Users/ymy/Library/Logs/openclaw/gateway.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ymy/.openclaw/logs/gateway.err.log</string>
+    <string>/dev/null</string>
   </dict>
 </plist>

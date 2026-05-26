@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3470;
+    "mod-count" = 3476;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 211866009131270;
+                "parent-mod-date" = 59188511860146;
             };
             "tile-type" = "file-tile";
         },
@@ -207,7 +207,7 @@
                 "file-mod-date" = 3859294680;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 190610215723428;
+                "parent-mod-date" = 59188511860146;
             };
             "tile-type" = "file-tile";
         },
@@ -405,7 +405,7 @@
                 "file-mod-date" = 10930258143708;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 195734111896163;
+                "parent-mod-date" = 99702938364973;
             };
             "tile-type" = "file-tile";
         },
@@ -567,7 +567,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 242484830907808;
+                "parent-mod-date" = 211866009131270;
             };
             "tile-type" = "file-tile";
         },
@@ -582,10 +582,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "iPhone Mirroring";
-                "file-mod-date" = 3858307857;
+                "file-mod-date" = 3860422397;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3858307857;
+                "parent-mod-date" = 3860422397;
             };
             "tile-type" = "file-tile";
         },
@@ -652,24 +652,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 371491433;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 149842385282655;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 211866009131270;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 371491434;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
@@ -702,6 +684,24 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 3859896025;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2734116856;
+            "tile-data" =             {
+                book = {length = 644, bytes = 0x626f6f6b 84020000 00000510 40000000 ... 48010000 00000000 };
+                "bundle-identifier" = "com.bambulab.bambu-studio";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/BambuStudio.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = BambuStudio;
+                "file-mod-date" = 3859259518;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 59188511860146;
             };
             "tile-type" = "file-tile";
         }
