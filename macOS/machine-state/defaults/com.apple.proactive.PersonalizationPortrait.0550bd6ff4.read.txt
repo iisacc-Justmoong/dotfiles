@@ -1,9 +1,10 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-05-25 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xaa88c5d7 05932f5e bb0fcdba ce31bb25 ... bb257a31 73ddb37c };
+    "BundleIdRedactor.lastRolloverDay" = "2026-05-26 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x34875b6f 39640243 68834908 9b0b4795 ... f9c79334 34da5c4f };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.openai.codex",
         "com.apple.mail",
-        "com.microsoft.VSCode"
+        "com.openai.codex",
+        "com.apple.iCal",
+        "com.apple.MobileSMS"
     );
 }
