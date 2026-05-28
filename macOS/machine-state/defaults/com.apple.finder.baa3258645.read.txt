@@ -174,7 +174,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1166, 88}, {844, 776}}";
+            WindowBounds = "{{80, 59}, {844, 776}}";
         };
     };
     CopyProgressWindowLocation = "{760, 252}";
@@ -672,6 +672,7 @@
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;

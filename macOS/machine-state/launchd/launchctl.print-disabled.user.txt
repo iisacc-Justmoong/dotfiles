@@ -1,5 +1,6 @@
 
 	disabled services = {
+		"com.microsoft.teams2.agent" => enabled
 		"us.electronic.mas.macdroid.launcher" => enabled
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
 		"com.apple.Siri.agent" => disabled

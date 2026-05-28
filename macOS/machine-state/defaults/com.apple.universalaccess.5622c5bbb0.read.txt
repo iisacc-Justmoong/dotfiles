@@ -210,6 +210,11 @@
                 Date = "2026-05-26 08:11:29";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-05-27 09:14:25";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -240,7 +245,7 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "2.606516719250614";
+    closeViewDesiredZoomFactor = "6.806033270599626";
     closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
@@ -258,24 +263,24 @@
     );
     displaysLastCursorLocation =     {
         0 =         {
-            X = "1911.1328125";
+            X = "6018.05859375";
             Y = 1440;
         };
         1 =         {
-            X = "6817.13671875";
-            Y = "389.9375";
+            X = "5791.97265625";
+            Y = "1370.91796875";
         };
         3 =         {
-            X = "3082.97265625";
-            Y = "675.7890625";
+            X = "3985.7890625";
+            Y = "116.5625";
         };
         4 =         {
-            X = "1495.734375";
-            Y = "694.51953125";
+            X = "1610.5";
+            Y = "667.43359375";
         };
         5 =         {
-            X = "-521.15234375";
-            Y = "791.38671875";
+            X = "-717.0625";
+            Y = "910.3046875";
         };
     };
     hoverColorEnabled = 0;
