@@ -2,10 +2,10 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1779666272;
+    CKStartupTime = 1780035472;
     CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
     CloudKitAccountInfoCache =     {
-        28e16dbbb6a3c76c95a121054005686651232971a7b3bcdda92996c5cbf5e047 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+        28e16dbbb6a3c76c95a121054005686651232971a7b3bcdda92996c5cbf5e047 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     CloudKitAccountStatus =     {
         "6FD043A0-7295-41C4-B9C7-812A91491C63" = 1;
@@ -22,7 +22,7 @@
     SubscriptionIDsLastModifiedDate = "800973679.4405071";
     ThrottlingPolicyCurrentBatchCount = 0;
     ThrottlingPolicyCurrentLevelIndex = 0;
-    ThrottlingPolicyStartTime = "801563211.496718";
+    ThrottlingPolicyStartTime = "801649858.322356";
     accountsListCategorizedCountsCache = {length = 1311, bytes = 0x62706c69 73743030 d2010203 195e7265 ... 00000000 000004cb };
     analyticsActivityLastExecutionDate = "2026-03-26 23:43:18 +0000";
     cloudKitSchemaCatchUpSyncSchedulingState = 0;
@@ -31,7 +31,7 @@
     hashtagLabelsInCustomSmartListFilterCache = {length = 1049, bytes = 0x62706c69 73743030 d2010203 04566c61 ... 00000000 000003eb };
     imageDeduplicationLastExecutionDate = "2026-01-20 15:12:29 +0000";
     isDatabaseMigrated = 1;
-    lastCloudConfigurationDownload = "2026-05-27 09:37:27 +0000";
+    lastCloudConfigurationDownload = "2026-05-28 09:41:46 +0000";
     lastDatabaseMigrationSystemBuildVersion = 25C56;
     lastDismissedNotificationsPermissionInlineRequestDate = "2026-05-11 07:33:16 +0000";
     lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";

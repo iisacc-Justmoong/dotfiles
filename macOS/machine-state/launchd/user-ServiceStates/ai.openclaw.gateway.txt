@@ -17,10 +17,11 @@ gui/501/ai.openclaw.gateway = {
 
 	working directory = /Users/ymy/.openclaw
 
-	stdout path = /Users/ymy/.openclaw/logs/gateway.log
-	stderr path = /Users/ymy/.openclaw/logs/gateway.err.log
+	stdin path = /dev/null
+	stdout path = /Users/ymy/Library/Logs/openclaw/gateway.log
+	stderr path = /dev/null
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.r0gZHSlT3G/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.15VwYuOQyc/Listeners
 	}
 
 	default environment = {
@@ -32,15 +33,15 @@ gui/501/ai.openclaw.gateway = {
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100023]
+	domain = gui/501 [100024]
 	umask = 77
-	asid = 100023
-	minimum runtime = 1
-	exit timeout = 5
+	asid = 100024
+	minimum runtime = 10
+	exit timeout = 20
 	runs = 1
-	pid = 727
+	pid = 836
 	immediate reason = speculative
-	forks = 34874
+	forks = 30
 	execs = 3
 	initialized = 1
 	trampolined = 1
@@ -52,7 +53,7 @@ gui/501/ai.openclaw.gateway = {
 	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 832
+		ID = 958
 		type = resource
 		state = active
 		active count = 1
@@ -60,14 +61,14 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 833
+		ID = 959
 		type = jetsam
 		state = active
 		active count = 1
 		name = ai.openclaw.gateway
 	}
 
-	spawn type = daemon (3)
+	spawn type = interactive (4)
 	jetsam priority = 40
 	jetsam memory limit (active) = (unlimited)
 	jetsam memory limit (inactive) = (unlimited)

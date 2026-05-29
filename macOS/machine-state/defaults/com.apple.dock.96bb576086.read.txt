@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "801359108.806065"
+        "801728359.209859"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3488;
+    "mod-count" = 3500;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 59188511860146;
+                "parent-mod-date" = 128049722722199;
             };
             "tile-type" = "file-tile";
         },
@@ -312,10 +312,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "DaVinci Resolve";
-                "file-mod-date" = 30811660867529;
+                "file-mod-date" = 262005456215509;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 261554483877819;
+                "parent-mod-date" = 72331110489543;
             };
             "tile-type" = "file-tile";
         },
@@ -652,25 +652,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3600480682;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.microsoft.teams2";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Microsoft%20Teams.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Microsoft Teams";
-                "file-mod-date" = 3861363240;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 84159451828343;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3600480683;
+            GUID = 3600480688;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.naver.Whale";
@@ -683,25 +665,43 @@
                 "file-mod-date" = 3861102729;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 10724101056458;
+                "parent-mod-date" = 145431455426704;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3600480684;
+            GUID = 2822942708;
             "tile-data" =             {
-                book = {length = 604, bytes = 0x626f6f6b 5c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.QuickTimePlayerX";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/QuickTime%20Player.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "QuickTime Player";
-                "file-mod-date" = 3860422397;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3860422397;
+                "parent-mod-date" = 253604501767549;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 2822942709;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 253604501767549;
             };
             "tile-type" = "file-tile";
         }
