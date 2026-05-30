@@ -64,6 +64,8 @@
                 };
             };
             "rd/" =             {
+                "251/" =                 {
+                };
                 "253/" =                 {
                 };
                 "261/" =                 {
@@ -96,6 +98,9 @@
                 "assistant/" =                 {
                 };
             };
+        };
+        "software.aws.toolkit.jetbrains.settings.DefaultAwsSettings/" =         {
+            "CLIENT_ID" = "26221e1f-fbae-4861-ad77-436359386af8";
         };
     };
 }

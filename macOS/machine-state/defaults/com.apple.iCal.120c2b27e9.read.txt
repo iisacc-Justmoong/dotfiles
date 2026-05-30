@@ -10,7 +10,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-05-29 20:45:00 +0000";
+    CalFirstVisibleDate = "2026-05-31 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 1;
     CalendarSidebarView = 1;
@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-05-28 13:01:29 +0000";
+    LastSaveDate = "2026-05-29 08:31:25 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -34,7 +34,7 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "196 273 1224 1002 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "-2364 273 1224 1002 -2560 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -48,11 +48,11 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0xc9b3d7060>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [75855], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 801666085;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0xb09852a00>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [51349], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 801736274;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "D661E9E7-F4FC-4CB9-BB1D-2777AF868CE4";
-    defaultCalendarStoreUID = 4;
+    defaultCalendarID = "1CAC57CC-4D3A-4DCB-9ADD-5DA015FECC0F";
+    defaultCalendarStoreUID = 2;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
     "first shown minute of day" = 0;
@@ -62,7 +62,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "D661E9E7-F4FC-4CB9-BB1D-2777AF868CE4";
+    "last selected calendar list item" = "1CAC57CC-4D3A-4DCB-9ADD-5DA015FECC0F";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;
