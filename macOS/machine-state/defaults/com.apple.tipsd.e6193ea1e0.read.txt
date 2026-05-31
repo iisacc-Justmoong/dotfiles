@@ -12,7 +12,7 @@
         TPSNotificationCount = 10;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-05-29 12:09:22 +0000";
+    TPSContentUpdatedNotificationDate = "2026-05-30 05:02:06 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
         "CID-whats-new-macos-collection-15",
@@ -36,7 +36,7 @@
     TPSLastMajorVersion = 26;
     TPSLastNotificationDate = "2026-05-20 14:56:25 +0000";
     "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-05-29 15:21:24 +0000";
+    TPSTipKitProcessedDate = "2026-05-30 15:33:23 +0000";
     TPSTipsAppInstalled = 1;
     TPSWaitingToShowWelcomeNotification = 0;
     TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
@@ -63,7 +63,8 @@
         "doc9227d1b8-12e9-41f3-ba99-ddf1b2362f91",
         "doc564a76cc-63c8-49f7-b0f2-53b2b648a08b",
         "doc3b53c414-424b-4066-9f7c-41eb61afa109",
-        "doc8a13fb51-a50b-490f-923f-7c221778c75d"
+        "doc8a13fb51-a50b-490f-923f-7c221778c75d",
+        "docc2cffe8c-b5db-4565-a610-33c9ab277dad"
     );
-    TPSWidgetUpdateDate = "2026-05-29 06:23:31 +0000";
+    TPSWidgetUpdateDate = "2026-05-30 09:20:36 +0000";
 }
