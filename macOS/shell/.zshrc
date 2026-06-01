@@ -67,12 +67,37 @@ if [[ -f "$HOME/.zshrc.local" ]]; then
   source "$HOME/.zshrc.local"
 fi
 
-# LVRS Android SDK/NDK
-export ANDROID_SDK_ROOT="/Users/ymy/Library/Android/sdk"
-export ANDROID_HOME="/Users/ymy/Library/Android/sdk"
-export ANDROID_NDK_ROOT="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
-export ANDROID_NDK_HOME="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
-export CMAKE_ANDROID_NDK="/Users/ymy/Library/Android/sdk/ndk/29.0.14206865"
+# Android SDK/NDK
+_zshrc_path_prepend_unique() {
+  local dir_path="$1"
+  [[ -n "$dir_path" && -d "$dir_path" ]] || return 0
+
+  case ":$PATH:" in
+    *":$dir_path:"*) ;;
+    *) export PATH="$dir_path${PATH:+:$PATH}" ;;
+  esac
+}
+
+android_sdk_root="$HOME/Library/Android/sdk"
+if [[ -d "$android_sdk_root" ]]; then
+  export ANDROID_SDK_ROOT="$android_sdk_root"
+  export ANDROID_HOME="$android_sdk_root"
+
+  _zshrc_path_prepend_unique "$ANDROID_HOME/platform-tools"
+  _zshrc_path_prepend_unique "$ANDROID_HOME/cmdline-tools/latest/bin"
+  _zshrc_path_prepend_unique "$ANDROID_HOME/emulator"
+
+  typeset -a android_ndk_candidates
+  android_ndk_candidates=( "$ANDROID_HOME"/ndk/*(Nn-/) )
+  if (( ${#android_ndk_candidates[@]} )); then
+    export ANDROID_NDK_ROOT="${ANDROID_NDK_ROOT:-${android_ndk_candidates[-1]}}"
+    export ANDROID_NDK_HOME="${ANDROID_NDK_HOME:-$ANDROID_NDK_ROOT}"
+    export CMAKE_ANDROID_NDK="${CMAKE_ANDROID_NDK:-$ANDROID_NDK_ROOT}"
+  fi
+  unset android_ndk_candidates
+fi
+unset android_sdk_root
+unset -f _zshrc_path_prepend_unique
 
 # Emscripten SDK
 export EMSDK="$HOME/emsdk"
@@ -85,8 +110,3 @@ fi
 if [[ -r "$HOME/.openclaw/completions/openclaw.zsh" ]]; then
   source "$HOME/.openclaw/completions/openclaw.zsh"
 fi
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/ymy/.lmstudio/bin"
-# End of LM Studio CLI section
-

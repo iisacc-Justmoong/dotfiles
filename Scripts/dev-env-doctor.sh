@@ -55,7 +55,7 @@ for shell_file in .zshenv .zprofile .zshrc .zlogin .profile; do
 done
 
 printf '\n=== Core Toolchain Availability ===\n'
-for command_name in brew git gh python3 pip3 node npm go cargo cmake ninja qmake qtpaths; do
+for command_name in brew git gh dotnet python3 pip3 node npm go cargo cmake ninja qmake qtpaths; do
   if command -v "$command_name" >/dev/null 2>&1; then
     ok "$command_name: $(command -v "$command_name")"
   else
@@ -105,7 +105,7 @@ fi
 printf '\n=== Zsh Environment Snapshot ===\n'
 if command -v zsh >/dev/null 2>&1; then
   env -i HOME="$HOME" PATH="/usr/bin:/bin:/usr/sbin:/sbin" SHELL="$(command -v zsh)" \
-    "$(command -v zsh)" -c 'printf "QT_PREFIX=%s\nLVRS_PREFIX=%s\nJAVA_HOME=%s\nCMAKE_PREFIX_PATH=%s\n" "$QT_PREFIX" "$LVRS_PREFIX" "$JAVA_HOME" "$CMAKE_PREFIX_PATH"'
+    "$(command -v zsh)" -lc 'printf "QT_PREFIX=%s\nLVRS_PREFIX=%s\nLVRS_HOST_PREFIX=%s\nJAVA_HOME=%s\nCMAKE_PREFIX_PATH=%s\nQML2_IMPORT_PATH=%s\nQT_QML_IMPORT_PATH=%s\nDOTNET=%s\n" "$QT_PREFIX" "$LVRS_PREFIX" "$LVRS_HOST_PREFIX" "$JAVA_HOME" "$CMAKE_PREFIX_PATH" "$QML2_IMPORT_PATH" "$QT_QML_IMPORT_PATH" "$(command -v dotnet 2>/dev/null || true)"'
   ok "zsh clean environment probe completed"
 else
   fail "zsh is not available"

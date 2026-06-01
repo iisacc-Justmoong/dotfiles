@@ -1,17 +1,23 @@
 #!/bin/sh
 
-[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
-[ -d "$HOME/.local/sbin" ] && PATH="$HOME/.local/sbin:$PATH"
-[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+path_prepend_if_dir() {
+  [ -n "$1" ] && [ -d "$1" ] || return 0
+
+  case ":$PATH:" in
+    *:"$1":*) ;;
+    *) PATH="$1${PATH:+:$PATH}" ;;
+  esac
+}
+
+path_prepend_if_dir "$HOME/.local/bin"
+path_prepend_if_dir "$HOME/.local/sbin"
+path_prepend_if_dir "$HOME/bin"
+path_prepend_if_dir "$HOME/.dotnet"
+path_prepend_if_dir "$HOME/.dotnet/tools"
+path_prepend_if_dir "$HOME/.lmstudio/bin"
 
 [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 [ -f "$HOME/.local/bin/env" ] && . "$HOME/.local/bin/env"
 
-[ -d "$HOME/.lmstudio/bin" ] && PATH="$PATH:$HOME/.lmstudio/bin"
-
 export PATH
-
-# Added by LM Studio CLI (lms)
-export PATH="$PATH:/Users/ymy/.lmstudio/bin"
-# End of LM Studio CLI section
-
+unset -f path_prepend_if_dir 2>/dev/null || true

@@ -24,6 +24,8 @@ for base_path in \
   "$HOME/bin" \
   "$HOME/.cargo/bin" \
   "$HOME/go/bin" \
+  "$HOME/.dotnet" \
+  "$HOME/.dotnet/tools" \
   "$HOME/.lmstudio/bin"; do
   _pathvar_prepend_unique PATH "$base_path"
 done
@@ -64,9 +66,6 @@ if [[ -n "${JAVA_HOME:-}" && -d "$JAVA_HOME" ]]; then
   _pathvar_prepend_unique PATH "$JAVA_HOME/bin"
 fi
 
-export UIFRAMEWORK_PREFIX="${UIFRAMEWORK_PREFIX:-$HOME/.local/UIFramework}"
-_pathvar_prepend_unique CMAKE_PREFIX_PATH "$UIFRAMEWORK_PREFIX"
-
 if [[ -z "${QT_PREFIX:-}" || ! -d "${QT_PREFIX:-}" ]]; then
   typeset -a qt_installer_candidates
   qt_installer_candidates=( "$HOME"/Qt/*/macos(Nn-/) )
@@ -98,8 +97,32 @@ if [[ -n "${QT_PREFIX:-}" && -d "$QT_PREFIX" ]]; then
   _pathvar_prepend_unique QT_PLUGIN_PATH "$QT_PREFIX/lib/qt6/plugins"
 fi
 
+_configure_local_package_prefix() {
+  typeset package_prefix="$1"
+
+  [[ -n "$package_prefix" && -d "$package_prefix" ]] || return 0
+
+  if [[ -d "$package_prefix/include" || -d "$package_prefix/lib" || -d "$package_prefix/lib/cmake" ]]; then
+    _pathvar_prepend_unique CMAKE_PREFIX_PATH "$package_prefix"
+    _pathvar_prepend_unique CMAKE_INCLUDE_PATH "$package_prefix/include"
+    _pathvar_prepend_unique CMAKE_LIBRARY_PATH "$package_prefix/lib"
+    _pathvar_prepend_unique CPATH "$package_prefix/include"
+    _pathvar_prepend_unique LIBRARY_PATH "$package_prefix/lib"
+    _pathvar_prepend_unique DYLD_LIBRARY_PATH "$package_prefix/lib"
+  fi
+}
+
+for local_package_prefix in \
+  "$HOME/.local/iiPaintEngine" \
+  "$HOME/.local/iiXml" \
+  "$HOME/.local/iiHtmlBlock"; do
+  _configure_local_package_prefix "$local_package_prefix"
+  _configure_local_package_prefix "$local_package_prefix/platforms/macos"
+done
+
 if [[ -z "${LVRS_PREFIX:-}" || ! -d "${LVRS_PREFIX:-}" ]]; then
   for lvrs_candidate in \
+    "$HOME/.local/LVRS/platforms/macos" \
     "$HOME/.local/LVRS" \
     "$HOME/.local/lvrs" \
     "$HOME/Developer/LVRS/build-install" \
@@ -112,6 +135,15 @@ if [[ -z "${LVRS_PREFIX:-}" || ! -d "${LVRS_PREFIX:-}" ]]; then
 fi
 
 if [[ -n "${LVRS_PREFIX:-}" && -d "$LVRS_PREFIX" ]]; then
+  if [[ "$LVRS_PREFIX" == */platforms/* ]]; then
+    export LVRS_HOST_PREFIX="${LVRS_HOST_PREFIX:-$LVRS_PREFIX}"
+    export LVRS_HOST_PLATFORM="${LVRS_HOST_PLATFORM:-${LVRS_PREFIX##*/}}"
+    export LVRS_PLATFORMS_ROOT="${LVRS_PLATFORMS_ROOT:-${LVRS_PREFIX%/*}}"
+    export LVRS_ROOT="${LVRS_ROOT:-${LVRS_PLATFORMS_ROOT%/*}}"
+    _pathvar_prepend_unique CMAKE_PREFIX_PATH "$LVRS_ROOT"
+  fi
+
+  _pathvar_prepend_unique PATH "$LVRS_PREFIX/bin"
   _pathvar_prepend_unique CMAKE_PREFIX_PATH "$LVRS_PREFIX"
   _pathvar_prepend_unique CMAKE_INCLUDE_PATH "$LVRS_PREFIX/include"
   _pathvar_prepend_unique CMAKE_LIBRARY_PATH "$LVRS_PREFIX/lib"
@@ -124,8 +156,9 @@ if [[ -n "${LVRS_PREFIX:-}" && -d "$LVRS_PREFIX" ]]; then
   _pathvar_prepend_unique QT_PLUGIN_PATH "$LVRS_PREFIX/lib/qt6/plugins"
 fi
 
+unset -f _configure_local_package_prefix
 unset -f _pathvar_prepend_unique
-unset base_path brew_prefix_candidate jdk_candidate qt_fallback lvrs_candidate
+unset base_path brew_prefix_candidate jdk_candidate qt_fallback local_package_prefix lvrs_candidate
 if [[ -r "$HOME/.cargo/env" ]]; then
   . "$HOME/.cargo/env"
 fi
