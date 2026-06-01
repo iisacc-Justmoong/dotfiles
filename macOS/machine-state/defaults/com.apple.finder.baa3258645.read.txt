@@ -628,50 +628,51 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1024, bytes = 0x626f6f6b 00040000 00000510 40000000 ... 04000000 00000000 };
-            name = Test;
-        },
-                {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 868, bytes = 0x626f6f6b 64030000 00000510 40000000 ... 04000000 00000000 };
-            name = "12ba8bee-c00e-4e6c-b4a0-31a44ea6d2d5";
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = "4RtXPOy2M60vKmPQ-7M8oIB5QpdLTZrg4.wsnote";
         },
                 {
-            "file-bookmark" = {length = 800, bytes = 0x626f6f6b 20030000 00000510 40000000 ... 04000000 00000000 };
-            name = "ddf81ad1-613a-4a52-a06e-d682bffdd37c";
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = "5qylIIi6FEu2I5X3-5lJdg3Z4CQOx0Avf.wsnote";
         },
                 {
-            "file-bookmark" = {length = 732, bytes = 0x626f6f6b dc020000 00000510 40000000 ... 04000000 00000000 };
-            name = "Resolve Project Backups";
+            "file-bookmark" = {length = 1000, bytes = 0x626f6f6b e8030000 00000510 40000000 ... 04000000 00000000 };
+            name = "fGBZpPQni2EUSdSW-a7cN41mydTWlbLpD.wsnote";
+        },
+                {
+            "file-bookmark" = {length = 928, bytes = 0x626f6f6b a0030000 00000510 40000000 ... 04000000 00000000 };
+            name = "Library.wslibrary";
+        },
+                {
+            "file-bookmark" = {length = 876, bytes = 0x626f6f6b 6c030000 00000510 40000000 ... 04000000 00000000 };
+            name = "untitled.wscontents";
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
             "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Movies;
+            name = Music;
         },
                 {
-            "file-bookmark" = {length = 1112, bytes = 0x626f6f6b 58040000 00000510 40000000 ... 04000000 00000000 };
-            name = OrderSystem;
-        },
-                {
-            "file-bookmark" = {length = 984, bytes = 0x626f6f6b d8030000 00000510 40000000 ... 04000000 00000000 };
-            name = "AI_Video";
-        },
-                {
-            "file-bookmark" = {length = 472, bytes = 0x626f6f6b d8010000 00000510 40000000 ... 04000000 00000000 };
-            name = "Macintosh HD";
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            "file-bookmark" = {length = 1156, bytes = 0x626f6f6b 84040000 00000510 40000000 ... 04000000 00000000 };
+            name = database;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -885,10 +886,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{820, 466}, {920, 729}}";
+            WindowBounds = "{{826, 424}, {920, 492}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -928,7 +929,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{820, 466}, {920, 729}}";
+            WindowBounds = "{{826, 424}, {920, 492}}";
         };
     };
     "PreferencesWindow.LastSelection" = SDBR;

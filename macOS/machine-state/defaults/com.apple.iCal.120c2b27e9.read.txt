@@ -5,12 +5,12 @@
         "53F306EB-CB95-4FB8-B92B-671EC5370B2C",
         "C51CB5E9-E073-4F45-A65D-B54649635956"
     );
-    AllDayAreaHeight = 22;
+    AllDayAreaHeight = 44;
     BirthdayEventsGenerationAttemptsToResetKey = 0;
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-05-30 20:45:00 +0000";
+    CalFirstVisibleDate = "2026-05-31 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 1;
     CalendarSidebarView = 0;
@@ -24,17 +24,17 @@
             );
         };
     };
-    LastSaveDate = "2026-05-30 15:09:57 +0000";
+    LastSaveDate = "2026-05-31 22:57:36 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
-        "0.000000, 0.000000, 235.500000, 1002.000000, NO, NO",
-        "0.000000, 0.000000, 1224.000000, 1002.000000, NO, NO",
+        "0.000000, 0.000000, 235.500000, 1042.000000, NO, NO",
+        "0.000000, 0.000000, 1200.000000, 1042.000000, NO, NO",
         "1312.000000, 0.000000, 240.000000, 1050.000000, YES, NO"
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "644 380 1224 1002 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "1360 59 1200 1042 0 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -48,21 +48,22 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0xb09850360>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [59599], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 801839010;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0xb0903ca80>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [92015], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 801961044;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "D661E9E7-F4FC-4CB9-BB1D-2777AF868CE4";
+    defaultCalendarID = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
     "first shown minute of day" = 0;
     "iCal version" = 150994944;
+    icaluuid = "CE622E11-77C6-49C9-9650-08B1468124C9";
     kCalDBLastSpotLightIndexCalendarsVersion = 1;
     kCalDBLastSpotLightIndexVersion = 24;
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "D661E9E7-F4FC-4CB9-BB1D-2777AF868CE4";
+    "last selected calendar list item" = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

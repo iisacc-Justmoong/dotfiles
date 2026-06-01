@@ -235,6 +235,16 @@
                 Date = "2026-05-30 15:34:35";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-05-31 15:34:59";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-01 11:57:54";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -265,7 +275,7 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "6.806033270599626";
+    closeViewDesiredZoomFactor = "12.92142069744766";
     closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
@@ -282,21 +292,9 @@
         NSGlobalDomain
     );
     displaysLastCursorLocation =     {
-        0 =         {
-            X = "-1060.78125";
-            Y = 1440;
-        };
-        2 =         {
-            X = "270.52734375";
-            Y = "993.8359375";
-        };
-        3 =         {
-            X = "-1095.35546875";
-            Y = "1264.80078125";
-        };
         4 =         {
-            X = "3917.234375";
-            Y = "1130.8203125";
+            X = "649.61328125";
+            Y = "333.1484375";
         };
     };
     hoverColorEnabled = 0;

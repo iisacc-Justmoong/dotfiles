@@ -1,9 +1,8 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-05-30 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0x18fa6e19 e35c5399 925f7d4d 94cd2a50 ... 183a185e 7840b4d1 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-06-01 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xa61fa945 d339b81f 2c789d74 81b24f73 ... a638e5e3 2721b784 };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.apple.iCal",
-        "com.apple.mail",
-        "com.naver.Whale"
+        "com.kakao.KakaoTalkMac"
     );
 }
