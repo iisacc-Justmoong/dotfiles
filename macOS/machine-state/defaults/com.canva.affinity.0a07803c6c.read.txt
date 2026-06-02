@@ -1,4 +1,8 @@
 {
+    "7C4CC2E1-D695-422B-AD3B-326C60971BE7.east.studio.width" = 264;
+    "7C4CC2E1-D695-422B-AD3B-326C60971BE7.west.studio.width" = 264;
+    "831AAB2C-659F-4906-A8B1-8BA4544DB274.east.studio.width" = 264;
+    "831AAB2C-659F-4906-A8B1-8BA4544DB274.west.studio.width" = 264;
     AVDesktopPlaybackControlsControllerShowsDurationInsteadOfTimeRemainingDefaultsKey = 1;
     AddAdjustmentToSelectionAction = 0;
     AddFilterToSelectionAction = 0;
@@ -11,6 +15,7 @@
     AutoHideExtension = 0;
     AutoUndoRedoActions = 1;
     AutoUpdateInterval = 0;
+    AutoUpdateURL = "https://things.seriflabs.com/affinity-update-mac-retail-studiopro";
     BaselineGrid = 1;
     BrushTipSharingAction = 0;
     ColourFlyoutModel = WheelModel;
@@ -35,6 +40,7 @@
     DevelopLensProfileSelectionMode = 1;
     DevelopMapDefault = 2;
     DevelopOutputLinear = 0;
+    DevelopToneCurveMethod = 0;
     DockContextToolbar = 1;
     DuplicateSelectionFromImageNodeAction = 0;
     EffectOnVectorSelectionAction = 0;
@@ -54,12 +60,12 @@
     ModelSelected = 0;
     MonochromaticIconography = 1;
     NSFullScreenMenuItemEverywhere = 0;
-    NSNavLastUserSetHideExtensionButtonState = 1;
+    NSNavLastUserSetHideExtensionButtonState = 0;
     NSNavPanelExpandedSizeForOpenMode = "{880, 756}";
     NSNavPanelExpandedSizeForSaveMode = "{880, 721}";
     NSNavPanelExpandedStateForSaveMode = 1;
     NSNavPanelMediaBrowserTypeForOpenModeKey = 1;
-    NSOSPLastRootDirectory = {length = 1132, bytes = 0x626f6f6b 6c040000 00000510 40000000 ... 04000000 00000000 };
+    NSOSPLastRootDirectory = {length = 1164, bytes = 0x626f6f6b 8c040000 00000510 40000000 ... 58010000 00000000 };
     NSTreatUnknownArgumentsAsOpen = NO;
     OtherBrushOnVectorSelectionAction = 0;
     PaintOnNoSelectionAction = 0;
@@ -131,25 +137,25 @@
     ToolSizeDeltaIndex = 0;
     "com.canva.affinity.Brush.BasicSettings.Visible" = 1;
     "com.canva.affinity.CharacterPage.ControllerState" = {length = 50, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67676c72 67616f00 };
-    "com.canva.affinity.Colour.Advance" = 0;
-    "com.canva.affinity.DataMergeManager.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501001f00000000};
+    "com.canva.affinity.Colour.Advance" = 1;
+    "com.canva.affinity.DataMergeManager.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501002000000000};
     "com.canva.affinity.DocumentEditingSessionCount" = 10;
-    "com.canva.affinity.EPUBPage.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501001f00000000};
+    "com.canva.affinity.EPUBPage.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501002000000000};
     "com.canva.affinity.FieldsPage.ExpandedState" =     (
         0
     );
     "com.canva.affinity.Histogram.Advance" = 1;
-    "com.canva.affinity.IndexPage.ControllerState" = {length = 34, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 00000067 74706f00 };
+    "com.canva.affinity.IndexPage.ControllerState" = {length = 34, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 00000067 74706f00 };
     "com.canva.affinity.MouseWheelZoom" = 1;
-    "com.canva.affinity.NotesPage.ControllerState" = {length = 61, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 736f5047 6c755200 };
-    "com.canva.affinity.PagesPage.ControllerState" = {length = 44, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 0129746d 68730100 };
+    "com.canva.affinity.NotesPage.ControllerState" = {length = 61, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 736f5047 6c755200 };
+    "com.canva.affinity.PagesPage.ControllerState" = {length = 44, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 0129746d 68730100 };
     "com.canva.affinity.PagesPage.ExpandedState" =     {
         "_NS:113" = 1;
         "_NS:152" = 1;
         "_NS:30" = 0;
     };
-    "com.canva.affinity.ParagraphPage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67647072 67627400 };
-    "com.canva.affinity.PinningPage.ControllerState" = {length = 23, bytes = 0x00ff4b5302007473697501001f000000296b6e6c690100};
+    "com.canva.affinity.ParagraphPage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 67647072 67627400 };
+    "com.canva.affinity.PinningPage.ControllerState" = {length = 23, bytes = 0x00ff4b53020074736975010020000000296b6e6c690100};
     "com.canva.affinity.Preferences.FontSizeDelta" = 0;
     "com.canva.affinity.Preferences.HomeScreenItems" = {length = 255, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000c2 };
     "com.canva.affinity.Preferences.LoadXmpSidecarMetadata" = 1;
@@ -159,32 +165,31 @@
     "com.canva.affinity.PreferredUserDisplayName" = ymy;
     "com.canva.affinity.SchemaVersion" = 6;
     "com.canva.affinity.StatusBar.HiddenState" = 0;
-    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3780, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000b60 };
+    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7" = {length = 3151, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 0000097b };
     "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.east" = 0;
-    "com.canva.affinity.Studio.Data.1.7C4CC2E1-D695-422B-AD3B-326C60971BE7.com.canva.affinity.hide.west" = 0;
-    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 5301, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000ff1 };
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274" = {length = 4089, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000c49 };
     "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.east" = 0;
-    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.west" = 0;
+    "com.canva.affinity.Studio.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.com.canva.affinity.hide.west" = 1;
     "com.canva.affinity.Studio.Data.1.HideState" = 0;
     "com.canva.affinity.Studio.Preset.Data.1.831AAB2C-659F-4906-A8B1-8BA4544DB274.Painting" = {length = 4746, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000e42 };
-    "com.canva.affinity.TablePage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67707672 67676200 };
-    "com.canva.affinity.TagsPage.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501001f00000000};
-    "com.canva.affinity.TextFramePage.ControllerState" = {length = 68, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 67676272 67726300 };
-    "com.canva.affinity.TocPage.ControllerState" = {length = 40, bytes = 0x00ff4b53 02007473 69750100 1f000000 ... 61760100 00000100 };
-    "com.canva.affinity.export.panel.startupdir" = "/Volumes/Storage/static/Assets/Artwork";
+    "com.canva.affinity.TablePage.ControllerState" = {length = 66, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 67707672 67676200 };
+    "com.canva.affinity.TagsPage.ControllerState" = {length = 17, bytes = 0x00ff4b5302007473697501002000000000};
+    "com.canva.affinity.TextFramePage.ControllerState" = {length = 68, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 67676272 67726300 };
+    "com.canva.affinity.TocPage.ControllerState" = {length = 40, bytes = 0x00ff4b53 02007473 69750100 20000000 ... 61760100 00000100 };
+    "com.canva.affinity.export.panel.startupdir" = "/Volumes/Storage/Job/Smartstore/\\U1109\\U1161\\U11bc\\U1111\\U116e\\U11b7\\U1103\\U1173\\U11bc\\U1105\\U1169\\U11a8 \\U110b\\U1175\\U1106\\U1175\\U110c\\U1175\\U1111\\U1161\\U110b\\U1175\\U11af";
     "com.canva.affinity.exportcontrol.selectedformat.key" = PNG;
     "com.canva.affinity.favourites.fonts.names-migrated" = 1;
     "com.canva.affinity.homescreen.document.category.index" = 1;
     "com.canva.affinity.homescreen.document.item.index" = 1;
-    "com.canva.affinity.homescreen.frame" = "{{3286, 737}, {1098, 741}}";
-    "com.canva.affinity.opensave.panel.startupdir" = "file:/Volumes/Storage/Workspace/Assets/Artwork/Character/Neriel%20Heize";
+    "com.canva.affinity.homescreen.frame" = "{{3183, 288}, {1098, 741}}";
+    "com.canva.affinity.opensave.panel.startupdir" = "file:/Volumes/Storage/Job/Smartstore/%E1%84%89%E1%85%A1%E1%86%BC%E1%84%91%E1%85%AE%E1%86%B7%E1%84%83%E1%85%B3%E1%86%BC%E1%84%85%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%E1%84%91%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%AF";
     "com.canva.affinity.ourc.lastSessionExpiryTime" = "2026-04-09 16:38:50 +0000";
     "com.canva.affinity.ourc.lastSessionExpiryWarningTime" = "1970-01-01 00:00:00 +0000";
     "com.canva.affinity.recent.fonts.names-migrated" = 1;
     "com.canva.affinity.restoration.urls" =     (
     );
-    "com.canva.affinity.restore.mainwindow.frame" = {length = 269, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d3 };
-    "com.canva.affinity.tools.sub.frame" = "{{5234, 1368}, {48, 108}}";
+    "com.canva.affinity.restore.mainwindow.frame" = {length = 268, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000d2 };
+    "com.canva.affinity.tools.sub.frame" = "{{3785, 1026}, {48, 180}}";
     "com.canva.affinity.tools.sub.horizontal" = 0;
     "com.canva.affinity.tools.sub.visible" = 0;
     "com.canva.affinity.watchForCrash" = 0;

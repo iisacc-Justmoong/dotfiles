@@ -2,16 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-05-09 18:35:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-09 18:35:15";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-05-09 18:35:15";
                 Reason = Reset;
                 State = 0;
@@ -245,6 +235,21 @@
                 Date = "2026-06-01 11:57:54";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-06-01 12:13:28";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-02 12:13:56";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-02 18:57:02";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -292,9 +297,9 @@
         NSGlobalDomain
     );
     displaysLastCursorLocation =     {
-        4 =         {
-            X = "649.61328125";
-            Y = "333.1484375";
+        3 =         {
+            X = "361.64453125";
+            Y = "697.3515625";
         };
     };
     hoverColorEnabled = 0;

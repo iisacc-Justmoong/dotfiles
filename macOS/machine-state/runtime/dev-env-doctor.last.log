@@ -9,6 +9,7 @@
 [OK] brew: /opt/homebrew/bin/brew
 [OK] git: /opt/homebrew/bin/git
 [OK] gh: /opt/homebrew/bin/gh
+[WARN] dotnet is not available
 [OK] python3: /opt/homebrew/bin/python3
 [OK] pip3: /opt/homebrew/bin/pip3
 [OK] node: /opt/homebrew/bin/node
@@ -62,10 +63,14 @@ naver-whale
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=/Users/ymy/Qt/6.8.3/macos
-LVRS_PREFIX=
+LVRS_PREFIX=/Users/ymy/.local/LVRS/platforms/macos
+LVRS_HOST_PREFIX=/Users/ymy/.local/LVRS/platforms/macos
 JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
-CMAKE_PREFIX_PATH=/Users/ymy/Qt/6.8.3/macos
+CMAKE_PREFIX_PATH=/Users/ymy/.local/LVRS/platforms/macos:/Users/ymy/.local/LVRS:/Users/ymy/.local/iiHtmlBlock/platforms/macos:/Users/ymy/.local/iiHtmlBlock:/Users/ymy/.local/iiXml/platforms/macos:/Users/ymy/.local/iiXml:/Users/ymy/.local/iiPaintEngine/platforms/macos:/Users/ymy/.local/iiPaintEngine:/Users/ymy/Qt/6.8.3/macos
+QML2_IMPORT_PATH=/Users/ymy/.local/LVRS/platforms/macos/lib/qt6/qml:/Users/ymy/Qt/6.8.3/macos/qml
+QT_QML_IMPORT_PATH=/Users/ymy/.local/LVRS/platforms/macos/lib/qt6/qml:/Users/ymy/Qt/6.8.3/macos/qml
+DOTNET=/Users/ymy/.dotnet/dotnet
 [OK] zsh clean environment probe completed
 
 === Summary ===
-OK=17 WARN=4 FAIL=0
+OK=17 WARN=5 FAIL=0
