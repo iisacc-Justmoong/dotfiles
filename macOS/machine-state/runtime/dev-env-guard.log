@@ -14223,3 +14223,15 @@ mktemp: mkstemp failed on /var/folders/j3/5qyn3r610nsfxzwk8_q8w9gm0000gn/T//dock
 [OK] dev-env doctor ran (log: /Users/ymy/dotfiles/macOS/machine-state/runtime/dev-env-doctor.last.log)
 [OK] git ownership healthy
 === [2026-06-02 20:57:14] machine-env-guard end ===
+=== [2026-06-02 21:27:15] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-06-02
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-06-02 21:27:15] machine-env-guard end ===
+=== [2026-06-02 21:57:15] machine-env-guard start ===
+[OK] generated-file cleanup completed
+[INFO] daily backup already done today: 2026-06-02
+[INFO] doctor interval not reached
+[OK] git ownership healthy
+=== [2026-06-02 21:57:15] machine-env-guard end ===
