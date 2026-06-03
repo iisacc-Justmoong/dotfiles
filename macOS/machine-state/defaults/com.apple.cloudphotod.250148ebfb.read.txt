@@ -2,7 +2,7 @@
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1780394197;
+    CKStartupTime = 1780471592;
     "CPLEngineParameters-SystemLibrary" =     {
         clientLibraryBasePath = "/Users/ymy/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex";
         cloudLibraryResourceStoragePath = "/Users/ymy/Pictures/Photos Library.photoslibrary/resources/cpl/cloudsync.noindex/storage";
@@ -12,18 +12,17 @@
         options = 1053;
     };
     CloudKitAccountInfoCache =     {
-        e4c4c934f1d3bb556746df38854efc103d84c120d30e91bea0b9c863a87739dc = {length = 562, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c6 };
-        ee0090c7b71dfbccb59fdc25a5c1a6b852859fae5cab5c56fc2af34197ff6007 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        e4c4c934f1d3bb556746df38854efc103d84c120d30e91bea0b9c863a87739dc = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     "_CPLRegisteredTaskIdentifiers" =     (
         "com.apple.cloudphotod.sync.discretionary"
     );
     "_CPLUpgradeHistory-SystemLibrary" =     {
         lastCPLUpgradeDate = "2026-05-12 05:44:29 +0000";
-        lastOSBuildUpgradeDate = "2026-05-12 05:44:29 +0000";
+        lastOSBuildUpgradeDate = "2026-06-03 07:28:43 +0000";
         lastSeenCPLVersion = "CloudPhotoLibrary-851.0.102";
-        lastSeenOSBuildVersion = 25F71;
+        lastSeenOSBuildVersion = 25F80;
         previousCPLVersion = "CloudPhotoLibrary-841.0.101";
-        previousOSBuildVersion = 25E253;
+        previousOSBuildVersion = 25F71;
     };
 }

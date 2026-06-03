@@ -628,6 +628,10 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
             "file-bookmark" = {length = 1180, bytes = 0x626f6f6b 9c040000 00000510 40000000 ... 04000000 00000000 };
             name = "Sony WH-1000XM5 \\U1111\\U1173\\U1105\\U1175\\U1106\\U1175\\U110b\\U1165\\U11b7 \\U1102\\U1169\\U110b\\U1175\\U110c\\U1173 \\U110f\\U1162\\U11ab\\U1109\\U1173\\U11af\\U1105\\U1175\\U11bc \\U1112\\U1166\\U1103\\U1173\\U1111\\U1169\\U11ab";
         },
@@ -656,23 +660,18 @@
             name = Storage;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
             "file-bookmark" = {length = 1164, bytes = 0x626f6f6b 8c040000 00000510 40000000 ... 58010000 00000000 };
             name = "\\U1109\\U1161\\U11bc\\U1111\\U116e\\U11b7\\U1103\\U1173\\U11bc\\U1105\\U1169\\U11a8 \\U110b\\U1175\\U1106\\U1175\\U110c\\U1175\\U1111\\U1161\\U110b\\U1175\\U11af";
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;

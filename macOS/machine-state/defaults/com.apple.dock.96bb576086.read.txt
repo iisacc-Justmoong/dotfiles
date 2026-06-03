@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "802087029.0267839"
+        "802164559.1218179"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3538;
+    "mod-count" = 3542;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -207,7 +207,7 @@
                 "file-mod-date" = 135793549083937;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 126172822537416;
             };
             "tile-type" = "file-tile";
         },
@@ -634,7 +634,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 4134830960;
+            GUID = 2662866592;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.naver.Whale";
@@ -647,12 +647,12 @@
                 "file-mod-date" = 3861102729;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 62946609031000;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2662866589;
+            GUID = 1707294612;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -665,12 +665,12 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 35351444162568;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2662866590;
+            GUID = 1707294613;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -683,7 +683,7 @@
                 "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 35351444162568;
             };
             "tile-type" = "file-tile";
         }

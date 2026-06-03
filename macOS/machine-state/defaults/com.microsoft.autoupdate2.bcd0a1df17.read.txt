@@ -7,8 +7,8 @@
     };
     AppExitGraceful = 1;
     AppVersions =     {
-        "/Applications/Microsoft Excel.app" = "16.109.26052523";
-        "/Applications/Microsoft Teams.app" = "26120.3106.4725.800";
+        "/Applications/Microsoft Excel.app" = "16.109.26053122";
+        "/Applications/Microsoft Teams.app" = "26134.1610.4759.7759";
         "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app" = "4.83.26040910";
         "/Library/PrivilegedHelperTools/com.microsoft.office.licensingV2.helper" = "16.108.26050324";
     };
@@ -17,7 +17,7 @@
             "App Domain" = "com.microsoft.office";
             "Application ID" = XCEL2019;
             LCID = 1033;
-            "Last Updated Version" = "16.109.26052523";
+            "Last Updated Version" = "16.109.26053122";
         };
         "/Applications/Microsoft Teams.app" =         {
             "Application ID" = TEAMS21;
@@ -38,7 +38,7 @@
     ApplicationsForcedUpdateSchedule =     {
     };
     CrashActionServiceUrlKey = "https://officeci.azurewebsites.net/api/";
-    LastUpdate = "2026-06-02 02:16:22 +0000";
+    LastUpdate = "2026-06-02 23:33:21 +0000";
     OSLocale = "en_KR";
     OSVersion = "26.4";
     OptionalUpdatesDeferrals =     {
