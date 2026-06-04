@@ -2,11 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-05-10 16:04:49";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-05-10 16:20:47";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +245,11 @@
                 Date = "2026-06-03 16:29:09";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-06-03 16:44:04";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -296,6 +296,20 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    displaysLastCursorLocation =     {
+        3 =         {
+            X = "1282.33984375";
+            Y = "785.14453125";
+        };
+        4 =         {
+            X = "3307.82421875";
+            Y = "1018.4765625";
+        };
+        5 =         {
+            X = "-1149.13671875";
+            Y = "1017.0703125";
+        };
+    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;
