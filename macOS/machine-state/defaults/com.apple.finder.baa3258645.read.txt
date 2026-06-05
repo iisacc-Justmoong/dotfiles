@@ -200,6 +200,22 @@
     DownloadsFolderListViewSettingsVersion = 1;
     EmptyTrashProgressWindowLocation = "{789, 281}";
     "FK_AppCentricShowSidebar" = 1;
+    "FK_DefaultIconViewSettings" =     {
+        arrangeBy = name;
+        backgroundColorBlue = 1;
+        backgroundColorGreen = 1;
+        backgroundColorRed = 1;
+        backgroundType = 0;
+        gridOffsetX = 0;
+        gridOffsetY = 0;
+        gridSpacing = 54;
+        iconSize = 64;
+        labelOnBottom = 1;
+        showIconPreview = 1;
+        showItemInfo = 0;
+        textSize = 12;
+        viewOptionsVersion = 1;
+    };
     "FK_DefaultListViewSettingsV2" =     {
         calculateAllSizes = 0;
         columns =         (
@@ -290,7 +306,7 @@
         );
         iconSize = 16;
         showIconPreview = 1;
-        sortColumn = name;
+        sortColumn = dateModified;
         textSize = 13;
         useRelativeDates = 1;
         viewOptionsVersion = 1;
@@ -672,6 +688,7 @@
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
