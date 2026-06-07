@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3559;
+    "mod-count" = 3567;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 189678209223932;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3858630694;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 189678209223932;
             };
             "tile-type" = "file-tile";
         },
@@ -492,10 +492,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Music;
-                "file-mod-date" = 3860422397;
+                "file-mod-date" = 3862198622;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3860422397;
+                "parent-mod-date" = 3862198622;
             };
             "tile-type" = "file-tile";
         },
@@ -510,10 +510,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 3860528425;
+                "file-mod-date" = 194252349145138;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 146526672356642;
+                "parent-mod-date" = 189678209223932;
             };
             "tile-type" = "file-tile";
         },
@@ -634,7 +634,43 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 2836075655;
+            GUID = 4284964259;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 66412647114884;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 189678209223932;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4284964260;
+            "tile-data" =             {
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Pages";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Pages%20Creator%20Studio.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Pages;
+                "file-mod-date" = 67507863268766;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 189678209223932;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4284964261;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.MobileSMS";
@@ -648,42 +684,6 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 3862198622;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 737408680;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 149842385282655;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 189678209223932;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 737408681;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 189678209223932;
             };
             "tile-type" = "file-tile";
         }

@@ -10,13 +10,13 @@
     voiceFileUpload = 1;
     voiceFileUploadWingman = 0;
     voiceImageUpload = 0;
-    voiceImageUploadWingman = 0;
+    voiceImageUploadWingman = 1;
     voiceLiveCamera = 0;
     voiceLiveCameraWingman = 0;
     voiceScreenSharing = 0;
     voiceScreenSharingWingman = 0;
     voiceTextUpload = 1;
-    voiceTextUploadWingman = 0;
+    voiceTextUploadWingman = 1;
     whisperKillswitch = 0;
     workspaceShareLinks = 0;
 }
