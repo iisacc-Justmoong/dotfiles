@@ -12,7 +12,7 @@
         TPSNotificationCount = 10;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-06-07 07:20:57 +0000";
+    TPSContentUpdatedNotificationDate = "2026-06-08 01:59:23 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
         "VideoReactionTip-com.apple.Safari",
@@ -37,7 +37,7 @@
     TPSLastMajorVersion = 26;
     TPSLastNotificationDate = "2026-05-20 14:56:25 +0000";
     "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-06-07 10:28:55 +0000";
+    TPSTipKitProcessedDate = "2026-06-08 13:48:51 +0000";
     TPSTipsAppInstalled = 1;
     TPSWaitingToShowWelcomeNotification = 0;
     TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
@@ -45,7 +45,8 @@
     TPSWelcomeNotificationStartDate = "2026-01-17 09:01:37 +0000";
     TPSWelcomeNotificationViewedVersion = 26;
     TPSWidgetShownTips =     (
-        "doc0be4043d-0940-4c8d-b7b6-5e2f3df0e1af"
+        "doc0be4043d-0940-4c8d-b7b6-5e2f3df0e1af",
+        "doc85f21202-4720-4708-b2fc-8a6d4d70c0c3"
     );
-    TPSWidgetUpdateDate = "2026-06-06 22:39:30 +0000";
+    TPSWidgetUpdateDate = "2026-06-07 22:51:18 +0000";
 }
