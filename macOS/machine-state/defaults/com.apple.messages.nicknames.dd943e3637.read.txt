@@ -1,12 +1,13 @@
 {
-    IMDNicknameHashCalculationVersion = 1;
+    IMDNicknameHashCalculationVersion = 2;
+    IMDNicknameLastHashValidationDate = "2026-06-10 00:32:24 +0000";
     MeCardPendingNicknamesVersion = 4;
     MeCardSharingAudience = 1;
     MeCardSharingEnabled = 1;
     MeCardSharingImageForkedFromMeCard = 0;
     MeCardSharingNameForkedFromMeCard = 1;
     MeCardSharingVersion = 4;
-    MeCardWhitelistBlacklistNicknamesVersion = 18;
+    MeCardWhitelistBlacklistNicknamesVersion = 19;
     NicknameInfoRequestedFromPeers = 1;
     NicknameScrutinyDoNotHandle = 0;
     NicknameiCloudAccountSignedInStatusKey = 1;

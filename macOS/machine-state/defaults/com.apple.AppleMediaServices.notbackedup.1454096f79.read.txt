@@ -1,6 +1,107 @@
 {
     AMSDeviceOfferEligibility =     {
+        deviceOffers =         (
+                        {
+                adamId = 1479623483;
+                description = Arcade;
+                dsid = 17533321770;
+                isSubscribed = false;
+                offerIdentifier = "com.apple.AppStore";
+            },
+                        {
+                adamId = 0;
+                description = "Apple One";
+                dsid = 17533321770;
+                isSubscribed = false;
+                offerIdentifier = "com.apple.appleone";
+            },
+                        {
+                adamId = 1449320349;
+                description = "News+";
+                dsid = 17533321770;
+                isSubscribed = false;
+                offerIdentifier = "com.apple.News.HardwareOffer.Prodigy";
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            },
+                        {
+                adamId = 0;
+                dsid = 17533321770;
+                familyId = 21790559;
+                isSubscribed = false;
+            }
+        );
     };
-    AMSDidRetrieveDeviceOffers = 1;
+    AMSDidRetrieveDeviceOffers = 0;
     AMSDidRetrieveDeviceOffersEligibility = 1;
 }

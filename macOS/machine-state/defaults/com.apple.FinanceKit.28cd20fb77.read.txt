@@ -1,0 +1,21 @@
+{
+    "ExtractedOrders.AutomaticOrderIngestionEnabled.ModificationDate" = "2025-08-11 10:21:10 +0000";
+    "ExtractedOrders.AutomaticOrderIngestionEnabled.Value" = 1;
+    WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-06-06 23:59:59 +0000";
+    postInstallTaskVersions =     {
+        clearTransactionIcons = 1;
+        deduplicateExtractedOrders = 1;
+        migrateAppPermissions = 1;
+        populateAccountMatchEntities = 1;
+        populateConsentType = 1;
+        populateExtractedOrderMessageIDHash = 1;
+        populateExtractedOrdersAutomaticIngestionLocalConsent = 1;
+        populateFoundInInsightOrderDetailsRelationship = 1;
+        populateFullyQualifiedAccountIdentifierInApplications = 1;
+        populateMerchantNameFromBrand = 1;
+        populateTransactionCategories = 4;
+        populateTransactionsWithIsVisibleAndRemoveEmptyCurrencyCodes = 1;
+        reprocessPhotoReceipts = 2;
+        updateAccountsWithCurrentConsentID = 1;
+    };
+}

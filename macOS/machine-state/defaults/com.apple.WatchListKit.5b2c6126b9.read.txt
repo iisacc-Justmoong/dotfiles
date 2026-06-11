@@ -3,20 +3,25 @@
     FeatureEnablementAdditionalFlags =     (
         durban
     );
-    SubscriptionSyncLastSync = "2026-05-10 01:36:28 +0000";
+    SubscriptionSyncLastSync = "2026-06-10 00:44:22 +0000";
+    "auto-play-settings-17533321770" =     {
+        nextEpisode = 1;
+        recommendedItems = 1;
+    };
     hasMigratedToNewBadgingSystem = 1;
     lastKnownTVAppEnabledValue = 1;
     storedConfig =     {
-        activeUser = 0;
+        activeUser = 1;
         rrkvp =         {
             caller = wlk;
             locale = "en-GB";
             pfm = desktop;
             sf = 143466;
             utscf = "OjAAAAEAAAAAAAUAEAAAAAwADQAjACsALQAuAA~~";
-            utsk = "6e3013c6d6fae3c2::::::00b164cc451c7be6";
-            v = 94;
+            utsk = "6e3013c6d6fae3c2::::::cb9aa0e3c741cf30";
+            v = 100;
         };
+        utsc = "7:18947";
     };
-    storedConfigTimestamp = 1774686874;
+    storedConfigTimestamp = 1781052259;
 }

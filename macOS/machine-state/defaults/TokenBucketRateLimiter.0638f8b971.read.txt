@@ -2,54 +2,124 @@
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
             "InstantProcessing+Embedding" =             {
-                timestamp = "802630745.978229";
-                timestampLastReplenished = "802630606.4862146";
+                timestamp = "802777843.0389971";
+                timestampLastReplenished = "802777832.0862134";
+                tokenCount = 500;
+            };
+            "InstantProcessing+FullEmbedding" =             {
+                timestamp = "802777792.744154";
+                timestampLastReplenished = "802777704.7295463";
+                tokenCount = 500;
+            };
+            "InstantProcessing+GLPEmbedding" =             {
+                timestamp = "802777792.660296";
+                timestampLastReplenished = "802777704.7383102";
+                tokenCount = 500;
+            };
+            "InstantProcessing+GLPIndexing" =             {
+                timestamp = "802777792.639984";
+                timestampLastReplenished = "802777791.1226268";
+                tokenCount = 1000;
+            };
+            "InstantProcessing+GLPMailAttachments" =             {
+                timestamp = "802777792.6375639";
+                timestampLastReplenished = "802777704.7339983";
                 tokenCount = 500;
             };
             "InstantProcessing+Keyphrase" =             {
-                timestamp = "802630745.9757119";
-                timestampLastReplenished = "802630606.4836586";
+                timestamp = "802777842.977628";
+                timestampLastReplenished = "802777832.0836574";
+                tokenCount = 500;
+            };
+            "InstantProcessing+LSSR5CarkeydataBackground" =             {
+                timestamp = "802777792.650947";
+                timestampLastReplenished = "802777704.7440252";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5EventsandordersBackground" =             {
-                timestamp = "802630745.980922";
-                timestampLastReplenished = "802630606.4858338";
+                timestamp = "802777842.96264";
+                timestampLastReplenished = "802777832.0858326";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "802630745.972002";
-                timestampLastReplenished = "802630606.4852026";
+                timestamp = "802777843.030677";
+                timestampLastReplenished = "802777832.0852014";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5IdentificationdocumentsBackground" =             {
-                timestamp = "802630745.983269";
-                timestampLastReplenished = "802630606.4847646";
+                timestamp = "802777842.980931";
+                timestampLastReplenished = "802777832.0847634";
+                tokenCount = 500;
+            };
+            "InstantProcessing+LSSR5SmartrepliesBackground" =             {
+                timestamp = "802777792.643108";
+                timestampLastReplenished = "802777697.1103433";
+                tokenCount = 500;
+            };
+            "InstantProcessing+Migration" =             {
+                timestamp = "802777792.647258";
+                timestampLastReplenished = "802777704.7452953";
                 tokenCount = 500;
             };
             "PriorityProcessing+Embedding" =             {
-                timestamp = "802630745.979095";
-                timestampLastReplenished = "802630721.6862327";
+                timestamp = "802777843.040242";
+                timestampLastReplenished = "802777832.0862334";
+                tokenCount = 1500;
+            };
+            "PriorityProcessing+FullEmbedding" =             {
+                timestamp = "802777843.034071";
+                timestampLastReplenished = "802777819.9296002";
+                tokenCount = 1500;
+            };
+            "PriorityProcessing+GLPEmbedding" =             {
+                timestamp = "802777842.983309";
+                timestampLastReplenished = "802777819.9383223";
+                tokenCount = 1500;
+            };
+            "PriorityProcessing+GLPIndexing" =             {
+                timestamp = "802777842.966638";
+                timestampLastReplenished = "802777839.1226394";
+                tokenCount = 9000;
+            };
+            "PriorityProcessing+GLPMailAttachments" =             {
+                timestamp = "802777842.9655091";
+                timestampLastReplenished = "802777819.9340103";
                 tokenCount = 1500;
             };
             "PriorityProcessing+Keyphrase" =             {
-                timestamp = "802630745.976591";
-                timestampLastReplenished = "802630721.6836877";
+                timestamp = "802777842.9787641";
+                timestampLastReplenished = "802777832.0836884";
                 tokenCount = 1500;
             };
+            "PriorityProcessing+LSSR5CarkeydataBackground" =             {
+                timestamp = "802777842.975283";
+                timestampLastReplenished = "802777834.3440334";
+                tokenCount = 4000;
+            };
             "PriorityProcessing+LSSR5EventsandordersBackground" =             {
-                timestamp = "802630745.98162";
-                timestampLastReplenished = "802630736.085853";
+                timestamp = "802777842.964368";
+                timestampLastReplenished = "802777832.0858538";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "802630745.973358";
-                timestampLastReplenished = "802630736.0852299";
+                timestamp = "802777843.031862";
+                timestampLastReplenished = "802777832.0852307";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5IdentificationdocumentsBackground" =             {
-                timestamp = "802630745.984086";
-                timestampLastReplenished = "802630736.0847849";
+                timestamp = "802777842.982191";
+                timestampLastReplenished = "802777832.0847857";
                 tokenCount = 4000;
+            };
+            "PriorityProcessing+LSSR5SmartrepliesBackground" =             {
+                timestamp = "802777842.970587";
+                timestampLastReplenished = "802777826.7103714";
+                tokenCount = 4000;
+            };
+            "PriorityProcessing+Migration" =             {
+                timestamp = "802777842.972818";
+                timestampLastReplenished = "802777819.9453033";
+                tokenCount = 1500;
             };
         };
         SKDUserDefaultsVersion = 1;

@@ -59,17 +59,14 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-05-21 01:25:30 +0000";
-    IDEAppStatisticsRunDestinationPlatform =     {
-        iphoneos = 1;
-        iphonesimulator = 1;
-    };
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-06-10 01:44:58 +0000";
     IDEAppStatisticsXcodeVersionMetricsHistoryStorage =     {
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
         17E202 = "2026-05-11 12:48:31 +0000";
         17F42 = "2026-05-21 14:34:43 +0000";
+        27A5194q = "2026-06-10 03:40:07 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -177,7 +174,7 @@
         "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" = {length = 20, bytes = 0xbbfb47c43e78e952f1a5e9aeee4902e3c51e8368};
         "/System/Library/CoreServices/CoreTypes.bundle" = {length = 20, bytes = 0x3f330126bf6311bf44f3ceab7e7bf1ce6fac11cd};
     };
-    IDELastShownWhatsNewContentRevision = 5;
+    IDELastShownWhatsNewContentRevision = 6;
     IDELastViewedSettingsPane = "IDEKit.IDESettingsPane.Accounts";
     "IDELibrary.lastSelectedLibraryExtensionIDByEditorID" =     {
         "" = "Xcode.IDECodeSnippetLibrary";
@@ -197,15 +194,18 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     "IDEMetalToolchainLastNotified-17F42" = 17F42;
+    "IDEMetalToolchainLastNotified-27A5194q" = 27A5194o;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-05-21 01:23:27 +0000";
-    IDEMostRecentPostFLEToolsVersion = "26.5";
+    IDEMostRecentPostFLEDate = "2026-06-10 01:42:58 +0000";
+    IDEMostRecentPostFLEToolsVersion = "27.0";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
+        24J5289o,
         23L470,
         23L236,
         23K50
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-iphoneos" =     (
+        24A5355p,
         23F73,
         23E252,
         23E237,
@@ -213,6 +213,7 @@
         23C53
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-macosx" =     (
+        26A5353p,
         25F70,
         25E251,
         25E236,
@@ -220,11 +221,13 @@
         25C57
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-watchos" =     (
+        24R5289n,
         23T570,
         23T238,
         23S303
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-xros" =     (
+        24M5291p,
         23O469,
         23O248,
         23O238,
@@ -307,9 +310,9 @@
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
     "IDE_CA_Daily_LanguageModel" = "enabled,usable";
-    "IDE_CA_Daily_LastReport" = "801019410.1388119";
+    "IDE_CA_Daily_LastReport" = "802748600.27879";
     "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "13.18850814109953";
+    "IDE_CA_Daily_UptimeHours" = "1.954615355555556";
     LastExplicitInspectorVisibility = 1;
     LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
@@ -322,8 +325,8 @@
     "NSTableView Sort Ordering v2 PlistColumns" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
     "NSTableView Supports v2 PlistColumns" = 1;
     "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
-    "NSWindow Frame IDEDownloadProgressWindow" = "-926 1160 400 156 -2560 0 2560 1410 ";
-    "NSWindow Frame IDESettingsPanel" = "-1783 77 918 716 -2560 0 2560 1410 ";
+    "NSWindow Frame IDEDownloadProgressWindow" = "1634 1048 400 268 0 0 2560 1410 ";
+    "NSWindow Frame IDESettingsPanel" = "777 78 918 684 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
     "NSWindow Frame Products" = "-1814 414 1024 640 -2560 0 2560 1410 ";

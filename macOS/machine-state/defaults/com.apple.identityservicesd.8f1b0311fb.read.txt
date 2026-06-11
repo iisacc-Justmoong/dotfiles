@@ -1,34 +1,45 @@
 {
     AuthenticationDelegateResponseTime = "790333042.255034";
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303238 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
+    CloudKitAccountInfoCache =     {
+        e4bbba3068e8f23afc9f757973c030c390c233db5f7ef5402fa930aee3418481 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
     DidCleanLegacyAccountPrefs = 1;
     GDRRequestMadeForRelayRepair = 1;
+    "IDSActiveStorageStateMachineState-com.apple.private.alloy.quickrelay" = 3;
+    IDSActiveStorageStateMachines =     (
+        "com.apple.private.alloy.quickrelay"
+    );
     ImportedLegacyIDSAccounts2 = 1;
     ImportedLegacyIMAccounts = 1;
     LastKeyGeneration = "1768640181.632508";
     MigratedToNewDisabledState = 1;
-    PurgePreviousIdentityInterval = "802081929.416232";
-    ReRegisteredForDevices = 1924;
-    ReRegisteredForDevicesHash = 5FFCEBC941E50DED6DD191F9A2E88BD54D1ADC3232CB9396269FDD728995BF1B;
+    PurgePreviousIdentityInterval = "805938407.092507";
+    ReRegisteredForDevices = 2706;
+    ReRegisteredForDevicesHash = 26CF2C50620B578B4DF41885DFD30266AC7688B5EBF707E59B766AFDC0117A43;
     activityTopics =     (
         "com.apple.private.alloy.home-com.apple.HomeKit"
     );
+    "com.apple.identityservices.systemDSAccountStore" = {length = 959, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002ef };
     hasRegIdentityContainer = 1;
-    hasUnregIdentityContainer = 1;
+    hasUnregIdentityContainer = 0;
     "ids-swift-data-force-version" = 3;
     last24PeriodGDRPerformed = "801809434.736442";
     "performed-user-intent-migrate" = 1;
     performedGDROverrides = 2;
+    "persister-migration-IDSAccountHistoryTrackerMap" = 1;
     "persister-migration-com.apple.identityservices.accountInfoStore" = 1;
     "persister-migration-com.apple.identityservices.dailyDeviceAddedNotificationData" = 1;
+    "persister-migration-com.apple.identityservices.dailyQueryReasonData" = 1;
     "persister-migration-com.apple.identityservices.userStore" = 1;
     "persister-migration-com.apple.identityservicesd.invitation.store" = 1;
     "persister-migration-com.apple.identityservicesd.offgrid.provisioning.store" = 1;
     "persister-migration-com.apple.identityservicesd.pinned-identity" = 1;
     "persister-migration-com.apple.identityservicesd.waking-push-priority" = 1;
-    services = {length = 13317, bytes = 0x1f8b0800 00000000 0013bd9d 075c5357 ... 8a6b24eb 31960000 };
+    services = {length = 17215, bytes = 0x1f8b0800 00000000 0013edbd 07581457 ... 657403ba 56db0000 };
     triggeredRemoteSessionVersion = 1;
 }

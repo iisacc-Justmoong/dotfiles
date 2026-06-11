@@ -8,9 +8,90 @@
         );
         failedToFetchFromServer = 0;
         notificationId = "";
-        retrievalDate = "2026-06-07 22:49:07 +0000";
+        retrievalDate = "2026-06-10 05:42:34 +0000";
         serverDict =         {
             appFeatureMessagingInfo =             (
+                                {
+                    appId = "com.apple.Photos";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    alertKey = sharedAlbumOwnerUnsyncedAssetsAlert;
+                                };
+                                action = "SHOW_INLINE_ALERT";
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                            key = default;
+                        }
+                    );
+                    placement = SharedAlbumOwner;
+                    reason = UploadFailure;
+                    title =                     (
+                                                {
+                            format = "Photos Cannot Be Shared";
+                            key = default;
+                        }
+                    );
+                },
+                                {
+                    appId = "com.apple.Photos";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    alertKey = sharedAlbumParticipantUnsyncedAssetsAlert;
+                                };
+                                action = "SHOW_INLINE_ALERT";
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "Contact the owner of this album to share photos.";
+                            key = default;
+                        }
+                    );
+                    placement = SharedAlbumParticipant;
+                    reason = UploadFailure;
+                    title =                     (
+                                                {
+                            format = "Items Can't Be Added";
+                            key = default;
+                        }
+                    );
+                },
+                                {
+                    appId = "com.apple.Photos";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    alertKey = sharedAlbumConvertAlbumTooLargeAlert;
+                                };
+                                action = "SHOW_INLINE_ALERT";
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "Permanent shared albums require iCloud Storage.";
+                            key = default;
+                        }
+                    );
+                    placement = SharedAlbumConvert;
+                    reason = SharedAlbumTooLarge;
+                    title =                     (
+                                                {
+                            format = "Not Enough iCloud Storage";
+                            key = default;
+                        }
+                    );
+                }
             );
             badgeApp = 0;
             callbackInterval = 604800;
@@ -134,7 +215,7 @@
                     };
                     mesg =                     (
                                                 {
-                            format = "Some Notes Aren\\U2019t Syncing";
+                            format = "Some Notes Aren\U2019t Syncing";
                             key = default;
                         }
                     );
@@ -145,6 +226,80 @@
                             key = default;
                         }
                     );
+                }
+            );
+            inlineAlertInfo =             (
+                                {
+                    actions =                     (
+                                                {
+                            btnActParams =                             {
+                                openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                purchaseAttribution = "103/4";
+                                route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                            };
+                            btnAction = "LAUNCH_DYNAMIC_UI";
+                            btnDefault = 0;
+                            btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                            btnTitle = "Add iCloud Storage";
+                        }
+                    );
+                    alertAckAction =                     {
+                        action = "";
+                        dataClass = "";
+                    };
+                    alertKey = sharedAlbumOwnerUnsyncedAssetsAlert;
+                    altMesg = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                    hideOnLock = 0;
+                    mesg = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                    title = "Photos Cannot Be Shared";
+                },
+                                {
+                    actions =                     (
+                                                {
+                            btnActParams =                             {
+                                openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                purchaseAttribution = "103/4";
+                                route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                            };
+                            btnAction = "LAUNCH_DYNAMIC_UI";
+                            btnDefault = 0;
+                            btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                            btnTitle = "Add iCloud Storage";
+                        }
+                    );
+                    alertAckAction =                     {
+                        action = "";
+                        dataClass = "";
+                    };
+                    alertKey = sharedAlbumParticipantUnsyncedAssetsAlert;
+                    altMesg = "Contact the owner of this album to share photos.";
+                    hideOnLock = 0;
+                    mesg = "Contact the owner of this album to share photos.";
+                    title = "Items Can't Be Added";
+                },
+                                {
+                    actions =                     (
+                                                {
+                            btnActParams =                             {
+                                openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                purchaseAttribution = "103/4";
+                                route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                            };
+                            btnAction = "LAUNCH_DYNAMIC_UI";
+                            btnDefault = 0;
+                            btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                            btnTitle = "Add iCloud Storage";
+                        }
+                    );
+                    alertAckAction =                     {
+                        action = "";
+                        dataClass = "";
+                    };
+                    alertKey = sharedAlbumConvertAlbumTooLargeAlert;
+                    altMesg = "Permanent shared albums require iCloud Storage.";
+                    hideOnLock = 0;
+                    mesg = "Permanent shared albums require iCloud Storage.";
+                    title = "Not Enough iCloud Storage";
                 }
             );
             isDefaultOffer = 1;
@@ -223,7 +378,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-06-07 22:49:07 +0000";
+        retrievalDate = "2026-06-10 05:42:34 +0000";
         serverDict =         {
             type = None;
         };
@@ -232,12 +387,93 @@
         altDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
         callbackInterval = 604800;
         failedToFetchFromServer = 0;
-        retrievalDate = "2026-06-07 22:48:59 +0000";
+        retrievalDate = "2026-06-10 05:42:34 +0000";
         serverDict =         {
             callbackInterval = 604800;
             defaultOffers =             (
                                 {
                     appFeatureMessagingInfo =                     (
+                                                {
+                            appId = "com.apple.Photos";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            alertKey = sharedAlbumOwnerUnsyncedAssetsAlert;
+                                        };
+                                        action = "SHOW_INLINE_ALERT";
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                                    key = default;
+                                }
+                            );
+                            placement = SharedAlbumOwner;
+                            reason = UploadFailure;
+                            title =                             (
+                                                                {
+                                    format = "Photos Cannot Be Shared";
+                                    key = default;
+                                }
+                            );
+                        },
+                                                {
+                            appId = "com.apple.Photos";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            alertKey = sharedAlbumParticipantUnsyncedAssetsAlert;
+                                        };
+                                        action = "SHOW_INLINE_ALERT";
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "Contact the owner of this album to share photos.";
+                                    key = default;
+                                }
+                            );
+                            placement = SharedAlbumParticipant;
+                            reason = UploadFailure;
+                            title =                             (
+                                                                {
+                                    format = "Items Can't Be Added";
+                                    key = default;
+                                }
+                            );
+                        },
+                                                {
+                            appId = "com.apple.Photos";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            alertKey = sharedAlbumConvertAlbumTooLargeAlert;
+                                        };
+                                        action = "SHOW_INLINE_ALERT";
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "Permanent shared albums require iCloud Storage.";
+                                    key = default;
+                                }
+                            );
+                            placement = SharedAlbumConvert;
+                            reason = SharedAlbumTooLarge;
+                            title =                             (
+                                                                {
+                                    format = "Not Enough iCloud Storage";
+                                    key = default;
+                                }
+                            );
+                        }
                     );
                     badgeApp = 0;
                     detailAppBannerInfo =                     (
@@ -360,7 +596,7 @@
                             };
                             mesg =                             (
                                                                 {
-                                    format = "Some Notes Aren\\U2019t Syncing";
+                                    format = "Some Notes Aren\U2019t Syncing";
                                     key = default;
                                 }
                             );
@@ -371,6 +607,80 @@
                                     key = default;
                                 }
                             );
+                        }
+                    );
+                    inlineAlertInfo =                     (
+                                                {
+                            actions =                             (
+                                                                {
+                                    btnActParams =                                     {
+                                        openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                        purchaseAttribution = "103/4";
+                                        route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                    };
+                                    btnAction = "LAUNCH_DYNAMIC_UI";
+                                    btnDefault = 0;
+                                    btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                                    btnTitle = "Add iCloud Storage";
+                                }
+                            );
+                            alertAckAction =                             {
+                                action = "";
+                                dataClass = "";
+                            };
+                            alertKey = sharedAlbumOwnerUnsyncedAssetsAlert;
+                            altMesg = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                            hideOnLock = 0;
+                            mesg = "Get more iCloud storage to share photos, or make it a temporary shared album that expires in 30 days.";
+                            title = "Photos Cannot Be Shared";
+                        },
+                                                {
+                            actions =                             (
+                                                                {
+                                    btnActParams =                                     {
+                                        openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                        purchaseAttribution = "103/4";
+                                        route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                    };
+                                    btnAction = "LAUNCH_DYNAMIC_UI";
+                                    btnDefault = 0;
+                                    btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                                    btnTitle = "Add iCloud Storage";
+                                }
+                            );
+                            alertAckAction =                             {
+                                action = "";
+                                dataClass = "";
+                            };
+                            alertKey = sharedAlbumParticipantUnsyncedAssetsAlert;
+                            altMesg = "Contact the owner of this album to share photos.";
+                            hideOnLock = 0;
+                            mesg = "Contact the owner of this album to share photos.";
+                            title = "Items Can't Be Added";
+                        },
+                                                {
+                            actions =                             (
+                                                                {
+                                    btnActParams =                                     {
+                                        openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
+                                        purchaseAttribution = "103/4";
+                                        route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                    };
+                                    btnAction = "LAUNCH_DYNAMIC_UI";
+                                    btnDefault = 0;
+                                    btnId = photosSharedAlbumInlineAlertUpsellBtnId;
+                                    btnTitle = "Add iCloud Storage";
+                                }
+                            );
+                            alertAckAction =                             {
+                                action = "";
+                                dataClass = "";
+                            };
+                            alertKey = sharedAlbumConvertAlbumTooLargeAlert;
+                            altMesg = "Permanent shared albums require iCloud Storage.";
+                            hideOnLock = 0;
+                            mesg = "Permanent shared albums require iCloud Storage.";
+                            title = "Not Enough iCloud Storage";
                         }
                     );
                     isDefaultOffer = 1;
@@ -451,7 +761,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-06-07 22:49:08 +0000";
+        retrievalDate = "2026-06-10 05:42:34 +0000";
         serverDict =         {
             isPremiumOffer = 1;
             offerType = PremiumJourneys;

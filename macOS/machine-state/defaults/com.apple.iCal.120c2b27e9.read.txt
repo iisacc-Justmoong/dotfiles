@@ -10,7 +10,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-06-07 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-06-06 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
@@ -24,17 +24,17 @@
             );
         };
     };
-    LastSaveDate = "2026-06-07 13:16:41 +0000";
+    LastSaveDate = "2026-06-10 07:26:50 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
         "0.000000, 0.000000, 236.000000, 839.000000, YES, NO",
-        "0.000000, 0.000000, 1054.000000, 951.000000, NO, NO",
+        "0.000000, 0.000000, 1054.000000, 1010.000000, NO, NO",
         "1312.000000, 0.000000, 240.000000, 1050.000000, YES, NO"
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "434 208 1054 951 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "179 64 1054 1010 0 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -48,8 +48,8 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x72302b7e0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [58178], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 802530741;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x791e40e520>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [2323], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 802755252;
     defaultCalendarDatabaseID = 0;
     defaultCalendarID = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     defaultCalendarStoreUID = 4;

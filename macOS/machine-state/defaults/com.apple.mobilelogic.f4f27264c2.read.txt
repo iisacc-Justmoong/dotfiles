@@ -1218,7 +1218,7 @@
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Analog Sync/Syncy.pst",
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Ducker/Slowest - Slight Music Reduction.pst",
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Sound Effects/Comedy Noises.pst",
-                "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Equalizer/Reduce \\"S\\".pst",
+                "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Equalizer/Reduce \"S\".pst",
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Equalizer/Soft Backgroud Vocals.pst",
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Electric Clav/Low Damp.pst",
                 "/Library/Application Support/GarageBand/Instrument Library/Plug-In Settings/Automatic Filter/Two Bars Down Filter.pst",
@@ -1999,8 +1999,8 @@
     };
     JPMNumKnownReceipts9 = 2;
     JPMVersion9 = "9.4";
-    "KB_DoubleQuoteOption" = "\\U201cabc\\U201d";
-    "KB_SingleQuoteOption" = "\\U2018abc\\U2019";
+    "KB_DoubleQuoteOption" = "\U201cabc\U201d";
+    "KB_SingleQuoteOption" = "\U2018abc\U2019";
     "KB_SpellingLanguage" =     {
         "KB_SpellingLanguage" =         (
             ar,
@@ -8444,15 +8444,15 @@
         },
                 {
             on = 1;
-            replace = "\\U3148\\U3131\\U3148";
-            with = "\\Uc9c0\\Uae08 \\Uac00\\Ub294 \\Uc911!";
+            replace = "\U3148\U3131\U3148";
+            with = "\Uc9c0\Uae08 \Uac00\Ub294 \Uc911!";
         }
     );
     NSUserQuotesArray =     (
-        "\\U201c",
-        "\\U201d",
-        "\\U2018",
-        "\\U2019"
+        "\U201c",
+        "\U201d",
+        "\U2018",
+        "\U2019"
     );
     "NSWindow Frame AdditionalContent" = "1645 1270 550 454 0 0 3840 2129 ";
     "NSWindow Frame Basic Content Download" = "2911 1191 650 387 0 0 3840 2129 ";
@@ -75761,9 +75761,9 @@
     "com.apple.gms.availability.useCaseReadiness" = {length = 447, bytes = 0x7b22636f 6d2e6170 706c652e 76697369 ... 222a222c 305d5d7d };
     "com.apple.logic10.analytics.userInfo" = {length = 146, bytes = 0x7b227573 65724944 73223a5b 7b226964 ... 2e303137 3731317d };
     "com.apple.mouse.scaling" = "0.5";
-    "com.apple.preferences.timezone.new.selected_city" = "\032t\020\032u\024\033x\024\034r\020\035w\020\033t\024";
+    "com.apple.preferences.timezone.new.selected_city" = "tuxrwt";
     "com.apple.preferences.timezone.selected_city" =     {
-        AppleMapID = "\032t\020\032u\024\033x\024\034r\020\035w\020\033t\024";
+        AppleMapID = "tuxrwt";
     };
     "com.apple.sound.beep.flash" = 0;
     "com.apple.springing.delay" = 0;

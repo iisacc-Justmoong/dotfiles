@@ -12,7 +12,7 @@
         TPSNotificationCount = 10;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-06-08 01:59:23 +0000";
+    TPSContentUpdatedNotificationDate = "2026-06-10 02:02:44 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
         "VideoReactionTip-com.apple.Safari",
@@ -33,20 +33,13 @@
         MenuBarControls
     );
     TPSDidRevertArchivedTipStatuses = 1;
-    TPSFullTipUsageEventContextualInfo = {length = 2454, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000007b8 };
-    TPSLastMajorVersion = 26;
+    TPSFullTipUsageEventContextualInfo = {length = 3295, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000aaf };
+    TPSLastMajorVersion = 27;
     TPSLastNotificationDate = "2026-05-20 14:56:25 +0000";
-    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 3270, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-06-08 13:48:51 +0000";
+    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 307, bytes = 0x7b227665 7273696f 6e223a32 2c22646f ... 47484b45 3d227d7d };
+    TPSTipKitProcessedDate = "2026-06-10 06:33:10 +0000";
     TPSTipsAppInstalled = 1;
-    TPSWaitingToShowWelcomeNotification = 0;
-    TPSWelcomeDocumentCache = {length = 868, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002b0 };
     TPSWelcomeNotificationReminderState = 1;
-    TPSWelcomeNotificationStartDate = "2026-01-17 09:01:37 +0000";
-    TPSWelcomeNotificationViewedVersion = 26;
-    TPSWidgetShownTips =     (
-        "doc0be4043d-0940-4c8d-b7b6-5e2f3df0e1af",
-        "doc85f21202-4720-4708-b2fc-8a6d4d70c0c3"
-    );
-    TPSWidgetUpdateDate = "2026-06-07 22:51:18 +0000";
+    TPSWelcomeNotificationViewedVersion = 27;
+    TPSWidgetUpdateDate = "2026-06-10 00:33:16 +0000";
 }

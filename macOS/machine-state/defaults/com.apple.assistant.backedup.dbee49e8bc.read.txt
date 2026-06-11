@@ -44,9 +44,11 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            saeCapabilities = 7;
+            linwoodCapabilities = 1535;
+            saeCapabilities = 63;
         };
-        desiredOrchestrationMode = 2;
+        bootUUID = "5C98BACC-7177-4266-A55B-BF500D80C90B";
+        desiredOrchestrationMode = 4;
         isAvailable = 1;
         siriLocale = "en-US";
         unavailabilityReasons = 0;

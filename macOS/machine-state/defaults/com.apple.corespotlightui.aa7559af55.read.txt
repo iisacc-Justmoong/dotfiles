@@ -19,6 +19,7 @@
         "com.anthropic.claudefordesktop" = 1;
         "com.apple.AMSUIPaymentViewService" = 1;
         "com.apple.Accessibility-Settings.extension" = 1;
+        "com.apple.AccessibilityUIServer" = 1;
         "com.apple.AccessibilityVisualsAgent" = 1;
         "com.apple.ActivityMonitor" = 1;
         "com.apple.AddressBook" = 1;
@@ -80,6 +81,7 @@
         "com.apple.LoginItems-Settings.extension" = 1;
         "com.apple.LookupViewService" = 1;
         "com.apple.Maps" = 1;
+        "com.apple.MenuBarAgent" = 1;
         "com.apple.MobileAddressBook.RemoteCatalystPosterExtension" = 1;
         "com.apple.MobileSMS" = 1;
         "com.apple.Mouse-Settings.extension" = 1;
@@ -145,13 +147,16 @@
         "com.apple.WorkflowUI.WidgetConfigurationExtension" = 1;
         "com.apple.accessibility.AXVisualSupportAgent" = 1;
         "com.apple.accessibility.universalAccessAuthWarn" = 1;
+        "com.apple.accessoryaccess.uiagent" = 1;
         "com.apple.amp.devicesui" = 1;
+        "com.apple.appleseed.FeedbackAssistant" = 1;
         "com.apple.application" = 1;
         "com.apple.appplaceholdersyncd" = 1;
         "com.apple.archiveutility" = 1;
         "com.apple.bootcampassistant" = 1;
         "com.apple.calculator" = 1;
         "com.apple.calendar" = 1;
+        "com.apple.campo" = 1;
         "com.apple.clock" = 1;
         "com.apple.contactsd" = 1;
         "com.apple.controlcenter" = 1;
@@ -213,6 +218,7 @@
         "com.apple.systemevents" = 1;
         "com.apple.systempreferences" = 1;
         "com.apple.systempreferences.AppleIDSettings" = 1;
+        "com.apple.systempreferences.GeneralSettings" = 1;
         "com.apple.systemuiserver" = 1;
         "com.apple.tips" = 1;
         "com.apple.universalaccessd" = 1;

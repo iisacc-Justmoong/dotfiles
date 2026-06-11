@@ -9,7 +9,11 @@
     "last-selection-display" = 0;
     location = "~/Pictures";
     "location-last" = "~/Pictures";
+    "location-screenrecording" = "~/Pictures";
+    "location-screenshot" = "~/Pictures";
     style = window;
     target = file;
+    "target-screenrecording" = file;
+    "target-screenshot" = file;
     video = 0;
 }

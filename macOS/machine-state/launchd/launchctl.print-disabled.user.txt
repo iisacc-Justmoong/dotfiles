@@ -3,12 +3,12 @@
 		"com.microsoft.teams2.agent" => enabled
 		"us.electronic.mas.macdroid.launcher" => enabled
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
-		"com.apple.Siri.agent" => disabled
 		"org.pqrs.service.agent.Karabiner-Menu" => enabled
 		"com.microsoft.update.agent" => enabled
 		"com.google.keystone.system.agent" => enabled
 		"com.unicorn-soft.AutoLaunchHelper" => enabled
 		"com.agiletortoise.Drafts-OSX-Launcher" => enabled
+		"com.apple.Siri.agent" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled

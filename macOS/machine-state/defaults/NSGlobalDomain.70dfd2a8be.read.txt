@@ -1,5 +1,4 @@
 {
-    ACDMonthlyAnalyticsLastPosted = "800759440.108008";
     AKLastIDMSEnvironment = 0;
     AKLastLocale = "en_KR";
     AppleAntiAliasingThreshold = 4;
@@ -32,8 +31,8 @@
     CGDisableCursorLocationMagnification = 1;
     InitialKeyRepeat = 15;
     "InitialKeyRepeat_Level_Saved" = 6;
-    "KB_DoubleQuoteOption" = "\\U201cabc\\U201d";
-    "KB_SingleQuoteOption" = "\\U2018abc\\U2019";
+    "KB_DoubleQuoteOption" = "\U201cabc\U201d";
+    "KB_SingleQuoteOption" = "\U2018abc\U2019";
     "KB_SpellingLanguage" =     {
         "KB_SpellingLanguageIsAutomatic" = 1;
     };
@@ -42,9 +41,9 @@
     NSAutomaticInlinePredictionEnabled = 0;
     NSAutomaticPeriodSubstitutionEnabled = 1;
     NSAutomaticSpellingCorrectionEnabled = 0;
-    NSGlassDiffusionSetting = 1;
+    NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-06-07 23:13:54 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-06-10 00:44:35 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -390,15 +389,15 @@
         },
                 {
             on = 1;
-            replace = "\\U3148\\U3131\\U3148";
-            with = "\\Uc9c0\\Uae08 \\Uac00\\Ub294 \\Uc911!";
+            replace = "\U3148\U3131\U3148";
+            with = "\Uc9c0\Uae08 \Uac00\Ub294 \Uc911!";
         }
     );
     NSUserQuotesArray =     (
-        "\\U201c",
-        "\\U201d",
-        "\\U2018",
-        "\\U2019"
+        "\U201c",
+        "\U201d",
+        "\U2018",
+        "\U2019"
     );
     NavPanelFileListModeForOpenMode = 2;
     NavPanelFileListModeForSaveMode = 2;

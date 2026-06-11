@@ -1,11 +1,12 @@
 {
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303238 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
-    CKStartupTime = 1780872460;
+    CKStartupTime = 1780872461;
     CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
     CloudKitAccountInfoCache =     {
-        28e16dbbb6a3c76c95a121054005686651232971a7b3bcdda92996c5cbf5e047 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        2eb0ca713ba3f3b7f82f5c2b3e7ad266708a95c6643c71323c1f6af4c917ff31 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     CloudKitAccountStatus =     {
         "6FD043A0-7295-41C4-B9C7-812A91491C63" = 1;
@@ -19,24 +20,26 @@
             "DatabaseSubscription-Shared"
         );
     };
-    SubscriptionIDsLastModifiedDate = "801846545.5226229";
+    SubscriptionIDsLastModifiedDate = "802710896.833961";
     ThrottlingPolicyCurrentBatchCount = 0;
     ThrottlingPolicyCurrentLevelIndex = 0;
-    ThrottlingPolicyStartTime = "802616785.214855";
+    ThrottlingPolicyStartTime = "802822511.608079";
     accountsListCategorizedCountsCache = {length = 1469, bytes = 0x62706c69 73743030 d2010203 255e7265 ... 00000000 00000551 };
     analyticsActivityLastExecutionDate = "2026-03-26 23:43:18 +0000";
+    cloudKitSchemaCatchUpSyncLastSuccessBuildVersion = 26A5353q;
+    cloudKitSchemaCatchUpSyncLastSuccessDate = "2026-06-10 00:46:37 +0000";
     cloudKitSchemaCatchUpSyncSchedulingState = 0;
     didShowReminderDeletePrivacyWarning = 1;
     extraneousAlarmsCollectorContainerDeemedClean = 1;
     hashtagLabelsInCustomSmartListFilterCache = {length = 1049, bytes = 0x62706c69 73743030 d2010203 04566c61 ... 00000000 000003eb };
     imageDeduplicationLastExecutionDate = "2026-01-20 15:12:29 +0000";
     isDatabaseMigrated = 1;
-    lastCloudConfigurationDownload = "2026-06-08 11:48:21 +0000";
+    lastCloudConfigurationDownload = "2026-06-09 20:04:19 +0000";
     lastDatabaseMigrationSystemBuildVersion = 25C56;
     lastDismissedNotificationsPermissionInlineRequestDate = "2026-05-11 07:33:16 +0000";
     lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";
-    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-06-03 04:14:23 +0000";
-    lastSuggestedAttributesAutoTrainingToken = {length = 923, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002c5 };
+    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-06-10 05:03:41 +0000";
+    lastSuggestedAttributesAutoTrainingToken = {length = 924, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002c6 };
     lastSyncPoll = "2026-01-17 08:56:40 +0000";
     lastViewedNotificationsPermissionWarmingSheetDate = "2026-01-18 13:44:47 +0000";
     preferredDefaultListID = "x-apple-reminderkit://REMCDList/9EDD5A1F-27ED-4DDB-9CC3-09085CEF86A6";
@@ -45,7 +48,7 @@
         "en_KR"
     );
     savedImageDeduplicationLastExecutionDate = "2026-01-21 19:01:44 +0000";
-    spotlightIndexVersion = 7;
+    spotlightIndexVersion = 8;
     staledFileAttachmentCleanupLastExecutionDate = "2026-01-18 17:48:20 +0000";
     suggestConversionToGroceryListLastExecutionDate = "2026-01-22 22:49:21 +0000";
     "syncActivityNotificationEngine_accountSignInTime" =     {

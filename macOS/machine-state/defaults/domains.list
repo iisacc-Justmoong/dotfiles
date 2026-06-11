@@ -8,6 +8,7 @@
 AtlasUpdateHelper
 ChatGPTHelper
 Cisco-Systems.Spark
+CommCenter
 ContextStoreAgent
 EpicWebHelper
 Kevin.LaunchNow
@@ -107,6 +108,7 @@ com.apple.CrashReporter.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.CrashReporter.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.CrashReporter.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.CrashReporter.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
+com.apple.DPSubmissionService
 com.apple.DataDeliveryServices
 com.apple.DiagnosticExtensions.extensionTracker
 com.apple.DictionaryServices
@@ -117,6 +119,7 @@ com.apple.EscrowSecurityAlert
 com.apple.ExtensionsPreferences.ShareMenu
 com.apple.FaceTime
 com.apple.FamilyCircle
+com.apple.FinanceKit
 com.apple.FolderActionsDispatcher
 com.apple.FontRegistry.user
 com.apple.GEO
@@ -124,6 +127,7 @@ com.apple.GameController
 com.apple.GameOverlayUI
 com.apple.GamePolicyAgent
 com.apple.GenerativeFunctions.GenerativeFunctionsInstrumentation
+com.apple.GenerativeFunctions.agentstored
 com.apple.HIToolbox
 com.apple.HearingAids
 com.apple.Home
@@ -142,6 +146,7 @@ com.apple.ManagedClient.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-
 com.apple.ManagedClient.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.ManagedClient.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.Maps.mapssyncd
+com.apple.MenuBarAgent
 com.apple.MobileDeviceCrashCopy
 com.apple.MobileSMS
 com.apple.MobileSMS.CKDNDList
@@ -162,6 +167,7 @@ com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-508
 com.apple.QuickTimePlayerX
 com.apple.RemoteManagement
 com.apple.ReportCrash
+com.apple.ReportCrashService
 com.apple.SFSymbols
 com.apple.Safari
 com.apple.Safari.PasswordBreachAgent
@@ -193,6 +199,7 @@ com.apple.StorageManagement.Service
 com.apple.SystemProfiler
 com.apple.TTY
 com.apple.TV
+com.apple.TV.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.TelephonyUtilities
 com.apple.TelephonyUtilities.sharePlayAppPolicies
 com.apple.Terminal
@@ -217,6 +224,7 @@ com.apple.airplay
 com.apple.amp.mediasharingd
 com.apple.amsaccountsd
 com.apple.amsengagementd
+com.apple.analyticsagent
 com.apple.animoji
 com.apple.anvil.501
 com.apple.ap.adprivacyd
@@ -225,6 +233,7 @@ com.apple.appleaccount
 com.apple.appleaccount.informationcache
 com.apple.appleaccountd
 com.apple.appleintelligencereporting
+com.apple.appleseed.FeedbackAssistant
 com.apple.appplaceholdersyncd
 com.apple.appstore
 com.apple.appstorecomponentsd
@@ -244,6 +253,7 @@ com.apple.bookdatastored
 com.apple.businessservicesd
 com.apple.calaccessd
 com.apple.cameracapture
+com.apple.campo
 com.apple.chronod
 com.apple.classroom
 com.apple.cloud.quota
@@ -325,6 +335,7 @@ com.apple.gamed
 com.apple.games
 com.apple.generativeexperiences.corefollowup
 com.apple.generativepartnerservicesettings
+com.apple.generativesearch
 com.apple.gms.availability
 com.apple.help
 com.apple.helpd
@@ -339,6 +350,7 @@ com.apple.iCloudNotificationAgent
 com.apple.iPod
 com.apple.iTunes
 com.apple.ibtool
+com.apple.icloud.findmydeviced.findmydevice-user-agent
 com.apple.icloud.gm
 com.apple.icloud.searchpartyuseragent
 com.apple.iclouddrive.features
@@ -353,6 +365,7 @@ com.apple.ids.deviceproperties
 com.apple.ids.subservices
 com.apple.imagecapture
 com.apple.imagent
+com.apple.imageplaygroundd
 com.apple.imdpersistence.IMDPersistenceAgent
 com.apple.imdsmsrecordstore
 com.apple.imessage
@@ -393,6 +406,7 @@ com.apple.keychainaccess
 com.apple.knowledge-agent
 com.apple.liveactivitiesd
 com.apple.locationaccessstored
+com.apple.lockdownmoded
 com.apple.logic10
 com.apple.loginwindow
 com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -401,9 +415,11 @@ com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-81
 com.apple.madrid
 com.apple.mail-shared
 com.apple.managedappdistributionagent
+com.apple.mediaaccessibility.public
 com.apple.mediaanalysisd
 com.apple.menuextra.clock
 com.apple.messages
+com.apple.messages.EnhancedLinkSecurity
 com.apple.messages.commsafety
 com.apple.messages.critical-messaging.storage
 com.apple.messages.nicknames
@@ -419,6 +435,7 @@ com.apple.mobileipod
 com.apple.mobilelogic
 com.apple.mobiletimer
 com.apple.mobiletimerd
+com.apple.network.ServiceDiscovery
 com.apple.networkserviceproxy
 com.apple.newscore
 com.apple.newscore2
@@ -439,6 +456,7 @@ com.apple.print.custompresets
 com.apple.print.custompresets.forprinter.Samsung_SL_J1660_Series
 com.apple.print.custompresets.forprinter.Samsung_SL_J1660_Series_2
 com.apple.printcenter
+com.apple.privatecloudcomputed
 com.apple.proactive.PersonalizationPortrait
 com.apple.protectedcloudstorage.protectedcloudkeysyncing
 com.apple.quicklook.ThumbnailsAgent
@@ -463,9 +481,11 @@ com.apple.security.sosaccount
 com.apple.seeding
 com.apple.seserviced
 com.apple.settings.Storage
+com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
+com.apple.setupassistant.privacypane
 com.apple.sharingd
 com.apple.sharingd.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.sharingd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -517,6 +537,7 @@ com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
+com.apple.systemsettingsagent
 com.apple.systemuiserver
 com.apple.talagent
 com.apple.textInput.keyboardServices.textReplacement
@@ -660,6 +681,7 @@ jetbrains.ws.253
 jetbrains.ws.261
 jetbrains.ws.csat
 llm.ai.assistant
+localizationswitcherd
 loginwindow
 mbuseragent
 openclaw

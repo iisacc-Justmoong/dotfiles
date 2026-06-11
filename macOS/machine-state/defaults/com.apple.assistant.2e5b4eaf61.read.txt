@@ -16,9 +16,9 @@
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
             "Ace Host" = se12sa;
-            "Build Version" = 25F80;
+            "Build Version" = 26A5353q;
             "Last Assistant Data Anchor" = 1f7bf8d853b5befcd1c12b3dbc5a853b23751d8b;
-            "Validation Expiration" = "2026-06-10 23:49:44 +0000";
+            "Validation Expiration" = "2026-06-13 23:14:57 +0000";
             "Validation Version" = 1;
         };
     };
@@ -35,16 +35,16 @@
     "Initial Interstitial Delay - stark" = 5;
     "Initial Interstitial Delay for VoiceTrigger One-Shot without Audio Ducking" = "1.75";
     "Is Siri full UOD Supported" = 1;
-    "Is Trial config set to disable NL Server Fallback for Domain" = 1;
-    "Is Trial config set to disable NL Server Fallback for NL" = 1;
+    "Is Trial config set to disable NL Server Fallback for Domain" = 0;
+    "Is Trial config set to disable NL Server Fallback for NL" = 0;
     "Is Trial config set to disable media entity sync" = 1;
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
     "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-06-07 22:48:31 +0000";
-    "Last server experiment check date" = "2026-06-07 22:48:31 +0000";
+    "Last client experiment check date" = "2026-06-10 22:14:50 +0000";
+    "Last server experiment check date" = "2026-06-10 22:14:50 +0000";
     "Manual Endpointing Threshold" = 2;
-    "MultiUser Shared Data Needs Sync" = 1;
+    "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";
     "Myriad Device Class" = 9;
     "Myriad Device Delay" = 0;

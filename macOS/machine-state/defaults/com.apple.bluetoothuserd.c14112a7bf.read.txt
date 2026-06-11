@@ -1,11 +1,12 @@
 {
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303238 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
     CloudKitAccountInfoCache =     {
-        2692f03ebb1bac47f6a5a9b1e4d83f10c2179571d1db109f6a3711df4dc8b498 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        1f981426cde59404f85a073fcce0cfbd6829c5e87426c75d740a3306783de93b = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
-    LastOSLaunchVersion = 25F80;
-    lastLaunchBootSessionUUID = "A92FEC01-005F-4606-BB9C-EE2B7E2B92D1";
+    LastOSLaunchVersion = 26A5353q;
+    lastLaunchBootSessionUUID = "5C98BACC-7177-4266-A55B-BF500D80C90B";
 }

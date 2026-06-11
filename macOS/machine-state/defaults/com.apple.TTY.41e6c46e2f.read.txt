@@ -12,5 +12,7 @@
         RTTWildcardContext = 1;
     };
     TUIsRelayCallingEnabledPreference = 1;
+    TUIsThumperCallingEnabledPreference = 0;
     TUSupportsRelayCallingPreference = 1;
+    TUSupportsThumperCallingPreference = 0;
 }

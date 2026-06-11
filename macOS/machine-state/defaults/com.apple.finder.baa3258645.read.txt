@@ -648,40 +648,40 @@
             name = Downloads;
         },
                 {
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
+        },
+                {
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = dist;
+        },
+                {
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = Vincent;
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
+        },
+                {
             "file-bookmark" = {length = 1164, bytes = 0x626f6f6b 8c040000 00000510 40000000 ... 58010000 00000000 };
-            name = "\\U1109\\U1161\\U11bc\\U1111\\U116e\\U11b7\\U1103\\U1173\\U11bc\\U1105\\U1169\\U11a8 \\U110b\\U1175\\U1106\\U1175\\U110c\\U1175\\U1111\\U1161\\U110b\\U1175\\U11af";
+            name = "\U1109\U1161\U11bc\U1111\U116e\U11b7\U1103\U1173\U11bc\U1105\U1169\U11a8 \U110b\U1175\U1106\U1175\U110c\U1175\U1111\U1161\U110b\U1175\U11af";
         },
                 {
             "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
             name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
-            name = Job;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Smartstore;
-        },
-                {
-            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "SAMSUNG 990 PRO";
-        },
-                {
-            "file-bookmark" = {length = 1164, bytes = 0x626f6f6b 8c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "ASUS ROG Swift 32\\U110b\\U1175\\U11ab\\U110e\\U1175 4K OLED \\U1100\\U1166\\U110b\\U1175\\U1106\\U1175\\U11bc \\U1106\\U1169\\U1102\\U1175\\U1110\\U1165 (PG32UCDMR)";
-        },
-                {
-            "file-bookmark" = {length = 1180, bytes = 0x626f6f6b 9c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "Sony WH-1000XM5 \\U1111\\U1173\\U1105\\U1175\\U1106\\U1175\\U110b\\U1165\\U11b7 \\U1102\\U1169\\U110b\\U1175\\U110c\\U1173 \\U110f\\U1162\\U11ab\\U1109\\U1173\\U11af\\U1105\\U1175\\U11bc \\U1112\\U1166\\U1103\\U1173\\U1111\\U1169\\U11ab";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -905,7 +905,7 @@
             WindowBounds = "{{737, 558}, {920, 492}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -920,9 +920,34 @@
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
     "NSToolbar Configuration Browser" =     {
+        "TB Default Item Identifiers" =         (
+            "com.apple.finder.BACK",
+            "com.apple.finder.SWCH",
+            NSToolbarSpaceItem,
+            "com.apple.finder.ARNG",
+            NSToolbarSpaceItem,
+            "com.apple.finder.SHAR",
+            "com.apple.finder.LABL",
+            "com.apple.finder.ACTN",
+            NSToolbarSpaceItem,
+            "com.apple.finder.SRCH",
+            "com.apple.finder.SIRI"
+        );
         "TB Display Mode" = 2;
         "TB Icon Size Mode" = 1;
         "TB Is Shown" = 1;
+        "TB Item Identifiers" =         (
+            "com.apple.finder.BACK",
+            "com.apple.finder.SWCH",
+            NSToolbarSpaceItem,
+            "com.apple.finder.ARNG",
+            NSToolbarSpaceItem,
+            "com.apple.finder.SHAR",
+            "com.apple.finder.LABL",
+            "com.apple.finder.ACTN",
+            NSToolbarSpaceItem,
+            "com.apple.finder.SRCH"
+        );
         "TB Size Mode" = 1;
     };
     "NSWindow Frame GoToSheet" = "1050 893 460 183 0 0 2560 1409 ";
@@ -950,13 +975,13 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
         "file:///Volumes/Storage/Job/Smartstore/Product/Sony%20WH-1000XM5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%B7%20%E1%84%82%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%20%E1%84%8F%E1%85%A2%E1%86%AB%E1%84%89%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%92%E1%85%A6%E1%84%83%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AB/",
         "file:///Volumes/Storage/Job/Smartstore/Product/ASUS%20ROG%20Swift%2032%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%B5%204K%20OLED%20%E1%84%80%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%86%BC%20%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%20(PG32UCDMR)/",
         "file:///Volumes/Storage/Job/Smartstore/Product/SAMSUNG%20990%20PRO/",
         "file:///Volumes/Storage/Job/Smartstore/",
         "file:///Volumes/Storage/Job/AI_Video/Test/",
         "file:///Volumes/Storage/Workspace/lib/LVRS/resources/iconset/",
-        "file:///Applications/",
         "file:///Applications/Utilities/",
         "file:///Volumes/Storage/Workspace/Product/WhatSon/resources/",
         "file:///Volumes/Storage/Workspace/Product/WhatSon/"

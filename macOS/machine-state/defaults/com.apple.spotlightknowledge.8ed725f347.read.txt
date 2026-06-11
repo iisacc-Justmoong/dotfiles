@@ -1,19 +1,24 @@
 {
     SpotlightKnowledgeV2 =     {
-        embeddingGenStartTime = "2026-01-17T09:01:20Z";
+        embeddingGenStartTime = "2026-06-10T02:42:39Z";
+        embeddingModelVersion = 10;
         graphVersionV2 = 29;
         keyphraseGenStartTime = "2026-01-17T08:57:02Z";
         sessions =         (
         );
         stats =         (
-            "2026-06-08:didScoreGraph:21",
-            "2026-06-08:people indexing all done:26",
-            "2026-06-08:[1]journalProcessedCount:2",
-            "2026-06-08:completed graph analysis:27",
-            "2026-06-08:currentPid:20",
-            "2026-06-08:[2]queryItemUpdatedCount:60",
-            "2026-06-08:[2]queryItemExtractedCount:60"
+            "2026-06-10:didScoreGraph:21",
+            "2026-06-10:[2]queryItemExtractedCount:777",
+            "2026-06-10:people indexing all done:26",
+            "2026-06-10:[1]journalProcessedCount:2",
+            "2026-06-10:completed graph analysis:27",
+            "2026-06-10:text processing all done:23",
+            "2026-06-10:[2]queryItemUpdatedCount:777",
+            "2026-06-10:currentPid:8"
         );
         version = V2;
     };
+    "hdbCutover.mail.evaluationCount" = 1;
+    "hdbCutover.mail.firstEvaluated" = "1781052457.312748";
+    "stateDump.lastEvaluationTimestamp" = "1781059314.64203";
 }
