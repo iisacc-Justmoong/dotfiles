@@ -9,16 +9,16 @@
     };
     RefreshEvents =     {
         "com.apple.MobileAsset.AXIconVision" =         (
-            "2026-06-02 15:12:52 +0000",
             "2026-06-04 20:51:21 +0000",
             "2026-06-07 07:26:39 +0000",
-            "2026-06-09 11:39:21 +0000"
+            "2026-06-09 11:39:21 +0000",
+            "2026-06-11 12:33:28 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-06-10 00:32:48 +0000",
-            "2026-06-10 00:44:16 +0000",
-            "2026-06-10 00:47:43 +0000",
-            "2026-06-10 22:15:04 +0000"
+            "2026-06-10 22:15:04 +0000",
+            "2026-06-10 22:20:15 +0000",
+            "2026-06-10 22:30:13 +0000",
+            "2026-06-11 10:49:01 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-06-02 15:12:52 +0000",
@@ -146,7 +146,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -154,14 +154,14 @@
     UserInfo =     {
         "com.apple.MobileAsset.AXIconVision" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-06-09 11:39:21 +0000";
+                Date = "2026-06-11 12:33:29 +0000";
                 LastExitStatus = Failed;
                 Phase = Idle;
             };
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-06-10 22:15:10 +0000";
+                Date = "2026-06-11 10:49:01 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };

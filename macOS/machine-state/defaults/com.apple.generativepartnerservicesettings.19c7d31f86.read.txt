@@ -5,8 +5,8 @@
             unavailable = 0;
         };
     };
-    externalProviders = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    externalProvidersSHA256Hash = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855;
+    externalProviders = {length = 392, bytes = 0x62706c69 73743030 a101d602 03040506 ... 00000000 00000140 };
+    externalProvidersSHA256Hash = fa93ffcbf7b81d558b4151a7ab31dfdebe8c3f5f4cdf5712823483f5fc809fbd;
     externalVipProviderMetadata = {length = 245, bytes = 0x62706c69 73743030 d101025f 101d6578 ... 00000000 000000c6 };
     gatMigrationComplete2 = 1;
 }

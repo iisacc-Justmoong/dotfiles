@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3599;
+    "mod-count" = 3610;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3860270127;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 256971756956839;
+                "parent-mod-date" = 156890429290073;
             };
             "tile-type" = "file-tile";
         },
@@ -99,7 +99,7 @@
                 "file-mod-date" = 3859556640;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 63934452097930;
+                "parent-mod-date" = 497785214148;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 100665012153507;
+                "file-mod-date" = 281195372759369;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 256971756956839;
+                "parent-mod-date" = 156890429290073;
             };
             "tile-type" = "file-tile";
         },
@@ -302,6 +302,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 4232976581;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.garageband10";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/GarageBand.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = GarageBand;
+                "file-mod-date" = 15324009572042;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 156890429290073;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 567659849;
             "tile-data" =             {
                 book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
@@ -374,24 +392,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4207793654;
-            "tile-data" =             {
-                book = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.iisacc.app.whatson";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Volumes/Storage/Workspace/Product/WhatSon/build/WhatSon.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = WhatSon;
-                "file-mod-date" = 10930258143708;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3439837131271;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2152616452;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -420,10 +420,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Calendar;
-                "file-mod-date" = 3862198622;
+                "file-mod-date" = 3863545986;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3862198622;
+                "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
         },
@@ -474,10 +474,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3862198622;
+                "file-mod-date" = 3863545986;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3862198622;
+                "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
         },
@@ -492,10 +492,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Music;
-                "file-mod-date" = 3862198622;
+                "file-mod-date" = 3863545986;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3862198622;
+                "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
         },
@@ -513,7 +513,7 @@
                 "file-mod-date" = 194252349145138;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 256971756956839;
+                "parent-mod-date" = 156890429290073;
             };
             "tile-type" = "file-tile";
         },
@@ -588,24 +588,6 @@
                 "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3224310513;
-            "tile-data" =             {
-                book = {length = 692, bytes = 0x626f6f6b b4020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.appleseed.FeedbackAssistant";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Library/CoreServices/Applications/Feedback%20Assistant.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Feedback Assistant";
-                "file-mod-date" = 0;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 0;
-            };
-            "tile-type" = "file-tile";
         }
     );
     "persistent-others" =     (
@@ -652,24 +634,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3500280866;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Preview;
-                "file-mod-date" = 3862198622;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3862198622;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 3224310514;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -699,6 +663,24 @@
                 };
                 "file-label" = "Unicorn HTTPS";
                 "file-mod-date" = 27461587149320;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 156890429290073;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4232976580;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 66412647114884;
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 156890429290073;

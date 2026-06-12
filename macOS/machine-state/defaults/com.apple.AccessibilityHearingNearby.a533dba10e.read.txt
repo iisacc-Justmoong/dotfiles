@@ -2,9 +2,9 @@
     AccessibilityHearingNearby =     {
         IncomingData =         {
             TimeStamp = "2026-06-10 09:44:31:28";
-            TotalCount = 2;
+            TotalCount = 5;
             "com.apple.heard.xpc" =             {
-                Count = 2;
+                Count = 4;
                 TimeStamps =                 (
                                         (
                         "2026-06-10 09:44:31:28",
@@ -15,17 +15,46 @@
                         "2026-06-10 09:44:31:28",
                         1136,
                         "RegisterForAvailableDevicesUpdates (2)"
+                    ),
+                                        (
+                        "2026-06-11 07:52:33:13",
+                        695,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-06-11 07:52:33:13",
+                        695,
+                        "RegisterForAvailableDevicesUpdates (2)"
                     )
                 );
             };
             "com.apple.hearing.accessory" =             {
-                Count = 0;
+                Count = 1;
                 TimeStamps =                 (
+                                        (
+                        "2026-06-11 08:39:58:53",
+                        6,
+                        Watch,
+                        8388608
+                    )
                 );
             };
         };
         OutcomingData =         {
-            TotalCount = 0;
+            TimeStamp = "2026-06-11 08:39:51:51";
+            TotalCount = 1;
+            "com.apple.hearing.accessory" =             {
+                Count = 1;
+                NoWakeCount = 0;
+                TimeStamps =                 (
+                                        (
+                        "2026-06-11 08:39:51:51",
+                        1,
+                        High,
+                        HUListenModeKey
+                    )
+                );
+            };
         };
     };
 }
