@@ -13,7 +13,6 @@
         "com.apple.print.preset.settings" =         {
             "AP_ColorMatchingMode" = "AP_VendorColorMatching";
             Duplex = None;
-            HPInvalidPaperSize = false;
             "com.apple.print.DialogDismissedBy" = Print;
             "com.apple.print.PDEsUsed" = Preview;
             "com.apple.print.PageToPaperMappingAllowScalingUp" = 1;
@@ -47,6 +46,7 @@
                 "com.apple.print.ticket.type" = "com.apple.print.PaperInfoTicket";
             };
             "com.apple.print.totalPages" = 3;
+            cupsFinishingTemplate = none;
         };
     };
 }
