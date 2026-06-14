@@ -3,6 +3,12 @@
     };
     LastSystemVersion = 26A5353q;
     RefreshingWaiters =     {
+        "com.apple.remindd.RDTemplateOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItemsOnLaunch = 1;
+        };
+        "com.apple.remindd.assignmentNotificationEngine.babysitter" =         {
+            refreshFromLastConsumedOnLaunch = 1;
+        };
     };
     RestrictedWaiters =     {
     };
