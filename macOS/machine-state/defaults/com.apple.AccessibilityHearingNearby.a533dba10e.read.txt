@@ -1,58 +1,36 @@
 {
     AccessibilityHearingNearby =     {
         IncomingData =         {
-            TimeStamp = "2026-06-10 09:44:31:28";
-            TotalCount = 5;
+            TimeStamp = "2026-06-14 12:14:05:11";
+            TotalCount = 2;
             "com.apple.heard.xpc" =             {
-                Count = 4;
+                Count = 2;
                 TimeStamps =                 (
                                         (
-                        "2026-06-10 09:44:31:28",
-                        1136,
+                        "2026-06-14 12:14:05:11",
+                        700,
                         "New XPC"
                     ),
                                         (
-                        "2026-06-10 09:44:31:28",
-                        1136,
-                        "RegisterForAvailableDevicesUpdates (2)"
-                    ),
-                                        (
-                        "2026-06-11 07:52:33:13",
-                        695,
-                        "New XPC"
-                    ),
-                                        (
-                        "2026-06-11 07:52:33:13",
-                        695,
+                        "2026-06-14 12:14:05:11",
+                        700,
                         "RegisterForAvailableDevicesUpdates (2)"
                     )
                 );
             };
             "com.apple.hearing.accessory" =             {
-                Count = 1;
+                Count = 0;
                 TimeStamps =                 (
-                                        (
-                        "2026-06-11 08:39:58:53",
-                        6,
-                        Watch,
-                        8388608
-                    )
                 );
             };
         };
         OutcomingData =         {
             TimeStamp = "2026-06-11 08:39:51:51";
-            TotalCount = 1;
+            TotalCount = 0;
             "com.apple.hearing.accessory" =             {
-                Count = 1;
+                Count = 0;
                 NoWakeCount = 0;
                 TimeStamps =                 (
-                                        (
-                        "2026-06-11 08:39:51:51",
-                        1,
-                        High,
-                        HUListenModeKey
-                    )
                 );
             };
         };

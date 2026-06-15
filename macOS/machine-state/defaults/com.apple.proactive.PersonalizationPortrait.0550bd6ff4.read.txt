@@ -3,6 +3,8 @@
     "BundleIdRedactor.salt" = {length = 32, bytes = 0x0dd742eb f91f503a 807ab280 f40e89f1 ... 17bfcf7d 82142c54 };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.apple.Photos",
-        "com.apple.mobilephone"
+        "com.apple.mobilephone",
+        "com.kakao.KakaoTalkMac",
+        "com.apple.MobileSMS"
     );
 }
