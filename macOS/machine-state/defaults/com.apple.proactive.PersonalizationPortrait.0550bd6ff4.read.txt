@@ -1,10 +1,9 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-06-16 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0x386206e2 98f09b56 5ea70388 041fc1ca ... 7062dab9 0f9c68fb };
+    "BundleIdRedactor.lastRolloverDay" = "2026-06-17 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xeff530c5 210eb8ed b77301d1 41177afe ... 590e3b33 090a9a99 };
     "BundleIdRedactor.seenBundleIds" =     (
         "com.apple.MobileSMS",
         "com.kakao.KakaoTalkMac",
-        "com.apple.iCal",
         "com.apple.Photos"
     );
 }

@@ -5,12 +5,12 @@
         "53F306EB-CB95-4FB8-B92B-671EC5370B2C",
         "C51CB5E9-E073-4F45-A65D-B54649635956"
     );
-    AllDayAreaHeight = 44;
+    AllDayAreaHeight = 22;
     BirthdayEventsGenerationAttemptsToResetKey = 0;
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-06-08 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-06-18 22:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-06-16 13:43:06 +0000";
+    LastSaveDate = "2026-06-17 16:42:23 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -34,7 +34,7 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "941 59 1140 1010 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "856 59 1140 1010 0 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1272 234 300 476 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";

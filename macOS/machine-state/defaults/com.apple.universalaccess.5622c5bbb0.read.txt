@@ -2,11 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-05-19 08:57:10";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-05-20 08:46:56";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +245,11 @@
                 Date = "2026-06-16 07:49:48";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-06-17 07:30:04";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -280,7 +280,7 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "12.92142069744766";
+    closeViewDesiredZoomFactor = "1.925862822390436";
     closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
@@ -298,20 +298,24 @@
     );
     displaysLastCursorLocation =     {
         0 =         {
-            X = "2684.4375";
+            X = "5673.15625";
             Y = 1440;
         };
         1 =         {
-            X = "5788.16015625";
-            Y = "460.734375";
+            X = "6243.5078125";
+            Y = "1069.0625";
         };
         2 =         {
-            X = "1409.95703125";
-            Y = "580.02734375";
+            X = "1925.6171875";
+            Y = "1265.22265625";
+        };
+        3 =         {
+            X = "-509.10546875";
+            Y = "1236.7578125";
         };
         4 =         {
-            X = "2707.96484375";
-            Y = "415.81640625";
+            X = "2707.9296875";
+            Y = "864.61328125";
         };
     };
     hoverColorEnabled = 0;
