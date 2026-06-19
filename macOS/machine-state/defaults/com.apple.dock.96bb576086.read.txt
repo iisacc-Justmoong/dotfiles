@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3626;
+    "mod-count" = 3630;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -438,10 +438,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Reminders;
-                "file-mod-date" = 3860422397;
+                "file-mod-date" = 3863545986;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3860422397;
+                "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
         },
@@ -456,10 +456,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "App Store";
-                "file-mod-date" = 3860422397;
+                "file-mod-date" = 3863545986;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3860422397;
+                "parent-mod-date" = 3863545986;
             };
             "tile-type" = "file-tile";
         },
@@ -644,10 +644,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = KakaoTalk;
-                "file-mod-date" = 66412647114884;
+                "file-mod-date" = 190554383633813;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 92113733149047;
+                "parent-mod-date" = 160004281257370;
             };
             "tile-type" = "file-tile";
         },
@@ -670,20 +670,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3858002037;
+            GUID = 1086512014;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "jp.naver.line.mac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/LINE.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3863545986;
+                "file-label" = LINE;
+                "file-mod-date" = 271252524214220;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3863545986;
+                "parent-mod-date" = 211410744879088;
             };
             "tile-type" = "file-tile";
         }
@@ -693,7 +693,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

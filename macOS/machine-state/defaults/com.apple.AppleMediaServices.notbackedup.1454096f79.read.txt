@@ -102,6 +102,6 @@
             }
         );
     };
-    AMSDidRetrieveDeviceOffers = 0;
+    AMSDidRetrieveDeviceOffers = 1;
     AMSDidRetrieveDeviceOffersEligibility = 1;
 }

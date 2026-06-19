@@ -7,13 +7,14 @@
         sessions =         (
         );
         stats =         (
-            "2026-06-17:[2]queryItemUpdatedCount:1",
-            "2026-06-17:[2]queryItemExtractedCount:19",
-            "2026-06-17:currentPid:1"
+            "2026-06-18:[2]queryItemUpdatedCount:92",
+            "2026-06-18:currentPid:1",
+            "2026-06-18:[2]queryItemExtractedCount:92",
+            "2026-06-18:people indexing all done:26"
         );
         version = V2;
     };
-    "hdbCutover.mail.evaluationCount" = 8;
+    "hdbCutover.mail.evaluationCount" = 9;
     "hdbCutover.mail.firstEvaluated" = "1781052457.312748";
-    "stateDump.lastEvaluationTimestamp" = "1781664089.866992";
+    "stateDump.lastEvaluationTimestamp" = "1781750457.14892";
 }

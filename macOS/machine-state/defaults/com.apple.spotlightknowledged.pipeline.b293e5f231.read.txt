@@ -2,31 +2,31 @@
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
             default =             {
-                metricsLastFetchDate = "2026-06-17 02:41:24 +0000";
+                metricsLastFetchDate = "2026-06-18 02:40:44 +0000";
                 metricsWriting = 0;
-                timestamp = "803356885.0458651";
+                timestamp = "803443245.190926";
                 versionNumber = 1;
             };
             "pipeline:Embedding" =             {
                 awaitingRedonationBundles =                 (
-                    "com.apple.MobileSMS",
+                    "com.apple.AppStore",
+                    "com.apple.Notes",
+                    "com.apple.CalendarUI",
+                    "com.apple.campo",
                     "com.apple.mobilephone",
                     "com.apple.Safari",
-                    "com.apple.AppStore",
-                    "com.apple.shortcuts",
-                    "com.apple.CalendarUI",
+                    "com.apple.MobileSMS",
+                    "com.apple.spotlight.events",
                     "com.apple.systempreferences",
                     "com.apple.appplaceholdersyncd",
-                    "com.apple.helpviewer",
-                    "com.apple.spotlight.events",
-                    "com.apple.Notes",
-                    "com.apple.campo"
+                    "com.apple.shortcuts",
+                    "com.apple.helpviewer"
                 );
-                completedProcessingNoResultCount = 24724;
+                completedProcessingNoResultCount = 27402;
                 enabledDate = "2026-06-10 00:32:44 +0000";
                 "itemsAwaitingRedonation_com.apple.AppStore" = 0;
                 "itemsAwaitingRedonation_com.apple.CalendarUI" = 0;
-                "itemsAwaitingRedonation_com.apple.MobileSMS" = 0;
+                "itemsAwaitingRedonation_com.apple.MobileSMS" = 3;
                 "itemsAwaitingRedonation_com.apple.Notes" = 45;
                 "itemsAwaitingRedonation_com.apple.Safari" = 10;
                 "itemsAwaitingRedonation_com.apple.appplaceholdersyncd" = 0;
@@ -36,33 +36,33 @@
                 "itemsAwaitingRedonation_com.apple.shortcuts" = 0;
                 "itemsAwaitingRedonation_com.apple.spotlight.events" = 0;
                 "itemsAwaitingRedonation_com.apple.systempreferences" = 0;
-                itemsInstantProcessed = 518;
+                itemsInstantProcessed = 682;
                 itemsInstantUnprocessed = 0;
                 "journalCookie_1" = "07E59967-A99A-41A0-A4FF-BC6B2EF5DB88";
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 257;
-                lastMetricsFetchCompletedProcessingNoResultCount = 24383;
-                lastMetricsFetchJournalsPurged = 218;
-                lastMetricsFetchProcessedRedonationsRequested = 8580;
-                lastMetricsFetchRedonationsRequested = 35310;
+                journalsPurged = 329;
+                lastMetricsFetchCompletedProcessingNoResultCount = 26565;
+                lastMetricsFetchJournalsPurged = 271;
+                lastMetricsFetchProcessedRedonationsRequested = 9797;
+                lastMetricsFetchRedonationsRequested = 39735;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222409;
-                "lastMetricsFetchSerialNumber_5" = 35855;
-                lastMetricsItemsInstantProcessed = 441;
+                "lastMetricsFetchSerialNumber_3" = 232320;
+                "lastMetricsFetchSerialNumber_5" = 38065;
+                lastMetricsItemsInstantProcessed = 612;
                 lastMetricsItemsInstantUnprocessed = 0;
-                lastMetricsTimeSpentProcessing = 595;
+                lastMetricsTimeSpentProcessing = 676;
                 loggingVersion = "3-10";
-                processedRedonationsRequested = 9779;
-                redonationsRequested = 39712;
+                processedRedonationsRequested = 10996;
+                redonationsRequested = 44127;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 222701;
-                "serialNumber_5" = 36397;
-                timeSpentProcessing = 609;
-                timestamp = "803387625.40887";
+                "serialNumber_3" = 240871;
+                "serialNumber_5" = 39419;
+                timeSpentProcessing = 724;
+                timestamp = "803497269.693472";
             };
             "pipeline:FullEmbedding" =             {
                 enabledDate = "2026-06-10 00:32:44 +0000";
@@ -70,25 +70,25 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 219;
-                lastMetricsFetchJournalsPurged = 187;
+                journalsPurged = 284;
+                lastMetricsFetchJournalsPurged = 230;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222418;
-                "lastMetricsFetchSerialNumber_5" = 35855;
-                lastMetricsTimeSpentProcessing = 39;
+                "lastMetricsFetchSerialNumber_3" = 232323;
+                "lastMetricsFetchSerialNumber_5" = 38065;
+                lastMetricsTimeSpentProcessing = 46;
                 loggingVersion = "3-10";
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 224531;
-                "serialNumber_5" = 36396;
-                timeSpentProcessing = 42;
-                timestamp = "803387511.036395";
+                "serialNumber_3" = 245845;
+                "serialNumber_5" = 39419;
+                timeSpentProcessing = 53;
+                timestamp = "803497074.572443";
             };
             "pipeline:GLPEmbedding" =             {
                 awaitingRedonationBundles =                 (
-                    "AppIntentsIndexedEntity:com.apple.contactsd",
                     ArchetypeWritingAssistantProfiles,
+                    "AppIntentsIndexedEntity:com.apple.contactsd",
                     "AppIntentsIndexedEntity:com.apple.mail"
                 );
                 enabledDate = "2026-06-10 00:32:34 +0000";
@@ -96,20 +96,20 @@
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
                 "itemsAwaitingRedonation_ArchetypeWritingAssistantProfiles" = 0;
                 loggingVersion = 655362;
-                timestamp = "803356889.834866";
+                timestamp = "803443257.1149859";
             };
             "pipeline:GLPIndexing" =             {
                 awaitingRedonationBundles =                 (
-                    "AppIntentsIndexedEntity:com.apple.contactsd",
+                    "AppIntentsIndexedEntity:com.apple.mail",
                     ArchetypeWritingAssistantProfiles,
-                    "AppIntentsIndexedEntity:com.apple.mail"
+                    "AppIntentsIndexedEntity:com.apple.contactsd"
                 );
                 enabledDate = "2026-06-10 00:32:34 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.contactsd" = 0;
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
                 "itemsAwaitingRedonation_ArchetypeWritingAssistantProfiles" = 0;
                 loggingVersion = 2;
-                timestamp = "803356889.8425291";
+                timestamp = "803443257.071615";
             };
             "pipeline:GLPMailAttachments" =             {
                 awaitingRedonationBundles =                 (
@@ -118,20 +118,20 @@
                 enabledDate = "2026-06-10 00:32:34 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
                 loggingVersion = 655362;
-                timestamp = "803356889.836007";
+                timestamp = "803443257.118733";
             };
             "pipeline:Keyphrase" =             {
                 awaitingRedonationBundles =                 (
-                    "com.apple.helpviewer",
                     "com.apple.Notes",
-                    "com.apple.tips",
-                    "com.apple.Safari",
+                    "com.apple.helpviewer",
                     "com.apple.mail",
-                    "com.apple.MobileSMS"
+                    "com.apple.tips",
+                    "com.apple.MobileSMS",
+                    "com.apple.Safari"
                 );
-                completedProcessingNoResultCount = 83251;
+                completedProcessingNoResultCount = 84003;
                 enabledDate = "2026-03-26 11:54:18 +0000";
-                "itemsAwaitingRedonation_com.apple.MobileSMS" = 0;
+                "itemsAwaitingRedonation_com.apple.MobileSMS" = 3;
                 "itemsAwaitingRedonation_com.apple.Notes" = 0;
                 "itemsAwaitingRedonation_com.apple.Safari" = 0;
                 "itemsAwaitingRedonation_com.apple.helpviewer" = 14270;
@@ -141,25 +141,25 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 2565;
-                lastMetricsFetchCompletedProcessingNoResultCount = 83234;
-                lastMetricsFetchJournalsPurged = 2530;
-                lastMetricsFetchProcessedRedonationsRequested = 24962;
-                lastMetricsFetchRedonationsRequested = 501641;
+                journalsPurged = 2630;
+                lastMetricsFetchCompletedProcessingNoResultCount = 83986;
+                lastMetricsFetchJournalsPurged = 2576;
+                lastMetricsFetchProcessedRedonationsRequested = 27438;
+                lastMetricsFetchRedonationsRequested = 513166;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222418;
-                "lastMetricsFetchSerialNumber_5" = 35855;
-                lastMetricsTimeSpentProcessing = 33384;
+                "lastMetricsFetchSerialNumber_3" = 232322;
+                "lastMetricsFetchSerialNumber_5" = 38065;
+                lastMetricsTimeSpentProcessing = 33387;
                 loggingVersion = 13;
-                processedRedonationsRequested = 27435;
-                redonationsRequested = 513143;
+                processedRedonationsRequested = 29920;
+                redonationsRequested = 524658;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 224532;
-                "serialNumber_5" = 36397;
-                timeSpentProcessing = 33385;
-                timestamp = "803387574.451758";
+                "serialNumber_3" = 245885;
+                "serialNumber_5" = 39419;
+                timeSpentProcessing = 33391;
+                timestamp = "803497074.610031";
             };
             "pipeline:LSSR5CarkeydataBackground" =             {
                 awaitingRedonationBundles =                 (
@@ -173,25 +173,25 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 237;
-                lastMetricsFetchJournalsPurged = 202;
+                journalsPurged = 302;
+                lastMetricsFetchJournalsPurged = 248;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222418;
-                "lastMetricsFetchSerialNumber_5" = 35855;
+                "lastMetricsFetchSerialNumber_3" = 232323;
+                "lastMetricsFetchSerialNumber_5" = 38065;
                 loggingVersion = NA;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 224524;
-                "serialNumber_5" = 36396;
-                timestamp = "803387510.973213";
+                "serialNumber_3" = 245845;
+                "serialNumber_5" = 39419;
+                timestamp = "803497058.274737";
             };
             "pipeline:LSSR5EventsandordersBackground" =             {
                 awaitingRedonationBundles =                 (
-                    "AppIntentsIndexedEntity:com.apple.mail",
                     "com.apple.MobileSMS",
                     "com.apple.CalendarUI",
-                    "AppIntentsIndexedEntity:com.apple.contactsd"
+                    "AppIntentsIndexedEntity:com.apple.contactsd",
+                    "AppIntentsIndexedEntity:com.apple.mail"
                 );
                 enabledDate = "2026-03-26 11:54:18 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.contactsd" = 0;
@@ -202,18 +202,18 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 2549;
-                lastMetricsFetchJournalsPurged = 2514;
+                journalsPurged = 2614;
+                lastMetricsFetchJournalsPurged = 2560;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222418;
-                "lastMetricsFetchSerialNumber_5" = 35855;
+                "lastMetricsFetchSerialNumber_3" = 232321;
+                "lastMetricsFetchSerialNumber_5" = 38065;
                 loggingVersion = NA;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 224531;
-                "serialNumber_5" = 36397;
-                timestamp = "803387560.7264349";
+                "serialNumber_3" = 245885;
+                "serialNumber_5" = 39419;
+                timestamp = "803497058.275434";
             };
             "pipeline:LSSR5EventsandordersUrgent" =             {
                 awaitingRedonationBundles =                 (
@@ -221,10 +221,10 @@
                 );
                 enabledDate = "2026-03-26 11:54:18 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
-                journalsPurged = 3547;
-                lastMetricsFetchJournalsPurged = 3507;
+                journalsPurged = 3624;
+                lastMetricsFetchJournalsPurged = 3562;
                 loggingVersion = NA;
-                timestamp = "803356889.837823";
+                timestamp = "803443257.080312";
             };
             "pipeline:LSSR5IdentificationdocumentsBackground" =             {
                 awaitingRedonationBundles =                 (
@@ -233,32 +233,32 @@
                 );
                 enabledDate = "2026-03-26 11:54:18 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
-                "itemsAwaitingRedonation_com.apple.MobileSMS" = 4;
+                "itemsAwaitingRedonation_com.apple.MobileSMS" = 0;
                 "journalCookie_1" = "07E59967-A99A-41A0-A4FF-BC6B2EF5DB88";
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 2505;
-                lastMetricsFetchJournalsPurged = 2466;
+                journalsPurged = 2574;
+                lastMetricsFetchJournalsPurged = 2519;
                 lastMetricsFetchProcessedRedonationsRequested = 7;
-                lastMetricsFetchRedonationsRequested = 27;
+                lastMetricsFetchRedonationsRequested = 31;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222409;
-                "lastMetricsFetchSerialNumber_5" = 35855;
+                "lastMetricsFetchSerialNumber_3" = 232323;
+                "lastMetricsFetchSerialNumber_5" = 38065;
                 loggingVersion = NA;
                 processedRedonationsRequested = 7;
                 redonationsRequested = 31;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 222701;
-                "serialNumber_5" = 36397;
-                timestamp = "803387594.109532";
+                "serialNumber_3" = 240868;
+                "serialNumber_5" = 39419;
+                timestamp = "803497202.630275";
             };
             "pipeline:LSSR5SmartrepliesBackground" =             {
                 awaitingRedonationBundles =                 (
-                    "AppIntentsIndexedEntity:com.apple.mail",
-                    "com.apple.MobileSMS"
+                    "com.apple.MobileSMS",
+                    "AppIntentsIndexedEntity:com.apple.mail"
                 );
                 enabledDate = "2026-06-10 00:32:26 +0000";
                 "itemsAwaitingRedonation_AppIntentsIndexedEntity:com.apple.mail" = 0;
@@ -267,25 +267,25 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 239;
-                lastMetricsFetchJournalsPurged = 200;
+                journalsPurged = 315;
+                lastMetricsFetchJournalsPurged = 253;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222409;
-                "lastMetricsFetchSerialNumber_5" = 35855;
+                "lastMetricsFetchSerialNumber_3" = 232324;
+                "lastMetricsFetchSerialNumber_5" = 38065;
                 loggingVersion = NA;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 222701;
-                "serialNumber_5" = 36397;
-                timestamp = "803387674.3354959";
+                "serialNumber_3" = 240868;
+                "serialNumber_5" = 39419;
+                timestamp = "803496954.20947";
             };
             "pipeline:Migration" =             {
                 awaitingRedonationBundles =                 (
                     "com.apple.mail",
                     "com.apple.contactsd"
                 );
-                completedProcessingNoResultCount = 6880;
+                completedProcessingNoResultCount = 6881;
                 enabledDate = "2026-06-10 00:32:34 +0000";
                 "itemsAwaitingRedonation_com.apple.contactsd" = 0;
                 "itemsAwaitingRedonation_com.apple.mail" = 495;
@@ -293,25 +293,25 @@
                 "journalCookie_2" = "64AD9A8E-A434-482F-B058-A16B82B51FC8";
                 "journalCookie_3" = "E2059DB9-834C-45A4-9A18-4EDE0C64B3D1";
                 "journalCookie_5" = "B0D3A459-5401-4A48-8BCB-E4423103462C";
-                journalsPurged = 92;
+                journalsPurged = 101;
                 lastMetricsFetchCompletedProcessingNoResultCount = 6880;
-                lastMetricsFetchJournalsPurged = 80;
-                lastMetricsFetchProcessedRedonationsRequested = 39422;
-                lastMetricsFetchRedonationsRequested = 49940;
+                lastMetricsFetchJournalsPurged = 96;
+                lastMetricsFetchProcessedRedonationsRequested = 45975;
+                lastMetricsFetchRedonationsRequested = 57045;
                 "lastMetricsFetchSerialNumber_1" = 910;
                 "lastMetricsFetchSerialNumber_2" = 910;
-                "lastMetricsFetchSerialNumber_3" = 222410;
-                "lastMetricsFetchSerialNumber_5" = 35855;
-                lastMetricsTimeSpentProcessing = 1072;
+                "lastMetricsFetchSerialNumber_3" = 232894;
+                "lastMetricsFetchSerialNumber_5" = 38113;
+                lastMetricsTimeSpentProcessing = 1123;
                 loggingVersion = 2;
-                processedRedonationsRequested = 45975;
-                redonationsRequested = 57045;
+                processedRedonationsRequested = 52528;
+                redonationsRequested = 64150;
                 "serialNumber_1" = 910;
                 "serialNumber_2" = 910;
-                "serialNumber_3" = 230000;
-                "serialNumber_5" = 37371;
-                timeSpentProcessing = 1108;
-                timestamp = "803411993.173861";
+                "serialNumber_3" = 245747;
+                "serialNumber_5" = 39419;
+                timeSpentProcessing = 1177;
+                timestamp = "803496950.399087";
             };
             "pipeline:Unattributed" =             {
                 awaitingRedonationBundles =                 (
