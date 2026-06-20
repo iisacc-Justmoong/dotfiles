@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "803098927.7562799"
+        "803606882.0022711"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3630;
+    "mod-count" = 3637;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -99,7 +99,7 @@
                 "file-mod-date" = 3859556640;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 231347982683990;
+                "parent-mod-date" = 161971376365450;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 3863432792;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 134779937951920;
+                "parent-mod-date" = 91271919728828;
             };
             "tile-type" = "file-tile";
         },
@@ -634,42 +634,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 4055677416;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.kakao.KakaoTalkMac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = KakaoTalk;
-                "file-mod-date" = 190554383633813;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 160004281257370;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3858002036;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Messages;
-                "file-mod-date" = 3863545986;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3863545986;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1086512014;
             "tile-data" =             {
                 book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
@@ -684,6 +648,42 @@
                 "file-type" = 1;
                 "is-beta" = 0;
                 "parent-mod-date" = 211410744879088;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3594933545;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 80328343085173;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3594933546;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 80328343085173;
             };
             "tile-type" = "file-tile";
         }

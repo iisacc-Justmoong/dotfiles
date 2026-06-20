@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e313839 3333337d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 32363531 3136397d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -26,11 +26,11 @@
         version = 0;
     };
     CloudKitAccountInfoCache =     {
-        2b6e2a23750935dd7306b30ce271e367165b32f39df7e29443931928b7e46788 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
-        f009f2bf9dcad1a3c22161f100e9d1f1478737b3e3ccff78a077d3da7b3437fc = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        2b6e2a23750935dd7306b30ce271e367165b32f39df7e29443931928b7e46788 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        f009f2bf9dcad1a3c22161f100e9d1f1478737b3e3ccff78a077d3da7b3437fc = {length = 562, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c6 };
     };
     "_CPLLastPushEvent-production" =     {
-        date = "2026-06-18 08:40:09 +0000";
+        date = "2026-06-19 08:31:39 +0000";
         topic = "com.apple.icloud-container.com.apple.photos.cloud";
         userInfo =         {
             ck =             {
@@ -43,13 +43,13 @@
                     zid = PrimarySync;
                     zoid = "_08a6f736ef723a39f3f5718f7831077a";
                 };
-                nid = "6d1a79f3-0199-4182-accd-35e244e8adcc";
+                nid = "f3c72203-bff2-4533-a9cc-3a859d97c36e";
             };
         };
     };
     "_CPLLastUpdateForCPLCloudKitCoordinator-com.apple.photos.cloud" = "2026-06-10 00:32:40 +0000";
     "_CPLLastUpdateForCPLEngineParameters-SystemLibrary" = "2026-06-10 00:32:40 +0000";
-    "_CPLLastUpdateFor_CPLLastPushEvent-production" = "2026-06-18 08:40:09 +0000";
+    "_CPLLastUpdateFor_CPLLastPushEvent-production" = "2026-06-19 08:31:39 +0000";
     "_CPLLastUpdateFor_CPLPushEnvironments" = "2026-06-14 03:02:31 +0000";
     "_CPLPushEnvironments" =     {
         production = enabled;

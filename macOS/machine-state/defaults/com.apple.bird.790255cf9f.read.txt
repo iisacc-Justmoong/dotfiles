@@ -1,9 +1,12 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e313839 3333337d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303336 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
+    CloudKitAccountInfoCache =     {
+        d94983563a9c037d25b6f8ec18a2e3d434d5fd461bbb643a9d2f0cbb909f36bf = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
     "com.apple.clouddocs.unshared.moveOut.suppress" = 1;
     "icloud-drive.account-migration-status.17533321770" = 4;
     "optimize-storage" = 1;
