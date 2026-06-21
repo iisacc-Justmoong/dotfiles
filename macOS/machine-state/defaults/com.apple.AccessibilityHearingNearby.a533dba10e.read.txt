@@ -1,70 +1,44 @@
 {
     AccessibilityHearingNearby =     {
         IncomingData =         {
-            TimeStamp = "2026-06-17 14:52:53:39";
-            TotalCount = 1;
+            TimeStamp = "2026-06-20 09:16:38:10";
+            TotalCount = 2;
             "com.apple.heard.xpc" =             {
+                Count = 2;
+                TimeStamps =                 (
+                                        (
+                        "2026-06-20 09:16:38:10",
+                        706,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-06-20 09:16:38:10",
+                        706,
+                        "RegisterForAvailableDevicesUpdates (2)"
+                    )
+                );
+            };
+            "com.apple.hearing.accessory" =             {
                 Count = 0;
                 TimeStamps =                 (
                 );
             };
-            "com.apple.hearing.accessory" =             {
-                Count = 1;
-                TimeStamps =                 (
-                                        (
-                        "2026-06-17 14:52:53:39",
-                        6,
-                        Watch,
-                        8388608
-                    )
-                );
-            };
         };
         OutcomingData =         {
-            TimeStamp = "2026-06-17 13:47:38:55";
-            TotalCount = 7;
+            TimeStamp = "2026-06-20 10:03:34:60";
+            TotalCount = 2;
             "com.apple.hearing.accessory" =             {
-                Count = 7;
+                Count = 2;
                 NoWakeCount = 0;
                 TimeStamps =                 (
                                         (
-                        "2026-06-17 13:47:38:55",
+                        "2026-06-20 10:03:34:60",
                         1,
                         High,
                         HUListenModeKey
                     ),
                                         (
-                        "2026-06-17 13:51:26:31",
-                        1,
-                        High,
-                        HUListenModeKey
-                    ),
-                                        (
-                        "2026-06-17 13:53:43:99",
-                        1,
-                        High,
-                        HUListenModeKey
-                    ),
-                                        (
-                        "2026-06-17 13:55:14:89",
-                        1,
-                        High,
-                        HUListenModeKey
-                    ),
-                                        (
-                        "2026-06-17 14:00:44:06",
-                        1,
-                        High,
-                        HUListenModeKey
-                    ),
-                                        (
-                        "2026-06-17 14:00:46:09",
-                        1,
-                        High,
-                        HUListenModeKey
-                    ),
-                                        (
-                        "2026-06-17 14:03:15:53",
+                        "2026-06-20 10:23:04:84",
                         1,
                         High,
                         HUListenModeKey

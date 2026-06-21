@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 31353730 3431317d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e323031 3838397d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -7,5 +7,5 @@
     CloudKitAccountInfoCache =     {
         e9b1ce2582579e8631bd5027b5050b0a4ee92f5bb57eb8262a374eda683beac1 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
-    lastCloudSyncTimestampKey = "2026-06-19 12:33:57 +0000";
+    lastCloudSyncTimestampKey = "2026-06-20 12:08:17 +0000";
 }

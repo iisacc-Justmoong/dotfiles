@@ -15,10 +15,10 @@
             "2026-06-18 15:02:13 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-06-18 10:49:17 +0000",
-            "2026-06-18 22:30:31 +0000",
             "2026-06-19 10:48:35 +0000",
-            "2026-06-20 00:08:15 +0000"
+            "2026-06-20 00:08:15 +0000",
+            "2026-06-20 00:23:27 +0000",
+            "2026-06-20 10:48:28 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-06-02 15:12:52 +0000",
@@ -134,7 +134,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -167,7 +167,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -182,7 +182,7 @@
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-06-20 00:08:20 +0000";
+                Date = "2026-06-20 10:48:29 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };
