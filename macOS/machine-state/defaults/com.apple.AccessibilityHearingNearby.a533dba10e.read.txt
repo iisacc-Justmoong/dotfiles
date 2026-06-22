@@ -2,20 +2,10 @@
     AccessibilityHearingNearby =     {
         IncomingData =         {
             TimeStamp = "2026-06-20 09:16:38:10";
-            TotalCount = 2;
+            TotalCount = 0;
             "com.apple.heard.xpc" =             {
-                Count = 2;
+                Count = 0;
                 TimeStamps =                 (
-                                        (
-                        "2026-06-20 09:16:38:10",
-                        706,
-                        "New XPC"
-                    ),
-                                        (
-                        "2026-06-20 09:16:38:10",
-                        706,
-                        "RegisterForAvailableDevicesUpdates (2)"
-                    )
                 );
             };
             "com.apple.hearing.accessory" =             {
@@ -25,20 +15,32 @@
             };
         };
         OutcomingData =         {
-            TimeStamp = "2026-06-20 10:03:34:60";
-            TotalCount = 2;
+            TimeStamp = "2026-06-21 18:42:12:64";
+            TotalCount = 4;
             "com.apple.hearing.accessory" =             {
-                Count = 2;
+                Count = 4;
                 NoWakeCount = 0;
                 TimeStamps =                 (
                                         (
-                        "2026-06-20 10:03:34:60",
+                        "2026-06-21 18:42:12:64",
                         1,
                         High,
                         HUListenModeKey
                     ),
                                         (
-                        "2026-06-20 10:23:04:84",
+                        "2026-06-21 18:53:35:55",
+                        1,
+                        High,
+                        HUListenModeKey
+                    ),
+                                        (
+                        "2026-06-21 20:53:46:47",
+                        1,
+                        High,
+                        HUListenModeKey
+                    ),
+                                        (
+                        "2026-06-21 21:13:19:38",
                         1,
                         High,
                         HUListenModeKey

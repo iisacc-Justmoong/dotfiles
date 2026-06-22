@@ -1,9 +1,9 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-06-20 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xe5e5ffef 6fd89127 db39082f 25d96be3 ... 4210f81a 490750db };
+    "BundleIdRedactor.lastRolloverDay" = "2026-06-21 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xd63f87b3 87ae5325 f7ef87f7 0d2200a3 ... c25b2cfe 836b82dd };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.apple.Photos",
+        "com.apple.MobileSMS",
         "com.kakao.KakaoTalkMac",
-        "com.apple.MobileSMS"
+        "com.apple.Photos"
     );
 }
