@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "803606882.0022711"
+        "803903479.527854"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3643;
+    "mod-count" = 3651;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -261,7 +261,7 @@
                 "file-mod-date" = 3863432792;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 91271919728828;
+                "parent-mod-date" = 232275696346549;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3858630694;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 274271885621499;
+                "parent-mod-date" = 7361143957883;
             };
             "tile-type" = "file-tile";
         },
@@ -298,6 +298,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 238061015277454;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3594933549;
+            "tile-data" =             {
+                book = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 40010000 00000000 };
+                "bundle-identifier" = "com.obsproject.obs-studio";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/OBS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = OBS;
+                "file-mod-date" = 3859645509;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 232275696346549;
             };
             "tile-type" = "file-tile";
         },
@@ -549,7 +567,7 @@
                 "file-mod-date" = 3859570916;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 134779937951920;
+                "parent-mod-date" = 161172512760662;
             };
             "tile-type" = "file-tile";
         },
@@ -634,7 +652,43 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3594933545;
+            GUID = 3594933550;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Messages;
+                "file-mod-date" = 3863545986;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3863545986;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3853453217;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 7361143957883;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 3853453218;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -647,43 +701,7 @@
                 "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 80328343085173;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3594933547;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.kakao.KakaoTalkMac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = KakaoTalk;
-                "file-mod-date" = 190554383633813;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 80328343085173;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3594933548;
-            "tile-data" =             {
-                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "jp.naver.line.mac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LINE.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = LINE;
-                "file-mod-date" = 271252524214220;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 80328343085173;
+                "parent-mod-date" = 7361143957883;
             };
             "tile-type" = "file-tile";
         }

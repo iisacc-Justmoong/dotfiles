@@ -1,123 +1,20 @@
 {
     SpotlightKnowledgeV2 =     {
-        cleanupPerBundleCount =         {
-        };
-        embeddingDonationCount =         {
-        };
-        embeddingGenComplete = "0.5107153572500107";
-        "embeddingGenCompleteDay#com.apple.CalendarUI" = 11;
-        "embeddingGenCompleteDay#com.apple.MobileSMS" = 11;
-        "embeddingGenCompleteDay#com.apple.appplaceholdersyncd" = 11;
-        "embeddingGenCompleteDay#com.apple.mobilephone" = 11;
-        "embeddingGenCompleteDay#com.apple.shortcuts" = 11;
-        "embeddingGenCompleteDay#com.apple.spotlight.events" = 11;
-        "embeddingGenCompleteness#LINE.MediaService" = 0;
-        "embeddingGenCompleteness#LINE.SeekPreviewService" = 0;
-        "embeddingGenCompleteness#LINE.VideoPreviewService.0" = 0;
-        "embeddingGenCompleteness#LINE.VideoPreviewService.1" = 0;
-        "embeddingGenCompleteness#com.apple.Accessibility-Settings.extension" = 0;
-        "embeddingGenCompleteness#com.apple.ActivityMonitor" = 0;
-        "embeddingGenCompleteness#com.apple.AppStore" = "0.5";
-        "embeddingGenCompleteness#com.apple.CalendarUI" = 1;
-        "embeddingGenCompleteness#com.apple.Console" = 0;
-        "embeddingGenCompleteness#com.apple.ContinuityCaptureOnboardingUI" = 0;
-        "embeddingGenCompleteness#com.apple.FinalCut" = 0;
-        "embeddingGenCompleteness#com.apple.MenuBarAgent" = 0;
-        "embeddingGenCompleteness#com.apple.MobileAddressBook.RemoteCatalystPosterExtension" = 0;
-        "embeddingGenCompleteness#com.apple.MobileSMS" = "0.9962756052141527";
-        "embeddingGenCompleteness#com.apple.Notes" = "0.832089552238806";
-        "embeddingGenCompleteness#com.apple.Pages" = 0;
-        "embeddingGenCompleteness#com.apple.PassKit.PaymentAuthorizationUIExtension" = 0;
-        "embeddingGenCompleteness#com.apple.Preview" = 0;
-        "embeddingGenCompleteness#com.apple.ProblemReporter" = 0;
-        "embeddingGenCompleteness#com.apple.QuickTimePlayerX" = 0;
-        "embeddingGenCompleteness#com.apple.Safari" = "0.9799270072992701";
-        "embeddingGenCompleteness#com.apple.Screen-Time-Settings.extension" = 0;
-        "embeddingGenCompleteness#com.apple.SetupAssistant" = 0;
-        "embeddingGenCompleteness#com.apple.Sound-Settings.extension" = 0;
-        "embeddingGenCompleteness#com.apple.Spotlight" = 0;
-        "embeddingGenCompleteness#com.apple.TextEdit" = 0;
-        "embeddingGenCompleteness#com.apple.TextInputMenuAgent" = 0;
-        "embeddingGenCompleteness#com.apple.accessoryaccess.uiagent" = 0;
-        "embeddingGenCompleteness#com.apple.appplaceholdersyncd" = 1;
-        "embeddingGenCompleteness#com.apple.archiveutility" = 0;
-        "embeddingGenCompleteness#com.apple.campo" = 0;
-        "embeddingGenCompleteness#com.apple.contactsd" = 0;
-        "embeddingGenCompleteness#com.apple.controlcenter" = 0;
-        "embeddingGenCompleteness#com.apple.coreservices.UASharedPasteboardProgressUI" = 0;
-        "embeddingGenCompleteness#com.apple.dt.Xcode" = 0;
-        "embeddingGenCompleteness#com.apple.duetexpertd" = 0;
-        "embeddingGenCompleteness#com.apple.finder" = 0;
-        "embeddingGenCompleteness#com.apple.helpviewer" = "0.0679844818030667";
-        "embeddingGenCompleteness#com.apple.installer" = 0;
-        "embeddingGenCompleteness#com.apple.loginwindow" = 0;
-        "embeddingGenCompleteness#com.apple.mail" = 0;
-        "embeddingGenCompleteness#com.apple.metadata" = "0.9897430637468588";
-        "embeddingGenCompleteness#com.apple.mobilephone" = 1;
-        "embeddingGenCompleteness#com.apple.notificationcenterui" = 0;
-        "embeddingGenCompleteness#com.apple.print.add" = 0;
-        "embeddingGenCompleteness#com.apple.printcenter" = 0;
-        "embeddingGenCompleteness#com.apple.screencaptureui" = 0;
-        "embeddingGenCompleteness#com.apple.settings.PrivacySecurity.extension" = 0;
-        "embeddingGenCompleteness#com.apple.shortcuts" = 1;
-        "embeddingGenCompleteness#com.apple.spotlight.events" = 1;
-        "embeddingGenCompleteness#com.apple.systempreferences" = 0;
-        "embeddingGenCompleteness#com.apple.tips" = 0;
-        "embeddingGenCompleteness#com.autodesk.fusion360" = 0;
-        "embeddingGenCompleteness#com.bambulab.bambu-studio" = 0;
-        "embeddingGenCompleteness#com.blackmagic-design.DaVinciResolve" = 0;
-        "embeddingGenCompleteness#com.blackmagic-design.DaVinciResolveWelcome" = 0;
-        "embeddingGenCompleteness#com.boardtack.ScanTexter" = 0;
-        "embeddingGenCompleteness#com.canva.affinity" = 0;
-        "embeddingGenCompleteness#com.chouti.github-streak" = 0;
-        "embeddingGenCompleteness#com.crowdcafe.windowmagnet" = 0;
-        "embeddingGenCompleteness#com.diffusionbee.diffusionbee" = 0;
-        "embeddingGenCompleteness#com.epicgames.EpicGamesLauncher" = 0;
-        "embeddingGenCompleteness#com.figma.Desktop" = 0;
-        "embeddingGenCompleteness#com.google.Chrome" = 0;
-        "embeddingGenCompleteness#com.iisacc.vincent.painter" = 0;
-        "embeddingGenCompleteness#com.kakao.KakaoTalkMac" = 0;
-        "embeddingGenCompleteness#com.kyome.RunCat" = 0;
-        "embeddingGenCompleteness#com.literatureandlatte.scrivener3" = 0;
-        "embeddingGenCompleteness#com.microsoft.Excel" = 0;
-        "embeddingGenCompleteness#com.microsoft.VSCode" = 0;
-        "embeddingGenCompleteness#com.microsoft.teams2" = 0;
-        "embeddingGenCompleteness#com.naver.Whale" = 0;
-        "embeddingGenCompleteness#com.openai.chat" = 0;
-        "embeddingGenCompleteness#com.openai.codex" = 0;
-        "embeddingGenCompleteness#com.openai.sky.CUAService" = 0;
-        "embeddingGenCompleteness#com.pilotmoon.popclip" = 0;
-        "embeddingGenCompleteness#com.renfei.SnippetsLab" = 0;
-        "embeddingGenCompleteness#com.robtop.geometrydashmac" = 0;
-        "embeddingGenCompleteness#com.unicorn-soft.unicornhttpsformac" = 0;
-        "embeddingGenCompleteness#com.valvesoftware.steam.helper" = 0;
-        "embeddingGenCompleteness#com.wacom.WacomCenter" = 0;
-        "embeddingGenCompleteness#jp.naver.line.mac" = 0;
-        "embeddingGenCompleteness#mertbulan.TranslateBar" = 0;
-        "embeddingGenCompleteness#org.blenderfoundation.blender" = 0;
-        "embeddingGenCompleteness#us.electronic.mas.macdroid" = 0;
         embeddingGenStartTime = "2026-06-10T02:42:39Z";
-        embeddingGenUpdateReindexCount = 0;
-        embeddingGenUpdates = 0;
         embeddingModelVersion = 10;
         graphVersionV2 = 29;
         keyphraseGenStartTime = "2026-01-17T08:57:02Z";
-        reindexRequestPerBundleCount =         {
-        };
         sessions =         (
         );
         stats =         (
-            "2026-06-21:didScoreGraph:21",
-            "2026-06-21:[2]queryItemExtractedCount:23",
-            "2026-06-21:people indexing all done:26",
-            "2026-06-21:completed graph analysis:27",
-            "2026-06-21:text processing all done:23",
-            "2026-06-21:[2]queryItemUpdatedCount:23",
-            "2026-06-21:currentPid:5"
+            "2026-06-19:[2]queryItemUpdatedCount:50",
+            "2026-06-19:currentPid:2",
+            "2026-06-19:[2]queryItemExtractedCount:50",
+            "2026-06-19:people indexing all done:26"
         );
         version = V2;
     };
-    "hdbCutover.mail.evaluationCount" = 12;
+    "hdbCutover.mail.evaluationCount" = 14;
     "hdbCutover.mail.firstEvaluated" = "1781052457.312748";
-    "stateDump.lastEvaluationTimestamp" = "1782010498.917186";
+    "stateDump.lastEvaluationTimestamp" = "1782096056.955156";
 }
