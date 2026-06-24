@@ -35,7 +35,7 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Window 0" = "1023 129 710 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Window 0" = "-2560 0 710 842 -2560 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 710 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
     "NeverWarnAboutShortLivedSessions_A5BC6692-F4CB-432B-9A50-F74C22C672CC" = 1;
@@ -592,9 +592,9 @@
     };
     NoSyncIgnoreSystemWindowRestoration = 1;
     NoSyncInstallationId = "5E395F17-3A68-4107-85A8-61388C2E1C13";
-    NoSyncLastOSVersion = "Version 27.0 (Build 26A5353q)";
+    NoSyncLastOSVersion = "Version 27.0 (Build 26A5368g)";
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 112;
+    NoSyncLaunchExperienceControllerRunCount = 114;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
     NoSyncRecordedVariables =     {
@@ -1147,7 +1147,7 @@
     NoSyncRemoveDeprecatedKeyMappings = 1;
     NoSyncRestoreWindowsCount = 0;
     NoSyncSavedWindowPositions =     {
-        0 = "{1023, 971}";
+        0 = "{-2560, 842}";
         1 = "{1787, 953}";
         2 = "{66, 1135}";
     };

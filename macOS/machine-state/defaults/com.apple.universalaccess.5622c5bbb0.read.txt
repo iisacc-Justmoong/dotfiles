@@ -2,36 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-05-24 06:19:56";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-25 08:45:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-25 09:01:06";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-26 08:11:29";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-27 09:14:25";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-05-28 08:05:22";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-05-29 15:19:12";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +220,36 @@
                 Date = "2026-06-23 19:31:14";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-06-23 19:53:02";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-23 22:29:13";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-23 22:29:26";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-23 22:29:27";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-23 22:29:27";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-06-23 22:44:36";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -296,6 +296,28 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "-11.109375";
+            Y = 1440;
+        };
+        1 =         {
+            X = "-67.21484375";
+            Y = "690.82421875";
+        };
+        2 =         {
+            X = "6474.5390625";
+            Y = "1363.47265625";
+        };
+        3 =         {
+            X = "247.1796875";
+            Y = "105.73828125";
+        };
+        5 =         {
+            X = "3726.31640625";
+            Y = "591.68359375";
+        };
+    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;

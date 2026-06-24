@@ -21,7 +21,7 @@ gui/501/ai.openclaw.gateway = {
 	stdout path = /Users/ymy/Library/Logs/openclaw/gateway.log
 	stderr path = /dev/null
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.GL3hT0nl7m/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.x1PkE8Wsci/Listeners
 	}
 
 	default environment = {
@@ -33,15 +33,15 @@ gui/501/ai.openclaw.gateway = {
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100021]
+	domain = gui/501 [100018]
 	umask = 77
-	asid = 100021
+	asid = 100018
 	minimum runtime = 10
 	exit timeout = 20
 	runs = 1
-	pid = 827
+	pid = 2487
 	immediate reason = speculative
-	forks = 17
+	forks = 945
 	execs = 3
 	initialized = 1
 	trampolined = 1
@@ -53,7 +53,7 @@ gui/501/ai.openclaw.gateway = {
 	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 927
+		ID = 1354
 		type = resource
 		state = active
 		active count = 1
@@ -61,7 +61,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 928
+		ID = 1355
 		type = jetsam
 		state = active
 		active count = 1

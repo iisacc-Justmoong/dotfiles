@@ -1,19 +1,12 @@
 {
     AuthenticationDelegateResponseTime = "790333042.255034";
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303339 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303339 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
-    CloudKitAccountInfoCache =     {
-        e4bbba3068e8f23afc9f757973c030c390c233db5f7ef5402fa930aee3418481 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
-    };
     DidCleanLegacyAccountPrefs = 1;
     GDRRequestMadeForRelayRepair = 1;
-    "IDSActiveStorageStateMachineState-com.apple.private.alloy.quickrelay" = 3;
-    IDSActiveStorageStateMachines =     (
-        "com.apple.private.alloy.quickrelay"
-    );
     ImportedLegacyIDSAccounts2 = 1;
     ImportedLegacyIMAccounts = 1;
     LastKeyGeneration = "1768640181.632508";
@@ -40,6 +33,5 @@
     "persister-migration-com.apple.identityservicesd.offgrid.provisioning.store" = 1;
     "persister-migration-com.apple.identityservicesd.pinned-identity" = 1;
     "persister-migration-com.apple.identityservicesd.waking-push-priority" = 1;
-    services = {length = 18015, bytes = 0x1f8b0800 00000000 0013ed7d 795c1357 ... bea9a9a9 18eb0000 };
     triggeredRemoteSessionVersion = 1;
 }

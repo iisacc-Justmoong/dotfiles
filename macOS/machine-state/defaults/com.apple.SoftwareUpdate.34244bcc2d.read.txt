@@ -1,7 +1,10 @@
 {
     AutomaticCheckEnabled = 1;
     AutomaticDownload = 1;
+    AvailableUpdatesNotificationCountKey = 1;
+    AvailableUpdatesNotificationProductKey = "MSU_UPDATE_26A5368g_patch_27.0_minor";
     ConfigDataInstall = 1;
     CriticalUpdateInstall = 1;
     ScheduleFrequency = 1;
+    UserNotificationDate = "2026-06-23 11:05:42 +0000";
 }

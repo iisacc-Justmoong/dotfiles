@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 34353231 3539397d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303339 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -7,6 +7,6 @@
     CloudKitAccountInfoCache =     {
         8ec341cf3225821ef951d15b4d6274ed6ef806ff48e34d5edfe927f1364bf1e4 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
-    lastsyncdate = "2026-06-20 00:09:47 +0000";
-    osversion = "Version 27.0 (Build 26A5353q)";
+    lastsyncdate = "2026-06-23 13:31:37 +0000";
+    osversion = "Version 27.0 (Build 26A5368g)";
 }

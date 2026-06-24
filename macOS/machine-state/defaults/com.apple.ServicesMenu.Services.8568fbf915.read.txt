@@ -1,6 +1,7 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
+            "en-US",
             en
         );
         CFVendedServices =         (
@@ -69,7 +70,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Create Service";
                     default = "Create Service";
                     en = "Create Service";
                     "en-US" = "Create Service";
@@ -88,7 +88,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Create Workflow";
                     default = "Create Workflow";
                     en = "Create Workflow";
                     "en-US" = "Create Workflow";
@@ -108,7 +107,6 @@
                     default = B;
                 };
                 NSMenuItem =                 {
-                    English = "Send File To Bluetooth Device";
                     default = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
                     "en-US" = "Send File To Bluetooth Device";
@@ -129,13 +127,11 @@
                 NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                 NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                 NSKeyEquivalent =                 {
-                    English = "$^@C";
                     default = "$^@C";
                     en = "$^@C";
                     "en-US" = "$^@C";
                 };
                 NSMenuItem =                 {
-                    English = "Convert Text to Traditional Chinese";
                     default = "Convert Text from Simplified to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
                     "en-US" = "Convert Text to Traditional Chinese";
@@ -160,13 +156,11 @@
                 NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                 NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                 NSKeyEquivalent =                 {
-                    English = "$^~@C";
                     default = "$^~@C";
                     en = "$^~@C";
                     "en-US" = "$^~@C";
                 };
                 NSMenuItem =                 {
-                    English = "Convert Text to Simplified Chinese";
                     default = "Convert Text from Traditional to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
                     "en-US" = "Convert Text to Simplified Chinese";
@@ -193,7 +187,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Convert Text to Full Width";
                     default = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
                     "en-US" = "Convert Text to Full Width";
@@ -217,7 +210,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Convert Text to Half Width";
                     default = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
                     "en-US" = "Convert Text to Half Width";
@@ -241,7 +233,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Look Up in Dictionary";
                     default = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
                     "en-US" = "Look Up in Dictionary";
@@ -254,12 +245,46 @@
                 NSUUID = {length = 20, bytes = 0x6a948d3b92636f879bae3bb1efee1716a87418ef};
             },
                         {
+                NSBundleIdentifier = "com.apple.FileMerge";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/FileMerge.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "FileMerge/Compare Files";
+                };
+                NSMessage = diffFilesService;
+                NSPortName = FileMerge;
+                NSReturnTypes =                 (
+                );
+                NSSendTypes =                 (
+                    NSFilenamesPboardType
+                );
+                NSUUID = {length = 20, bytes = 0x1d09ee61a0cd441a4ef3633fd9c98024aef526c5};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.FileMerge";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/FileMerge.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "FileMerge/Compare To Main";
+                };
+                NSMessage = diffVersusMasterService;
+                NSPortName = FileMerge;
+                NSRestricted = 1;
+                NSReturnTypes =                 (
+                );
+                NSSendTypes =                 (
+                    NSFilenamesPboardType
+                );
+                NSUUID = {length = 20, bytes = 0xf99c31edf8bf29ae6f71f02e4f6b058ce46bfebc};
+            },
+                        {
                 NSBundleIdentifier = "com.apple.FolderActionsSetup";
                 NSBundlePath = "/System/Library/CoreServices/Applications/Folder Actions Setup.app";
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Folder Actions Setup\U2026";
                     default = "Folder Actions Setup";
                     en = "Folder Actions Setup\U2026";
                     "en-US" = "Folder Actions Setup\U2026";
@@ -293,7 +318,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Preview/Open images";
                     default = "Preview/Open images";
                     en = "Preview/Open images";
                     "en-US" = "Preview/Open images";
@@ -311,7 +335,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Encode Selected Audio Files";
                     default = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
                     "en-US" = "Encode Selected Audio Files";
@@ -332,7 +355,6 @@
                     default = L;
                 };
                 NSMenuItem =                 {
-                    English = "Search With %WebSearchProvider@";
                     default = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
                     "en-US" = "Search With %WebSearchProvider@";
@@ -350,7 +372,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Add to Reading List";
                     default = "Add to Reading List";
                     en = "Add to Reading List";
                     "en-US" = "Add to Reading List";
@@ -380,7 +401,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Script Editor/Make New AppleScript";
                     default = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
                     "en-US" = "Script Editor/Make New AppleScript";
@@ -398,7 +418,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Script Editor/Run as AppleScript";
                     default = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
                     "en-US" = "Script Editor/Run as AppleScript";
@@ -415,13 +434,11 @@
                 NSBundleIdentifier = "com.apple.ScriptEditor2";
                 NSBundlePath = "/System/Applications/Utilities/Script Editor.app";
                 NSKeyEquivalent =                 {
-                    English = "*";
                     default = "*";
                     en = "*";
                     "en-US" = "*";
                 };
                 NSMenuItem =                 {
-                    English = "Script Editor/Get Result of AppleScript";
                     default = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
                     "en-US" = "Script Editor/Get Result of AppleScript";
@@ -446,7 +463,6 @@
                     default = F;
                 };
                 NSMenuItem =                 {
-                    English = Spotlight;
                     default = "SEARCH_WITH_SPOTLIGHT";
                     en = Spotlight;
                     "en-US" = Spotlight;
@@ -462,13 +478,11 @@
                 NSBundleIdentifier = "com.apple.Stickies";
                 NSBundlePath = "/System/Applications/Stickies.app";
                 NSKeyEquivalent =                 {
-                    English = Y;
                     default = Y;
                     en = Y;
                     "en-US" = Y;
                 };
                 NSMenuItem =                 {
-                    English = "Make New Sticky Note";
                     default = "Make Sticky";
                     en = "Make New Sticky Note";
                     "en-US" = "Make New Sticky Note";
@@ -488,7 +502,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = Summarize;
                     default = Summarize;
                     en = Summarize;
                     "en-US" = Summarize;
@@ -506,7 +519,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "New Terminal at Folder";
                     default = "New Terminal at Folder";
                     en = "New Terminal at Folder";
                     "en-US" = "New Terminal at Folder";
@@ -531,7 +543,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "New Terminal Tab at Folder";
                     default = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
                     "en-US" = "New Terminal Tab at Folder";
@@ -558,7 +569,6 @@
                     default = M;
                 };
                 NSMenuItem =                 {
-                    English = "Open man Page in Terminal";
                     default = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
                     "en-US" = "Open man Page in Terminal";
@@ -580,7 +590,6 @@
                     default = A;
                 };
                 NSMenuItem =                 {
-                    English = "Search man Page Index in Terminal";
                     default = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
                     "en-US" = "Search man Page Index in Terminal";
@@ -601,7 +610,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "New TextEdit Window Containing Selection";
                     default = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
                     "en-US" = "New TextEdit Window Containing Selection";
@@ -621,7 +629,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Open Selected File in TextEdit";
                     default = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
                     "en-US" = "Open Selected File in TextEdit";
@@ -635,6 +642,66 @@
                     "public.plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0xa04c6e983615da28682c1d114f8217acc79fa0a6};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "System Trace";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x7bc57ab36a07f485edd69a766dec028ce6a9614c};
+                NSUserData = "System Trace.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Activity Monitor";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x8c66bf21e8a4f0c943e928706f8e9f9c1994b365};
+                NSUserData = "Activity Monitor.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Allocations & Leaks";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x06ee02323a95e927d10527190e19830e733797ec};
+                NSUserData = "Leaks.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "File Activity";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0xbc3fca11c1b15cdba0d32cb1402ef97610b52b44};
+                NSUserData = "File Activity.tracetemplate";
             },
                         {
                 NSBundleIdentifier = "com.apple.dt.Xcode";
@@ -669,62 +736,6 @@
                 NSUUID = {length = 20, bytes = 0xac6d15c0dd4b2bde14eb6b91e9fae7b4b8a64bbb};
             },
                         {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile Active Application";
-                };
-                NSMessage = timeProfileFrontMost;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x960b32e1bd2a3c9b8111d52f1631c3a271038140};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile Entire System";
-                };
-                NSMessage = timeProfileSystem;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x17278a3333e4eeafa6234bf2bb8889d1caedab36};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile App Under Mouse";
-                };
-                NSMessage = timeProfileUnderMouse;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0xdd664e55281225cdaf2cc11da66315f73733001a};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode-beta.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Toggle Instruments Recording";
-                };
-                NSMessage = toggleRecordingState;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x7eeef8fbab2ea66233ec1dbfca82807dd56916c1};
-            },
-                        {
                 NSBundleIdentifier = "com.apple.finder";
                 NSBundlePath = "/System/Library/CoreServices/Finder.app";
                 NSForbiddenContext =                 {
@@ -733,7 +744,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Finder/Open";
                     default = "Finder/Open";
                     en = "Finder/Open";
                     "en-US" = "Finder/Open";
@@ -758,7 +768,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Finder/Show in Finder";
                     default = "Finder/Reveal";
                     en = "Finder/Show in Finder";
                     "en-US" = "Finder/Show in Finder";
@@ -783,7 +792,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Finder/Show Info in Finder";
                     default = "Finder/Show Info";
                     en = "Finder/Show Info in Finder";
                     "en-US" = "Finder/Show Info in Finder";
@@ -805,7 +813,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Mail/New Email With Selection";
                     default = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
                     "en-US" = "Mail/New Email With Selection";
@@ -826,7 +833,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Mail/New Email To Address";
                     default = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
                     "en-US" = "Mail/New Email To Address";
@@ -844,7 +850,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Add to Music as a Spoken Track";
                     default = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
                     "en-US" = "Add to Music as a Spoken Track";
@@ -862,7 +867,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Encode Selected Video Files";
                     default = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
                     "en-US" = "Encode Selected Video Files";
@@ -882,7 +886,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Set Desktop Picture";
                     default = "Set Desktop Picture";
                     en = "Set Desktop Picture";
                     "en-US" = "Set Desktop Picture";
@@ -899,7 +902,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Show Map";
                     default = "Show Map";
                     en = "Show Map";
                     "en-US" = "Show Map";
@@ -920,7 +922,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Speech/Start Speaking Text";
                     default = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
                     "en-US" = "Speech/Start Speaking Text";
@@ -938,7 +939,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Speech/Stop Speaking";
                     default = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
                     "en-US" = "Speech/Stop Speaking";
@@ -956,7 +956,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Open URL";
                     default = "Open URL";
                     en = "Open URL";
                     "en-US" = "Open URL";
@@ -1073,12 +1072,49 @@
                 NSUUID = {length = 20, bytes = 0x10e0690fbf28143718e2d0e312b3b08ce940c455};
             },
                         {
+                NSBundleIdentifier = "com.kodlian.Icon-Slate";
+                NSBundlePath = "/Applications/Icon Slate.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Convert to icon(s)";
+                    en = "Convert to icon(s)";
+                    "en-US" = "Convert to icon(s)";
+                };
+                NSMessage = convertFromPasteboard;
+                NSRequiredContext =                 {
+                };
+                NSSendFileTypes =                 (
+                    "public.image"
+                );
+                NSUUID = {length = 20, bytes = 0x531f3822ad6589f088ff39fec0edc2b40e272841};
+                NSUserData = "";
+            },
+                        {
+                NSBundleIdentifier = "com.kodlian.Icon-Slate";
+                NSBundlePath = "/Applications/Icon Slate.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Combine into one icon";
+                    en = "Combine into one icon";
+                    "en-US" = "Combine into one icon";
+                };
+                NSMessage = combineFromPasteboard;
+                NSRequiredContext =                 {
+                };
+                NSSendFileTypes =                 (
+                    "public.image"
+                );
+                NSUUID = {length = 20, bytes = 0x4b3646093a84966ac8d7deb8dfd2db8fa0decc26};
+                NSUserData = group;
+            },
+                        {
                 NSBundleIdentifier = "com.literatureandlatte.scrivener3";
                 NSBundlePath = "/Applications/Scrivener.app";
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Make New Clipping";
                     default = "Scrivener/Scrivener: Make New Clipping";
                     en = "Scrivener/Scrivener: Make New Clipping";
                     "en-US" = "Scrivener/Scrivener: Make New Clipping";
@@ -1098,7 +1134,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     default = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     en = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
@@ -1118,7 +1153,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Append to Text";
                     default = "Scrivener/Scrivener: Append to Text";
                     en = "Scrivener/Scrivener: Append to Text";
                     "en-US" = "Scrivener/Scrivener: Append to Text";
@@ -1138,7 +1172,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
@@ -1158,7 +1191,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Append to Notes";
                     default = "Scrivener/Scrivener: Append to Notes";
                     en = "Scrivener/Scrivener: Append to Notes";
                     "en-US" = "Scrivener/Scrivener: Append to Notes";
@@ -1178,7 +1210,6 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    English = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     "en-US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";

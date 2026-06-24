@@ -6,11 +6,11 @@
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
-        analytics = "27.23.0";
+        analytics = "27.48.0";
         internal = "24.0.41";
         journeys = "2606.3.0";
     };
-    AMSLastMigratedBuildVersion = 26A5353q;
+    AMSLastMigratedBuildVersion = 26A5368g;
     AMSLogHARData = 0;
     AMSMediaRestrictionsAccountData =     {
         3fb2ce4c9640e88a03fe581a83f6fff0fc853ebcda72fba6847434ac44fec3ce5d672ad9e3750f2350eda320fb811bc0397654a34a5fc6ca6ed3861f8b571737 =         {
@@ -38,7 +38,7 @@
         result = 0;
     };
     "AMSSamplingSession-xp_amp_notifications_unidentified:VUWdZ8vsbKj/9eivSkJlcY7tfBs" =     {
-        date = "2026-06-22 10:48:44 +0000";
+        date = "2026-06-23 13:29:49 +0000";
         duration = 60000;
         result = 0;
     };

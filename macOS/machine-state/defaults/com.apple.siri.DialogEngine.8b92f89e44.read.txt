@@ -1,51 +1,51 @@
 {
     AudioSuggestions =     {
-        count = 151;
-        timestamp = "1781923277.102019";
+        count = 153;
+        timestamp = "1782210967.899681";
     };
     "AudioSuggestions#PlayMusic" =     {
-        count = 60;
-        timestamp = "1781923277.10182";
+        count = 61;
+        timestamp = "1782210967.899681";
     };
     "AudioSuggestions#PlayTheNews" =     {
-        count = 60;
-        timestamp = "1781923277.102019";
+        count = 61;
+        timestamp = "1782210967.89995";
     };
     "AudioSuggestions#WhatSongIsThis" =     {
-        count = 60;
-        timestamp = "1781923277.099437";
+        count = 61;
+        timestamp = "1782210967.896217";
     };
     BaseSuggestions =     {
-        count = 585;
-        timestamp = "1781923277.10139";
+        count = 590;
+        timestamp = "1782210967.899146";
     };
     "BaseSuggestions#Calendar_CheckSchedule" =     {
-        count = 60;
-        timestamp = "1781923277.099366";
+        count = 61;
+        timestamp = "1782210967.896983";
     };
     "BaseSuggestions#Calendar_CreateNewEvent" =     {
-        count = 60;
-        timestamp = "1781923277.101401";
+        count = 61;
+        timestamp = "1782210967.897039";
     };
     "BaseSuggestions#Mail_UnreadMail" =     {
-        count = 60;
-        timestamp = "1781923277.099259";
+        count = 61;
+        timestamp = "1782210967.897912";
     };
     "BaseSuggestions#Settings_ChangeSettings" =     {
-        count = 433;
-        timestamp = "1781923277.10175";
+        count = 444;
+        timestamp = "1782210967.89877";
     };
     "BaseSuggestions#Stocks_CheckMarketToday" =     {
-        count = 60;
-        timestamp = "1781923277.099871";
+        count = 61;
+        timestamp = "1782210967.899079";
     };
     "BaseSuggestions#System_SearchRestaurants" =     {
-        count = 60;
-        timestamp = "1781923277.099375";
+        count = 61;
+        timestamp = "1782210967.897586";
     };
     "BaseSuggestions#Weather_Condition" =     {
-        count = 290;
-        timestamp = "1781923277.10139";
+        count = 291;
+        timestamp = "1782210967.899146";
     };
     CrossDomainHint =     {
         count = 2;
@@ -68,119 +68,119 @@
         timestamp = "1774686908.893234";
     };
     SiriAutoComplete =     {
-        count = 1353;
-        timestamp = "1782136484.009996";
+        count = 1354;
+        timestamp = "1782211610.367192";
     };
     "SiriAutoComplete#appLaunchPhrase" =     {
-        count = 1278;
-        timestamp = "1782136484.009996";
+        count = 1279;
+        timestamp = "1782211610.367192";
     };
     "SiriAutoComplete#appMentionSuffix" =     {
         count = 75;
         timestamp = "1781914202.733889";
     };
     SocialSuggestions =     {
-        count = 193;
-        timestamp = "1781923277.099918";
+        count = 196;
+        timestamp = "1782210967.900148";
     };
     "SocialSuggestions#flipACoin" =     {
-        count = 60;
-        timestamp = "1781923277.099529";
+        count = 61;
+        timestamp = "1782210967.897965";
     };
     "SocialSuggestions#readMeAPoem" =     {
-        count = 60;
-        timestamp = "1781923277.099918";
+        count = 61;
+        timestamp = "1782210967.897043";
     };
     "SocialSuggestions#tellMeAJoke" =     {
         allRandomIds =         (
             "SocialSuggestions#tellMeAJoke#en",
             "SocialSuggestions#tellMeAJoke#en#phrase#random1"
         );
-        count = 60;
+        count = 61;
         lastRandomIds =         (
             "SocialSuggestions#tellMeAJoke#en",
             "SocialSuggestions#tellMeAJoke#en#phrase#random1"
         );
-        timestamp = "1781923277.09998";
+        timestamp = "1782210967.899046";
     };
     "SocialSuggestions#tellMeAStory" =     {
-        count = 60;
-        timestamp = "1781923277.101592";
+        count = 61;
+        timestamp = "1782210967.900148";
     };
     Suggestions =     {
-        count = 480;
-        timestamp = "1781923278.216081";
+        count = 489;
+        timestamp = "1782210969.095972";
     };
     "Suggestions#messages_ReadMyMessages" =     {
-        count = 60;
-        timestamp = "1781923277.099476";
+        count = 61;
+        timestamp = "1782210967.89848";
     };
     "Suggestions#messages_SendAMessage" =     {
-        count = 363;
-        timestamp = "1781923278.216081";
+        count = 370;
+        timestamp = "1782210969.095972";
     };
     "Suggestions#phoneCall_StartCall" =     {
-        count = 60;
-        timestamp = "1781923277.102215";
+        count = 61;
+        timestamp = "1782210967.900295";
     };
     "Suggestions#suggestHelp" =     {
-        count = 60;
-        timestamp = "1781923277.102238";
+        count = 61;
+        timestamp = "1782210967.90015";
     };
     TimeSuggestions =     {
-        count = 343;
-        timestamp = "1781923277.10181";
+        count = 347;
+        timestamp = "1782210967.897171";
     };
     "TimeSuggestions#deleteAlarm" =     {
-        count = 60;
-        timestamp = "1781923277.098371";
+        count = 61;
+        timestamp = "1782210967.896813";
     };
     "TimeSuggestions#deleteTimer" =     {
-        count = 60;
-        timestamp = "1781923277.098354";
+        count = 61;
+        timestamp = "1782210967.896946";
     };
     "TimeSuggestions#resetTimer" =     {
-        count = 60;
-        timestamp = "1781923277.099257";
+        count = 61;
+        timestamp = "1782210967.896988";
     };
     "TimeSuggestions#searchAlarm" =     {
-        count = 60;
-        timestamp = "1781923277.09929";
+        count = 61;
+        timestamp = "1782210967.897075";
     };
     "TimeSuggestions#searchTimer" =     {
-        count = 60;
-        timestamp = "1781923277.099961";
+        count = 61;
+        timestamp = "1782210967.900024";
     };
     "TimeSuggestions#setATimer" =     {
-        count = 60;
-        timestamp = "1781923277.099962";
+        count = 61;
+        timestamp = "1782210967.899967";
     };
     "TimeSuggestions#setAnAlarm" =     {
-        count = 60;
-        timestamp = "1781923277.100106";
+        count = 61;
+        timestamp = "1782210967.899097";
     };
     "TimeSuggestions#setTimerHint" =     {
-        count = 60;
-        timestamp = "1781923277.099657";
+        count = 61;
+        timestamp = "1782210967.89912";
     };
     "TimeSuggestions#turnOffAllAlarms" =     {
-        count = 60;
-        timestamp = "1781923277.099796";
+        count = 61;
+        timestamp = "1782210967.897171";
     };
     "TimeSuggestions#updateAlarm" =     {
-        count = 60;
-        timestamp = "1781923277.10181";
+        count = 61;
+        timestamp = "1782210967.898243";
     };
     notebookSuggestions =     {
-        count = 108;
-        timestamp = "1781923277.099842";
+        count = 110;
+        timestamp = "1782210967.899868";
     };
     "notebookSuggestions#createNote" =     {
-        count = 60;
-        timestamp = "1781923277.102075";
+        count = 61;
+        timestamp = "1782210967.899868";
     };
     "notebookSuggestions#createReminder" =     {
-        count = 60;
-        timestamp = "1781923277.099842";
+        count = 61;
+        timestamp = "1782210967.898716";
     };
 }
