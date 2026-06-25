@@ -59,6 +59,7 @@ com.apple.AOSPushRelay.TopicInfo.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-7
 com.apple.AOSPushRelay.TopicInfo.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.APFSUserAgent
 com.apple.Accessibility
+com.apple.Accessibility-Settings.extension
 com.apple.Accessibility.Assets
 com.apple.AccessibilityHearingNearby
 com.apple.AccessibilityUIServer
@@ -93,6 +94,7 @@ com.apple.Classroom-Settings.extension
 com.apple.CloudKit
 com.apple.CloudSubscriptionFeatures.cache
 com.apple.CloudSubscriptionFeatures.config
+com.apple.CloudSubscriptionFeatures.deviceReadiness
 com.apple.CloudSubscriptionFeatures.diagnostic
 com.apple.CloudSubscriptionFeatures.followup.engagement
 com.apple.CloudSubscriptionFeatures.geoCache
@@ -499,6 +501,7 @@ com.apple.shazamd
 com.apple.shortcuts
 com.apple.sidecar.display
 com.apple.siri.DialogEngine
+com.apple.siri.ODDFeatureDigests.worker
 com.apple.siri.ODDI.ExperimentationWorker
 com.apple.siri.ODDI.MetricsWorker
 com.apple.siri.ODDI.PoirotExperimentationWorker

@@ -2,7 +2,9 @@
     "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e313638 3333347d };
     CHCallProvidersHashKey = 2;
     CHFacetimeSearchableStatus = 3;
-    CHSpotlightReindexingReasonKey = 24;
+    CHLastReindexCompletionDate = "2026-06-24 01:33:26 +0000";
+    CHSpotlightIndexLocale = "en_KR";
+    CHSpotlightReindexingReasonKey = 0;
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -16,4 +18,6 @@
         transactionRecordZoneFetchDate = "2026-06-23 13:29:36 +0000";
         transactionRecordZoneSubscriptionCreationDate = "2026-01-17 09:16:09 +0000";
     };
+    kCHLastFetchedContactHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
+    kCHSpotlightIndexVersion = 9;
 }

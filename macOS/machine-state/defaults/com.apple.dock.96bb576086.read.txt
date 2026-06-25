@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3658;
+    "mod-count" = 3663;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -99,7 +99,7 @@
                 "file-mod-date" = 3859556640;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 218978477551403;
+                "parent-mod-date" = 183081141026089;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 123089037615700;
+                "file-mod-date" = 249601594496150;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 7361143957883;
+                "parent-mod-date" = 265364124558035;
             };
             "tile-type" = "file-tile";
         },
@@ -474,10 +474,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "App Store";
-                "file-mod-date" = 3863545986;
+                "file-mod-date" = 3864700869;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3863545986;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         },
@@ -531,7 +531,7 @@
                 "file-mod-date" = 113794727532576;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 80328343085173;
+                "parent-mod-date" = 168903454049532;
             };
             "tile-type" = "file-tile";
         },
@@ -600,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3863545986;
+                "file-mod-date" = 3864700869;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3863545986;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         }
@@ -688,20 +688,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 371672711;
+            GUID = 371672712;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
+                "file-label" = Messages;
+                "file-mod-date" = 3864700869;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 114391729060488;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         }

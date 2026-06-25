@@ -1,14 +1,15 @@
 {
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 30303539 3535397d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1774686163;
     CloudKitAccountInfoCache =     {
-        605313cdb70f1373d7318768184fba97a9055e0e4acbf94663a8ab15cd58c556 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+        9b6fe97230fa53fb993795bf9dcf91ce0ef79670a46383b98d403a753a784e76 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
     accountMigrationStatus = 1;
-    deferredSpotlightReindexingReason = 0;
-    lastFetchedContactHistoryToken = {length = 635, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001f9 };
+    deferredSpotlightReindexingReason = 128;
+    lastFetchedContactHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
     lastReindexCompletionDate = "2026-03-28 08:33:05 +0000";
     lastReindexLocale = "en_KR";
     spotlightIndexVersion = 8;

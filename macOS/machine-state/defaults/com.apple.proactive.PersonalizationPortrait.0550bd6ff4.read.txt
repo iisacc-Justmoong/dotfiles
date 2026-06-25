@@ -1,10 +1,9 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-06-23 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xc7356ed3 528000e7 91b2eb2e 58d10f7e ... 5d3a170b 1588574f };
+    "BundleIdRedactor.lastRolloverDay" = "2026-06-24 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x4479f86f 90b81d7b a001d19f 8b973ec6 ... 09ac9a7c ec58c976 };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.apple.MobileSMS",
         "com.kakao.KakaoTalkMac",
-        "com.apple.SoftwareUpdateNotification",
-        "com.apple.Photos"
+        "com.apple.MobileSMS",
+        "com.apple.iCal"
     );
 }
