@@ -8,7 +8,7 @@ Currently in use:
  powernap             1
  networkoversleep     0
  disksleep            0
- sleep                1 (sleep prevented by mds, LINE.AudioService, LINE.AudioService, dasd, Codex)
+ sleep                1 (sleep prevented by Codex, LINE.AudioService, LINE.AudioService, mds, apsd, apsd, apsd, dasd)
  ttyskeepawake        1
  displaysleep         0
  tcpkeepalive         1

@@ -8,9 +8,9 @@
         9b6fe97230fa53fb993795bf9dcf91ce0ef79670a46383b98d403a753a784e76 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
     accountMigrationStatus = 1;
-    deferredSpotlightReindexingReason = 128;
+    deferredSpotlightReindexingReason = 0;
     lastFetchedContactHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
-    lastReindexCompletionDate = "2026-03-28 08:33:05 +0000";
+    lastReindexCompletionDate = "2026-06-25 01:29:16 +0000";
     lastReindexLocale = "en_KR";
     spotlightIndexVersion = 8;
     tccMigrationVersion = 1;
