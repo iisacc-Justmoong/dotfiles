@@ -644,6 +644,10 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
             "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
             name = build;
         },
@@ -678,10 +682,6 @@
                 {
             "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
             name = lib;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
