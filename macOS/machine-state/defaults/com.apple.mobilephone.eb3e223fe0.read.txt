@@ -1,0 +1,26 @@
+{
+    PNRltc = "2026-06-27 14:22:02 +0000";
+    PhoneLayout = 1;
+    "com.apple.UIKit.UISplitViewController.Root" =     {
+        primaryEdgeSplitViewControllerColumn = 1;
+        secondaryEdgeSplitViewControllerColumn = 999;
+        splitViewControllerColumns =         (
+                        {
+                splitViewControllerColumn = 4;
+                width = "-3.402823466385289e+38";
+            },
+                        {
+                splitViewControllerColumn = 2;
+                width = "-3.402823466385289e+38";
+            },
+                        {
+                splitViewControllerColumn = 1;
+                width = "-3.402823466385289e+38";
+            },
+                        {
+                splitViewControllerColumn = 0;
+                width = "-3.402823466385289e+38";
+            }
+        );
+    };
+}

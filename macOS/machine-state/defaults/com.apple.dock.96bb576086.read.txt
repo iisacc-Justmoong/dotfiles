@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3671;
+    "mod-count" = 3675;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -663,41 +663,41 @@
                 };
                 "file-label" = KakaoTalk;
                 "file-mod-date" = 190554383633813;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 7361143957883;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3853453220;
-            "tile-data" =             {
-                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "jp.naver.line.mac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LINE.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = LINE;
-                "file-mod-date" = 271252524214220;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 186091913329963;
+                "parent-mod-date" = 278734357996473;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 371672712;
+            GUID = 371672714;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
+                "bundle-identifier" = "com.apple.AddressBook";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLString" = "file:///System/Applications/Contacts.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Messages;
+                "file-label" = Contacts;
+                "file-mod-date" = 3864700869;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3864700869;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 371672715;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Phone;
                 "file-mod-date" = 3864700869;
                 "file-type" = 1;
                 "is-beta" = 0;
