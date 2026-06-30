@@ -9,14 +9,14 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3675;
+    "mod-count" = 3681;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
                 {
             GUID = 1152347582;
             "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... b0000000 00000000 };
                 "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -24,10 +24,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Google Chrome";
-                "file-mod-date" = 3860270127;
+                "file-mod-date" = 3865213144;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 186091913329963;
+                "parent-mod-date" = 110564913683411;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 249601594496150;
+                "file-mod-date" = 15074905790492;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 265364124558035;
+                "parent-mod-date" = 110564913683411;
             };
             "tile-type" = "file-tile";
         },
@@ -304,7 +304,7 @@
                 {
             GUID = 3594933549;
             "tile-data" =             {
-                book = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 40010000 00000000 };
+                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.obsproject.obs-studio";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -315,7 +315,7 @@
                 "file-mod-date" = 3859645509;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 232275696346549;
+                "parent-mod-date" = 278734357996473;
             };
             "tile-type" = "file-tile";
         },
@@ -670,16 +670,16 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 371672714;
+            GUID = 1039804653;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.AddressBook";
+                book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Passwords";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Contacts.app/";
+                    "_CFURLString" = "file:///System/Applications/Passwords.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Contacts;
+                "file-label" = Passwords;
                 "file-mod-date" = 3864700869;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -688,7 +688,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 371672715;
+            GUID = 1039804654;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.mobilephone";
@@ -711,7 +711,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

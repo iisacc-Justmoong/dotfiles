@@ -10,7 +10,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-06-28 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-07-06 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 0;
     CalendarSidebarView = 0;
@@ -20,7 +20,7 @@
     };
     DelegatesInSeparateWindows =     {
     };
-    LastSaveDate = "2026-06-26 07:59:41 +0000";
+    LastSaveDate = "2026-06-29 07:23:41 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -30,7 +30,7 @@
     );
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "525 104 1140 1010 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "408 103 1140 1010 0 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "18 792 298 600 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -45,7 +45,7 @@
     TabbedWindowGroups =     (
     );
     defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x7bc4c35740>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [39015], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 804324851;
+    defaultCalendarChangedTimestamp = 804401753;
     defaultCalendarDatabaseID = 0;
     defaultCalendarID = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     defaultCalendarStoreUID = 4;
