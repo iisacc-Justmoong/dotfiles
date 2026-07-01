@@ -35,7 +35,7 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Window 0" = "-2560 0 710 842 -2560 0 2560 1410 ";
+    "NSWindow Frame iTerm Window 0" = "4242 288 710 1018 2560 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 710 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
     "NeverWarnAboutShortLivedSessions_A5BC6692-F4CB-432B-9A50-F74C22C672CC" = 1;
@@ -1147,7 +1147,7 @@
     NoSyncRemoveDeprecatedKeyMappings = 1;
     NoSyncRestoreWindowsCount = 0;
     NoSyncSavedWindowPositions =     {
-        0 = "{-2560, 842}";
+        0 = "{4242, 1306}";
         1 = "{1787, 953}";
         2 = "{66, 1135}";
     };

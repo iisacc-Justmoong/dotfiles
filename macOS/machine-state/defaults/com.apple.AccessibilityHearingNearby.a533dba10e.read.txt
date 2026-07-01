@@ -2,7 +2,7 @@
     AccessibilityHearingNearby =     {
         IncomingData =         {
             TimeStamp = "2026-06-29 18:31:21:85";
-            TotalCount = 2;
+            TotalCount = 3;
             "com.apple.heard.xpc" =             {
                 Count = 2;
                 TimeStamps =                 (
@@ -19,8 +19,14 @@
                 );
             };
             "com.apple.hearing.accessory" =             {
-                Count = 0;
+                Count = 1;
                 TimeStamps =                 (
+                                        (
+                        "2026-06-30 13:31:43:24",
+                        6,
+                        Watch,
+                        8388608
+                    )
                 );
             };
         };

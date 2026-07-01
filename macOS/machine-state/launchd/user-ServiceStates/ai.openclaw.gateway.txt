@@ -38,10 +38,10 @@ gui/501/ai.openclaw.gateway = {
 	asid = 100018
 	minimum runtime = 10
 	exit timeout = 20
-	runs = 1
-	pid = 2487
-	immediate reason = speculative
-	forks = 26875
+	runs = 9
+	pid = 15721
+	immediate reason = inefficient
+	forks = 3484
 	execs = 3
 	initialized = 1
 	trampolined = 1
@@ -50,10 +50,10 @@ gui/501/ai.openclaw.gateway = {
 	checked allocations = 0 (queried = 1)
 	checked allocations reason = no host
 	checked allocations flags = 0x0
-	last exit code = (never exited)
+	last terminating signal = Terminated: 15
 
 	resource coalition = {
-		ID = 1354
+		ID = 27799
 		type = resource
 		state = active
 		active count = 1
@@ -61,7 +61,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 1355
+		ID = 27800
 		type = jetsam
 		state = active
 		active count = 1
@@ -78,5 +78,5 @@ gui/501/ai.openclaw.gateway = {
 	job state = running
 	sanitizer flags = 0x0
 
-	properties = partial import | keepalive | runatload | inferred program | managed LWCR
+	properties = partial import | keepalive | runatload | inferred program
 }
