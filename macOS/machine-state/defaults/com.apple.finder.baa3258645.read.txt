@@ -644,44 +644,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            "file-bookmark" = {length = 1216, bytes = 0x626f6f6b c0040000 00000510 40000000 ... 04000000 00000000 };
             name = Vincent;
         },
                 {
-            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
-            name = dist;
+            "file-bookmark" = {length = 1172, bytes = 0x626f6f6b 94040000 00000510 40000000 ... 04000000 00000000 };
+            name = Store;
         },
                 {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
+            "file-bookmark" = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
+            name = images;
         },
                 {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = lib;
+            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
+            name = static;
         },
                 {
-            "file-bookmark" = {length = 1028, bytes = 0x626f6f6b 04040000 00000510 40000000 ... 04000000 00000000 };
-            name = LVRS;
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = "iisacc.com";
         },
                 {
-            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
-            name = resources;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Service;
         },
                 {
-            "file-bookmark" = {length = 1120, bytes = 0x626f6f6b 60040000 00000510 40000000 ... 04000000 00000000 };
-            name = iconset;
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
+        },
+                {
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -974,16 +974,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/",
+        "file:///Volumes/Storage/Workspace/Product/Vincent/dist/",
+        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/apps/",
+        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/VincentAccessKeyB8F4E1C79D2A6F53E0B7C1A49D8E2F6A/",
+        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/",
+        "file:///Volumes/Storage/Workspace/Product/Vincent/",
+        "file:///Volumes/Storage/Workspace/Product/Vincent/resources/",
         "file:///Volumes/Storage/Workspace/lib/LVRS/resources/iconset/",
         "file:///Applications/",
-        "file:///Volumes/Storage/Job/Smartstore/Product/Sony%20WH-1000XM5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%B7%20%E1%84%82%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%20%E1%84%8F%E1%85%A2%E1%86%AB%E1%84%89%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%92%E1%85%A6%E1%84%83%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AB/",
-        "file:///Volumes/Storage/Job/Smartstore/Product/ASUS%20ROG%20Swift%2032%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%B5%204K%20OLED%20%E1%84%80%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%86%BC%20%E1%84%86%E1%85%A9%E1%84%82%E1%85%B5%E1%84%90%E1%85%A5%20(PG32UCDMR)/",
-        "file:///Volumes/Storage/Job/Smartstore/Product/SAMSUNG%20990%20PRO/",
-        "file:///Volumes/Storage/Job/Smartstore/",
-        "file:///Volumes/Storage/Job/AI_Video/Test/",
-        "file:///Applications/Utilities/",
-        "file:///Volumes/Storage/Workspace/Product/WhatSon/resources/",
-        "file:///Volumes/Storage/Workspace/Product/WhatSon/"
+        "file:///Volumes/Storage/Job/Smartstore/Product/Sony%20WH-1000XM5%20%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%B7%20%E1%84%82%E1%85%A9%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B3%20%E1%84%8F%E1%85%A2%E1%86%AB%E1%84%89%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%86%BC%20%E1%84%92%E1%85%A6%E1%84%83%E1%85%B3%E1%84%91%E1%85%A9%E1%86%AB/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
@@ -1373,7 +1373,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-184";
+            scrollPositionX = "-176";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
@@ -1458,7 +1458,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-184";
+            scrollPositionX = "-176";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;

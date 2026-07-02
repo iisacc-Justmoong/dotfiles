@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3685;
+    "mod-count" = 3709;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -86,20 +86,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2152616457;
+            GUID = 1039804665;
             "tile-data" =             {
-                book = {length = 616, bytes = 0x626f6f6b 68020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
                 "bundle-identifier" = "com.jetbrains.CLion";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Utilities/CLion.app/";
+                    "_CFURLString" = "file:///Applications/CLion.app/";
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = CLion;
                 "file-mod-date" = 3859556640;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 183081141026089;
+                "parent-mod-date" = 148725698300804;
             };
             "tile-type" = "file-tile";
         },
@@ -124,7 +124,7 @@
                 {
             GUID = 2152616465;
             "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.jetbrains.WebStorm";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 35351444162568;
+                "parent-mod-date" = 21848069367132;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 15074905790492;
+                "file-mod-date" = 21474407112415;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 110564913683411;
+                "parent-mod-date" = 21848069367132;
             };
             "tile-type" = "file-tile";
         },
@@ -230,9 +230,9 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2964585276;
+            GUID = 1039804667;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.iisacc.vincent.painter";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -240,10 +240,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Vincent;
-                "file-mod-date" = 168972169618381;
+                "file-mod-date" = 178103274613907;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 151599026906120;
+                "parent-mod-date" = 157852503813267;
             };
             "tile-type" = "file-tile";
         },
@@ -258,17 +258,17 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 3864610708;
+                "file-mod-date" = 3865314038;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 66296685359545;
+                "parent-mod-date" = 21848069367132;
             };
             "tile-type" = "file-tile";
         },
                 {
             GUID = 2314632282;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.canva.affinity";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -423,7 +423,7 @@
                 "file-mod-date" = 183291591538959;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 92113733149047;
+                "parent-mod-date" = 148725698300804;
             };
             "tile-type" = "file-tile";
         },
@@ -670,25 +670,25 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804655;
+            GUID = 1039804666;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TransporterApp";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/Transporter.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3864700869;
+                "file-label" = Transporter;
+                "file-mod-date" = 37928422450782;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 148725698300804;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804656;
+            GUID = 1039804668;
             "tile-data" =             {
                 book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "jp.naver.line.mac";
@@ -701,7 +701,7 @@
                 "file-mod-date" = 270462250948959;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 249318127232108;
+                "parent-mod-date" = 157852503813267;
             };
             "tile-type" = "file-tile";
         }

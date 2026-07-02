@@ -10,27 +10,40 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-07-02 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-06-29 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
-    CalendarSidebarShown = 0;
+    CalendarSidebarShown = 1;
     CalendarSidebarView = 0;
     CollapsedTopLevelNodes =     {
         MainWindow =         (
         );
     };
     DelegatesInSeparateWindows =     {
+        iCal =         {
+            inspectors =             (
+            );
+        };
     };
-    LastSaveDate = "2026-06-30 15:47:15 +0000";
+    LastSaveDate = "2026-07-01 11:07:39 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
-        "0.000000, 0.000000, 236.000000, 839.000000, YES, NO",
+        "0.000000, 0.000000, 236.000000, 1010.000000, NO, NO",
         "0.000000, 0.000000, 1140.000000, 1010.000000, NO, NO",
         "1312.000000, 0.000000, 240.000000, 1050.000000, YES, NO"
     );
+    "NSSplitView Subview Frames NSColorPanelSplitView" =     (
+        "0.000000, 0.000000, 266.000000, 300.000000, NO, NO",
+        "0.000000, 320.000000, 266.000000, 77.000000, NO, NO"
+    );
+    "NSToolbar Configuration com.apple.NSColorPanel" =     {
+        "TB Is Shown" = 1;
+    };
+    "NSWindow Frame NSColorPanel" = "0 98 266 366 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "143 124 1140 1010 0 0 2560 1410 ";
+    "NSWindow Frame ServerCalendarInspector" = "1003 446 525 269 0 0 2560 1410 ";
+    "NSWindow Frame iCal" = "-1005 55 1140 1010 -2560 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "18 792 298 600 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -44,8 +57,8 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x764ec358c0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [39015], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 804527216;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x764ef740c0>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [32109], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 804596851;
     defaultCalendarDatabaseID = 0;
     defaultCalendarID = "F6A4F2C8-43D6-465C-8911-2AD60F22CFF1";
     defaultCalendarStoreUID = 4;
