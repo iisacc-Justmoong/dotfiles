@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3709;
+    "mod-count" = 3731;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 21848069367132;
+                "parent-mod-date" = 157852503813267;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 21474407112415;
+                "file-mod-date" = 54919317570879;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 21848069367132;
+                "parent-mod-date" = 157852503813267;
             };
             "tile-type" = "file-tile";
         },
@@ -230,24 +230,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804667;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.iisacc.vincent.painter";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Vincent.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Vincent;
-                "file-mod-date" = 178103274613907;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 157852503813267;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2314632241;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -261,7 +243,25 @@
                 "file-mod-date" = 3865314038;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 21848069367132;
+                "parent-mod-date" = 157852503813267;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1039804682;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.iisacc.vincent.painter";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Vincent.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Vincent;
+                "file-mod-date" = 30609802786569;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 4603775809289;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3864103636;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 249318127232108;
+                "parent-mod-date" = 157852503813267;
             };
             "tile-type" = "file-tile";
         },
@@ -424,6 +424,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 148725698300804;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1039804679;
+            "tile-data" =             {
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Notes";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Notes.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Notes;
+                "file-mod-date" = 3864700869;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         },
@@ -582,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "iPhone Mirroring";
-                "file-mod-date" = 3863545986;
+                "file-mod-date" = 3864700869;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3863545986;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         },
@@ -665,43 +683,25 @@
                 "file-mod-date" = 190554383633813;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 278734357996473;
+                "parent-mod-date" = 4603775809289;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804666;
+            GUID = 1039804681;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.TransporterApp";
+                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Transporter.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Transporter;
-                "file-mod-date" = 37928422450782;
+                "file-label" = Messages;
+                "file-mod-date" = 3864700869;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 148725698300804;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1039804668;
-            "tile-data" =             {
-                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "jp.naver.line.mac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/LINE.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = LINE;
-                "file-mod-date" = 270462250948959;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 157852503813267;
+                "parent-mod-date" = 3864700869;
             };
             "tile-type" = "file-tile";
         }
