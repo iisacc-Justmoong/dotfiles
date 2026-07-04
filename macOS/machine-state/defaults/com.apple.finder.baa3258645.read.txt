@@ -223,7 +223,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 298;
+                width = 300;
             },
                         {
                 ascending = 0;
@@ -644,22 +644,6 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1216, bytes = 0x626f6f6b c0040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
-        },
-                {
-            "file-bookmark" = {length = 1172, bytes = 0x626f6f6b 94040000 00000510 40000000 ... 04000000 00000000 };
-            name = Store;
-        },
-                {
-            "file-bookmark" = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
-            name = images;
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Pictures;
-        },
-                {
             "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
             name = Applications;
         },
@@ -668,20 +652,36 @@
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
-            name = apps;
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "CScenter_Conversation";
         },
                 {
-            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
-            name = dist;
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Police;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            "file-bookmark" = {length = 768, bytes = 0x626f6f6b 00030000 00000510 40000000 ... 04000000 00000000 };
+            name = "Transfer_Bill";
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
+            name = "Line_Conversation";
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Desktop;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -904,7 +904,7 @@
             WindowBounds = "{{737, 558}, {920, 492}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -974,16 +974,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Users/ymy/Documents/Police/",
+        "file:///Users/ymy/Documents/Police/Transfer_Bill/",
+        "file:///Users/ymy/Documents/Police/Line_Conversation/",
+        "file:///Users/ymy/Documents/Police/CScenter_Conversation/",
         "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/",
         "file:///Volumes/Storage/Workspace/Product/Vincent/dist/",
         "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/apps/",
         "file:///Volumes/Storage/Workspace/",
         "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/VincentAccessKeyB8F4E1C79D2A6F53E0B7C1A49D8E2F6A/",
-        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/",
-        "file:///Volumes/Storage/Workspace/Product/Vincent/",
-        "file:///Volumes/Storage/Workspace/Product/Vincent/resources/",
-        "file:///Volumes/Storage/Workspace/lib/LVRS/resources/iconset/",
-        "file:///Applications/"
+        "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
