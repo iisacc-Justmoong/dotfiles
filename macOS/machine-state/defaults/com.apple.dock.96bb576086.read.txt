@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3755;
+    "mod-count" = 3763;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -706,38 +706,38 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804696;
+            GUID = 1039804698;
             "tile-data" =             {
-                book = {length = 632, bytes = 0x626f6f6b 78020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.wacom.WacomCenter";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Wacom%20Tablet.localized/Wacom%20Center.app/";
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Wacom Center";
-                "file-mod-date" = 269882426236797;
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 190554383633813;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3859896025;
+                "parent-mod-date" = 152488089834628;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804697;
+            GUID = 1039804699;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.getupnote.desktop";
+                "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLString" = "file:///Applications/UpNote.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Phone;
-                "file-mod-date" = 3864700869;
+                "file-label" = UpNote;
+                "file-mod-date" = 51406034584451;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 9577348088732;
             };
             "tile-type" = "file-tile";
         }

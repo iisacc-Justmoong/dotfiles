@@ -7,11 +7,6 @@
                 State = 0;
             },
                         {
-                Date = "2026-06-03 16:29:08";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-06-03 16:29:09";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +245,11 @@
                 Date = "2026-07-03 22:44:12";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-07-04 22:45:14";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -296,28 +296,6 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
-    displaysLastCursorLocation =     {
-        0 =         {
-            X = "2421.84765625";
-            Y = 1440;
-        };
-        1 =         {
-            X = "-1497.05859375";
-            Y = "807.27734375";
-        };
-        2 =         {
-            X = "5296.5078125";
-            Y = "668.0546875";
-        };
-        3 =         {
-            X = "993.48046875";
-            Y = "489.68359375";
-        };
-        5 =         {
-            X = "4333.68359375";
-            Y = "706.29296875";
-        };
-    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;
