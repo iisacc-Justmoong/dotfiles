@@ -1,12 +1,11 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-07-04 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xb5aef3d6 ca717a47 6fb25796 37988876 ... 1ba02524 ba22da2c };
+    "BundleIdRedactor.lastRolloverDay" = "2026-07-05 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xd7eefb13 d611b656 16b9b11c 2042516a ... 827c6de6 61d29cb9 };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.apple.iCal",
-        "com.openai.codex",
-        "com.apple.Photos",
         "com.kakao.KakaoTalkMac",
-        "com.apple.MobileSMS",
-        "com.apple.mobilephone"
+        "com.apple.iCal",
+        "com.apple.mobilephone",
+        "com.openai.codex",
+        "com.apple.Photos"
     );
 }
