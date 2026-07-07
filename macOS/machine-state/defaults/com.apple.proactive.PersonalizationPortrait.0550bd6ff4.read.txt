@@ -1,11 +1,15 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-07-05 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xd7eefb13 d611b656 16b9b11c 2042516a ... 827c6de6 61d29cb9 };
+    "BundleIdRedactor.lastRolloverDay" = "2026-07-07 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0xe850e63e d799a996 d4471773 47569376 ... 8c1057f7 cfce0b9e };
     "BundleIdRedactor.seenBundleIds" =     (
-        "com.kakao.KakaoTalkMac",
+        "com.apple.MobileSMS",
         "com.apple.iCal",
-        "com.apple.mobilephone",
-        "com.openai.codex",
-        "com.apple.Photos"
+        "com.kakao.KakaoTalkMac",
+        "com.google.Chrome",
+        "com.apple.reminders",
+        "com.apple.SoftwareUpdateNotification",
+        "com.apple.BTMNotificationAgent",
+        "com.apple.ScreenTimeNotifications",
+        "com.openai.codex"
     );
 }

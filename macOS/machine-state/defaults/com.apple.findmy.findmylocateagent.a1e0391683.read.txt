@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303339 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303531 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -8,8 +8,8 @@
         718be8723c675fda512f4f86646531ae85ebd1c4cc3e475b8f9be9ad09f2d87f = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     "CloudKitStorage::modifiedCKZones" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    "Daemon::LastLaunchBootSessionUUID" = "52A302FB-81FB-4978-BA6C-75DB78655FC1";
-    "Daemon::LastOSLaunchVersion" = 26A5368g;
+    "Daemon::LastLaunchBootSessionUUID" = "19CBA8E1-0257-4296-9AD4-0516196F1CD2";
+    "Daemon::LastOSLaunchVersion" = 26A5378j;
     "DataManager::isInitialized" = 1;
     "DataManager::lastRefreshClientSuccessDate" = "2026-06-27 14:10:16 +0000";
     SecureLocationConfigNextCheck = "1771232244.8894";

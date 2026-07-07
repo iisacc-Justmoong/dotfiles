@@ -21,7 +21,7 @@ gui/501/ai.openclaw.gateway = {
 	stdout path = /Users/ymy/Library/Logs/openclaw/gateway.log
 	stderr path = /dev/null
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.x1PkE8Wsci/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.bGWS5ghpru/Listeners
 	}
 
 	default environment = {
@@ -33,15 +33,15 @@ gui/501/ai.openclaw.gateway = {
 		XPC_SERVICE_NAME => ai.openclaw.gateway
 	}
 
-	domain = gui/501 [100018]
+	domain = gui/501 [100017]
 	umask = 77
-	asid = 100018
+	asid = 100017
 	minimum runtime = 10
 	exit timeout = 20
-	runs = 9
-	pid = 15721
-	immediate reason = inefficient
-	forks = 27487
+	runs = 1
+	pid = 1649
+	immediate reason = speculative
+	forks = 29
 	execs = 3
 	initialized = 1
 	trampolined = 1
@@ -50,10 +50,10 @@ gui/501/ai.openclaw.gateway = {
 	checked allocations = 0 (queried = 1)
 	checked allocations reason = no host
 	checked allocations flags = 0x0
-	last terminating signal = Terminated: 15
+	last exit code = (never exited)
 
 	resource coalition = {
-		ID = 27799
+		ID = 1359
 		type = resource
 		state = active
 		active count = 1
@@ -61,7 +61,7 @@ gui/501/ai.openclaw.gateway = {
 	}
 
 	jetsam coalition = {
-		ID = 27800
+		ID = 1360
 		type = jetsam
 		state = active
 		active count = 1
@@ -78,5 +78,5 @@ gui/501/ai.openclaw.gateway = {
 	job state = running
 	sanitizer flags = 0x0
 
-	properties = partial import | keepalive | runatload | inferred program
+	properties = partial import | keepalive | runatload | inferred program | managed LWCR
 }

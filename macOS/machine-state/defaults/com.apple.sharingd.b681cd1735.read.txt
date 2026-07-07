@@ -8,8 +8,8 @@
     AutoUnlockLastSeenWatchDate = "2026-06-29 01:44:34 +0000";
     AutoUnlockPeerRetries =     {
         "7A255943-0AAB-4A7D-8E31-4A6C747FC555" =         {
-            AutoUnlockRetryDate = "2026-07-05 15:37:50 +0000";
-            AutoUnlockRetryMultiplier = 32;
+            AutoUnlockRetryDate = "2026-07-10 02:00:20 +0000";
+            AutoUnlockRetryMultiplier = 128;
         };
         "FAE16FEF-0C06-4784-B7D5-50AA0169C786" =         {
             AutoUnlockRetryDate = "2026-05-11 04:13:56 +0000";
@@ -19,15 +19,16 @@
     AutoUnlockPresentedBluetoothError = 0;
     AutoUnlockPresentedWiFiError = 0;
     AutoUnlockSuggestedPeers =     (
-        "FAE16FEF-0C06-4784-B7D5-50AA0169C786"
+        "FAE16FEF-0C06-4784-B7D5-50AA0169C786",
+        "7A255943-0AAB-4A7D-8E31-4A6C747FC555"
     );
     AutoUnlockWatchCurrentlyInList = 1;
     AutoUnlockWatchExistedInUnlockList = 1;
     DiscoverableMode = Everyone;
     "HashManager-LastConsumedHistoryTokenKey" = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
-    "HashManager-LastDeviceIDHashKey" = 671931041659213140;
-    "HashManager-LastRebuiltDateKey" = "2026-06-23 13:29:25 +0000";
-    "HashManager-LastUpdatedDateKey" = "2026-06-24 08:16:55 +0000";
+    "HashManager-LastDeviceIDHashKey" = 3074647704470046834;
+    "HashManager-LastRebuiltDateKey" = "2026-07-07 10:12:25 +0000";
+    "HashManager-LastUpdatedDateKey" = "2026-07-07 10:12:25 +0000";
     "HashManager-StoredDatabaseVersionKey" = 3;
     OneTimeAirDropReset2 = 1;
     SDAirDropEveryoneModePrivacyAlertHasShownKey = 1;
@@ -37,6 +38,7 @@
         "3927ED26-2D06-4875-B219-FEACF9C6E035" = "2026-06-07 22:48:28 +0000";
     };
     "SFCollaborationUserDefaults." = 0;
+    "SFCollaborationUserDefaults.com.apple.Preview" = 0;
     "SFCollaborationUserDefaults.com.apple.Safari" = 0;
     "SFCollaborationUserDefaults.com.apple.finder" = 0;
 }

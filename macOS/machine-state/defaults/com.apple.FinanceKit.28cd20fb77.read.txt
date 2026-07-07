@@ -1,9 +1,10 @@
 {
     "ExtractedOrders.AutomaticOrderIngestionEnabled.ModificationDate" = "2025-08-11 10:21:10 +0000";
     "ExtractedOrders.AutomaticOrderIngestionEnabled.Value" = 1;
-    WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-06-27 23:59:59 +0000";
+    WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-07-04 23:59:59 +0000";
     postInstallTaskVersions =     {
-        clearTransactionIcons = 1;
+        backfillLastNotifiedOrderUpdateDate = 1;
+        clearTransactionIcons = 2;
         deduplicateExtractedOrders = 1;
         migrateAppPermissions = 1;
         populateAccountMatchEntities = 1;

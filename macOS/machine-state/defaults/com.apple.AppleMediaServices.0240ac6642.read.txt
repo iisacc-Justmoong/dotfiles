@@ -2,15 +2,15 @@
     AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
     AMSDeviceBiometricsState = 2;
     AMSDidSetUpServerDataCache = 1;
-    AMSFPCertExpiration = "2026-07-06 12:18:09 +0000";
+    AMSFPCertExpiration = "2026-07-08 10:03:00 +0000";
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
-        analytics = "27.48.0";
+        analytics = "27.60.0";
         internal = "24.0.41";
         journeys = "2607.8.0";
     };
-    AMSLastMigratedBuildVersion = 26A5368g;
+    AMSLastMigratedBuildVersion = 26A5378j;
     AMSLogHARData = 0;
     AMSMediaRestrictionsAccountData =     {
         3fb2ce4c9640e88a03fe581a83f6fff0fc853ebcda72fba6847434ac44fec3ce5d672ad9e3750f2350eda320fb811bc0397654a34a5fc6ca6ed3861f8b571737 =         {
@@ -28,7 +28,7 @@
         "39A454FB-CD00-4267-86FD-089AAE1162E2"
     );
     "AMSSamplingSession-TLSSessionTickets" =     {
-        date = "2026-07-04 04:58:42 +0000";
+        date = "2026-07-07 10:12:52 +0000";
         duration = 1800;
         result = 1;
     };
@@ -38,12 +38,12 @@
         result = 0;
     };
     "AMSSamplingSession-xp_amp_notifications_unidentified:VUWdZ8vsbKj/9eivSkJlcY7tfBs" =     {
-        date = "2026-07-05 01:29:26 +0000";
+        date = "2026-07-07 10:12:56 +0000";
         duration = 60000;
         result = 0;
     };
     "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
-        date = "2026-07-05 17:05:28 +0000";
+        date = "2026-07-07 09:21:09 +0000";
         duration = 86400000;
         result = 0;
     };

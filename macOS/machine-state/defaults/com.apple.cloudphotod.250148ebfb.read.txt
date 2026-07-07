@@ -1,13 +1,34 @@
 {
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303339 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303531 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
+    "CPLCloudKitCoordinator-com.apple.photos.asc.e2ee" =     {
+        bundleIdentifier = "com.apple.photos.cloud";
+        containerIdentifier = "com.apple.photos.asc.e2ee";
+        options = 34;
+        version = 0;
+    };
     "CPLCloudKitCoordinator-com.apple.photos.cloud" =     {
         bundleIdentifier = "com.apple.photos.cloud";
         containerIdentifier = "com.apple.photos.cloud";
         options = 0;
+        version = 0;
+    };
+    "CPLEngineParameters-AppLibrary[com.apple.VisualIntelligence]-00000000-0000-0000-0000-000000000001" =     {
+        clientLibraryBasePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.VisualIntelligence/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex";
+        cloudLibraryResourceStoragePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.VisualIntelligence/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        cloudLibraryStateStoragePath = "/Users/ymy/Library/Photos/Libraries/Application/com.apple.VisualIntelligence/00000000-0000-0000-0000-000000000001.photoslibrary/resources/cpl/cloudsync.noindex/storage";
+        container =         {
+            bundleIdentifier = "com.apple.photos.cloud";
+            containerIdentifier = "com.apple.photos.asc.e2ee";
+            options = 34;
+            version = 0;
+        };
+        libraryIdentifier = "AppLibrary[com.apple.VisualIntelligence]-00000000-0000-0000-0000-000000000001";
+        mainScopeIdentifier = "AppLibrarySync-com.apple.VisualIntelligence-00000000-0000-0000-0000-000000000001";
+        options = 1;
         version = 0;
     };
     "CPLEngineParameters-SystemLibrary" =     {
@@ -28,9 +49,10 @@
     CloudKitAccountInfoCache =     {
         2b6e2a23750935dd7306b30ce271e367165b32f39df7e29443931928b7e46788 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
         f009f2bf9dcad1a3c22161f100e9d1f1478737b3e3ccff78a077d3da7b3437fc = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+        fed7e13f9e783837a70ec054dce5a1bb5fdea168a3a39d4c161585c1b05fa858 = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
     };
     "_CPLLastPushEvent-production" =     {
-        date = "2026-07-05 15:31:39 +0000";
+        date = "2026-07-06 14:40:00 +0000";
         topic = "com.apple.icloud-container.com.apple.photos.cloud";
         userInfo =         {
             ck =             {
@@ -43,29 +65,42 @@
                     zid = PrimarySync;
                     zoid = "_08a6f736ef723a39f3f5718f7831077a";
                 };
-                nid = "b0c8e6d4-37af-4ac2-a2ea-26a18d106c23";
+                nid = "7230429e-b546-4321-82ee-77bdb3ff9338";
             };
         };
     };
+    "_CPLLastUpdateForCPLCloudKitCoordinator-com.apple.photos.asc.e2ee" = "2026-07-07 10:12:56 +0000";
     "_CPLLastUpdateForCPLCloudKitCoordinator-com.apple.photos.cloud" = "2026-06-10 00:32:40 +0000";
+    "_CPLLastUpdateForCPLEngineParameters-AppLibrary[com.apple.VisualIntelligence]-00000000-0000-0000-0000-000000000001" = "2026-07-07 10:12:56 +0000";
     "_CPLLastUpdateForCPLEngineParameters-SystemLibrary" = "2026-06-10 00:32:40 +0000";
-    "_CPLLastUpdateFor_CPLLastPushEvent-production" = "2026-07-05 15:31:39 +0000";
+    "_CPLLastUpdateFor_CPLLastPushEvent-production" = "2026-07-06 14:40:00 +0000";
     "_CPLLastUpdateFor_CPLPushEnvironments" = "2026-06-23 10:31:39 +0000";
+    "_CPLLastUpdateFor_CPLSubscriptions-production" = "2026-07-07 10:13:31 +0000";
     "_CPLPushEnvironments" =     {
         production = enabled;
     };
     "_CPLRegisteredTaskIdentifiers" =     (
+        "com.apple.cloudphotod.sync.AppLibrary[com.apple.VisualIntelligence]-00000000-0000-0000-0000-000000000001",
         "com.apple.cloudphotod.sync.discretionary"
     );
+    "_CPLSubscriptions-production" =     {
+        "com.apple.photos.asc.e2ee" = "2026-07-07 10:13:31 +0000";
+    };
+    "_CPLUpgradeHistory-AppLibrary[com.apple.VisualIntelligence]-00000000-0000-0000-0000-000000000001" =     {
+        lastCPLUpgradeDate = "2026-07-07 10:12:56 +0000";
+        lastOSBuildUpgradeDate = "2026-07-07 10:12:56 +0000";
+        lastSeenCPLVersion = "CloudPhotoLibrary-910.28.103";
+        lastSeenOSBuildVersion = 26A5378j;
+    };
     "_CPLUpgradeHistory-SystemLibrary" =     {
-        lastCPLUpgradeDate = "2026-06-23 13:29:57 +0000";
+        lastCPLUpgradeDate = "2026-07-07 10:12:32 +0000";
         lastDBUpgradeDate = "2026-06-10 00:32:40 +0000";
-        lastOSBuildUpgradeDate = "2026-06-23 13:29:57 +0000";
-        lastSeenCPLVersion = "CloudPhotoLibrary-910.22.101";
+        lastOSBuildUpgradeDate = "2026-07-07 10:12:32 +0000";
+        lastSeenCPLVersion = "CloudPhotoLibrary-910.28.103";
         lastSeenDBVersion = 99;
-        lastSeenOSBuildVersion = 26A5368g;
-        previousCPLVersion = "CloudPhotoLibrary-910.15.106";
+        lastSeenOSBuildVersion = 26A5378j;
+        previousCPLVersion = "CloudPhotoLibrary-910.22.101";
         previousDBVersion = 94;
-        previousOSBuildVersion = 26A5353q;
+        previousOSBuildVersion = 26A5368g;
     };
 }

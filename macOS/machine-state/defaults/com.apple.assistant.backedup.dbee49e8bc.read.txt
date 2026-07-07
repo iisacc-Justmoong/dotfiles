@@ -1,6 +1,7 @@
 {
     "Cloud Sync Enabled" = 1;
     "Cloud Sync Enabled Modification Date" = "2026-01-17 08:57:23 +0000";
+    "Enable Offline Mode For Apple Intelligence" = 0;
     "Modification Dates" =     {
         "Logging User Identifier" = "2026-06-27 14:11:23 +0000";
         "MultiUser VoiceIdentification Enabled" = "2021-05-04 09:01:04 +0000";
@@ -43,16 +44,19 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            linwoodCapabilities = 3551;
+            linwoodCapabilities = 7679;
             saeCapabilities = 63;
+            visualIntelligenceCapabilities = 21;
         };
-        bootUUID = "52A302FB-81FB-4978-BA6C-75DB78655FC1";
+        bootUUID = "19CBA8E1-0257-4296-9AD4-0516196F1CD2";
         currentOrchestrationMode = 4;
         desiredOrchestrationMode = 4;
         desiredOrchestrationModeIfEnabled = 4;
         isAvailable = 1;
         linwoodEverAvailable = 0;
+        restrictionReasons = 0;
         siriLocale = "en-US";
+        status = 0;
         unavailabilityReasons = 0;
     };
 }

@@ -37,7 +37,12 @@
             InputSourceKind = "Input Mode";
         }
     );
-    AppleInputSourceUpdateTime = "2026-07-05 12:52:40 +0000";
+    AppleInputSourceUpdateTime = "2026-07-07 10:00:10 +0000";
+    AppleSavedCurrentInputSource =     {
+        InputSourceKind = "Keyboard Layout";
+        "KeyboardLayout ID" = 252;
+        "KeyboardLayout Name" = ABC;
+    };
     AppleSelectedInputSources =     (
                 {
             "Bundle ID" = "com.apple.inputmethod.ironwood";

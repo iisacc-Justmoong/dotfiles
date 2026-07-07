@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "804966801.7888499"
+        "805111970.370563"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3769;
+    "mod-count" = 3789;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 157852503813267;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Codex;
-                "file-mod-date" = 54919317570879;
+                "file-mod-date" = 262160079701424;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 157852503813267;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
@@ -259,9 +259,9 @@
                 };
                 "file-label" = Vincent;
                 "file-mod-date" = 30609802786569;
-                "file-type" = 1;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 4603775809289;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3864103636;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 157852503813267;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
@@ -459,7 +459,7 @@
                 "file-mod-date" = 230686559167446;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 112347325485948;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
@@ -496,6 +496,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3864700869;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1039804715;
+            "tile-data" =             {
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.culturedcode.ThingsMac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Things3.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Things;
+                "file-mod-date" = 243073245413204;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 133607413940057;
             };
             "tile-type" = "file-tile";
         },
@@ -706,38 +724,38 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804699;
+            GUID = 1039804712;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.getupnote.desktop";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/UpNote.app/";
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = UpNote;
-                "file-mod-date" = 51406034584451;
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 190554383633813;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 9577348088732;
+                "parent-mod-date" = 235475448126163;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804704;
+            GUID = 1278526512;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3864700869;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 247492766761318;
             };
             "tile-type" = "file-tile";
         }
