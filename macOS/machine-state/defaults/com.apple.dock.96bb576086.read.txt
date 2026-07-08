@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3789;
+    "mod-count" = 3802;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -261,7 +261,7 @@
                 "file-mod-date" = 30609802786569;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 202009063097774;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3864103636;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 202009063097774;
             };
             "tile-type" = "file-tile";
         },
@@ -511,9 +511,9 @@
                 };
                 "file-label" = Things;
                 "file-mod-date" = 243073245413204;
-                "file-type" = 1;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 133607413940057;
+                "parent-mod-date" = 202009063097774;
             };
             "tile-type" = "file-tile";
         },
@@ -592,7 +592,7 @@
                 {
             GUID = 2546935503;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.Photos";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -600,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Photos;
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3865904073;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         },
@@ -646,7 +646,7 @@
                 {
             GUID = 2388809268;
             "tile-data" =             {
-                book = {length = 604, bytes = 0x626f6f6b 5c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.systempreferences";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -654,10 +654,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3865904073;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         }
@@ -742,20 +742,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1278526512;
+            GUID = 1278526513;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                book = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.calculator";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLString" = "file:///System/Applications/Calculator.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
+                "file-label" = Calculator;
+                "file-mod-date" = 3865904073;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 247492766761318;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         }

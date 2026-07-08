@@ -1,6 +1,6 @@
 {
     "/Users/ymy/Library/Application Support/CallHistoryTransactions/transactions.log" = 0;
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 36373535 3137317d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e343030 3337377d };
     CHCallProvidersHashKey = 2;
     CHFacetimeSearchableStatus = 3;
     CHLastReindexCompletionDate = "2026-06-24 01:33:26 +0000";
@@ -13,20 +13,20 @@
     CloudKitAccountInfoCache =     {
         fa5204f997684dcef4a25dce6a1600a3d36a05eb869928120e75ba093712adef = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
-    PNRltc = "2026-07-05 23:34:27 +0000";
+    PNRltc = "2026-07-07 12:30:06 +0000";
     SyncHistory =     (
+        "2026-07-07 12:31:04 +0000",
+        "2026-07-07 12:30:04 +0000",
         "2026-07-06 05:31:24 +0000",
         "2026-07-06 01:30:00 +0000",
         "2026-07-06 01:16:04 +0000",
         "2026-07-06 00:57:50 +0000",
         "2026-07-06 00:54:52 +0000",
-        "2026-07-05 03:03:50 +0000",
-        "2026-07-04 15:47:51 +0000",
-        "2026-07-04 15:42:59 +0000"
+        "2026-07-05 03:03:50 +0000"
     );
     "com.apple.callhistory.cloud-storage2" =     {
         previousServerChangeTokenData = {length = 292, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000ec };
-        transactionRecordZoneFetchDate = "2026-07-04 12:10:56 +0000";
+        transactionRecordZoneFetchDate = "2026-07-07 12:30:05 +0000";
         transactionRecordZoneSubscriptionCreationDate = "2026-01-17 09:16:09 +0000";
     };
     kCHLastFetchedContactHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };

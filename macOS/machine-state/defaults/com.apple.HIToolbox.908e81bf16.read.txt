@@ -37,11 +37,11 @@
             InputSourceKind = "Input Mode";
         }
     );
-    AppleInputSourceUpdateTime = "2026-07-07 10:00:10 +0000";
+    AppleInputSourceUpdateTime = "2026-07-07 14:38:10 +0000";
     AppleSavedCurrentInputSource =     {
-        InputSourceKind = "Keyboard Layout";
-        "KeyboardLayout ID" = 252;
-        "KeyboardLayout Name" = ABC;
+        "Bundle ID" = "com.apple.inputmethod.Korean";
+        "Input Mode" = "com.apple.inputmethod.Korean.2SetKorean";
+        InputSourceKind = "Input Mode";
     };
     AppleSelectedInputSources =     (
                 {
