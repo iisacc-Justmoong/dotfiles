@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-07-07 11:38:23 +0000";
+    LastSaveDate = "2026-07-08 17:26:02 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -51,6 +51,7 @@
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
+            "A8B099D0-DA08-4495-A9EA-61C83BA6B44B"
         );
     };
     SharedCalendarNotificationsDisabled = 0;
@@ -58,9 +59,9 @@
     TabbedWindowGroups =     (
     );
     defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x749ec3ba80>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [1323], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 805113531;
+    defaultCalendarChangedTimestamp = 805201971;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "5A4C5DE8-2797-466F-AB14-1CB53EC44383";
+    defaultCalendarID = "FD9F74D2-4181-43C6-BF52-461AE8931399";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -72,7 +73,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "5A4C5DE8-2797-466F-AB14-1CB53EC44383";
+    "last selected calendar list item" = "FD9F74D2-4181-43C6-BF52-461AE8931399";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;
