@@ -644,51 +644,50 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 892, bytes = 0x626f6f6b 7c030000 00000510 40000000 ... 04000000 00000000 };
-            name = Storage;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
-            name = Public;
+            "file-bookmark" = {length = 1160, bytes = 0x626f6f6b 88040000 00000510 40000000 ... 04000000 00000000 };
+            name = mail;
         },
                 {
-            "file-bookmark" = {length = 912, bytes = 0x626f6f6b 90030000 00000510 40000000 ... 04000000 00000000 };
-            name = Users;
+            "file-bookmark" = {length = 1120, bytes = 0x626f6f6b 60040000 00000510 40000000 ... 04000000 00000000 };
+            name = lib;
         },
                 {
-            "file-bookmark" = {length = 868, bytes = 0x626f6f6b 64030000 00000510 40000000 ... 04000000 00000000 };
-            name = C;
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = src;
         },
                 {
-            "file-bookmark" = {length = 864, bytes = 0x626f6f6b 60030000 00000510 40000000 ... 04000000 00000000 };
-            name = output;
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = "iisacc.com";
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Service;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = 20260707;
+            "file-bookmark" = {length = 1536, bytes = 0x626f6f6b 00060000 00000510 40000000 ... d4040000 00000000 };
+            name = "ChatGPT Installer";
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = PostCards;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = SNS;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -905,7 +904,7 @@
             WindowBounds = "{{139, 230}, {1056, 1001}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -1139,6 +1138,7 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
         "file:///Users/ymy/Documents/ToSwindler/",
         "file:///Users/ymy/Documents/Police/CScenter_Conversation_Compress/",
         "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/",
@@ -1147,8 +1147,7 @@
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Users/ymy/Documents/Police/",
         "file:///Users/ymy/Documents/",
-        "file:///Users/ymy/Documents/Police/Transfer_Bill/",
-        "file:///Users/ymy/Documents/Police/Line_Conversation/"
+        "file:///Users/ymy/Documents/Police/Transfer_Bill/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

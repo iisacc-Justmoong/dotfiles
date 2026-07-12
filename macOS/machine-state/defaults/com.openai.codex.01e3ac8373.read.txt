@@ -1,7 +1,8 @@
 {
-    DockIconCacheRefreshToken = "4753\napp-default\n";
-    DockIconPreference = "app-default";
-    LastRunAppBundlePath = "/Applications/Codex.app";
+    DockIconCacheRefreshToken = "5103\ncodex-system\nicon-codex-light.png";
+    DockIconPreference = "codex-system";
+    DockIconResourceName = "icon-codex-light.png";
+    LastRunAppBundlePath = "/Applications/ChatGPT.app";
     NSFullScreenMenuItemEverywhere = 0;
     NSNavPanelExpandedSizeForOpenMode = "{880, 708}";
     NSNavPanelMediaBrowserTypeForOpenModeKey = 1;
@@ -9,6 +10,6 @@
     NSTreatUnknownArgumentsAsOpen = NO;
     SUAutomaticallyUpdate = 1;
     SUEnableAutomaticChecks = 1;
-    SULastCheckTime = "2026-07-08 11:08:32 +0000";
+    SULastCheckTime = "2026-07-11 18:12:52 +0000";
     SUUpdateGroupIdentifier = 3124881466;
 }

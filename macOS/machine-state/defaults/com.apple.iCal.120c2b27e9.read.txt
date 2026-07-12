@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-07-08 17:26:02 +0000";
+    LastSaveDate = "2026-07-11 14:16:54 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -43,7 +43,7 @@
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "3252 399 359 150 2560 0 2560 1410 ";
     "NSWindow Frame ServerCalendarInspector" = "1003 446 525 269 0 0 2560 1410 ";
-    "NSWindow Frame iCal" = "2621 192 1140 1009 2560 0 2560 1410 ";
+    "NSWindow Frame iCal" = "3101 219 1140 1009 2560 0 2560 1410 ";
     "NSWindow Frame iCal inspector 0" = "1074 291 324 510 0 0 2560 1410 ";
     NotificationSourceClientIdentifierVersion = 1;
     NotificationsLastLocale = "en_KR";
@@ -51,7 +51,7 @@
     ReindexAttemptsWithoutProgress = 0;
     SelectedEvents =     {
         iCal =         (
-            "A8B099D0-DA08-4495-A9EA-61C83BA6B44B"
+            "4FBABA5A-2EFE-4A69-9B34-2CE1560247AB"
         );
     };
     SharedCalendarNotificationsDisabled = 0;
@@ -59,9 +59,9 @@
     TabbedWindowGroups =     (
     );
     defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x749ec3ba80>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [1323], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 805201971;
+    defaultCalendarChangedTimestamp = 805446730;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "FD9F74D2-4181-43C6-BF52-461AE8931399";
+    defaultCalendarID = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     defaultCalendarStoreUID = 4;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -73,7 +73,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "FD9F74D2-4181-43C6-BF52-461AE8931399";
+    "last selected calendar list item" = "C53ABD34-788E-4F0F-A3F2-158A106BAACD";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

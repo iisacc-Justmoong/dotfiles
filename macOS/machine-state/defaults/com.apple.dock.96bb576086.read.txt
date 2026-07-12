@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3804;
+    "mod-count" = 3817;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 139324015482486;
             };
             "tile-type" = "file-tile";
         },
@@ -194,20 +194,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2293371083;
+            GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Codex.app/";
+                    "_CFURLString" = "file:///Applications/ChatGPT.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Codex;
-                "file-mod-date" = 262160079701424;
+                "file-label" = ChatGPT;
+                "file-mod-date" = 3866563690;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 66507140189566;
             };
             "tile-type" = "file-tile";
         },
@@ -538,7 +538,7 @@
                 {
             GUID = 2388809255;
             "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 512, bytes = 0x626f6f6b 00020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.mail";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -546,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3865904073;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         },
@@ -568,24 +568,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3864700869;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2157571585;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.openai.chat";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/ChatGPT.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = ChatGPT;
-                "file-mod-date" = 113794727532576;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 168903454049532;
             };
             "tile-type" = "file-tile";
         },
@@ -706,24 +688,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1039804687;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.TextEdit";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = TextEdit;
-                "file-mod-date" = 3864700869;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1039804712;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
@@ -742,16 +706,34 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1278526513;
+            GUID = 4269336383;
             "tile-data" =             {
-                book = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.calculator";
-                "dock-extra" = 0;
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Calculator.app/";
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Calculator;
+                "file-label" = Phone;
+                "file-mod-date" = 3865904073;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3865904073;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4269336385;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Preview";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Preview;
                 "file-mod-date" = 3865904073;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -765,7 +747,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
