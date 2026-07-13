@@ -1,7 +1,9 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
-            en
+            "en-US",
+            en,
+            English
         );
         CFVendedServices =         (
                         {
@@ -69,8 +71,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Create Service";
                     default = "Create Service";
                     en = "Create Service";
+                    "en-US" = "Create Service";
                 };
                 NSMessage = makeNewServiceWithPasteboard;
                 NSPortName = Automator;
@@ -86,8 +90,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Create Workflow";
                     default = "Create Workflow";
                     en = "Create Workflow";
+                    "en-US" = "Create Workflow";
                 };
                 NSMessage = makeNewWorkflowServiceWithPasteboard;
                 NSPortName = Automator;
@@ -104,8 +110,10 @@
                     default = B;
                 };
                 NSMenuItem =                 {
+                    English = "Send File To Bluetooth Device";
                     default = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
+                    "en-US" = "Send File To Bluetooth Device";
                 };
                 NSMessage = sendFileUsingBluetoothOBEXService;
                 NSPortName = BluetoothFileExchange;
@@ -123,12 +131,16 @@
                 NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                 NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                 NSKeyEquivalent =                 {
+                    English = "$^@C";
                     default = "$^@C";
                     en = "$^@C";
+                    "en-US" = "$^@C";
                 };
                 NSMenuItem =                 {
+                    English = "Convert Text to Traditional Chinese";
                     default = "Convert Text from Simplified to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
+                    "en-US" = "Convert Text to Traditional Chinese";
                 };
                 NSMessage = convertTextToTraditionalChinese;
                 NSPortName = ChineseTextConverterService;
@@ -150,12 +162,16 @@
                 NSBundleIdentifier = "com.apple.ChineseTextConverterService";
                 NSBundlePath = "/System/Library/Services/ChineseTextConverterService.app";
                 NSKeyEquivalent =                 {
+                    English = "$^~@C";
                     default = "$^~@C";
                     en = "$^~@C";
+                    "en-US" = "$^~@C";
                 };
                 NSMenuItem =                 {
+                    English = "Convert Text to Simplified Chinese";
                     default = "Convert Text from Traditional to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
+                    "en-US" = "Convert Text to Simplified Chinese";
                 };
                 NSMessage = convertTextToSimplifiedChinese;
                 NSPortName = ChineseTextConverterService;
@@ -179,8 +195,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Convert Text to Full Width";
                     default = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
+                    "en-US" = "Convert Text to Full Width";
                 };
                 NSMessage = convertTextToFullWidth;
                 NSPortName = ChineseTextConverterService;
@@ -201,8 +219,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Convert Text to Half Width";
                     default = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
+                    "en-US" = "Convert Text to Half Width";
                 };
                 NSMessage = convertTextToHalfWidth;
                 NSPortName = ChineseTextConverterService;
@@ -223,8 +243,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Look Up in Dictionary";
                     default = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
+                    "en-US" = "Look Up in Dictionary";
                 };
                 NSMessage = doLookupService;
                 NSPortName = Dictionary;
@@ -274,8 +296,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Folder Actions Setup\U2026";
                     default = "Folder Actions Setup";
                     en = "Folder Actions Setup\U2026";
+                    "en-US" = "Folder Actions Setup\U2026";
                 };
                 NSMessage = openFilesFromPasteboard;
                 NSPortName = "Folder Actions Setup";
@@ -306,8 +330,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Preview/Open images";
                     default = "Preview/Open images";
                     en = "Preview/Open images";
+                    "en-US" = "Preview/Open images";
                 };
                 NSMessage = serviceOpenImage;
                 NSPortName = Preview;
@@ -322,8 +348,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Encode Selected Audio Files";
                     default = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
+                    "en-US" = "Encode Selected Audio Files";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -341,8 +369,10 @@
                     default = L;
                 };
                 NSMenuItem =                 {
+                    English = "Search With %WebSearchProvider@";
                     default = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
+                    "en-US" = "Search With %WebSearchProvider@";
                 };
                 NSMessage = searchWithWebSearchProvider;
                 NSPortName = Safari;
@@ -357,8 +387,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Add to Reading List";
                     default = "Add to Reading List";
                     en = "Add to Reading List";
+                    "en-US" = "Add to Reading List";
                 };
                 NSMessage = addToReadingList;
                 NSPortName = Safari;
@@ -385,8 +417,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Script Editor/Make New AppleScript";
                     default = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
+                    "en-US" = "Script Editor/Make New AppleScript";
                 };
                 NSMessage = makeNewAppleScript;
                 NSPortName = "Script Editor";
@@ -401,8 +435,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Script Editor/Run as AppleScript";
                     default = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
+                    "en-US" = "Script Editor/Run as AppleScript";
                 };
                 NSMessage = runAsAppleScript;
                 NSPortName = "Script Editor";
@@ -416,12 +452,16 @@
                 NSBundleIdentifier = "com.apple.ScriptEditor2";
                 NSBundlePath = "/System/Applications/Utilities/Script Editor.app";
                 NSKeyEquivalent =                 {
+                    English = "*";
                     default = "*";
                     en = "*";
+                    "en-US" = "*";
                 };
                 NSMenuItem =                 {
+                    English = "Script Editor/Get Result of AppleScript";
                     default = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
+                    "en-US" = "Script Editor/Get Result of AppleScript";
                 };
                 NSMessage = runAsAppleScript;
                 NSPortName = "Script Editor";
@@ -443,8 +483,10 @@
                     default = F;
                 };
                 NSMenuItem =                 {
+                    English = Spotlight;
                     default = "SEARCH_WITH_SPOTLIGHT";
                     en = Spotlight;
+                    "en-US" = Spotlight;
                 };
                 NSMessage = doSearchWithSpotlight;
                 NSPortName = SpotlightService;
@@ -457,12 +499,16 @@
                 NSBundleIdentifier = "com.apple.Stickies";
                 NSBundlePath = "/System/Applications/Stickies.app";
                 NSKeyEquivalent =                 {
+                    English = Y;
                     default = Y;
                     en = Y;
+                    "en-US" = Y;
                 };
                 NSMenuItem =                 {
+                    English = "Make New Sticky Note";
                     default = "Make Sticky";
                     en = "Make New Sticky Note";
+                    "en-US" = "Make New Sticky Note";
                 };
                 NSMessage = makeStickyFromTextService;
                 NSPortName = Stickies;
@@ -479,8 +525,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = Summarize;
                     default = Summarize;
                     en = Summarize;
+                    "en-US" = Summarize;
                 };
                 NSMessage = doSummarization;
                 NSPortName = SummaryService;
@@ -495,8 +543,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "New Terminal at Folder";
                     default = "New Terminal at Folder";
                     en = "New Terminal at Folder";
+                    "en-US" = "New Terminal at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
                 NSPortName = Terminal;
@@ -518,8 +568,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "New Terminal Tab at Folder";
                     default = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
+                    "en-US" = "New Terminal Tab at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
                 NSPortName = Terminal;
@@ -543,8 +595,10 @@
                     default = M;
                 };
                 NSMenuItem =                 {
+                    English = "Open man Page in Terminal";
                     default = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
+                    "en-US" = "Open man Page in Terminal";
                 };
                 NSMessage = openManPage;
                 NSPortName = Terminal;
@@ -563,8 +617,10 @@
                     default = A;
                 };
                 NSMenuItem =                 {
+                    English = "Search man Page Index in Terminal";
                     default = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
+                    "en-US" = "Search man Page Index in Terminal";
                 };
                 NSMessage = searchManPages;
                 NSPortName = Terminal;
@@ -582,8 +638,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "New TextEdit Window Containing Selection";
                     default = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
+                    "en-US" = "New TextEdit Window Containing Selection";
                 };
                 NSMessage = openSelection;
                 NSPortName = TextEdit;
@@ -600,8 +658,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Open Selected File in TextEdit";
                     default = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
+                    "en-US" = "Open Selected File in TextEdit";
                 };
                 NSMessage = openFile;
                 NSPortName = TextEdit;
@@ -714,8 +774,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Finder/Open";
                     default = "Finder/Open";
                     en = "Finder/Open";
+                    "en-US" = "Finder/Open";
                 };
                 NSMessage = open;
                 NSPortName = Finder;
@@ -737,8 +799,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Finder/Show in Finder";
                     default = "Finder/Reveal";
                     en = "Finder/Show in Finder";
+                    "en-US" = "Finder/Show in Finder";
                 };
                 NSMessage = reveal;
                 NSPortName = Finder;
@@ -760,8 +824,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Finder/Show Info in Finder";
                     default = "Finder/Show Info";
                     en = "Finder/Show Info in Finder";
+                    "en-US" = "Finder/Show Info in Finder";
                 };
                 NSMessage = showInfo;
                 NSPortName = Finder;
@@ -780,8 +846,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Mail/New Email With Selection";
                     default = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
+                    "en-US" = "Mail/New Email With Selection";
                 };
                 NSMessage = mailSelection;
                 NSPortName = Mail;
@@ -799,8 +867,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Mail/New Email To Address";
                     default = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
+                    "en-US" = "Mail/New Email To Address";
                 };
                 NSMessage = mailTo;
                 NSPortName = Mail;
@@ -815,8 +885,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Add to Music as a Spoken Track";
                     default = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
+                    "en-US" = "Add to Music as a Spoken Track";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRestricted = 1;
@@ -831,8 +903,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Encode Selected Video Files";
                     default = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
+                    "en-US" = "Encode Selected Video Files";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -849,8 +923,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Set Desktop Picture";
                     default = "Set Desktop Picture";
                     en = "Set Desktop Picture";
+                    "en-US" = "Set Desktop Picture";
                 };
                 NSMessage = runWorkflowAsService;
                 NSSendFileTypes =                 (
@@ -864,8 +940,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Show Map";
                     default = "Show Map";
                     en = "Show Map";
+                    "en-US" = "Show Map";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -883,8 +961,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Speech/Start Speaking Text";
                     default = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
+                    "en-US" = "Speech/Start Speaking Text";
                 };
                 NSMessage = doSpeakSelectedText;
                 NSPortName = ComAppleSpeechSpeechService;
@@ -899,8 +979,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Speech/Stop Speaking";
                     default = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
+                    "en-US" = "Speech/Stop Speaking";
                 };
                 NSMessage = doStopSpeaking;
                 NSPortName = ComAppleSpeechSpeechService;
@@ -915,8 +997,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Open URL";
                     default = "Open URL";
                     en = "Open URL";
+                    "en-US" = "Open URL";
                 };
                 NSMessage = openURL;
                 NSPortName = SystemUIServer;
@@ -1035,8 +1119,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Convert to icon(s)";
                     default = "Convert to icon(s)";
                     en = "Convert to icon(s)";
+                    "en-US" = "Convert to icon(s)";
                 };
                 NSMessage = convertFromPasteboard;
                 NSRequiredContext =                 {
@@ -1053,8 +1139,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Combine into one icon";
                     default = "Combine into one icon";
                     en = "Combine into one icon";
+                    "en-US" = "Combine into one icon";
                 };
                 NSMessage = combineFromPasteboard;
                 NSRequiredContext =                 {
@@ -1071,8 +1159,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Make New Clipping";
                     default = "Scrivener/Scrivener: Make New Clipping";
                     en = "Scrivener/Scrivener: Make New Clipping";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping";
                 };
                 NSMessage = createClipping;
                 NSPortName = Scrivener;
@@ -1089,8 +1179,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     default = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                     en = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                 };
                 NSMessage = createPlainTextClipping;
                 NSPortName = Scrivener;
@@ -1107,8 +1199,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text";
                     default = "Scrivener/Scrivener: Append to Text";
                     en = "Scrivener/Scrivener: Append to Text";
+                    "en-US" = "Scrivener/Scrivener: Append to Text";
                 };
                 NSMessage = appendSelection;
                 NSPortName = Scrivener;
@@ -1125,8 +1219,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Text (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
                 };
                 NSMessage = appendSelectionAsPlainText;
                 NSPortName = Scrivener;
@@ -1143,8 +1239,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes";
                     default = "Scrivener/Scrivener: Append to Notes";
                     en = "Scrivener/Scrivener: Append to Notes";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes";
                 };
                 NSMessage = appendSelectionToNotes;
                 NSPortName = Scrivener;
@@ -1161,8 +1259,10 @@
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     default = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                     en = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
                 };
                 NSMessage = appendSelectionToNotesAsPlainText;
                 NSPortName = Scrivener;

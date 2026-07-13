@@ -7,17 +7,16 @@
         sessions =         (
         );
         stats =         (
-            "2026-07-11:didScoreGraph:21",
-            "2026-07-11:text processing all done:23",
-            "2026-07-11:[2]queryItemUpdatedCount:29",
-            "2026-07-11:currentPid:3",
-            "2026-07-11:[2]queryItemExtractedCount:29",
-            "2026-07-11:people indexing all done:26"
+            "2026-07-07:text processing all done:23",
+            "2026-07-07:[2]queryItemUpdatedCount:6132",
+            "2026-07-07:currentPid:3",
+            "2026-07-07:[2]queryItemExtractedCount:6132",
+            "2026-07-07:people indexing all done:26"
         );
         version = V2;
     };
-    "hdbCutover.mail.evaluationCount" = 88;
+    "hdbCutover.mail.evaluationCount" = 93;
     "hdbCutover.mail.firstEvaluated" = "1781052457.312748";
-    "pipelineCompleteness.lastCADonationAt" = "2026-07-10 12:04:51 +0000";
-    "stateDump.lastEvaluationTimestamp" = "1783747662.250396";
+    "pipelineCompleteness.lastCADonationAt" = "2026-07-11 19:58:08 +0000";
+    "stateDump.lastEvaluationTimestamp" = "1783833945.443748";
 }

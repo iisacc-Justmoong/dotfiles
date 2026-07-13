@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3817;
+    "mod-count" = 3840;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 139324015482486;
+                "parent-mod-date" = 98165344224142;
             };
             "tile-type" = "file-tile";
         },
@@ -196,7 +196,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -207,7 +207,7 @@
                 "file-mod-date" = 3866563690;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 66507140189566;
+                "parent-mod-date" = 98165344224142;
             };
             "tile-type" = "file-tile";
         },
@@ -430,7 +430,7 @@
                 {
             GUID = 1039804679;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.Notes";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -438,15 +438,15 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Notes;
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3865904073;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804693;
+            GUID = 4269336389;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.Pages";
@@ -456,15 +456,15 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Pages;
-                "file-mod-date" = 230686559167446;
+                "file-mod-date" = 261507245449449;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 184764769804723;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1039804692;
+            GUID = 4269336388;
             "tile-data" =             {
                 book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.microsoft.Excel";
@@ -474,17 +474,35 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Microsoft Excel";
-                "file-mod-date" = 122844225326931;
+                "file-mod-date" = 169444621459892;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 112347325485948;
+                "parent-mod-date" = 184764769804723;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4269336390;
+            "tile-data" =             {
+                book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Keynote";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Keynote%20Creator%20Studio.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Keynote;
+                "file-mod-date" = 29115154997544;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 184764769804723;
             };
             "tile-type" = "file-tile";
         },
                 {
             GUID = 1152347586;
             "tile-data" =             {
-                book = {length = 608, bytes = 0x626f6f6b 60020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 528, bytes = 0x626f6f6b 10020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.iCal";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -520,7 +538,7 @@
                 {
             GUID = 2388809267;
             "tile-data" =             {
-                book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.AppStore";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -528,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "App Store";
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3865904073;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
         },
@@ -603,7 +621,7 @@
                 "file-mod-date" = 106523349832751;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 106974321398831;
+                "parent-mod-date" = 236033794405621;
             };
             "tile-type" = "file-tile";
         },
@@ -706,25 +724,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4269336383;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Phone;
-                "file-mod-date" = 3865904073;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4269336385;
+            GUID = 4269336392;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.Preview";
@@ -740,6 +740,24 @@
                 "parent-mod-date" = 3865904073;
             };
             "tile-type" = "file-tile";
+        },
+                {
+            GUID = 4269336395;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3865213144;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 276385012195815;
+            };
+            "tile-type" = "file-tile";
         }
     );
     region = KR;
@@ -747,7 +765,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
