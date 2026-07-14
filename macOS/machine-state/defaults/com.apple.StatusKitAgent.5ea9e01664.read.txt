@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e333730 3233397d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 39303737 3736317d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -8,10 +8,10 @@
         3de6675936b7fa2ce1e9dd803ee3573fcb48bec8d1e84aa5ad7299b28ee58714 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
     };
     assertionsSinceLastReassertTime = 1;
-    bootSessionUUID = "19CBA8E1-0257-4296-9AD4-0516196F1CD2";
+    bootSessionUUID = "AFFF4A1C-B14B-4A99-8A1C-A3DBAB14DABC";
     lastDatabaseExportDate = "2026-07-06 04:02:27 +0000";
     lastPublishTime = "2026-07-05 23:14:41 +0000";
     lastReassertTime = "2026-05-21 10:44:27 +0000";
     rapidPublishCount = 16;
-    sequenceNumber = 19;
+    sequenceNumber = 26;
 }

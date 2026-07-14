@@ -2,31 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-06-10 09:32:27";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-10 09:32:44";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-10 09:32:44";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-10 09:44:16";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-10 09:47:43";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-06-11 07:14:43";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +225,31 @@
                 Date = "2026-07-12 19:28:00";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-07-13 19:27:34";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-14 15:56:04";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-14 15:56:28";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-14 15:56:28";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-14 15:56:29";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -296,20 +296,6 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
-    displaysLastCursorLocation =     {
-        2 =         {
-            X = "1928.640625";
-            Y = "466.296875";
-        };
-        4 =         {
-            X = "-321.5";
-            Y = "1127.9765625";
-        };
-        5 =         {
-            X = "4322.0859375";
-            Y = "894.640625";
-        };
-    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;

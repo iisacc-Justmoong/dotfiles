@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e333730 3233397d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 39303737 3736317d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -10,6 +10,16 @@
     IMChatVocabularyUpdaterDidPerformInitialUpdateKey = 1;
     "Setting.EnableReadReceipts" = 1;
     "Setting.GlobalReadReceiptsVersionID" = 1;
+    SpotlightPersistentTaskCriticalExecutionRanges =     (
+                (
+            "2026-07-14 01:33:34 +0000",
+            "2026-07-14 01:33:34 +0000"
+        ),
+                (
+            "2026-07-14 02:35:48 +0000",
+            "2026-07-14 02:35:48 +0000"
+        )
+    );
     "attachmentZoneChangeToken-syncStoreVersion" = 1;
     "changeToken-syncStoreVersion" = 1;
     "com.apple.messages-cache-delete.purge_markers" =     {

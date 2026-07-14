@@ -1,10 +1,13 @@
 {
     AuthenticationDelegateResponseTime = "790333042.255034";
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303531 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 39303737 3736317d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
+    CloudKitAccountInfoCache =     {
+        e4bbba3068e8f23afc9f757973c030c390c233db5f7ef5402fa930aee3418481 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+    };
     DidCleanLegacyAccountPrefs = 1;
     GDRRequestMadeForRelayRepair = 1;
     ImportedLegacyIDSAccounts2 = 1;

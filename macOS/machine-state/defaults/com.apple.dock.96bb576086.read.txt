@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "805111970.370563"
+        "805704997.161201"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3840;
+    "mod-count" = 3850;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -45,7 +45,7 @@
                 "file-mod-date" = 3863582732;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 76651850264508;
+                "parent-mod-date" = 200480055218864;
             };
             "tile-type" = "file-tile";
         },
@@ -88,7 +88,7 @@
                 {
             GUID = 1039804665;
             "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... a8000000 00000000 };
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.jetbrains.CLion";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -99,7 +99,7 @@
                 "file-mod-date" = 3859556640;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 148725698300804;
+                "parent-mod-date" = 200480055218864;
             };
             "tile-type" = "file-tile";
         },
@@ -706,7 +706,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1039804712;
+            GUID = 4269336398;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.kakao.KakaoTalkMac";
@@ -719,43 +719,43 @@
                 "file-mod-date" = 190554383633813;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 235475448126163;
+                "parent-mod-date" = 200480055218864;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4269336392;
+            GUID = 1796342895;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3865904073;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 1249407372768;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 4269336395;
+            GUID = 1796342896;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.google.Chrome";
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Google Chrome";
-                "file-mod-date" = 3865213144;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 276385012195815;
+                "parent-mod-date" = 1249407372768;
             };
             "tile-type" = "file-tile";
         }

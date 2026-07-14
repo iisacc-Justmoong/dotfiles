@@ -1,7 +1,7 @@
 {
     ICDefaultsCachedSubscriptionStatus =     {
         lastKnownActiveDSID = 17533321770;
-        lastKnownOSVersion = 26A5378j;
+        lastKnownOSVersion = 26A5378n;
         responses =         {
             "{\"phoneNumber\":\"\",\"dsid\":\"17533321770\",\"storefrontID\":\"143466\"}" =             {
                 status =                 {
@@ -23,6 +23,8 @@
                     };
                     music =                     {
                         expirationDate = 1783904542000;
+                        gracePeriodDialogCount = 0;
+                        gracePeriodExpirationDate = 1786323742000;
                         hasOfflineSlots = 1;
                         initialPurchaseTimestamp = 1679512430000;
                         isAdmin = 0;
