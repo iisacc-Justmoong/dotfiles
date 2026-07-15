@@ -223,7 +223,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 300;
+                width = 283;
             },
                         {
                 ascending = 0;
@@ -644,44 +644,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = "iisacc.com";
-        },
-                {
-            "file-bookmark" = {length = 1212, bytes = 0x626f6f6b bc040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
-        },
-                {
-            "file-bookmark" = {length = 1168, bytes = 0x626f6f6b 90040000 00000510 40000000 ... 04000000 00000000 };
-            name = Store;
-        },
-                {
-            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
-            name = routes;
-        },
-                {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = src;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Service;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
+            name = Job;
+        },
+                {
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = Texts;
+        },
+                {
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = Images;
+        },
+                {
+            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
+            name = SNS;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = "iisacc.com";
+        },
+                {
+            "file-bookmark" = {length = 1212, bytes = 0x626f6f6b bc040000 00000510 40000000 ... 04000000 00000000 };
+            name = Vincent;
         }
     );
     FXSidebarUpgradedToSixteen = 1;

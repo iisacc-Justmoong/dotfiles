@@ -27,12 +27,22 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 		XPC_SERVICE_NAME => ai.openclaw.cache-clean-2200
 	}
 
+	LWCR = {
+		"reqs" => {
+			"signing-identifier" => "com.apple.zsh"
+			"validation-category" => 1
+		}
+		"vers" => 1
+		"comp" => 1
+		"ccat" => 0
+	}
+
 	domain = gui/501 [100019]
 	asid = 100019
 	minimum runtime = 10
 	exit timeout = 5
-	runs = 0
-	last exit code = (never exited)
+	runs = 1
+	last exit code = 127
 
 	event triggers = {
 		ai.openclaw.cache-clean-2200.268435471 => {
@@ -49,13 +59,29 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 
 	event channels = {
 		"com.apple.launchd.calendarinterval" = {
-			port = 0x0
+			port = 0x134d47
 			active = 0
 			managed = 1
 			reset = 0
 			hide = 0
 			watching = 1
 		}
+	}
+
+	resource coalition = {
+		ID = 3954
+		type = resource
+		state = active
+		active count = 1
+		name = ai.openclaw.cache-clean-2200
+	}
+
+	jetsam coalition = {
+		ID = 3955
+		type = jetsam
+		state = active
+		active count = 1
+		name = ai.openclaw.cache-clean-2200
 	}
 
 	spawn type = daemon (3)
@@ -65,8 +91,8 @@ gui/501/ai.openclaw.cache-clean-2200 = {
 	jetsamproperties category = daemon
 	jetsam thread limit = 32
 	cpumon = default
-	job state = uninitialized
+	job state = exited
 	sanitizer flags = 0x0
 
-	properties = inferred program | needs LWCR update | managed LWCR
+	properties = inferred program | managed LWCR | has LWCR
 }

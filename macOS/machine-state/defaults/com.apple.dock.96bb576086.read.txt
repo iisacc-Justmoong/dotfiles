@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3850;
+    "mod-count" = 3855;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -438,10 +438,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Notes;
-                "file-mod-date" = 3865904073;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -717,45 +717,45 @@
                 };
                 "file-label" = KakaoTalk;
                 "file-mod-date" = 190554383633813;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 200480055218864;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1796342895;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.chouti.github-streak";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Git Streaks";
-                "file-mod-date" = 149842385282655;
-                "file-type" = 1;
+                "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 1249407372768;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342896;
+            GUID = 1796342898;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                book = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.calculator";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLString" = "file:///System/Applications/Calculator.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
+                "file-label" = Calculator;
+                "file-mod-date" = 3866405905;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 1249407372768;
+                "parent-mod-date" = 3866405905;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1796342899;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Preview";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Preview;
+                "file-mod-date" = 3866405905;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         }
