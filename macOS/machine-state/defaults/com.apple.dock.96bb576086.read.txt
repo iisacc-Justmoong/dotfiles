@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3855;
+    "mod-count" = 3877;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -196,7 +196,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 3866563690;
+                "file-mod-date" = 254734082220881;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 98165344224142;
+                "parent-mod-date" = 6532217202943;
             };
             "tile-type" = "file-tile";
         },
@@ -564,10 +564,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3865904073;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -719,21 +719,21 @@
                 "file-mod-date" = 190554383633813;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 1249407372768;
+                "parent-mod-date" = 6532217202943;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342898;
+            GUID = 1796342908;
             "tile-data" =             {
-                book = {length = 520, bytes = 0x626f6f6b 08020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.calculator";
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Calculator.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Calculator;
+                "file-label" = Messages;
                 "file-mod-date" = 3866405905;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -742,16 +742,16 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342899;
+            GUID = 1796342909;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
-                "dock-extra" = 0;
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
+                "file-label" = Phone;
                 "file-mod-date" = 3866405905;
                 "file-type" = 1;
                 "is-beta" = 0;

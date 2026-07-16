@@ -2,123 +2,123 @@
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
             "InstantProcessing+Embedding" =             {
-                timestamp = "805744635.617624";
-                timestampLastReplenished = "805744635.2861502";
-                tokenCount = 500;
+                timestamp = "805827823.106647";
+                timestampLastReplenished = "805827752.0861449";
+                tokenCount = 167;
             };
             "InstantProcessing+FullEmbedding" =             {
-                timestamp = "805744721.395694";
-                timestampLastReplenished = "805744680.7294909";
+                timestamp = "805827823.080457";
+                timestampLastReplenished = "805827797.5294875";
                 tokenCount = 500;
             };
             "InstantProcessing+GLPEmbedding" =             {
-                timestamp = "805744721.4050421";
-                timestampLastReplenished = "805744680.7382505";
+                timestamp = "805827823.090794";
+                timestampLastReplenished = "805827797.5382456";
                 tokenCount = 500;
             };
             "InstantProcessing+GLPIndexing" =             {
-                timestamp = "805744721.3860199";
-                timestampLastReplenished = "805744680.722595";
+                timestamp = "805827823.109347";
+                timestampLastReplenished = "805827797.5225917";
                 tokenCount = 1000;
             };
             "InstantProcessing+GLPMailAttachments" =             {
-                timestamp = "805744721.3921781";
-                timestampLastReplenished = "805744680.7339376";
-                tokenCount = 500;
+                timestamp = "805827823.093634";
+                timestampLastReplenished = "805827797.5339327";
+                tokenCount = 421;
             };
             "InstantProcessing+Keyphrase" =             {
-                timestamp = "805744635.60955";
-                timestampLastReplenished = "805744635.2836034";
+                timestamp = "805827823.084493";
+                timestampLastReplenished = "805827752.0836006";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5CarkeydataBackground" =             {
-                timestamp = "805744721.389595";
-                timestampLastReplenished = "805744680.7439698";
+                timestamp = "805827823.102461";
+                timestampLastReplenished = "805827797.5439664";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5EventsandordersBackground" =             {
-                timestamp = "805744635.605482";
-                timestampLastReplenished = "805744635.2857786";
+                timestamp = "805827823.112745";
+                timestampLastReplenished = "805827752.0857759";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "805744635.598598";
-                timestampLastReplenished = "805744635.2851475";
+                timestamp = "805827823.09817";
+                timestampLastReplenished = "805827752.0851448";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5IdentificationdocumentsBackground" =             {
-                timestamp = "805744635.613674";
-                timestampLastReplenished = "805744635.2847095";
+                timestamp = "805827823.074687";
+                timestampLastReplenished = "805827752.0847067";
                 tokenCount = 500;
             };
             "InstantProcessing+LSSR5SmartrepliesBackground" =             {
-                timestamp = "805744721.383262";
-                timestampLastReplenished = "805744673.1102889";
+                timestamp = "805827823.116091";
+                timestampLastReplenished = "805827789.9102855";
                 tokenCount = 500;
             };
             "InstantProcessing+Migration" =             {
-                timestamp = "805744721.410165";
-                timestampLastReplenished = "805744680.7452399";
+                timestamp = "805827823.088173";
+                timestampLastReplenished = "805827797.5452365";
                 tokenCount = 500;
             };
             "PriorityProcessing+Embedding" =             {
-                timestamp = "805744721.408123";
-                timestampLastReplenished = "805744692.8862765";
+                timestamp = "805827823.107982";
+                timestampLastReplenished = "805827809.6862783";
                 tokenCount = 1500;
             };
             "PriorityProcessing+FullEmbedding" =             {
-                timestamp = "805744721.396893";
-                timestampLastReplenished = "805744680.7296437";
+                timestamp = "805827823.081772";
+                timestampLastReplenished = "805827797.5296459";
                 tokenCount = 1500;
             };
             "PriorityProcessing+GLPEmbedding" =             {
-                timestamp = "805744721.4061379";
-                timestampLastReplenished = "805744680.7383671";
+                timestamp = "805827823.092078";
+                timestampLastReplenished = "805827797.5383693";
                 tokenCount = 1500;
             };
             "PriorityProcessing+GLPIndexing" =             {
-                timestamp = "805744721.3872809";
-                timestampLastReplenished = "805744719.1226813";
+                timestamp = "805827823.1105241";
+                timestampLastReplenished = "805827816.7226845";
                 tokenCount = 9000;
             };
             "PriorityProcessing+GLPMailAttachments" =             {
-                timestamp = "805744721.393407";
-                timestampLastReplenished = "805744680.734055";
+                timestamp = "805827823.095058";
+                timestampLastReplenished = "805827797.5340573";
                 tokenCount = 1500;
             };
             "PriorityProcessing+Keyphrase" =             {
-                timestamp = "805744721.4012851";
-                timestampLastReplenished = "805744692.8837314";
+                timestamp = "805827823.085768";
+                timestampLastReplenished = "805827809.6837332";
                 tokenCount = 1500;
             };
             "PriorityProcessing+LSSR5CarkeydataBackground" =             {
-                timestamp = "805744721.390895";
-                timestampLastReplenished = "805744702.3440626";
+                timestamp = "805827823.103892";
+                timestampLastReplenished = "805827819.1440647";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5EventsandordersBackground" =             {
-                timestamp = "805744721.399116";
-                timestampLastReplenished = "805744700.085881";
+                timestamp = "805827823.1139359";
+                timestampLastReplenished = "805827816.8858833";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "805744721.379945";
-                timestampLastReplenished = "805744700.0852587";
+                timestamp = "805827823.09966";
+                timestampLastReplenished = "805827816.8852619";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5IdentificationdocumentsBackground" =             {
-                timestamp = "805744721.403775";
-                timestampLastReplenished = "805744700.0848128";
+                timestamp = "805827823.077862";
+                timestampLastReplenished = "805827816.8848151";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5SmartrepliesBackground" =             {
-                timestamp = "805744721.384627";
-                timestampLastReplenished = "805744716.3103974";
+                timestamp = "805827823.117232";
+                timestampLastReplenished = "805827811.5103995";
                 tokenCount = 4000;
             };
             "PriorityProcessing+Migration" =             {
-                timestamp = "805744721.4112999";
-                timestampLastReplenished = "805744680.7453468";
+                timestamp = "805827823.089483";
+                timestampLastReplenished = "805827797.545349";
                 tokenCount = 1500;
             };
         };

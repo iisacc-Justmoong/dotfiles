@@ -223,7 +223,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 283;
+                width = 300;
             },
                         {
                 ascending = 0;
@@ -644,12 +644,8 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 984, bytes = 0x626f6f6b d8030000 00000510 40000000 ... 04000000 00000000 };
+            name = Resume;
         },
                 {
             "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
@@ -660,28 +656,32 @@
             name = Storage;
         },
                 {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = Texts;
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Images;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = SNS;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
             name = Workspace;
         },
                 {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = "iisacc.com";
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1212, bytes = 0x626f6f6b bc040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Pictures;
+        },
+                {
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = 20260714;
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = Texts;
+        },
+                {
+            "file-bookmark" = {length = 1028, bytes = 0x626f6f6b 04040000 00000510 40000000 ... 04000000 00000000 };
+            name = Logs;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -1138,6 +1138,8 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/Job/Resume/",
+        "file:///Volumes/Storage/Job/",
         "file:///Applications/",
         "file:///Users/ymy/Documents/ToSwindler/",
         "file:///Users/ymy/Documents/Police/CScenter_Conversation_Compress/",
@@ -1145,9 +1147,7 @@
         "file:///Users/ymy/Pictures/",
         "file:///Users/ymy/Documents/Police/Line_Conversation_Compress/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Users/ymy/Documents/Police/",
-        "file:///Users/ymy/Documents/",
-        "file:///Users/ymy/Documents/Police/Transfer_Bill/"
+        "file:///Users/ymy/Documents/Police/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
