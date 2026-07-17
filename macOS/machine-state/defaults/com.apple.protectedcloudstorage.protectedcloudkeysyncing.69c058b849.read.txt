@@ -1,9 +1,12 @@
 {
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303537 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e333337 3033337d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
+    CloudKitAccountInfoCache =     {
+        63a50fea6dd8a1f3a2ccf53ceb52159bda1bd906596fc03a3b7a12d12733789c = {length = 566, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    };
     initialWState = 0;
     knownWState = 0;
     nextRegistrySync = "2026-01-17 10:57:38 +0000";
