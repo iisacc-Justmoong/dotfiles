@@ -4,6 +4,7 @@
 
 [core]
 	excludesfile = ~/.gitignore_global
+	autocrlf = input
 
 [credential "https://github.com"]
 	helper = 

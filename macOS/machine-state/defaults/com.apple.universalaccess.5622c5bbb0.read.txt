@@ -2,11 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-06-13 07:29:57";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-06-14 12:02:02";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +245,11 @@
                 Date = "2026-07-16 16:13:06";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-07-17 16:11:40";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -280,7 +280,7 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "1.925862822390436";
+    closeViewDesiredZoomFactor = "3.818253296400342";
     closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
@@ -296,6 +296,20 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    displaysLastCursorLocation =     {
+        0 =         {
+            X = "155.74609375";
+            Y = 1440;
+        };
+        2 =         {
+            X = "-251.0390625";
+            Y = "830.05859375";
+        };
+        3 =         {
+            X = "861.4609375";
+            Y = "953.61328125";
+        };
+    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;

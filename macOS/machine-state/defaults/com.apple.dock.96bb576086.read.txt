@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3880;
+    "mod-count" = 3892;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 254734082220881;
+                "file-mod-date" = 42343654703790;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 6532217202943;
+                "parent-mod-date" = 175599310040935;
             };
             "tile-type" = "file-tile";
         },
@@ -600,10 +600,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Photos;
-                "file-mod-date" = 3865904073;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -724,25 +724,25 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342910;
+            GUID = 1796342916;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
-                "file-mod-date" = 3866405905;
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3865213144;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 224141030400756;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342911;
+            GUID = 1796342917;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.mobilephone";
