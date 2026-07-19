@@ -40,8 +40,8 @@ gui/501/ai.openclaw.dotsync-2200 = {
 	asid = 100019
 	minimum runtime = 10
 	exit timeout = 5
-	runs = 4
-	last exit code = 0
+	runs = 5
+	last exit code = 1
 
 	event triggers = {
 		ai.openclaw.dotsync-2200.268435473 => {

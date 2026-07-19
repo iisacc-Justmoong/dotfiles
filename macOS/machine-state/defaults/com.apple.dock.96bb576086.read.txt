@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3892;
+    "mod-count" = 3908;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 98165344224142;
+                "parent-mod-date" = 1661724557606;
             };
             "tile-type" = "file-tile";
         },
@@ -546,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "App Store";
-                "file-mod-date" = 3865904073;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -574,7 +574,7 @@
                 {
             GUID = 3762217185;
             "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.Music";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -582,10 +582,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Music;
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -628,7 +628,7 @@
                 {
             GUID = 2388809270;
             "tile-data" =             {
-                book = {length = 604, bytes = 0x626f6f6b 5c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.apple.ScreenContinuity";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -636,10 +636,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "iPhone Mirroring";
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -706,7 +706,43 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 4269336398;
+            GUID = 1796342922;
+            "tile-data" =             {
+                book = {length = 688, bytes = 0x626f6f6b b0020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.dt.Devices";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Xcode-beta.app/Contents/Applications/DeviceHub.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Device Hub";
+                "file-mod-date" = 3863378861;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3863582634;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1796342923;
+            "tile-data" =             {
+                book = {length = 512, bytes = 0x626f6f6b 00020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Home";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Home.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Home;
+                "file-mod-date" = 3866405905;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3866405905;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1796342924;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.kakao.KakaoTalkMac";
@@ -716,46 +752,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = KakaoTalk;
-                "file-mod-date" = 190554383633813;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 6532217202943;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1796342916;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.google.Chrome";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Google Chrome";
-                "file-mod-date" = 3865213144;
+                "file-mod-date" = 60060394869944;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 224141030400756;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1796342917;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Phone;
-                "file-mod-date" = 3866405905;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 247028911235533;
             };
             "tile-type" = "file-tile";
         }
