@@ -11,8 +11,8 @@
     TTYShouldBeRealtimePreference =     {
         RTTWildcardContext = 1;
     };
-    TUIsRelayCallingEnabledPreference = 0;
+    TUIsRelayCallingEnabledPreference = 1;
     TUIsThumperCallingEnabledPreference = 0;
-    TUSupportsRelayCallingPreference = 0;
+    TUSupportsRelayCallingPreference = 1;
     TUSupportsThumperCallingPreference = 0;
 }

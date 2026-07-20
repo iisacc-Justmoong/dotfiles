@@ -644,6 +644,34 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
+            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
+            name = Stocking;
+        },
+                {
+            "file-bookmark" = {length = 832, bytes = 0x626f6f6b 40030000 00000510 40000000 ... 04000000 00000000 };
+            name = Shortcuts;
+        },
+                {
+            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
+            name = Document;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
             "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
             name = build;
         },
@@ -654,34 +682,6 @@
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
             name = Product;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Pictures;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 984, bytes = 0x626f6f6b d8030000 00000510 40000000 ... 04000000 00000000 };
-            name = Resume;
-        },
-                {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
-            name = Job;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -902,7 +902,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{139, 230}, {1056, 1001}}";
+            WindowBounds = "{{1473, 128}, {920, 788}}";
         };
     };
     LastTrashState = 1;
@@ -1139,6 +1139,8 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Stocking/",
+        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
         "file:///Volumes/Storage/Job/Resume/",
         "file:///Volumes/Storage/Job/",
         "file:///Applications/",
@@ -1146,9 +1148,7 @@
         "file:///Users/ymy/Documents/Police/CScenter_Conversation_Compress/",
         "file:///Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent/",
         "file:///Users/ymy/Pictures/",
-        "file:///Users/ymy/Documents/Police/Line_Conversation_Compress/",
-        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Users/ymy/Documents/Police/"
+        "file:///Users/ymy/Documents/Police/Line_Conversation_Compress/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

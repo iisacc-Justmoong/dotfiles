@@ -5,7 +5,7 @@
     AirDropRandomHashUUIDKey3 = "6D85D287-9733-4101-BE3C-B1AFC65A698B";
     AirDropRandomHashUUIDKey4 = "34A35503-1B85-4B5E-B094-C85D2E258724";
     AuthenticationMetrics = "F3915602-28AA-45DB-B6C2-D0F2FA9F5935\nDevice was screen on: true\nAutomation: Time since boot = 71815.32s\nAutomation: Key exchange = 1.34s\nAutomation: Token exchange = 0.12s\nAutomation: Total time  = 1.49s";
-    AutoUnlockLastSeenWatchDate = "2026-06-29 01:44:34 +0000";
+    AutoUnlockLastSeenWatchDate = "2026-07-19 12:04:48 +0000";
     AutoUnlockPeerRetries =     {
         "7A255943-0AAB-4A7D-8E31-4A6C747FC555" =         {
             AutoUnlockRetryDate = "2026-07-10 02:00:20 +0000";
@@ -26,9 +26,9 @@
     AutoUnlockWatchExistedInUnlockList = 1;
     DiscoverableMode = Everyone;
     "HashManager-LastConsumedHistoryTokenKey" = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
-    "HashManager-LastDeviceIDHashKey" = 3074647704470046834;
-    "HashManager-LastRebuiltDateKey" = "2026-07-14 06:56:03 +0000";
-    "HashManager-LastUpdatedDateKey" = "2026-07-17 10:23:22 +0000";
+    "HashManager-LastDeviceIDHashKey" = 1234901875532440313;
+    "HashManager-LastRebuiltDateKey" = "2026-07-20 11:08:56 +0000";
+    "HashManager-LastUpdatedDateKey" = "2026-07-20 11:08:56 +0000";
     "HashManager-StoredDatabaseVersionKey" = 3;
     OneTimeAirDropReset2 = 1;
     SDAirDropEveryoneModePrivacyAlertHasShownKey = 1;

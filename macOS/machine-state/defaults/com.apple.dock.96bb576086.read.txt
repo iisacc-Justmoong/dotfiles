@@ -4,19 +4,19 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "805704997.161201"
+        "806238536.8619061"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3908;
+    "mod-count" = 3927;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
                 {
             GUID = 1152347582;
             "tile-data" =             {
-                book = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... b0000000 00000000 };
+                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3865213144;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 110564913683411;
+                "parent-mod-date" = 247028911235533;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 42343654703790;
+                "file-mod-date" = 230106740080760;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 175599310040935;
+                "parent-mod-date" = 247028911235533;
             };
             "tile-type" = "file-tile";
         },
@@ -279,7 +279,7 @@
                 "file-mod-date" = 3864103636;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 202009063097774;
+                "parent-mod-date" = 247028911235533;
             };
             "tile-type" = "file-tile";
         },
@@ -706,34 +706,16 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1796342922;
+            GUID = 1796342938;
             "tile-data" =             {
-                book = {length = 688, bytes = 0x626f6f6b b0020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.dt.Devices";
-                "dock-extra" = 0;
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Xcode-beta.app/Contents/Applications/DeviceHub.app/";
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Device Hub";
-                "file-mod-date" = 3863378861;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3863582634;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1796342923;
-            "tile-data" =             {
-                book = {length = 512, bytes = 0x626f6f6b 00020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Home";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Home.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Home;
+                "file-label" = Phone;
                 "file-mod-date" = 3866405905;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -742,20 +724,38 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1796342924;
+            GUID = 1387418484;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.kakao.KakaoTalkMac";
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = KakaoTalk;
-                "file-mod-date" = 60060394869944;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 247028911235533;
+                "parent-mod-date" = 49430351032778;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1387418485;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 49430351032778;
             };
             "tile-type" = "file-tile";
         }
