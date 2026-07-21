@@ -15,10 +15,10 @@
             "2026-07-18 19:03:49 +0000"
         );
         "com.apple.MobileAsset.ImageCaptionModel" =         (
-            "2026-07-19 07:11:43 +0000",
-            "2026-07-19 18:56:19 +0000",
-            "2026-07-20 07:11:22 +0000",
-            "2026-07-20 11:09:08 +0000"
+            "2026-07-20 23:59:10 +0000",
+            "2026-07-20 23:59:56 +0000",
+            "2026-07-20 23:59:59 +0000",
+            "2026-07-20 23:59:59 +0000"
         );
         "com.apple.MobileAsset.MagnifierAsset" =         (
             "2026-06-02 15:12:52 +0000",
@@ -27,7 +27,7 @@
             "2026-06-09 11:23:03 +0000"
         );
     };
-    StoreCurrentBootTime = "806238503.528564";
+    StoreCurrentBootTime = "806284603.9487801";
     StoreLoaders =     {
         "ausp_axsr_appl" =         {
             record =             {
@@ -146,7 +146,7 @@
             failures =             (
             );
             state =             {
-                scheduled =                 {
+                completed =                 {
                 };
             };
         };
@@ -161,7 +161,7 @@
         };
         "com.apple.MobileAsset.ImageCaptionModel" =         {
             "UpdateAsset_RestorationState" =             {
-                Date = "2026-07-20 11:09:18 +0000";
+                Date = "2026-07-21 00:00:00 +0000";
                 LastExitStatus = Success;
                 Phase = Idle;
             };

@@ -4,7 +4,7 @@
         "82FE4D2C-DB6F-4DDF-8FC2-A3F08CA2F046" = "CC:81:7D:70:BF:16";
         "9577DFD9-EB8F-4349-90DA-15F75F441626" = "E8:1C:D8:DB:AA:1C";
     };
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303632 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303632 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );

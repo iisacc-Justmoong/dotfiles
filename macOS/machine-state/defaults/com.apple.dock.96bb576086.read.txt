@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "806238536.8619061"
+        "806284763.283123"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3927;
+    "mod-count" = 3935;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -27,7 +27,7 @@
                 "file-mod-date" = 3865213144;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 247028911235533;
+                "parent-mod-date" = 49430351032778;
             };
             "tile-type" = "file-tile";
         },
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 230106740080760;
+                "file-mod-date" = 178176290685062;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 247028911235533;
+                "parent-mod-date" = 49430351032778;
             };
             "tile-type" = "file-tile";
         },
@@ -510,10 +510,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Calendar;
-                "file-mod-date" = 3864700869;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3864700869;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         },
@@ -654,10 +654,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3865904073;
+                "file-mod-date" = 3866405905;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3865904073;
+                "parent-mod-date" = 3866405905;
             };
             "tile-type" = "file-tile";
         }
@@ -706,25 +706,25 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1796342938;
+            GUID = 1048791981;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
+                book = {length = 544, bytes = 0x626f6f6b 20020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.printcenter";
+                "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLString" = "file:///System/Applications/Utilities/Print%20Center.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Phone;
-                "file-mod-date" = 3866405905;
+                "file-label" = "Print Center";
+                "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1387418484;
+            GUID = 1048791982;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -737,12 +737,12 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 49430351032778;
+                "parent-mod-date" = 196782089070246;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1387418485;
+            GUID = 1048791983;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
@@ -755,7 +755,7 @@
                 "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 49430351032778;
+                "parent-mod-date" = 196782089070246;
             };
             "tile-type" = "file-tile";
         }

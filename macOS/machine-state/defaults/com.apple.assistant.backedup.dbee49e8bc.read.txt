@@ -44,19 +44,19 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            linwoodCapabilities = 7679;
-            saeCapabilities = 63;
+            linwoodCapabilities = 7663;
+            saeCapabilities = 47;
             visualIntelligenceCapabilities = 21;
         };
-        bootUUID = "7F78E59B-3AB5-4951-86E7-54F8EA5177A4";
-        currentOrchestrationMode = 4;
+        bootUUID = "28D7FEEF-D7FC-46E0-B92B-C7B0686B28ED";
+        currentOrchestrationMode = 2;
         desiredOrchestrationMode = 4;
         desiredOrchestrationModeIfEnabled = 4;
-        isAvailable = 1;
+        isAvailable = 0;
         linwoodEverAvailable = 0;
         restrictionReasons = 0;
         siriLocale = "en-US";
         status = 0;
-        unavailabilityReasons = 0;
+        unavailabilityReasons = 140737488355584;
     };
 }

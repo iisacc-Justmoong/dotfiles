@@ -12,7 +12,7 @@ gui/501/ai.openclaw.dotsync-2200 = {
 	}
 
 	inherited environment = {
-		SSH_AUTH_SOCK => /var/run/com.apple.launchd.sk9AG6tU7C/Listeners
+		SSH_AUTH_SOCK => /var/run/com.apple.launchd.nLZljWhxFo/Listeners
 	}
 
 	default environment = {
@@ -26,8 +26,8 @@ gui/501/ai.openclaw.dotsync-2200 = {
 		XPC_SERVICE_NAME => ai.openclaw.dotsync-2200
 	}
 
-	domain = gui/501 [100018]
-	asid = 100018
+	domain = gui/501 [100017]
+	asid = 100017
 	minimum runtime = 10
 	exit timeout = 5
 	runs = 0

@@ -2,31 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-06-17 07:30:04";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-18 07:30:17";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-19 07:30:31";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-20 09:08:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-06-20 09:23:27";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-06-21 12:00:09";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +225,31 @@
                 Date = "2026-07-20 20:08:51";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-07-20 20:24:58";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-21 08:59:05";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-21 08:59:14";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-21 08:59:14";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-07-21 08:59:15";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -298,16 +298,12 @@
     );
     displaysLastCursorLocation =     {
         0 =         {
-            X = "-145.80859375";
+            X = "790.88671875";
             Y = 1440;
         };
-        4 =         {
-            X = "-145.80859375";
-            Y = "1439.765625";
-        };
         5 =         {
-            X = "468.3515625";
-            Y = "1092.5234375";
+            X = 10;
+            Y = 1430;
         };
     };
     hoverColorEnabled = 0;
