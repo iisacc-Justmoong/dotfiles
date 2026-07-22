@@ -704,12 +704,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/opt/homebrew/Cellar/imsg/0.4.0/bin/";
+    GoToField = "/Users/ymy/Documents/Earning/product-hunt-assets/gallery-01.png";
     GoToFieldHistory =     (
+        "/Users/ymy/Documents/Earning/product-hunt-assets/gallery-01.png",
+        "/Users/ymy/Documents/Earning/product-hunt-assets/thumbnail.png",
         "/opt/homebrew/Cellar/imsg/0.4.0/bin",
         "/opt/homebrew/Cellar/imsg/0.4.0/bin/imsg",
-        "/opt/homebrew/bin/imsg",
-        "/opt/homebrew/bin"
+        "/opt/homebrew/bin/imsg"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {

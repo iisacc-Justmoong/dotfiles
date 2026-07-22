@@ -44,19 +44,19 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            linwoodCapabilities = 7663;
-            saeCapabilities = 47;
+            linwoodCapabilities = 7679;
+            saeCapabilities = 63;
             visualIntelligenceCapabilities = 21;
         };
         bootUUID = "28D7FEEF-D7FC-46E0-B92B-C7B0686B28ED";
-        currentOrchestrationMode = 2;
+        currentOrchestrationMode = 4;
         desiredOrchestrationMode = 4;
         desiredOrchestrationModeIfEnabled = 4;
-        isAvailable = 0;
+        isAvailable = 1;
         linwoodEverAvailable = 0;
         restrictionReasons = 0;
         siriLocale = "en-US";
         status = 0;
-        unavailabilityReasons = 140737488355584;
+        unavailabilityReasons = 0;
     };
 }

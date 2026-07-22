@@ -13,7 +13,7 @@
         populateExtractedOrdersAutomaticIngestionLocalConsent = 1;
         populateFoundInInsightOrderDetailsRelationship = 1;
         populateFullyQualifiedAccountIdentifierInApplications = 1;
-        populateMerchantNameFromBrand = 1;
+        populateMerchantNameFromBrand = 2;
         populateTransactionCategories = 4;
         populateTransactionsWithIsVisibleAndRemoveEmptyCurrencyCodes = 1;
         reprocessPhotoReceipts = 2;
