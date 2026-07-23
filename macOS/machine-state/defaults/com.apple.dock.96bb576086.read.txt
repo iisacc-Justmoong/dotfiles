@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3936;
+    "mod-count" = 3961;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 1661724557606;
+                "parent-mod-date" = 200162228414344;
             };
             "tile-type" = "file-tile";
         },
@@ -438,10 +438,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Notes;
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
@@ -510,10 +510,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Calendar;
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
@@ -528,10 +528,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Things;
-                "file-mod-date" = 243073245413204;
+                "file-mod-date" = 238937193062755;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 202009063097774;
+                "parent-mod-date" = 200162228414344;
             };
             "tile-type" = "file-tile";
         },
@@ -636,10 +636,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "iPhone Mirroring";
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
@@ -706,56 +706,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1048791981;
+            GUID = 1048791993;
             "tile-data" =             {
-                book = {length = 544, bytes = 0x626f6f6b 20020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.printcenter";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Print%20Center.app/";
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Print Center";
-                "file-mod-date" = 3867110056;
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 60060394869944;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 200162228414344;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1048791983;
+            GUID = 1048792020;
             "tile-data" =             {
                 book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3865213144;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 196782089070246;
+                "parent-mod-date" = 200162228414344;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1048791984;
+            GUID = 1048792021;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.google.Chrome";
+                "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLString" = "file:///Applications/Google%20Chrome.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Phone;
-                "file-mod-date" = 3867110056;
+                "file-label" = "Google Chrome";
+                "file-mod-date" = 3865213144;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 200162228414344;
             };
             "tile-type" = "file-tile";
         }
