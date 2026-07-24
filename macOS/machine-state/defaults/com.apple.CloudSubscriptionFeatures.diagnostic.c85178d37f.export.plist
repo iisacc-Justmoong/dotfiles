@@ -1,172 +1,93 @@
 bplist00”Trsvp_startFeatureRequest^featureRequestOe{
   "lastEvaluation" : {
-    "date" : "2026-07-22T00:35:02Z",
+    "date" : "2026-07-23T23:07:04Z",
     "outcome" : "appNotInstalled"
   }
 }O‹{
   "starts" : [
     {
-      "triggerDate" : "2026-07-20T10:56:47Z",
-      "identifier" : "0C4207E6"
+      "identifier" : "C79EBAA0",
+      "triggerDate" : "2026-07-20T11:09:21Z"
     },
     {
-      "triggerDate" : "2026-07-20T11:08:55Z",
-      "identifier" : "0F985EAB"
+      "identifier" : "FD4A84DA",
+      "triggerDate" : "2026-07-20T23:59:08Z"
     },
     {
-      "triggerDate" : "2026-07-20T11:09:21Z",
-      "identifier" : "C79EBAA0"
+      "identifier" : "218151B8",
+      "triggerDate" : "2026-07-22T00:35:01Z"
     },
     {
-      "triggerDate" : "2026-07-20T23:59:08Z",
-      "identifier" : "FD4A84DA"
+      "identifier" : "2DF6CF95",
+      "triggerDate" : "2026-07-23T00:56:46Z"
     },
     {
-      "triggerDate" : "2026-07-22T00:35:01Z",
-      "identifier" : "218151B8"
+      "identifier" : "5302F2A8",
+      "triggerDate" : "2026-07-23T23:06:56Z"
     }
   ]
 }O(í{
   "events" : [
     {
-      "triggerDate" : "2026-07-20T10:56:47Z",
-      "identifier" : "0C4207E6",
-      "request" : {
-        "httpStatusCode" : 200,
-        "capabilityHeaders" : {
-          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri",
-          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri"
-        }
-      },
+      "completionDate" : "2026-07-20T11:09:26Z",
       "features" : [
         {
-          "featureID" : "mail.hide-my-email.create",
-          "ttl" : "2026-07-21T10:56:48Z",
+          "featureID" : "ai.paperkit.image-generation",
+          "ttl" : "2026-07-21T11:09:26Z",
           "canUse" : true
-        },
-        {
-          "featureID" : "ai.keyboard.emoji-generation",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "cloud.llm.v2",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "ai.apps.image-playground",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "networking.privacy.attestation",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "ai.enhanced-siri",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : false
         },
         {
           "featureID" : "home.cameras.intelligence",
-          "ttl" : "2026-07-21T10:56:48Z",
+          "ttl" : "2026-07-21T11:09:26Z",
           "canUse" : false
         },
         {
           "featureID" : "networking.privacy.subscriber",
-          "ttl" : "2026-07-21T10:56:48Z",
+          "ttl" : "2026-07-21T11:09:26Z",
           "canUse" : true
-        },
-        {
-          "featureID" : "cloud.llm",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "mail.custom-domains.transfer",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        },
-        {
-          "featureID" : "ai.paperkit.image-generation",
-          "ttl" : "2026-07-21T10:56:48Z",
-          "canUse" : true
-        }
-      ],
-      "completionDate" : "2026-07-20T10:56:48Z"
-    },
-    {
-      "triggerDate" : "2026-07-20T11:08:55Z",
-      "request" : {
-        "capabilityHeaders" : {
-          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
-          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
-        },
-        "httpStatusCode" : 200
-      },
-      "completionDate" : "2026-07-20T11:09:09Z",
-      "features" : [
-        {
-          "featureID" : "ai.enhanced-siri",
-          "canUse" : false,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "cloud.llm.v2",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "ai.paperkit.image-generation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "networking.privacy.subscriber",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
         },
         {
           "featureID" : "mail.hide-my-email.create",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "cloud.llm",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "home.cameras.intelligence",
-          "canUse" : false,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "ai.apps.image-playground",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
-        },
-        {
-          "featureID" : "ai.keyboard.emoji-generation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
         },
         {
           "featureID" : "networking.privacy.attestation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.enhanced-siri",
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : false
+        },
+        {
+          "featureID" : "ai.apps.image-playground",
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "cloud.llm.v2",
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
         },
         {
           "featureID" : "mail.custom-domains.transfer",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:09Z"
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "cloud.llm",
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.keyboard.emoji-generation",
+          "ttl" : "2026-07-21T11:09:26Z",
+          "canUse" : true
         }
       ],
-      "identifier" : "0F985EAB"
-    },
-    {
+      "identifier" : "C79EBAA0",
       "triggerDate" : "2026-07-20T11:09:21Z",
       "request" : {
         "httpStatusCode" : 200,
@@ -174,92 +95,25 @@ bplist00”Trsvp_startFeatureRequest^featureRequestOe{
           "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
           "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
         }
-      },
-      "completionDate" : "2026-07-20T11:09:26Z",
-      "features" : [
-        {
-          "featureID" : "ai.paperkit.image-generation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "home.cameras.intelligence",
-          "canUse" : false,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "networking.privacy.subscriber",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "mail.hide-my-email.create",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "networking.privacy.attestation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "ai.enhanced-siri",
-          "canUse" : false,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "ai.apps.image-playground",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "cloud.llm.v2",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "mail.custom-domains.transfer",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "cloud.llm",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        },
-        {
-          "featureID" : "ai.keyboard.emoji-generation",
-          "canUse" : true,
-          "ttl" : "2026-07-21T11:09:26Z"
-        }
-      ],
-      "identifier" : "C79EBAA0"
+      }
     },
     {
-      "triggerDate" : "2026-07-20T23:59:08Z",
-      "request" : {
-        "capabilityHeaders" : {
-          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
-          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
-        },
-        "httpStatusCode" : 200
-      },
       "completionDate" : "2026-07-20T23:59:11Z",
       "features" : [
         {
           "featureID" : "ai.apps.image-playground",
-          "canUse" : true,
-          "ttl" : "2026-07-21T23:59:11Z"
+          "ttl" : "2026-07-21T23:59:11Z",
+          "canUse" : true
         },
         {
           "featureID" : "home.cameras.intelligence",
-          "canUse" : false,
-          "ttl" : "2026-07-21T23:59:11Z"
+          "ttl" : "2026-07-21T23:59:11Z",
+          "canUse" : false
         },
         {
           "featureID" : "cloud.llm.v2",
-          "canUse" : true,
-          "ttl" : "2026-07-21T23:59:11Z"
+          "ttl" : "2026-07-21T23:59:11Z",
+          "canUse" : true
         },
         {
           "featureID" : "ai.enhanced-siri",
@@ -272,39 +126,48 @@ bplist00”Trsvp_startFeatureRequest^featureRequestOe{
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "ai.paperkit.image-generation",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "ai.keyboard.emoji-generation",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "networking.privacy.attestation",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "cloud.llm",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "mail.custom-domains.transfer",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         },
         {
-          "ttl" : "2026-07-21T23:59:11Z",
           "featureID" : "networking.privacy.subscriber",
+          "ttl" : "2026-07-21T23:59:11Z",
           "canUse" : true
         }
       ],
-      "identifier" : "FD4A84DA"
+      "identifier" : "FD4A84DA",
+      "triggerDate" : "2026-07-20T23:59:08Z",
+      "request" : {
+        "httpStatusCode" : 200,
+        "capabilityHeaders" : {
+          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
+          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
+        }
+      }
     },
     {
+      "completionDate" : "2026-07-22T00:35:02Z",
       "features" : [
         {
           "featureID" : "mail.hide-my-email.create",
@@ -365,13 +228,150 @@ bplist00”Trsvp_startFeatureRequest^featureRequestOe{
       "identifier" : "218151B8",
       "triggerDate" : "2026-07-22T00:35:01Z",
       "request" : {
+        "httpStatusCode" : 200,
         "capabilityHeaders" : {
-          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri",
-          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri"
+          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
+          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
+        }
+      }
+    },
+    {
+      "completionDate" : "2026-07-23T00:56:47Z",
+      "features" : [
+        {
+          "featureID" : "cloud.llm.v2",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
         },
-        "httpStatusCode" : 200
-      },
-      "completionDate" : "2026-07-22T00:35:02Z"
+        {
+          "featureID" : "ai.paperkit.image-generation",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "cloud.llm",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.keyboard.emoji-generation",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "networking.privacy.subscriber",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "mail.custom-domains.transfer",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.enhanced-siri",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : false
+        },
+        {
+          "featureID" : "mail.hide-my-email.create",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "networking.privacy.attestation",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "home.cameras.intelligence",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : false
+        },
+        {
+          "featureID" : "ai.apps.image-playground",
+          "ttl" : "2026-07-24T00:56:47Z",
+          "canUse" : true
+        }
+      ],
+      "identifier" : "2DF6CF95",
+      "triggerDate" : "2026-07-23T00:56:46Z",
+      "request" : {
+        "httpStatusCode" : 200,
+        "capabilityHeaders" : {
+          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
+          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
+        }
+      }
+    },
+    {
+      "completionDate" : "2026-07-23T23:07:04Z",
+      "features" : [
+        {
+          "featureID" : "mail.custom-domains.transfer",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "mail.hide-my-email.create",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.apps.image-playground",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "home.cameras.intelligence",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : false
+        },
+        {
+          "featureID" : "cloud.llm",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.keyboard.emoji-generation",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.enhanced-siri",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : false
+        },
+        {
+          "featureID" : "networking.privacy.subscriber",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "networking.privacy.attestation",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "ai.paperkit.image-generation",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        },
+        {
+          "featureID" : "cloud.llm.v2",
+          "ttl" : "2026-07-24T23:07:04Z",
+          "canUse" : true
+        }
+      ],
+      "identifier" : "5302F2A8",
+      "triggerDate" : "2026-07-23T23:06:56Z",
+      "request" : {
+        "httpStatusCode" : 200,
+        "capabilityHeaders" : {
+          "softwareCapabilityHeader" : "cloud.llm, ai.apps.image-playground, ai.paperkit.image-generation, ai.keyboard.emoji-generation, cloud.llm.v2, ai.enhanced-siri",
+          "hardwareCapabilityHeader" : "cloud.llm, llm, cloud.llm.v2, ai.enhanced-siri"
+        }
+      }
     }
   ]
 }    * 9 °Å                           +

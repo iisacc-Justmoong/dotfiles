@@ -1,5 +1,20 @@
 {
     Devices =     {
+        000545590183001C =         {
+            "Build Version" = 24A5390f;
+            Connected = "2026-07-22 23:18:57 +0000";
+            "Device Class" = iPhone;
+            "Family ID" = 10155;
+            "Firmware Version" = 256;
+            "Firmware Version String" = "27.0";
+            ID = 000545590183001C;
+            IMEI = 355956310147933;
+            IMEI2 = 355956310421247;
+            "Product Type" = "iPhone16,2";
+            "Region Info" = "KH/A";
+            "Serial Number" = KHYX409R0X;
+            "Use Count" = 1;
+        };
         000968C61A12001C =         {
             "Build Version" = 23F77;
             Connected = "2026-05-12 06:01:36 +0000";
@@ -17,5 +32,5 @@
         };
     };
     "com.apple.PreferenceSync.ExcludeAllSyncKeys" = 1;
-    "conn:128:Last Connect" = {length = 4, bytes = 0xe628f150};
+    "conn:128:Last Connect" = {length = 4, bytes = 0xe6877ef1};
 }

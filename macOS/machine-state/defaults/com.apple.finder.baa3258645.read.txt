@@ -644,50 +644,51 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            "file-bookmark" = {length = 984, bytes = 0x626f6f6b d8030000 00000510 40000000 ... 04000000 00000000 };
+            name = Resume;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
             name = Product;
         },
                 {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = "iisacc.com";
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = AISNS;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Service;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
+        },
+                {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Documents;
         },
                 {
-            "file-bookmark" = {length = 816, bytes = 0x626f6f6b 30030000 00000510 40000000 ... 04000000 00000000 };
-            name = Document;
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Earning;
         },
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
+        },
+                {
+            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
+            name = Job;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -703,13 +704,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent";
+    GoToField = "/Volumes/Storage/Job/Resume/Applications/Yoon_Mooyoung_English_CV.pdf";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Service/iisacc.com/static/images/Store/Vincent",
+        "/Volumes/Storage/Job/Resume/Applications/Yoon_Mooyoung_English_CV.pdf",
+        "/Volumes/Storage/Job/Resume/Applications/Mijiworks_Cover_Letter.pdf",
         "/Volumes/Storage/Job/Resume/WantedProfile.pdf",
-        "/Users/ymy/Documents/Earning/product-hunt-assets/gallery-01.png",
-        "/Users/ymy/Documents/Earning/product-hunt-assets/thumbnail.png",
-        "/opt/homebrew/Cellar/imsg/0.4.0/bin"
+        "/Volumes/Storage/Job/Resume/Applications/Brand_Content_Design_Cover_Letter.pdf",
+        "/Volumes/Storage/Job/Resume/Applications/Buildit_Technical_PM_Cover_Letter.pdf"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {

@@ -29,14 +29,15 @@
     AutoUnlockWatchCurrentlyInList = 1;
     AutoUnlockWatchExistedInUnlockList = 1;
     DiscoverableMode = Everyone;
-    "HashManager-LastConsumedHistoryTokenKey" = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
+    "HashManager-LastConsumedHistoryTokenKey" = {length = 636, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fa };
     "HashManager-LastDeviceIDHashKey" = 1234901875532440313;
-    "HashManager-LastRebuiltDateKey" = "2026-07-20 23:59:12 +0000";
-    "HashManager-LastUpdatedDateKey" = "2026-07-20 23:59:12 +0000";
+    "HashManager-LastRebuiltDateKey" = "2026-07-23 23:06:57 +0000";
+    "HashManager-LastUpdatedDateKey" = "2026-07-23 23:06:57 +0000";
     "HashManager-StoredDatabaseVersionKey" = 3;
     OneTimeAirDropReset2 = 1;
     SDAirDropEveryoneModePrivacyAlertHasShownKey = 1;
     SDAirDropIDMSServiceAccountAltDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
+    SDAirDropIDMSServiceContactsBackoffDate = "2026-07-23 23:12:03 +0000";
     SDAirDropIDMSServiceContactsHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
     SDLastConnectedDateByDeviceID =     {
         "3927ED26-2D06-4875-B219-FEACF9C6E035" = "2026-06-07 22:48:28 +0000";

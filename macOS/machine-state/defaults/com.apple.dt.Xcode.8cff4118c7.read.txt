@@ -59,19 +59,19 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-06-10 01:44:58 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-07-22 23:03:06 +0000";
     IDEAppStatisticsXcodeVersionMetricsHistoryStorage =     {
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
         17E202 = "2026-05-11 12:48:31 +0000";
         17F42 = "2026-05-21 14:34:43 +0000";
-        27A5194q = "2026-07-13 08:43:58 +0000";
+        27A5194q = "2026-07-23 23:07:18 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
             "App Store Product Source Accounts: 2175062D-3C00-4EBB-BA9E-653CC69F38C9" = "2026-03-05 10:30:34 +0000";
-            "App Store Product Source Accounts: 2CEC1C0E-3FFB-4975-85DF-BB1E338428E9" = "2026-05-14 09:47:53 +0000";
+            "App Store Product Source Accounts: 2CEC1C0E-3FFB-4975-85DF-BB1E338428E9" = "2026-07-22 23:02:06 +0000";
             "App Store Product Source Accounts: 3EA13137-AA34-4678-BCC9-4BF22A1872B1" = "2026-03-27 02:28:50 +0000";
             "App Store Product Source Accounts: B0573AA7-1BB4-4BF7-B247-1D560FF69237" = "2026-05-09 02:22:52 +0000";
         };
@@ -196,7 +196,7 @@
     "IDEMetalToolchainLastNotified-17F42" = 17F42;
     "IDEMetalToolchainLastNotified-27A5194q" = 27A5194o;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-07-13 08:43:03 +0000";
+    IDEMostRecentPostFLEDate = "2026-07-23 23:07:17 +0000";
     IDEMostRecentPostFLEToolsVersion = "27.0";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         24J5289o,
@@ -237,14 +237,14 @@
     "IDEPlatformsFirstLaunchSelected-iphoneos" = 1;
     "IDEPlatformsFirstLaunchSelected-watchos" = 1;
     "IDEPlatformsFirstLaunchSelected-xros" = 0;
-    IDEProductsUISelectedInspector = 8320407991209730260;
+    IDEProductsUISelectedInspector = "-8552023710757241081";
     IDEProductsViewControllerSelectedProductIdentifier =     {
         bundleIdentifier = "com.iisacc.timescopes.Time-Scopes";
         productCategory = "ProductCategory_iOSApp";
         productIdentifierType = 0;
     };
     IDEProductsViewControllerSelectedProductSectionIdentifier = "Xcode.ProductsWindow.ProductSection.Row.Archives";
-    IDEProductsViewControllerSourceListSplitPosition = 215;
+    IDEProductsViewControllerSourceListSplitPosition = 203;
     IDEProvisioningTeamByIdentifier =     {
         "2CEC1C0E-3FFB-4975-85DF-BB1E338428E9" =         (
                         {
@@ -309,9 +309,8 @@
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LastReport" = "805625015.630356";
-    "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "0.01617416119212673";
+    "IDE_CA_Daily_LanguageModel" = "enabled,usable";
+    "IDE_CA_Daily_LastReport" = "806454112.66899";
     LastExplicitInspectorVisibility = 1;
     LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
@@ -325,10 +324,10 @@
     "NSTableView Supports v2 PlistColumns" = 1;
     "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
     "NSWindow Frame IDEDownloadProgressWindow" = "1634 1048 400 268 0 0 2560 1410 ";
-    "NSWindow Frame IDESettingsPanel" = "377 278 918 652 0 0 2560 1410 ";
+    "NSWindow Frame IDESettingsPanel" = "377 278 918 620 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
-    "NSWindow Frame Products" = "-1814 414 1024 640 -2560 0 2560 1410 ";
+    "NSWindow Frame Products" = "225 332 1024 640 0 0 2560 1410 ";
     "NSWindow Frame com.apple.dt.xcode.devicesWindow" = "-2251 168 1065 700 -2560 0 2560 1410 ";
     ProductMappingKey = {length = 202, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 000000a0 };
     "UVLastDeviceSetPurge-iOS" = 23C54;
