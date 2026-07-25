@@ -1,10 +1,10 @@
 {
     CacheCertificate =     (
-        {length = 1823, bytes = 0x3082071b 30820603 a0030201 02021024 ... eb8b3a52 e5348675 },
+        {length = 1816, bytes = 0x30820714 308205fc a0030201 0202104b ... eb5d8c92 10a0c0c4 },
         {length = 1172, bytes = 0x30820490 30820378 a0030201 0202100a ... 63003a16 cd05d2da }
     );
-    CacheTime = 4458;
+    CacheTime = 5217;
     CachedBag = {length = 10468, bytes = 0x3c3f786d 6c207665 7273696f 6e3d2231 ... 2f706c69 73743e0a };
-    CachedSignature = {length = 256, bytes = 0x78057de4 c5d4d63f cfa70139 df86b8b9 ... 1c3f2ee2 199c406b };
-    Date = "806540813.602249";
+    CachedSignature = {length = 256, bytes = 0x8c83d36a 43b2e830 016c2a75 900b5f66 ... ff2bccd3 70ea4668 };
+    Date = "806591900.385947";
 }

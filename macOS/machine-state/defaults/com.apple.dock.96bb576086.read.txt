@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3973;
+    "mod-count" = 3978;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -459,7 +459,7 @@
                 "file-mod-date" = 261507245449449;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 184764769804723;
+                "parent-mod-date" = 104719465248702;
             };
             "tile-type" = "file-tile";
         },
@@ -564,10 +564,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
@@ -706,34 +706,34 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1048792022;
+            GUID = 1389028961;
             "tile-data" =             {
-                book = {length = 688, bytes = 0x626f6f6b b0020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.dt.Devices";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.kakao.KakaoTalkMac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Xcode-beta.app/Contents/Applications/DeviceHub.app/";
+                    "_CFURLString" = "file:///Applications/KakaoTalk.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Device Hub";
-                "file-mod-date" = 3863378861;
+                "file-label" = KakaoTalk;
+                "file-mod-date" = 60060394869944;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3863582634;
+                "parent-mod-date" = 104719465248702;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1048792024;
+            GUID = 1389028962;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
-                "dock-extra" = 0;
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
+                "file-label" = Phone;
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -742,20 +742,20 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1389028960;
+            GUID = 1389028963;
             "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
+                "file-label" = Messages;
+                "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 104719465248702;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         }
@@ -765,7 +765,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

@@ -1,5 +1,5 @@
 {
-    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303632 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 85, bytes = 0x7b22626f 6f744461 7465223a 38303635 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
@@ -9,8 +9,8 @@
     };
     accountMigrationStatus = 1;
     deferredSpotlightReindexingReason = 0;
-    lastFetchedContactHistoryToken = {length = 637, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fb };
-    lastReindexCompletionDate = "2026-06-25 01:29:16 +0000";
+    lastFetchedContactHistoryToken = {length = 636, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001fa };
+    lastReindexCompletionDate = "2026-07-24 03:45:37 +0000";
     lastReindexLocale = "en_KR";
     spotlightIndexVersion = 8;
     tccMigrationVersion = 1;
