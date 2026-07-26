@@ -1,12 +1,12 @@
 {
     "NSSplitView Subview Frames NSColorPanelSplitView" =     (
-        "0.000000, 0.000000, 230.000000, 262.000000, NO, NO",
-        "0.000000, 263.000000, 230.000000, 67.000000, NO, NO"
+        "0.000000, 0.000000, 266.000000, 300.000000, NO, NO",
+        "0.000000, 320.000000, 266.000000, 77.000000, NO, NO"
     );
     "NSToolbar Configuration com.apple.NSColorPanel" =     {
         "TB Is Shown" = 1;
     };
-    "NSWindow Frame NSColorPanel" = "0 83 250 292 0 0 2560 1410 ";
+    "NSWindow Frame NSColorPanel" = "0 123 266 361 0 0 1920 1050 ";
     activationAreaAppearance = {length = 11, bytes = 0x226175746f6d6174696322};
     activationAreaBackgroundColor = {length = 10, bytes = 0x22324339324642434322};
     activationAreaEdgeWidth = {length = 1, bytes = 0x34};
@@ -24,7 +24,7 @@
     highlightActivationAreas = {length = 5, bytes = 0x66616c7365};
     horizontalCommands = {length = 14866, bytes = 0x5b7b226e 616d6522 3a22636f 6d6d616e ... 66616c73 657d7d5d };
     lastMigratedVersion = {length = 7, bytes = 0x22332e302e3022};
-    lastPreferenceSync = {length = 14, bytes = 0x3830303037363135322e36303231};
+    lastPreferenceSync = {length = 16, bytes = 0x3830363635313830332e303730333834};
     launchAtLogin = {length = 4, bytes = 0x74727565};
     launchCounter = {length = 3, bytes = 0x313233};
     paddingAroundWindows = {length = 1, bytes = 0x38};

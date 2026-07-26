@@ -644,44 +644,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 984, bytes = 0x626f6f6b d8030000 00000510 40000000 ... 04000000 00000000 };
-            name = Resume;
+            "file-bookmark" = {length = 1092, bytes = 0x626f6f6b 44040000 00000510 40000000 ... 04000000 00000000 };
+            name = MyProject;
         },
                 {
-            "file-bookmark" = {length = 940, bytes = 0x626f6f6b ac030000 00000510 40000000 ... 04000000 00000000 };
-            name = Job;
-        },
-                {
-            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
-            name = Storage;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 1044, bytes = 0x626f6f6b 14040000 00000510 40000000 ... 04000000 00000000 };
+            name = UnrealInstance;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Assets;
+            name = World;
+        },
+                {
+            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+            name = Texts;
+        },
+                {
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = 20260724;
+        },
+                {
+            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+            name = Images;
+        },
+                {
+            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
+            name = SNS;
+        },
+                {
+            "file-bookmark" = {length = 1020, bytes = 0x626f6f6b fc030000 00000510 40000000 ... 04000000 00000000 };
+            name = Service;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Artwork;
+            name = Service;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
             name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 944, bytes = 0x626f6f6b b0030000 00000510 40000000 ... 04000000 00000000 };
-            name = History;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Packages;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -704,13 +704,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Job/Resume/Applications/Yoon_Mooyoung_English_CV.pdf";
+    GoToField = "/Volumes/Storage/Job/Resume/GlocalStandardProfile.pdf";
     GoToFieldHistory =     (
+        "/Volumes/Storage/Job/Resume/GlocalStandardProfile.pdf",
+        "/Volumes/Storage/Job/Resume/KoreaStandardProfile.pdf",
         "/Volumes/Storage/Job/Resume/Applications/Yoon_Mooyoung_English_CV.pdf",
         "/Volumes/Storage/Job/Resume/Applications/Mijiworks_Cover_Letter.pdf",
-        "/Volumes/Storage/Job/Resume/WantedProfile.pdf",
-        "/Volumes/Storage/Job/Resume/Applications/Brand_Content_Design_Cover_Letter.pdf",
-        "/Volumes/Storage/Job/Resume/Applications/Buildit_Technical_PM_Cover_Letter.pdf"
+        "/Volumes/Storage/Job/Resume/WantedProfile.pdf"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -1140,16 +1140,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/",
+        "file:///Volumes/Storage/History/",
+        "file:///Volumes/Storage/Job/Resume/",
         "file:///Volumes/Storage/Workspace/Assets/",
         "file:///Volumes/Storage/Keys/",
         "file:///Volumes/Storage/Job/",
         "file:///Volumes/Storage/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Stocking/",
         "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Volumes/Storage/Job/Resume/",
-        "file:///Applications/",
-        "file:///Users/ymy/Documents/ToSwindler/",
-        "file:///Users/ymy/Documents/Police/CScenter_Conversation_Compress/"
+        "file:///Applications/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

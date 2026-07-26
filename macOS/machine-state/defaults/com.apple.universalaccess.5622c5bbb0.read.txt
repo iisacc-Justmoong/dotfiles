@@ -2,11 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-06-23 22:29:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-06-23 22:29:27";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +245,11 @@
                 Date = "2026-07-24 08:22:26";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-07-25 08:22:03";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -280,7 +280,7 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "3.818253296400342";
+    closeViewDesiredZoomFactor = "3.399921785317137";
     closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
