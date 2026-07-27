@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3983;
+    "mod-count" = 3986;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -654,10 +654,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         }
@@ -706,42 +706,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1389028963;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Messages;
-                "file-mod-date" = 3867110056;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1389028964;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.crowdcafe.windowmagnet";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Magnet.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Magnet;
-                "file-mod-date" = 45925651554822;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1389028965;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
@@ -752,6 +716,42 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Preview;
+                "file-mod-date" = 3867110056;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1389028966;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.mobilephone";
+                "dock-extra" = 1;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Phone;
+                "file-mod-date" = 3867110056;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1389028967;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Messages;
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
