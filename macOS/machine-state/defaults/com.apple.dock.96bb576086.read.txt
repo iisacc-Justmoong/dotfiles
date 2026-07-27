@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3986;
+    "mod-count" = 3990;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 200162228414344;
+                "parent-mod-date" = 161443098494240;
             };
             "tile-type" = "file-tile";
         },
@@ -261,7 +261,7 @@
                 "file-mod-date" = 30609802786569;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 139324015482486;
+                "parent-mod-date" = 161443098494240;
             };
             "tile-type" = "file-tile";
         },
@@ -442,6 +442,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1389028968;
+            "tile-data" =             {
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.literatureandlatte.scrivener3";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Scrivener.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Scrivener;
+                "file-mod-date" = 183291591538959;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 161443098494240;
             };
             "tile-type" = "file-tile";
         },
@@ -706,24 +724,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1389028965;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Preview;
-                "file-mod-date" = 3867110056;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1389028966;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
@@ -752,6 +752,24 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Messages;
+                "file-mod-date" = 3867110056;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1389028969;
+            "tile-data" =             {
+                book = {length = 540, bytes = 0x626f6f6b 1c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.Console";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Utilities/Console.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Console;
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
