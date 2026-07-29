@@ -4,19 +4,19 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "806540817.265456"
+        "806975818.845405"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3990;
+    "mod-count" = 3999;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
                 {
             GUID = 1152347582;
             "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 660, bytes = 0x626f6f6b 94020000 00000510 40000000 ... b0000000 00000000 };
                 "bundle-identifier" = "com.google.Chrome";
                 "dock-extra" = 0;
                 "file-data" =                 {
@@ -24,10 +24,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Google Chrome";
-                "file-mod-date" = 3865213144;
+                "file-mod-date" = 3867600982;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
+                "parent-mod-date" = 201403474484260;
             };
             "tile-type" = "file-tile";
         },
@@ -196,7 +196,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
+                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -204,10 +204,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 241381029806338;
+                "file-mod-date" = 3865113357;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
+                "parent-mod-date" = 136828641234111;
             };
             "tile-type" = "file-tile";
         },
@@ -352,60 +352,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 133710488121077;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4207793650;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "org.blenderfoundation.blender";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Blender.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Blender;
-                "file-mod-date" = 3858976010;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 211866009131270;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3739703323;
-            "tile-data" =             {
-                book = {length = 812, bytes = 0x626f6f6b 2c030000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.epicgames.UnrealEditor";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Users/Shared/Epic%20Games/UE_5.8/Engine/Binaries/Mac/UnrealEditor.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = UnrealEditor;
-                "file-mod-date" = 76797876762966;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 98959908010326;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 1039804690;
-            "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.cocos.dashboard";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/CocosDashboard.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = CocosDashboard;
-                "file-mod-date" = 3815456609;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 112347325485948;
             };
             "tile-type" = "file-tile";
         },
@@ -639,7 +585,7 @@
                 "file-mod-date" = 106523349832751;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
+                "parent-mod-date" = 201403474484260;
             };
             "tile-type" = "file-tile";
         },
@@ -724,56 +670,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1389028966;
+            GUID = 1389028972;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
+                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 50010000 00000000 };
+                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
+                "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Phone;
-                "file-mod-date" = 3867110056;
+                "file-label" = "Epic Games Launcher";
+                "file-mod-date" = 204560275446637;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 136828641234111;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1389028967;
+            GUID = 1258292178;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Messages;
-                "file-mod-date" = 3867110056;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 139220938018586;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1389028969;
+            GUID = 1258292179;
             "tile-data" =             {
-                book = {length = 540, bytes = 0x626f6f6b 1c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Console";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Console.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Console;
-                "file-mod-date" = 3867110056;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 139220938018586;
             };
             "tile-type" = "file-tile";
         }
@@ -783,7 +729,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
