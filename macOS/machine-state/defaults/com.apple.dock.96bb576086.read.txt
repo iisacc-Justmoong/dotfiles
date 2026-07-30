@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 3999;
+    "mod-count" = 4003;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -135,7 +135,7 @@
                 "file-mod-date" = 3859560240;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
+                "parent-mod-date" = 139220938018586;
             };
             "tile-type" = "file-tile";
         },
@@ -196,7 +196,7 @@
                 {
             GUID = 2157571585;
             "tile-data" =             {
-                book = {length = 640, bytes = 0x626f6f6b 80020000 00000510 40000000 ... 44010000 00000000 };
+                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.openai.codex";
                 "dock-extra" = 1;
                 "file-data" =                 {
@@ -207,7 +207,7 @@
                 "file-mod-date" = 3865113357;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 136828641234111;
+                "parent-mod-date" = 139220938018586;
             };
             "tile-type" = "file-tile";
         },
@@ -546,10 +546,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Music;
-                "file-mod-date" = 3866405905;
+                "file-mod-date" = 3867110056;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3866405905;
+                "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
         },
@@ -669,24 +669,6 @@
         }
     );
     "recent-apps" =     (
-                {
-            GUID = 1389028972;
-            "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 50010000 00000000 };
-                "bundle-identifier" = "com.epicgames.EpicGamesLauncher";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Epic%20Games%20Launcher.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Epic Games Launcher";
-                "file-mod-date" = 204560275446637;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 136828641234111;
-            };
-            "tile-type" = "file-tile";
-        },
                 {
             GUID = 1258292178;
             "tile-data" =             {

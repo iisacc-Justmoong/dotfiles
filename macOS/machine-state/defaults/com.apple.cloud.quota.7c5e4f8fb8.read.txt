@@ -8,7 +8,7 @@
         );
         failedToFetchFromServer = 0;
         notificationId = "";
-        retrievalDate = "2026-07-28 12:23:39 +0000";
+        retrievalDate = "2026-07-28 23:58:16 +0000";
         serverDict =         {
             appFeatureMessagingInfo =             (
                                 {
@@ -226,6 +226,114 @@
                             key = default;
                         }
                     );
+                },
+                                {
+                    appId = "com.apple.freeform";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    linkURL = "prefs:root=WIFI";
+                                };
+                                action = "OPEN_EXT_LINK";
+                                display = Settings;
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "No Internet Connection";
+                            key = default;
+                        }
+                    );
+                    reason = WiFiConnectivityIssues;
+                    title =                     (
+                                                {
+                            format = "No Internet";
+                            key = default;
+                        }
+                    );
+                },
+                                {
+                    appId = "com.apple.freeform";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    linkURL = "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT";
+                                };
+                                action = "OPEN_EXT_LINK";
+                                display = Settings;
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "Accept Terms to continue to upload";
+                            key = default;
+                        }
+                    );
+                    reason = TermsNotAccepted;
+                    title =                     (
+                                                {
+                            format = "Accept iCloud Terms";
+                            key = default;
+                        }
+                    );
+                },
+                                {
+                    appId = "com.apple.campo";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    linkURL = "prefs:root=WIFI";
+                                };
+                                action = "OPEN_EXT_LINK";
+                                display = Settings;
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "No Internet Connection";
+                            key = default;
+                        }
+                    );
+                    reason = WiFiConnectivityIssues;
+                    title =                     (
+                                                {
+                            format = "No Internet";
+                            key = default;
+                        }
+                    );
+                },
+                                {
+                    appId = "com.apple.campo";
+                    bannerFooter =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    linkURL = "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT";
+                                };
+                                action = "OPEN_EXT_LINK";
+                                display = Settings;
+                            }
+                        );
+                    };
+                    mesg =                     (
+                                                {
+                            format = "Accept Terms to continue to upload";
+                            key = default;
+                        }
+                    );
+                    reason = TermsNotAccepted;
+                    title =                     (
+                                                {
+                            format = "Accept iCloud Terms";
+                            key = default;
+                        }
+                    );
                 }
             );
             inlineAlertInfo =             (
@@ -234,7 +342,7 @@
                                                 {
                             btnActParams =                             {
                                 openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
-                                purchaseAttribution = "103/4";
+                                purchaseAttribution = "103/5";
                                 route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
                             };
                             btnAction = "LAUNCH_DYNAMIC_UI";
@@ -282,7 +390,7 @@
                                                 {
                             btnActParams =                             {
                                 openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
-                                purchaseAttribution = "103/4";
+                                purchaseAttribution = "103/6";
                                 route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
                             };
                             btnAction = "LAUNCH_DYNAMIC_UI";
@@ -378,7 +486,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-07-28 12:23:39 +0000";
+        retrievalDate = "2026-07-28 23:58:17 +0000";
         serverDict =         {
             type = None;
         };
@@ -387,7 +495,7 @@
         altDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
         callbackInterval = 604800;
         failedToFetchFromServer = 0;
-        retrievalDate = "2026-07-28 12:23:36 +0000";
+        retrievalDate = "2026-07-28 23:58:02 +0000";
         serverDict =         {
             callbackInterval = 604800;
             defaultOffers =             (
@@ -607,6 +715,114 @@
                                     key = default;
                                 }
                             );
+                        },
+                                                {
+                            appId = "com.apple.freeform";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            linkURL = "prefs:root=WIFI";
+                                        };
+                                        action = "OPEN_EXT_LINK";
+                                        display = Settings;
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "No Internet Connection";
+                                    key = default;
+                                }
+                            );
+                            reason = WiFiConnectivityIssues;
+                            title =                             (
+                                                                {
+                                    format = "No Internet";
+                                    key = default;
+                                }
+                            );
+                        },
+                                                {
+                            appId = "com.apple.freeform";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            linkURL = "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT";
+                                        };
+                                        action = "OPEN_EXT_LINK";
+                                        display = Settings;
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "Accept Terms to continue to upload";
+                                    key = default;
+                                }
+                            );
+                            reason = TermsNotAccepted;
+                            title =                             (
+                                                                {
+                                    format = "Accept iCloud Terms";
+                                    key = default;
+                                }
+                            );
+                        },
+                                                {
+                            appId = "com.apple.campo";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            linkURL = "prefs:root=WIFI";
+                                        };
+                                        action = "OPEN_EXT_LINK";
+                                        display = Settings;
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "No Internet Connection";
+                                    key = default;
+                                }
+                            );
+                            reason = WiFiConnectivityIssues;
+                            title =                             (
+                                                                {
+                                    format = "No Internet";
+                                    key = default;
+                                }
+                            );
+                        },
+                                                {
+                            appId = "com.apple.campo";
+                            bannerFooter =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            linkURL = "https://setup.icloud.com/email/prefs/storage?root=APPLE_ACCOUNT";
+                                        };
+                                        action = "OPEN_EXT_LINK";
+                                        display = Settings;
+                                    }
+                                );
+                            };
+                            mesg =                             (
+                                                                {
+                                    format = "Accept Terms to continue to upload";
+                                    key = default;
+                                }
+                            );
+                            reason = TermsNotAccepted;
+                            title =                             (
+                                                                {
+                                    format = "Accept iCloud Terms";
+                                    key = default;
+                                }
+                            );
                         }
                     );
                     inlineAlertInfo =                     (
@@ -615,7 +831,7 @@
                                                                 {
                                     btnActParams =                                     {
                                         openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
-                                        purchaseAttribution = "103/4";
+                                        purchaseAttribution = "103/5";
                                         route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
                                     };
                                     btnAction = "LAUNCH_DYNAMIC_UI";
@@ -663,7 +879,7 @@
                                                                 {
                                     btnActParams =                                     {
                                         openUrl = "https://p158-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9VcGxvYWRGYWlsdXJlX3NoYXJlZEFsYnVtX2NvbS5hcHBsZS5QaG90b3NfbnVsbF9udWxs";
-                                        purchaseAttribution = "103/4";
+                                        purchaseAttribution = "103/6";
                                         route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
                                     };
                                     btnAction = "LAUNCH_DYNAMIC_UI";
@@ -761,7 +977,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-07-28 12:23:40 +0000";
+        retrievalDate = "2026-07-28 23:58:17 +0000";
         serverDict =         {
             isPremiumOffer = 1;
             offerType = PremiumJourneys;
