@@ -646,24 +646,32 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = AISNS;
+            "file-bookmark" = {length = 1144, bytes = 0x626f6f6b 78040000 00000510 40000000 ... 04000000 00000000 };
+            name = docx;
         },
                 {
-            "file-bookmark" = {length = 1164, bytes = 0x626f6f6b 8c040000 00000510 40000000 ... 04000000 00000000 };
-            name = assets;
+            "file-bookmark" = {length = 1144, bytes = 0x626f6f6b 78040000 00000510 40000000 ... 04000000 00000000 };
+            name = epub;
         },
                 {
-            "file-bookmark" = {length = 1120, bytes = 0x626f6f6b 60040000 00000510 40000000 ... 04000000 00000000 };
-            name = web;
-        },
-                {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            "file-bookmark" = {length = 1104, bytes = 0x626f6f6b 50040000 00000510 40000000 ... 04000000 00000000 };
             name = build;
         },
                 {
+            "file-bookmark" = {length = 1060, bytes = 0x626f6f6b 24040000 00000510 40000000 ... 04000000 00000000 };
+            name = "vibe-coding-engineering-ebook";
+        },
+                {
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = pdf;
+        },
+                {
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = output;
+        },
+                {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            name = Earning;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
@@ -674,16 +682,8 @@
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Developer;
-        },
-                {
-            "file-bookmark" = {length = 780, bytes = 0x626f6f6b 0c030000 00000510 40000000 ... e8000000 00000000 };
-            name = Mail;
-        },
-                {
-            "file-bookmark" = {length = 712, bytes = 0x626f6f6b c8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Logs;
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = AISNS;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -706,13 +706,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Earning/output/pdf/muyeong-yoon-product-engineer-cv.pdf";
+    GoToField = "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/images/gumroad-cover-1280x720.png";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Earning/output/pdf/muyeong-yoon-product-engineer-cv.pdf",
-        "/Volumes/Storage/Workspace/Artwork/World/Apple ProRes 4444 3840x2160 00m05s_000054.mov",
-        "/Volumes/Storage/Workspace/Artwork/World/UnrealLevelDesign.mp4",
-        "/Volumes/Storage/Workspace/Earning/freelancer-avatar.png",
-        "/Volumes/Storage/Job/Resume/GlocalStandardProfile.pdf"
+        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/images/gumroad-cover-1280x720.png",
+        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/packages/iisacc-vibe-coding-engineering-team5-v1.0.0.zip",
+        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/packages/iisacc-vibe-coding-engineering-operator-bundle-v1.0.0.zip",
+        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/packages/iisacc-vibe-coding-engineering-book-v1.0.0.zip",
+        "/Volumes/Storage/Workspace/Earning/output/pdf/muyeong-yoon-product-engineer-cv.pdf"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -908,7 +908,7 @@
             WindowBounds = "{{1473, 128}, {920, 788}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -1640,7 +1640,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{139, 230}, {1056, 1001}}";
+            WindowBounds = "{{1248, 100}, {1056, 1001}}";
         };
     };
     "ViewOptionsWindow.Location" = "{750, 344}";

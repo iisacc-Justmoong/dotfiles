@@ -1,7 +1,7 @@
 {
     AllLLMUISettings =     {
         "com.apple.openai.chatgpt" =         {
-            enablementCount = 0;
+            enablementCount = 1;
             unavailable = 0;
         };
     };
@@ -9,4 +9,5 @@
     externalProvidersSHA256Hash = fa93ffcbf7b81d558b4151a7ab31dfdebe8c3f5f4cdf5712823483f5fc809fbd;
     externalVipProviderMetadata = {length = 245, bytes = 0x62706c69 73743030 d101025f 101d6578 ... 00000000 000000c6 };
     gatMigrationComplete2 = 1;
+    selectedLLMId = "com.apple.openai.chatgpt";
 }

@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4009;
+    "mod-count" = 4010;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -608,6 +608,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 1758933500;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.campo";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Siri%20AI.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Siri;
+                "file-mod-date" = 3867110056;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2388809268;
             "tile-data" =             {
                 book = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
@@ -729,7 +747,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;

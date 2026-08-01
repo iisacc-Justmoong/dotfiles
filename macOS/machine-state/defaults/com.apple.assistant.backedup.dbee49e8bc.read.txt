@@ -44,19 +44,20 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            linwoodCapabilities = 7679;
+            linwoodCapabilities = 8191;
             saeCapabilities = 63;
             visualIntelligenceCapabilities = 21;
         };
         bootUUID = "461703CD-A143-4E17-8B21-916B58358291";
-        currentOrchestrationMode = 4;
-        desiredOrchestrationMode = 4;
-        desiredOrchestrationModeIfEnabled = 4;
+        currentOrchestrationMode = 5;
+        desiredOrchestrationMode = 5;
+        desiredOrchestrationModeIfEnabled = 5;
         isAvailable = 1;
-        linwoodEverAvailable = 0;
+        linwoodEverAvailable = 1;
         restrictionReasons = 0;
         siriLocale = "en-US";
         status = 0;
         unavailabilityReasons = 0;
     };
+    "Use device speaker for TTS" = 3;
 }

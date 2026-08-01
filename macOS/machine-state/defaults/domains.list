@@ -102,6 +102,7 @@ com.apple.CloudSubscriptionFeatures.followup.engagement
 com.apple.CloudSubscriptionFeatures.geoCache
 com.apple.CloudSubscriptionFeatures.gmCache
 com.apple.CloudSubscriptionFeatures.optIn
+com.apple.CloudSubscriptionFeatures.waitlist
 com.apple.ComfortSounds
 com.apple.CommCenter.counts
 com.apple.Console
@@ -516,7 +517,9 @@ com.apple.siri.ODDI.PoirotMetricsWorker
 com.apple.siri.VoiceShortcuts
 com.apple.siri.analytics.assistant
 com.apple.siri.context.service
+com.apple.siri.generativeassistantsettings
 com.apple.siri.morphun
+com.apple.siri.setup
 com.apple.siri.shortcuts
 com.apple.siri.sirisuggestions
 com.apple.siriactionsd
@@ -533,6 +536,7 @@ com.apple.speech.recognition.AppleSpeechRecognition.prefs
 com.apple.spotlight.mdwrite
 com.apple.spotlightknowledge
 com.apple.spotlightknowledged.pipeline
+com.apple.spotlightui
 com.apple.springboard
 com.apple.stickersd
 com.apple.stockholm
@@ -572,6 +576,7 @@ com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-50
 com.apple.voicememod
 com.apple.voiceservices
 com.apple.voicetrigger
+com.apple.voicetrigger.notbackedup
 com.apple.wallpaper
 com.apple.wallpaper.aerial
 com.apple.weather.internal
