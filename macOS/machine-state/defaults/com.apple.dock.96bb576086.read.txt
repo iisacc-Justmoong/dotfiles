@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4010;
+    "mod-count" = 4011;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -688,24 +688,6 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1258292179;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 139220938018586;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1758933498;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
@@ -740,6 +722,24 @@
                 "parent-mod-date" = 3867110056;
             };
             "tile-type" = "file-tile";
+        },
+                {
+            GUID = 1758933501;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TextEdit";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = TextEdit;
+                "file-mod-date" = 3867110056;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
         }
     );
     region = KR;
@@ -747,7 +747,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
