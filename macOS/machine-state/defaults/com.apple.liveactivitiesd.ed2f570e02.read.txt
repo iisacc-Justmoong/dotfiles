@@ -1,12 +1,12 @@
 {
     KnownClients =     (
         "com.apple.MenuBarAgent",
-        "com.apple.WorkflowKit.ShortcutsViewService",
+        "com.apple.controlcenter",
+        "com.apple.news",
         "com.apple.printcenter",
         "com.apple.chrono.WidgetRenderer-Activities",
-        "com.apple.news",
-        "com.apple.chronod",
-        "com.apple.controlcenter"
+        "com.apple.WorkflowKit.ShortcutsViewService",
+        "com.apple.chronod"
     );
     LastAuthorizationStatusEventDate = "2026-08-01 13:23:01 +0000";
 }

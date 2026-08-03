@@ -15,10 +15,29 @@
             "Validation Version" = 1;
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
-            "Ace Host" = se12sa;
+            "Ace Host" = "oh11sa-p02";
             "Build Version" = 26A5388g;
-            "Last Assistant Data Anchor" = 1f7bf8d853b5befcd1c12b3dbc5a853b23751d8b;
-            "Validation Expiration" = "2026-08-02 02:11:30 +0000";
+            "Connection Policy" =             {
+                "$class" = ConnectionPolicy;
+                "$group" = "com.apple.ace.system";
+                "$v" = "13.0";
+                disableMPTCP = 1;
+                enableOptimisticDNS = 1;
+                enableTCPNagle = 0;
+                enableTLS13 = 0;
+                enableTLS13ZeroRTT = 0;
+                enableTcpFastOpen = 0;
+                globalTimeout = 0;
+                mptcpFallbackPort = 0;
+                policyId = "disable-mptcp-odns-stationary_disable-mptcp-enble-odns-stationary_v1";
+                routes =                 (
+                );
+                timeToLive = 43200;
+            };
+            "Connection Policy Date" = "2026-08-02 02:14:09 +0000";
+            "Connection Policy Hostname" = "https://seed.siri.apple.com";
+            "Last Assistant Data Anchor" = 6df3cf83fc92f45182bbbeb0701e80e2de6cb605;
+            "Validation Expiration" = "2026-08-05 03:14:09 +0000";
             "Validation Version" = 1;
         };
     };
