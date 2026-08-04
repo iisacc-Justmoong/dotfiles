@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "806975818.845405"
+        "807472259.454818"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4012;
+    "mod-count" = 4015;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -688,16 +688,16 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1758933498;
+            GUID = 1758933502;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.mobilephone";
-                "dock-extra" = 1;
+                "bundle-identifier" = "com.apple.Preview";
+                "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Phone.app/";
+                    "_CFURLString" = "file:///System/Applications/Preview.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Phone;
+                "file-label" = Preview;
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -706,34 +706,34 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1758933499;
+            GUID = 1758933503;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.TransporterApp";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLString" = "file:///Applications/Transporter.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Messages;
-                "file-mod-date" = 3867110056;
+                "file-label" = Transporter;
+                "file-mod-date" = 37928422450782;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 144499453164406;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1758933501;
+            GUID = 1487102829;
             "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.TextEdit";
+                book = {length = 544, bytes = 0x626f6f6b 20020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.printcenter";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/TextEdit.app/";
+                    "_CFURLString" = "file:///System/Applications/Utilities/Print%20Center.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = TextEdit;
+                "file-label" = "Print Center";
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
@@ -747,7 +747,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 1;
+    "trash-full" = 0;
     version = 1;
     "wvous-br-corner" = 1;
     "wvous-br-modifier" = 0;
