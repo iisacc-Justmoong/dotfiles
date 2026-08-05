@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4015;
+    "mod-count" = 4021;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -688,16 +688,16 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1758933502;
+            GUID = 1758933499;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Preview";
+                "bundle-identifier" = "com.apple.MobileSMS";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Preview.app/";
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Preview;
+                "file-label" = Messages;
                 "file-mod-date" = 3867110056;
                 "file-type" = 1;
                 "is-beta" = 0;
