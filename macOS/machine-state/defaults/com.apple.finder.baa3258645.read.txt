@@ -646,16 +646,12 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1104, bytes = 0x626f6f6b 50040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = "cv-share";
         },
                 {
-            "file-bookmark" = {length = 1060, bytes = 0x626f6f6b 24040000 00000510 40000000 ... 04000000 00000000 };
-            name = "vibe-coding-engineering-ebook";
-        },
-                {
-            "file-bookmark" = {length = 1068, bytes = 0x626f6f6b 2c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "vibe-coding-engineering-ebook-sales-site";
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = output;
         },
                 {
             "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
@@ -674,23 +670,26 @@
             name = Workspace;
         },
                 {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Archive;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
+        },
+                {
+            "file-bookmark" = {length = 972, bytes = 0x626f6f6b cc030000 00000510 40000000 ... 04000000 00000000 };
+            name = Call;
         },
                 {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 972, bytes = 0x626f6f6b cc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Call;
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Archive;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -706,13 +705,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-book-v1.0.0.zip";
+    GoToField = "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/instagram-visual-order";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-book-v1.0.0.zip",
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-team5-v1.0.0.zip",
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-operator-bundle-v1.0.0.zip",
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/images/gumroad-cover-1280x720.png",
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/images"
+        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/instagram-visual-order",
+        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-order",
+        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets",
+        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-post",
+        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-book-v1.0.0.zip"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
