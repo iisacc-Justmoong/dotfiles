@@ -646,24 +646,20 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = "cv-share";
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = dist;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = output;
-        },
-                {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = "pdf-render";
+            name = AISNS;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = build;
+            name = Vincent;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Earning;
+            name = Product;
         },
                 {
             "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
@@ -674,22 +670,27 @@
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 972, bytes = 0x626f6f6b cc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Call;
+            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
+            name = lib;
         },
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
+            name = Addon;
         },
                 {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Archive;
+            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
+            name = Theme;
+        },
+                {
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = Packages;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
+        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -1141,6 +1142,8 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/Workspace/Assets/Program/",
+        "file:///Volumes/Storage/Workspace/",
         "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/",
         "file:///Volumes/Storage/History/",
         "file:///Volumes/Storage/Job/Resume/",
@@ -1148,9 +1151,7 @@
         "file:///Volumes/Storage/Keys/",
         "file:///Volumes/Storage/Job/",
         "file:///Volumes/Storage/",
-        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Stocking/",
-        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/",
-        "file:///Applications/"
+        "file:///Users/ymy/Library/Mobile%20Documents/com~apple~CloudDocs/Stocking/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
