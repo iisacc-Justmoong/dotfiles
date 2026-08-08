@@ -8,7 +8,7 @@
         );
         failedToFetchFromServer = 0;
         notificationId = "";
-        retrievalDate = "2026-08-03 07:00:40 +0000";
+        retrievalDate = "2026-08-07 05:05:59 +0000";
         serverDict =         {
             appFeatureMessagingInfo =             (
                                 {
@@ -233,12 +233,16 @@
                         params =                         (
                                                         {
                                 actParams =                                 {
-                                    linkURL = "prefs:root=WIFI";
+                                    linkURL = "x-apple.systempreferences:com.apple.wifi-settings-extension";
                                 };
                                 action = "OPEN_EXT_LINK";
                                 display = Settings;
                             }
                         );
+                    };
+                    iconDetails =                     {
+                        sfSymbolColor = gray;
+                        sfSymbolId = "icloud.slash";
                     };
                     mesg =                     (
                                                 {
@@ -267,6 +271,10 @@
                             }
                         );
                     };
+                    iconDetails =                     {
+                        sfSymbolColor = gray;
+                        sfSymbolId = "icloud.slash";
+                    };
                     mesg =                     (
                                                 {
                             format = "Accept Terms to continue to upload";
@@ -287,12 +295,16 @@
                         params =                         (
                                                         {
                                 actParams =                                 {
-                                    linkURL = "prefs:root=WIFI";
+                                    linkURL = "x-apple.systempreferences:com.apple.wifi-settings-extension";
                                 };
                                 action = "OPEN_EXT_LINK";
                                 display = Settings;
                             }
                         );
+                    };
+                    iconDetails =                     {
+                        sfSymbolColor = gray;
+                        sfSymbolId = "icloud.slash";
                     };
                     mesg =                     (
                                                 {
@@ -320,6 +332,10 @@
                                 display = Settings;
                             }
                         );
+                    };
+                    iconDetails =                     {
+                        sfSymbolColor = gray;
+                        sfSymbolId = "icloud.slash";
                     };
                     mesg =                     (
                                                 {
@@ -486,7 +502,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-08-05 08:56:05 +0000";
+        retrievalDate = "2026-08-07 05:05:59 +0000";
         serverDict =         {
             type = None;
         };
@@ -495,7 +511,7 @@
         altDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
         callbackInterval = 604800;
         failedToFetchFromServer = 0;
-        retrievalDate = "2026-08-03 07:00:39 +0000";
+        retrievalDate = "2026-08-07 05:05:56 +0000";
         serverDict =         {
             callbackInterval = 604800;
             defaultOffers =             (
@@ -722,12 +738,16 @@
                                 params =                                 (
                                                                         {
                                         actParams =                                         {
-                                            linkURL = "prefs:root=WIFI";
+                                            linkURL = "x-apple.systempreferences:com.apple.wifi-settings-extension";
                                         };
                                         action = "OPEN_EXT_LINK";
                                         display = Settings;
                                     }
                                 );
+                            };
+                            iconDetails =                             {
+                                sfSymbolColor = gray;
+                                sfSymbolId = "icloud.slash";
                             };
                             mesg =                             (
                                                                 {
@@ -756,6 +776,10 @@
                                     }
                                 );
                             };
+                            iconDetails =                             {
+                                sfSymbolColor = gray;
+                                sfSymbolId = "icloud.slash";
+                            };
                             mesg =                             (
                                                                 {
                                     format = "Accept Terms to continue to upload";
@@ -776,12 +800,16 @@
                                 params =                                 (
                                                                         {
                                         actParams =                                         {
-                                            linkURL = "prefs:root=WIFI";
+                                            linkURL = "x-apple.systempreferences:com.apple.wifi-settings-extension";
                                         };
                                         action = "OPEN_EXT_LINK";
                                         display = Settings;
                                     }
                                 );
+                            };
+                            iconDetails =                             {
+                                sfSymbolColor = gray;
+                                sfSymbolId = "icloud.slash";
                             };
                             mesg =                             (
                                                                 {
@@ -809,6 +837,10 @@
                                         display = Settings;
                                     }
                                 );
+                            };
+                            iconDetails =                             {
+                                sfSymbolColor = gray;
+                                sfSymbolId = "icloud.slash";
                             };
                             mesg =                             (
                                                                 {
@@ -977,7 +1009,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-08-05 08:56:05 +0000";
+        retrievalDate = "2026-08-07 05:06:00 +0000";
         serverDict =         {
             isPremiumOffer = 1;
             offerType = PremiumJourneys;
