@@ -1,10 +1,10 @@
 {
-    "BundleIdRedactor.lastRolloverDay" = "2026-08-07 00:00:00 +0000";
-    "BundleIdRedactor.salt" = {length = 32, bytes = 0xc7221c21 0bd0c754 3bbcaf31 0e9d4a60 ... 3e7015a4 743cee7f };
+    "BundleIdRedactor.lastRolloverDay" = "2026-08-08 00:00:00 +0000";
+    "BundleIdRedactor.salt" = {length = 32, bytes = 0x2304f2a8 c01526b6 050c8d28 6682ea2e ... 49cc94cd 4b227e93 };
     "BundleIdRedactor.seenBundleIds" =     (
+        "com.apple.iCal",
         "com.apple.mail",
         "com.apple.reminders",
-        "com.apple.iCal",
-        "com.apple.MobileSMS"
+        "com.google.Chrome"
     );
 }

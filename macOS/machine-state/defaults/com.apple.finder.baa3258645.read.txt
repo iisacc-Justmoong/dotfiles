@@ -646,44 +646,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
-            name = dist;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = World;
+        },
+                {
+            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
+            name = WeUs;
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Signing;
+        },
+                {
+            "file-bookmark" = {length = 1020, bytes = 0x626f6f6b fc030000 00000510 40000000 ... 04000000 00000000 };
+            name = Service;
+        },
+                {
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Service;
+        },
+                {
+            "file-bookmark" = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
+            name = "xcode-device";
+        },
+                {
+            "file-bookmark" = {length = 1168, bytes = 0x626f6f6b 90040000 00000510 40000000 ... 04000000 00000000 };
+            name = Build;
+        },
+                {
+            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
+            name = xcode;
+        },
+                {
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
             name = AISNS;
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = lib;
-        },
-                {
-            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
-            name = Addon;
-        },
-                {
-            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
-            name = Theme;
-        },
-                {
-            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
-            name = Packages;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -908,7 +908,7 @@
             WindowBounds = "{{1473, 128}, {920, 788}}";
         };
     };
-    LastTrashState = 0;
+    LastTrashState = 1;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {

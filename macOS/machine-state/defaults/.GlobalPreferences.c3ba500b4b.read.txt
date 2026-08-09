@@ -43,7 +43,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-08-07 07:36:21 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-08-08 05:36:47 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -55,11 +55,13 @@
         "mul_Latn",
         ar,
         cs,
-        de
+        de,
+        fr
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
         cs,
-        de
+        de,
+        fr
     );
     NSNavPanelFileLastListModeForOpenModeKey = 2;
     NSNavPanelFileLastListModeForSaveModeKey = 2;
