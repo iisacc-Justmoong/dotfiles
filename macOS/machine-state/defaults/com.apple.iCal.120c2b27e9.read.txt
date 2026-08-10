@@ -10,7 +10,7 @@
     BirthdayEventsGenerationLastLocale = "en_KR";
     CALPrefLastTruthFileMigrationVersion = 1;
     CalDefaultCalendar = UseLastSelectedAsDefaultCalendar;
-    CalFirstVisibleDate = "2026-08-04 15:00:00 +0000";
+    CalFirstVisibleDate = "2026-08-02 15:00:00 +0000";
     CalendarListMiniMonthVisibleMonths = 1;
     CalendarSidebarShown = 1;
     CalendarSidebarView = 0;
@@ -24,7 +24,7 @@
             );
         };
     };
-    LastSaveDate = "2026-08-08 14:57:34 +0000";
+    LastSaveDate = "2026-08-09 13:10:56 +0000";
     NSDontMakeMainWindowKey = NO;
     NSEventConcurrentProcessingEnabled = YES;
     "NSSplitView Subview Frames CalendarSplitView" =     (
@@ -57,10 +57,10 @@
     "Show Week Numbers" = 0;
     TabbedWindowGroups =     (
     );
-    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x7ac7039f80>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [29337], teamIdentifier: [0000000000])";
-    defaultCalendarChangedTimestamp = 807600181;
+    defaultCalendarChangedReason = "EventKit (<ClientIdentity: 0x79fd039f20>, applicationIdentifier: [com.apple.calendar], bundleIdentifier: [com.apple.iCal], clientName: [Calendar], pid: [29337], teamIdentifier: [0000000000])";
+    defaultCalendarChangedTimestamp = 807971180;
     defaultCalendarDatabaseID = 0;
-    defaultCalendarID = "55A77EAB-D415-49FE-A6DC-F08D47200553";
+    defaultCalendarID = "90BC7825-0D07-4157-83AB-C5B37C713A12";
     defaultCalendarStoreUID = 3;
     enableTravelAdvisoriesForAutomaticBehavior = 1;
     "first minute of day time range" = 0;
@@ -72,7 +72,7 @@
     "last calendar view description" = "7-day";
     "last minute of day time range" = 1440;
     "last minute of work hours" = 1320;
-    "last selected calendar list item" = "55A77EAB-D415-49FE-A6DC-F08D47200553";
+    "last selected calendar list item" = "90BC7825-0D07-4157-83AB-C5B37C713A12";
     lastViewsTimeZone = "Asia/Seoul";
     migrationAttempts = 0;
     "number of hours displayed" = 24;

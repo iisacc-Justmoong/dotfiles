@@ -5,7 +5,7 @@
                 identifier = "com.apple.itunescloud.ICDBackgroundTaskManager.periodic-poll-activity";
                 interval = 604800;
                 "is_recurring" = 1;
-                time = "807932114.590716";
+                time = "808536914.590716";
             };
             "com.apple.itunescloud.ICInAppMessageManager.periodic_poll" =             {
                 identifier = "com.apple.itunescloud.ICInAppMessageManager.periodic_poll";
@@ -16,21 +16,16 @@
             "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer" =             {
                 identifier = "com.apple.itunescloud.ICLibraryAuthServiceClientTokenProvider.refresh_timer";
                 "is_recurring" = 0;
-                time = "808081088.0000031";
+                time = "808081088.00001";
                 userData =                 {
                     dsid = 17533321770;
                 };
-            };
-            "com.apple.itunescloud.ICPlayActivityServer.flush_task" =             {
-                identifier = "com.apple.itunescloud.ICPlayActivityServer.flush_task";
-                "is_recurring" = 0;
-                time = "807894718.004209";
             };
             "com.apple.itunescloud.subscription_status_refresh" =             {
                 identifier = "com.apple.itunescloud.subscription_status_refresh";
                 interval = 86400;
                 "is_recurring" = 1;
-                time = "807932114.5908591";
+                time = "808018514.5908591";
             };
         };
     };
