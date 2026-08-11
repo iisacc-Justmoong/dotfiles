@@ -37,7 +37,7 @@
             "Connection Policy Date" = "2026-08-02 02:14:09 +0000";
             "Connection Policy Hostname" = "https://seed.siri.apple.com";
             "Last Assistant Data Anchor" = 6df3cf83fc92f45182bbbeb0701e80e2de6cb605;
-            "Validation Expiration" = "2026-08-11 05:22:26 +0000";
+            "Validation Expiration" = "2026-08-14 06:12:25 +0000";
             "Validation Version" = 1;
         };
     };
@@ -60,8 +60,8 @@
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
     "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-07-30 18:55:09 +0000";
-    "Last server experiment check date" = "2026-07-30 18:55:09 +0000";
+    "Last client experiment check date" = "2026-08-11 10:57:27 +0000";
+    "Last server experiment check date" = "2026-08-11 10:57:27 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";
@@ -70,5 +70,5 @@
     "Myriad Device Trump Delay" = "1.75";
     "Myriad VTEndtimeDistanceThreshold" = "0.5";
     "Server Has Provisioned Myriad" = 1;
-    "Voice Trigger Needs Sync" = 1;
+    "Voice Trigger Needs Sync" = 0;
 }

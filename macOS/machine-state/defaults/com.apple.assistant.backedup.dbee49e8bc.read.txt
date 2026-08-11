@@ -2,13 +2,6 @@
     "Cloud Sync Enabled" = 1;
     "Cloud Sync Enabled Modification Date" = "2026-01-17 08:57:23 +0000";
     "Enable Offline Mode For Apple Intelligence" = 0;
-    "Modification Dates" =     {
-        "Logging User Identifier" = "2026-07-19 04:30:40 +0000";
-        "MultiUser VoiceIdentification Enabled" = "2021-05-04 09:01:04 +0000";
-        "Output Voice" = "2026-01-17 09:00:53 +0000";
-        "Session Language" = "2026-01-17 09:00:53 +0000";
-        "User Identifier" = "2026-07-19 04:30:40 +0000";
-    };
     "MultiUser VoiceIdentification Enabled" = 0;
     "Output Voice" =     {
         Custom = 1;
@@ -48,7 +41,7 @@
             saeCapabilities = 63;
             visualIntelligenceCapabilities = 21;
         };
-        bootUUID = "461703CD-A143-4E17-8B21-916B58358291";
+        bootUUID = "0F099980-3DC2-48B9-B240-06DAABA0E561";
         currentOrchestrationMode = 5;
         desiredOrchestrationMode = 5;
         desiredOrchestrationModeIfEnabled = 5;

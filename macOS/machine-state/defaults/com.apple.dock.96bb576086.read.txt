@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "807818690.418875"
+        "808138660.718446"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4052;
+    "mod-count" = 4054;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -724,38 +724,38 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1487102829;
+            GUID = 744185458;
             "tile-data" =             {
-                book = {length = 544, bytes = 0x626f6f6b 20020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.printcenter";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Print%20Center.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Print Center";
-                "file-mod-date" = 3867110056;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 226005048406121;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1656162985;
+            GUID = 744185459;
             "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.kodlian.Icon-Slate";
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Icon%20Slate.app/";
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Icon Slate";
-                "file-mod-date" = 87436510471886;
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 27461587149320;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 11724834800241;
+                "parent-mod-date" = 226005048406121;
             };
             "tile-type" = "file-tile";
         }

@@ -1,12 +1,10 @@
 {
-    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303639 ... 52657365 74225d7d };
+    "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e303231 3934357d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780471592;
-    CloudKitAccountInfoCache =     {
-        091a66e90745d834caec7cdf8d4e478193f1b69d2e79600161ea62c654f10170 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
-    };
     ManagedChildMigrationRemediation = 1;
+    "ScreenTimeLastSuccessfulShareDate.com.apple.ScreenTimeSettings.FamilyMigrationStateRecord" = "2026-08-11 10:57:45 +0000";
     TimeAllowanceClientIdentifierMigration = 1;
 }

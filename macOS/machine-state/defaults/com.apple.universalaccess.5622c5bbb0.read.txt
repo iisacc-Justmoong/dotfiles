@@ -2,36 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-07-07 19:12:27";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-07 19:12:36";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-07 19:12:37";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-07 19:12:38";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-07 19:27:50";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-08 19:27:34";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-07-09 19:29:19";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +220,36 @@
                 Date = "2026-08-09 09:12:10";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-08-10 09:12:16";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-11 09:12:25";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-11 19:57:19";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-11 19:57:32";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-11 19:57:32";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-11 19:57:34";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -281,7 +281,7 @@
         };
     };
     closeViewDesiredZoomFactor = "3.399921785317137";
-    closeViewHotkeysEnabled = 0;
+    closeViewHotkeysEnabled = 1;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
     closeViewSplitScreenRatio = "0.2";
@@ -296,6 +296,16 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    displaysLastCursorLocation =     {
+        1 =         {
+            X = "5997.47265625";
+            Y = "727.25390625";
+        };
+        3 =         {
+            X = "701.3671875";
+            Y = "770.59765625";
+        };
+    };
     hoverColorEnabled = 0;
     hoverTextEnabled = 0;
     hoverTypingEnabled = 0;
