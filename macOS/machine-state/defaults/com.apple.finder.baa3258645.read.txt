@@ -646,51 +646,50 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Downloads;
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "dashboard-app";
+        },
+                {
+            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
+            name = BambuStudio;
+        },
+                {
+            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
+            name = JetBrains;
+        },
+                {
+            "file-bookmark" = {length = 728, bytes = 0x626f6f6b d8020000 00000510 40000000 ... 04000000 00000000 };
+            name = "Application Support";
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Library;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
-            name = resources;
+            "file-bookmark" = {length = 564, bytes = 0x626f6f6b 34020000 00000510 40000000 ... 04000000 00000000 };
+            name = Developer;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = AISNS;
+            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
+            name = Audio;
         },
                 {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
+            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
+            name = Google;
         },
                 {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = World;
-        },
-                {
-            "file-bookmark" = {length = 1032, bytes = 0x626f6f6b 08040000 00000510 40000000 ... 04000000 00000000 };
-            name = WeUs;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Signing;
-        },
-                {
-            "file-bookmark" = {length = 1020, bytes = 0x626f6f6b fc030000 00000510 40000000 ... 04000000 00000000 };
-            name = Service;
+            "file-bookmark" = {length = 556, bytes = 0x626f6f6b 2c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Java;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
     FXSyncExtensionToolbarItemsPendingAdd =     (
     );
     FXSyncExtensionToolbarItemsPendingRemove =     (
-        "us.electronic.mas.macdroid.AFTFinderSync"
     );
     FXToolbarUpgradedToTenEight = 1;
     FXToolbarUpgradedToTenNine = 2;
@@ -706,13 +705,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/instagram-visual-order";
+    GoToField = "/Volumes/Storage/Workspace/Product/AISNS/ios/App";
     GoToFieldHistory =     (
+        "/Volumes/Storage/Workspace/Product/AISNS/ios/App",
+        "/",
+        "/Volumes/Storage/Workspace/Product/AISNS/ios/App/App.xcodeproj",
         "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/instagram-visual-order",
-        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-order",
-        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets",
-        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-post",
-        "/Volumes/Storage/Workspace/Earning/vibe-coding-engineering-ebook/build/en/packages/iisacc-vibe-coding-engineering-en-book-v1.0.0.zip"
+        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-order"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -1542,7 +1541,7 @@
             );
             iconSize = 16;
             scrollPositionX = "-176";
-            scrollPositionY = 0;
+            scrollPositionY = 574;
             showIconPreview = 1;
             sortColumn = kind;
             textSize = 13;
@@ -1627,7 +1626,7 @@
             };
             iconSize = 16;
             scrollPositionX = "-176";
-            scrollPositionY = 0;
+            scrollPositionY = 574;
             showIconPreview = 1;
             sortColumn = kind;
             textSize = 13;

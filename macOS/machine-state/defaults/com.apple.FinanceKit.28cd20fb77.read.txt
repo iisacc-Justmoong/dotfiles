@@ -4,18 +4,23 @@
     WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-08-08 23:59:59 +0000";
     postInstallTaskVersions =     {
         backfillLastNotifiedOrderUpdateDate = 1;
+        backfillPlaceholderExternalAccountID = 1;
         clearTransactionIcons = 2;
         deduplicateExtractedOrders = 1;
+        disableOrderTrackingIfNeeded = 1;
         migrateAppPermissions = 1;
+        normalizeAppleAccountBalanceCreditDebitIndicators = 1;
         populateAccountMatchEntities = 1;
         populateConsentType = 1;
-        populateExtractedOrderMessageIDHash = 1;
+        populateExtractedOrderMessageIDHash = 2;
         populateExtractedOrdersAutomaticIngestionLocalConsent = 1;
         populateFoundInInsightOrderDetailsRelationship = 1;
         populateFullyQualifiedAccountIdentifierInApplications = 1;
         populateMerchantNameFromBrand = 2;
         populateTransactionCategories = 4;
         populateTransactionsWithIsVisibleAndRemoveEmptyCurrencyCodes = 1;
+        pruneEmptyFinHealthEntityGroups = 1;
+        reimportOrderEmails = 1;
         reprocessPhotoReceipts = 2;
         updateAccountsWithCurrentConsentID = 1;
     };

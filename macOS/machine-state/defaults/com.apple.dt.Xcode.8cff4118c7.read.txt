@@ -59,14 +59,14 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-07-23 23:09:20 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-08-11 13:05:10 +0000";
     IDEAppStatisticsXcodeVersionMetricsHistoryStorage =     {
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
         17E202 = "2026-05-11 12:48:31 +0000";
         17F42 = "2026-05-21 14:34:43 +0000";
-        27A5194q = "2026-07-23 23:09:24 +0000";
+        27A5194q = "2026-08-11 13:04:16 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -86,7 +86,7 @@
     IDEChatIsBuiltInChatGPTEnabled = 1;
     IDEChatIsBuiltInChatGPTOnboardingComplete = 1;
     IDEChatLastServerResourcesRetrieval = "1778294095.858059";
-    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b226d6f 64656c49 64656e74 69666965 ... 223a7b7d 7d7d7d7d };
+    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b227072 6f766964 65724964 656e7469 ... 68617467 7074227d };
     IDECodingIntelligenceUseHistory =     {
         HasEverUsed = 1;
         LastUpdatedDate = "2026-04-29";
@@ -196,7 +196,7 @@
     "IDEMetalToolchainLastNotified-17F42" = 17F42;
     "IDEMetalToolchainLastNotified-27A5194q" = 27A5194o;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-07-23 23:07:17 +0000";
+    IDEMostRecentPostFLEDate = "2026-08-11 13:03:10 +0000";
     IDEMostRecentPostFLEToolsVersion = "27.0";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
         24J5289o,
@@ -257,6 +257,7 @@
     };
     IDEProvisioningTeamManagerLastSelectedTeamID = 5U49ST9XZH;
     IDERecentEditorDocuments =     (
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 1264, bytes = 0x626f6f6b f0040000 00000510 40000000 ... b4020000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
@@ -265,7 +266,6 @@
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlEnableSourceControl_10_0" = 1;
@@ -273,21 +273,7 @@
                 {
             AccountName = GitHub;
             Authentication =             {
-                TokenKeychainEntryName = "Xcode-SCM-Token-D64B5C18-55BB-4D98-9A56-F7994EF7BE8C";
-                Type = Bearer;
-            };
-            CloneType = 0;
-            ExtensionIdentifier = "com.apple.dt.GitHubHostBuiltInExtension";
-            HostURL = "https://github.com";
-            SSHKeyPath = "/Users/ymy/.ssh/id_ed25519";
-            SSHKeyUsername = git;
-            Username = "iisacc-Justmoong";
-        },
-                {
-            AccountName = GitHub;
-            Authentication =             {
-                TokenKeychainEntryName = "Xcode-SCM-Token-D64B5C18-55BB-4D98-9A56-F7994EF7BE8C";
-                Type = Bearer;
+                Type = Basic;
             };
             CloneType = 0;
             ExtensionIdentifier = "com.apple.dt.GitHubHostBuiltInExtension";
@@ -307,13 +293,14 @@
     IDESuppressStopBuildWarning = 1;
     IDESuppressStopExecutionWarning = 1;
     IDESuppressStopExecutionWarningTarget = "IDESuppressStopExecutionWarningTargetValue_Stop";
+    IDESwiftPackageCollectionsAddedDefaultCollectionsDVTToolsVersion = "Xcode 27.0.0";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LastReport" = "806454112.66899";
+    "IDE_CA_Daily_LastReport" = "808146207.624752";
     LastExplicitInspectorVisibility = 1;
-    LastPersistenceCleanupDateKey = "2026-05-04 12:09:49 +0000";
+    LastPersistenceCleanupDateKey = "2026-08-11 13:04:23 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
-    NSOSPLastRootDirectory = {length = 1136, bytes = 0x626f6f6b 70040000 00000510 40000000 ... 04000000 00000000 };
+    NSOSPLastRootDirectory = {length = 1116, bytes = 0x626f6f6b 5c040000 00000510 40000000 ... 04000000 00000000 };
     "NSSplitView Subview Frames com.apple.dt.Xcode.DevicesWidow.DevicesSplit" =     (
         "0.000000, 0.000000, 148.000000, 700.000000, NO, NO",
         "148.000000, 0.000000, 917.000000, 700.000000, NO, NO"
@@ -321,14 +308,64 @@
     "NSTableView Columns v3 PlistColumns" = {length = 586, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000019c };
     "NSTableView Sort Ordering v2 PlistColumns" = {length = 237, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000b5 };
     "NSTableView Supports v2 PlistColumns" = 1;
+    "NSToolbar Configuration Xcode.IDEKit.Toolbar.Workspace.Customizable" =     {
+        "TB Default Item Identifiers" =         (
+            "Xcode.IDEKit.CustomToolbarItem.ToggleNavigator",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEKit.CustomToolbarItem.RunStop",
+            "Xcode.IDEKit.CustomToolbarItem.SplitViewDivider-0",
+            "Xcode.IDEKit.CustomToolbarItem.BackForward",
+            "Xcode.IDEKit.CustomToolbarItem.WindowTitle",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEKit.CustomToolbarItem.RootChooser",
+            "Xcode.IDEIntelligenceChat.CustomToolbarItem.NewConversation",
+            "Xcode.IDEKit.CustomToolbarItem.SchemePicker.Centered",
+            "Xcode.IDEKit.CustomToolbarItem.Issues",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.XcodeCloud.CustomToolbarItem.ToolbarItem",
+            "Xcode.IDEKit.CustomToolbarItem.StatusCategories",
+            "Xcode.IDEKit.CustomToolbarItem.AddEditor",
+            "Xcode.IDEKit.CustomToolbarItem.EditorOptions",
+            "Xcode.IDEKit.CustomToolbarItem.EditorMode",
+            "Xcode.IDEKit.CustomToolbarItem.SplitViewDivider-1",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEKit.CustomToolbarItem.ToggleInspector"
+        );
+        "TB Display Mode" = 2;
+        "TB Icon Size Mode" = 1;
+        "TB Is Shown" = 1;
+        "TB Item Identifiers" =         (
+            "Xcode.IDEKit.CustomToolbarItem.ToggleNavigator",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEKit.CustomToolbarItem.RunStop",
+            "Xcode.IDEKit.CustomToolbarItem.SplitViewDivider-0",
+            "Xcode.IDEKit.CustomToolbarItem.BackForward",
+            "Xcode.IDEKit.CustomToolbarItem.WindowTitle",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEIntelligenceChat.CustomToolbarItem.NewConversation",
+            "Xcode.IDEKit.CustomToolbarItem.SchemePicker.Centered",
+            "Xcode.IDEKit.CustomToolbarItem.Issues",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.XcodeCloud.CustomToolbarItem.ToolbarItem",
+            "Xcode.IDEKit.CustomToolbarItem.StatusCategories",
+            "Xcode.IDEKit.CustomToolbarItem.AddEditor",
+            "Xcode.IDEKit.CustomToolbarItem.EditorOptions",
+            "Xcode.IDEKit.CustomToolbarItem.EditorMode",
+            "Xcode.IDEKit.CustomToolbarItem.SplitViewDivider-1",
+            NSToolbarFlexibleSpaceItem,
+            "Xcode.IDEKit.CustomToolbarItem.ToggleInspector"
+        );
+        "TB Size Mode" = 1;
+    };
     "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
+    "NSWindow Frame GoToSheet" = "1050 853 460 247 0 0 2560 1410 ";
     "NSWindow Frame IDEDownloadProgressWindow" = "1634 1048 400 268 0 0 2560 1410 ";
     "NSWindow Frame IDESettingsPanel" = "377 278 918 620 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
     "NSWindow Frame Products" = "225 332 1024 640 0 0 2560 1410 ";
     "NSWindow Frame com.apple.dt.xcode.devicesWindow" = "-2251 168 1065 700 -2560 0 2560 1410 ";
-    ProductMappingKey = {length = 202, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 000000a0 };
+    ProductMappingKey = {length = 285, bytes = 0x62706c69 73743030 d1010257 656e7472 ... 00000000 000000ee };
     "UVLastDeviceSetPurge-iOS" = 23C54;
     "UVLastDeviceSetPurge-watchOS" = 23S303;
     UVLastUsedDate = {length = 16, bytes = 0x3739323134383739342e303530393831};

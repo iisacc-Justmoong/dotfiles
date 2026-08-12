@@ -9,7 +9,7 @@
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4054;
+    "mod-count" = 4058;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -603,7 +603,7 @@
                 "file-mod-date" = 106523349832751;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 201403474484260;
+                "parent-mod-date" = 226005048406121;
             };
             "tile-type" = "file-tile";
         },
@@ -626,24 +626,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1758933500;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.campo";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Siri%20AI.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Siri;
-                "file-mod-date" = 3867110056;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2388809268;
             "tile-data" =             {
                 book = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
@@ -654,10 +636,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "System Settings";
-                "file-mod-date" = 3867110056;
+                "file-mod-date" = 3868968566;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 3868968566;
             };
             "tile-type" = "file-tile";
         }

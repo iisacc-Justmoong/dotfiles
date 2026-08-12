@@ -5,9 +5,6 @@
     );
     CKStartupTime = 1780872461;
     CloudConfigurationPath = "/System/Library/PrivateFrameworks/ReminderKit.framework/Versions/A/Resources/CloudConfigurations/Normal.plist";
-    CloudKitAccountInfoCache =     {
-        2eb0ca713ba3f3b7f82f5c2b3e7ad266708a95c6643c71323c1f6af4c917ff31 = {length = 570, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
-    };
     CloudKitAccountStatus =     {
         "6FD043A0-7295-41C4-B9C7-812A91491C63" = 1;
     };
@@ -23,7 +20,7 @@
     SubscriptionIDsLastModifiedDate = "807964416.251321";
     ThrottlingPolicyCurrentBatchCount = 0;
     ThrottlingPolicyCurrentLevelIndex = 0;
-    ThrottlingPolicyStartTime = "808055951.392091";
+    ThrottlingPolicyStartTime = "808142351.491369";
     accountsListCategorizedCountsCache = {length = 1312, bytes = 0x62706c69 73743030 d2010203 195e7265 ... 00000000 000004cc };
     analyticsActivityLastExecutionDate = "2026-03-26 23:43:18 +0000";
     cloudKitSchemaCatchUpSyncLastSuccessBuildVersion = 26A5353q;
@@ -38,7 +35,7 @@
     lastDatabaseMigrationSystemBuildVersion = 25C56;
     lastDismissedNotificationsPermissionInlineRequestDate = "2026-05-11 07:33:16 +0000";
     lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";
-    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-08-04 07:51:44 +0000";
+    lastSuggestedAttributesAutoTrainingExecutionDate = "2026-08-11 11:54:38 +0000";
     lastSuggestedAttributesAutoTrainingToken = {length = 924, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002c6 };
     lastSyncPoll = "2026-01-17 08:56:40 +0000";
     lastViewedNotificationsPermissionWarmingSheetDate = "2026-01-18 13:44:47 +0000";
@@ -48,7 +45,7 @@
         "en_KR"
     );
     savedImageDeduplicationLastExecutionDate = "2026-01-21 19:01:44 +0000";
-    spotlightIndexVersion = 8;
+    spotlightIndexVersion = "4046.21";
     staledFileAttachmentCleanupLastExecutionDate = "2026-08-02 22:59:28 +0000";
     suggestConversionToGroceryListLastExecutionDate = "2026-01-22 22:49:21 +0000";
     "syncActivityNotificationEngine_accountSignInTime" =     {

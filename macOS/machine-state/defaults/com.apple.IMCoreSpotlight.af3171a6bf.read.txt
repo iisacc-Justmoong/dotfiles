@@ -19,9 +19,5 @@
         );
     };
     LastSpotlightFeatureCheckpoint = 50;
-    ReindexSchedulingContext = {length = 306, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000ef };
-    ReindexSchedulingInProgress = 1;
-    ReindexSchedulingLastChatRowID = 889;
-    ReindexSchedulingUserInfoData = {length = 50, bytes = 0x62706c69 73743030 d1010251 66100408 ... 00000000 0000000f };
     ReindexVacuumRequirements = 0;
 }

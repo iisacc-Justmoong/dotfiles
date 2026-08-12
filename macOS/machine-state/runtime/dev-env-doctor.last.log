@@ -22,7 +22,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 13, missing cask: 4
+[WARN] Missing formula: 13, missing cask: 5
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openhue/cli/openhue-cli
@@ -37,10 +37,11 @@ steipete/tap/sag
 steipete/tap/songsee
 steipete/tap/wacli
 balenaetcher
+bambu-studio
 blender
 epic-games
 microsoft-auto-update
-[WARN] Extra formula: 130, extra cask: 4
+[WARN] Extra formula: 130, extra cask: 3
 ada-url
 aom
 apache-serf
@@ -62,7 +63,6 @@ fmt
 fontconfig
 freetds
 android-commandlinetools
-autodesk-fusion
 goplaces
 obs
 
