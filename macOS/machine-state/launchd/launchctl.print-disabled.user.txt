@@ -11,13 +11,14 @@
 		"com.apple.Siri.agent" => enabled
 		"Canva" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
+		"com.apple.weather.menu" => enabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
 		"ai.openclaw.gateway" => enabled
 		"com.openai.chat-helper" => enabled
 		"com.google.keystone.system.xpcservice" => enabled
-		"org.chromium.chromoting" => enabled
 		"com.apple.appleseed.seedusaged.postinstall" => disabled
+		"org.chromium.chromoting" => disabled
 		"com.apple.ScriptMenuApp" => disabled
 		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
 		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled

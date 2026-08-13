@@ -2,9 +2,9 @@
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
             "InstantProcessing+Embedding" =             {
-                timestamp = "808143747.143651";
-                timestampLastReplenished = "808143617.6859764";
-                tokenCount = 1;
+                timestamp = "808237276.86897";
+                timestampLastReplenished = "808237275.2859761";
+                tokenCount = 433;
             };
             "InstantProcessing+FullEmbedding" =             {
                 timestamp = "808138291.540485";
@@ -12,18 +12,18 @@
                 tokenCount = 500;
             };
             "InstantProcessing+GLPEmbedding" =             {
-                timestamp = "808147806.092613";
-                timestampLastReplenished = "808147637.5380253";
+                timestamp = "808231071.692186";
+                timestampLastReplenished = "808230927.138025";
                 tokenCount = 500;
             };
             "InstantProcessing+GLPIndexing" =             {
-                timestamp = "808147806.09732";
-                timestampLastReplenished = "808147723.9224938";
-                tokenCount = 1000;
+                timestamp = "808231071.696933";
+                timestampLastReplenished = "808231013.5224936";
+                tokenCount = 958;
             };
             "InstantProcessing+GLPMailAttachments" =             {
-                timestamp = "808147806.084249";
-                timestampLastReplenished = "808147637.5337123";
+                timestamp = "808231071.687466";
+                timestampLastReplenished = "808230927.1337121";
                 tokenCount = 500;
             };
             "InstantProcessing+Keyphrase" =             {
@@ -62,9 +62,9 @@
                 tokenCount = 500;
             };
             "PriorityProcessing+Embedding" =             {
-                timestamp = "808163893.318868";
-                timestampLastReplenished = "808163892.8863539";
-                tokenCount = 296;
+                timestamp = "808250563.009829";
+                timestampLastReplenished = "808250523.2863549";
+                tokenCount = 1500;
             };
             "PriorityProcessing+FullEmbedding" =             {
                 timestamp = "808138291.544481";
@@ -72,19 +72,19 @@
                 tokenCount = 1500;
             };
             "PriorityProcessing+GLPEmbedding" =             {
-                timestamp = "808147806.136075";
-                timestampLastReplenished = "808147752.7384536";
-                tokenCount = 1500;
+                timestamp = "808231372.101465";
+                timestampLastReplenished = "808231330.3384537";
+                tokenCount = 1438;
             };
             "PriorityProcessing+GLPIndexing" =             {
-                timestamp = "808147806.144641";
-                timestampLastReplenished = "808147800.722855";
+                timestamp = "808231372.1099989";
+                timestampLastReplenished = "808231368.722855";
                 tokenCount = 9000;
             };
             "PriorityProcessing+GLPMailAttachments" =             {
-                timestamp = "808147806.125456";
-                timestampLastReplenished = "808147752.7341413";
-                tokenCount = 1500;
+                timestamp = "808231372.082244";
+                timestampLastReplenished = "808231330.3341414";
+                tokenCount = 1433;
             };
             "PriorityProcessing+Keyphrase" =             {
                 timestamp = "808138291.58163";
@@ -102,8 +102,8 @@
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "808147878.312929";
-                timestampLastReplenished = "808147872.885407";
+                timestamp = "808231151.209869";
+                timestampLastReplenished = "808231140.885407";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5IdentificationdocumentsBackground" =             {

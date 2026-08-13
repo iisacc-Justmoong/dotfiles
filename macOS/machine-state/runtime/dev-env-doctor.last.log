@@ -22,7 +22,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 13, missing cask: 5
+[WARN] Missing formula: 13, missing cask: 10
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openhue/cli/openhue-cli
@@ -36,12 +36,17 @@ steipete/tap/remindctl
 steipete/tap/sag
 steipete/tap/songsee
 steipete/tap/wacli
+affinity
 balenaetcher
 bambu-studio
+betterdisplay
 blender
 epic-games
 microsoft-auto-update
-[WARN] Extra formula: 130, extra cask: 3
+microsoft-excel
+sf-symbols
+visual-studio-code
+[WARN] Extra formula: 132, extra cask: 2
 ada-url
 aom
 apache-serf
@@ -64,7 +69,6 @@ fontconfig
 freetds
 android-commandlinetools
 goplaces
-obs
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=/Users/ymy/Qt/6.8.3/macos

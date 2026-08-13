@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "808138660.718446"
+        "808250565.414408"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4058;
+    "mod-count" = 4072;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -194,24 +194,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1487102836;
-            "tile-data" =             {
-                book = {length = 652, bytes = 0x626f6f6b 8c020000 00000510 40000000 ... 50010000 00000000 };
-                "bundle-identifier" = "com.microsoft.VSCode";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Visual%20Studio%20Code.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Visual Studio Code";
-                "file-mod-date" = 3866547652;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 141540221023555;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2157571585;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -226,24 +208,6 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 153106567364182;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 2908170798;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.renfei.SnippetsLab";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/SnippetsLab.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = SnippetsLab;
-                "file-mod-date" = 221727252915811;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 112278601312829;
             };
             "tile-type" = "file-tile";
         },
@@ -284,96 +248,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 2314632282;
-            "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.canva.affinity";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Affinity.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Affinity;
-                "file-mod-date" = 3866233233;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 11724834800241;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4022413494;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.FinalCut";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Final%20Cut%20Pro.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Final Cut Pro";
-                "file-mod-date" = 69895865769870;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 238061015277454;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 3594933549;
-            "tile-data" =             {
-                book = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.obsproject.obs-studio";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/OBS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = OBS;
-                "file-mod-date" = 3859645509;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 9577348088732;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4232976581;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.garageband10";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/GarageBand.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = GarageBand;
-                "file-mod-date" = 15324009572042;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 156890429290073;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 567659849;
-            "tile-data" =             {
-                book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.logic10";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Logic%20Pro.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Logic Pro";
-                "file-mod-date" = 173108223125063;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 133710488121077;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 2277882256;
             "tile-data" =             {
                 book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
@@ -410,78 +284,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 1389028968;
-            "tile-data" =             {
-                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.literatureandlatte.scrivener3";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Scrivener.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Scrivener;
-                "file-mod-date" = 183291591538959;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 161443098494240;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4269336389;
-            "tile-data" =             {
-                book = {length = 596, bytes = 0x626f6f6b 54020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Pages";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Pages%20Creator%20Studio.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Pages;
-                "file-mod-date" = 261507245449449;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 104719465248702;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4269336388;
-            "tile-data" =             {
-                book = {length = 592, bytes = 0x626f6f6b 50020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.microsoft.Excel";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Microsoft%20Excel.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Microsoft Excel";
-                "file-mod-date" = 169444621459892;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 184764769804723;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 4269336390;
-            "tile-data" =             {
-                book = {length = 600, bytes = 0x626f6f6b 58020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Keynote";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Keynote%20Creator%20Studio.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Keynote;
-                "file-mod-date" = 29115154997544;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 184764769804723;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 1152347586;
             "tile-data" =             {
                 book = {length = 528, bytes = 0x626f6f6b 10020000 00000510 40000000 ... 04000000 00000000 };
@@ -492,10 +294,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Calendar;
-                "file-mod-date" = 3867110056;
+                "file-mod-date" = 3868968566;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 3868968566;
             };
             "tile-type" = "file-tile";
         },
@@ -546,10 +348,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Mail;
-                "file-mod-date" = 3867110056;
+                "file-mod-date" = 3868968566;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 3868968566;
             };
             "tile-type" = "file-tile";
         },
@@ -572,6 +374,24 @@
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 1758933499;
+            "tile-data" =             {
+                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.MobileSMS";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Messages.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Messages;
+                "file-mod-date" = 3867110056;
+                "file-type" = 1;
+                "is-beta" = 0;
+                "parent-mod-date" = 3867110056;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
             GUID = 2546935503;
             "tile-data" =             {
                 book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
@@ -582,10 +402,46 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Photos;
-                "file-mod-date" = 3867110056;
+                "file-mod-date" = 3868968566;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
+                "parent-mod-date" = 3868968566;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 744185463;
+            "tile-data" =             {
+                book = {length = 528, bytes = 0x626f6f6b 10020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.journal";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Journal.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Journal;
+                "file-mod-date" = 3868968566;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3868968566;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 744185465;
+            "tile-data" =             {
+                book = {length = 528, bytes = 0x626f6f6b 10020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.apple.stocks";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///System/Applications/Stocks.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = Stocks;
+                "file-mod-date" = 3868968566;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 3868968566;
             };
             "tile-type" = "file-tile";
         },
@@ -688,25 +544,7 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 1758933499;
-            "tile-data" =             {
-                book = {length = 516, bytes = 0x626f6f6b 04020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.MobileSMS";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Messages.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Messages;
-                "file-mod-date" = 3867110056;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3867110056;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 744185458;
+            GUID = 744185466;
             "tile-data" =             {
                 book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.chouti.github-streak";
@@ -719,25 +557,7 @@
                 "file-mod-date" = 149842385282655;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 226005048406121;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 744185459;
-            "tile-data" =             {
-                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Unicorn HTTPS";
-                "file-mod-date" = 27461587149320;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 226005048406121;
+                "parent-mod-date" = 151899682767243;
             };
             "tile-type" = "file-tile";
         }
