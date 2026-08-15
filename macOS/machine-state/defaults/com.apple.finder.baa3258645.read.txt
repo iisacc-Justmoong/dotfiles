@@ -646,44 +646,44 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "dashboard-app";
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         },
                 {
-            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
-            name = BambuStudio;
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = Vincent;
         },
                 {
-            "file-bookmark" = {length = 772, bytes = 0x626f6f6b 04030000 00000510 40000000 ... 04000000 00000000 };
-            name = JetBrains;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Product;
         },
                 {
-            "file-bookmark" = {length = 728, bytes = 0x626f6f6b d8020000 00000510 40000000 ... 04000000 00000000 };
-            name = "Application Support";
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Library;
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
         },
                 {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 564, bytes = 0x626f6f6b 34020000 00000510 40000000 ... 04000000 00000000 };
-            name = Developer;
-        },
-                {
-            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
-            name = Audio;
+            "file-bookmark" = {length = 556, bytes = 0x626f6f6b 2c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Java;
         },
                 {
             "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
             name = Google;
         },
                 {
-            "file-bookmark" = {length = 556, bytes = 0x626f6f6b 2c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Java;
+            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
+            name = Audio;
+        },
+                {
+            "file-bookmark" = {length = 564, bytes = 0x626f6f6b 34020000 00000510 40000000 ... 04000000 00000000 };
+            name = Developer;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Library;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
