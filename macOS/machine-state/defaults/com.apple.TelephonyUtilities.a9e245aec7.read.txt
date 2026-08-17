@@ -4,11 +4,11 @@
     EndRecordingDisclosureUtterance = "This call is no longer being recorded";
     FaceTimeNewCallersFilterMode = 0;
     GondolaLastAccountsChangedState = 1;
-    PNRltc = "2026-08-14 08:49:26 +0000";
+    PNRltc = "2026-08-16 04:32:25 +0000";
     StartRecordingBeepChecksum = 1fc0185592ae40207efd961d3ad46ef29c119005364edb71c38844b7a58cd77c;
     StartRecordingDisclosureUtterance = "This call will be recorded";
-    StartTranslationDisclosureUtterance = "\Uc774 \Ud1b5\Ud654\Uc5d0 \Ub300\Ud55c \Ubc88\Uc5ed\Uc774 \Ucf1c\Uc838 \Uc788\Uc2b5\Ub2c8\Ub2e4.";
-    StopTranslationDisclosureUtterance = "\Uc774 \Ud1b5\Ud654\Uc5d0 \Ub300\Ud55c \Ubc88\Uc5ed\Uc774 \Uc885\Ub8cc\Ub418\Uc5c8\Uc2b5\Ub2c8\Ub2e4.";
+    StartTranslationDisclosureUtterance = "Translation is on for this call";
+    StopTranslationDisclosureUtterance = "Translation ended for this call";
     allowContactsOnly = 0;
     "badge_count_data" = {length = 194, bytes = 0x7b226d69 73736564 46616365 54696d65 ... 223a6661 6c73657d };
     "current_remote_disclosure" = "This message has been transcribed. One moment while I notify the caller\U2026_en_KR_unknown_0";
@@ -16,7 +16,7 @@
     kDefaultsFollowSystemCameraEnabled = 1;
     kLastIDSFirewallVersionDefaultsKey = 1;
     kLastKnownOutgoingCallerDeviceIdentifier = "82FE4D2C-DB6F-4DDF-8FC2-A3F08CA2F046";
-    lastSiriVoiceUsedForCallScreeningGreeting = Minji;
+    lastSiriVoiceUsedForCallScreeningGreeting = Nora;
     "messagestore_badge_count_data" = {length = 75, bytes = 0x7b226361 72726965 72566f69 63656d61 ... 61676573 223a307d };
     registeredProvidersVersion = 1;
     thumperCallingCapabilitiesStates =     (
