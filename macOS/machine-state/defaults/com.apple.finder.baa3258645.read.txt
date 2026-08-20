@@ -646,16 +646,12 @@
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 1240, bytes = 0x626f6f6b d8040000 00000510 40000000 ... 04000000 00000000 };
-            name = "android-light-2026-08-15";
+            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
+            name = Applications;
         },
                 {
-            "file-bookmark" = {length = 1176, bytes = 0x626f6f6b 98040000 00000510 40000000 ... 04000000 00000000 };
-            name = "google-play";
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = AISNS;
+            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
+            name = ymy;
         },
                 {
             "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
@@ -670,10 +666,6 @@
             name = Workspace;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
-        },
-                {
             "file-bookmark" = {length = 556, bytes = 0x626f6f6b 2c020000 00000510 40000000 ... 04000000 00000000 };
             name = Java;
         },
@@ -684,6 +676,14 @@
                 {
             "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
             name = Audio;
+        },
+                {
+            "file-bookmark" = {length = 564, bytes = 0x626f6f6b 34020000 00000510 40000000 ... 04000000 00000000 };
+            name = Developer;
+        },
+                {
+            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
+            name = Library;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -705,13 +705,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Product/AISNS/ios/App";
+    GoToField = "/Volumes/Storage/Workspace/Product/Vincent/resources/AppStore/5.1/AppStore-5.1-01.png";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Product/AISNS/ios/App",
-        "/",
-        "/Volumes/Storage/Workspace/Product/AISNS/ios/App/App.xcodeproj",
-        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/instagram-visual-order",
-        "/Volumes/Storage/Workspace/Product/AISNS/build/launch-assets/x-visual-order"
+        "/Volumes/Storage/Workspace/Product/Vincent/resources/AppStore/5.1/AppStore-5.1-01.png",
+        "/Volumes/Storage/Workspace/Product/Vincent/dist/Vincent-appstore.pkg",
+        "/Volumes/Storage/Workspace/Product/Vincent/docs/marketing/vincent-sample-artwork.png",
+        "/Volumes/Storage/Workspace/Product/Vincent/dist/Vincent-appstore-local-unsigned.pkg",
+        "/Volumes/Storage/Workspace/Product/AISNS/ios/App"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {

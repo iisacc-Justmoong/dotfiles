@@ -17,8 +17,8 @@
 		"ai.openclaw.gateway" => enabled
 		"com.openai.chat-helper" => enabled
 		"com.google.keystone.system.xpcservice" => enabled
-		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"org.chromium.chromoting" => disabled
+		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"com.apple.ScriptMenuApp" => disabled
 		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
 		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled

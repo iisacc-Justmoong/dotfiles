@@ -1,9 +1,7 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
-            "en-US",
-            en,
-            English
+            en
         );
         CFVendedServices =         (
                         {
@@ -1208,6 +1206,37 @@
                 );
                 NSUUID = {length = 20, bytes = 0x4b3646093a84966ac8d7deb8dfd2db8fa0decc26};
                 NSUserData = group;
+            },
+                        {
+                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
+                NSBundlePath = "/Applications/Pixelmator Pro.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Open with Pixelmator Pro";
+                };
+                NSMessage = loadDataFromExternalSource;
+                NSPortName = PixelmatorPro;
+                NSSendFileTypes =                 (
+                    "public.image"
+                );
+                NSSendTypes =                 (
+                    NSPasteboardTypeTIFF
+                );
+                NSUUID = {length = 20, bytes = 0x674d86bbaf525dc9847e58587fdfe72366a9181f};
+            },
+                        {
+                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
+                NSBundlePath = "/Applications/Pixelmator Pro.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                };
+                NSMessage = openSelection;
+                NSSendTypes =                 (
+                    "public.rtf"
+                );
+                NSUUID = {length = 20, bytes = 0xe0ae3bb808a733ca922eb0c2eb1673ce03ee1f07};
             }
         );
         CFVersion = 2;

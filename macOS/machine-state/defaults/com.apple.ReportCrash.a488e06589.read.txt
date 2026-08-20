@@ -1,13 +1,8 @@
 {
     TrialCache =     {
         experiments =         (
-                        {
-                deploymentId = 500000004;
-                experimentId = 6a2aca26867ed96da93681bc;
-                treatmentId = "f744ebd4-c0b2-4401-ab22-b197a7b06e28";
-            }
         );
-        lastCheckTime = "808462786.253655";
+        lastCheckTime = "808793054.6765389";
         rollouts =         (
                         {
                 deploymentId = 250000031;

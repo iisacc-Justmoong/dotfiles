@@ -16,7 +16,7 @@
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
             "Ace Host" = "oh11sa-p02";
-            "Build Version" = 26A5406e;
+            "Build Version" = 26A5416b;
             "Connection Policy" =             {
                 "$class" = ConnectionPolicy;
                 "$group" = "com.apple.ace.system";
@@ -34,10 +34,10 @@
                 );
                 timeToLive = 43200;
             };
-            "Connection Policy Date" = "2026-08-11 10:59:11 +0000";
+            "Connection Policy Date" = "2026-08-20 00:56:21 +0000";
             "Connection Policy Hostname" = "https://seed.siri.apple.com";
             "Last Assistant Data Anchor" = 6df3cf83fc92f45182bbbeb0701e80e2de6cb605;
-            "Validation Expiration" = "2026-08-18 19:54:30 +0000";
+            "Validation Expiration" = "2026-08-23 01:56:21 +0000";
             "Validation Version" = 1;
         };
     };
@@ -60,8 +60,8 @@
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
     "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-08-11 11:05:28 +0000";
-    "Last server experiment check date" = "2026-08-11 10:57:27 +0000";
+    "Last client experiment check date" = "2026-08-20 00:56:19 +0000";
+    "Last server experiment check date" = "2026-08-20 00:56:19 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";
