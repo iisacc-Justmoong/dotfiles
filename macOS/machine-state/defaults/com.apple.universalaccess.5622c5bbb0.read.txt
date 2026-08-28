@@ -2,91 +2,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-07-20 20:24:58";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-21 08:59:05";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-21 08:59:14";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-21 08:59:14";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-21 08:59:15";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-21 09:14:17";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-22 09:14:28";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-23 09:15:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-24 08:06:52";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-24 08:22:26";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-25 08:22:03";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-26 08:24:03";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-27 08:22:12";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-28 08:22:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-29 08:56:58";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-29 09:12:12";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-07-30 09:35:06";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-07-31 09:13:06";
                 Reason = Reset;
                 State = 0;
@@ -250,6 +165,91 @@
                 Date = "2026-08-20 09:55:58";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-08-20 10:12:35";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-21 09:00:02";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-22 09:39:16";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-23 09:21:08";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-24 08:59:27";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:21:09";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:36:25";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:49:19";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:49:42";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:49:42";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 06:49:43";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-25 07:04:45";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-26 07:43:08";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-27 07:05:19";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-28 07:04:30";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-28 08:38:49";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-08-28 08:54:08";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -297,13 +297,17 @@
         NSGlobalDomain
     );
     displaysLastCursorLocation =     {
-        3 =         {
-            X = "-118.60546875";
-            Y = "1304.82421875";
+        0 =         {
+            X = "2558.703125";
+            Y = 1440;
+        };
+        1 =         {
+            X = "906.3203125";
+            Y = "655.87890625";
         };
         4 =         {
-            X = 10;
-            Y = 1430;
+            X = "-11.02734375";
+            Y = "1021.24609375";
         };
     };
     hoverColorEnabled = 0;

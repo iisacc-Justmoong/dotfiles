@@ -1,6 +1,7 @@
 {
     AKLastIDMSEnvironment = 0;
     AKLastLocale = "en_KR";
+    AppleActionOnDoubleClick = Fill;
     AppleAntiAliasingThreshold = 4;
     AppleAquaColorVariant = 1;
     AppleEnableSwipeNavigateWithScrolls = 0;
@@ -13,12 +14,11 @@
     };
     AppleICUForce12HourTime = 0;
     AppleICUForce24HourTime = 1;
-    AppleIconAppearanceTheme = RegularAutomatic;
+    AppleIconAppearanceTheme = RegularDark;
     AppleInterfaceStyle = Dark;
     AppleLanguages =     (
         "en-KR",
-        "ko-KR",
-        ar
+        "ko-KR"
     );
     AppleLanguagesSchemaVersion = 5400;
     AppleLocale = "en_KR";
@@ -29,6 +29,9 @@
     AppleShowScrollBars = Always;
     AppleWindowTabbingMode = fullscreen;
     CGDisableCursorLocationMagnification = 1;
+    IPLanguageDiscoveryRejectedLanguages =     (
+        ar
+    );
     InitialKeyRepeat = 15;
     "InitialKeyRepeat_Level_Saved" = 6;
     "KB_DoubleQuoteOption" = "\U201cabc\U201d";
@@ -43,7 +46,7 @@
     NSAutomaticSpellingCorrectionEnabled = 0;
     NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-08-20 00:56:13 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-08-28 08:55:20 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -409,8 +412,15 @@
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
+            "com.adobe.acc.anc.AdobeCreativeCloud.AdobeContextMenuExtension" = 0;
+            "com.adobe.accmac.ACCFinderSync" = 1;
         };
         dirMap =         {
+            "com.adobe.acc.anc.AdobeCreativeCloud.AdobeContextMenuExtension" =             (
+                "file:///"
+            );
+            "com.adobe.accmac.ACCFinderSync" =             (
+            );
         };
     };
     "com.apple.keyboard.fnState" = 1;

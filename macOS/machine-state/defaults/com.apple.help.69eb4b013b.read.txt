@@ -1,5 +1,15 @@
 {
     RegisteredBooks =     {
+        "com.apple.garageband10*10.4.14" =         (
+                        {
+                appBundleUrl = "file:///Applications/GarageBand.app/";
+                appVersion = "10.4.14";
+                id = "com.apple.garageband10.help";
+                projectId = garageband;
+                url = "/Applications/GarageBand.app/Contents/Resources/garageband.help";
+                version = 6648;
+            }
+        );
         "com.apple.inputmethod.Korean*104" =         (
                         {
                 appBundleUrl = "file:///System/Library/Input%20Methods/KoreanIM.app/Contents/PlugIns/KIM_Extension.appex/";
@@ -59,6 +69,16 @@
                 version = 6674;
             }
         );
+        "com.apple.logic10*12.3.1" =         (
+                        {
+                appBundleUrl = "file:///Applications/Logic%20Pro.app/";
+                appVersion = "12.3.1";
+                id = "com.apple.logic10.help";
+                projectId = logicpro;
+                url = "/Applications/Logic Pro.app/Contents/Resources/logic.help";
+                version = 6682;
+            }
+        );
         "com.apple.mobilelogic*12.0" =         (
                         {
                 appBundleUrl = "file:///Applications/Logic%20Pro%20Creator%20Studio.app/";
@@ -77,6 +97,8 @@
         "com.apple.mobilelogic*12.0",
         "com.apple.logic10*12.0.1",
         "com.apple.logic10*12.2",
-        "com.apple.logic10*12.3"
+        "com.apple.logic10*12.3",
+        "com.apple.garageband10*10.4.14",
+        "com.apple.logic10*12.3.1"
     );
 }

@@ -72,7 +72,9 @@
                     English = "Create Service";
                     default = "Create Service";
                     en = "Create Service";
+                    "en-KR" = "Create Service";
                     "en-US" = "Create Service";
+                    "en_US" = "Create Service";
                 };
                 NSMessage = makeNewServiceWithPasteboard;
                 NSPortName = Automator;
@@ -91,7 +93,9 @@
                     English = "Create Workflow";
                     default = "Create Workflow";
                     en = "Create Workflow";
+                    "en-KR" = "Create Workflow";
                     "en-US" = "Create Workflow";
+                    "en_US" = "Create Workflow";
                 };
                 NSMessage = makeNewWorkflowServiceWithPasteboard;
                 NSPortName = Automator;
@@ -111,7 +115,9 @@
                     English = "Send File To Bluetooth Device";
                     default = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
+                    "en-KR" = "Send File To Bluetooth Device";
                     "en-US" = "Send File To Bluetooth Device";
+                    "en_US" = "Send File To Bluetooth Device";
                 };
                 NSMessage = sendFileUsingBluetoothOBEXService;
                 NSPortName = BluetoothFileExchange;
@@ -132,13 +138,17 @@
                     English = "$^@C";
                     default = "$^@C";
                     en = "$^@C";
+                    "en-KR" = "$^@C";
                     "en-US" = "$^@C";
+                    "en_US" = "$^@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Traditional Chinese";
                     default = "Convert Text from Simplified to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
+                    "en-KR" = "Convert Text to Traditional Chinese";
                     "en-US" = "Convert Text to Traditional Chinese";
+                    "en_US" = "Convert Text to Traditional Chinese";
                 };
                 NSMessage = convertTextToTraditionalChinese;
                 NSPortName = ChineseTextConverterService;
@@ -163,13 +173,17 @@
                     English = "$^~@C";
                     default = "$^~@C";
                     en = "$^~@C";
+                    "en-KR" = "$^~@C";
                     "en-US" = "$^~@C";
+                    "en_US" = "$^~@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Simplified Chinese";
                     default = "Convert Text from Traditional to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
+                    "en-KR" = "Convert Text to Simplified Chinese";
                     "en-US" = "Convert Text to Simplified Chinese";
+                    "en_US" = "Convert Text to Simplified Chinese";
                 };
                 NSMessage = convertTextToSimplifiedChinese;
                 NSPortName = ChineseTextConverterService;
@@ -196,7 +210,9 @@
                     English = "Convert Text to Full Width";
                     default = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
+                    "en-KR" = "Convert Text to Full Width";
                     "en-US" = "Convert Text to Full Width";
+                    "en_US" = "Convert Text to Full Width";
                 };
                 NSMessage = convertTextToFullWidth;
                 NSPortName = ChineseTextConverterService;
@@ -220,7 +236,9 @@
                     English = "Convert Text to Half Width";
                     default = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
+                    "en-KR" = "Convert Text to Half Width";
                     "en-US" = "Convert Text to Half Width";
+                    "en_US" = "Convert Text to Half Width";
                 };
                 NSMessage = convertTextToHalfWidth;
                 NSPortName = ChineseTextConverterService;
@@ -244,7 +262,9 @@
                     English = "Look Up in Dictionary";
                     default = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
+                    "en-KR" = "Look Up in Dictionary";
                     "en-US" = "Look Up in Dictionary";
+                    "en_US" = "Look Up in Dictionary";
                 };
                 NSMessage = doLookupService;
                 NSPortName = Dictionary;
@@ -297,7 +317,9 @@
                     English = "Folder Actions Setup\U2026";
                     default = "Folder Actions Setup";
                     en = "Folder Actions Setup\U2026";
+                    "en-KR" = "Folder Actions Setup\U2026";
                     "en-US" = "Folder Actions Setup\U2026";
+                    "en_US" = "Folder Actions Setup\U2026";
                 };
                 NSMessage = openFilesFromPasteboard;
                 NSPortName = "Folder Actions Setup";
@@ -331,7 +353,9 @@
                     English = "Preview/Open images";
                     default = "Preview/Open images";
                     en = "Preview/Open images";
+                    "en-KR" = "Preview/Open images";
                     "en-US" = "Preview/Open images";
+                    "en_US" = "Preview/Open images";
                 };
                 NSMessage = serviceOpenImage;
                 NSPortName = Preview;
@@ -349,7 +373,9 @@
                     English = "Encode Selected Audio Files";
                     default = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
+                    "en-KR" = "Encode Selected Audio Files";
                     "en-US" = "Encode Selected Audio Files";
+                    "en_US" = "Encode Selected Audio Files";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -370,7 +396,9 @@
                     English = "Search With %WebSearchProvider@";
                     default = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
+                    "en-KR" = "Search With %WebSearchProvider@";
                     "en-US" = "Search With %WebSearchProvider@";
+                    "en_US" = "Search With %WebSearchProvider@";
                 };
                 NSMessage = searchWithWebSearchProvider;
                 NSPortName = Safari;
@@ -388,7 +416,9 @@
                     English = "Add to Reading List";
                     default = "Add to Reading List";
                     en = "Add to Reading List";
+                    "en-KR" = "Add to Reading List";
                     "en-US" = "Add to Reading List";
+                    "en_US" = "Add to Reading List";
                 };
                 NSMessage = addToReadingList;
                 NSPortName = Safari;
@@ -418,7 +448,9 @@
                     English = "Script Editor/Make New AppleScript";
                     default = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
+                    "en-KR" = "Script Editor/Make New AppleScript";
                     "en-US" = "Script Editor/Make New AppleScript";
+                    "en_US" = "Script Editor/Make New AppleScript";
                 };
                 NSMessage = makeNewAppleScript;
                 NSPortName = "Script Editor";
@@ -436,7 +468,9 @@
                     English = "Script Editor/Run as AppleScript";
                     default = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
+                    "en-KR" = "Script Editor/Run as AppleScript";
                     "en-US" = "Script Editor/Run as AppleScript";
+                    "en_US" = "Script Editor/Run as AppleScript";
                 };
                 NSMessage = runAsAppleScript;
                 NSPortName = "Script Editor";
@@ -453,13 +487,17 @@
                     English = "*";
                     default = "*";
                     en = "*";
+                    "en-KR" = "*";
                     "en-US" = "*";
+                    "en_US" = "*";
                 };
                 NSMenuItem =                 {
                     English = "Script Editor/Get Result of AppleScript";
                     default = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
+                    "en-KR" = "Script Editor/Get Result of AppleScript";
                     "en-US" = "Script Editor/Get Result of AppleScript";
+                    "en_US" = "Script Editor/Get Result of AppleScript";
                 };
                 NSMessage = runAsAppleScript;
                 NSPortName = "Script Editor";
@@ -484,7 +522,9 @@
                     English = Spotlight;
                     default = "SEARCH_WITH_SPOTLIGHT";
                     en = Spotlight;
+                    "en-KR" = Spotlight;
                     "en-US" = Spotlight;
+                    "en_US" = Spotlight;
                 };
                 NSMessage = doSearchWithSpotlight;
                 NSPortName = SpotlightService;
@@ -500,13 +540,17 @@
                     English = Y;
                     default = Y;
                     en = Y;
+                    "en-KR" = Y;
                     "en-US" = Y;
+                    "en_US" = Y;
                 };
                 NSMenuItem =                 {
                     English = "Make New Sticky Note";
                     default = "Make Sticky";
                     en = "Make New Sticky Note";
+                    "en-KR" = "Make New Sticky Note";
                     "en-US" = "Make New Sticky Note";
+                    "en_US" = "Make New Sticky Note";
                 };
                 NSMessage = makeStickyFromTextService;
                 NSPortName = Stickies;
@@ -526,7 +570,9 @@
                     English = Summarize;
                     default = Summarize;
                     en = Summarize;
+                    "en-KR" = Summarize;
                     "en-US" = Summarize;
+                    "en_US" = Summarize;
                 };
                 NSMessage = doSummarization;
                 NSPortName = SummaryService;
@@ -544,7 +590,9 @@
                     English = "New Terminal at Folder";
                     default = "New Terminal at Folder";
                     en = "New Terminal at Folder";
+                    "en-KR" = "New Terminal at Folder";
                     "en-US" = "New Terminal at Folder";
+                    "en_US" = "New Terminal at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
                 NSPortName = Terminal;
@@ -569,7 +617,9 @@
                     English = "New Terminal Tab at Folder";
                     default = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
+                    "en-KR" = "New Terminal Tab at Folder";
                     "en-US" = "New Terminal Tab at Folder";
+                    "en_US" = "New Terminal Tab at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
                 NSPortName = Terminal;
@@ -596,7 +646,9 @@
                     English = "Open man Page in Terminal";
                     default = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
+                    "en-KR" = "Open man Page in Terminal";
                     "en-US" = "Open man Page in Terminal";
+                    "en_US" = "Open man Page in Terminal";
                 };
                 NSMessage = openManPage;
                 NSPortName = Terminal;
@@ -618,7 +670,9 @@
                     English = "Search man Page Index in Terminal";
                     default = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
+                    "en-KR" = "Search man Page Index in Terminal";
                     "en-US" = "Search man Page Index in Terminal";
+                    "en_US" = "Search man Page Index in Terminal";
                 };
                 NSMessage = searchManPages;
                 NSPortName = Terminal;
@@ -639,7 +693,9 @@
                     English = "New TextEdit Window Containing Selection";
                     default = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
+                    "en-KR" = "New TextEdit Window Containing Selection";
                     "en-US" = "New TextEdit Window Containing Selection";
+                    "en_US" = "New TextEdit Window Containing Selection";
                 };
                 NSMessage = openSelection;
                 NSPortName = TextEdit;
@@ -659,7 +715,9 @@
                     English = "Open Selected File in TextEdit";
                     default = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
+                    "en-KR" = "Open Selected File in TextEdit";
                     "en-US" = "Open Selected File in TextEdit";
+                    "en_US" = "Open Selected File in TextEdit";
                 };
                 NSMessage = openFile;
                 NSPortName = TextEdit;
@@ -831,7 +889,9 @@
                     English = "Finder/Open";
                     default = "Finder/Open";
                     en = "Finder/Open";
+                    "en-KR" = "Finder/Open";
                     "en-US" = "Finder/Open";
+                    "en_US" = "Finder/Open";
                 };
                 NSMessage = open;
                 NSPortName = Finder;
@@ -856,7 +916,9 @@
                     English = "Finder/Show in Finder";
                     default = "Finder/Reveal";
                     en = "Finder/Show in Finder";
+                    "en-KR" = "Finder/Show in Finder";
                     "en-US" = "Finder/Show in Finder";
+                    "en_US" = "Finder/Show in Finder";
                 };
                 NSMessage = reveal;
                 NSPortName = Finder;
@@ -881,7 +943,9 @@
                     English = "Finder/Show Info in Finder";
                     default = "Finder/Show Info";
                     en = "Finder/Show Info in Finder";
+                    "en-KR" = "Finder/Show Info in Finder";
                     "en-US" = "Finder/Show Info in Finder";
+                    "en_US" = "Finder/Show Info in Finder";
                 };
                 NSMessage = showInfo;
                 NSPortName = Finder;
@@ -903,7 +967,9 @@
                     English = "Mail/New Email With Selection";
                     default = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
+                    "en-KR" = "Mail/New Email With Selection";
                     "en-US" = "Mail/New Email With Selection";
+                    "en_US" = "Mail/New Email With Selection";
                 };
                 NSMessage = mailSelection;
                 NSPortName = Mail;
@@ -924,7 +990,9 @@
                     English = "Mail/New Email To Address";
                     default = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
+                    "en-KR" = "Mail/New Email To Address";
                     "en-US" = "Mail/New Email To Address";
+                    "en_US" = "Mail/New Email To Address";
                 };
                 NSMessage = mailTo;
                 NSPortName = Mail;
@@ -942,7 +1010,9 @@
                     English = "Add to Music as a Spoken Track";
                     default = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
+                    "en-KR" = "Add to Music as a Spoken Track";
                     "en-US" = "Add to Music as a Spoken Track";
+                    "en_US" = "Add to Music as a Spoken Track";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRestricted = 1;
@@ -960,7 +1030,9 @@
                     English = "Encode Selected Video Files";
                     default = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
+                    "en-KR" = "Encode Selected Video Files";
                     "en-US" = "Encode Selected Video Files";
+                    "en_US" = "Encode Selected Video Files";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -980,7 +1052,9 @@
                     English = "Set Desktop Picture";
                     default = "Set Desktop Picture";
                     en = "Set Desktop Picture";
+                    "en-KR" = "Set Desktop Picture";
                     "en-US" = "Set Desktop Picture";
+                    "en_US" = "Set Desktop Picture";
                 };
                 NSMessage = runWorkflowAsService;
                 NSSendFileTypes =                 (
@@ -997,7 +1071,9 @@
                     English = "Show Map";
                     default = "Show Map";
                     en = "Show Map";
+                    "en-KR" = "Show Map";
                     "en-US" = "Show Map";
+                    "en_US" = "Show Map";
                 };
                 NSMessage = runWorkflowAsService;
                 NSRequiredContext =                 {
@@ -1018,7 +1094,9 @@
                     English = "Speech/Start Speaking Text";
                     default = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
+                    "en-KR" = "Speech/Start Speaking Text";
                     "en-US" = "Speech/Start Speaking Text";
+                    "en_US" = "Speech/Start Speaking Text";
                 };
                 NSMessage = doSpeakSelectedText;
                 NSPortName = ComAppleSpeechSpeechService;
@@ -1036,7 +1114,9 @@
                     English = "Speech/Stop Speaking";
                     default = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
+                    "en-KR" = "Speech/Stop Speaking";
                     "en-US" = "Speech/Stop Speaking";
+                    "en_US" = "Speech/Stop Speaking";
                 };
                 NSMessage = doStopSpeaking;
                 NSPortName = ComAppleSpeechSpeechService;
@@ -1054,7 +1134,9 @@
                     English = "Open URL";
                     default = "Open URL";
                     en = "Open URL";
+                    "en-KR" = "Open URL";
                     "en-US" = "Open URL";
+                    "en_US" = "Open URL";
                 };
                 NSMessage = openURL;
                 NSPortName = SystemUIServer;
@@ -1176,7 +1258,9 @@
                     English = "Convert to icon(s)";
                     default = "Convert to icon(s)";
                     en = "Convert to icon(s)";
+                    "en-KR" = "Convert to icon(s)";
                     "en-US" = "Convert to icon(s)";
+                    "en_US" = "Convert to icon(s)";
                 };
                 NSMessage = convertFromPasteboard;
                 NSRequiredContext =                 {
@@ -1196,7 +1280,9 @@
                     English = "Combine into one icon";
                     default = "Combine into one icon";
                     en = "Combine into one icon";
+                    "en-KR" = "Combine into one icon";
                     "en-US" = "Combine into one icon";
+                    "en_US" = "Combine into one icon";
                 };
                 NSMessage = combineFromPasteboard;
                 NSRequiredContext =                 {
@@ -1208,35 +1294,136 @@
                 NSUserData = group;
             },
                         {
-                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
-                NSBundlePath = "/Applications/Pixelmator Pro.app";
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
-                    default = "Open with Pixelmator Pro";
+                    English = "Scrivener/Scrivener: Make New Clipping";
+                    default = "Scrivener/Scrivener: Make New Clipping";
+                    en = "Scrivener/Scrivener: Make New Clipping";
+                    "en-KR" = "Scrivener/Scrivener: Make New Clipping";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping";
+                    "en_US" = "Scrivener/Scrivener: Make New Clipping";
                 };
-                NSMessage = loadDataFromExternalSource;
-                NSPortName = PixelmatorPro;
-                NSSendFileTypes =                 (
-                    "public.image"
-                );
+                NSMessage = createClipping;
+                NSPortName = Scrivener;
                 NSSendTypes =                 (
-                    NSPasteboardTypeTIFF
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
                 );
-                NSUUID = {length = 20, bytes = 0x674d86bbaf525dc9847e58587fdfe72366a9181f};
+                NSUUID = {length = 20, bytes = 0xde6c8e70fe28f272d3466e0f69a62efba1b6c65f};
             },
                         {
-                NSBundleIdentifier = "com.pixelmatorteam.pixelmator.x";
-                NSBundlePath = "/Applications/Pixelmator Pro.app";
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
                 NSKeyEquivalent =                 {
                 };
                 NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    default = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    en = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    "en-KR" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
+                    "en_US" = "Scrivener/Scrivener: Make New Clipping (Unformatted)";
                 };
-                NSMessage = openSelection;
+                NSMessage = createPlainTextClipping;
+                NSPortName = Scrivener;
                 NSSendTypes =                 (
-                    "public.rtf"
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
                 );
-                NSUUID = {length = 20, bytes = 0xe0ae3bb808a733ca922eb0c2eb1673ce03ee1f07};
+                NSUUID = {length = 20, bytes = 0xce2dcc5eae5bceeccdeeb462c93307061f1820d3};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text";
+                    default = "Scrivener/Scrivener: Append to Text";
+                    en = "Scrivener/Scrivener: Append to Text";
+                    "en-KR" = "Scrivener/Scrivener: Append to Text";
+                    "en-US" = "Scrivener/Scrivener: Append to Text";
+                    "en_US" = "Scrivener/Scrivener: Append to Text";
+                };
+                NSMessage = appendSelection;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x178b6a69400989a68ce2b26966a3d8506cf17e08};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    default = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    en = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    "en-KR" = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                    "en_US" = "Scrivener/Scrivener: Append to Text (Unformatted)";
+                };
+                NSMessage = appendSelectionAsPlainText;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x467a1708e4e6780b4d8920c387373c4f6ca5d037};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes";
+                    default = "Scrivener/Scrivener: Append to Notes";
+                    en = "Scrivener/Scrivener: Append to Notes";
+                    "en-KR" = "Scrivener/Scrivener: Append to Notes";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes";
+                    "en_US" = "Scrivener/Scrivener: Append to Notes";
+                };
+                NSMessage = appendSelectionToNotes;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0xf7dad08e366319aa6099c8983abbeb80cca3cef2};
+            },
+                        {
+                NSBundleIdentifier = "com.literatureandlatte.scrivener3";
+                NSBundlePath = "/Applications/Scrivener.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    English = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    default = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    en = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    "en-KR" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    "en-US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                    "en_US" = "Scrivener/Scrivener: Append to Notes (Unformatted)";
+                };
+                NSMessage = appendSelectionToNotesAsPlainText;
+                NSPortName = Scrivener;
+                NSSendTypes =                 (
+                    "com.apple.flat-rtfd",
+                    "public.rtf",
+                    "public.utf8-plain-text"
+                );
+                NSUUID = {length = 20, bytes = 0x58614742fdc09a7b8d2542e28cf63366dce61d82};
             }
         );
         CFVersion = 2;

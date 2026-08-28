@@ -3,6 +3,7 @@
 		"com.microsoft.teams2.agent" => enabled
 		"us.electronic.mas.macdroid.launcher" => enabled
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
+		"com.adobe.AdobeCreativeCloud" => enabled
 		"org.pqrs.service.agent.Karabiner-Menu" => enabled
 		"com.microsoft.update.agent" => enabled
 		"com.google.keystone.system.agent" => enabled
@@ -11,10 +12,12 @@
 		"com.apple.Siri.agent" => enabled
 		"Canva" => enabled
 		"com.apple.weather.menu" => enabled
+		"com.adobe.CCLibrary" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
 		"ai.openclaw.gateway" => enabled
+		"GR26KTJYTV.com.marketcircle.daylite.Helper.MacAppStore" => enabled
 		"com.openai.chat-helper" => enabled
 		"com.google.keystone.system.xpcservice" => enabled
 		"org.chromium.chromoting" => disabled
@@ -24,4 +27,5 @@
 		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled
 		"com.logi.cp-dev-mgr" => enabled
 		"com.nexon.plug.helper" => disabled
+		"com.adobe.ccxprocess" => enabled
 	}

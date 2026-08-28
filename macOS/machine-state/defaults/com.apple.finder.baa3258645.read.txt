@@ -68,21 +68,21 @@
                 },
                                 {
                     ascending = 0;
+                    identifier = dateAdded;
+                    visible = 0;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
                     identifier = shareOwner;
                     visible = 0;
-                    width = 200;
+                    width = 210;
                 },
                                 {
                     ascending = 0;
                     identifier = shareLastEditor;
                     visible = 0;
-                    width = 200;
-                },
-                                {
-                    ascending = 0;
-                    identifier = dateAdded;
-                    visible = 0;
-                    width = 181;
+                    width = 210;
                 },
                                 {
                     ascending = 0;
@@ -92,7 +92,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-184";
+            scrollPositionX = "-176";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -160,7 +160,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-184";
+            scrollPositionX = "-176";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -174,7 +174,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{80, 59}, {844, 776}}";
+            WindowBounds = "{{-1785, 352}, {920, 839}}";
         };
     };
     CopyProgressWindowLocation = "{760, 252}";
@@ -223,7 +223,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 266;
+                width = 249;
             },
                         {
                 ascending = 0;
@@ -650,40 +650,40 @@
             name = Applications;
         },
                 {
+            "file-bookmark" = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
+            name = images;
+        },
+                {
+            "file-bookmark" = {length = 684, bytes = 0x626f6f6b ac020000 00000510 40000000 ... 04000000 00000000 };
+            name = ".diffusionbee";
+        },
+                {
             "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
             name = ymy;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Vincent;
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Downloads;
+        },
+                {
+            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
+            name = Police;
+        },
+                {
+            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+            name = Documents;
+        },
+                {
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = "iCloud Drive";
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = Character;
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Product;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 556, bytes = 0x626f6f6b 2c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Java;
-        },
-                {
-            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
-            name = Google;
-        },
-                {
-            "file-bookmark" = {length = 560, bytes = 0x626f6f6b 30020000 00000510 40000000 ... 04000000 00000000 };
-            name = Audio;
-        },
-                {
-            "file-bookmark" = {length = 564, bytes = 0x626f6f6b 34020000 00000510 40000000 ... 04000000 00000000 };
-            name = Developer;
-        },
-                {
-            "file-bookmark" = {length = 676, bytes = 0x626f6f6b a4020000 00000510 40000000 ... 04000000 00000000 };
-            name = Library;
+            name = World;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -705,13 +705,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Product/Vincent/resources/AppStore/5.1/AppStore-5.1-01.png";
+    GoToField = "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159203-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc790\Ubc14-\Uc2a4\Ud504\Ub9c1\Ubd80\Ud2b8-\Uac1c\Ubc1c\Uc790-\Ubaa8\Uc9d1.pdf";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Product/Vincent/resources/AppStore/5.1/AppStore-5.1-01.png",
-        "/Volumes/Storage/Workspace/Product/Vincent/dist/Vincent-appstore.pkg",
-        "/Volumes/Storage/Workspace/Product/Vincent/docs/marketing/vincent-sample-artwork.png",
-        "/Volumes/Storage/Workspace/Product/Vincent/dist/Vincent-appstore-local-unsigned.pkg",
-        "/Volumes/Storage/Workspace/Product/AISNS/ios/App"
+        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159203-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc790\Ubc14-\Uc2a4\Ud504\Ub9c1\Ubd80\Ud2b8-\Uac1c\Ubc1c\Uc790-\Ubaa8\Uc9d1.pdf",
+        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159133-\Uc8fc\Uc2dd\Ud68c\Uc0ac-\Uc544\Uc6b8\Uc18c\Uc2f8\Uc774\Uc5b4\Ud2f0-\Uc77c\Ubcf8\Ub9c8\Ucf13-Global-B2B-Sales-Manager.pdf",
+        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159204-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc571\Uac1c\Ubc1c\Uc790-\Uad6c\Uc778\Uacf5\Uace0.pdf",
+        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/158410-\Uc8fc\Uc2dd\Ud68c\Uc0ac-\Ud074\Ub9b0\Ub514-\Ud074\Ub9b0\Ub514-\Uc77c\Ubcf8-\Uc2dc\Uc7a5-\Ub2f4\Ub2f9-\Ucc44\Uc6a9.pdf",
+        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159071-AIM-Mapping-Co.-ltd-\Uacf5\Ub3d9\Ucc3d\Uc5c5\Uc790-CBO-\Ubaa8\Uc9d1.pdf"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -904,7 +904,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1473, 128}, {920, 788}}";
+            WindowBounds = "{{483, 289}, {891, 914}}";
         };
     };
     LastTrashState = 1;
@@ -1141,16 +1141,16 @@
     };
     "PreferencesWindow.LastSelection" = SDBR;
     RecentMoveAndCopyDestinations =     (
+        "file:///Volumes/Storage/Workspace/World/World/",
+        "file:///Volumes/Storage/Workspace/World/",
+        "file:///Applications/",
         "file:///Volumes/Storage/Workspace/Product/AISNS/resources/",
         "file:///Volumes/Storage/Workspace/Assets/Program/",
         "file:///Volumes/Storage/Workspace/",
         "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/",
         "file:///Volumes/Storage/History/",
         "file:///Volumes/Storage/Job/Resume/",
-        "file:///Volumes/Storage/Workspace/Assets/",
-        "file:///Volumes/Storage/Keys/",
-        "file:///Volumes/Storage/Job/",
-        "file:///Volumes/Storage/"
+        "file:///Volumes/Storage/Workspace/Assets/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
@@ -1541,7 +1541,7 @@
             );
             iconSize = 16;
             scrollPositionX = "-176";
-            scrollPositionY = 574;
+            scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
             textSize = 13;
@@ -1626,7 +1626,7 @@
             };
             iconSize = 16;
             scrollPositionX = "-176";
-            scrollPositionY = 574;
+            scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
             textSize = 13;

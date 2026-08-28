@@ -3161,9 +3161,9 @@
             Modifier = 40;
         };
         2229 =         {
-            CharCode = 127;
+            CharCode = 63272;
             Flags = 0;
-            Key = 8;
+            Key = 127;
             Modifier = 40;
         };
         224 =         {
@@ -3868,6 +3868,42 @@
             Key = 112;
             Modifier = 1;
         };
+        2844 =         {
+            CharCode = 121;
+            Flags = 0;
+            Key = 121;
+            Modifier = 4;
+        };
+        2845 =         {
+            CharCode = 117;
+            Flags = 0;
+            Key = 117;
+            Modifier = 4;
+        };
+        2846 =         {
+            CharCode = 106;
+            Flags = 0;
+            Key = 106;
+            Modifier = 4;
+        };
+        2847 =         {
+            CharCode = 121;
+            Flags = 0;
+            Key = 121;
+            Modifier = 12;
+        };
+        2848 =         {
+            CharCode = 117;
+            Flags = 0;
+            Key = 117;
+            Modifier = 12;
+        };
+        2849 =         {
+            CharCode = 106;
+            Flags = 0;
+            Key = 106;
+            Modifier = 12;
+        };
         2850 =         {
             CharCode = 114;
             Flags = 0;
@@ -4255,8 +4291,8 @@
         2973 =         {
             CharCode = 127;
             Flags = 0;
-            Key = 8;
-            Modifier = 44;
+            Key = 127;
+            Modifier = 41;
         };
         2974 =         {
             CharCode = 63235;
@@ -5414,25 +5450,25 @@
             CharCode = 63233;
             Flags = 0;
             Key = 31;
-            Modifier = 44;
+            Modifier = 40;
         };
         590 =         {
             CharCode = 63232;
             Flags = 0;
             Key = 30;
-            Modifier = 44;
+            Modifier = 40;
         };
         591 =         {
             CharCode = 127;
             Flags = 0;
-            Key = 8;
-            Modifier = 44;
+            Key = 127;
+            Modifier = 40;
         };
         592 =         {
             CharCode = 127;
             Flags = 0;
-            Key = 8;
-            Modifier = 45;
+            Key = 127;
+            Modifier = 41;
         };
         593 =         {
             CharCode = 114;
@@ -5444,7 +5480,7 @@
             CharCode = 122;
             Flags = 0;
             Key = 122;
-            Modifier = 44;
+            Modifier = 40;
         };
         598 =         {
             CharCode = 122;
@@ -5960,7 +5996,7 @@
             CharCode = 122;
             Flags = 0;
             Key = 122;
-            Modifier = 40;
+            Modifier = 44;
         };
         799 =         {
             CharCode = 119;
@@ -7075,8 +7111,8 @@
     "LiveGroove_n" = 0;
     LiveLoopsCellSelectionFollowMode = 0;
     LockArrangePositionWhenMovingAnchor = 1;
-    LogicProgressGroupWindowPositionHorizontal = "-628";
-    LogicProgressGroupWindowPositionVertical = 1314;
+    LogicProgressGroupWindowPositionHorizontal = 1072;
+    LogicProgressGroupWindowPositionVertical = 1215;
     LowLatencyMaxPluginDelay = 5;
     LowLatencyMode = 0;
     MANPDNotFirstLaunch = 1;
@@ -7105,6 +7141,11 @@
             port = "Logic Pro Virtual In";
             uuid = 1753184574;
             virtual = 1;
+        },
+                {
+            on = 1;
+            port = "GarageBand Virtual Out";
+            uuid = 1164906362;
         }
     );
     MIDIResetExternalInstruments = "-4";
@@ -7161,7 +7202,7 @@
     "NSWindow Frame AdditionalContent" = "1645 1270 550 454 0 0 3840 2129 ";
     "NSWindow Frame Basic Content Download" = "2911 1191 650 387 0 0 3840 2129 ";
     "NSWindow Frame NewProjectDialog" = "142 607 1042 626 0 0 2560 1410 ";
-    "NSWindow Frame QuickHelpBalloonWindow" = "1271 913 263 173 0 0 2560 1410 ";
+    "NSWindow Frame QuickHelpBalloonWindow" = "1271 914 264 172 0 0 2560 1410 ";
     NewRecordingSource = 0;
     NonDestructiveRegionGainAffect = 0;
     NonDestructiveRegionGainAlgorithm = 0;
@@ -7223,7 +7264,7 @@
     RecOptMidiCycle = 2;
     RecOptMidiNoCycle = 2;
     RecOptMidiReplace = 0;
-    RecentCFBundleShortVersionString = "12.3";
+    RecentCFBundleShortVersionString = "12.3.1";
     RecentWhatsNewPanelVersion = 18;
     RecordButtonBehavior = 0;
     "RecordNormalizeOperationsInUndoHistory_n" = 1;
@@ -7364,7 +7405,7 @@
     UnavailableMIDIInputEnabled =     (
     );
     UndoSteps = 100;
-    UniversalContentLibraryUUID = "5474E9C0-92B1-4D93-AEFC-16BDEBB4646B";
+    UniversalContentLibraryUUID = "37F476C9-4B5A-4CF2-BB90-EB56C3BB5AA8";
     UseAudioUnits = 1;
     UseAudioUnitsUserEdited = 0;
     UseGlobalTrackForDefaultProgression = 1;

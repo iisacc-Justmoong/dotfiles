@@ -6,6 +6,8 @@
 		"com.apple.mdmclient.daemon.runatboot" => disabled
 		"org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon" => enabled
 		"com.google.keystone.daemon" => enabled
+		"com.apple.smbd" => enabled
 		"org.pqrs.service.daemon.Karabiner-Core-Service" => enabled
+		"com.adobe.AdobeDesktopService" => enabled
 		"com.microsoft.autoupdate.helper" => enabled
 	}

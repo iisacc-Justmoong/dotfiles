@@ -29,15 +29,21 @@ com.adobe.Acrobat.Pro
 com.adobe.CSXS.12
 com.adobe.Install.Acrobat
 com.adobe.Photoshop
+com.adobe.Photoshop.uxp_com.adobe.ccx.lrimporter
+com.adobe.Photoshop.uxp_com.adobe.ccx.start
 com.adobe.Synchronizer.DC
 com.adobe.acc.AdobeCreativeCloud
 com.adobe.acc.AdobeDesktopService
+com.adobe.acc.HEXHelper.Renderer
+com.adobe.accmac
 com.adobe.cc.Install
 com.adobe.crashreporter
 com.adobe.dunamis
+com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.adobe.illustrator
+com.adobe.lightroomCC
 com.adobe.mediabrowser
 com.android.Emulator
 com.anthropic.claudefordesktop
@@ -331,6 +337,7 @@ com.apple.dt.xcdevice
 com.apple.dt.xcodebuild
 com.apple.facetime.bag
 com.apple.facetimemessagestored
+com.apple.feedbackd
 com.apple.fileproviderd
 com.apple.filevault.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.filevault.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -459,6 +466,7 @@ com.apple.newscore
 com.apple.newscore2
 com.apple.newsd
 com.apple.onetimepasscodes
+com.apple.osanalytics.DiagnosticsReporter
 com.apple.osascript
 com.apple.osprey
 com.apple.parsecd
@@ -577,6 +585,7 @@ com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.universalcontrol.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
+com.apple.usernotificationskit
 com.apple.voicememod
 com.apple.voiceservices
 com.apple.voicetrigger
@@ -587,6 +596,8 @@ com.apple.weather.internal
 com.apple.weather.sensitive
 com.apple.widgets
 com.apple.wifi.WiFiAgent
+com.apple.wifi.nearby-recommended-networks
+com.apple.wifi.removed-networks
 com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -623,6 +634,7 @@ com.google.Keystone.Agent
 com.google.android.studio
 com.googlecode.iterm2
 com.hnc.Discord
+com.iisacc.Vincent
 com.iisacc.app.whatson
 com.iisacc.vincent.painter
 com.inria.Natron
@@ -681,6 +693,7 @@ com.yourcompany.installerbase
 corespotlightd
 diagnostics_agent
 dotnet
+embeddedBinaryValidationUtility
 familycircled
 fr.madrau.switchresx.app
 fr.madrau.switchresx.daemon
