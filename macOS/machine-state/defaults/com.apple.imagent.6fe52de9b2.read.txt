@@ -1,4 +1,5 @@
 {
+    AttachmentDownloadEarliestDate = {length = 80, bytes = 0x62706c69 73743030 d2010203 04597469 ... 00000000 0000002b };
     "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22636f 6d706c65 74656454 61736b49 ... 2e303231 3934357d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
@@ -13,6 +14,10 @@
         "3245CD41-9B01-496F-9F2F-2B2C6EE7E366" =         (
             "6046B531-1C1D-4C25-A854-8D1689492F84",
             44514654
+        );
+        "E8F48750-04C2-47E7-8C28-942448CAC87C" =         (
+            "366CDA9F-966B-4EC2-A62A-EF13342B78CD",
+            16931102
         );
     };
 }

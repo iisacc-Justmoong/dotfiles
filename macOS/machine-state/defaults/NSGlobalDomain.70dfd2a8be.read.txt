@@ -27,7 +27,7 @@
     AppleScrollerPagingBehavior = 1;
     AppleShowAllExtensions = 1;
     AppleShowScrollBars = Always;
-    AppleWindowTabbingMode = fullscreen;
+    AppleWindowTabbingMode = manual;
     CGDisableCursorLocationMagnification = 1;
     IPLanguageDiscoveryRejectedLanguages =     (
         ar
@@ -44,6 +44,8 @@
     NSAutomaticInlinePredictionEnabled = 0;
     NSAutomaticPeriodSubstitutionEnabled = 1;
     NSAutomaticSpellingCorrectionEnabled = 0;
+    NSGlassBuddyTintAmount = 1;
+    NSGlassEverEditedInBuddy = 1;
     NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
     NSLinguisticDataAssetsRequestTime = "2026-09-18 13:10:14 +0000";
@@ -210,8 +212,8 @@
     );
     NSPreferredWebServices =     {
         NSWebServicesProviderWebSearch =         {
-            NSDefaultDisplayName = DuckDuckGo;
-            NSProviderIdentifier = "com.duckduckgo";
+            NSDefaultDisplayName = Google;
+            NSProviderIdentifier = "com.google.www";
         };
     };
     NSSmartReplyEnabled = 0;
@@ -393,16 +395,6 @@
         )
     );
     NSUserDictionaryReplacementItems =     (
-                {
-            on = 1;
-            replace = omw;
-            with = "On my way!";
-        },
-                {
-            on = 1;
-            replace = "\U3148\U3131\U3148";
-            with = "\Uc9c0\Uae08 \Uac00\Ub294 \Uc911!";
-        }
     );
     NSUserQuotesArray =     (
         "\U201c",
@@ -427,7 +419,8 @@
             );
         };
     };
-    "com.apple.keyboard.fnState" = 0;
+    "com.apple.keyboard.fnState" = 1;
+    "com.apple.mouse.doubleClickThreshold" = "1.7";
     "com.apple.mouse.scaling" = "0.5";
     "com.apple.sound.beep.flash" = 0;
     "com.apple.springing.delay" = 0;

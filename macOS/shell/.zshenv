@@ -36,6 +36,25 @@ export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$HOME/.cache}"
 export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 export LANG="${LANG:-en_US.UTF-8}"
 
+# Keep the CLI available before installation or after removing the install prefix.
+export LVRS_PROJECT_ROOT="/Volumes/Storage/Workspace/SDK/LVRS"
+for lvrs_cli_path in "$LVRS_PROJECT_ROOT/build/rust-cli/debug" "$LVRS_PROJECT_ROOT/build/rust-cli/release"; do
+  if [[ -x "$lvrs_cli_path/lvrs" ]]; then
+    _pathvar_prepend_unique PATH "$lvrs_cli_path"
+  fi
+done
+unset lvrs_cli_path
+
+# Route installation through the checkout bootstrap; retain all other CLI commands.
+lvrs() {
+  if [[ "${1:-}" == install ]]; then
+    shift
+    /bin/sh "$LVRS_PROJECT_ROOT/install.sh" "$@"
+  else
+    command lvrs "$@"
+  fi
+}
+
 for base_path in \
   "$HOME/.local/SDK/bin" \
   "$HOME/.local/SDK/LVRS/bin" \

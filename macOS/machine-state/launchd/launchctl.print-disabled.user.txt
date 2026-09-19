@@ -1,33 +1,12 @@
 
 	disabled services = {
-		"com.microsoft.teams2.agent" => enabled
 		"org.pqrs.service.agent.Karabiner-Console-User-Server" => enabled
-		"us.electronic.mas.macdroid.launcher" => enabled
-		"com.apple.ManagedClientAgent.enrollagent" => disabled
 		"com.adobe.AdobeCreativeCloud" => enabled
-		"org.pqrs.service.agent.Karabiner-Menu" => enabled
-		"com.microsoft.update.agent" => enabled
-		"com.google.keystone.system.agent" => enabled
-		"com.unicorn-soft.AutoLaunchHelper" => enabled
-		"com.agiletortoise.Drafts-OSX-Launcher" => enabled
 		"com.apple.Siri.agent" => enabled
-		"Canva" => enabled
-		"com.apple.weather.menu" => enabled
-		"com.adobe.CCLibrary" => enabled
-		"com.iisacc.society.daemon" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
-		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
-		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled
-		"ai.openclaw.gateway" => enabled
-		"GR26KTJYTV.com.marketcircle.daylite.Helper.MacAppStore" => enabled
-		"com.openai.chat-helper" => enabled
-		"com.google.keystone.system.xpcservice" => enabled
-		"org.chromium.chromoting" => disabled
+		"com.adobe.CCLibrary" => enabled
 		"com.apple.appleseed.seedusaged.postinstall" => disabled
 		"com.apple.ScriptMenuApp" => disabled
-		"org.pqrs.service.agent.karabiner_session_monitor" => enabled
-		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled
 		"com.logi.cp-dev-mgr" => enabled
-		"com.nexon.plug.helper" => disabled
-		"com.adobe.ccxprocess" => enabled
+		"org.pqrs.service.agent.Karabiner-Core-Service-rev2" => enabled
 	}

@@ -18,6 +18,11 @@
             }
         );
     };
-    LastSpotlightFeatureCheckpoint = 50;
+    LastSpotlightFeatureCheckpoint = 3;
+    ReindexSchedulingContext = {length = 309, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000f1 };
+    ReindexSchedulingInProgress = 1;
+    ReindexSchedulingLastChatRowID = 946;
+    ReindexSchedulingLastRowID = 6911;
+    ReindexSchedulingUserInfoData = {length = 50, bytes = 0x62706c69 73743030 d1010251 66100108 ... 00000000 0000000f };
     ReindexVacuumRequirements = 0;
 }

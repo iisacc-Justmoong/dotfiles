@@ -1,0 +1,498 @@
+{
+    "title": "AULA F108Pro Bluetooth: F1-F6 and Mac modifier layout (WIN mode)",
+    "rules": [
+        {
+            "description": "AULA-F108Pro (WIN mode): standard F1-F6 + Mac Command/Option",
+            "description_notes": [
+                "키보드 LCD의 System Switch를 WIN으로 설정해야 합니다.",
+                "F1-F6은 표준 기능키, 왼쪽 Alt는 Command, 왼쪽 Win은 Option으로 동작합니다."
+            ],
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f1",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f1"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f1",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f1",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f2",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f2"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f2",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f2",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f3",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f3"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f3",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f3",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f4",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f4"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f4",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f4",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f5",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f5"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f5",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f5",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f6",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f6"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_if",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f6",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "f6",
+                            "modifiers": [
+                                "fn"
+                            ]
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "variable_unless",
+                            "name": "system.use_fkeys_as_standard_function_keys",
+                            "value": true
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "left_option",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_command"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "left_command",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "left_option"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "device_if",
+                            "identifiers": [
+                                {
+                                    "vendor_id": 1452,
+                                    "product_id": 591,
+                                    "is_keyboard": true,
+                                    "is_pointing_device": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

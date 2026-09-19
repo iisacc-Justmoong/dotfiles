@@ -4,12 +4,12 @@
     "expose-group-apps" = 1;
     "expose-group-by-app" = 0;
     "last-analytics-stamp" =     (
-        "811360334.85067"
+        "811485688.844806"
     );
     loc = "en_US:KR";
     mineffect = scale;
     "minimize-to-application" = 1;
-    "mod-count" = 4401;
+    "mod-count" = 4422;
     "mouse-over-hilite-stack" = 1;
     "mru-spaces" = 0;
     "persistent-apps" =     (
@@ -42,10 +42,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Creative Cloud";
-                "file-mod-date" = 232125378173904;
-                "file-type" = 1;
+                "file-mod-date" = 202258177570024;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 232108198304720;
+                "parent-mod-date" = 202240997700840;
             };
             "tile-type" = "file-tile";
         },
@@ -60,10 +60,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Adobe Photoshop 2026";
-                "file-mod-date" = 57882849993102;
+                "file-mod-date" = 13610329028651;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 105359418575930;
+                "parent-mod-date" = 89034249714025;
             };
             "tile-type" = "file-tile";
         },
@@ -78,10 +78,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Adobe Lightroom";
-                "file-mod-date" = 266261778292580;
+                "file-mod-date" = 129982467915130;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 45865531498644;
+                "parent-mod-date" = 38765952482997;
             };
             "tile-type" = "file-tile";
         },
@@ -96,10 +96,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Adobe Illustrator 2026";
-                "file-mod-date" = 193079830897435;
+                "file-mod-date" = 133074844366391;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 250778421551946;
+                "parent-mod-date" = 250761243244313;
             };
             "tile-type" = "file-tile";
         },
@@ -114,10 +114,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Adobe Premiere Pro 2026";
-                "file-mod-date" = 83579640198223;
+                "file-mod-date" = 200540190653121;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 203203069327561;
+                "parent-mod-date" = 37537591836336;
             };
             "tile-type" = "file-tile";
         },
@@ -132,14 +132,15 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Adobe After Effects 2026";
-                "file-mod-date" = 172214880286542;
+                "file-mod-date" = 216384325009603;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 200024793528516;
+                "parent-mod-date" = 59325960929735;
             };
             "tile-type" = "file-tile";
         },
                 {
+            GUID = 33752605;
             "tile-data" =             {
                 book = {length = 1148, bytes = 0x626f6f6b 7c040000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.iisacc.society";
@@ -149,10 +150,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Society;
-                "file-mod-date" = 0;
-                "file-type" = 1;
+                "file-mod-date" = 17222396386569;
+                "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 0;
+                "parent-mod-date" = 160055828911195;
             };
             "tile-type" = "file-tile";
         },
@@ -185,10 +186,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = ChatGPT;
-                "file-mod-date" = 98904083781209;
+                "file-mod-date" = 3865241838;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 145195241300074;
+                "parent-mod-date" = 86109376984866;
             };
             "tile-type" = "file-tile";
         },
@@ -401,10 +402,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = iTerm;
-                "file-mod-date" = 143928225876531;
+                "file-mod-date" = 3872288182;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 145195241300074;
+                "parent-mod-date" = 30949112004801;
             };
             "tile-type" = "file-tile";
         },
@@ -471,56 +472,56 @@
     );
     "recent-apps" =     (
                 {
-            GUID = 3506835103;
+            GUID = 659847922;
             "tile-data" =             {
-                book = {length = 628, bytes = 0x626f6f6b 74020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.adobe.Acrobat.Pro";
+                book = {length = 576, bytes = 0x626f6f6b 40020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.chouti.github-streak";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Adobe%20Acrobat%20DC/Adobe%20Acrobat.app/";
+                    "_CFURLString" = "file:///Applications/Git%20Streaks.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = "Adobe Acrobat";
-                "file-mod-date" = 16633985430900;
+                "file-label" = "Git Streaks";
+                "file-mod-date" = 33165315124571;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 107451068904807;
+                "parent-mod-date" = 86109376984866;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3506835104;
+            GUID = 659847923;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.dt.Xcode";
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "org.pqrs.Karabiner-Elements.Settings";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Xcode.app/";
+                    "_CFURLString" = "file:///Applications/Karabiner-Elements.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Xcode;
-                "file-mod-date" = 29304139445771;
+                "file-label" = "Karabiner-Elements";
+                "file-mod-date" = 189467764960545;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 218140966549174;
+                "parent-mod-date" = 86109376984866;
             };
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 3506835106;
+            GUID = 659847924;
             "tile-data" =             {
-                book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.crowdcafe.windowmagnet";
+                book = {length = 588, bytes = 0x626f6f6b 4c020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "org.pqrs.Karabiner-EventViewer";
                 "dock-extra" = 0;
                 "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Magnet.app/";
+                    "_CFURLString" = "file:///Applications/Karabiner-EventViewer.app/";
                     "_CFURLStringType" = 15;
                 };
-                "file-label" = Magnet;
-                "file-mod-date" = 259845098556754;
+                "file-label" = "Karabiner-EventViewer";
+                "file-mod-date" = 189364685745441;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 218140966549174;
+                "parent-mod-date" = 86109376984866;
             };
             "tile-type" = "file-tile";
         }
@@ -530,7 +531,7 @@
     "springboard-columns" = 12;
     "springboard-rows" = 15;
     tilesize = 38;
-    "trash-full" = 0;
+    "trash-full" = 1;
     version = 1;
     "wvous-br-corner" = 14;
     "wvous-br-modifier" = 0;

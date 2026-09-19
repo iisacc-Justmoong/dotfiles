@@ -35,7 +35,7 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1370 231 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1028 182 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 0" = "1370 231 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
@@ -576,11 +576,12 @@
         }
     );
     NoSyncAllAppVersions =     (
-        "3.7.0",
         "3.6.10",
-        "3.6.6",
-        "3.6.9",
         "3.6.11",
+        "3.7.0",
+        "3.7.2",
+        "3.6.9",
+        "3.6.6",
         "3.6.8"
     );
     NoSyncBFPRecents =     (
@@ -602,12 +603,12 @@
     NoSyncLastOSVersion = "Version 27.0 (Build 26A428)";
     NoSyncLastShutdownWasClean = 0;
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 133;
+    NoSyncLaunchExperienceControllerRunCount = 136;
     NoSyncMigratedDynamicProfileTagToFlag = 1;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
     NoSyncPersistentRateLimitedUpdates =     {
-        CheckForUpdatedUv = "810889968.538712";
+        CheckForUpdatedUv = "811571727.474668";
     };
     NoSyncRecordedVariables =     {
         0 =         (
@@ -1201,7 +1202,7 @@
     NoSyncSavedWindowPositions =     {
         1 = "{1787, 953}";
         2 = "{66, 1135}";
-        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1370, 1073}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1028, 1024}";
     };
     NoSyncSuppressedAlertsCatalog =     {
     };
@@ -1241,7 +1242,7 @@
     SUFeedAlternateAppNameKey = iTerm;
     SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=76";
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-09-11 07:12:49 +0000";
+    SULastCheckTime = "2026-09-19 04:35:28 +0000";
     SUSendProfileInfo = 0;
     SUUpdateGroupIdentifier = 118056111;
     SUUpdateRelaunchingMarker = 0;
@@ -1249,7 +1250,7 @@
     TabStyleWithAutomaticOption = 5;
     TripleClickSelectsFullWrappedLines = 0;
     VisualIndicatorForEsc = 0;
-    "iTerm Version" = "3.7.0";
+    "iTerm Version" = "3.7.2";
     kCPKSelectionViewPreferredModeKey = 0;
     kCPKSelectionViewShowHSBTextFieldsKey = 0;
 }

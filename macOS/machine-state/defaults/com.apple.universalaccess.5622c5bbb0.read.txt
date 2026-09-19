@@ -1,253 +1,70 @@
 {
+    AccessibilityReaderHotkey =     {
+        "AX_READER_HOTKEY_VIEW_IN_READER" =         {
+            charCode = 65535;
+            keyCode = 53;
+            modifiers = 1048576;
+        };
+    };
+    FontSizeCategory =     {
+        "com.apple.MobileSMS" = UseGlobal;
+        "com.apple.Notes" = UseGlobal;
+        "com.apple.accessibility.AccessibilityReader" = UseGlobal;
+        "com.apple.finder" = Custom;
+        "com.apple.iBooksX" = UseGlobal;
+        "com.apple.iCal" = UseGlobal;
+        "com.apple.journal" = UseGlobal;
+        "com.apple.mail" = UseGlobal;
+        "com.apple.reminders" = UseGlobal;
+        "com.apple.stocks" = UseGlobal;
+        "com.apple.weather" = UseGlobal;
+        global = DEFAULT;
+        version = "3.0";
+    };
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-08-25 06:49:43";
+                Date = "2026-09-18 19:40:38";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-25 07:04:45";
+                Date = "2026-09-18 19:40:39";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-26 07:43:08";
+                Date = "2026-09-18 19:40:45";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-27 07:05:19";
+                Date = "2026-09-18 19:40:45";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-28 07:04:30";
+                Date = "2026-09-19 11:46:22";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-28 08:38:49";
+                Date = "2026-09-19 11:55:41";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-28 08:54:08";
+                Date = "2026-09-19 12:36:09";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-29 08:54:01";
+                Date = "2026-09-19 12:51:29";
                 Reason = Reset;
                 State = 0;
             },
                         {
-                Date = "2026-08-30 10:29:58";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-30 10:45:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-30 14:22:48";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-30 14:38:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-30 16:05:36";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-30 16:21:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-08-31 16:21:59";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-01 10:55:17";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-01 10:56:05";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-01 10:56:05";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-01 10:56:06";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-01 11:10:20";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-02 11:10:23";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-03 11:10:21";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-04 11:10:55";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-04 22:00:21";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-04 22:16:10";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-05 11:12:42";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-05 11:28:03";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-06 11:27:54";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-06 18:36:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-06 18:51:37";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-07 04:30:22";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-07 04:46:16";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-08 04:45:33";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-09 06:05:09";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 12:33:11";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:00:02";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:20:32";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:20:49";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:20:49";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:20:50";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-10 13:35:42";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-11 06:37:57";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-11 06:53:51";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-12 07:00:03";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-13 06:53:07";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-14 06:53:08";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-15 06:53:20";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-16 06:53:12";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-17 06:53:24";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-09-18 07:24:47";
+                Date = "2026-09-19 13:41:23";
                 Reason = Reset;
                 State = 0;
             }
@@ -280,8 +97,8 @@
             modifiers = 1572864;
         };
     };
-    closeViewDesiredZoomFactor = "3.486793926537035";
-    closeViewHotkeysEnabled = 1;
+    closeViewDesiredZoomFactor = "1.2891823207536";
+    closeViewHotkeysEnabled = 0;
     closeViewPanningMode = 2;
     closeViewScrollWheelToggle = 1;
     closeViewSplitScreenRatio = "0.2";
@@ -296,19 +113,28 @@
     "com.apple.custommenu.apps" =     (
         NSGlobalDomain
     );
+    customFonts = 1;
     displaysLastCursorLocation =     {
-        3 =         {
-            X = "-105.23046875";
-            Y = "1048.3359375";
+        0 =         {
+            X = "105.3984375";
+            Y = 1440;
         };
-        5 =         {
-            X = "1582.28515625";
-            Y = "632.6015625";
+        4 =         {
+            X = 10;
+            Y = 1430;
         };
     };
-    hoverColorEnabled = 0;
-    hoverTextEnabled = 0;
-    hoverTypingEnabled = 0;
+    dynamicTypeScanCache = {length = 30170, bytes = 0x5b7b2270 61746822 3a225c2f 53797374 ... 74657275 69227d5d };
+    dynamicTypeScanCacheVersion = 1;
+    grayscale = 0;
+    hudNotifiedConstrast = 0;
+    keyboardAccessCommandMap = {length = 274, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000da };
+    keyboardAccessFocusRingTimeout = 15;
+    liveSpeechEnabled = 0;
     login = 0;
     sessionChange = 0;
+    slowKey = 0;
+    slowKeyDelay = 250;
+    stickyKey = 0;
+    useStickyKeysShortcutKeys = 0;
 }

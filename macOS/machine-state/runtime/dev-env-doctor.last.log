@@ -1,91 +1,41 @@
 === Shell Link Integrity ===
-[OK] .zshenv -> /Users/ymy/dotfiles/macOS/shell/.zshenv
-[OK] .zprofile -> /Users/ymy/dotfiles/macOS/shell/.zprofile
-[OK] .zshrc -> /Users/ymy/dotfiles/macOS/shell/.zshrc
-[OK] .zlogin -> /Users/ymy/dotfiles/macOS/shell/.zlogin
-[OK] .profile -> /Users/ymy/dotfiles/macOS/shell/.profile
+[OK] .zshenv -> /Users/ymy/.dotfiles/macOS/shell/.zshenv
+[OK] .zprofile -> /Users/ymy/.dotfiles/macOS/shell/.zprofile
+[OK] .zshrc -> /Users/ymy/.dotfiles/macOS/shell/.zshrc
+[OK] .zlogin -> /Users/ymy/.dotfiles/macOS/shell/.zlogin
+[OK] .profile -> /Users/ymy/.dotfiles/macOS/shell/.profile
 
 === Core Toolchain Availability ===
 [OK] brew: /opt/homebrew/bin/brew
-[OK] git: /opt/homebrew/bin/git
-[OK] gh: /opt/homebrew/bin/gh
+[OK] git: /usr/bin/git
+[WARN] gh is not available
 [WARN] dotnet is not available
-[OK] python3: /opt/homebrew/bin/python3
-[OK] pip3: /opt/homebrew/bin/pip3
-[OK] node: /opt/homebrew/bin/node
-[OK] npm: /opt/homebrew/bin/npm
-[OK] go: /opt/homebrew/bin/go
-[OK] cargo: /opt/homebrew/bin/cargo
-[OK] cmake: /opt/homebrew/bin/cmake
-[OK] ninja: /opt/homebrew/bin/ninja
+[OK] python3: /usr/bin/python3
+[OK] pip3: /usr/bin/pip3
+[WARN] node is not available
+[WARN] npm is not available
+[WARN] go is not available
+[WARN] cargo is not available
+[WARN] cmake is not available
+[WARN] ninja is not available
 [WARN] qmake is not available
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 16, missing cask: 14
-antoniorodr/memo/memo
-felixkratz/formulae/sketchybar
-openhue/cli/openhue-cli
-openjdk@21
-python@3.12
-python@3.13
-steipete/tap/camsnap
-steipete/tap/gifgrep
-steipete/tap/goplaces
-steipete/tap/imsg
-steipete/tap/ordercli
-steipete/tap/peekaboo
-steipete/tap/remindctl
-steipete/tap/sag
-steipete/tap/songsee
-steipete/tap/wacli
-affinity
-balenaetcher
-bambu-studio
-betterdisplay
-blender
-codex
-epic-games
-font-hack-nerd-font
-font-inter
-font-meslo-for-powerlevel10k
-microsoft-auto-update
-sf-symbols
-visual-studio-code
-wacom-tablet
-[WARN] Extra formula: 133, extra cask: 1
-ada-url
-aom
-apache-serf
-apr
-apr-util
-argon2
-autoconf
-aws-c-auth
-aws-c-cal
-aws-c-common
-aws-c-compression
-aws-c-event-stream
-aws-c-http
-aws-c-io
-aws-c-mqtt
-aws-c-s3
-aws-c-sdkutils
-aws-checksums
-awscli
-blake3
-android-commandlinetools
+[OK] Brewfile required entries are all installed
+[WARN] Extra formula: 1, extra cask: 0
+mas
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=
-LVRS_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
-LVRS_HOST_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
-JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
-CMAKE_PREFIX_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos:/Users/ymy/.local/SDK/LVRS:/Users/ymy/.local/SDK/iiXml/platforms/macos:/Users/ymy/.local/SDK/iiXml:/Users/ymy/.local/SDK/iiUpdateManager/platforms/macos:/Users/ymy/.local/SDK/iiUpdateManager:/Users/ymy/.local/SDK/iiSharedCanvas:/Users/ymy/.local/SDK/iiPaintEngine/platforms/macos:/Users/ymy/.local/SDK/iiPaintEngine:/Users/ymy/.local/SDK/iiLocalDiffusion/platforms/macos:/Users/ymy/.local/SDK/iiLocalDiffusion:/Users/ymy/.local/SDK/iiLicenseManager/platforms/macos:/Users/ymy/.local/SDK/iiLicenseManager:/Users/ymy/.local/SDK/iiHtmlBlock/platforms/macos:/Users/ymy/.local/SDK/iiHtmlBlock:/Users/ymy/.local/SDK/iiGeneralDocument
-QML2_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
-QT_QML_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
+LVRS_PREFIX=
+LVRS_HOST_PREFIX=
+JAVA_HOME=
+CMAKE_PREFIX_PATH=
+QML2_IMPORT_PATH=
+QT_QML_IMPORT_PATH=
 DOTNET=
 [OK] zsh clean environment probe completed
 
 === Summary ===
-OK=17 WARN=5 FAIL=0
+OK=11 WARN=11 FAIL=0

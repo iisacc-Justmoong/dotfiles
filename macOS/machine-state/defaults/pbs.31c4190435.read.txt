@@ -16,6 +16,135 @@
         "is.workflow.actions.image.removebackground" = 5;
     };
     NSServicesStatus =     {
+        "com.apple.Automator - Create Service - makeNewServiceWithPasteboard" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.Automator - Create Workflow - makeNewWorkflowServiceWithPasteboard" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.BluetoothFileExchange - Send File To Bluetooth Device - sendFileUsingBluetoothOBEXService" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "key_equivalent" = "";
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.ChineseTextConverterService - Convert Text from Simplified to Traditional Chinese - convertTextToTraditionalChinese" =         {
+            "key_equivalent" = "";
+        };
+        "com.apple.ChineseTextConverterService - Convert Text from Traditional to Simplified Chinese - convertTextToSimplifiedChinese" =         {
+            "key_equivalent" = "";
+        };
+        "com.apple.Dictionary - Look Up in Dictionary - doLookupService" =         {
+            "enabled_context_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.Safari - Search With %WebSearchProvider@ - searchWithWebSearchProvider" =         {
+            "key_equivalent" = "";
+        };
+        "com.apple.ScriptEditor2 - Script Editor/Get Result of AppleScript - runAsAppleScript" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "key_equivalent" = "";
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.ScriptEditor2 - Script Editor/Make New AppleScript - makeNewAppleScript" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.ScriptEditor2 - Script Editor/Run as AppleScript - runAsAppleScript" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.SpotlightService - SEARCH_WITH_SPOTLIGHT - doSearchWithSpotlight" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "key_equivalent" = "";
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.Stickies - Make Sticky - makeStickyFromTextService" =         {
+            "enabled_context_menu" = 1;
+            "key_equivalent" = "";
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.SummaryService - Summarize - doSummarization" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.Terminal - Open man Page in Terminal - openManPage" =         {
+            "key_equivalent" = "";
+        };
+        "com.apple.Terminal - Search man Page Index in Terminal - searchManPages" =         {
+            "key_equivalent" = "";
+        };
+        "com.apple.TextEdit - New TextEdit Window Containing Selection - openSelection" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.TextEdit - Open Selected File in TextEdit - openFile" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.dt.Xcode - Find in Xcode - batchFind" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
+        "com.apple.dt.Xcode - Open Quickly in Xcode - openQuickly" =         {
+            "enabled_context_menu" = 1;
+            "enabled_services_menu" = 1;
+            "presentation_modes" =             {
+                ContextMenu = 1;
+                ServicesMenu = 1;
+            };
+        };
     };
     ServicesShortcutsPresent = 0;
 }

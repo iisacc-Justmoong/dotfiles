@@ -1,7 +1,6 @@
 {
     NSServices =     {
         CFPrincipalLocalizations =         (
-            English,
             en
         );
         CFVendedServices =         (
@@ -263,41 +262,6 @@
                     NSStringPboardType
                 );
                 NSUUID = {length = 20, bytes = 0x6a948d3b92636f879bae3bb1efee1716a87418ef};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.FileMerge";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/FileMerge.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "FileMerge/Compare Files";
-                };
-                NSMessage = diffFilesService;
-                NSPortName = FileMerge;
-                NSReturnTypes =                 (
-                );
-                NSSendTypes =                 (
-                    NSFilenamesPboardType
-                );
-                NSUUID = {length = 20, bytes = 0xb224c69b7965be8d21b7ce23502552422d74efa1};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.FileMerge";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/FileMerge.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "FileMerge/Compare To Main";
-                };
-                NSMessage = diffVersusMasterService;
-                NSPortName = FileMerge;
-                NSRestricted = 1;
-                NSReturnTypes =                 (
-                );
-                NSSendTypes =                 (
-                    NSFilenamesPboardType
-                );
-                NSUUID = {length = 20, bytes = 0xf687ed3a268958dd0c67814a8e2f201b3e79860a};
             },
                         {
                 NSBundleIdentifier = "com.apple.FolderActionsSetup";
@@ -702,66 +666,6 @@
                 NSUUID = {length = 20, bytes = 0xa04c6e983615da28682c1d114f8217acc79fa0a6};
             },
                         {
-                NSBundleIdentifier = "com.apple.dt.Instruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "System Trace";
-                };
-                NSMessage = targetFrontAppWithTemplate;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x12e9673b38c072444224fb19bf02c166a586220a};
-                NSUserData = "System Trace.tracetemplate";
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.Instruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Activity Monitor";
-                };
-                NSMessage = targetFrontAppWithTemplate;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x95d6f603a621e547ec75050dababee9e9242828f};
-                NSUserData = "Activity Monitor.tracetemplate";
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.Instruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Allocations & Leaks";
-                };
-                NSMessage = targetFrontAppWithTemplate;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x40eb038b95f9ba86af82f7c3bdd4235be50a560b};
-                NSUserData = "Leaks.tracetemplate";
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.Instruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "File Activity";
-                };
-                NSMessage = targetFrontAppWithTemplate;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0xa559adcacba33987e0101dd1caf020227a5d9941};
-                NSUserData = "File Activity.tracetemplate";
-            },
-                        {
                 NSBundleIdentifier = "com.apple.dt.Xcode";
                 NSBundlePath = "/Applications/Xcode.app";
                 NSKeyEquivalent =                 {
@@ -792,62 +696,6 @@
                     NSStringPboardType
                 );
                 NSUUID = {length = 20, bytes = 0x67af8b5231b40cdeb6aad783a71a00800308b15a};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile Active Application";
-                };
-                NSMessage = timeProfileFrontMost;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x306caaccfdedbb479b1bf2ead5c85df11ad56db6};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile Entire System";
-                };
-                NSMessage = timeProfileSystem;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0xc2a175ddfbc7ea84d8d7f6966b3166ea61f00625};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Time Profile App Under Mouse";
-                };
-                NSMessage = timeProfileUnderMouse;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0xa878dc34bce6e06ff60982947a513df5446f124e};
-            },
-                        {
-                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
-                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Toggle Instruments Recording";
-                };
-                NSMessage = toggleRecordingState;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                };
-                NSUUID = {length = 20, bytes = 0x8b0daf73d22c80a10111697e41db80bbc8c1485b};
             },
                         {
                 NSBundleIdentifier = "com.apple.finder";
@@ -1108,72 +956,6 @@
                 NSUUID = {length = 20, bytes = 0xb2f07f415fa9a00c9ef0d5bd7e275ea20487fcf0};
             },
                         {
-                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
-                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Launch Game";
-                };
-                NSMessage = launchGameService;
-                NSPortName = UnrealEditorServices;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                    NSTextContent =                     (
-                        URL,
-                        FilePath
-                    );
-                };
-                NSSendFileTypes =                 (
-                    "com.epicgames.uproject"
-                );
-                NSUUID = {length = 20, bytes = 0x3fbec803add75a7ad80864181576ebe18ddfc767};
-            },
-                        {
-                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
-                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Generate Xcode Project";
-                };
-                NSMessage = generateXcodeProjectService;
-                NSPortName = UnrealEditorServices;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                    NSTextContent =                     (
-                        URL,
-                        FilePath
-                    );
-                };
-                NSSendFileTypes =                 (
-                    "com.epicgames.uproject"
-                );
-                NSUUID = {length = 20, bytes = 0xd238c05c6756e8710f333991b9ec1e48876411c7};
-            },
-                        {
-                NSBundleIdentifier = "com.epicgames.UnrealEditorServices";
-                NSBundlePath = "/Users/ymy/Library/Services/UnrealEditorServices.app";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Switch Unreal Engine Version";
-                };
-                NSMessage = switchUnrealEngineVersionService;
-                NSPortName = UnrealEditorServices;
-                NSRequiredContext =                 {
-                    NSServiceCategory = "public.source-code";
-                    NSTextContent =                     (
-                        URL,
-                        FilePath
-                    );
-                };
-                NSSendFileTypes =                 (
-                    "com.epicgames.uproject"
-                );
-                NSUUID = {length = 20, bytes = 0x5c1d9f60ba4d112c5fadc881c7b54f437ea216e4};
-            },
-                        {
                 NSBundleIdentifier = "com.googlecode.iterm2";
                 NSBundlePath = "/Applications/iTerm.app";
                 NSKeyEquivalent =                 {
@@ -1208,60 +990,6 @@
                     "public.plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0x10e0690fbf28143718e2d0e312b3b08ce940c455};
-            },
-                        {
-                NSBundleIdentifier = "com.klingai.image-generation";
-                NSBundlePath = "/Users/ymy/Library/Services/Kling Omni Image.workflow";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Kling Omni Image";
-                };
-                NSMessage = runWorkflowAsService;
-                NSSendFileTypes =                 (
-                    "public.image",
-                    "public.jpeg",
-                    "public.png",
-                    "com.compuserve.gif",
-                    "org.webmproject.webp",
-                    "public.heic",
-                    "public.heif",
-                    "public.tiff",
-                    "com.microsoft.bmp",
-                    "public.avif"
-                );
-                NSUUID = {length = 20, bytes = 0x3840cf3b550984eb3ae5723191c7ae198ea7cf7a};
-            },
-                        {
-                NSBundleIdentifier = "com.klingai.video-generation";
-                NSBundlePath = "/Users/ymy/Library/Services/Kling Omni Video.workflow";
-                NSKeyEquivalent =                 {
-                };
-                NSMenuItem =                 {
-                    default = "Kling Omni Video";
-                };
-                NSMessage = runWorkflowAsService;
-                NSSendFileTypes =                 (
-                    "public.image",
-                    "public.jpeg",
-                    "public.png",
-                    "com.compuserve.gif",
-                    "org.webmproject.webp",
-                    "public.heic",
-                    "public.heif",
-                    "public.movie",
-                    "public.video",
-                    "public.mpeg-4",
-                    "com.apple.quicktime-movie",
-                    "public.avi",
-                    "org.matroska.mkv",
-                    "com.apple.m4v-video",
-                    "com.microsoft.windows-media-wmv",
-                    "public.mpeg",
-                    "public.3gpp",
-                    "org.webmproject.webm"
-                );
-                NSUUID = {length = 20, bytes = 0xad7756946cf0a7a2609368f94b2a1d5850823cb5};
             }
         );
         CFVersion = 2;

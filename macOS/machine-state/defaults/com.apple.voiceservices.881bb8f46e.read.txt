@@ -55,6 +55,12 @@
                         "en-US"
                     );
                     Name = nora;
+                },
+                                {
+                    Languages =                     (
+                        "ko-KR"
+                    );
+                    Name = minji;
                 }
             );
             "com.apple.translationd" =             (
