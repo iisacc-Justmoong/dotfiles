@@ -4,28 +4,40 @@
         };
         embeddingDonationCount =         {
         };
-        embeddingGenComplete = "0.7768347196288123";
+        embeddingGenComplete = "0.7103163157388712";
         "embeddingGenCompleteDay#com.apple.AppStore" = 69;
         "embeddingGenCompleteDay#com.apple.CalendarUI" = 69;
         "embeddingGenCompleteDay#com.apple.MobileSMS" = 69;
         "embeddingGenCompleteDay#com.apple.Notes" = 69;
+        "embeddingGenCompleteDay#com.apple.Safari" = 100;
         "embeddingGenCompleteDay#com.apple.helpviewer" = 69;
         "embeddingGenCompleteDay#com.apple.mobilephone" = 69;
         "embeddingGenCompleteDay#com.apple.reminders" = 69;
         "embeddingGenCompleteDay#com.apple.shortcuts" = 72;
         "embeddingGenCompleteDay#com.apple.spotlight" = 69;
+        "embeddingGenCompleteDay#com.apple.systempreferences" = 84;
+        "embeddingGenCompleteDay#developer.apple.wwdc-Release" = 93;
+        "embeddingGenCompleteness#com.adobe.Photoshop" = 0;
+        "embeddingGenCompleteness#com.adobe.PremierePro.26" = 0;
         "embeddingGenCompleteness#com.adobe.acc.AdobeCreativeCloud" = 0;
+        "embeddingGenCompleteness#com.adobe.crashreporter" = 0;
+        "embeddingGenCompleteness#com.adobe.lightroomCC" = 0;
         "embeddingGenCompleteness#com.apple.ActivityMonitor" = 0;
-        "embeddingGenCompleteness#com.apple.AppStore" = "0.5";
+        "embeddingGenCompleteness#com.apple.AppStore" = 0;
         "embeddingGenCompleteness#com.apple.Appearance-Settings.extension" = 0;
+        "embeddingGenCompleteness#com.apple.BluetoothSettings" = 0;
         "embeddingGenCompleteness#com.apple.CalendarUI" = 1;
         "embeddingGenCompleteness#com.apple.Compressor" = 0;
+        "embeddingGenCompleteness#com.apple.Console" = 0;
         "embeddingGenCompleteness#com.apple.Desktop-Settings.extension" = 0;
         "embeddingGenCompleteness#com.apple.DiagnosticsReporter" = 0;
         "embeddingGenCompleteness#com.apple.DiskUtility" = 0;
+        "embeddingGenCompleteness#com.apple.Displays-Settings.extension" = 0;
         "embeddingGenCompleteness#com.apple.Feedback.DraftingExtension" = 0;
+        "embeddingGenCompleteness#com.apple.FinalCut" = 0;
         "embeddingGenCompleteness#com.apple.FollowUpUI" = 0;
         "embeddingGenCompleteness#com.apple.Internet-Accounts-Settings.extension" = 0;
+        "embeddingGenCompleteness#com.apple.Keyboard-Settings.extension" = 0;
         "embeddingGenCompleteness#com.apple.LoginItems-Settings.extension" = 0;
         "embeddingGenCompleteness#com.apple.MenuBarAgent" = 0;
         "embeddingGenCompleteness#com.apple.MobileAddressBook.RemoteCatalystPosterExtension" = 0;
@@ -38,9 +50,12 @@
         "embeddingGenCompleteness#com.apple.Preview" = 0;
         "embeddingGenCompleteness#com.apple.ProblemReporter" = 0;
         "embeddingGenCompleteness#com.apple.QuickTimePlayerX" = 0;
-        "embeddingGenCompleteness#com.apple.Safari" = "0.9836065573770492";
+        "embeddingGenCompleteness#com.apple.Safari" = "0.9922589725545391";
         "embeddingGenCompleteness#com.apple.Screen-Time-Settings.extension" = 0;
+        "embeddingGenCompleteness#com.apple.Sharing-Settings.extension" = 0;
         "embeddingGenCompleteness#com.apple.Software-Update-Settings.extension" = 0;
+        "embeddingGenCompleteness#com.apple.SystemProfiler.AboutExtension" = 0;
+        "embeddingGenCompleteness#com.apple.Terminal" = 0;
         "embeddingGenCompleteness#com.apple.TextEdit" = 0;
         "embeddingGenCompleteness#com.apple.TextInputMenuAgent" = 0;
         "embeddingGenCompleteness#com.apple.TransporterApp" = 0;
@@ -50,30 +65,35 @@
         "embeddingGenCompleteness#com.apple.contactsd" = 0;
         "embeddingGenCompleteness#com.apple.controlcenter" = 0;
         "embeddingGenCompleteness#com.apple.coreservices.UASharedPasteboardProgressUI" = 0;
+        "embeddingGenCompleteness#com.apple.dt.Devices" = 0;
         "embeddingGenCompleteness#com.apple.dt.Xcode" = 0;
         "embeddingGenCompleteness#com.apple.duetexpertd" = 0;
         "embeddingGenCompleteness#com.apple.finder" = 0;
+        "embeddingGenCompleteness#com.apple.frameworks.diskimages.diuiagent" = 0;
         "embeddingGenCompleteness#com.apple.garageband10" = 0;
-        "embeddingGenCompleteness#com.apple.helpviewer" = 1;
+        "embeddingGenCompleteness#com.apple.helpviewer" = "0.996551724137931";
         "embeddingGenCompleteness#com.apple.journal" = 0;
         "embeddingGenCompleteness#com.apple.logic10" = 0;
         "embeddingGenCompleteness#com.apple.loginwindow" = 0;
         "embeddingGenCompleteness#com.apple.mail" = 0;
-        "embeddingGenCompleteness#com.apple.metadata" = "0.9434905108712988";
+        "embeddingGenCompleteness#com.apple.metadata" = "0.4522105263157895";
         "embeddingGenCompleteness#com.apple.mobilephone" = 1;
         "embeddingGenCompleteness#com.apple.notificationcenterui" = 0;
         "embeddingGenCompleteness#com.apple.printcenter" = 0;
         "embeddingGenCompleteness#com.apple.reminders" = 1;
         "embeddingGenCompleteness#com.apple.screencaptureui" = 0;
         "embeddingGenCompleteness#com.apple.settings.PrivacySecurity.extension" = 0;
+        "embeddingGenCompleteness#com.apple.settings.Storage" = 0;
         "embeddingGenCompleteness#com.apple.shortcuts" = 1;
         "embeddingGenCompleteness#com.apple.spotlight" = 1;
         "embeddingGenCompleteness#com.apple.spotlight.events" = 0;
         "embeddingGenCompleteness#com.apple.stocks" = 0;
         "embeddingGenCompleteness#com.apple.systempreferences" = 0;
+        "embeddingGenCompleteness#com.apple.systempreferences.GeneralSettings" = 0;
         "embeddingGenCompleteness#com.apple.tips" = 0;
         "embeddingGenCompleteness#com.apple.weather.menu" = 0;
         "embeddingGenCompleteness#com.apple.wifi-settings-extension" = 0;
+        "embeddingGenCompleteness#com.astropad.AstropadSlateMac" = 0;
         "embeddingGenCompleteness#com.boardtack.ScanTexter" = 0;
         "embeddingGenCompleteness#com.canva.affinity" = 0;
         "embeddingGenCompleteness#com.canva.canvaeditor" = 0;
@@ -81,12 +101,21 @@
         "embeddingGenCompleteness#com.crowdcafe.windowmagnet" = 0;
         "embeddingGenCompleteness#com.culturedcode.ThingsMac" = 0;
         "embeddingGenCompleteness#com.diffusionbee.diffusionbee" = 0;
+        "embeddingGenCompleteness#com.electron.klingai" = 0;
+        "embeddingGenCompleteness#com.epicgames.EpicGamesLauncher" = 0;
         "embeddingGenCompleteness#com.figma.Desktop" = 0;
         "embeddingGenCompleteness#com.getupnote.desktop" = 0;
+        "embeddingGenCompleteness#com.goatheaven.rundog" = 0;
         "embeddingGenCompleteness#com.google.Chrome" = 0;
         "embeddingGenCompleteness#com.google.Chrome.app.jbgdhngddinepfilfcmbcioimbgcolma" = 0;
         "embeddingGenCompleteness#com.google.chromeremotedesktop.me2me-host-uninstaller" = 0;
         "embeddingGenCompleteness#com.googlecode.iterm2" = 0;
+        "embeddingGenCompleteness#com.iisacc.congregation.painter" = 0;
+        "embeddingGenCompleteness#com.iisacc.dreamscapes" = 0;
+        "embeddingGenCompleteness#com.iisacc.society" = 0;
+        "embeddingGenCompleteness#com.iisacc.society.container.drive" = "0.6";
+        "embeddingGenCompleteness#com.iisacc.society.container.probe" = 0;
+        "embeddingGenCompleteness#com.iisacc.thinkingspace" = 0;
         "embeddingGenCompleteness#com.iisacc.vincent.painter" = 0;
         "embeddingGenCompleteness#com.iisacc.vincent.painter.centercoordinateverification" = 0;
         "embeddingGenCompleteness#com.iisacc.vincent.painter.centercoordinateverification2" = 0;
@@ -96,9 +125,12 @@
         "embeddingGenCompleteness#com.iisacc.vincent.preferences-general-verification" = 0;
         "embeddingGenCompleteness#com.iisacc.vincent.preferences-section-verification" = 0;
         "embeddingGenCompleteness#com.jetbrains.CLion" = 0;
+        "embeddingGenCompleteness#com.jetbrains.WebStorm" = 0;
         "embeddingGenCompleteness#com.kakao.KakaoTalkMac" = 0;
         "embeddingGenCompleteness#com.kodlian.Icon-Slate" = 0;
+        "embeddingGenCompleteness#com.kyome.Neo.RunCat" = 0;
         "embeddingGenCompleteness#com.kyome.RunCat" = 0;
+        "embeddingGenCompleteness#com.liuliu.draw-things" = 0;
         "embeddingGenCompleteness#com.logi.cp-dev-mgr" = 0;
         "embeddingGenCompleteness#com.logi.optionsplus" = 0;
         "embeddingGenCompleteness#com.marketcircle.ios.daylite6" = 0;
@@ -108,12 +140,19 @@
         "embeddingGenCompleteness#com.pilotmoon.popclip" = 0;
         "embeddingGenCompleteness#com.renfei.SnippetsLab" = 0;
         "embeddingGenCompleteness#com.seriflabs.affinitydesigner2" = 0;
+        "embeddingGenCompleteness#com.todesktop.241012ess7yxs0e" = 0;
         "embeddingGenCompleteness#com.wacom.FirmwareUpdater" = 0;
         "embeddingGenCompleteness#com.wacom.WacomCenter" = 0;
         "embeddingGenCompleteness#com.webull.trade.mac.v1" = 0;
+        "embeddingGenCompleteness#com.yourcompany.installerbase" = 0;
+        "embeddingGenCompleteness#developer.apple.wwdc-Release" = 1;
         "embeddingGenCompleteness#mertbulan.TranslateBar" = 0;
+        "embeddingGenCompleteness#net.vmlx.app" = 0;
+        "embeddingGenCompleteness#nl.jeffreykuiken.NoirApp.mac" = 0;
+        "embeddingGenCompleteness#org.pqrs.Karabiner-Console-User-Server" = 0;
+        "embeddingGenCompleteness#org.pqrs.Karabiner-Updater" = 0;
         "embeddingGenCompleteness#org.qt-project.Linguist" = 0;
-        "embeddingGenCompleteness#us.electronic.mas.macdroid" = "0.6449519689547681";
+        "embeddingGenCompleteness#us.electronic.mas.macdroid" = "0.6177820398657442";
         embeddingGenStartTime = "2026-06-10T02:42:39Z";
         embeddingGenUpdateReindexCount = 0;
         embeddingGenUpdates = 0;
@@ -125,16 +164,18 @@
         sessions =         (
         );
         stats =         (
-            "2026-08-28:[1]journalProcessedCount:2",
-            "2026-08-28:text processing all done:23",
-            "2026-08-28:currentPid:2",
-            "2026-08-28:completed graph analysis:27",
-            "2026-08-28:didScoreGraph:21"
+            "2026-09-18:didScoreGraph:21",
+            "2026-09-18:[2]queryItemExtractedCount:26",
+            "2026-09-18:people indexing all done:26",
+            "2026-09-18:completed graph analysis:27",
+            "2026-09-18:text processing all done:23",
+            "2026-09-18:[2]queryItemUpdatedCount:26",
+            "2026-09-18:currentPid:3"
         );
         version = V2;
     };
-    "hdbCutover.mail.evaluationCount" = 279;
+    "hdbCutover.mail.evaluationCount" = 362;
     "hdbCutover.mail.firstEvaluated" = "1781052457.312748";
     "pipelineCompleteness.lastCADonationAt" = "2026-08-10 14:22:25 +0000";
-    "stateDump.lastEvaluationTimestamp" = "1787868463.211006";
+    "stateDump.lastEvaluationTimestamp" = "1789685637.396272";
 }

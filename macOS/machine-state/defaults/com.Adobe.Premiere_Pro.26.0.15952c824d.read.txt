@@ -1,0 +1,2135 @@
+{
+    CCFilesEOL =     {
+        "0B564CAC56BAC0507F000101@AdobeID" =         {
+            Floodgate =             {
+                Expiry = 1789133998;
+                Payload = "{\"api_version\":\"0.1\",\"json_version\":\"0.1\",\"clients\":{\"dva-ccf-eol\":{\"analyticsVersion\":\"1.0\",\"releases\":[]},\"ccfiles_eol_prod\":{\"analyticsVersion\":\"1.0\",\"client_analytics_params\":{\"app_id\":657,\"safe_event_required\":false,\"analytics_required\":false},\"releases\":[{\"bit_index\":-2017,\"release_name\":\"ccfiles_eol_phase_cs_prod\",\"features\":[\"ccfiles_eol_phase\"],\"meta\":[{\"k\":\"ccfiles_eol_phase\",\"v\":\"NkU=\"}]}]}},\"ttl\":300}";
+            };
+        };
+    };
+    "FeatureCache_Floodgate" =     {
+        Expiry = 1789047898;
+        "NewFG_Prod" =         {
+            Payload = kOn;
+            State = 1;
+        };
+        "PPro.CaptionsTranslation" =         {
+            Payload = kOn;
+            State = 1;
+        };
+        "PPro.MultipleActiveCaptions" =         {
+            Payload = kOn;
+            State = 1;
+        };
+        "PPro.MultipleCaptionsExport" =         {
+            Payload = kOn;
+            State = 1;
+        };
+    };
+    "FirstLaunch26.5.0" = 0;
+    Language = "en_US";
+    PluginCache =     {
+        "en_US" =         {
+            "AAFProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                ProjectConverter =                 {
+                    CanOpen = 1;
+                    CanSave = 1;
+                    OpenDisplayName = AAF;
+                    OpenFileFilterString = "AAF (*.aaf)*.aaf";
+                    OpenFormatDescription = "AAF (*.aaf)";
+                    OpenPriority = 0;
+                    OpenSupportedExtensions = "*.aaf";
+                    "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
+                    PrepareProject = 1;
+                    SaveDisplayName = AAF;
+                    SaveFileFilterString = "AAF (*.aaf)*.aaf";
+                    SaveFormatDescription = "AAF (*.aaf)";
+                    SaveRequiresActiveSequence = 1;
+                    SaveSupportedExtensions = "*.aaf";
+                };
+                TimeStampHashGuid = "e5ced5de-7457-a70f-bde4-dd2800000026";
+            };
+            "AEASCCDL_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 0;
+                    AEVFFlags2 = 256;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Color Correction";
+                    EffectDescription = "Applies standardized color decision controls for primary color correction and grading.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE AEASCCDL";
+                    Name = "ASC CDL";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/AscCdl=Asc Cdl\", \"$$$/dva/Plugin/Keywords/Asc=Asc\", \"$$$/dva/Plugin/Keywords/Cdl=Cdl\", \"$$$/dva/Plugin/Keywords/ColorGrading=Color Grading\", \"$$$/dva/Plugin/Keywords/SlopeOffsetPower=Slope Offset Power\", \"$$$/dva/Plugin/Keywords/ToneMapping=Tone Mapping\", \"$$$/dva/Plugin/Keywords/CameraLog=Camera Log\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Color Correction";
+                    EffectDescription = "Applies standardized color decision controls for primary color correction and grading.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE AEASCCDL";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE AEASCCDL";
+                    Name = "ASC CDL";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/AscCdl=Asc Cdl\", \"$$$/dva/Plugin/Keywords/Asc=Asc\", \"$$$/dva/Plugin/Keywords/Cdl=Cdl\", \"$$$/dva/Plugin/Keywords/ColorGrading=Color Grading\", \"$$$/dva/Plugin/Keywords/SlopeOffsetPower=Slope Offset Power\", \"$$$/dva/Plugin/Keywords/ToneMapping=Tone Mapping\", \"$$$/dva/Plugin/Keywords/CameraLog=Camera Log\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "91189721-9d84-de97-82c2-6f500000001b";
+            };
+            "AEArriRawMXFSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE ARRIRAW MXF.SourceSettings";
+                    Name = "MXF/ARRIRAW Development Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "0ed3b0c1-d9b6-cda4-2541-aac20000002d";
+            };
+            "AEArriRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE ARRIRAW.SourceSettings";
+                    Name = "ARRIRAW Development Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "60456e81-1283-6249-bf59-d4650000002a";
+            };
+            "AEBlackAndWhite_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67141696;
+                    AEVFFlags2 = 32;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Image Control";
+                    EffectDescription = "Converts the image to grayscale for a monochrome look.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Black & White";
+                    Name = "Black & White";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/BlackAmpersandWhite=Black & White\", \"$$$/dva/Plugin/Keywords/BlackWhite=Black White\", \"$$$/dva/Plugin/Keywords/Black=Black\", \"$$$/dva/Plugin/Keywords/White=White\", \"$$$/dva/Plugin/Keywords/BlackAndWhite=Black And White\", \"$$$/dva/Plugin/Keywords/Grayscale=Grayscale\", \"$$$/dva/Plugin/Keywords/Greyscale=Greyscale\", \"$$$/dva/Plugin/Keywords/Monochrome=Monochrome\", \"$$$/dva/Plugin/Keywords/BAmpersandw=B&w\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "358af716-b22c-47df-db2b-ab0300000022";
+            };
+            "AECanonRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE CanonRaw.SourceSettings";
+                    Name = "Canon Cinema RAW Light Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "921bc3c3-d6af-3725-381b-a42c0000002b";
+            };
+            "AEF65SourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE SonyRawF65.SourceSettings";
+                    Name = "Sony Raw Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "6ae9d7a1-628b-f673-96c8-aa6600000026";
+            };
+            "AEFilterCPUTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 1;
+                TimeStampHashGuid = "c9710704-76f5-0614-ead1-1a6600000022";
+            };
+            "AEFilterGPUTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 1;
+                TimeStampHashGuid = "8e294ff7-8cc8-6f92-1b44-dc7100000022";
+            };
+            "AEFilterHSLMask_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69238848;
+                    AEVFFlags2 = 704648192;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE HSLMask";
+                    Name = "HSL Mask";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "9b4af681-bbff-fac6-9f72-3b6000000022";
+            };
+            "AEFilterRenderTracer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = Test;
+                    EntryPoint = "EffectMainExtra_CPU_8u";
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE RenderTracer_PrGPU";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE RenderTracer_PrGPU";
+                    Name = "Render Tracer - PrGPU";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                "GPUVideoFilter.1" =                 {
+                    Category = Test;
+                    EntryPoint = "EffectMainExtra_CPU_8u";
+                    "GPUVideoFilter.Index" = 1;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE RenderTracer_PrGPU_FailInit";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE RenderTracer_PrGPU_FailInit";
+                    Name = "Render Tracer - PrGPU FailInit";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                "GPUVideoFilter.2" =                 {
+                    Category = Test;
+                    EntryPoint = "EffectMainExtra_PrAndAEGPU";
+                    "GPUVideoFilter.Index" = 2;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE RenderTracer_PrAndAEGPU";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE RenderTracer_PrAndAEGPU";
+                    Name = "Render Tracer - PrGPU + AEGPU";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "db3266d2-774e-5b27-b5bc-ab2700000027";
+            };
+            "AEGraphicGroup_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69238848;
+                    AEVFFlags2 = 8;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Graphic Group";
+                    Name = "Vector Motion";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "dc7ea7e6-5b48-47e6-a96e-bb5000000021";
+            };
+            "AEMPEGSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE MPEG.SourceSettings";
+                    Name = "MPEG Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "d57c6483-572e-b306-b142-364200000027";
+            };
+            "AEProResRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69238848;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE ProResRaw.SourceSettings";
+                    Name = "PRORES RAW Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "a5088246-f374-1a42-43d8-239f0000002c";
+            };
+            "AEProcAmp_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 32832;
+                    AEVFFlags2 = 256;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Adjust;
+                    EffectDescription = "Adjusts brightness, contrast, hue, and saturation for basic image correction.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE ProcAmp";
+                    Name = ProcAmp;
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/Procamp=Procamp\", \"$$$/dva/Plugin/Keywords/BrightnessContrast=Brightness Contrast\", \"$$$/dva/Plugin/Keywords/HueSaturation=Hue Saturation\", \"$$$/dva/Plugin/Keywords/VideoAmplifier=Video Amplifier\", \"$$$/dva/Plugin/Keywords/ImageCorrection=Image Correction\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "56902215-5229-3d3a-b6d6-2dc60000001c";
+            };
+            "AEREDSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 8;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE RED.SourceSettings";
+                    Name = "RED Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "8585412a-467a-bc05-e8b6-049700000026";
+            };
+            "AESimpleText_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67141700;
+                    AEVFFlags2 = 256;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Utility;
+                    EffectDescription = "Creates a basic text layer for titles or labels.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE PPro SimpleText";
+                    Name = "Simple Text";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/SimpleText=Simple Text\", \"$$$/dva/Plugin/Keywords/Simple=Simple\", \"$$$/dva/Plugin/Keywords/Text=Text\", \"$$$/dva/Plugin/Keywords/TextTool=Text Tool\", \"$$$/dva/Plugin/Keywords/Title=Title\", \"$$$/dva/Plugin/Keywords/Caption=Caption\", \"$$$/dva/Plugin/Keywords/TextLayer=Text Layer\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "feb831b3-a1d9-ac0b-82f0-108c0000001f";
+            };
+            "AESonyRawMXFSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206080;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE ImporterMXF.SourceSettings";
+                    Name = "Sony RAW MXF Source Settings";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "add65541-cc12-d9a1-d8c6-42820000002d";
+            };
+            "AEText_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67142208;
+                    AEVFFlags2 = 8;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Video;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Text";
+                    Name = Text;
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = Video;
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Text";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Text";
+                    Name = Text;
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "d4b1cec6-02ac-53a2-1288-dbec00000019";
+            };
+            "AETimecode_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69238852;
+                    AEVFFlags2 = 256;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE PPro Timecode";
+                    Name = Timecode;
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "8b6e7820-14fe-a0b4-56a8-2ce10000001d";
+            };
+            "AETrackMatteKey_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 32832;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Keying;
+                    EffectDescription = "Uses another clip as a matte to reveal or hide the image.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Legacy Key Track Matte";
+                    Name = "Track Matte Key";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/TrackMatteKey=Track Matte Key\", \"$$$/dva/Plugin/Keywords/Track=Track\", \"$$$/dva/Plugin/Keywords/Matte=Matte\", \"$$$/dva/Plugin/Keywords/Key=Key\", \"$$$/dva/Plugin/Keywords/AlphaMatte=Alpha Matte\", \"$$$/dva/Plugin/Keywords/LumaMatte=Luma Matte\", \"$$$/dva/Plugin/Keywords/MatteKey=Matte Key\", \"$$$/dva/Plugin/Keywords/LayerMatte=Layer Matte\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "2b158c4b-4c88-ca6d-150a-38bf00000022";
+            };
+            "AEUltraKey_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108928;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Keying;
+                    EffectDescription = "Removes a keyed background using chroma key controls for clean composites.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Ultra Key";
+                    Name = "Ultra Key";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/UltraKey=Ultra Key\", \"$$$/dva/Plugin/Keywords/Ultra=Ultra\", \"$$$/dva/Plugin/Keywords/Key=Key\", \"$$$/dva/Plugin/Keywords/ChromaKey=Chroma Key\", \"$$$/dva/Plugin/Keywords/GreenScreen=Green Screen\", \"$$$/dva/Plugin/Keywords/BlueScreen=Blue Screen\", \"$$$/dva/Plugin/Keywords/BackgroundRemoval=Background Removal\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "9cb283e0-3a0b-0cf8-37f6-b5db0000001d";
+            };
+            "ALEProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                ProjectConverter =                 {
+                    CanOpen = 1;
+                    CanSave = 1;
+                    OpenDisplayName = "Avid Log Exchange";
+                    OpenFileFilterString = "Avid Log Exchange (*.ale)*.ale";
+                    OpenFormatDescription = "Avid Log Exchange (*.ale)";
+                    OpenPriority = 0;
+                    OpenSupportedExtensions = "*.ale";
+                    "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
+                    PrepareProject = 0;
+                    SaveDisplayName = "Avid Log Exchange";
+                    SaveFileFilterString = "Avid Log Exchange (*.ale)*.ale";
+                    SaveFormatDescription = "Avid Log Exchange (*.ale)";
+                    SaveRequiresActiveSequence = 0;
+                    SaveSupportedExtensions = "*.ale";
+                };
+                TimeStampHashGuid = "74102d92-03c8-b5c6-53ac-a81400000026";
+            };
+            "AutoReframe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67141696;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Transform;
+                    EffectDescription = "Automatically reframes footage to match different aspect ratios.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE AEFilterAutoFramer";
+                    Name = "Auto Reframe";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/AutoReframe=Auto Reframe\", \"$$$/dva/Plugin/Keywords/Auto=Auto\", \"$$$/dva/Plugin/Keywords/Reframe=Reframe\", \"$$$/dva/Plugin/Keywords/ReframeVideo=Reframe Video\", \"$$$/dva/Plugin/Keywords/AspectRatioResize=Aspect Ratio Resize\", \"$$$/dva/Plugin/Keywords/SocialCrop=Social Crop\", \"$$$/dva/Plugin/Keywords/SmartCrop=Smart Crop\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = Transform;
+                    EffectDescription = "Automatically reframes footage to match different aspect ratios.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE AEFilterAutoFramer";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE AEFilterAutoFramer";
+                    Name = "Auto Reframe";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/AutoReframe=Auto Reframe\", \"$$$/dva/Plugin/Keywords/Auto=Auto\", \"$$$/dva/Plugin/Keywords/Reframe=Reframe\", \"$$$/dva/Plugin/Keywords/ReframeVideo=Reframe Video\", \"$$$/dva/Plugin/Keywords/AspectRatioResize=Aspect Ratio Resize\", \"$$$/dva/Plugin/Keywords/SocialCrop=Social Crop\", \"$$$/dva/Plugin/Keywords/SmartCrop=Smart Crop\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "e27a2630-4da5-9230-de83-886f0000001e";
+            };
+            "BarnDoors_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 100663296;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Wipe;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Barn Doors";
+                    Name = "Barn Doors";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "aae8f4b9-591c-b60d-4c53-9e810000001c";
+            };
+            "CameraBlur_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 0;
+                    AEVFFlags2 = 100664320;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Blur & Sharpen";
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Camera Blur";
+                    Name = "Camera Blur";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "698b8e43-c4dd-45c1-21aa-2ddf0000001d";
+            };
+            "CenterSplit_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 68;
+                    AEVFFlags2 = 637534208;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Slide;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Center Split";
+                    Name = "Center Split";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "db7b59f9-b203-f4b3-f9a7-6e6e0000001e";
+            };
+            "ClockWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108928;
+                    AEVFFlags2 = 100663552;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Wipe;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Clock Wipe";
+                    Name = "Clock Wipe (Legacy)";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "768047e8-cc41-feb2-1e1e-6d2c0000001c";
+            };
+            "ColorSpaceTransform_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 102761536;
+                    AEVFFlags2 = 704647232;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Color Correction";
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Color Space Transform";
+                    Name = "Color Space Transform";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Color Correction";
+                    EntryPoint = EffectMainExtra;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Color Space Transform";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Color Space Transform";
+                    Name = "Color Space Transform";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "bac16cad-e1df-fc4a-114e-4a8300000026";
+            };
+            "Color_Key_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 33554496;
+                    AEVFFlags2 = 637534336;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Keying;
+                    EffectDescription = "Keys out a selected color range to isolate subjects or backgrounds.";
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Color Key";
+                    Name = "Color Key";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/ColorKey=Color Key\", \"$$$/dva/Plugin/Keywords/Color=Color\", \"$$$/dva/Plugin/Keywords/Key=Key\", \"$$$/dva/Plugin/Keywords/ColourKey=Colour Key\", \"$$$/dva/Plugin/Keywords/ChromaKey=Chroma Key\", \"$$$/dva/Plugin/Keywords/GreenScreen=Green Screen\", \"$$$/dva/Plugin/Keywords/BlueScreen=Blue Screen\", \"$$$/dva/Plugin/Keywords/KeyOutBackground=Key Out Background\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "cdb6d8fa-cfb3-d520-a425-74ec0000001c";
+            };
+            "ExporterNULL_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                "Exporter 0" =                 {
+                    "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "93c0e802-004f-e7c8-722e-64310000001f";
+            };
+            "ExporterQuickTimeHost_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                "Exporter 0" =                 {
+                    "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "bfbc7847-dc03-4758-544f-110100000028";
+            };
+            "ExporterVFRaw_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                "Exporter 0" =                 {
+                    "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "4677dfd1-062c-e588-a0c2-79b900000020";
+            };
+            "FCPXProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                ProjectConverter =                 {
+                    CanOpen = 1;
+                    CanSave = 1;
+                    OpenDisplayName = "FCP XML Interchange Format";
+                    OpenFileFilterString = "FCP XML (*.xml)*.xml";
+                    OpenFormatDescription = "FCP XML (*.xml)";
+                    OpenPriority = 1;
+                    OpenSupportedExtensions = "*.xml";
+                    "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
+                    PrepareProject = 0;
+                    SaveDisplayName = "Final Cut Pro XML";
+                    SaveFileFilterString = "Final Cut Pro XML*.xml";
+                    SaveFormatDescription = "Final Cut Pro XML";
+                    SaveRequiresActiveSequence = 0;
+                    SaveSupportedExtensions = "*.xml";
+                };
+                TimeStampHashGuid = "4b49c2b8-25e9-a3c7-6bbe-ed7100000027";
+            };
+            "GPUAcceleratedRenderer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "" =                 {
+                    "Plugin Factory Guid" = "1b5bc335-92e5-4479-bd38-d18bedec69b2";
+                };
+                DoNotCache = 1;
+                Ignore = 0;
+                TimeStampHashGuid = "8a15fa59-52fe-1bff-413f-042a00000029";
+            };
+            "HorizontalFlip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 68;
+                    AEVFFlags2 = 134217984;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Transform;
+                    EffectDescription = "Flips the image left to right.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Horizontal Flip";
+                    Name = "Horizontal Flip";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/HorizontalFlip=Horizontal Flip\", \"$$$/dva/Plugin/Keywords/Horizontal=Horizontal\", \"$$$/dva/Plugin/Keywords/Flip=Flip\", \"$$$/dva/Plugin/Keywords/FlipHorizontal=Flip Horizontal\", \"$$$/dva/Plugin/Keywords/MirrorFlip=Mirror Flip\", \"$$$/dva/Plugin/Keywords/LeftRightFlip=Left Right Flip\", \"$$$/dva/Plugin/Keywords/InvertHorizontal=Invert Horizontal\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "https://www.adobe.com/go/AE-updates";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "a699fd7d-d709-3f98-3958-545400000021";
+            };
+            "IMFProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                ProjectConverter =                 {
+                    CanOpen = 1;
+                    CanSave = 0;
+                    OpenDisplayName = IMF;
+                    OpenFileFilterString = "IMF (*.xml)*.xml";
+                    OpenFormatDescription = "IMF (*.xml)";
+                    OpenPriority = 0;
+                    OpenSupportedExtensions = "*.xml";
+                    "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
+                };
+                TimeStampHashGuid = "c4c9f907-bb31-2e2a-3f00-8d7c00000026";
+            };
+            "ImporterAIDE_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "050299f5-f549-4d46-800f-fdb8ffb4f4da";
+                };
+            };
+            "ImporterAIEPS_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "1ccc0ac3-6f93-4142-81fd-447a23013d85";
+                };
+            };
+            "ImporterAIFF_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "85c71c3c-d377-4c76-88c4-8eed3224270e";
+                };
+            };
+            "ImporterARRIRAW_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "3f3e678d-c3c1-4b1c-abeb-c4dafa09c394";
+                };
+            };
+            "ImporterBarsAndTone_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "27b89ce8-c8b8-45c2-8e49-8fd3a7854dac";
+                };
+            };
+            "ImporterBlackMatte_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "9544dd02-da3c-4c5e-a884-ece7d321583f";
+                };
+            };
+            "ImporterCaptioning_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 848, bytes = 0x35003400 33003300 38003400 34003300 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "91956700-4f4c-435f-a4d1-b66ec882777b";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "d4d74240-5748-3936-f8ab-66b500000025";
+            };
+            "ImporterColorMatte_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "1ed04bf5-1e5c-4c81-8418-b9966a3d431d";
+                };
+            };
+            "ImporterDPX_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "14a09ab1-30cb-4ef3-a063-5010034d1225";
+                };
+            };
+            "ImporterF65_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "6a0d5e8e-2c0f-4c54-8170-a557ce7ae7c8";
+                };
+            };
+            "ImporterFFMPEG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "dfabc829-fce3-4620-8cca-985a99296407";
+                };
+            };
+            "ImporterFrameGen_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    ImpDrawType = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "8c11102b-804a-7358-0d7a-021000000023";
+            };
+            "ImporterGraphics_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "5bf23296-ffbb-4896-aa1f-97613d4a3c89";
+                };
+            };
+            "ImporterImageIO_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 256, bytes = 0x31003700 33003400 39003600 30003600 ... 30000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "fa99611c-90f6-4571-867d-6b53ff9d6bce";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "5d5b844d-799c-8fb1-2370-bc3800000022";
+            };
+            "ImporterJPEG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "95dfe1ff-6387-4c7b-b36b-b39c50de31ff";
+                };
+            };
+            "ImporterLeader_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "f0875178-d696-4774-a098-1467d9a97162";
+                };
+            };
+            "ImporterLumetri_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "ec327f14-246e-45a5-bd0a-93a8f6e811af";
+                };
+            };
+            "ImporterMP3_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 208, bytes = 0x31003200 39003700 31003000 36003200 ... 38000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "00000000-0000-0000-0000-000000000000";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "7f01118e-ad38-8eb7-b6f2-1ffb0000001e";
+            };
+            "ImporterMP4_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 1;
+                    ImpCanAsync = 1;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 1;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 1;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 134, bytes = 0x31003200 39003700 31003000 31003800 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "8ca36b16-9a22-45c1-a2cd-5e2e3a8bf8b2";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 1;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 2;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "7d00576e-f4a1-b8ab-de9e-55980000001e";
+            };
+            "ImporterMPEG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "9bb4c6dc-1fad-442f-965d-a8d20c1e3da7";
+                };
+            };
+            "ImporterMXF_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "e7ef5828-97ef-462d-a4b3-157288be491f";
+                };
+            };
+            "ImporterPNG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "898be2a3-c251-4f9a-bccc-0bb3698ff242";
+                };
+            };
+            "ImporterPSD_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 104, bytes = 0x39003400 33003800 37003000 30003300 ... 30000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "5a595840-8916-417f-9960-031a75b897cb";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 3;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "59af99e8-bf7e-b4a1-398a-0a520000001e";
+            };
+            "ImporterQuickTime_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "55c07399-f543-4ac1-affc-aa4f3f331d89";
+                };
+            };
+            "ImporterRED_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 1;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 1;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 1;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 1;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 1;
+                    ImpDesc0 = {length = 244, bytes = 0x31003300 37003900 30003900 31003400 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "7d345202-84ab-4864-9b9c-d8c797271efa";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 10;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "6b97e771-99c2-3218-99f7-bf880000001e";
+            };
+            "ImporterSVG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    ImpDrawType = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "56ecea5c-7961-55ee-e4b6-e93e0000001e";
+            };
+            "ImporterSensorManager_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 600, bytes = 0x36003800 34003600 30003500 30000a00 ... 34000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "00000000-0000-0000-0000-000000000000";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "a928c3e1-80d0-c81d-94f6-d9bc00000028";
+            };
+            "ImporterSyntheticCaption_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 1;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 1;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 88, bytes = 0x31003300 39003600 39003200 30003300 ... 30000a00 30000a00 };
+                    ImpDrawType = 1396916560;
+                    ImpFileInfoVersion = "33c0e2db-7338-45b6-9584-88505e2f1d53";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 1;
+                    ImpPriority = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "01978f6c-9105-4ecd-33fd-ba8d0000002b";
+            };
+            "ImporterSyntheticTranscript_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 1;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 1;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 94, bytes = 0x31003300 39003800 30003300 35003000 ... 30000a00 30000a00 };
+                    ImpDrawType = 1398035024;
+                    ImpFileInfoVersion = "5cfa883d-bf1f-4cbd-b36d-faed72497541";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 1;
+                    ImpPriority = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "681296c8-b53a-5d80-d631-f2640000002e";
+            };
+            "ImporterTarga_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "6ab79891-7df2-4be2-8f76-6c0fdef1863b";
+                };
+            };
+            "ImporterTiff_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "27507309-7f6a-4060-a9ad-5294d5762814";
+                };
+            };
+            "ImporterTransparentMatte_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "22a8318f-bf7e-48f0-8d68-4375171c4beb";
+                };
+            };
+            "ImporterVFRaw_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    ImpDrawType = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+                TimeStampHashGuid = "2a5d9065-6257-9331-f310-e7e800000020";
+            };
+            "ImporterWave_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "1fcf7618-1134-4320-82c6-0af53d0030cf";
+                };
+            };
+            "Inset_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 637534208;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Wipe;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Inset";
+                    Name = Inset;
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "e76b4d1b-3f3d-eccf-84e6-af9f00000018";
+            };
+            "LightingEffect_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67141632;
+                    AEVFFlags2 = 100664320;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Adjust;
+                    EffectDescription = "Adds a stylized lighting pass with controls for ambient light, highlights, and bump effects.";
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE LightingEffect";
+                    Name = "Lighting Effects";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/LightingEffects=Lighting Effects\", \"$$$/dva/Plugin/Keywords/Lighting=Lighting\", \"$$$/dva/Plugin/Keywords/AmbientLight=Ambient Light\", \"$$$/dva/Plugin/Keywords/BumpLayer=Bump Layer\", \"$$$/dva/Plugin/Keywords/SurfaceLighting=Surface Lighting\", \"$$$/dva/Plugin/Keywords/StylizedLighting=Stylized Lighting\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "b70730d2-582f-069f-3356-4d8500000021";
+            };
+            "Luma_Key_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 32832;
+                    AEVFFlags2 = 100663296;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Keying;
+                    EffectDescription = "Keys areas based on brightness to isolate highlights or shadows.";
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Legacy Key Luma";
+                    Name = "Luma Key";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/LumaKey=Luma Key\", \"$$$/dva/Plugin/Keywords/Luma=Luma\", \"$$$/dva/Plugin/Keywords/Key=Key\", \"$$$/dva/Plugin/Keywords/LuminanceKey=Luminance Key\", \"$$$/dva/Plugin/Keywords/BrightnessKey=Brightness Key\", \"$$$/dva/Plugin/Keywords/Keying=Keying\", \"$$$/dva/Plugin/Keywords/MatteExtraction=Matte Extraction\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "7acff857-0e20-504b-1833-991d0000001b";
+            };
+            "NonAdditiveDissolve_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 64;
+                    AEVFFlags2 = 637534464;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Dissolve;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Non-Additive Dissolve";
+                    Name = "Non-Additive Dissolve";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "81a234ba-bb1d-242b-7f3b-8e3400000026";
+            };
+            "OTIOProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                ProjectConverter =                 {
+                    CanOpen = 1;
+                    CanSave = 1;
+                    OpenDisplayName = OpenTimelineIO;
+                    OpenFileFilterString = "OpenTimelineIO (*.otio)*.otio";
+                    OpenFormatDescription = "OpenTimelineIO (*.otio)";
+                    OpenPriority = 0;
+                    OpenSupportedExtensions = "*.otio";
+                    "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
+                    PrepareProject = 0;
+                    SaveDisplayName = OpenTimelineIO;
+                    SaveFileFilterString = "OpenTimelineIO (*.otio)*.otio";
+                    SaveFormatDescription = "OpenTimelineIO (*.otio)";
+                    SaveRequiresActiveSequence = 1;
+                    SaveSupportedExtensions = "*.otio";
+                };
+                TimeStampHashGuid = "9a1e51ae-e01e-e064-20a1-0ae400000027";
+            };
+            "OpenEXR Premiere.bundle_6402177b-ccde-bfe7-3d72-aef8c087ab7c" =             {
+                DateHigh = 0;
+                DateLow = 1788740559;
+                DoNotCache = 1;
+                "Exporter 0" =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
+                };
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 152, bytes = 0x31003800 36003600 38003100 35003500 ... 32000a00 30000a00 };
+                    ImpDrawType = 1866815570;
+                    ImpFileInfoVersion = "00000000-0000-0000-0000-000000000000";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 10;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "PAGEPEEL_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 69206084;
+                    AEVFFlags2 = 100663296;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Obsolete;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Page Peel";
+                    Name = "Page Peel (Obsolete)";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "aab32a56-5ab7-4324-1e32-736f0000001b";
+            };
+            "PlayerMediaCore_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 1;
+                Ignore = 0;
+                Player =                 {
+                    PlayFormats0 = {length = 156, bytes = 0x566f6f4d 00000000 3f3f3f3f 04000000 ... 00000000 00000000 };
+                    PlayFormats1 = {length = 156, bytes = 0x4745504d 00000000 4947504d 04000000 ... 00000000 00000000 };
+                    PlayFormats2 = {length = 156, bytes = 0x3f3f3f3f 00000000 3f3f3f3f 04000000 ... 00000000 00000000 };
+                    PlayFormats3 = {length = 156, bytes = 0x56495641 00000000 534d5844 04000000 ... 00000000 00000000 };
+                    PlayNumFormats = 4;
+                    "Plugin Factory Guid" = "c9936cb9-1979-48c8-bf22-dbe0ec323274";
+                };
+                TimeStampHashGuid = "327beb60-1258-d877-e63a-25b900000022";
+            };
+            "RadialWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108928;
+                    AEVFFlags2 = 100663552;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Wipe;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Radial Wipe";
+                    Name = "Radial Wipe (Legacy)";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "b46aff32-5e18-192d-cdaf-a8500000001d";
+            };
+            "RegistrationFlags Guid" = "723eefcc-096c-3b57-7a96-434700000021";
+            "Replicate_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 64;
+                    AEVFFlags2 = 637534208;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Stylize;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Replicate";
+                    Name = Replicate;
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "d420771e-e9d9-9afc-3cbb-21de0000001c";
+            };
+            "SWAcceleratedRenderer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "" =                 {
+                    "Plugin Factory Guid" = "1b5bc335-92e5-4479-bd38-d18bedec69b2";
+                };
+                DoNotCache = 1;
+                Ignore = 0;
+                TimeStampHashGuid = "d0b4b4ca-b849-cf03-2c76-b81800000028";
+            };
+            "Split_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 637534208;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Slide;
+                    EntryPoint = EffectMainExtra;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Split";
+                    Name = "Split (Legacy)";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "6584acf3-ce71-db79-cb56-408100000018";
+            };
+            "TransmitDesktopAudio_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "026ffca3-420a-b810-c4b0-71c500000027";
+                Transmit =                 {
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitFullScreen_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "2872cd9e-2de3-f5d0-6469-8f0000000025";
+                Transmit =                 {
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitSRT_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "a14741ff-5ca0-93a3-79a8-4abd0000001e";
+                Transmit =                 {
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitScopes_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "e1380834-ddcb-1b5d-d102-4d7900000021";
+                Transmit =                 {
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "f2fbec02-601d-82c5-4d07-34510000001f";
+                Transmit =                 {
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "VRChromaLeaks_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Chroma Leaks";
+                    Name = "VR Chroma Leaks";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrChromaLeaks=Vr Chroma Leaks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Chroma=Chroma\", \"$$$/dva/Plugin/Keywords/Leaks=Leaks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Chroma Leaks";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Chroma Leaks";
+                    Name = "VR Chroma Leaks";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrChromaLeaks=Vr Chroma Leaks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Chroma=Chroma\", \"$$$/dva/Plugin/Keywords/Leaks=Leaks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "d8374f25-c2e7-306d-ebb2-dd9a00000020";
+            };
+            "VRGradientWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Reveals the next scene with a wipe-based transition.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Gradient Wipe";
+                    Name = "VR Gradient Wipe";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrGradientWipe=Vr Gradient Wipe\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Gradient=Gradient\", \"$$$/dva/Plugin/Keywords/Wipe=Wipe\", \"$$$/dva/Plugin/Keywords/360=360\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Reveals the next scene with a wipe-based transition.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Gradient Wipe";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Gradient Wipe";
+                    Name = "VR Gradient Wipe";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrGradientWipe=Vr Gradient Wipe\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Gradient=Gradient\", \"$$$/dva/Plugin/Keywords/Wipe=Wipe\", \"$$$/dva/Plugin/Keywords/360=360\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "5e663fe9-328f-8bf9-1db4-530f00000021";
+            };
+            "VRIrisWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Reveals the next scene with a wipe-based transition.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Iris Wipe";
+                    Name = "VR Iris Wipe";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrIrisWipe=Vr Iris Wipe\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Iris=Iris\", \"$$$/dva/Plugin/Keywords/Wipe=Wipe\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Reveals the next scene with a wipe-based transition.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Iris Wipe";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Iris Wipe";
+                    Name = "VR Iris Wipe";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrIrisWipe=Vr Iris Wipe\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Iris=Iris\", \"$$$/dva/Plugin/Keywords/Wipe=Wipe\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "66afd909-2489-b05b-9552-a1dc0000001d";
+            };
+            "VRLightLeaks_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Adds a light-based effect to brighten highlights or create visual emphasis.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Light Leaks";
+                    Name = "VR Light Leaks";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrLightLeaks=Vr Light Leaks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Light=Light\", \"$$$/dva/Plugin/Keywords/Leaks=Leaks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Adds a light-based effect to brighten highlights or create visual emphasis.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Light Leaks";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Light Leaks";
+                    Name = "VR Light Leaks";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrLightLeaks=Vr Light Leaks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Light=Light\", \"$$$/dva/Plugin/Keywords/Leaks=Leaks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "5d96e0e7-4e10-1f35-bbd1-470d0000001f";
+            };
+            "VRLightRays_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Adds a light-based effect to brighten highlights or create visual emphasis.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Rays";
+                    Name = "VR Light Rays";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrLightRays=Vr Light Rays\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Light=Light\", \"$$$/dva/Plugin/Keywords/Rays=Rays\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Adds a light-based effect to brighten highlights or create visual emphasis.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Rays";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Rays";
+                    Name = "VR Light Rays";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrLightRays=Vr Light Rays\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Light=Light\", \"$$$/dva/Plugin/Keywords/Rays=Rays\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "234b50d1-ffbf-69fe-2de5-c2610000001e";
+            };
+            "VRMobius_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Mobius Zoom";
+                    Name = "VR Mobius Zoom";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrMobiusZoom=Vr Mobius Zoom\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Mobius=Mobius\", \"$$$/dva/Plugin/Keywords/Zoom=Zoom\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Mobius Zoom";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Mobius Zoom";
+                    Name = "VR Mobius Zoom";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrMobiusZoom=Vr Mobius Zoom\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Mobius=Mobius\", \"$$$/dva/Plugin/Keywords/Zoom=Zoom\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "7dfce19a-31d3-ec33-74a7-7b390000001b";
+            };
+            "VRProjection_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108928;
+                    AEVFFlags2 = 0;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Maps immersive footage using projection controls for 360\U00b0 playback.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE VR Projection";
+                    Name = "VR Projection";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrProjection=Vr Projection\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Projection=Projection\", \"$$$/dva/Plugin/Keywords/360Projection=360 Projection\", \"$$$/dva/Plugin/Keywords/ImmersiveProjection=Immersive Projection\", \"$$$/dva/Plugin/Keywords/SphereProjection=Sphere Projection\", \"$$$/dva/Plugin/Keywords/VrWrap=Vr Wrap\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "b3313157-9dd3-0c02-4cbd-68d70000001f";
+            };
+            "VRRandomBlocks_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Random Blocks";
+                    Name = "VR Random Blocks";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrRandomBlocks=Vr Random Blocks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Random=Random\", \"$$$/dva/Plugin/Keywords/Blocks=Blocks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Applies an immersive 360\U00b0 effect designed for VR footage.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Random Blocks";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Random Blocks";
+                    Name = "VR Random Blocks";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrRandomBlocks=Vr Random Blocks\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Random=Random\", \"$$$/dva/Plugin/Keywords/Blocks=Blocks\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "02daf76d-a51f-c48c-72be-5de400000021";
+            };
+            "VRSphericalBlur_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 67108932;
+                    AEVFFlags2 = 384;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = "Immersive Video";
+                    EffectDescription = "Softens detail with a smooth blur for a softer, less defined image.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Radial Blur";
+                    Name = "VR Spherical Blur";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrSphericalBlur=Vr Spherical Blur\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Spherical=Spherical\", \"$$$/dva/Plugin/Keywords/Blur=Blur\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EffectDescription = "Softens detail with a smooth blur for a softer, less defined image.";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Radial Blur";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Radial Blur";
+                    Name = "VR Spherical Blur";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VrSphericalBlur=Vr Spherical Blur\", \"$$$/dva/Plugin/Keywords/Vr=Vr\", \"$$$/dva/Plugin/Keywords/Spherical=Spherical\", \"$$$/dva/Plugin/Keywords/Blur=Blur\", \"$$$/dva/Plugin/Keywords/360=360\", \"$$$/dva/Plugin/Keywords/Stereoscopic=Stereoscopic\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    Version = 2;
+                };
+                Ignore = 0;
+                TimeStampHashGuid = "3fd2ac0b-f121-2b42-80f0-c0fa00000022";
+            };
+            Version = 53;
+            "VerticalFlip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 64;
+                    AEVFFlags2 = 134217728;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Transform;
+                    EffectDescription = "Flips the image top to bottom.";
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Vertical Flip";
+                    Name = "Vertical Flip";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 0;
+                    SearchKeywords = "{\"internal\": [\"$$$/dva/Plugin/Keywords/VerticalFlip=Vertical Flip\", \"$$$/dva/Plugin/Keywords/Vertical=Vertical\", \"$$$/dva/Plugin/Keywords/Flip=Flip\", \"$$$/dva/Plugin/Keywords/FlipVertical=Flip Vertical\", \"$$$/dva/Plugin/Keywords/MirrorFlip=Mirror Flip\", \"$$$/dva/Plugin/Keywords/UpDownFlip=Up Down Flip\", \"$$$/dva/Plugin/Keywords/InvertVertical=Invert Vertical\"]}";
+                    SpecVersion = 1900557;
+                    SupportURL = "https://www.adobe.com/go/AE-updates";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 0;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "3cabe3bb-d044-3043-fd43-cfd50000001f";
+            };
+            "Whip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                "AfterEffects Video Filter.0" =                 {
+                    AEVFFlags = 68;
+                    AEVFFlags2 = 256;
+                    "AEVideoFilterModule.Index" = 0;
+                    Category = Slide;
+                    EntryPoint = EffectMain;
+                    HasPipl = 1;
+                    IsSourceSettingsEffect = 0;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Whip";
+                    Name = "Whip (Legacy)";
+                    "Plugin Factory Guid" = "9ee18075-33c9-482a-b1a3-f2ab007a5a07";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "";
+                    TransitionEndParam = 0;
+                    TransitionInputParam = 1;
+                    TransitionStartParam = 0;
+                    Version = 2;
+                };
+                DoNotCache = 0;
+                Ignore = 0;
+                TimeStampHashGuid = "08d5bc2a-d64a-7d23-d8d8-8d8100000017";
+            };
+        };
+    };
+    RecoveryOpenProjectInfos = "";
+}

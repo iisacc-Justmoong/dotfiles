@@ -8,8 +8,85 @@
         );
         failedToFetchFromServer = 0;
         notificationId = "";
-        retrievalDate = "2026-08-27 23:44:03 +0000";
+        retrievalDate = "2026-09-12 11:01:46 +0000";
         serverDict =         {
+            actionBasedUniversalLinkInfo =             (
+                                {
+                    mesg =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fbnVsbF9udWxs";
+                                    purchaseAttribution = "104/1";
+                                    route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                };
+                                action = "LAUNCH_DYNAMIC_UI";
+                            }
+                        );
+                    };
+                    universalLinkAction = "LAUNCH_CLOUD_FM";
+                },
+                                {
+                    mesg =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fUEhPVE9TX251bGxfbnVsbA==";
+                                    purchaseAttribution = "104/1";
+                                    route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                };
+                                action = "LAUNCH_DYNAMIC_UI";
+                            }
+                        );
+                    };
+                    universalLinkAction = "LAUNCH_CLOUD_FM_PHOTOS";
+                },
+                                {
+                    mesg =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fMlBfbnVsbF9udWxs";
+                                    purchaseAttribution = "104/2";
+                                    route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                };
+                                action = "LAUNCH_DYNAMIC_UI";
+                            }
+                        );
+                    };
+                    universalLinkAction = "LAUNCH_CLOUD_FM_2P";
+                },
+                                {
+                    mesg =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fM1BfbnVsbF9udWxs";
+                                    purchaseAttribution = "104/3";
+                                    route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                };
+                                action = "LAUNCH_DYNAMIC_UI";
+                            }
+                        );
+                    };
+                    universalLinkAction = "LAUNCH_CLOUD_FM_3P";
+                },
+                                {
+                    mesg =                     {
+                        params =                         (
+                                                        {
+                                actParams =                                 {
+                                    openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fU0lSSV9udWxsX251bGw=";
+                                    purchaseAttribution = "104/1";
+                                    route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                };
+                                action = "LAUNCH_DYNAMIC_UI";
+                            }
+                        );
+                    };
+                    universalLinkAction = "LAUNCH_CLOUD_FM_SIRI";
+                }
+            );
             appFeatureMessagingInfo =             (
                                 {
                     appId = "com.apple.Photos";
@@ -502,7 +579,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-08-27 23:44:03 +0000";
+        retrievalDate = "2026-09-18 13:32:24 +0000";
         serverDict =         {
             type = None;
         };
@@ -511,11 +588,88 @@
         altDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
         callbackInterval = 604800;
         failedToFetchFromServer = 0;
-        retrievalDate = "2026-08-27 23:44:02 +0000";
+        retrievalDate = "2026-09-12 11:01:45 +0000";
         serverDict =         {
             callbackInterval = 604800;
             defaultOffers =             (
                                 {
+                    actionBasedUniversalLinkInfo =                     (
+                                                {
+                            mesg =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fbnVsbF9udWxs";
+                                            purchaseAttribution = "104/1";
+                                            route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                        };
+                                        action = "LAUNCH_DYNAMIC_UI";
+                                    }
+                                );
+                            };
+                            universalLinkAction = "LAUNCH_CLOUD_FM";
+                        },
+                                                {
+                            mesg =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fUEhPVE9TX251bGxfbnVsbA==";
+                                            purchaseAttribution = "104/1";
+                                            route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                        };
+                                        action = "LAUNCH_DYNAMIC_UI";
+                                    }
+                                );
+                            };
+                            universalLinkAction = "LAUNCH_CLOUD_FM_PHOTOS";
+                        },
+                                                {
+                            mesg =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fMlBfbnVsbF9udWxs";
+                                            purchaseAttribution = "104/2";
+                                            route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                        };
+                                        action = "LAUNCH_DYNAMIC_UI";
+                                    }
+                                );
+                            };
+                            universalLinkAction = "LAUNCH_CLOUD_FM_2P";
+                        },
+                                                {
+                            mesg =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fM1BfbnVsbF9udWxs";
+                                            purchaseAttribution = "104/3";
+                                            route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                        };
+                                        action = "LAUNCH_DYNAMIC_UI";
+                                    }
+                                );
+                            };
+                            universalLinkAction = "LAUNCH_CLOUD_FM_3P";
+                        },
+                                                {
+                            mesg =                             {
+                                params =                                 (
+                                                                        {
+                                        actParams =                                         {
+                                            openUrl = "https://p145-acsegateway.icloud.com/v1/accounts/17533321770/devices/00006001-000A709C0123401E/screens/upsells/aUNsb3VkU3RvcmFnZV9Vbml2ZXJzYWxfdW5pdmVyc2FsTGlua19MQVVOQ0hfQ0xPVURfRk1fU0lSSV9udWxsX251bGw=";
+                                            purchaseAttribution = "104/1";
+                                            route = "https://amsui.apple.com/dynamic/marketing#route=storage/upsell";
+                                        };
+                                        action = "LAUNCH_DYNAMIC_UI";
+                                    }
+                                );
+                            };
+                            universalLinkAction = "LAUNCH_CLOUD_FM_SIRI";
+                        }
+                    );
                     appFeatureMessagingInfo =                     (
                                                 {
                             appId = "com.apple.Photos";
@@ -1009,7 +1163,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-08-27 23:44:03 +0000";
+        retrievalDate = "2026-09-18 13:32:24 +0000";
         serverDict =         {
             isPremiumOffer = 1;
             offerType = PremiumJourneys;

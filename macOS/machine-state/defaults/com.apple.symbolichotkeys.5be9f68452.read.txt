@@ -112,12 +112,12 @@
             enabled = 1;
         };
         190 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     113,
                     12,
-                    8388608
+                    262144
                 );
                 type = standard;
             };
@@ -356,9 +356,9 @@
             enabled = 1;
             value =             {
                 parameters =                 (
-                    65535,
-                    122,
-                    8388608
+                    32,
+                    49,
+                    524288
                 );
                 type = standard;
             };

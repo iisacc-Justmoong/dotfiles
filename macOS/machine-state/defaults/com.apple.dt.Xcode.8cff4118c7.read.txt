@@ -52,6 +52,7 @@
     DVTDisclosureViewDisclosedStates =     {
         "-285430940716596275_com.apple.platform.iphoneos_com.iisacc.app.whatson" = 0;
     };
+    DVTEnableOnDeviceCodePredictions = 0;
     DVTFontAndColorLastUpdatedToolsVersion = "26.2";
     DVTIgnoredDevices =     (
     );
@@ -59,14 +60,16 @@
     );
     DVTTextEnablePredictiveCompletion = 0;
     IDEAllowUnauthenticatedAgents = 1;
-    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-08-15 19:55:28 +0000";
+    "IDEAnalyticsMetricsNotifications.AnalyticsMetricsNotificationsController.lastRefreshAttemptDate" = "2026-09-18 05:12:26 +0000";
     IDEAppStatisticsXcodeVersionMetricsHistoryStorage =     {
         17C52 = "2026-02-18 09:08:28 +0000";
         17C529 = "2026-03-25 03:37:39 +0000";
         17E192 = "2026-04-17 10:21:59 +0000";
         17E202 = "2026-05-11 12:48:31 +0000";
         17F42 = "2026-05-21 14:34:43 +0000";
-        27A5194q = "2026-08-16 21:22:39 +0000";
+        27A266a = "2026-09-18 05:34:22 +0000";
+        27A5194q = "2026-09-02 12:06:24 +0000";
+        27A5252f = "2026-09-08 07:08:47 +0000";
     };
     IDEAppStoreProductSourceRateLimiter =     {
         DVTUserDefaultsCachingCache =         {
@@ -86,7 +89,7 @@
     IDEChatIsBuiltInChatGPTEnabled = 1;
     IDEChatIsBuiltInChatGPTOnboardingComplete = 1;
     IDEChatLastServerResourcesRetrieval = "1778294095.858059";
-    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b227072 6f766964 65724964 656e7469 ... 68617467 7074227d };
+    IDEChatUserSelectedDefaultChatModelDefinitionIdentifier = {length = 97, bytes = 0x7b226d6f 64656c49 64656e74 69666965 ... 223a7b7d 7d7d7d7d };
     IDECodingIntelligenceUseHistory =     {
         HasEverUsed = 1;
         LastUpdatedDate = "2026-04-29";
@@ -140,6 +143,7 @@
         };
     };
     IDEDeveloperDocumentationSelectedDuringFirstLaunch = 1;
+    IDEDidCompleteThemesFLEToolsVersion = "27.0";
     IDEExtensionsBuiltPriorToXcode12 =     (
     );
     "IDEFoundation.SigningEditorCapsuleViewStateRestorationManager.collapsedViewControllersCache" =     {
@@ -166,13 +170,12 @@
     };
     IDELanguageModelSelectedDuringFirstLaunch = 0;
     IDELastLSRegisterHashes =     {
-        "/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app" = {length = 20, bytes = 0x5cd0341a605d1fcf42afc81b0b7e7cd1263a938b};
-        "/Applications/Xcode.app/Contents/Applications/FileMerge.app" = {length = 20, bytes = 0x464cd2f42abb00a496836ef99c9bc866f6e674fe};
-        "/Applications/Xcode.app/Contents/Applications/Icon Composer.app" = {length = 20, bytes = 0xeb915e79eef18c435a774535f97b0518768ea438};
-        "/Applications/Xcode.app/Contents/Applications/Instruments.app" = {length = 20, bytes = 0xbcfd7345fba981a44b2a0d21c11e623289907c97};
-        "/Applications/Xcode.app/Contents/Applications/Reality Composer Pro.app" = {length = 20, bytes = 0x72a790036ee120a7cd242b3c225bee50d9bc35f4};
-        "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" = {length = 20, bytes = 0xbbfb47c43e78e952f1a5e9aeee4902e3c51e8368};
-        "/System/Library/CoreServices/CoreTypes.bundle" = {length = 20, bytes = 0x3f330126bf6311bf44f3ceab7e7bf1ce6fac11cd};
+        "/Applications/Xcode.app/Contents/Applications/Accessibility Inspector.app" = {length = 20, bytes = 0xbac40673af4d0079279addb088482cce99ca4ae6};
+        "/Applications/Xcode.app/Contents/Applications/DeviceHub.app" = {length = 20, bytes = 0x731228ef3c28feb80cdc0c0379dcad7bafc8eedd};
+        "/Applications/Xcode.app/Contents/Applications/FileMerge.app" = {length = 20, bytes = 0xc8b105cd6ad029467555c2bd0d8b2ce502c236f3};
+        "/Applications/Xcode.app/Contents/Applications/Icon Composer.app" = {length = 20, bytes = 0xf890bd54940aa0de0b7e9a88bc05172ebcb34fdb};
+        "/Applications/Xcode.app/Contents/Applications/Instruments.app" = {length = 20, bytes = 0x1c33b9f59e3275834395f8e0736b0d92bf00a550};
+        "/System/Library/CoreServices/CoreTypes.bundle" = {length = 20, bytes = 0xa3f2a69007b5d54d55d8d793cd5e797f6fccb01c};
     };
     IDELastShownWhatsNewContentRevision = 6;
     IDELastViewedSettingsPane = "IDEKit.IDESettingsPane.Accounts";
@@ -194,17 +197,23 @@
     "IDELibraryWindowController-With-Details.width" = 681;
     IDELogNavigatorGroupByKey = 0;
     "IDEMetalToolchainLastNotified-17F42" = 17F42;
+    "IDEMetalToolchainLastNotified-27A266a" = 27A266a;
     "IDEMetalToolchainLastNotified-27A5194q" = 27A5194o;
+    "IDEMetalToolchainLastNotified-27A5252f" = 27A5252f;
     IDEModelAccessHasUserConsentForOnDeviceInteractions = 1;
-    IDEMostRecentPostFLEDate = "2026-08-11 13:03:10 +0000";
+    IDEMostRecentPostFLEDate = "2026-09-18 05:10:25 +0000";
     IDEMostRecentPostFLEToolsVersion = "27.0";
     "IDEPlatformsFirstLaunchPresentedSDKVersions-appletvos" =     (
+        24J360,
+        24J5356a,
         24J5289o,
         23L470,
         23L236,
         23K50
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-iphoneos" =     (
+        24A430,
+        24A5422a,
         24A5355p,
         23F73,
         23E252,
@@ -213,6 +222,8 @@
         23C53
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-macosx" =     (
+        26A425,
+        26A5419a,
         26A5353p,
         25F70,
         25E251,
@@ -221,12 +232,16 @@
         25C57
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-watchos" =     (
+        24R360,
+        24R5355a,
         24R5289n,
         23T570,
         23T238,
         23S303
     );
     "IDEPlatformsFirstLaunchPresentedSDKVersions-xros" =     (
+        24M361,
+        24M5357a,
         24M5291p,
         23O469,
         23O248,
@@ -258,6 +273,7 @@
     IDEProvisioningTeamManagerLastSelectedTeamID = 5U49ST9XZH;
     IDERecentEditorDocuments =     (
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
+        {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 1264, bytes = 0x626f6f6b f0040000 00000510 40000000 ... b4020000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
@@ -265,7 +281,6 @@
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
         {length = 188, bytes = 0x626f6f6b bc000000 00000510 40000000 ... 04000000 00000000 },
-        {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 },
         {length = 228, bytes = 0x626f6f6b e4000000 00000510 40000000 ... 04000000 00000000 }
     );
     "IDESourceControlEnableSourceControl_10_0" = 1;
@@ -296,11 +311,11 @@
     IDESwiftPackageCollectionsAddedDefaultCollectionsDVTToolsVersion = "Xcode 27.0.0";
     IDEWorkspaceSuppressCleanBuildPrompt = 1;
     "IDEXcodeDeviceSupportLastNotified-17C529" = 17C7003i;
-    "IDE_CA_Daily_LastReport" = "808146207.624752";
+    "IDE_CA_Daily_LastReport" = "811401027.862085";
     "IDE_CA_Daily_SessionCount" = 1;
-    "IDE_CA_Daily_UptimeHours" = "86.44267302730324";
+    "IDE_CA_Daily_UptimeHours" = "0.4027191607407359";
     LastExplicitInspectorVisibility = 1;
-    LastPersistenceCleanupDateKey = "2026-08-11 13:04:23 +0000";
+    LastPersistenceCleanupDateKey = "2026-09-08 07:08:14 +0000";
     NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
     NSOSPLastRootDirectory = {length = 1116, bytes = 0x626f6f6b 5c040000 00000510 40000000 ... 04000000 00000000 };
     "NSSplitView Subview Frames com.apple.dt.Xcode.DevicesWidow.DevicesSplit" =     (
@@ -319,8 +334,8 @@
             "Xcode.IDEKit.CustomToolbarItem.BackForward",
             "Xcode.IDEKit.CustomToolbarItem.WindowTitle",
             NSToolbarFlexibleSpaceItem,
-            "Xcode.IDEKit.CustomToolbarItem.RootChooser",
             "Xcode.IDEIntelligenceChat.CustomToolbarItem.NewConversation",
+            "Xcode.IDEKit.CustomToolbarItem.RootChooser",
             "Xcode.IDEKit.CustomToolbarItem.SchemePicker.Centered",
             "Xcode.IDEKit.CustomToolbarItem.Issues",
             NSToolbarFlexibleSpaceItem,
@@ -361,7 +376,7 @@
     };
     "NSWindow Frame AppShortcutsEditorUI" = "-1594 400 800 800 -2560 0 2560 1410 ";
     "NSWindow Frame GoToSheet" = "1050 853 460 247 0 0 2560 1410 ";
-    "NSWindow Frame IDEDownloadProgressWindow" = "1634 1048 400 268 0 0 2560 1410 ";
+    "NSWindow Frame IDEDownloadProgressWindow" = "1634 1104 400 212 0 0 2560 1410 ";
     "NSWindow Frame IDESettingsPanel" = "377 278 918 588 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSpellingPanel" = "814 645 431 289 0 0 2560 1410 ";
     "NSWindow Frame NSSpellCheckerSubstitutionsPanel2" = "692 399 359 150 0 0 2560 1410 ";
@@ -374,6 +389,7 @@
     WebKitUseSystemAppearance = 1;
     XCFontAndColorCurrentDarkTheme = "Default (Dark).xccolortheme";
     Xcode3ProjectEditorSourceListVisible = 1;
-    Xcode3ProjectTemplateChooserAssistantSelectedTemplateSection = Multiplatform;
+    "Xcode3ProjectTemplateChooserAssistantSelectedTemplateName_Other" = "Other/External Build System";
+    Xcode3ProjectTemplateChooserAssistantSelectedTemplateSection = Other;
     XcodeCloudOnboardingPromptEnabled = 0;
 }

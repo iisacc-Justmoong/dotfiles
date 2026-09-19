@@ -1,6 +1,7 @@
 
 	disabled services = {
 		"com.microsoft.teams2.agent" => enabled
+		"org.pqrs.service.agent.Karabiner-Console-User-Server" => enabled
 		"us.electronic.mas.macdroid.launcher" => enabled
 		"com.apple.ManagedClientAgent.enrollagent" => disabled
 		"com.adobe.AdobeCreativeCloud" => enabled
@@ -13,6 +14,7 @@
 		"Canva" => enabled
 		"com.apple.weather.menu" => enabled
 		"com.adobe.CCLibrary" => enabled
+		"com.iisacc.society.daemon" => enabled
 		"com.apple.FolderActionsDispatcher" => disabled
 		"org.pqrs.service.agent.karabiner_console_user_server" => enabled
 		"org.pqrs.service.agent.Karabiner-NotificationWindow" => enabled

@@ -1,0 +1,16 @@
+{
+    revocableClients =     (
+                {
+            "_NSURLRevocableBookmarkActiveStatusKey" = 1;
+            "_NSURLRevocableBookmarkAppIdentifierKey" = "com.liuliu.draw-things";
+            "_NSURLRevocableBookmarkBundleIdentifierKey" = "com.liuliu.draw-things";
+            "_NSURLRevocableBookmarkSaltKey" = "DE6A45BB-0349-436A-B6B3-60787F15A658";
+        },
+                {
+            "_NSURLRevocableBookmarkActiveStatusKey" = 1;
+            "_NSURLRevocableBookmarkAppIdentifierKey" = "com.gingerlabs.Notability";
+            "_NSURLRevocableBookmarkBundleIdentifierKey" = "com.gingerlabs.Notability";
+            "_NSURLRevocableBookmarkSaltKey" = "8678E787-5F81-4507-A1AD-3190457C6513";
+        }
+    );
+}

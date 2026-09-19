@@ -16,12 +16,18 @@ LaunchNext	LaunchNext.3771750e97
 M683GB7CPW.com.box.tools	M683GB7CPW.com.box.tools.4be89d7e78
 MiniLauncher	MiniLauncher.6a698a7c96
 NSGlobalDomain	NSGlobalDomain.70dfd2a8be
+ScopedBookmarkAgent	ScopedBookmarkAgent.c3f890f4f9
 TokenBucketRateLimiter	TokenBucketRateLimiter.0638f8b971
 ai.elementlabs.lmstudio	ai.elementlabs.lmstudio.64de8674b6
 ai.moeru.airi	ai.moeru.airi.439e69c174
 ai.openclaw.mac	ai.openclaw.mac.884381eba3
 ai.openclaw.shared	ai.openclaw.shared.cb2c738c21
 bot.molt.mac	bot.molt.mac.c2d59c7738
+com.Adobe.Common 26.0	com.Adobe.Common_26.0.3b009c34c1
+com.Adobe.Premiere Pro	com.Adobe.Premiere_Pro.55b65b090c
+com.Adobe.Premiere Pro.26.0	com.Adobe.Premiere_Pro.26.0.15952c824d
+com.Adobe.Premiere Pro.26.5	com.Adobe.Premiere_Pro.26.5.5d500ea2aa
+com.Adobe.Team Projects.2.0	com.Adobe.Team_Projects.2.0.29f05da96d
 com.Box.Box-Edit	com.Box.Box-Edit.1ef7b31d29
 com.Breakpad.crash_report_sender	com.Breakpad.crash_report_sender.55674dd384
 com.adobe.AIRobin	com.adobe.AIRobin.4525870609
@@ -31,12 +37,14 @@ com.adobe.Install.Acrobat	com.adobe.Install.Acrobat.e9abbbcf71
 com.adobe.Photoshop	com.adobe.Photoshop.2cac0f7ff0
 com.adobe.Photoshop.uxp_com.adobe.ccx.lrimporter	com.adobe.Photoshop.uxp_com.adobe.ccx.lrimporter.754cd6dc91
 com.adobe.Photoshop.uxp_com.adobe.ccx.start	com.adobe.Photoshop.uxp_com.adobe.ccx.start.f14afce4c9
+com.adobe.PremierePro.26	com.adobe.PremierePro.26.8fe9e57553
 com.adobe.Synchronizer.DC	com.adobe.Synchronizer.DC.4b86746074
 com.adobe.acc.AdobeCreativeCloud	com.adobe.acc.AdobeCreativeCloud.84967794d5
 com.adobe.acc.AdobeDesktopService	com.adobe.acc.AdobeDesktopService.dd72136b64
 com.adobe.acc.HEXHelper.Renderer	com.adobe.acc.HEXHelper.Renderer.e068983aed
 com.adobe.accmac	com.adobe.accmac.0e4eb8c464
 com.adobe.cc.Install	com.adobe.cc.Install.629e28c7a5
+com.adobe.cep.CEPHtmlEngine Helper (Renderer)	com.adobe.cep.CEPHtmlEngine_Helper__Renderer.9c8830a521
 com.adobe.crashreporter	com.adobe.crashreporter.c020d8393e
 com.adobe.dunamis	com.adobe.dunamis.dc2fa60463
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.a87c8586c1
@@ -86,6 +94,7 @@ com.apple.AuthKit.AgeRangeSettingsCache	com.apple.AuthKit.AgeRangeSettingsCache.
 com.apple.AuthKitUI.AKAuthorizationRemoteViewService	com.apple.AuthKitUI.AKAuthorizationRemoteViewService.d617a7fff9
 com.apple.AuthenticationServices.Helper	com.apple.AuthenticationServices.Helper.a7d2d130d2
 com.apple.AuthenticationServicesCore.AuthenticationServicesAgent	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.8ecfdcfc52
+com.apple.Automator	com.apple.Automator.309b154c62
 com.apple.AvatarUI.Staryu	com.apple.AvatarUI.Staryu.5168ae2516
 com.apple.BatteryCenter.BatteryWidget	com.apple.BatteryCenter.BatteryWidget.ba102dfbc3
 com.apple.BezelServices	com.apple.BezelServices.e57ac9f234
@@ -165,6 +174,7 @@ com.apple.Maps.mapssyncd	com.apple.Maps.mapssyncd.05abfeb6a8
 com.apple.MenuBarAgent	com.apple.MenuBarAgent.ea2f766d81
 com.apple.MobileDeviceCrashCopy	com.apple.MobileDeviceCrashCopy.f21b12cad2
 com.apple.MobileSMS	com.apple.MobileSMS.322f809efb
+com.apple.MobileSMS.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.MobileSMS.B5C429A0-73BD-5081-8165-A1E7C0EB6331.f27b7f6bcc
 com.apple.MobileSMS.CKDNDList	com.apple.MobileSMS.CKDNDList.2eb3967ed7
 com.apple.MobileSMSPreview	com.apple.MobileSMSPreview.f411d1bbcf
 com.apple.Music	com.apple.Music.b2dcad7c53
@@ -378,6 +388,7 @@ com.apple.icloud.gm	com.apple.icloud.gm.998c581721
 com.apple.icloud.searchpartyuseragent	com.apple.icloud.searchpartyuseragent.6b8d601777
 com.apple.iclouddrive.features	com.apple.iclouddrive.features.c31a65cc27
 com.apple.icloudmailagent	com.apple.icloudmailagent.3d839f5336
+com.apple.icloudwebd	com.apple.icloudwebd.0150c2f4e9
 com.apple.identityservicesd	com.apple.identityservicesd.8f1b0311fb
 com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.768fe8e5f3
 com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.3f04964fce
@@ -465,6 +476,7 @@ com.apple.networkserviceproxy	com.apple.networkserviceproxy.254f7c3dbb
 com.apple.newscore	com.apple.newscore.d93d804248
 com.apple.newscore2	com.apple.newscore2.2651c689f9
 com.apple.newsd	com.apple.newsd.2447010b03
+com.apple.omniSearch.searchtoold	com.apple.omniSearch.searchtoold.7513682234
 com.apple.onetimepasscodes	com.apple.onetimepasscodes.b3ae150310
 com.apple.osanalytics.DiagnosticsReporter	com.apple.osanalytics.DiagnosticsReporter.d34ccf6314
 com.apple.osascript	com.apple.osascript.3e698d5f77
@@ -604,6 +616,7 @@ com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73
 com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.d58b3a86c4
 com.apple.wpc.energyservices.utilityservices	com.apple.wpc.energyservices.utilityservices.14c4aaff32
 com.apple.xpc.activity2	com.apple.xpc.activity2.617da1e751
+com.astropad.AstropadSlateMac	com.astropad.AstropadSlateMac.2a832d3ff7
 com.authormore.penpotdesktop	com.authormore.penpotdesktop.c08842188c
 com.autodesk.AdskIdentityManager	com.autodesk.AdskIdentityManager.e66b7bce1c
 com.autodesk.EAGLE 9.7.0	com.autodesk.EAGLE_9.7.0.7127703e0f
@@ -622,7 +635,12 @@ com.cisco.webex.webexmta	com.cisco.webex.webexmta.106b42fbaf
 com.cocos.dashboard	com.cocos.dashboard.c2802a6547
 com.codeweavers.CrossOver.wineloader	com.codeweavers.CrossOver.wineloader.92d2c444e5
 com.crowdcafe.windowmagnet	com.crowdcafe.windowmagnet.5ab0008f36
+com.daz.Classes	com.daz.Classes.b212b59747
+com.daz.Studio	com.daz.Studio.48e0dff2e7
+com.daz.Studio4	com.daz.Studio4.af41da3c8d
+com.daz.Studio6	com.daz.Studio6.02df93cc4b
 com.diffusionbee.diffusionbee	com.diffusionbee.diffusionbee.5867a88193
+com.electron.klingai	com.electron.klingai.b78c3ec4d7
 com.epicgames.EpicGamesLauncher	com.epicgames.EpicGamesLauncher.11f7ec2e61
 com.epicgames.EpicGamesModSdk	com.epicgames.EpicGamesModSdk.0ea1c83229
 com.epicgames.UnrealEditor	com.epicgames.UnrealEditor.6d70a981bc
@@ -636,6 +654,8 @@ com.googlecode.iterm2	com.googlecode.iterm2.1de43eda0e
 com.hnc.Discord	com.hnc.Discord.54b1cef1b7
 com.iisacc.Vincent	com.iisacc.Vincent.39f0c40019
 com.iisacc.app.whatson	com.iisacc.app.whatson.d6773bef17
+com.iisacc.dreamscapes	com.iisacc.dreamscapes.420e46a4be
+com.iisacc.society	com.iisacc.society.b787e4ac69
 com.iisacc.vincent.painter	com.iisacc.vincent.painter.8afa5e4922
 com.inria.Natron	com.inria.Natron.5782a296f5
 com.isaacmarovitz.Whisky	com.isaacmarovitz.Whisky.9b3173095c
@@ -686,6 +706,8 @@ com.qtproject.UserFeedback.QtTools	com.qtproject.UserFeedback.QtTools.a6514e1d6a
 com.robtop.geometrydashmac	com.robtop.geometrydashmac.63133ce6d4
 com.segment.storage.oai	com.segment.storage.oai.8d71e61596
 com.the-qt-company.Qt Apps	com.the-qt-company.Qt_Apps.69596c6149
+com.todesktop.241012ess7yxs0e	com.todesktop.241012ess7yxs0e.6f8293a3d9
+com.trolltech	com.trolltech.16e6aae089
 com.webex.eventcenter	com.webex.eventcenter.408daa5484
 com.webex.meetingmanager	com.webex.meetingmanager.636a4becca
 com.whatson-local.WhatSon	com.whatson-local.WhatSon.f5178ed0c9
@@ -727,8 +749,10 @@ llm.ai.assistant	llm.ai.assistant.c367d9a250
 localizationswitcherd	localizationswitcherd.84fe829aa6
 loginwindow	loginwindow.1ed4d47f59
 mbuseragent	mbuseragent.e0656fde8b
+net.vmlx.app	net.vmlx.app.3c00620ceb
 openclaw	openclaw.c0e408a0ac
 org.cups.PrintingPrefs	org.cups.PrintingPrefs.a1b146b9e3
+org.pqrs.Karabiner-Console-User-Server	org.pqrs.Karabiner-Console-User-Server.01eb59216f
 org.pqrs.Karabiner-Elements.Settings	org.pqrs.Karabiner-Elements.Settings.440bf9955c
 org.pqrs.Karabiner-EventViewer	org.pqrs.Karabiner-EventViewer.1456432000
 org.pqrs.Karabiner-Menu	org.pqrs.Karabiner-Menu.3be407ecf7
@@ -740,3 +764,4 @@ pro.betterdisplay.BetterDisplay	pro.betterdisplay.BetterDisplay.9994749c84
 se.quixel.bridge.plugin	se.quixel.bridge.plugin.f9420f95b7
 sharedfilelistd	sharedfilelistd.6b8b848c41
 systemgroup.com.apple.icloud.searchpartyd.sharedsettings	systemgroup.com.apple.icloud.searchpartyd.sharedsettings.8ed963f558
+xccov	xccov.de47802019

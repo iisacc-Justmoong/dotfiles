@@ -10,7 +10,7 @@
                     ascending = 1;
                     identifier = name;
                     visible = 1;
-                    width = 444;
+                    width = 348;
                 },
                                 {
                     ascending = 0;
@@ -92,7 +92,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-201";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -144,7 +144,7 @@
                     ascending = 1;
                     index = 0;
                     visible = 1;
-                    width = 444;
+                    width = 348;
                 };
                 size =                 {
                     ascending = 0;
@@ -160,7 +160,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-201";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -174,10 +174,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{-1785, 352}, {920, 839}}";
+            WindowBounds = "{{1129, 329}, {974, 739}}";
         };
     };
-    CopyProgressWindowLocation = "{760, 252}";
+    CopyProgressWindowLocation = "{872, 188}";
     DataSeparatedDisplayNameCache = "";
     DesktopViewSettings =     {
         IconViewSettings =         {
@@ -198,7 +198,7 @@
         };
     };
     DownloadsFolderListViewSettingsVersion = 1;
-    EmptyTrashProgressWindowLocation = "{789, 281}";
+    EmptyTrashProgressWindowLocation = "{1383, 288}";
     "FK_AppCentricShowSidebar" = 1;
     "FK_DefaultIconViewSettings" =     {
         arrangeBy = name;
@@ -223,7 +223,7 @@
                 ascending = 1;
                 identifier = name;
                 visible = 1;
-                width = 249;
+                width = 283;
             },
                         {
                 ascending = 0;
@@ -569,6 +569,7 @@
         viewOptionsVersion = 1;
     };
     FXArrangeGroupViewBy = Name;
+    FXDefaultSearchScope = SCcf;
     FXDesktopTouchBarUpgradedToTenTwelveOne = 1;
     FXDesktopVolumePositions =     {
         "BusyCal_0x1.6fae7ff8p+29" =         {
@@ -639,51 +640,47 @@
         OpenWith = 1;
     };
     FXLastSearchScope = SCev;
-    "FXPreferencesWindow.Location" = "{{1168, 58}, {377, 832}}";
+    "FXPreferencesWindow.Location" = "{{1168, 498}, {377, 392}}";
     FXPreferredSearchViewStyle = Nlsv;
     FXPreferredSearchViewStyleVersion = "%00%00%00%01";
     FXPreferredViewStyle = Nlsv;
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
+            "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
+            name = Storage;
         },
                 {
-            "file-bookmark" = {length = 724, bytes = 0x626f6f6b d4020000 00000510 40000000 ... 04000000 00000000 };
-            name = images;
+            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
+            name = Society;
         },
                 {
-            "file-bookmark" = {length = 684, bytes = 0x626f6f6b ac020000 00000510 40000000 ... 04000000 00000000 };
-            name = ".diffusionbee";
+            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
+            name = src;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = iiSDKCore;
+        },
+                {
+            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
+            name = SDK;
+        },
+                {
+            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
+            name = Workspace;
         },
                 {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 720, bytes = 0x626f6f6b d0020000 00000510 40000000 ... 04000000 00000000 };
-            name = Police;
+            "file-bookmark" = {length = 1124, bytes = 0x626f6f6b 64040000 00000510 40000000 ... 04000000 00000000 };
+            name = bin;
         },
                 {
-            "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
-            name = Documents;
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = "iCloud Drive";
-        },
-                {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = Character;
-        },
-                {
-            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = World;
+            "file-bookmark" = {length = 1084, bytes = 0x626f6f6b 3c040000 00000510 40000000 ... 04000000 00000000 };
+            name = build;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -705,13 +702,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159203-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc790\Ubc14-\Uc2a4\Ud504\Ub9c1\Ubd80\Ud2b8-\Uac1c\Ubc1c\Uc790-\Ubaa8\Uc9d1.pdf";
+    GoToField = "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion/";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159203-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc790\Ubc14-\Uc2a4\Ud504\Ub9c1\Ubd80\Ud2b8-\Uac1c\Ubc1c\Uc790-\Ubaa8\Uc9d1.pdf",
-        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159133-\Uc8fc\Uc2dd\Ud68c\Uc0ac-\Uc544\Uc6b8\Uc18c\Uc2f8\Uc774\Uc5b4\Ud2f0-\Uc77c\Ubcf8\Ub9c8\Ucf13-Global-B2B-Sales-Manager.pdf",
-        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159204-\Ud478\Ub4dc\Uc640\Ud2b8\Ub7ed-\Uc774\Uce20\Ub9f5-\Uc571\Uac1c\Ubc1c\Uc790-\Uad6c\Uc778\Uacf5\Uace0.pdf",
-        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/158410-\Uc8fc\Uc2dd\Ud68c\Uc0ac-\Ud074\Ub9b0\Ub514-\Ud074\Ub9b0\Ub514-\Uc77c\Ubcf8-\Uc2dc\Uc7a5-\Ub2f4\Ub2f9-\Ucc44\Uc6a9.pdf",
-        "/Volumes/Storage/Workspace/JobApplications/2026-08-23/RocketPunch-Cover-Letters/159071-AIM-Mapping-Co.-ltd-\Uacf5\Ub3d9\Ucc3d\Uc5c5\Uc790-CBO-\Ubaa8\Uc9d1.pdf"
+        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion",
+        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion/native/manifest.json",
+        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/rounding",
+        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/rounding/native/manifest.json",
+        "/Volumes/Storage/Workspace/Design/LVRS/Tabs-2026-09-16/fonts"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -804,7 +801,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-201";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -890,7 +887,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-201";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -904,10 +901,10 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{483, 289}, {891, 914}}";
+            WindowBounds = "{{1414, 245}, {974, 739}}";
         };
     };
-    LastTrashState = 1;
+    LastTrashState = 0;
     MeetingRoomViewSetting =     {
         CustomViewStyleVersion = 1;
         WindowState =         {
@@ -952,7 +949,8 @@
         );
         "TB Size Mode" = 1;
     };
-    "NSWindow Frame GoToSheet" = "1050 893 460 183 0 0 2560 1409 ";
+    "NSWindow Frame GoToSheet" = "1107 746 460 183 0 0 2560 1410 ";
+    "NSWindow Frame GoToWindow" = "1050 934 460 183 0 0 2560 1410 ";
     NetworkViewSettings =     {
         CustomViewStyleVersion = 1;
         ExtendedListViewSettingsV2 =         {
@@ -1044,7 +1042,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
@@ -1111,7 +1109,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
@@ -1125,32 +1123,197 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{802, 326}, {920, 662}}";
+            WindowBounds = "{{867, 190}, {958, 801}}";
         };
     };
-    NewWindowTarget = PfHm;
+    NewWindowTarget = PfLo;
+    NewWindowTargetPath = "file:///Volumes/Storage/Workspace/";
     PackageViewSettings =     {
+        ExtendedListViewSettingsV2 =         {
+            calculateAllSizes = 1;
+            columns =             (
+                                {
+                    ascending = 1;
+                    identifier = name;
+                    visible = 1;
+                    width = 444;
+                },
+                                {
+                    ascending = 0;
+                    identifier = ubiquity;
+                    visible = 0;
+                    width = 35;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateModified;
+                    visible = 1;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateCreated;
+                    visible = 0;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = size;
+                    visible = 1;
+                    width = 97;
+                },
+                                {
+                    ascending = 1;
+                    identifier = kind;
+                    visible = 1;
+                    width = 115;
+                },
+                                {
+                    ascending = 1;
+                    identifier = label;
+                    visible = 0;
+                    width = 100;
+                },
+                                {
+                    ascending = 1;
+                    identifier = version;
+                    visible = 0;
+                    width = 75;
+                },
+                                {
+                    ascending = 1;
+                    identifier = comments;
+                    visible = 0;
+                    width = 300;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateLastOpened;
+                    visible = 0;
+                    width = 196;
+                },
+                                {
+                    ascending = 0;
+                    identifier = shareOwner;
+                    visible = 0;
+                    width = 200;
+                },
+                                {
+                    ascending = 0;
+                    identifier = shareLastEditor;
+                    visible = 0;
+                    width = 200;
+                },
+                                {
+                    ascending = 0;
+                    identifier = dateAdded;
+                    visible = 0;
+                    width = 181;
+                },
+                                {
+                    ascending = 0;
+                    identifier = invitationStatus;
+                    visible = 0;
+                    width = 210;
+                }
+            );
+            iconSize = 16;
+            scrollPositionX = "-202";
+            scrollPositionY = 0;
+            showIconPreview = 1;
+            sortColumn = name;
+            textSize = 13;
+            useRelativeDates = 0;
+            viewOptionsVersion = 1;
+        };
+        ListViewSettings =         {
+            calculateAllSizes = 1;
+            columns =             {
+                comments =                 {
+                    ascending = 1;
+                    index = 7;
+                    visible = 0;
+                    width = 300;
+                };
+                dateCreated =                 {
+                    ascending = 0;
+                    index = 2;
+                    visible = 0;
+                    width = 181;
+                };
+                dateLastOpened =                 {
+                    ascending = 0;
+                    index = 8;
+                    visible = 0;
+                    width = 196;
+                };
+                dateModified =                 {
+                    ascending = 0;
+                    index = 1;
+                    visible = 1;
+                    width = 181;
+                };
+                kind =                 {
+                    ascending = 1;
+                    index = 4;
+                    visible = 1;
+                    width = 115;
+                };
+                label =                 {
+                    ascending = 1;
+                    index = 5;
+                    visible = 0;
+                    width = 100;
+                };
+                name =                 {
+                    ascending = 1;
+                    index = 0;
+                    visible = 1;
+                    width = 444;
+                };
+                size =                 {
+                    ascending = 0;
+                    index = 3;
+                    visible = 1;
+                    width = 97;
+                };
+                version =                 {
+                    ascending = 1;
+                    index = 6;
+                    visible = 0;
+                    width = 75;
+                };
+            };
+            iconSize = 16;
+            scrollPositionX = "-202";
+            scrollPositionY = 0;
+            showIconPreview = 1;
+            sortColumn = name;
+            textSize = 13;
+            useRelativeDates = 0;
+            viewOptionsVersion = 1;
+        };
         WindowState =         {
             ContainerShowSidebar = 1;
             ShowSidebar = 1;
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{737, 558}, {920, 492}}";
+            WindowBounds = "{{1197, 96}, {958, 801}}";
         };
     };
-    "PreferencesWindow.LastSelection" = SDBR;
+    "PreferencesWindow.LastSelection" = ADVD;
     RecentMoveAndCopyDestinations =     (
-        "file:///Volumes/Storage/Workspace/World/World/",
-        "file:///Volumes/Storage/Workspace/World/",
-        "file:///Applications/",
-        "file:///Volumes/Storage/Workspace/Product/AISNS/resources/",
-        "file:///Volumes/Storage/Workspace/Assets/Program/",
-        "file:///Volumes/Storage/Workspace/",
+        "file:///Volumes/Storage/Workspace/SDK/iiSDKCore/src/Core/",
+        "file:///Volumes/Storage/Workspace/SDK/iiSDKCore/src/",
         "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/",
-        "file:///Volumes/Storage/History/",
-        "file:///Volumes/Storage/Job/Resume/",
-        "file:///Volumes/Storage/Workspace/Assets/"
+        "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/Line_Conversation_Compress/",
+        "file:///Volumes/Storage/Workspace/Product/Utility/",
+        "file:///Volumes/Storage/Workspace/SDK/iiLocalDiffusion/resources/",
+        "file:///Volumes/Storage/Workspace/Product/Dreamscapes/resources/Appicon/",
+        "file:///Volumes/Storage/Workspace/Product/Society/resources/Appicon/",
+        "file:///Applications/",
+        "file:///Volumes/Storage/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
@@ -1211,7 +1374,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{-1143, 497}, {876, 723}}";
+            WindowBounds = "{{690, 82}, {958, 801}}";
         };
     };
     SearchSharedDocumentsSavedViewStyle = Nlsv;
@@ -1235,7 +1398,7 @@
     SidebarDevicesSectionDisclosedState = 1;
     SidebarMediaBrowserSectionDisclosedState = 1;
     SidebarPlacesSectionDisclosedState = 1;
-    SidebarWidth2 = 176;
+    SidebarWidth2 = 202;
     SmartSharedSearchViewSettings =     {
         WindowState =         {
             ContainerShowSidebar = 1;
@@ -1243,7 +1406,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{-1143, 497}, {876, 723}}";
+            WindowBounds = "{{1197, 96}, {958, 801}}";
         };
     };
     StandardViewOptions =     {
@@ -1540,7 +1703,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
@@ -1625,7 +1788,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-176";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = kind;
@@ -1639,10 +1802,12 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1248, 100}, {1056, 1001}}";
+            WindowBounds = "{{967, 125}, {903, 687}}";
         };
     };
     "ViewOptionsWindow.Location" = "{750, 344}";
     WarnOnEmptyTrash = 0;
     "_FXShowPosixPathInTitle" = 1;
+    "_FXSortFoldersFirst" = 1;
+    "_FXSortFoldersFirstOnDesktop" = 0;
 }

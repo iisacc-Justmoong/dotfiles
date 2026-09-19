@@ -11,7 +11,7 @@
     AnnouncePlayheadScrubbing = 0;
     Appearance = 0;
     ApplePersistenceIgnoreState = 1;
-    ApplicationLaunchCount = 2;
+    ApplicationLaunchCount = 3;
     ArrangeSearchZeroCross = 0;
     "AskToCloseDocument_n" = 0;
     AudioHardwarePreferences =     {
@@ -7106,6 +7106,7 @@
     LevelMeterOrder = 2;
     LevelMeterPeakHoldDuration = "0.8";
     LevelMeterReturnSpeed = "-11.8";
+    "LgWindow Frame Preferences" = "462 929 750 252 ";
     LimitDraggingToOneDirection = 0;
     LimitDraggingToOneDirectionArrange = 0;
     "LiveGroove_n" = 0;
@@ -7141,11 +7142,6 @@
             port = "Logic Pro Virtual In";
             uuid = 1753184574;
             virtual = 1;
-        },
-                {
-            on = 1;
-            port = "GarageBand Virtual Out";
-            uuid = 1164906362;
         }
     );
     MIDIResetExternalInstruments = "-4";
@@ -7193,16 +7189,25 @@
     );
     MostRecentPluginsToShow = 20;
     NSFullScreenMenuItemEverywhere = 0;
+    NSNavPanelExpandedSizeForOpenMode = "{880, 448}";
     NSNavPanelExpandedStateForSaveMode = 1;
+    NSOSPLastRootDirectory = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
     NSQuitAlwaysKeepsWindows = 0;
     "NSSplitView Subview Frames ProjectChooserSidebar" =     (
         "0.000000, 0.000000, 220.000000, 626.000000, NO, NO",
         "221.000000, 0.000000, 821.000000, 626.000000, NO, NO"
     );
+    "NSToolbar Configuration LgPreferencesToolbarIdentifier" =     {
+        "TB Display Mode" = 1;
+        "TB Icon Size Mode" = 1;
+        "TB Is Shown" = 1;
+        "TB Size Mode" = 1;
+    };
     "NSWindow Frame AdditionalContent" = "1645 1270 550 454 0 0 3840 2129 ";
     "NSWindow Frame Basic Content Download" = "2911 1191 650 387 0 0 3840 2129 ";
     "NSWindow Frame NewProjectDialog" = "142 607 1042 626 0 0 2560 1410 ";
-    "NSWindow Frame QuickHelpBalloonWindow" = "1271 914 264 172 0 0 2560 1410 ";
+    "NSWindow Frame Preferences" = "462 729 750 200 0 0 2560 1410 ";
+    "NSWindow Frame QuickHelpBalloonWindow" = "1271 914 263 172 0 0 2560 1410 ";
     NewRecordingSource = 0;
     NonDestructiveRegionGainAffect = 0;
     NonDestructiveRegionGainAlgorithm = 0;
@@ -7403,6 +7408,11 @@
     TransmitLocateCmdOnDraggingRegions = 1;
     TransmitLocateCmdOnRecordEnable = 0;
     UnavailableMIDIInputEnabled =     (
+                {
+            on = 1;
+            port = "GarageBand Virtual Out";
+            uuid = 1164906362;
+        }
     );
     UndoSteps = 100;
     UniversalContentLibraryUUID = "37F476C9-4B5A-4CF2-BB90-EB56C3BB5AA8";

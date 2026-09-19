@@ -1,23 +1,35 @@
 {
     gameMetadataHintsCache =     (
                 {
+            key = "file:///Volumes/Storage/Workspace/SDK/iiLocalDiffusion/build/ios-json-c/apps/json_parse.app/";
+            lastAccessDate = "2026-09-17 12:01:40 +0000";
+            sourceFiles =             (
+            );
+        },
+                {
+            key = "file:///Volumes/Storage/Workspace/SDK/LVRS/build/ios-device/CMakeFiles/_CMakeLTOTest-CXX/bin/boo.app/";
+            lastAccessDate = "2026-09-17 12:01:40 +0000";
+            sourceFiles =             (
+            );
+        },
+                {
             key = "file:///System/Applications/Games.app/";
-            lastAccessDate = "2026-08-27 23:52:25 +0000";
+            lastAccessDate = "2026-09-17 12:01:40 +0000";
             sourceFiles =             (
             );
         },
                 {
             key = "file:///System/Applications/Chess.app/";
-            lastAccessDate = "2026-08-27 23:52:25 +0000";
+            lastAccessDate = "2026-09-17 12:01:40 +0000";
             sourceFiles =             (
             );
         },
                 {
             key = "file:///System/Library/CoreServices/GameTrampoline.app/";
-            lastAccessDate = "2026-08-27 23:52:25 +0000";
+            lastAccessDate = "2026-09-17 12:01:40 +0000";
             sourceFiles =             (
             );
         }
     );
-    installedGames = {length = 656, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000204 };
+    installedGames = {length = 810, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000280 };
 }

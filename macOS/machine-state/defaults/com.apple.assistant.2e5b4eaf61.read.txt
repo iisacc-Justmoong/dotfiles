@@ -15,29 +15,29 @@
             "Validation Version" = 1;
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
-            "Ace Host" = "oh11sa-p02";
-            "Build Version" = 26A5421a;
+            "Ace Host" = se12sa;
+            "Build Version" = 26A428;
             "Connection Policy" =             {
                 "$class" = ConnectionPolicy;
                 "$group" = "com.apple.ace.system";
                 "$v" = "13.0";
-                disableMPTCP = 1;
+                disableMPTCP = 0;
                 enableOptimisticDNS = 1;
                 enableTCPNagle = 0;
                 enableTLS13 = 0;
                 enableTLS13ZeroRTT = 0;
                 enableTcpFastOpen = 0;
                 globalTimeout = 0;
-                mptcpFallbackPort = 0;
-                policyId = "disable-mptcp-odns-stationary_disable-mptcp-enble-odns-stationary_v1";
+                mptcpFallbackPort = "-2147483648";
+                policyId = "odns_odns-on_v1";
                 routes =                 (
                 );
                 timeToLive = 43200;
             };
-            "Connection Policy Date" = "2026-08-27 23:39:10 +0000";
-            "Connection Policy Hostname" = "https://seed.siri.apple.com";
-            "Last Assistant Data Anchor" = 6df3cf83fc92f45182bbbeb0701e80e2de6cb605;
-            "Validation Expiration" = "2026-08-31 00:42:47 +0000";
+            "Connection Policy Date" = "2026-09-10 21:39:26 +0000";
+            "Connection Policy Hostname" = "https://guzzoni.apple.com";
+            "Last Assistant Data Anchor" = 0fc9e2cda501ce54ec4e8eeb23675f6dd77eef86;
+            "Validation Expiration" = "2026-09-19 06:52:05 +0000";
             "Validation Version" = 1;
         };
     };
@@ -54,14 +54,14 @@
     "Initial Interstitial Delay - stark" = 5;
     "Initial Interstitial Delay for VoiceTrigger One-Shot without Audio Ducking" = "1.75";
     "Is Siri full UOD Supported" = 1;
-    "Is Trial config set to disable NL Server Fallback for Domain" = 0;
-    "Is Trial config set to disable NL Server Fallback for NL" = 0;
+    "Is Trial config set to disable NL Server Fallback for Domain" = 1;
+    "Is Trial config set to disable NL Server Fallback for NL" = 1;
     "Is Trial config set to disable media entity sync" = 1;
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
     "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-08-27 23:39:08 +0000";
-    "Last server experiment check date" = "2026-08-27 23:39:08 +0000";
+    "Last client experiment check date" = "2026-09-10 21:38:25 +0000";
+    "Last server experiment check date" = "2026-09-10 21:38:25 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";
@@ -70,5 +70,6 @@
     "Myriad Device Trump Delay" = "1.75";
     "Myriad VTEndtimeDistanceThreshold" = "0.5";
     "Server Has Provisioned Myriad" = 1;
+    SiriAIDataSharingOptOutV2Completed = 1;
     "Voice Trigger Needs Sync" = 0;
 }

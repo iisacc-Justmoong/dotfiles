@@ -1,7 +1,7 @@
 {
     "NSSplitView Subview Frames NSColorPanelSplitView" =     (
         "0.000000, 0.000000, 266.000000, 300.000000, NO, NO",
-        "0.000000, 320.000000, 266.000000, 77.000000, NO, NO"
+        "0.000000, 320.000000, 266.000000, 99.000000, NO, NO"
     );
     "NSToolbar Configuration com.apple.NSColorPanel" =     {
         "TB Is Shown" = 1;
@@ -22,11 +22,11 @@
     hideRemoveCommandDialog = {length = 4, bytes = 0x74727565};
     hideRemoveSegmentDialog = {length = 5, bytes = 0x66616c7365};
     highlightActivationAreas = {length = 5, bytes = 0x66616c7365};
-    horizontalCommands = {length = 14866, bytes = 0x5b7b226e 616d6522 3a22636f 6d6d616e ... 66616c73 657d7d5d };
+    horizontalCommands = {length = 14840, bytes = 0x5b7b2274 61726765 74417265 61223a7b ... 3a747275 657d7d5d };
     lastMigratedVersion = {length = 7, bytes = 0x22332e302e3022};
-    lastPreferenceSync = {length = 16, bytes = 0x3830363635313830332e303730333834};
+    lastPreferenceSync = {length = 16, bytes = 0x3831313430353935302e343734383335};
     launchAtLogin = {length = 4, bytes = 0x74727565};
-    launchCounter = {length = 3, bytes = 0x313235};
+    launchCounter = {length = 3, bytes = 0x313236};
     paddingAroundWindows = {length = 1, bytes = 0x38};
     preferencesSync = {length = 4, bytes = 0x74727565};
     pulseCommandsSidebarItem = {length = 5, bytes = 0x66616c7365};
@@ -36,7 +36,7 @@
     restoreToOriginalSize = {length = 4, bytes = 0x74727565};
     settingsOpened = {length = 4, bytes = 0x74727565};
     showGreenButtonMenu = {length = 5, bytes = 0x66616c7365};
-    snapWindows = {length = 5, bytes = 0x66616c7365};
+    snapWindows = {length = 4, bytes = 0x74727565};
     targetAreaAppearance = {length = 11, bytes = 0x226175746f6d6174696322};
     targetAreaBackgroundColor = {length = 10, bytes = 0x22303041444646323622};
     targetAreaOutlineColor = {length = 10, bytes = 0x22324339324641424622};

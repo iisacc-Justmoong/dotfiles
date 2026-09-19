@@ -16,12 +16,18 @@ LaunchNext
 M683GB7CPW.com.box.tools
 MiniLauncher
 NSGlobalDomain
+ScopedBookmarkAgent
 TokenBucketRateLimiter
 ai.elementlabs.lmstudio
 ai.moeru.airi
 ai.openclaw.mac
 ai.openclaw.shared
 bot.molt.mac
+com.Adobe.Common 26.0
+com.Adobe.Premiere Pro
+com.Adobe.Premiere Pro.26.0
+com.Adobe.Premiere Pro.26.5
+com.Adobe.Team Projects.2.0
 com.Box.Box-Edit
 com.Breakpad.crash_report_sender
 com.adobe.AIRobin
@@ -31,12 +37,14 @@ com.adobe.Install.Acrobat
 com.adobe.Photoshop
 com.adobe.Photoshop.uxp_com.adobe.ccx.lrimporter
 com.adobe.Photoshop.uxp_com.adobe.ccx.start
+com.adobe.PremierePro.26
 com.adobe.Synchronizer.DC
 com.adobe.acc.AdobeCreativeCloud
 com.adobe.acc.AdobeDesktopService
 com.adobe.acc.HEXHelper.Renderer
 com.adobe.accmac
 com.adobe.cc.Install
+com.adobe.cep.CEPHtmlEngine Helper (Renderer)
 com.adobe.crashreporter
 com.adobe.dunamis
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -86,6 +94,7 @@ com.apple.AuthKit.AgeRangeSettingsCache
 com.apple.AuthKitUI.AKAuthorizationRemoteViewService
 com.apple.AuthenticationServices.Helper
 com.apple.AuthenticationServicesCore.AuthenticationServicesAgent
+com.apple.Automator
 com.apple.AvatarUI.Staryu
 com.apple.BatteryCenter.BatteryWidget
 com.apple.BezelServices
@@ -165,6 +174,7 @@ com.apple.Maps.mapssyncd
 com.apple.MenuBarAgent
 com.apple.MobileDeviceCrashCopy
 com.apple.MobileSMS
+com.apple.MobileSMS.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.MobileSMS.CKDNDList
 com.apple.MobileSMSPreview
 com.apple.Music
@@ -378,6 +388,7 @@ com.apple.icloud.gm
 com.apple.icloud.searchpartyuseragent
 com.apple.iclouddrive.features
 com.apple.icloudmailagent
+com.apple.icloudwebd
 com.apple.identityservicesd
 com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.identityservicesd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
@@ -465,6 +476,7 @@ com.apple.networkserviceproxy
 com.apple.newscore
 com.apple.newscore2
 com.apple.newsd
+com.apple.omniSearch.searchtoold
 com.apple.onetimepasscodes
 com.apple.osanalytics.DiagnosticsReporter
 com.apple.osascript
@@ -604,6 +616,7 @@ com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73
 com.apple.windowserver.displays.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331
 com.apple.wpc.energyservices.utilityservices
 com.apple.xpc.activity2
+com.astropad.AstropadSlateMac
 com.authormore.penpotdesktop
 com.autodesk.AdskIdentityManager
 com.autodesk.EAGLE 9.7.0
@@ -622,7 +635,12 @@ com.cisco.webex.webexmta
 com.cocos.dashboard
 com.codeweavers.CrossOver.wineloader
 com.crowdcafe.windowmagnet
+com.daz.Classes
+com.daz.Studio
+com.daz.Studio4
+com.daz.Studio6
 com.diffusionbee.diffusionbee
+com.electron.klingai
 com.epicgames.EpicGamesLauncher
 com.epicgames.EpicGamesModSdk
 com.epicgames.UnrealEditor
@@ -636,6 +654,8 @@ com.googlecode.iterm2
 com.hnc.Discord
 com.iisacc.Vincent
 com.iisacc.app.whatson
+com.iisacc.dreamscapes
+com.iisacc.society
 com.iisacc.vincent.painter
 com.inria.Natron
 com.isaacmarovitz.Whisky
@@ -686,6 +706,8 @@ com.qtproject.UserFeedback.QtTools
 com.robtop.geometrydashmac
 com.segment.storage.oai
 com.the-qt-company.Qt Apps
+com.todesktop.241012ess7yxs0e
+com.trolltech
 com.webex.eventcenter
 com.webex.meetingmanager
 com.whatson-local.WhatSon
@@ -727,8 +749,10 @@ llm.ai.assistant
 localizationswitcherd
 loginwindow
 mbuseragent
+net.vmlx.app
 openclaw
 org.cups.PrintingPrefs
+org.pqrs.Karabiner-Console-User-Server
 org.pqrs.Karabiner-Elements.Settings
 org.pqrs.Karabiner-EventViewer
 org.pqrs.Karabiner-Menu
@@ -740,3 +764,4 @@ pro.betterdisplay.BetterDisplay
 se.quixel.bridge.plugin
 sharedfilelistd
 systemgroup.com.apple.icloud.searchpartyd.sharedsettings
+xccov

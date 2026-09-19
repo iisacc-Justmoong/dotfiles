@@ -3,6 +3,16 @@
         Photoshop =         {
             files =             (
                                 {
+                    "file-alias" = {length = 1456, bytes = 0x626f6f6b b0050000 00000510 40000000 ... a4030000 00000000 };
+                    "file-path" = "/Volumes/Storage/Workspace/lib/iiSharedCanvas/build/test-output/export-smartobject.psd";
+                    "file-time" = {length = 8, bytes = 0x9e241d2ccb24c841};
+                },
+                                {
+                    "file-alias" = {length = 1468, bytes = 0x626f6f6b bc050000 00000510 40000000 ... a8030000 00000000 };
+                    "file-path" = "/Volumes/Storage/Workspace/lib/iiSharedCanvas/build/test-output/export-bitmap-photoshop.psd";
+                    "file-time" = {length = 8, bytes = 0x2cd38d91ca24c841};
+                },
+                                {
                     "file-alias" = {length = 1324, bytes = 0x626f6f6b 2c050000 00000510 40000000 ... 3c030000 00000000 };
                     "file-path" = "/Volumes/Storage/Artwork/Character/Other/maybeWitch.psd";
                     "file-time" = {length = 8, bytes = 0xc92001bb3692c741};
@@ -17,6 +27,38 @@
         illustrator =         {
             "application-path" = "/Applications/Adobe Illustrator 2026/Adobe Illustrator.app";
             files =             (
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/Product/Dreamscapes/resources/Appicon/Appicon.ai";
+                    "file-time" = "2026-09-12 10:11:04 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/artifacts/layered-glass-icon-20260912/layered-glass-icon.ai";
+                    "file-time" = "2026-09-12 10:08:19 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/artifacts/layered-glass-icon-20260912/layered-glass-icon.svg";
+                    "file-time" = "2026-09-12 10:03:06 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/Product/Society/resources/Appicon/app-icon-full-bleed.ai";
+                    "file-time" = "2026-09-12 09:32:04 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/artifacts/app-icon-20260912/app-icon-full-bleed.ai";
+                    "file-time" = "2026-09-12 09:31:21 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/artifacts/app-icon-20260912/app-icon-full-bleed.svg";
+                    "file-time" = "2026-09-12 09:12:54 +0000";
+                },
+                                {
+                    "file-path" = "/Volumes/Storage/Workspace/artifacts/app-icon-20260912/trace-source.svg";
+                    "file-time" = "2026-09-12 09:01:42 +0000";
+                },
+                                {
+                    "file-path" = "/Users/ymy/Downloads/Codex Image Sep 12, 2026, 05_36_10 PM.png";
+                    "file-time" = "2026-09-12 08:52:27 +0000";
+                },
                                 {
                     "file-path" = "/Users/ymy/Downloads/iisacc.svg";
                     "file-time" = "2026-01-22 07:28:15 +0000";

@@ -22,7 +22,7 @@
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
-[WARN] Missing formula: 16, missing cask: 11
+[WARN] Missing formula: 16, missing cask: 14
 antoniorodr/memo/memo
 felixkratz/formulae/sketchybar
 openhue/cli/openhue-cli
@@ -46,11 +46,14 @@ betterdisplay
 blender
 codex
 epic-games
+font-hack-nerd-font
+font-inter
+font-meslo-for-powerlevel10k
 microsoft-auto-update
 sf-symbols
 visual-studio-code
 wacom-tablet
-[WARN] Extra formula: 132, extra cask: 2
+[WARN] Extra formula: 133, extra cask: 1
 ada-url
 aom
 apache-serf
@@ -72,17 +75,16 @@ aws-checksums
 awscli
 blake3
 android-commandlinetools
-diffusionbee
 
 === Zsh Environment Snapshot ===
-QT_PREFIX=/Users/ymy/Qt/6.8.3/macos
-LVRS_PREFIX=/Users/ymy/.local/LVRS/platforms/macos
-LVRS_HOST_PREFIX=/Users/ymy/.local/LVRS/platforms/macos
+QT_PREFIX=
+LVRS_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
+LVRS_HOST_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
 JAVA_HOME=/opt/homebrew/opt/openjdk/libexec/openjdk.jdk/Contents/Home
-CMAKE_PREFIX_PATH=/Users/ymy/.local/LVRS/platforms/macos:/Users/ymy/.local/LVRS:/Users/ymy/.local/iiHtmlBlock/platforms/macos:/Users/ymy/.local/iiHtmlBlock:/Users/ymy/.local/iiXml/platforms/macos:/Users/ymy/.local/iiXml:/Users/ymy/.local/iiPaintEngine/platforms/macos:/Users/ymy/.local/iiPaintEngine:/Users/ymy/Qt/6.8.3/macos
-QML2_IMPORT_PATH=/Users/ymy/.local/LVRS/platforms/macos/lib/qt6/qml:/Users/ymy/Qt/6.8.3/macos/qml
-QT_QML_IMPORT_PATH=/Users/ymy/.local/LVRS/platforms/macos/lib/qt6/qml:/Users/ymy/Qt/6.8.3/macos/qml
-DOTNET=/Users/ymy/.dotnet/dotnet
+CMAKE_PREFIX_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos:/Users/ymy/.local/SDK/LVRS:/Users/ymy/.local/SDK/iiXml/platforms/macos:/Users/ymy/.local/SDK/iiXml:/Users/ymy/.local/SDK/iiUpdateManager/platforms/macos:/Users/ymy/.local/SDK/iiUpdateManager:/Users/ymy/.local/SDK/iiSharedCanvas:/Users/ymy/.local/SDK/iiPaintEngine/platforms/macos:/Users/ymy/.local/SDK/iiPaintEngine:/Users/ymy/.local/SDK/iiLocalDiffusion/platforms/macos:/Users/ymy/.local/SDK/iiLocalDiffusion:/Users/ymy/.local/SDK/iiLicenseManager/platforms/macos:/Users/ymy/.local/SDK/iiLicenseManager:/Users/ymy/.local/SDK/iiHtmlBlock/platforms/macos:/Users/ymy/.local/SDK/iiHtmlBlock:/Users/ymy/.local/SDK/iiGeneralDocument
+QML2_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
+QT_QML_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
+DOTNET=
 [OK] zsh clean environment probe completed
 
 === Summary ===

@@ -16,7 +16,9 @@
         EntitySyncCleanedUp = 1;
     };
     ProcessInfo =     {
-        Version = "25.1.20997";
+        BrokerExitReason = Running;
+        BrokerExitTimestamp = 1789707974;
+        Version = "26.2.21901";
     };
     SophiaDTNotifications =     {
         countryCode = KR;
@@ -24,8 +26,8 @@
         isUserLoggedIn = 1;
     };
     SynchronizerPings =     {
-        "pingLocation_2" = 1768652352;
-        "pingLocation_5" = 1768652353;
+        "pingLocation_2" = 1789707960;
+        "pingLocation_5" = 1789707961;
         "pingLocation_7" = 1768652354;
     };
     WebServers =     {

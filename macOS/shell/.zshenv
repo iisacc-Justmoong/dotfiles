@@ -1,5 +1,23 @@
 #!/bin/zsh
 
+# Refresh inherited SDK search paths after checkout and installation relocation.
+for sdk_path_variable in PATH CMAKE_PREFIX_PATH CMAKE_INCLUDE_PATH CMAKE_LIBRARY_PATH CPATH C_INCLUDE_PATH CPLUS_INCLUDE_PATH LIBRARY_PATH PKG_CONFIG_PATH DYLD_FALLBACK_LIBRARY_PATH DYLD_LIBRARY_PATH DYLD_FRAMEWORK_PATH QML2_IMPORT_PATH QT_QML_IMPORT_PATH QT_PLUGIN_PATH LVRS_PREFIX LVRS_HOST_PREFIX LVRS_PLATFORMS_ROOT LVRS_ROOT; do
+  sdk_path_value="${(P)sdk_path_variable}"
+  for sdk_package_name in LVRS iiGeneralDocument iiHtmlBlock iiLicenseManager iiLocalDiffusion iiPaintEngine iiSharedCanvas iiUpdateManager iiXml; do
+    sdk_old_prefix="$HOME/.local/$sdk_package_name"
+    sdk_new_prefix="$HOME/.local/SDK/$sdk_package_name"
+    sdk_path_value="${sdk_path_value//$sdk_old_prefix/$sdk_new_prefix}"
+  done
+  sdk_old_prefix="$HOME/.local/lvrs"
+  sdk_new_prefix="$HOME/.local/SDK/LVRS"
+  sdk_path_value="${sdk_path_value//$sdk_old_prefix/$sdk_new_prefix}"
+  sdk_old_prefix="/Volumes/Storage/Workspace/lib/"
+  sdk_new_prefix="/Volumes/Storage/Workspace/SDK/"
+  sdk_path_value="${sdk_path_value//$sdk_old_prefix/$sdk_new_prefix}"
+  [[ -z "$sdk_path_value" ]] || export "$sdk_path_variable=$sdk_path_value"
+done
+unset sdk_path_variable sdk_path_value sdk_package_name sdk_old_prefix sdk_new_prefix
+
 _pathvar_prepend_unique() {
   typeset var_name="$1"
   typeset dir_path="$2"
@@ -19,6 +37,8 @@ export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 export LANG="${LANG:-en_US.UTF-8}"
 
 for base_path in \
+  "$HOME/.local/SDK/bin" \
+  "$HOME/.local/SDK/LVRS/bin" \
   "$HOME/.local/bin" \
   "$HOME/.local/sbin" \
   "$HOME/bin" \
@@ -102,6 +122,8 @@ _configure_local_package_prefix() {
 
   [[ -n "$package_prefix" && -d "$package_prefix" ]] || return 0
 
+  _pathvar_prepend_unique PATH "$package_prefix/bin"
+
   if [[ -d "$package_prefix/include" || -d "$package_prefix/lib" || -d "$package_prefix/lib/cmake" ]]; then
     _pathvar_prepend_unique CMAKE_PREFIX_PATH "$package_prefix"
     _pathvar_prepend_unique CMAKE_INCLUDE_PATH "$package_prefix/include"
@@ -113,18 +135,22 @@ _configure_local_package_prefix() {
 }
 
 for local_package_prefix in \
-  "$HOME/.local/iiPaintEngine" \
-  "$HOME/.local/iiXml" \
-  "$HOME/.local/iiHtmlBlock"; do
+  "$HOME/.local/SDK/iiGeneralDocument" \
+  "$HOME/.local/SDK/iiHtmlBlock" \
+  "$HOME/.local/SDK/iiLicenseManager" \
+  "$HOME/.local/SDK/iiLocalDiffusion" \
+  "$HOME/.local/SDK/iiPaintEngine" \
+  "$HOME/.local/SDK/iiSharedCanvas" \
+  "$HOME/.local/SDK/iiUpdateManager" \
+  "$HOME/.local/SDK/iiXml"; do
   _configure_local_package_prefix "$local_package_prefix"
   _configure_local_package_prefix "$local_package_prefix/platforms/macos"
 done
 
 if [[ -z "${LVRS_PREFIX:-}" || ! -d "${LVRS_PREFIX:-}" ]]; then
   for lvrs_candidate in \
-    "$HOME/.local/LVRS/platforms/macos" \
-    "$HOME/.local/LVRS" \
-    "$HOME/.local/lvrs" \
+    "$HOME/.local/SDK/LVRS/platforms/macos" \
+    "$HOME/.local/SDK/LVRS" \
     "$HOME/Developer/LVRS/build-install" \
     "$HOME/Developer/LVRS/install"; do
     if [[ -d "$lvrs_candidate/include/LVRS" || -d "$lvrs_candidate/lib/cmake" || -d "$lvrs_candidate/lib/qt6/qml" ]]; then

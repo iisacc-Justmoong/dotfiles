@@ -35,7 +35,8 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Window 0" = "838 102 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1370 231 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Window 0" = "1370 231 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
     "NeverWarnAboutShortLivedSessions_A5BC6692-F4CB-432B-9A50-F74C22C672CC" = 1;
@@ -575,6 +576,7 @@
         }
     );
     NoSyncAllAppVersions =     (
+        "3.7.0",
         "3.6.10",
         "3.6.6",
         "3.6.9",
@@ -585,6 +587,10 @@
         "JetBrains Mono",
         Monaco
     );
+    NoSyncClaudeCodeAutoRequestReviewBackfilled = 1;
+    NoSyncClaudeCodeAutoSendClippingsBackfilled = 1;
+    NoSyncClaudeCodeDiffModeBackfilled = 1;
+    NoSyncClaudeCodeReviewSystemPromptCommandBackfilled = 1;
     NoSyncConfirmRunOpenFile = 1;
     "NoSyncConfirmRunOpenFile_selection" = 0;
     "NoSyncFrame_SharedPreferences" =     {
@@ -593,11 +599,16 @@
     };
     NoSyncIgnoreSystemWindowRestoration = 1;
     NoSyncInstallationId = "5E395F17-3A68-4107-85A8-61388C2E1C13";
-    NoSyncLastOSVersion = "Version 27.0 (Build 26A5421a)";
+    NoSyncLastOSVersion = "Version 27.0 (Build 26A428)";
+    NoSyncLastShutdownWasClean = 0;
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 124;
+    NoSyncLaunchExperienceControllerRunCount = 133;
+    NoSyncMigratedDynamicProfileTagToFlag = 1;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
+    NoSyncPersistentRateLimitedUpdates =     {
+        CheckForUpdatedUv = "810889968.538712";
+    };
     NoSyncRecordedVariables =     {
         0 =         (
                         {
@@ -609,132 +620,12 @@
         1 =         (
                         {
                 isTerminal = 1;
-                name = presentationName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = tmuxRole;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = lastCommand;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = profileName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = showingAlternateScreen;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
                 name = id;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
-                name = termid;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = homeDirectory;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = jobName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = columns;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = uname;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = "tab.tmuxWindowTitle";
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = processTitle;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = tmuxClientName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = hostname;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = selectionLength;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = mouseInfo;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = path;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = shell;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = triggerName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 0;
-                name = parentSession;
-                nonterminalContext = 1;
-            },
-                        {
-                isTerminal = 1;
-                name = terminalIconName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = tmuxWindowPane;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = mouseReportingMode;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = name;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = tmuxStatusRight;
+                name = "effective_root_pid";
                 nonterminalContext = 0;
             },
                         {
@@ -744,32 +635,17 @@
             },
                         {
                 isTerminal = 1;
-                name = tmuxPaneTitle;
+                name = showingAlternateScreen;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
-                name = rows;
+                name = homeDirectory;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
-                name = tmuxWindowPaneIndex;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = tty;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = autoLogId;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = badge;
+                name = tmuxStatusLeft;
                 nonterminalContext = 0;
             },
                         {
@@ -779,32 +655,7 @@
             },
                         {
                 isTerminal = 1;
-                name = logFilename;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = "effective_root_pid";
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = sshIntegrationLevel;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = "tab.tmuxWindowName";
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 0;
-                name = tab;
-                nonterminalContext = 2;
-            },
-                        {
-                isTerminal = 1;
-                name = tmuxStatusLeft;
+                name = autoNameFormat;
                 nonterminalContext = 0;
             },
                         {
@@ -814,17 +665,67 @@
             },
                         {
                 isTerminal = 1;
+                name = isLocalhost;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 0;
+                name = parentSession;
+                nonterminalContext = 1;
+            },
+                        {
+                isTerminal = 0;
+                name = tab;
+                nonterminalContext = 2;
+            },
+                        {
+                isTerminal = 1;
+                name = sshIntegrationLevel;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxPaneTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = termid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = bellCount;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
-                name = autoNameFormat;
+                name = foregroundJobAncestors;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
-                name = autoName;
+                name = mouseInfo;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "tab.tmuxWindowTitle";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = triggerName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = logFilename;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowPaneIndex;
                 nonterminalContext = 0;
             },
                         {
@@ -834,7 +735,22 @@
             },
                         {
                 isTerminal = 1;
-                name = creationTimeString;
+                name = mouseReportingMode;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = deepestJob;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = hostname;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = name;
                 nonterminalContext = 0;
             },
                         {
@@ -844,17 +760,132 @@
             },
                         {
                 isTerminal = 1;
-                name = applicationKeypad;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
                 name = jobPid;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
+                name = tmuxClientName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = pid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxStatusRight;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = selectionLength;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = isBroadcastSource;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = uname;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = processTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = rows;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = autoLogId;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = autoName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxRole;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = columns;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = jobName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = terminalIconName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = shell;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = lastCommand;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = badge;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tmuxWindowPane;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = profileName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "tab.tmuxWindowName";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = applicationKeypad;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = path;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = tty;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = creationTimeString;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = presentationName;
                 nonterminalContext = 0;
             }
         );
@@ -891,6 +922,11 @@
             },
                         {
                 isTerminal = 1;
+                name = title;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = "currentTab.currentSession.terminalWindowName";
                 nonterminalContext = 0;
             },
@@ -922,6 +958,11 @@
                         {
                 isTerminal = 1;
                 name = "currentTab.currentSession";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.isLocalhost";
                 nonterminalContext = 0;
             },
                         {
@@ -992,6 +1033,11 @@
                         {
                 isTerminal = 1;
                 name = "currentTab.currentSession.bellCount";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.deepestJob";
                 nonterminalContext = 0;
             },
                         {
@@ -1130,6 +1176,16 @@
         4 =         (
                         {
                 isTerminal = 1;
+                name = effectiveTheme;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = appBundlePath;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = pid;
                 nonterminalContext = 0;
             },
@@ -1137,24 +1193,26 @@
                 isTerminal = 1;
                 name = localhostName;
                 nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = effectiveTheme;
-                nonterminalContext = 0;
             }
         );
     };
     NoSyncRemoveDeprecatedKeyMappings = 1;
     NoSyncRestoreWindowsCount = 0;
     NoSyncSavedWindowPositions =     {
-        0 = "{838, 944}";
         1 = "{1787, 953}";
         2 = "{66, 1135}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1370, 1073}";
+    };
+    NoSyncSuppressedAlertsCatalog =     {
     };
     NoSyncTipOfTheDayEligibilityBeganTime = "790339530.2609479";
     NoSyncUserHasSelectedCommand = 1;
+    NoSyncWindowCornerRadiusCache =     {
+        "mask_32783_tv_0_os_27_0_scale_1.0" = "31.5";
+        "mask_32783_tv_0_os_27_0_scale_2.0" = "17.75";
+    };
     NoSyncWindowRestoresWorkspaceAtLaunch = 0;
+    NoSyncWorkgroupShortcutsBackfilled = 1;
     OnlyWhenMoreTabs = 0;
     PointerActions =     {
         "Button,1,1,," =         {
@@ -1183,7 +1241,7 @@
     SUFeedAlternateAppNameKey = iTerm;
     SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=76";
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-08-27 07:54:15 +0000";
+    SULastCheckTime = "2026-09-11 07:12:49 +0000";
     SUSendProfileInfo = 0;
     SUUpdateGroupIdentifier = 118056111;
     SUUpdateRelaunchingMarker = 0;
@@ -1191,7 +1249,7 @@
     TabStyleWithAutomaticOption = 5;
     TripleClickSelectsFullWrappedLines = 0;
     VisualIndicatorForEsc = 0;
-    "iTerm Version" = "3.6.11";
+    "iTerm Version" = "3.7.0";
     kCPKSelectionViewPreferredModeKey = 0;
     kCPKSelectionViewShowHSBTextFieldsKey = 0;
 }
