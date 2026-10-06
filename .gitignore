@@ -12,3 +12,7 @@
 /macOS/launchd
 /machine-state/runtime/
 !/.gitconfig
+# Windows 빌드 및 실행 검증 결과
+/build/
+/Windows/__pycache__/
+/Windows/tests/__pycache__/

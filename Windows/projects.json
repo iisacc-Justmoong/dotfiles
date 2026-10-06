@@ -1,0 +1,2629 @@
+{
+  "schema": 1,
+  "environment": {
+    "CMAKE_PREFIX_PATH": "C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiGeneralDocument;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/node_modules",
+    "PYTHONUTF8": "1",
+    "QT_QPA_PLATFORM": "offscreen",
+    "QT_QUICK_BACKEND": "software",
+    "QML_IMPORT_PATH": "C:/Qt/6.8.3/mingw_64/qml",
+    "CMAKE_TOOLCHAIN_FILE": "C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+    "VCPKG_DEFAULT_TRIPLET": "x64-mingw-static",
+    "ICU_ROOT": "C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static",
+    "OPENSSL_ROOT_DIR": "C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static",
+    "RUSTUP_HOME": "{workspace}/.windows-validation/build/rust/rustup",
+    "CARGO_HOME": "{workspace}/.windows-validation/build/rust/cargo",
+    "QT_FORCE_STDERR_LOGGING": "1",
+    "QT_ASSUME_STDERR_HAS_CONSOLE": "1"
+  },
+  "path": [
+    "C:/Qt/Tools/mingw1310_64/bin",
+    "C:/Qt/6.8.3/mingw_64/bin",
+    "{workspace}/.windows-validation/build/rust/cargo/bin",
+    "{workspace}/.windows-validation/build/ffmpeg/ffmpeg-9.0.2-essentials_build/bin",
+    "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin",
+    "C:/Program Files/Git/bin",
+    "C:/Program Files/Git/usr/bin",
+    "C:/Qt/Tools/Ninja",
+    "C:/Users/Windows/.local/tools/mdnsresponder/bin",
+    "C:/Users/Windows/.local/SDK/iiAcountManager/bin",
+    "C:/Users/Windows/.local/SDK/iiActorObject/bin",
+    "C:/Users/Windows/.local/SDK/iiAudioGen/bin",
+    "C:/Users/Windows/.local/SDK/iiCSMIDI/bin",
+    "C:/Users/Windows/.local/SDK/iiFileProvider/bin",
+    "C:/Users/Windows/.local/SDK/iiGeneralDocument/bin",
+    "C:/Users/Windows/.local/SDK/iiHtmlBlock/bin",
+    "C:/Users/Windows/.local/SDK/iiLicenseManager/bin",
+    "C:/Users/Windows/.local/SDK/iiLocalDiffusion/bin",
+    "C:/Users/Windows/.local/SDK/iiLocalLLM/bin",
+    "C:/Users/Windows/.local/SDK/iiPaintEngine/bin",
+    "C:/Users/Windows/.local/SDK/iiSDKCore/bin",
+    "C:/Users/Windows/.local/SDK/iiServerHost/bin",
+    "C:/Users/Windows/.local/SDK/iiSharedCanvas/bin",
+    "C:/Users/Windows/.local/SDK/iiSocietyContainer/bin",
+    "C:/Users/Windows/.local/SDK/iiSocietyHelper/bin",
+    "C:/Users/Windows/.local/SDK/iiSocietySync/bin",
+    "C:/Users/Windows/.local/SDK/iiUpdateManager/bin",
+    "C:/Users/Windows/.local/SDK/iiVoiceOver/bin",
+    "C:/Users/Windows/.local/SDK/iiWhatsNew/bin",
+    "C:/Users/Windows/.local/SDK/iiXml/bin",
+    "C:/Users/Windows/.local/SDK/LVRS/bin",
+    "C:/Program Files/Git/cmd",
+    "C:/Users/Windows/.local/SDK/LVRS/platforms/windows/bin",
+    "C:/Qt/Tools/Ninja",
+    "C:/Qt/Tools/CMake_64/bin",
+    "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin"
+  ],
+  "projects": [
+    {
+      "name": "dotfiles",
+      "path": "dotfiles",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "-S",
+            "{workspace}/dotfiles",
+            "-B",
+            "{workspace}/dotfiles/build",
+            "-G",
+            "Ninja",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/dotfiles/build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/dotfiles/build",
+            "--output-on-failure"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iisacc-Justmoong",
+      "path": "GitHub/iisacc-Justmoong",
+      "kind": "documentation",
+      "steps": []
+    },
+    {
+      "name": "Product",
+      "path": "Product",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{python}",
+            "-X",
+            "pycache_prefix={workspace}/Product/build/python-cache",
+            "-m",
+            "compileall",
+            "-q",
+            "-x",
+            "[\\\\/]build[\\\\/]",
+            "build-policy"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{python}",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "build-policy/tests"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AISNS",
+      "path": "Product/.Deprecated/AISNS",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "build/server/runtime/index.js"
+          ],
+          "http": {
+            "expected": "<html"
+          },
+          "timeout": 60,
+          "env": {
+            "NODE_ENV": "test",
+            "SNS_BACKEND_ENABLED": "false",
+            "AI_AUTONOMY_ENABLED": "false"
+          }
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "test",
+            "--",
+            "--run"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BuffetSsam",
+      "path": "Product/.Deprecated/BuffetSsam",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "node_modules/vite/bin/vite.js",
+            "preview",
+            "--host",
+            "127.0.0.1",
+            "--port",
+            "{port}",
+            "--strictPort"
+          ],
+          "http": {
+            "expected": "<html"
+          },
+          "timeout": 60
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "test"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RefNexus",
+      "path": "Product/.Deprecated/RefNexus",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/.Deprecated/RefNexus",
+            "-B",
+            "{workspace}/Product/.Deprecated/RefNexus/build",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/.Deprecated/RefNexus/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/.Deprecated/RefNexus/build/RefNexus.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TextEditor",
+      "path": "Product/.Deprecated/TextEditor",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "-S",
+            "{workspace}/Product/.Deprecated/TextEditor",
+            "-B",
+            "{workspace}/Product/.Deprecated/TextEditor/build",
+            "-DBUILD_TESTING=ON"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/.Deprecated/TextEditor/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/.Deprecated/TextEditor/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/.Deprecated/TextEditor/build/iisaccTexEdit.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vincent",
+      "path": "Product/.Deprecated/Vincent",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/.Deprecated/Vincent",
+            "-B",
+            "{workspace}/Product/.Deprecated/Vincent/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DCMAKE_CXX_STANDARD=23",
+            "-DiiSharedCanvas_DIR={workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/lib/cmake/iiSharedCanvas"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/.Deprecated/Vincent/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/.Deprecated/Vincent/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/.Deprecated/Vincent/build/Vincent.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          },
+          "prepend_path": [
+            "{workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/bin",
+            "{workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/lib"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "WhatSon",
+      "path": "Product/.Deprecated/WhatSon",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/.Deprecated/WhatSon",
+            "-B",
+            "{workspace}/Product/.Deprecated/WhatSon/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DCMAKE_CXX_STANDARD=23"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/.Deprecated/WhatSon/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/.Deprecated/WhatSon/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/.Deprecated/WhatSon/build/WhatSon.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Alright",
+      "path": "Product/Alright",
+      "kind": "command",
+      "steps": [],
+      "excluded": "사용자 지정 macOS 전용"
+    },
+    {
+      "name": "AnoPDF",
+      "path": "Product/AnoPDF",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "dotnet",
+            "build",
+            "-c",
+            "Release"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "dotnet",
+            "test",
+            "-c",
+            "Release",
+            "--no-build",
+            "--logger",
+            "trx;LogFileName=windows-runtime.trx",
+            "--results-directory",
+            "{workspace}/Product/AnoPDF/build/test-results"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/AnoPDF/build/bin/AnoPDF.Desktop/Release/net9.0/AnoPDF.Desktop.exe"
+          ],
+          "native": true
+        }
+      ]
+    },
+    {
+      "name": "Congregation",
+      "path": "Product/Congregation",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/Congregation",
+            "-B",
+            "{workspace}/Product/Congregation/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DCMAKE_CXX_STANDARD=23",
+            "-DiiSharedCanvas_DIR={workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/lib/cmake/iiSharedCanvas"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/Congregation/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/Congregation/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/Congregation/build/Congregation.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          },
+          "prepend_path": [
+            "{workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/bin",
+            "{workspace}/SDK/iiSharedCanvas/build/legacy-0.11/install/lib"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dreamscapes",
+      "path": "Product/Dreamscapes",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/Dreamscapes",
+            "-B",
+            "{workspace}/Product/Dreamscapes/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DCMAKE_CXX_STANDARD=23"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/Dreamscapes/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/Dreamscapes/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/Dreamscapes/build/Dreamscapes.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "OrderSystem",
+      "path": "Product/OrderSystem",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "dotnet",
+            "build",
+            "-c",
+            "Release"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "dotnet",
+            "test",
+            "-c",
+            "Release",
+            "--no-build",
+            "--logger",
+            "trx;LogFileName=windows-runtime.trx",
+            "--results-directory",
+            "{workspace}/Product/OrderSystem/build/test-results"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/OrderSystem/build/bin/Release/net8.0/OrderSystem.Desktop.exe"
+          ],
+          "native": true
+        }
+      ]
+    },
+    {
+      "name": "Society",
+      "path": "Product/Society",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/Society",
+            "-B",
+            "{workspace}/Product/Society/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DCMAKE_CXX_STANDARD=23"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/Society/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/Product/Society/build",
+            "--output-on-failure",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/Society/build/Society.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Thinking Space",
+      "path": "Product/Thinking Space",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/Product/Thinking Space",
+            "-B",
+            "{workspace}/Product/Thinking Space/build",
+            "-G",
+            "Ninja",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/Product/Thinking Space/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/Product/Thinking Space/build/Thinking_Space.exe"
+          ],
+          "native": true,
+          "env": {
+            "SOCIETY_HELPER_DIRECTORY": "{workspace}/dotfiles/build/native-helper",
+            "SOCIETY_STORAGE_SETTINGS_PATH": "{workspace}/dotfiles/build/native-settings.json"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Time Scopes",
+      "path": "Product/Utility/TimeScopes",
+      "kind": "command",
+      "steps": [],
+      "excluded": "사용자 지정 macOS 전용"
+    },
+    {
+      "name": "Webgma",
+      "path": "Product/Webgma",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "test"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SDK",
+      "path": "SDK",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{python}",
+            "-X",
+            "pycache_prefix={workspace}/SDK/build/python-cache",
+            "-m",
+            "compileall",
+            "-q",
+            "-x",
+            "[\\\\/]build[\\\\/]",
+            "install_all.py",
+            "tests"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{python}",
+            "-m",
+            "unittest",
+            "discover",
+            "-s",
+            "tests",
+            "-p",
+            "test*.py"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iiAcountManager",
+      "path": "SDK/iiAcountManager",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiAcountManager",
+            "-B",
+            "{workspace}/SDK/iiAcountManager/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiAcountManager",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DBUILD_SHARED_LIBS=OFF",
+            "-DIIACCOUNTMANAGER_BUILD_QUICK=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiAcountManager/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiAcountManager/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiActorObject",
+      "path": "SDK/iiActorObject",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiActorObject",
+            "-B",
+            "{workspace}/SDK/iiActorObject/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiActorObject",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiActorObject/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiActorObject/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiAudioGen",
+      "path": "SDK/iiAudioGen",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiAudioGen",
+            "-B",
+            "{workspace}/SDK/iiAudioGen/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiAudioGen",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiAudioGen/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiAudioGen/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiCalendar",
+      "path": "SDK/iiCalendar",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiCalendar",
+            "-B",
+            "{workspace}/SDK/iiCalendar/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiCalendar",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiCalendar/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiCalendar/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiCSMIDI",
+      "path": "SDK/iiCSMIDI",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiCSMIDI",
+            "-B",
+            "{workspace}/SDK/iiCSMIDI/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiCSMIDI",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiCSMIDI/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiCSMIDI/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiDecision",
+      "path": "SDK/iiDecision",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiDecision",
+            "-B",
+            "{workspace}/SDK/iiDecision/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiDecision",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiDecision/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiDecision/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiFileProvider",
+      "path": "SDK/iiFileProvider",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiFileProvider",
+            "-B",
+            "{workspace}/SDK/iiFileProvider/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiFileProvider",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiFileProvider/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiFileProvider/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiGeneralDocument",
+      "path": "SDK/iiGeneralDocument",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiGeneralDocument",
+            "-B",
+            "{workspace}/SDK/iiGeneralDocument/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIGENERALDOCUMENT_BUILD_SHARED=ON",
+            "-DIIGENERALDOCUMENT_USE_SYSTEM_LIBZIP=ON",
+            "-DIIGENERALDOCUMENT_USE_SYSTEM_QPDF=ON",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DiiHtmlBlock_DIR=C:/Users/Windows/.local/SDK/iiHtmlBlock/lib/cmake/iiHtmlBlock",
+            "-DiiXml_DIR=C:/Users/Windows/.local/SDK/iiXml/lib/cmake/iiXml",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiGeneralDocument/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiGeneralDocument/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiHtmlBlock",
+      "path": "SDK/iiHtmlBlock",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiHtmlBlock",
+            "-B",
+            "{workspace}/SDK/iiHtmlBlock/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiHtmlBlock",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIHTMLBLOCK_BUILD_SHARED=OFF",
+            "-DiiXml_DIR=C:/Users/Windows/.local/SDK/iiXml/lib/cmake/iiXml",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiHtmlBlock/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiHtmlBlock/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiLicenseManager",
+      "path": "SDK/iiLicenseManager",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiLicenseManager",
+            "-B",
+            "{workspace}/SDK/iiLicenseManager/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiLicenseManager",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DiiAcountManager_DIR=C:/Users/Windows/.local/SDK/iiAcountManager/lib/cmake/iiAcountManager",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DIILICENSEMANAGER_SODIUM_ROOT=C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiLicenseManager/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiLicenseManager/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiLocalDiffusion",
+      "path": "SDK/iiLocalDiffusion",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiLocalDiffusion",
+            "-B",
+            "{workspace}/SDK/iiLocalDiffusion/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiLocalDiffusion",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIILD_BUILD_TOOLS=ON",
+            "-DIILD_ENABLE_COREML=OFF",
+            "-DIILD_ENABLE_LIBTORCH=OFF",
+            "-DIILD_ENABLE_MLX=OFF",
+            "-DIILD_ENABLE_NATIVE_DIFFUSION=ON",
+            "-DIILD_INSTALL_PYTHON_REFERENCE=ON",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiLocalDiffusion/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiLocalDiffusion/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiLocalLLM",
+      "path": "SDK/iiLocalLLM",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiLocalLLM",
+            "-B",
+            "{workspace}/SDK/iiLocalLLM/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiLocalLLM",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIILOCALLLM_TEST_AGENT_NO_THINK=OFF",
+            "-DIILOCALLLM_TEST_AGENT_THINKING_CONTROL=OFF",
+            "-DIILOCALLLM_TEST_AGENT_TOOL_GRAMMAR=ON",
+            "-DIILOCALLLM_WITH_LLAMA=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiDecision_DIR=C:/Users/Windows/.local/SDK/iiDecision/lib/cmake/iiDecision",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiLocalLLM/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiLocalLLM/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiPaintEngine",
+      "path": "SDK/iiPaintEngine",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiPaintEngine",
+            "-B",
+            "{workspace}/SDK/iiPaintEngine/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiPaintEngine",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIPAINTENGINE_BUILD_SHARED=ON",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiPaintEngine/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiPaintEngine/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiPhotoLibrary",
+      "path": "SDK/iiPhotoLibrary",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiPhotoLibrary",
+            "-B",
+            "{workspace}/SDK/iiPhotoLibrary/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiPhotoLibrary",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DLVRS_DIR=C:/Users/Windows/.local/SDK/LVRS/lib/cmake/LVRS",
+            "-DiiSocietyContainer_DIR=C:/Users/Windows/.local/SDK/iiSocietyContainer/lib/cmake/iiSocietyContainer",
+            "-DiiSocietySync_DIR=C:/Users/Windows/.local/SDK/iiSocietySync/lib/cmake/iiSocietySync",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiPhotoLibrary/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiPhotoLibrary/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSDKCore",
+      "path": "SDK/iiSDKCore",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSDKCore",
+            "-B",
+            "{workspace}/SDK/iiSDKCore/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_CXX_COMPILER=C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSDKCore",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe"
+          ],
+          "env": {
+            "PATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\;C:\\Program Files (x86)\\HTML Help Workshop;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\.codex\\tmp\\arg0\\codex-arg0DzABac;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Bandizip\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Windows\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin;C:\\Users\\Windows\\.local\\SDK\\LVRS\\platforms\\windows\\bin;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\Windows\\.local\\iiPaintEngine\\bin;C:\\Users\\Windows\\.local\\iiPaintEngine\\platforms\\windows\\bin;C:\\Qt\\6.8.3\\mingw_64\\bin;C:\\Qt\\Tools\\mingw1310_64\\bin;C:\\Qt\\Tools\\Ninja;C:\\Qt\\Tools\\CMake_64\\bin;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Windows\\AppData\\Roaming\\npm;C:\\Users\\Windows\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Microsoft.Sysinternals.Suite_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\lucasg.Dependencies_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Syft_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Grype_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.OSVScanner_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\.local\\tools\\wix3141;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\Cppcheck;C:\\Users\\Windows\\AppData\\Local\\Unity\\bin;C:\\Users\\Windows\\.dotnet\\tools;C:\\Users\\Windows\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\438f63242d1bcf85;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\ca9abb0b4d8ac692;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg",
+            "INCLUDE": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.28000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um",
+            "LIB": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\lib\\um\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.28000.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\\\lib\\10.0.28000.0\\\\um\\x64",
+            "LIBPATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.28000.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.28000.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+          }
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSDKCore/build",
+            "--parallel",
+            "4"
+          ],
+          "env": {
+            "PATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\;C:\\Program Files (x86)\\HTML Help Workshop;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\.codex\\tmp\\arg0\\codex-arg0DzABac;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Bandizip\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Windows\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin;C:\\Users\\Windows\\.local\\SDK\\LVRS\\platforms\\windows\\bin;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\Windows\\.local\\iiPaintEngine\\bin;C:\\Users\\Windows\\.local\\iiPaintEngine\\platforms\\windows\\bin;C:\\Qt\\6.8.3\\mingw_64\\bin;C:\\Qt\\Tools\\mingw1310_64\\bin;C:\\Qt\\Tools\\Ninja;C:\\Qt\\Tools\\CMake_64\\bin;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Windows\\AppData\\Roaming\\npm;C:\\Users\\Windows\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Microsoft.Sysinternals.Suite_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\lucasg.Dependencies_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Syft_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Grype_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.OSVScanner_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\.local\\tools\\wix3141;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\Cppcheck;C:\\Users\\Windows\\AppData\\Local\\Unity\\bin;C:\\Users\\Windows\\.dotnet\\tools;C:\\Users\\Windows\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\438f63242d1bcf85;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\ca9abb0b4d8ac692;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg",
+            "INCLUDE": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.28000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um",
+            "LIB": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\lib\\um\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.28000.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\\\lib\\10.0.28000.0\\\\um\\x64",
+            "LIBPATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.28000.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.28000.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+          }
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSDKCore/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200,
+          "env": {
+            "PATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\VCPackages;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TestWindow;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\bin\\Roslyn;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8.1 Tools\\x64\\;C:\\Program Files (x86)\\HTML Help Workshop;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Team Tools\\DiagnosticsHub\\Collector;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\Extensions\\Microsoft\\CodeCoverage.Console;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.28000.0\\\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\\\MSBuild\\Current\\Bin\\amd64;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\Tools\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\.codex\\tmp\\arg0\\codex-arg0DzABac;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Bandizip\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\dotnet\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\IncrediBuild;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\Windows\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin;C:\\Users\\Windows\\.local\\SDK\\LVRS\\platforms\\windows\\bin;C:\\Python314\\Scripts\\;C:\\Python314\\;C:\\Users\\Windows\\.local\\iiPaintEngine\\bin;C:\\Users\\Windows\\.local\\iiPaintEngine\\platforms\\windows\\bin;C:\\Qt\\6.8.3\\mingw_64\\bin;C:\\Qt\\Tools\\mingw1310_64\\bin;C:\\Qt\\Tools\\Ninja;C:\\Qt\\Tools\\CMake_64\\bin;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\Windows\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Windows\\AppData\\Roaming\\npm;C:\\Users\\Windows\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Microsoft.Sysinternals.Suite_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\lucasg.Dependencies_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Syft_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Anchore.Grype_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Google.OSVScanner_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\\Users\\Windows\\.local\\tools\\wix3141;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.26100.0\\x64;C:\\Program Files\\LLVM\\bin;C:\\Program Files\\Cppcheck;C:\\Users\\Windows\\AppData\\Local\\Unity\\bin;C:\\Users\\Windows\\.dotnet\\tools;C:\\Users\\Windows\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin;C:\\Users\\Windows\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\438f63242d1bcf85;C:\\Users\\Windows\\AppData\\Local\\OpenAI\\Codex\\bin\\ca9abb0b4d8ac692;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\Llvm\\x64\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\vcpkg",
+            "INCLUDE": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\include;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Auxiliary\\VS\\include;C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.28000.0\\ucrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\um;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\shared;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\winrt;C:\\Program Files (x86)\\Windows Kits\\10\\\\include\\10.0.28000.0\\\\cppwinrt;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\include\\um",
+            "LIB": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8.1\\lib\\um\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\lib\\10.0.28000.0\\ucrt\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\\\lib\\10.0.28000.0\\\\um\\x64",
+            "LIBPATH": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\ATLMFC\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x64;C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\lib\\x86\\store\\references;C:\\Program Files (x86)\\Windows Kits\\10\\UnionMetadata\\10.0.28000.0;C:\\Program Files (x86)\\Windows Kits\\10\\References\\10.0.28000.0;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
+          }
+        }
+      ]
+    },
+    {
+      "name": "iiServerHost",
+      "path": "SDK/iiServerHost",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiServerHost",
+            "-B",
+            "{workspace}/SDK/iiServerHost/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiServerHost",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DBUILD_SHARED_LIBS=ON",
+            "-DIISERVERHOST_WITH_CURL=ON",
+            "-DIISERVERHOST_WITH_STORAGE_PROCESS=ON",
+            "-DIISERVERHOST_TEST_OPENSSL=C:/Program Files/Git/usr/bin/openssl.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiServerHost/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiServerHost/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSharedCanvas",
+      "path": "SDK/iiSharedCanvas",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSharedCanvas",
+            "-B",
+            "{workspace}/SDK/iiSharedCanvas/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSharedCanvas",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIISHAREDCANVAS_BUILD_SHARED=ON",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DiiPaintEngine_DIR=C:/Users/Windows/.local/SDK/iiPaintEngine/lib/cmake/iiPaintEngine",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSharedCanvas/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSharedCanvas/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSocietyClient",
+      "path": "SDK/iiSocietyClient",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSocietyClient",
+            "-B",
+            "{workspace}/SDK/iiSocietyClient/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSocietyClient",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DiiAcountManager_DIR=C:/Users/Windows/.local/SDK/iiAcountManager/lib/cmake/iiAcountManager",
+            "-DiiSocietySync_DIR=C:/Users/Windows/.local/SDK/iiSocietySync/lib/cmake/iiSocietySync",
+            "-DIISOCIETYCLIENT_DNSSD_INCLUDE=C:/Users/Windows/.local/tools/mdnsresponder/include",
+            "-DIISOCIETYCLIENT_DNSSD_LIBRARY=C:/Users/Windows/.local/tools/mdnsresponder/lib/libdns_sd.a",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DIISOCIETYCLIENT_DNSSD_LIBRARY=C:/Users/Windows/.local/tools/mdnsresponder/lib/libdnssd.dll.a"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSocietyClient/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSocietyClient/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSocietyContainer",
+      "path": "SDK/iiSocietyContainer",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSocietyContainer",
+            "-B",
+            "{workspace}/SDK/iiSocietyContainer/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSocietyContainer",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIISOCIETYCONTAINER_BUILD_GUI=ON",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static",
+            "-DDokan_ROOT={workspace}/.windows-validation/build/dokan/sdk-native",
+            "-DDokan_INCLUDE_DIR={workspace}/.windows-validation/build/dokan/sdk-native/include/dokan",
+            "-DDokan_LIBRARY={workspace}/.windows-validation/build/dokan/sdk-native/lib/x64/dokan2.lib"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSocietyContainer/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSocietyContainer/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSocietyGeneration",
+      "path": "SDK/iiSocietyGeneration",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSocietyGeneration",
+            "-B",
+            "{workspace}/SDK/iiSocietyGeneration/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSocietyGeneration",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DiiLocalDiffusion_DIR=C:/Users/Windows/.local/SDK/iiLocalDiffusion/lib/cmake/iiLocalDiffusion",
+            "-DiiSocietyContainer_DIR=C:/Users/Windows/.local/SDK/iiSocietyContainer/lib/cmake/iiSocietyContainer",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSocietyGeneration/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSocietyGeneration/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSocietyHelper",
+      "path": "SDK/iiSocietyHelper",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSocietyHelper",
+            "-B",
+            "{workspace}/SDK/iiSocietyHelper/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSocietyHelper",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DiiAcountManager_DIR=C:/Users/Windows/.local/SDK/iiAcountManager/lib/cmake/iiAcountManager",
+            "-DiiSocietyContainer_DIR=C:/Users/Windows/.local/SDK/iiSocietyContainer/lib/cmake/iiSocietyContainer",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSocietyHelper/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSocietyHelper/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiSocietySync",
+      "path": "SDK/iiSocietySync",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiSocietySync",
+            "-B",
+            "{workspace}/SDK/iiSocietySync/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiSocietySync",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIISOCIETYSYNC_WITH_BLE=ON",
+            "-DiiServerHost_DIR=C:/Users/Windows/.local/SDK/iiServerHost/lib/cmake/iiServerHost",
+            "-DiiSocietyContainer_DIR=C:/Users/Windows/.local/SDK/iiSocietyContainer/lib/cmake/iiSocietyContainer",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiSocietySync/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiSocietySync/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiUpdateManager",
+      "path": "SDK/iiUpdateManager",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiUpdateManager",
+            "-B",
+            "{workspace}/SDK/iiUpdateManager/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiUpdateManager",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiUpdateManager/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiUpdateManager/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiVoiceOver",
+      "path": "SDK/iiVoiceOver",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiVoiceOver",
+            "-B",
+            "{workspace}/SDK/iiVoiceOver/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiVoiceOver",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiVoiceOver/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiVoiceOver/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiWhatsNew",
+      "path": "SDK/iiWhatsNew",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiWhatsNew",
+            "-B",
+            "{workspace}/SDK/iiWhatsNew/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiWhatsNew",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiWhatsNew/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiWhatsNew/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "iiXml",
+      "path": "SDK/iiXml",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/iiXml",
+            "-B",
+            "{workspace}/SDK/iiXml/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/iiXml",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DIIXML_BUILD_SHARED=OFF",
+            "-DiiFileProvider_DIR=C:/Users/Windows/.local/SDK/iiFileProvider/lib/cmake/iiFileProvider",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/iiXml/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/iiXml/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "LVRS",
+      "path": "SDK/LVRS",
+      "kind": "command",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--fresh",
+            "-S",
+            "{workspace}/SDK/LVRS",
+            "-B",
+            "{workspace}/SDK/LVRS/build",
+            "-G",
+            "Ninja",
+            "-DBUILD_TESTING=ON",
+            "-DCMAKE_BUILD_TYPE=Release",
+            "-DCMAKE_INSTALL_PREFIX=C:/Users/Windows/.local/SDK/LVRS",
+            "-DCMAKE_PREFIX_PATH=C:/Qt/6.8.3/mingw_64;C:/Users/Windows/.local/tools/vcpkg/installed/x64-mingw-static;C:/Users/Windows/.local/tools/mdnsresponder;C:/Users/Windows/.local/SDK/LVRS;C:/Users/Windows/.local/SDK/LVRS-Svelte;C:/Users/Windows/.local/SDK/iiActorObject;C:/Users/Windows/.local/SDK/iiAudioGen;C:/Users/Windows/.local/SDK/iiCalendar;C:/Users/Windows/.local/SDK/iiDecision;C:/Users/Windows/.local/SDK/iiFileProvider;C:/Users/Windows/.local/SDK/iiLocalDiffusion;C:/Users/Windows/.local/SDK/iiSDKCore;C:/Users/Windows/.local/SDK/iiServerHost;C:/Users/Windows/.local/SDK/iiSocietyContainer;C:/Users/Windows/.local/SDK/iiUpdateManager;C:/Users/Windows/.local/SDK/iiVoiceOver;C:/Users/Windows/.local/SDK/iiWhatsNew;C:/Users/Windows/.local/SDK/iiAcountManager;C:/Users/Windows/.local/SDK/iiCSMIDI;C:/Users/Windows/.local/SDK/iiLocalLLM;C:/Users/Windows/.local/SDK/iiPaintEngine;C:/Users/Windows/.local/SDK/iiSocietyGeneration;C:/Users/Windows/.local/SDK/iiSocietySync;C:/Users/Windows/.local/SDK/iiXml;C:/Users/Windows/.local/SDK/iiHtmlBlock;C:/Users/Windows/.local/SDK/iiLicenseManager;C:/Users/Windows/.local/SDK/iiPhotoLibrary;C:/Users/Windows/.local/SDK/iiSharedCanvas;C:/Users/Windows/.local/SDK/iiSocietyClient;C:/Users/Windows/.local/SDK/iiSocietyHelper;C:/Users/Windows/.local/SDK/iiGeneralDocument",
+            "-DCMAKE_C_COMPILER=C:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+            "-DCMAKE_CXX_COMPILER=C:/Qt/Tools/mingw1310_64/bin/g++.exe",
+            "-DCMAKE_MAKE_PROGRAM=C:/Qt/Tools/Ninja/ninja.exe",
+            "-DQt6_DIR=C:/Qt/6.8.3/mingw_64/lib/cmake/Qt6",
+            "-DPython3_EXECUTABLE=C:/Users/Windows/AppData/Local/Programs/Python/Python311/python.exe",
+            "-DLVRS_AUTO_FALLBACK_X86_QT_TOOLS=ON",
+            "-DLVRS_BUILD_EXAMPLES=OFF",
+            "-DLVRS_BUILD_SHARED_LIBS=ON",
+            "-DLVRS_BUILD_TESTS=ON",
+            "-DLVRS_ENABLE_FRAMEWORK_BOOTSTRAP_TARGETS=ON",
+            "-DLVRS_ENABLE_IPO=OFF",
+            "-DLVRS_ENABLE_PLATFORM_BUILD_OPTIMIZATIONS=ON",
+            "-DLVRS_ENFORCE_VULKAN=ON",
+            "-DLVRS_FORCE_X86_QT_TOOLS=OFF",
+            "-DLVRS_INSTALL_EXAMPLES=ON",
+            "-DLVRS_INSTALL_QML_MODULE=ON",
+            "-DLVRS_IS_TOP_LEVEL=ON",
+            "-DCMAKE_TOOLCHAIN_FILE=C:/Users/Windows/.local/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+            "-DVCPKG_TARGET_TRIPLET=x64-mingw-static",
+            "-DVCPKG_HOST_TRIPLET=x64-mingw-static"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/cmake.exe",
+            "--build",
+            "{workspace}/SDK/LVRS/build",
+            "--parallel",
+            "4"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "{workspace}/.windows-validation/build/cmake-runtime/cmake/data/bin/ctest.exe",
+            "--test-dir",
+            "{workspace}/SDK/LVRS/build",
+            "--output-on-failure",
+            "--no-tests=error",
+            "--timeout",
+            "600"
+          ],
+          "timeout": 7200
+        }
+      ]
+    },
+    {
+      "name": "LVRS-Svelte",
+      "path": "SDK/LVRS-Svelte",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "node_modules/vite/bin/vite.js",
+            "preview",
+            "--host",
+            "127.0.0.1",
+            "--port",
+            "{port}",
+            "--strictPort"
+          ],
+          "http": {
+            "expected": "LVRS-Svelte"
+          },
+          "timeout": 60
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "test"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adcenter.iisacc.com",
+      "path": "Webservice/Adcenter.iisacc.com",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "node_modules/vite/bin/vite.js",
+            "preview",
+            "--host",
+            "127.0.0.1",
+            "--port",
+            "{port}",
+            "--strictPort"
+          ],
+          "http": {
+            "expected": "<html"
+          },
+          "timeout": 60
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "verify"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "iisacc.com",
+      "path": "Webservice/iisacc.com",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "scripts/backend-command.mjs",
+            "install"
+          ],
+          "env": {
+            "RUBY_BINARY": "{workspace}/.windows-validation/build/tools/ruby40/bin/ruby.exe",
+            "REDIS_SERVER_BINARY": "{workspace}/.windows-validation/build/tools/redis-native/redis-server.exe",
+            "NODE_BINARY": "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "BUNDLE_FROZEN": "true",
+            "BUNDLE_FORCE_RUBY_PLATFORM": "true",
+            "BUNDLE_BUILD__NOKOGIRI": "--use-system-libraries --with-xml2-dir={workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64 --with-xslt-dir={workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64"
+          },
+          "prepend_path": [
+            "{workspace}/.windows-validation/build/tools/ruby40/bin",
+            "{workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64/bin",
+            "{workspace}/.windows-validation/build/tools/ruby40/msys64/usr/bin"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "scripts/start-frontend.mjs"
+          ],
+          "http": {
+            "expected": "iisacc"
+          },
+          "timeout": 60
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "lint"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "scripts/verify-windows-backend.mjs"
+          ],
+          "env": {
+            "RUBY_BINARY": "{workspace}/.windows-validation/build/tools/ruby40/bin/ruby.exe",
+            "REDIS_SERVER_BINARY": "{workspace}/.windows-validation/build/tools/redis-native/redis-server.exe",
+            "NODE_BINARY": "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "BUNDLE_FROZEN": "true",
+            "BUNDLE_FORCE_RUBY_PLATFORM": "true",
+            "BUNDLE_BUILD__NOKOGIRI": "--use-system-libraries --with-xml2-dir={workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64 --with-xslt-dir={workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64"
+          },
+          "timeout": 1800,
+          "prepend_path": [
+            "{workspace}/.windows-validation/build/tools/ruby40/bin",
+            "{workspace}/.windows-validation/build/tools/ruby40/msys64/ucrt64/bin"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StoreLinktreeAlternate",
+      "path": "Webservice/StoreLinktreeAlternate",
+      "kind": "web",
+      "steps": [
+        {
+          "phase": "build",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "build"
+          ]
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "node_modules/vite/bin/vite.js",
+            "preview",
+            "--host",
+            "127.0.0.1",
+            "--port",
+            "{port}",
+            "--strictPort"
+          ],
+          "http": {
+            "expected": "<html"
+          },
+          "timeout": 60
+        },
+        {
+          "phase": "runtime",
+          "command": [
+            "C:/Users/Windows/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+            "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+            "run",
+            "check"
+          ]
+        }
+      ]
+    }
+  ]
+}
