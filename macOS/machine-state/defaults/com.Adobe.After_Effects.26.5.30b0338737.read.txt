@@ -1,0 +1,3424 @@
+{
+    CCFilesEOL =     {
+        "0B564CAC56BAC0507F000101@AdobeID" =         {
+            Floodgate =             {
+                Expiry = 1792797463;
+                Payload = "{\"api_version\":\"0.1\",\"json_version\":\"0.1\",\"clients\":{\"dva-ccf-eol\":{\"analyticsVersion\":\"1.0\",\"releases\":[]},\"ccfiles_eol_prod\":{\"analyticsVersion\":\"1.0\",\"client_analytics_params\":{\"app_id\":657,\"safe_event_required\":false,\"analytics_required\":false},\"releases\":[{\"bit_index\":-2017,\"release_name\":\"ccfiles_eol_phase_cs_prod\",\"features\":[\"ccfiles_eol_phase\"],\"meta\":[{\"k\":\"ccfiles_eol_phase\",\"v\":\"NkU=\"}]}]}},\"ttl\":300}";
+            };
+        };
+    };
+    PluginCache =     {
+        "en_US" =         {
+            AELibraryPlugins =             {
+                "3DModelImporter.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "AEDynamicLinkServer.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "AEGPDriver.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "AIFF.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Align.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Analyzer.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "AnimateImporter.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Anywhere2.plugin_c81bd5b3-0205-bf7b-860f-edd90c426d0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Audio Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "BallAction.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1181184;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134222850;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Ball Action";
+                        Name = "CC Ball Action";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "BendIt.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 722432;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Bend It";
+                        Name = "CC Bend It";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Bender.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 722432;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33555008;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Bender";
+                        Name = "CC Bender";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Blobbylize.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 855552;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663296;
+                        AEVFFlags2 = 134217733;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Blobbylize";
+                        Name = "CC Blobbylize";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "BlockLoad.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS BlockLoad";
+                        Name = "CC Block Load";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Brush Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Bubbles.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1213952;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34078726;
+                        AEVFFlags2 = 134222848;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Bubbles";
+                        Name = "CC Bubbles";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "BurnFilm.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Burn Film";
+                        Name = "CC Burn Film";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "CEPManager.plugin_c81bd5b3-0205-bf7b-860f-edd90c426d0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Calder.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Character Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Cineware_AE_Effect.plugin_2ba5abb1-fa7b-3df6-aedc-d20b0cc2dc0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Cineware_AE_Exporter.plugin_2ba5abb1-fa7b-3df6-aedc-d20b0cc2dc0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Cineware_AE_LiveLink.plugin_2ba5abb1-fa7b-3df6-aedc-d20b0cc2dc0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Cineware_AE_SceneLayer.plugin_2ba5abb1-fa7b-3df6-aedc-d20b0cc2dc0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "ColorNeutralizer.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134222848;
+                        Category = "Color Correction";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS Color Neutralizer";
+                        Name = "CC Color Neutralizer";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "ColorOffset.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 820736;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134218752;
+                        Category = "Color Correction";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Color Offset";
+                        Name = "CC Color Offset";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Composite.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1117696;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100667968;
+                        AEVFFlags2 = 134222848;
+                        Category = Channel;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS Composite";
+                        Name = "CC Composite";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "CompositeObsolete.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 102760512;
+                        AEVFFlags2 = 134217728;
+                        Category = Channel;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Composite";
+                        Name = "CC Composite (obsolete)";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "CrossBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 689664;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554944;
+                        AEVFFlags2 = 134222848;
+                        Category = "Blur & Sharpen";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS CrossBlur";
+                        Name = "CC Cross Blur";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Cryptomatte.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Cylinder.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134217730;
+                        Category = Perspective;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Cylinder";
+                        Name = "CC Cylinder";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Drizzle.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 820736;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663302;
+                        AEVFFlags2 = 134222853;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Drizzle";
+                        Name = "CC Drizzle";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "EXtractoR.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "EasyEase.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Environment.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 722432;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 101187648;
+                        AEVFFlags2 = 134222850;
+                        Category = Perspective;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Environment";
+                        Name = "CC Environment";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Ernst.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "EssentialGraphics.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "ExpScale.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Expressions and Scripting Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Filler.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "FloMotion.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Flo Motion";
+                        Name = "CC Flo Motion";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "ForceMB.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1082880;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 101187586;
+                        AEVFFlags2 = 134353920;
+                        Category = Time;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Force Motion Blur";
+                        Name = "CC Force Motion Blur";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Glass.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 822784;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663296;
+                        AEVFFlags2 = 134217733;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Glass";
+                        Name = "CC Glass";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "GlassWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 888320;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134217728;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Glass Wipe";
+                        Name = "CC Glass Wipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "GlueGun.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663302;
+                        AEVFFlags2 = 134222853;
+                        Category = Generate;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Glue Gun";
+                        Name = "CC Glue Gun";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "GridWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Grid Wipe";
+                        Name = "CC Grid Wipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Griddler.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1148416;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Griddler";
+                        Name = "CC Griddler";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Hair.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 757248;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134217728;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Hair";
+                        Name = "CC Hair";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "HexTile.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 591360;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS HexTile";
+                        Name = "CC HexTile";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "IDentifier.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "ImageWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 790016;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554434;
+                        AEVFFlags2 = 134217729;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Image Wipe";
+                        Name = "CC Image Wipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Info Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "JPEG.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Jaws.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Jaws";
+                        Name = "CC Jaws";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Kaleida.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34078784;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Kaleida";
+                        Name = "CC Kaleida";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Kernel.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 591360;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = "Color Correction";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS Kernel";
+                        Name = "CC Kernel";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "KeylightPro.plugin_e75e5f76-468d-848d-ea60-37bf44164834" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Lens.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1115648;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Lens";
+                        Name = "CC Lens";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LightBurst.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1771008;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663296;
+                        AEVFFlags2 = 134222912;
+                        Category = Generate;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Light Burst 2.5";
+                        Name = "CC Light Burst 2.5";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LightRays.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134222848;
+                        Category = Generate;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Light Rays";
+                        Name = "CC Light Rays";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LightSweep.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 820736;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Generate;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Light Sweep";
+                        Name = "CC Light Sweep";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LightWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134217728;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Light Wipe";
+                        Name = "CC Light Wipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LineSweep.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 591360;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34078784;
+                        AEVFFlags2 = 134222848;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS LineSweep";
+                        Name = "CC Line Sweep";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "LocalizePresets.plugin_c81bd5b3-0205-bf7b-860f-edd90c426d0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "LumetriScopesPal.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MCP Server.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MayaImport.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MediaBrowser.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MetaPal.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Mocha Shape for After Effects.plugin_32310483-1b9c-a154-4130-0e1a294c9eb1" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MochaAE.bundle_32310483-1b9c-a154-4130-0e1a294c9eb1" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MochaAEAEGP.bundle_32310483-1b9c-a154-4130-0e1a294c9eb1" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MotionSketch.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "MrMercury.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 886272;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663302;
+                        AEVFFlags2 = 134222853;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Mr. Mercury";
+                        Name = "CC Mr. Mercury";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "MrSmoothie.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 724480;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134217728;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Mr. Smoothie";
+                        Name = "CC Mr. Smoothie";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "OpenEXR.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Overbrights.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134222848;
+                        Category = Utility;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Overbrights";
+                        Name = "CC Overbrights";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PS Layer Export.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "PS Layer Import.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "PSClassic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 35651590;
+                        AEVFFlags2 = 0;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC PS Classic";
+                        Name = "CC PS Classic (obsolete)";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PSLEClassic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 35651590;
+                        AEVFFlags2 = 0;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC PS LE Classic";
+                        Name = "CC PS LE Classic (obsolete)";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PageTurn.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1181184;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663872;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Page Turn";
+                        Name = "CC Page Turn";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Paint Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Paragraph Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "ParticleSystemsII.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1115648;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 101187590;
+                        AEVFFlags2 = 134222848;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Particle Systems II";
+                        Name = "CC Particle Systems II";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "ParticleWorld.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 984576;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 101220358;
+                        AEVFFlags2 = 142606338;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Particle World";
+                        Name = "CC Particle World";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PixelPolly.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 886272;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554438;
+                        AEVFFlags2 = 134217728;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Pixel Polly";
+                        Name = "CC Pixel Polly";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Plastic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 693760;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663296;
+                        AEVFFlags2 = 134217733;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Plastic";
+                        Name = "CC Plastic";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PowerPin.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 951808;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34116160;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Power Pin";
+                        Name = "CC Power Pin";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "PremiereProImport.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Properties Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "RPFImport.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "RQMonitor.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "RadialBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134222848;
+                        Category = "Blur & Sharpen";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Radial Blur";
+                        Name = "CC Radial Blur";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "RadialFastBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134217728;
+                        Category = "Blur & Sharpen";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Radial Fast Blur";
+                        Name = "CC Radial Fast Blur";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "RadialScaleWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134217728;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Radial ScaleWipe";
+                        Name = "CC Radial ScaleWipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Radiance.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Rain.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1115648;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 35651590;
+                        AEVFFlags2 = 0;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Rain";
+                        Name = "CC Rain (obsolete)";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Rainfall.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663366;
+                        AEVFFlags2 = 134222848;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CSRainfall";
+                        Name = "CC Rainfall";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Renoir.plugin_c81bd5b3-0205-bf7b-860f-edd90c426d0f" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Repetile.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663808;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC RepeTile";
+                        Name = "CC RepeTile";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "RipplePulse.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554502;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Ripple Pulse";
+                        Name = "CC Ripple Pulse";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Roto Brush.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "SGI.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "ScaleWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Scale Wipe";
+                        Name = "CC Scale Wipe";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Scatterize.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34078720;
+                        AEVFFlags2 = 134217728;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Scatterize";
+                        Name = "CC Scatterize";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Scripting.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Sequence.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "SimpleWireRemoval.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134222848;
+                        Category = Keying;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Simple Wire Removal";
+                        Name = "CC Simple Wire Removal";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Slant.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1115648;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663872;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Slant";
+                        Name = "CC Slant";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "SmartMask.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Smear.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 886272;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Smear";
+                        Name = "CC Smear";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Smoother.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Snow.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1115648;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 35651590;
+                        AEVFFlags2 = 0;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Snow";
+                        Name = "CC Snow (obsolete)";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Snowfall.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663366;
+                        AEVFFlags2 = 134222848;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CSSnowfall";
+                        Name = "CC Snowfall";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Sphere.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1213952;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100667968;
+                        AEVFFlags2 = 134222848;
+                        Category = Perspective;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Sphere";
+                        Name = "CC Sphere";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Split.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 722432;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Split";
+                        Name = "CC Split";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Split2.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554544;
+                        AEVFFlags2 = 134217728;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Split 2";
+                        Name = "CC Split 2";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Spotlight.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 853504;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134217728;
+                        Category = Perspective;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Spotlight";
+                        Name = "CC Spotlight";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Standard MultiPlugin.plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "StarBurst.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 1181184;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554438;
+                        AEVFFlags2 = 134222848;
+                        Category = Simulation;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Star Burst";
+                        Name = "CC Star Burst";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "TRKeys.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Targa (AE).plugin_8f502da7-4dc1-325a-01b0-164320093645" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Threads.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 591360;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Generate;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS Threads";
+                        Name = "CC Threads";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Threshold.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Threshold";
+                        Name = "CC Threshold";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "ThresholdRGB.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Threshold RGB";
+                        Name = "CC Threshold RGB";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Tiler.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 820736;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134222976;
+                        Category = Distort;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Tiler";
+                        Name = "CC Tiler";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Time Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "TimeBlend.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 102760468;
+                        AEVFFlags2 = 0;
+                        Category = Time;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Time Blend";
+                        Name = "CC Time Blend";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "TimeBlendFX.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 102760452;
+                        AEVFFlags2 = 0;
+                        Category = Time;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Time Blend FX";
+                        Name = "CC Time Blend FX";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Toner.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 755200;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663360;
+                        AEVFFlags2 = 134222848;
+                        Category = "Color Correction";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Toner";
+                        Name = "CC Toner";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Tool Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Tracker Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "Twister.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 787968;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554496;
+                        AEVFFlags2 = 134217728;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Twister";
+                        Name = "CC Twister";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "VectorBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 757248;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 100663296;
+                        AEVFFlags2 = 134217728;
+                        Category = "Blur & Sharpen";
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Vector Blur";
+                        Name = "CC Vector Blur";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Vignette.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 624128;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33555520;
+                        AEVFFlags2 = 134222848;
+                        Category = Stylize;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CS Vignette";
+                        Name = "CC Vignette";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "WarpoMatic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 691712;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 33554432;
+                        AEVFFlags2 = 134217728;
+                        Category = Transition;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC WarpoMatic";
+                        Name = "CC WarpoMatic";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "WideTime.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =                 {
+                    "AfterEffects Legacy Video Filter.0" =                     {
+                        AEEffectVersion = 820736;
+                        "AELibraryVideoFilterModule.Index" = 0;
+                        AEVFFlags = 34078722;
+                        AEVFFlags2 = 134353920;
+                        Category = Time;
+                        EntryPoint = MainEntry;
+                        HasPipl = 1;
+                        Kind = 1699105620;
+                        MatchName = "AE.CC Wide Time";
+                        Name = "CC Wide Time";
+                        "Plugin Factory Guid" = "7a7d3cd3-6b81-48f8-bee0-ec40018a4432";
+                        ReservedInfo = 8;
+                        SpecVersion = 1835021;
+                        SupportURL = "https://helpx.adobe.com/after-effects/using/cycore-plugins.html";
+                        Version = 2;
+                    };
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 0;
+                };
+                "Wiggler.plugin_daf45842-13d3-1303-ee82-f15db48bcaae" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+                "WorkQueue Palette.plugin_6da913ac-a438-bdd9-daf7-ce227865b19e" =                 {
+                    DateHigh = 0;
+                    DateLow = 1789792323;
+                    DoNotCache = 0;
+                    Ignore = 1;
+                };
+            };
+            "BallAction.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "BendIt.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Bender.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Bilateral.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Blur & Sharpen";
+                    EntryPoint = EffectMainExtra;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Bilateral";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Bilateral";
+                    Name = "Bilateral Blur";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html#bilateral-blur";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "Blobbylize.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "BlockLoad.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Bubbles.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "BurnFilm.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ColorNeutralizer.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ColorOffset.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Composite.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "CompositeObsolete.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "CrossBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Cryptomatte.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Curl_Noise.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Cylinder.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "DirectionalBlur.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Blur & Sharpen";
+                    EntryPoint = EffectMainExtra;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Directional Motion Blur";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Motion Blur";
+                    Name = "Directional Blur";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/blur-sharpen-effects.html#directional-blur";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "Drizzle.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "EXtractoR.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Environment.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ExporterQuickTimeHost.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 1;
+                "Exporter 0" =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
+                };
+                Ignore = 0;
+            };
+            "FloMotion.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ForceMB.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "FractalNoise.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Noise & Grain";
+                    EntryPoint = EffectMainExtra;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Fractal Noise";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Fractal Noise";
+                    Name = "Fractal Noise";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/noise-grain-effects.html#fractal-noise";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "Glass.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "GlassWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "GlueGun.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "GridWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Griddler.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Hair.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "HexTile.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "IDentifier.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ImageWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ImporterAIDE.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "a0a621c1-ad88-453d-8417-d5cc4db4fae8";
+                };
+            };
+            "ImporterAIFF.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "2a3dc24f-cc43-4976-bdaf-bbe9a5913a59";
+                };
+            };
+            "ImporterARRIRAW.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "51b770b1-36d3-4e47-85a1-6d32824561e9";
+                };
+            };
+            "ImporterDPX.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "d8fb2f56-6fc5-4078-b323-0f68746515b5";
+                };
+            };
+            "ImporterF65.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "c0868215-7e55-4577-b0da-0f04c3a714af";
+                };
+            };
+            "ImporterFFMPEG.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "9c7b6657-07fb-412d-95ed-8cc4c594bca1";
+                };
+            };
+            "ImporterFastMPEG.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ImporterFlash.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 1;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 134, bytes = 0x31003300 39003800 32003200 38003500 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "12c4f2d6-78a0-4c8f-8bc2-e2330d9a07af";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterImageIO.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 256, bytes = 0x31003700 33003400 39003600 30003600 ... 30000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "2932aa6c-7eb9-44ec-84e1-b9d26c96fc9c";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterJPEG.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "a71891df-dbc1-4133-aed4-21c44969e5df";
+                };
+            };
+            "ImporterMP3.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 208, bytes = 0x31003200 39003700 31003000 36003200 ... 38000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "00000000-0000-0000-0000-000000000000";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 0;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterMP4.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 1;
+                    ImpCanAsync = 1;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 1;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 1;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 134, bytes = 0x31003200 39003700 31003000 31003800 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "b85562f4-2689-49e2-8588-e31adaddb4a4";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 1;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 2;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterMPEG.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "8bb8206e-e1cb-40a4-bf1a-fbf57aa76f7a";
+                };
+            };
+            "ImporterMXF.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "afbbca11-8c9a-4f89-8695-bb40a83e9d10";
+                };
+            };
+            "ImporterPNG.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "04636e72-d0f0-4d9d-bc3d-378fae4fac42";
+                };
+            };
+            "ImporterQuickTime.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "a016737e-39fc-4ef8-84be-f2cc368abdc8";
+                };
+            };
+            "ImporterRED.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 1;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 1;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 1;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 1;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 1;
+                    ImpDesc0 = {length = 244, bytes = 0x31003300 37003900 30003900 31003400 ... 32000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "89f41be3-e99b-4ee9-b974-7791cf63045f";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 1;
+                    ImpKeepLoaded = 0;
+                    ImpNoFile = 0;
+                    ImpPriority = 10;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterSensorManager.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 1;
+                Ignore = 0;
+                Importer =                 {
+                    HasPipl = 0;
+                    ImpAcceleratorHandler = "";
+                    ImpAddToMenu = 0;
+                    ImpAvoidAudioConform = 0;
+                    ImpCanAsync = 0;
+                    ImpCanCalcSizes = 0;
+                    ImpCanCopy = 0;
+                    ImpCanCreate = 0;
+                    ImpCanDelete = 0;
+                    ImpCanDoContinuousTime = 0;
+                    ImpCanDoSubsize = 0;
+                    ImpCanResize = 0;
+                    ImpCanSave = 0;
+                    ImpCanSetupOnDblClick = 0;
+                    ImpCanTrim = 0;
+                    ImpCanValidatePrefs = 0;
+                    ImpDesc0 = {length = 718, bytes = 0x36003800 34003600 30003500 30000a00 ... 34000a00 30000a00 };
+                    ImpDrawType = 0;
+                    ImpFileInfoVersion = "00000000-0000-0000-0000-000000000000";
+                    ImpHasDescription = 1;
+                    ImpHasPersistentData = 0;
+                    ImpHasSetup = 0;
+                    ImpKeepLoaded = 1;
+                    ImpNoFile = 0;
+                    ImpPriority = 1;
+                    "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
+                };
+            };
+            "ImporterTarga.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "b94cede6-6a04-4902-90b3-9b00857594bd";
+                };
+            };
+            "ImporterTiff.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "db90870a-5184-423d-82fa-2d4340bb0ba4";
+                };
+            };
+            "ImporterWave.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                Importer =                 {
+                    ImpFileInfoVersion = "5d773e79-5470-4f0b-b0d7-41609e90d46f";
+                };
+            };
+            "ImporterXDCAMEX.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Jaws.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Kaleida.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Kernel.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "KeylightPro.plugin_e75e5f76-468d-848d-ea60-37bf44164834" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Lens.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Levels2.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Color Correction";
+                    EntryPoint = MainArbCheckbox;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Pro Levels";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Easy Levels";
+                    Name = Levels;
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/color-correction-effects.html#levels";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "LightBurst.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "LightRays.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "LightSweep.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "LightWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "LineSweep.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Lumetri.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Color Correction";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Lumetri";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Lumetri";
+                    Name = "Lumetri Color";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/color-correction-effects.html#lumetri-color";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "Mocha Shape for After Effects.plugin_32310483-1b9c-a154-4130-0e1a294c9eb1" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "MochaAE.bundle_32310483-1b9c-a154-4130-0e1a294c9eb1" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "MochaAEAEGP.bundle_32310483-1b9c-a154-4130-0e1a294c9eb1" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "MrMercury.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "MrSmoothie.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Overbrights.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "PSClassic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "PSLEClassic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "PageTurn.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ParticleSystemsII.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ParticleWorld.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "PixelPolly.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Plastic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "PlayerMediaCore.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                "" =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "1b5bc335-92e5-4479-bd38-d18bedec69b2";
+                };
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 1;
+                Ignore = 0;
+                Player =                 {
+                    HasPipl = 0;
+                    PlayFormats0 = {length = 156, bytes = 0x566f6f4d 00000000 3f3f3f3f 04000000 ... 00000000 00000000 };
+                    PlayFormats1 = {length = 156, bytes = 0x4745504d 00000000 4947504d 04000000 ... 00000000 00000000 };
+                    PlayFormats2 = {length = 156, bytes = 0x3f3f3f3f 00000000 3f3f3f3f 04000000 ... 00000000 00000000 };
+                    PlayFormats3 = {length = 156, bytes = 0x56495641 00000000 534d5844 04000000 ... 00000000 00000000 };
+                    PlayNumFormats = 4;
+                    "Plugin Factory Guid" = "c9936cb9-1979-48c8-bf22-dbe0ec323274";
+                };
+            };
+            "PowerPin.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "RadialBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "RadialFastBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "RadialScaleWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Rain.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Rainfall.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "RegistrationFlags Guid" = "3ef805c3-a1d6-a89b-d58e-f29a00000020";
+            "Repetile.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "RipplePulse.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ScaleWipe.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Scatterize.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "SimpleWireRemoval.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Slant.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Smear.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Snow.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Snowfall.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Sphere.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Split.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Split2.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Spotlight.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "StarBurst.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Threads.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Threshold.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "ThresholdRGB.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Tiler.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "TimeBlend.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "TimeBlendFX.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Toner.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Transform.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = Distort;
+                    EntryPoint = FilterMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE Geometry2";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE Geometry";
+                    Name = Transform;
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 0;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/distort-effects.html#transform";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "TransmitDesktopAudio.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Transmit =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitFullScreen.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Transmit =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "TransmitScopes.bundle_6a3cb963-3e88-f58a-0266-d216646ab85e" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 0;
+                Transmit =                 {
+                    HasPipl = 0;
+                    "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
+                };
+            };
+            "Twister.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "Unmult.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "VRChromaticAberration.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Chromatic Aberrations";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Chromatic Aberrations";
+                    Name = "VR Chromatic Aberrations";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-chromatic-aberrations";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRColorGradient.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Color Gradients";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Color Gradients";
+                    Name = "VR Color Gradients";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-color-gradients";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRConverter.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Converter";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Converter";
+                    Name = "VR Converter";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-converter";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRDenoise.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Denoise";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Denoise";
+                    Name = "VR De-Noise";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-de-noise";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRDigitalGlitch.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Digital Glitch";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Digital Glitch";
+                    Name = "VR Digital Glitch";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-digital-glitch";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRFractalNoise.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Fractal Noise";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Fractal Noise";
+                    Name = "VR Fractal Noise";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-fractal-noise";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRGaussianBlur.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Blur";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Blur";
+                    Name = "VR Blur";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-blur";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRGlow.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Glow";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Glow";
+                    Name = "VR Glow";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-glow";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRPlaneToSphere.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Project 2D";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Project 2D";
+                    Name = "VR Plane to Sphere";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-plane-to-sphere";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRRotateSphere.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Rotate Sphere";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Rotate Sphere";
+                    Name = "VR Rotate Sphere";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-rotate-sphere";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRSharpen.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Sharpen";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Sharpen";
+                    Name = "VR Sharpen";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-sharpen";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VRSphereToPlane.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Immersive Video";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.Mettle SkyBox Viewer";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.Mettle SkyBox Viewer";
+                    Name = "VR Sphere To Plane";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/vr-effects.html#vr-sphere-to-plane";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "VectorBlur.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            Version = 53;
+            "VideoLimiter.plugin_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                "GPUVideoFilter.0" =                 {
+                    Category = "Color Correction";
+                    EntryPoint = EffectMain;
+                    "GPUVideoFilter.Index" = 0;
+                    "GPUVideoFilter.InterfaceVersion" = 2;
+                    "GPUVideoFilter.MatchName" = "AE.ADBE DigitalVideoLimiter";
+                    HasPipl = 1;
+                    Kind = 1699105620;
+                    MatchName = "AE.ADBE DigitalVideoLimiter";
+                    Name = "Video Limiter";
+                    "Plugin Factory Guid" = "624e610b-0372-4082-b625-73865c15932b";
+                    ReservedInfo = 8;
+                    SpecVersion = 1900557;
+                    SupportURL = "https://helpx.adobe.com/after-effects/using/color-correction-effects.html#video-limiter";
+                    Version = 2;
+                };
+                Ignore = 0;
+            };
+            "Vignette.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "WarpoMatic.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+            "WideTime.plugin_f688d96d-88f1-e418-1519-bba128c1fe30" =             {
+                DateHigh = 0;
+                DateLow = 1789792323;
+                DoNotCache = 0;
+                Ignore = 1;
+            };
+        };
+    };
+    SessionDuration = 16;
+}

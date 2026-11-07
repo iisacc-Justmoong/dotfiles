@@ -1,5 +1,5 @@
 {
-    ConsecutiveNotificationsCount = 1;
+    ConsecutiveNotificationsCount = 3;
     DeliveryEventIdentifierToDeliveryEventMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
     DeliveryInfoVersion = 93c6896f754a03411af465c9f2c13f6b7a997aa25af2e6900d25024dc4eeecfe;
     DiscoverabilityDeliveryInfoMap = {length = 261, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000cb };
@@ -12,53 +12,68 @@
         TPSNotificationCount = 12;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-09-19 04:36:37 +0000";
-    TPSCurrentWelcomeBackgroundTaskIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
+    TPSContentUpdatedNotificationDate = "2026-11-06 12:38:21 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
         "CID-customizeface-learn-customize-applewatch",
         "CID-screenshot-learn-a-screenshot",
         LogMoodWatch,
+        "CID-photos-collection-organize-edit-photos",
         "CID-addface-learn-add-a",
         ContinuityCollection,
         "VideoReactionTip-com.apple.Safari",
         "CID-filterAllPhotos-mini-tip",
+        SpatialReframingMac,
         CustomizeCCMac,
         "CID-personalize-your-ios",
-        MenuBarControls,
         "mac-siri-collection",
+        MenuBarControls,
         "CID-whats-new-macos-collection-15",
+        PersonalContextMac,
         "CID-hometoggle-mini-tip",
         "CID-health-fitness-collection-fcs-watch",
-        NearbyTrailsWatch,
         "CID-welcome-mac-collection-wwdc",
-        EditSmartStack,
         "CID-messages-in-icloud-onboarding-mini-tip",
-        "CID-gymkit-nfc-disabled-mini-tip-1",
+        EditSmartStack,
+        NearbyTrailsWatch,
         VisualIntelligenceMac,
+        "CID-gymkit-nfc-disabled-mini-tip-1",
         "CID-welcome-hardware-collection-welcome",
         "CID-universalclipboard-learn-copy-paste",
         IconStyleMac,
-        "CID-photos-collection-organize-edit-photos"
+        WBSClusterOnboardingTip,
+        "CID-spotlight-quickly-find-apps"
     );
     TPSDidRevertArchivedTipStatuses = 1;
     TPSFullTipUsageEventContextualInfo = {length = 4251, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000dcb };
     TPSLastMajorVersion = 27;
-    TPSLastNotificationDate = "2026-09-17 03:40:06 +0000";
-    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 2647, bytes = 0x7b22646f 63756d65 6e74496e 64657848 ... 73696f6e 223a327d };
-    TPSTipKitProcessedDate = "2026-09-19 03:38:07 +0000";
+    TPSLastNotificationDate = "2026-10-02 16:45:55 +0000";
+    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 2908, bytes = 0x7b227665 7273696f 6e223a32 2c22646f ... 41594230 3d227d7d };
+    TPSTipKitProcessedDate = "2026-11-06 12:32:58 +0000";
     TPSTipsAppInstalled = 1;
     TPSWelcomeDocumentCache = {length = 1298, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000408 };
     TPSWelcomeNotificationReminderState = 1;
     TPSWelcomeNotificationStartDate = "2026-09-19 02:47:49 +0000";
     TPSWelcomeNotificationViewedVersion = 27;
     TPSWidgetShownTips =     (
-        "doc6e1f8c9a-39a4-4cd3-9b19-f6ca5242b9e0",
         "doc5c83a7c0-f417-43b6-9ae4-774311f650d7",
+        "doc6e1f8c9a-39a4-4cd3-9b19-f6ca5242b9e0",
         "doc42c5a11d-d7db-4399-886b-ff221941b149",
         "doce266fb79-fc04-460b-abbd-bf46d5c828c3",
         "docbd0f5f1d-42b8-4036-94af-50581ab3feeb",
-        "doc21b227ae-0126-4e68-9801-0162284d721b"
+        "doc21b227ae-0126-4e68-9801-0162284d721b",
+        "doc3ce61847-d814-4b50-aaa8-e20d964f92ab",
+        "doce6d04cbd-b0c7-4569-a1e3-403937c97971",
+        "doca3a703e8-88c2-4d21-bb10-b2500db7de4e",
+        "doc3fb56dc0-d7a6-4878-bc98-d2e072a8ed91",
+        "doc0b9f651b-a106-4079-8e5e-f4dbe931eb9f",
+        "doca377c6d6-fe1c-46fa-b566-c6a87c886ce3",
+        "doc06258969-7a15-44b3-b2fb-114e9e105d62",
+        "docff9ed82a-c08f-435f-b645-2791f8db0d8b",
+        "doc2e043831-35d6-448e-b0c0-1646a6955ccd",
+        "docd0999750-1c2b-43b1-9e3a-743fd842e968",
+        "docb7837ce1-e4ba-4150-aef0-a6dab47d4bad",
+        "doc4da925a4-3dea-4316-a9a0-29333932b556"
     );
-    TPSWidgetUpdateDate = "2026-09-17 11:40:01 +0000";
+    TPSWidgetUpdateDate = "2026-11-05 14:26:08 +0000";
 }

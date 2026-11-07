@@ -15,6 +15,7 @@ ContextStoreAgent	ContextStoreAgent.d2d520a37e
 Kevin.LaunchNow	Kevin.LaunchNow.99a654bc5b
 LaunchNext	LaunchNext.3771750e97
 M683GB7CPW.com.box.tools	M683GB7CPW.com.box.tools.4be89d7e78
+MiniLauncher	MiniLauncher.6a698a7c96
 NSGlobalDomain	NSGlobalDomain.70dfd2a8be
 ScopedBookmarkAgent	ScopedBookmarkAgent.c3f890f4f9
 TokenBucketRateLimiter	TokenBucketRateLimiter.0638f8b971
@@ -23,6 +24,8 @@ ai.moeru.airi	ai.moeru.airi.439e69c174
 ai.openclaw.mac	ai.openclaw.mac.884381eba3
 ai.openclaw.shared	ai.openclaw.shared.cb2c738c21
 bot.molt.mac	bot.molt.mac.c2d59c7738
+com.Adobe.After Effects	com.Adobe.After_Effects.ba9dbf729f
+com.Adobe.After Effects.26.5	com.Adobe.After_Effects.26.5.30b0338737
 com.Adobe.Common 26.0	com.Adobe.Common_26.0.3b009c34c1
 com.Adobe.Premiere Pro	com.Adobe.Premiere_Pro.55b65b090c
 com.Adobe.Premiere Pro.26.0	com.Adobe.Premiere_Pro.26.0.15952c824d
@@ -32,6 +35,7 @@ com.Box.Box-Edit	com.Box.Box-Edit.1ef7b31d29
 com.Breakpad.crash_report_sender	com.Breakpad.crash_report_sender.55674dd384
 com.adobe.AIRobin	com.adobe.AIRobin.4525870609
 com.adobe.Acrobat.Pro	com.adobe.Acrobat.Pro.e24f0ca5f9
+com.adobe.AfterEffects.application	com.adobe.AfterEffects.application.d82d25e921
 com.adobe.CSXS.12	com.adobe.CSXS.12.728e361cef
 com.adobe.Install.Acrobat	com.adobe.Install.Acrobat.e9abbbcf71
 com.adobe.Photoshop	com.adobe.Photoshop.2cac0f7ff0
@@ -44,8 +48,10 @@ com.adobe.acc.AdobeDesktopService	com.adobe.acc.AdobeDesktopService.dd72136b64
 com.adobe.acc.HEXHelper.Renderer	com.adobe.acc.HEXHelper.Renderer.e068983aed
 com.adobe.accmac	com.adobe.accmac.0e4eb8c464
 com.adobe.cc.Install	com.adobe.cc.Install.629e28c7a5
+com.adobe.cep.CEPHtmlEngine Helper (Renderer)	com.adobe.cep.CEPHtmlEngine_Helper__Renderer.9c8830a521
 com.adobe.crashreporter	com.adobe.crashreporter.c020d8393e
 com.adobe.dunamis	com.adobe.dunamis.dc2fa60463
+com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.a87c8586c1
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.f294fdca41
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.436f30fc23
 com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.adobe.headlightscc.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.7f782fee7c
@@ -90,6 +96,7 @@ com.apple.AppleMediaServices	com.apple.AppleMediaServices.0240ac6642
 com.apple.AppleMediaServices.notbackedup	com.apple.AppleMediaServices.notbackedup.1454096f79
 com.apple.AppleMultitouchMouse	com.apple.AppleMultitouchMouse.a45bf338e5
 com.apple.AppleMultitouchTrackpad	com.apple.AppleMultitouchTrackpad.5868757caa
+com.apple.Archetype	com.apple.Archetype.846c31c1d8
 com.apple.AssetMetricsWorker	com.apple.AssetMetricsWorker.8de8cd792a
 com.apple.AudioAccessory	com.apple.AudioAccessory.dd24c699b3
 com.apple.AuthKit	com.apple.AuthKit.92de587d2e
@@ -145,6 +152,7 @@ com.apple.EnergyKit	com.apple.EnergyKit.b02fa99844
 com.apple.EscrowSecurityAlert	com.apple.EscrowSecurityAlert.004657f8dd
 com.apple.ExtensionsPreferences.ShareMenu	com.apple.ExtensionsPreferences.ShareMenu.8f1257d8ff
 com.apple.FaceTime	com.apple.FaceTime.8494730ff6
+com.apple.FaceTime.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.FaceTime.B5C429A0-73BD-5081-8165-A1E7C0EB6331.5d0be182a8
 com.apple.FamilyCircle	com.apple.FamilyCircle.ca84f9a24e
 com.apple.FinanceKit	com.apple.FinanceKit.28cd20fb77
 com.apple.FolderActionsDispatcher	com.apple.FolderActionsDispatcher.134ce7b492
@@ -181,6 +189,7 @@ com.apple.Maps.mapssyncd	com.apple.Maps.mapssyncd.05abfeb6a8
 com.apple.MenuBarAgent	com.apple.MenuBarAgent.ea2f766d81
 com.apple.MobileDeviceCrashCopy	com.apple.MobileDeviceCrashCopy.f21b12cad2
 com.apple.MobileSMS	com.apple.MobileSMS.322f809efb
+com.apple.MobileSMS.CKDNDList	com.apple.MobileSMS.CKDNDList.2eb3967ed7
 com.apple.MobileSMSPreview	com.apple.MobileSMSPreview.f411d1bbcf
 com.apple.Music	com.apple.Music.b2dcad7c53
 com.apple.Music.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.Music.B5C429A0-73BD-5081-8165-A1E7C0EB6331.f548746b98
@@ -191,6 +200,7 @@ com.apple.Passwords	com.apple.Passwords.a2102c0fc4
 com.apple.PersonalAudio	com.apple.PersonalAudio.2c9d715cf3
 com.apple.PhotoBooth	com.apple.PhotoBooth.1192f14a87
 com.apple.ProblemReporter	com.apple.ProblemReporter.494488a5d9
+com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.8bcb358a61
 com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.f44b38165f
 com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.e90c09aa93
 com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.QuickLookDaemon.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.65dedee2b0
@@ -234,6 +244,8 @@ com.apple.StocksKitService	com.apple.StocksKitService.31b957ec6c
 com.apple.StorageManagement.Service	com.apple.StorageManagement.Service.c83a04c676
 com.apple.SystemProfiler	com.apple.SystemProfiler.ed3388d26a
 com.apple.TTY	com.apple.TTY.41e6c46e2f
+com.apple.TV	com.apple.TV.633b4e6b31
+com.apple.TV.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.TV.B5C429A0-73BD-5081-8165-A1E7C0EB6331.5b94dea561
 com.apple.TelephonyUtilities	com.apple.TelephonyUtilities.a9e245aec7
 com.apple.TelephonyUtilities.sharePlayAppPolicies	com.apple.TelephonyUtilities.sharePlayAppPolicies.07d8ed8a00
 com.apple.Terminal	com.apple.Terminal.c1129cfe68
@@ -350,6 +362,7 @@ com.apple.driver.AppleBluetoothMultitouch.mouse	com.apple.driver.AppleBluetoothM
 com.apple.driver.AppleBluetoothMultitouch.trackpad	com.apple.driver.AppleBluetoothMultitouch.trackpad.099381dc98
 com.apple.driver.AppleHIDMouse	com.apple.driver.AppleHIDMouse.53731546ad
 com.apple.dt.InstrumentsCLI	com.apple.dt.InstrumentsCLI.a35061dd65
+com.apple.dt.SKAgent	com.apple.dt.SKAgent.cf68583614
 com.apple.dt.Xcode	com.apple.dt.Xcode.8cff4118c7
 com.apple.dt.Xcode.IDEAnalyticsMetricsNotificationsService	com.apple.dt.Xcode.IDEAnalyticsMetricsNotificationsService.095e431978
 com.apple.dt.xcdevice	com.apple.dt.xcdevice.b182123d95
@@ -366,6 +379,7 @@ com.apple.filevault.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165
 com.apple.filevault.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.filevault.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.64e799540a
 com.apple.financed	com.apple.financed.67fa8ee872
 com.apple.finder	com.apple.finder.baa3258645
+com.apple.finder.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.finder.B5C429A0-73BD-5081-8165-A1E7C0EB6331.8e87b25a53
 com.apple.findmy	com.apple.findmy.2029d5d97a
 com.apple.findmy.findmylocateagent	com.apple.findmy.findmylocateagent.a1e0391683
 com.apple.findmy.fmfcore.notbackedup	com.apple.findmy.fmfcore.notbackedup.f6c14d5ab4
@@ -396,6 +410,7 @@ com.apple.ibtool	com.apple.ibtool.458ae6821f
 com.apple.icloud.findmydeviced.findmydevice-user-agent	com.apple.icloud.findmydeviced.findmydevice-user-agent.05738dc586
 com.apple.icloud.gm	com.apple.icloud.gm.998c581721
 com.apple.icloud.searchpartyuseragent	com.apple.icloud.searchpartyuseragent.6b8d601777
+com.apple.iclouddrive.features	com.apple.iclouddrive.features.c31a65cc27
 com.apple.icloudmailagent	com.apple.icloudmailagent.3d839f5336
 com.apple.icloudwebd	com.apple.icloudwebd.0150c2f4e9
 com.apple.identityservices.serviceDisablement	com.apple.identityservices.serviceDisablement.813e24e52c
@@ -462,6 +477,7 @@ com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-81
 com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.bab8922c52
 com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.loginwindow.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.2be6acb564
 com.apple.madrid	com.apple.madrid.e4e6d95295
+com.apple.mail-shared	com.apple.mail-shared.9211e404ca
 com.apple.managedappdistributionagent	com.apple.managedappdistributionagent.8a9c459839
 com.apple.mediaaccessibility.public	com.apple.mediaaccessibility.public.9197f7d1ac
 com.apple.mediaanalysisd	com.apple.mediaanalysisd.54edc93d43
@@ -471,6 +487,7 @@ com.apple.messages.EnhancedLinkSecurity	com.apple.messages.EnhancedLinkSecurity.
 com.apple.messages.commsafety	com.apple.messages.commsafety.deb4a1c9c2
 com.apple.messages.critical-messaging.storage	com.apple.messages.critical-messaging.storage.ee512cd0f6
 com.apple.messages.nicknames	com.apple.messages.nicknames.dd943e3637
+com.apple.messages.pinning	com.apple.messages.pinning.122f5aae6d
 com.apple.metrickitd	com.apple.metrickitd.03b8ff4212
 com.apple.metrickitd.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.metrickitd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.54986f75de
 com.apple.metrickitd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.metrickitd.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.2d499832d4
@@ -484,6 +501,7 @@ com.apple.mobilelogic	com.apple.mobilelogic.f4f27264c2
 com.apple.mobilephone	com.apple.mobilephone.eb3e223fe0
 com.apple.mobiletimer	com.apple.mobiletimer.97b729a7e6
 com.apple.mobiletimerd	com.apple.mobiletimerd.2f2884613d
+com.apple.naturallanguaged	com.apple.naturallanguaged.d1b9711b21
 com.apple.network.ServiceDiscovery	com.apple.network.ServiceDiscovery.dd8e08de0c
 com.apple.networkserviceproxy	com.apple.networkserviceproxy.254f7c3dbb
 com.apple.newscore	com.apple.newscore.d93d804248
@@ -500,6 +518,7 @@ com.apple.passd.class-d	com.apple.passd.class-d.b820273219
 com.apple.people	com.apple.people.144f133d69
 com.apple.personalizationportrait.TextUnderstandingObserver	com.apple.personalizationportrait.TextUnderstandingObserver.797d87114b
 com.apple.photos.shareddefaults	com.apple.photos.shareddefaults.b997f06cde
+com.apple.preferences.extensions.ShareMenu	com.apple.preferences.extensions.ShareMenu.77554fc21d
 com.apple.preferences.softwareupdate	com.apple.preferences.softwareupdate.1a62a81367
 com.apple.print.add	com.apple.print.add.c309c3f160
 com.apple.print.custompresets	com.apple.print.custompresets.c6d67f7c1c
@@ -516,10 +535,12 @@ com.apple.remindd	com.apple.remindd.708e49fabf
 com.apple.remindd.babysitter	com.apple.remindd.babysitter.53f0f8e423
 com.apple.remotemanagement.ManagedSettingsSubscriber	com.apple.remotemanagement.ManagedSettingsSubscriber.625807d260
 com.apple.replayd	com.apple.replayd.716c70fa1a
+com.apple.replicatord	com.apple.replicatord.a0ae2c32ef
 com.apple.scheduler	com.apple.scheduler.31f751849d
 com.apple.screencapture	com.apple.screencapture.8d06251759
 com.apple.screencaptureui	com.apple.screencaptureui.e7bfc62a27
 com.apple.screensaver	com.apple.screensaver.63c6ee3134
+com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.dda39b6427
 com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.a25ad50d54
 com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.f324df1923
 com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.screensaver.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.bea8648dde
@@ -531,6 +552,7 @@ com.apple.security.sosaccount	com.apple.security.sosaccount.5567379499
 com.apple.seeding	com.apple.seeding.7b2bc503d3
 com.apple.seserviced	com.apple.seserviced.7c2a62c4f3
 com.apple.settings.Storage	com.apple.settings.Storage.2c5f711625
+com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.54658c6989
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.29e2462f72
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.c451316ac0
 com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.settings.storage.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.B5C429A0-73BD-5081-8165-A1E7C0EB6331.e57f9a1025
@@ -552,6 +574,7 @@ com.apple.siri.ODDI.ExperimentationWorker	com.apple.siri.ODDI.ExperimentationWor
 com.apple.siri.ODDI.MetricsWorker	com.apple.siri.ODDI.MetricsWorker.b98e0f0acf
 com.apple.siri.ODDI.PoirotExperimentationWorker	com.apple.siri.ODDI.PoirotExperimentationWorker.0c27f1280e
 com.apple.siri.ODDI.PoirotMetricsWorker	com.apple.siri.ODDI.PoirotMetricsWorker.5b06599ae1
+com.apple.siri.SiriExtensionsDigest.worker	com.apple.siri.SiriExtensionsDigest.worker.b00db56893
 com.apple.siri.VoiceShortcuts	com.apple.siri.VoiceShortcuts.0d19d53220
 com.apple.siri.analytics.assistant	com.apple.siri.analytics.assistant.bfa8303d98
 com.apple.siri.context.service	com.apple.siri.context.service.d4c5587083
@@ -588,6 +611,7 @@ com.apple.symbolichotkeys	com.apple.symbolichotkeys.5be9f68452
 com.apple.sync.NanoHome	com.apple.sync.NanoHome.b5770a2a72
 com.apple.syncdefaultsd	com.apple.syncdefaultsd.e68d78a76d
 com.apple.syncserver	com.apple.syncserver.9769fd1704
+com.apple.syncservices.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.syncservices.B5C429A0-73BD-5081-8165-A1E7C0EB6331.59204ef581
 com.apple.systemevents	com.apple.systemevents.c2c6bbe44d
 com.apple.systempreferences	com.apple.systempreferences.c6512bd04f
 com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.apple.systemsettings.extensions.B5C429A0-73BD-5081-8165-A1E7C0EB6331.a59f4db38b
@@ -634,11 +658,17 @@ com.apple.xpc.activity2	com.apple.xpc.activity2.617da1e751
 com.astropad.AstropadSlateMac	com.astropad.AstropadSlateMac.2a832d3ff7
 com.authormore.penpotdesktop	com.authormore.penpotdesktop.c08842188c
 com.autodesk.AdskIdentityManager	com.autodesk.AdskIdentityManager.e66b7bce1c
+com.autodesk.Autodesk Licensing Manager	com.autodesk.Autodesk_Licensing_Manager.01f2ef6de7
+com.autodesk.DownloadManager	com.autodesk.DownloadManager.abaf134d05
 com.autodesk.EAGLE 9.7.0	com.autodesk.EAGLE_9.7.0.7127703e0f
 com.autodesk.FusionApp	com.autodesk.FusionApp.d3e8af3980
+com.autodesk.Installer	com.autodesk.Installer.cc6e7301af
+com.autodesk.Maya-2027	com.autodesk.Maya-2027.6e29640337
+com.autodesk.install	com.autodesk.install.93a3a4b053
 com.bambulab.bambu-studio	com.bambulab.bambu-studio.cb52ebfa66
 com.blackmagic-design.DaVinciResolve	com.blackmagic-design.DaVinciResolve.b6133df9dc
 com.blackmagic-design.davinciresolvewelcome.DaVinci Resolve Welcome	com.blackmagic-design.davinciresolvewelcome.DaVinci_Resolve_Welcome.59730549f1
+com.borisfx.Mocha AE Plugin 2025	com.borisfx.Mocha_AE_Plugin_2025.adaa16f202
 com.box.Box-Device-Trust	com.box.Box-Device-Trust.b9dfb907f7
 com.box.Box-Local-Com-Server	com.box.Box-Local-Com-Server.f34dab69e6
 com.canva.CanvaDesktop	com.canva.CanvaDesktop.63af6053f3
@@ -656,20 +686,30 @@ com.daz.Studio4	com.daz.Studio4.af41da3c8d
 com.daz.Studio6	com.daz.Studio6.02df93cc4b
 com.diffusionbee.diffusionbee	com.diffusionbee.diffusionbee.5867a88193
 com.electron.klingai	com.electron.klingai.b78c3ec4d7
+com.electron.mim-desktop	com.electron.mim-desktop.a128e741d9
+com.electron.ui-launcher	com.electron.ui-launcher.3d7d6946bd
 com.epicgames.EpicGamesLauncher	com.epicgames.EpicGamesLauncher.11f7ec2e61
 com.epicgames.EpicGamesModSdk	com.epicgames.EpicGamesModSdk.0ea1c83229
 com.epicgames.UnrealEditor	com.epicgames.UnrealEditor.6d70a981bc
 com.figma.Desktop	com.figma.Desktop.44ed0b429e
+com.figma.Desktop.ShipIt.B5C429A0-73BD-5081-8165-A1E7C0EB6331	com.figma.Desktop.ShipIt.B5C429A0-73BD-5081-8165-A1E7C0EB6331.b3250155ff
 com.getupnote.desktop	com.getupnote.desktop.819428b213
 com.google.Chrome	com.google.Chrome.e8a3c353f3
+com.google.GeminiMacOS	com.google.GeminiMacOS.60e8a1a310
+com.google.GeminiMacOS.launcher	com.google.GeminiMacOS.launcher.e66875a3a7
+com.google.GeminiMacOS.shareddata	com.google.GeminiMacOS.shareddata.22eae5c7e7
 com.google.Keystone.Agent	com.google.Keystone.Agent.30a5a13f19
 com.google.android.studio	com.google.android.studio.4c70a81e7d
+com.google.antigravity-ide	com.google.antigravity-ide.144a7b4b7f
 com.googlecode.iterm2	com.googlecode.iterm2.1de43eda0e
 com.hnc.Discord	com.hnc.Discord.54b1cef1b7
+com.iisacc.SocietyDriveTests	com.iisacc.SocietyDriveTests.65b66c7701
 com.iisacc.Vincent	com.iisacc.Vincent.39f0c40019
 com.iisacc.app.whatson	com.iisacc.app.whatson.d6773bef17
 com.iisacc.dreamscapes	com.iisacc.dreamscapes.420e46a4be
+com.iisacc.dreamscapes.Dreamscapes	com.iisacc.dreamscapes.Dreamscapes.a57056674d
 com.iisacc.society	com.iisacc.society.b787e4ac69
+com.iisacc.society.Society	com.iisacc.society.Society.998645895f
 com.iisacc.vincent.painter	com.iisacc.vincent.painter.8afa5e4922
 com.inria.Natron	com.inria.Natron.5782a296f5
 com.isaacmarovitz.Whisky	com.isaacmarovitz.Whisky.9b3173095c
@@ -719,13 +759,17 @@ com.segment.storage.oai	com.segment.storage.oai.8d71e61596
 com.the-qt-company.Qt Apps	com.the-qt-company.Qt_Apps.69596c6149
 com.todesktop.241012ess7yxs0e	com.todesktop.241012ess7yxs0e.6f8293a3d9
 com.trolltech	com.trolltech.16e6aae089
+com.trolltech.unknown-organization.DreamscapesGuiTests	com.trolltech.unknown-organization.DreamscapesGuiTests.849dd130bb
+com.trolltech.unknown-organization.SocietyDriveTests	com.trolltech.unknown-organization.SocietyDriveTests.2a6783c258
 com.webex.eventcenter	com.webex.eventcenter.408daa5484
 com.webex.meetingmanager	com.webex.meetingmanager.636a4becca
 com.whatson-local.WhatSon	com.whatson-local.WhatSon.f5178ed0c9
 com.yourcompany.installerbase	com.yourcompany.installerbase.05951685ee
 corespotlightd	corespotlightd.db18886bfb
+dev.zed.Zed	dev.zed.Zed.9a936399a3
 diagnostics_agent	diagnostics_agent.97a3a955aa
 dotnet	dotnet.edc230f2fe
+embeddedBinaryValidationUtility	embeddedBinaryValidationUtility.1df63e5212
 familycircled	familycircled.9778197c3e
 fr.madrau.switchresx.app	fr.madrau.switchresx.app.5db7689a10
 fr.madrau.switchresx.daemon	fr.madrau.switchresx.daemon.9a7a4df01f
@@ -735,6 +779,7 @@ installer_telemetry	installer_telemetry.ffd4f9497c
 io.balena.etcher	io.balena.etcher.abd85218b6
 io.fadel.MissionControlPlus	io.fadel.MissionControlPlus.391676e4b6
 io.fadel.missioncontrolplus.preferences	io.fadel.missioncontrolplus.preferences.cc3fa15dd7
+io.open-design.desktop	io.open-design.desktop.1e8579c822
 jetbrains.ai.csat	jetbrains.ai.csat.9c4c3b4aab
 jetbrains.cl.251	jetbrains.cl.251.e300bbd0cf
 jetbrains.cl.253	jetbrains.cl.253.f8701b89e4
@@ -762,6 +807,7 @@ mbuseragent	mbuseragent.e0656fde8b
 net.vmlx.app	net.vmlx.app.3c00620ceb
 openclaw	openclaw.c0e408a0ac
 org.cups.PrintingPrefs	org.cups.PrintingPrefs.a1b146b9e3
+org.mozilla.nightlyunofficial	org.mozilla.nightlyunofficial.04914c2f26
 org.pqrs.Karabiner-Console-User-Server	org.pqrs.Karabiner-Console-User-Server.01eb59216f
 org.pqrs.Karabiner-Elements.Settings	org.pqrs.Karabiner-Elements.Settings.440bf9955c
 org.pqrs.Karabiner-EventViewer	org.pqrs.Karabiner-EventViewer.1456432000
@@ -769,8 +815,10 @@ org.pqrs.Karabiner-Menu	org.pqrs.Karabiner-Menu.3be407ecf7
 org.pqrs.Karabiner-Updater	org.pqrs.Karabiner-Updater.cd36fbe259
 org.qt-project.qtcreator	org.qt-project.qtcreator.798485a748
 org.sparkle-project.Sparkle.Autoupdate	org.sparkle-project.Sparkle.Autoupdate.915da8a59b
+org.webkit.Playwright	org.webkit.Playwright.3616f7e317
 pbs	pbs.31c4190435
 pro.betterdisplay.BetterDisplay	pro.betterdisplay.BetterDisplay.9994749c84
 se.quixel.bridge.plugin	se.quixel.bridge.plugin.f9420f95b7
 sharedfilelistd	sharedfilelistd.6b8b848c41
 systemgroup.com.apple.icloud.searchpartyd.sharedsettings	systemgroup.com.apple.icloud.searchpartyd.sharedsettings.8ed963f558
+tw.ogdesign.eagle	tw.ogdesign.eagle.5719b87599

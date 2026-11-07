@@ -1,12 +1,20 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "6195.432292750002";
+            Age = "83906.67864525004";
             "Management Mode" = 1;
             Monitors =             (
                                 {
                     "Current Space" =                     {
                         ManagedSpaceID = 1;
+                        WindowManagerInfo =                         {
+                            windowSets =                             {
+                                "DA5FA2C2-237E-19E7-CE4D-FB1C07795D5B" =                                 (
+                                    "com.apple.iCal-1D4BC34B-B99A-46F7-A2A4-64498B4CA639",
+                                    "com.culturedcode.ThingsMac-7A1DAE47-EB64-4AE8-B137-82D54D90B077"
+                                );
+                            };
+                        };
                         id64 = 1;
                         type = 0;
                         uuid = "";
@@ -15,6 +23,14 @@
                     Spaces =                     (
                                                 {
                             ManagedSpaceID = 1;
+                            WindowManagerInfo =                             {
+                                windowSets =                                 {
+                                    "DA5FA2C2-237E-19E7-CE4D-FB1C07795D5B" =                                     (
+                                        "com.apple.iCal-1D4BC34B-B99A-46F7-A2A4-64498B4CA639",
+                                        "com.culturedcode.ThingsMac-7A1DAE47-EB64-4AE8-B137-82D54D90B077"
+                                    );
+                                };
+                            };
                             id64 = 1;
                             type = 0;
                             uuid = "";
@@ -23,20 +39,29 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 6;
-                        id64 = 6;
+                        ManagedSpaceID = 4;
+                        id64 = 4;
                         type = 0;
                         uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                     };
                     "Display Identifier" = "2C9DB48E-D6CA-4EE6-8898-5FDC6078E8A1";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 6;
-                            id64 = 6;
+                            ManagedSpaceID = 4;
+                            id64 = 4;
                             type = 0;
                             uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                         }
                     );
+                },
+                                {
+                    "Collapsed Space" =                     {
+                        ManagedSpaceID = 1505;
+                        id64 = 1505;
+                        type = 0;
+                        uuid = "AF01456E-BA79-4C67-B6E6-499DC2E4F7EE";
+                    };
+                    "Display Identifier" = "C2BB6E0D-570B-46B9-B049-A41BACD43C19";
                 }
             );
             Primary =             {
@@ -62,6 +87,18 @@
                 );
                 ManagedSpaceOrdering =                 (
                                         {
+                        ManagedDisplayID = "6DBC93E4-D052-4D25-8120-4EDAF3D0A5F3";
+                        ManagedSpaceIDs =                         (
+                            ""
+                        );
+                    },
+                                        {
+                        ManagedDisplayID = "2C9DB48E-D6CA-4EE6-8898-5FDC6078E8A1";
+                        ManagedSpaceIDs =                         (
+                            "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53"
+                        );
+                    },
+                                        {
                         ManagedDisplayID = Main;
                         ManagedSpaceIDs =                         (
                             ""
@@ -74,27 +111,26 @@
                         {
                 name = "";
                 windows =                 (
-                    176,
-                    109,
-                    169,
-                    159,
-                    92,
-                    84,
-                    66,
-                    90,
                     87,
-                    69,
-                    68,
-                    67,
-                    72,
-                    16
+                    2049,
+                    2029,
+                    1786,
+                    1987,
+                    86,
+                    30,
+                    28,
+                    52,
+                    15
                 );
             },
                         {
                 name = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                 windows =                 (
-                    74,
-                    17
+                    84,
+                    31,
+                    29,
+                    56,
+                    16
                 );
             }
         );

@@ -10,7 +10,7 @@
                     ascending = 1;
                     identifier = name;
                     visible = 1;
-                    width = 348;
+                    width = 641;
                 },
                                 {
                     ascending = 0;
@@ -92,7 +92,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-201";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -144,7 +144,7 @@
                     ascending = 1;
                     index = 0;
                     visible = 1;
-                    width = 348;
+                    width = 641;
                 };
                 size =                 {
                     ascending = 0;
@@ -160,7 +160,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-201";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -174,7 +174,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1129, 329}, {974, 739}}";
+            WindowBounds = "{{-2552, 65}, {1268, 1345}}";
         };
     };
     CopyProgressWindowLocation = "{872, 188}";
@@ -198,7 +198,7 @@
         };
     };
     DownloadsFolderListViewSettingsVersion = 1;
-    EmptyTrashProgressWindowLocation = "{1383, 288}";
+    EmptyTrashProgressWindowLocation = "{901, 217}";
     "FK_AppCentricShowSidebar" = 1;
     "FK_DefaultIconViewSettings" =     {
         arrangeBy = name;
@@ -569,6 +569,8 @@
         viewOptionsVersion = 1;
     };
     FXArrangeGroupViewBy = Name;
+    FXConnectToBounds = "{{1037, 897}, {486, 234}}";
+    FXConnectToLastURL = "smb://andud@192.168.50.59/Workspace";
     FXDefaultSearchScope = SCcf;
     FXDesktopTouchBarUpgradedToTenTwelveOne = 1;
     FXDesktopVolumePositions =     {
@@ -635,56 +637,54 @@
     FXICloudDriveEnabled = 1;
     FXICloudLoggedIn = 1;
     FXInfoPanesExpanded =     {
+        Comments = 1;
         MetaData = 1;
         Name = 1;
         OpenWith = 1;
+        Privileges = 1;
     };
     FXLastSearchScope = SCev;
-    "FXPreferencesWindow.Location" = "{{1168, 498}, {377, 392}}";
+    "FXPreferencesWindow.Location" = "{{1168, 396}, {377, 497}}";
     FXPreferredSearchViewStyle = Nlsv;
     FXPreferredSearchViewStyleVersion = "%00%00%00%01";
     FXPreferredViewStyle = Nlsv;
     FXQuickActionsConfigUpgradeLevel = 3;
     FXRecentFolders =     (
                 {
-            "file-bookmark" = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
-            name = Applications;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
-        },
-                {
-            "file-bookmark" = {length = 988, bytes = 0x626f6f6b dc030000 00000510 40000000 ... 04000000 00000000 };
-            name = SDK;
-        },
-                {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = iiSDKCore;
-        },
-                {
-            "file-bookmark" = {length = 1076, bytes = 0x626f6f6b 34040000 00000510 40000000 ... 04000000 00000000 };
-            name = src;
-        },
-                {
-            "file-bookmark" = {length = 776, bytes = 0x626f6f6b 08030000 00000510 40000000 ... 04000000 00000000 };
-            name = Society;
-        },
-                {
             "file-bookmark" = {length = 952, bytes = 0x626f6f6b b8030000 00000510 40000000 ... a0000000 00000000 };
             name = Storage;
         },
                 {
-            "file-bookmark" = {length = 636, bytes = 0x626f6f6b 7c020000 00000510 40000000 ... 04000000 00000000 };
-            name = ymy;
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = src;
         },
                 {
-            "file-bookmark" = {length = 568, bytes = 0x626f6f6b 38020000 00000510 40000000 ... 04000000 00000000 };
-            name = Utilities;
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = iiCompression;
         },
                 {
-            "file-bookmark" = {length = 1576, bytes = 0x626f6f6b 28060000 00000510 40000000 ... fc040000 00000000 };
-            name = "Creative Cloud Installer";
+            "file-bookmark" = {length = 1080, bytes = 0x626f6f6b 38040000 00000510 40000000 ... 04000000 00000000 };
+            name = src;
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = iiSocietyHelper;
+        },
+                {
+            "file-bookmark" = {length = 1128, bytes = 0x626f6f6b 68040000 00000510 40000000 ... 04000000 00000000 };
+            name = gb;
+        },
+                {
+            "file-bookmark" = {length = 1088, bytes = 0x626f6f6b 40040000 00000510 40000000 ... 04000000 00000000 };
+            name = resources;
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = iiVirtualizer;
+        },
+                {
+            "file-bookmark" = {length = 1092, bytes = 0x626f6f6b 44040000 00000510 40000000 ... 04000000 00000000 };
+            name = "third_party";
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -706,13 +706,13 @@
         Gray
     );
     FontSizeCategory = Custom;
-    GoToField = "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion/";
+    GoToField = "/Volumes/Society";
     GoToFieldHistory =     (
-        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion",
-        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/expansion/native/manifest.json",
-        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/rounding",
-        "/Volumes/Storage/Workspace/Design/LIMBO/Icons/records/rounding/native/manifest.json",
-        "/Volumes/Storage/Workspace/Design/LVRS/Tabs-2026-09-16/fonts"
+        "/Volumes/Society",
+        "/Volumes/Storage/Workspace/SDK/iiPaintEngine/resources/photoshop-brush-reference-20261105",
+        "/Users/ymy/Library/Application Support/Codex Removal Recovery/figcraft-openpencil-20261028T113516Z-675648/files/usr/local/bin",
+        "/usr/local/bin",
+        "/Volumes/Storage/Workspace/Product/Congregation/build/Congregation.app"
     );
     ICloudViewSettings =     {
         ExtendedListViewSettingsV2 =         {
@@ -723,7 +723,7 @@
                     ascending = 0;
                     identifier = name;
                     visible = 1;
-                    width = 433;
+                    width = 331;
                 },
                                 {
                     ascending = 0;
@@ -805,7 +805,7 @@
                 }
             );
             iconSize = 16;
-            scrollPositionX = "-201";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -875,7 +875,7 @@
                     ascending = 0;
                     index = 0;
                     visible = 1;
-                    width = 433;
+                    width = 331;
                 };
                 size =                 {
                     ascending = 0;
@@ -891,7 +891,7 @@
                 };
             };
             iconSize = 16;
-            scrollPositionX = "-201";
+            scrollPositionX = "-202";
             scrollPositionY = 0;
             showIconPreview = 1;
             sortColumn = name;
@@ -905,7 +905,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1414, 245}, {974, 739}}";
+            WindowBounds = "{{615, 130}, {920, 755}}";
         };
     };
     LastTrashState = 1;
@@ -920,6 +920,7 @@
             WindowBounds = "{{903, 59}, {714, 776}}";
         };
     };
+    MountProgressWindowLocation = "{1080, 349}";
     NSNavPanelExpandedSizeForOpenMode = "{887, 1005}";
     NSOSPLastRootDirectory = {length = 524, bytes = 0x626f6f6b 0c020000 00000510 40000000 ... 04000000 00000000 };
     "NSToolbar Configuration Browser" =     {
@@ -943,7 +944,7 @@
             "com.apple.finder.BACK",
             "com.apple.finder.SWCH",
             NSToolbarSpaceItem,
-            "com.apple.finder.ARNG",
+            "com.apple.finder.NFLD",
             NSToolbarSpaceItem,
             "com.apple.finder.SHAR",
             "com.apple.finder.LABL",
@@ -953,8 +954,8 @@
         );
         "TB Size Mode" = 1;
     };
-    "NSWindow Frame GoToSheet" = "1107 746 460 183 0 0 2560 1410 ";
-    "NSWindow Frame GoToWindow" = "1050 934 460 183 0 0 2560 1410 ";
+    "NSWindow Frame GoToSheet" = "1344 691 460 183 0 0 2560 1410 ";
+    "NSWindow Frame GoToWindow" = "1050 936 460 183 0 0 2560 1410 ";
     NetworkViewSettings =     {
         CustomViewStyleVersion = 1;
         ExtendedListViewSettingsV2 =         {
@@ -1127,11 +1128,11 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{867, 190}, {958, 801}}";
+            WindowBounds = "{{924, 188}, {920, 755}}";
         };
     };
     NewWindowTarget = PfLo;
-    NewWindowTargetPath = "file:///Volumes/Storage/Workspace/";
+    NewWindowTargetPath = "file:///Volumes/Storage/";
     PackageViewSettings =     {
         ExtendedListViewSettingsV2 =         {
             calculateAllSizes = 1;
@@ -1303,21 +1304,21 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{1197, 96}, {958, 801}}";
+            WindowBounds = "{{87, 205}, {920, 755}}";
         };
     };
-    "PreferencesWindow.LastSelection" = ADVD;
+    "PreferencesWindow.LastSelection" = GNRL;
     RecentMoveAndCopyDestinations =     (
-        "file:///Volumes/Storage/Workspace/SDK/iiSDKCore/src/Core/",
-        "file:///Volumes/Storage/Workspace/SDK/iiSDKCore/src/",
-        "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/",
-        "file:///Volumes/Storage/History/Police_DigitalScam_kractive.live/Line_Conversation_Compress/",
-        "file:///Volumes/Storage/Workspace/Product/Utility/",
-        "file:///Volumes/Storage/Workspace/SDK/iiLocalDiffusion/resources/",
-        "file:///Volumes/Storage/Workspace/Product/Dreamscapes/resources/Appicon/",
-        "file:///Volumes/Storage/Workspace/Product/Society/resources/Appicon/",
         "file:///Applications/",
-        "file:///Volumes/Storage/"
+        "file:///Volumes/Storage/Workspace/Assets/Artwork/World/",
+        "file:///Users/ymy/Library/Application%20Support/Codex%20Removal%20Recovery/figcraft-openpencil-20261028T113516Z-675648/files/usr/local/bin/",
+        "file:///Users/ymy/Downloads/",
+        "file:///Volumes/Storage/Job/%E1%84%80%E1%85%A9%E1%86%BC%E1%84%80%E1%85%A9/",
+        "file:///Volumes/Storage/Job/Resume/",
+        "file:///Volumes/Storage/Job/Resume/Applications/",
+        "file:///Volumes/Storage/Job/",
+        "file:///Volumes/Storage/Workspace/Product/Utility/",
+        "file:///Volumes/Storage/Workspace/Reverse/Projects/Adobe/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (
@@ -1378,7 +1379,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{690, 82}, {958, 801}}";
+            WindowBounds = "{{746, 85}, {958, 801}}";
         };
     };
     SearchSharedDocumentsSavedViewStyle = Nlsv;
@@ -1389,7 +1390,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{640, 161}, {844, 811}}";
+            WindowBounds = "{{202, 147}, {844, 811}}";
         };
     };
     ShowExternalHardDrivesOnDesktop = 0;
@@ -1619,13 +1620,14 @@
     TrashViewSettings =     {
         CustomViewStyleVersion = 1;
         ExtendedListViewSettingsV2 =         {
+            axTextSize = 13;
             calculateAllSizes = 0;
             columns =             (
                                 {
                     ascending = 1;
                     identifier = name;
                     visible = 1;
-                    width = 300;
+                    width = 331;
                 },
                                 {
                     ascending = 0;
@@ -1679,7 +1681,7 @@
                     ascending = 0;
                     identifier = dateLastOpened;
                     visible = 0;
-                    width = 200;
+                    width = 196;
                 },
                                 {
                     ascending = 0;
@@ -1734,6 +1736,7 @@
             viewOptionsVersion = 1;
         };
         ListViewSettings =         {
+            axTextSize = 13;
             calculateAllSizes = 0;
             columns =             {
                 comments =                 {
@@ -1752,7 +1755,7 @@
                     ascending = 0;
                     index = 8;
                     visible = 0;
-                    width = 200;
+                    width = 196;
                 };
                 dateModified =                 {
                     ascending = 0;
@@ -1776,7 +1779,7 @@
                     ascending = 1;
                     index = 0;
                     visible = 1;
-                    width = 300;
+                    width = 331;
                 };
                 size =                 {
                     ascending = 0;
@@ -1806,7 +1809,7 @@
             ShowStatusBar = 1;
             ShowTabView = 0;
             ShowToolbar = 1;
-            WindowBounds = "{{967, 125}, {903, 687}}";
+            WindowBounds = "{{782, 150}, {920, 1237}}";
         };
     };
     "ViewOptionsWindow.Location" = "{750, 344}";

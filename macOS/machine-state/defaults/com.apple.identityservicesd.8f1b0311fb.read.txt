@@ -11,15 +11,15 @@
     ImportedLegacyIMAccounts = 1;
     LastKeyGeneration = "1768640181.632508";
     MigratedToNewDisabledState = 1;
-    PurgePreviousIdentityInterval = "814509358.172612";
-    ReRegisteredForDevices = 2706;
+    PurgePreviousIdentityInterval = "818807614.5130709";
+    ReRegisteredForDevices = 2707;
     ReRegisteredForDevicesHash = 26CF2C50620B578B4DF41885DFD30266AC7688B5EBF707E59B766AFDC0117A43;
     activityTopics =     (
         "com.apple.private.alloy.home-com.apple.HomeKit"
     );
     "com.apple.identityservices.systemDSAccountStore" = {length = 959, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002ef };
     hasRegIdentityContainer = 1;
-    hasUnregIdentityContainer = 1;
+    hasUnregIdentityContainer = 0;
     "ids-swift-data-force-version" = 3;
     "performed-user-intent-migrate" = 1;
     "persister-migration-IDSAccountHistoryTrackerLastGDRDateMap" = 1;

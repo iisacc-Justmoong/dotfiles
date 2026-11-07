@@ -1,9 +1,32 @@
 {
     "__kCMFBlockListStoreTopLevelKey" =     {
         "__kCMFBlockListStoreArrayKey" =         (
+                        {
+                "__kCMFItemEmailUnformattedKey" = "info@guru.com";
+                "__kCMFItemTypeKey" = 1;
+                "__kCMFItemVersionKey" = 1;
+            },
+                        {
+                "__kCMFItemPhoneNumberCountryCodeKey" = kr;
+                "__kCMFItemPhoneNumberUnformattedKey" = "+821051705584";
+                "__kCMFItemTypeKey" = 0;
+                "__kCMFItemVersionKey" = 1;
+            },
+                        {
+                "__kCMFItemPhoneNumberCountryCodeKey" = kr;
+                "__kCMFItemPhoneNumberUnformattedKey" = "+8215776000";
+                "__kCMFItemTypeKey" = 0;
+                "__kCMFItemVersionKey" = 1;
+            },
+                        {
+                "__kCMFItemPhoneNumberCountryCodeKey" = kr;
+                "__kCMFItemPhoneNumberUnformattedKey" = "+821042805945";
+                "__kCMFItemTypeKey" = 0;
+                "__kCMFItemVersionKey" = 1;
+            }
         );
-        "__kCMFBlockListStoreRevisionKey" = 204;
-        "__kCMFBlockListStoreRevisionTimestampKey" = "2026-08-29 06:30:52 +0000";
+        "__kCMFBlockListStoreRevisionKey" = 212;
+        "__kCMFBlockListStoreRevisionTimestampKey" = "2026-10-16 01:34:33 +0000";
         "__kCMFBlockListStoreTypeKey" = "__kCMFBlockListStoreTypeValue";
         "__kCMFBlockListStoreVersionKey" = 1;
     };

@@ -80,24 +80,24 @@
         timestamp = "1783079903.548824";
     };
     CrossDomainHint =     {
-        count = 2;
-        timestamp = "1774686908.893234";
+        count = 3;
+        timestamp = "1792120987.445441";
     };
     "CrossDomainHint#goBack" =     {
-        count = 2;
-        timestamp = "1774686908.893234";
+        count = 3;
+        timestamp = "1792120987.445441";
     };
     FeatureAnnouncement =     {
-        count = 4;
-        timestamp = "1774686908.893234";
+        count = 6;
+        timestamp = "1792120987.445441";
     };
     "FeatureAnnouncement#magus" =     {
-        count = 2;
-        timestamp = "1774686908.893234";
+        count = 3;
+        timestamp = "1792120987.445441";
     };
     "FeatureAnnouncement#panIndia" =     {
-        count = 2;
-        timestamp = "1774686908.893234";
+        count = 3;
+        timestamp = "1792120987.445441";
     };
     SiriAutoComplete =     {
         count = 4659;
@@ -202,6 +202,22 @@
     "TimeSuggestions#updateAlarm" =     {
         count = 110;
         timestamp = "1789787177.981378";
+    };
+    Translate =     {
+        count = 5;
+        timestamp = "1792120987.657325";
+    };
+    "Translate#SingleItemResult_Dialog" =     {
+        count = 1;
+        timestamp = "1792120987.657325";
+    };
+    "Translate#language" =     {
+        count = 3;
+        timestamp = "1792120987.657325";
+    };
+    "Translate#navigateToTranslate" =     {
+        count = 1;
+        timestamp = "1792120987.657325";
     };
     notebookSuggestions =     {
         count = 204;

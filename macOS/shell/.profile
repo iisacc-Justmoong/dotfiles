@@ -21,3 +21,8 @@ path_prepend_if_dir "$HOME/.lmstudio/bin"
 
 export PATH
 unset -f path_prepend_if_dir 2>/dev/null || true
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/ymy/.lmstudio/bin"
+# End of LM Studio CLI section
+

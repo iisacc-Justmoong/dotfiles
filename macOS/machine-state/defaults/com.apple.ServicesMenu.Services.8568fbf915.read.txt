@@ -72,7 +72,6 @@
                     English = "Create Service";
                     default = "Create Service";
                     en = "Create Service";
-                    "en-US" = "Create Service";
                     "en_US" = "Create Service";
                 };
                 NSMessage = makeNewServiceWithPasteboard;
@@ -92,7 +91,6 @@
                     English = "Create Workflow";
                     default = "Create Workflow";
                     en = "Create Workflow";
-                    "en-US" = "Create Workflow";
                     "en_US" = "Create Workflow";
                 };
                 NSMessage = makeNewWorkflowServiceWithPasteboard;
@@ -113,7 +111,6 @@
                     English = "Send File To Bluetooth Device";
                     default = "Send File To Bluetooth Device";
                     en = "Send File To Bluetooth Device";
-                    "en-US" = "Send File To Bluetooth Device";
                     "en_US" = "Send File To Bluetooth Device";
                 };
                 NSMessage = sendFileUsingBluetoothOBEXService;
@@ -135,14 +132,12 @@
                     English = "$^@C";
                     default = "$^@C";
                     en = "$^@C";
-                    "en-US" = "$^@C";
                     "en_US" = "$^@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Traditional Chinese";
                     default = "Convert Text from Simplified to Traditional Chinese";
                     en = "Convert Text to Traditional Chinese";
-                    "en-US" = "Convert Text to Traditional Chinese";
                     "en_US" = "Convert Text to Traditional Chinese";
                 };
                 NSMessage = convertTextToTraditionalChinese;
@@ -168,14 +163,12 @@
                     English = "$^~@C";
                     default = "$^~@C";
                     en = "$^~@C";
-                    "en-US" = "$^~@C";
                     "en_US" = "$^~@C";
                 };
                 NSMenuItem =                 {
                     English = "Convert Text to Simplified Chinese";
                     default = "Convert Text from Traditional to Simplified Chinese";
                     en = "Convert Text to Simplified Chinese";
-                    "en-US" = "Convert Text to Simplified Chinese";
                     "en_US" = "Convert Text to Simplified Chinese";
                 };
                 NSMessage = convertTextToSimplifiedChinese;
@@ -203,7 +196,6 @@
                     English = "Convert Text to Full Width";
                     default = "Convert Text to Full Width";
                     en = "Convert Text to Full Width";
-                    "en-US" = "Convert Text to Full Width";
                     "en_US" = "Convert Text to Full Width";
                 };
                 NSMessage = convertTextToFullWidth;
@@ -228,7 +220,6 @@
                     English = "Convert Text to Half Width";
                     default = "Convert Text to Half Width";
                     en = "Convert Text to Half Width";
-                    "en-US" = "Convert Text to Half Width";
                     "en_US" = "Convert Text to Half Width";
                 };
                 NSMessage = convertTextToHalfWidth;
@@ -253,7 +244,6 @@
                     English = "Look Up in Dictionary";
                     default = "Look Up in Dictionary";
                     en = "Look Up in Dictionary";
-                    "en-US" = "Look Up in Dictionary";
                     "en_US" = "Look Up in Dictionary";
                 };
                 NSMessage = doLookupService;
@@ -264,6 +254,41 @@
                 NSUUID = {length = 20, bytes = 0x6a948d3b92636f879bae3bb1efee1716a87418ef};
             },
                         {
+                NSBundleIdentifier = "com.apple.FileMerge";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/FileMerge.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "FileMerge/Compare Files";
+                };
+                NSMessage = diffFilesService;
+                NSPortName = FileMerge;
+                NSReturnTypes =                 (
+                );
+                NSSendTypes =                 (
+                    NSFilenamesPboardType
+                );
+                NSUUID = {length = 20, bytes = 0xb224c69b7965be8d21b7ce23502552422d74efa1};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.FileMerge";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/FileMerge.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "FileMerge/Compare To Main";
+                };
+                NSMessage = diffVersusMasterService;
+                NSPortName = FileMerge;
+                NSRestricted = 1;
+                NSReturnTypes =                 (
+                );
+                NSSendTypes =                 (
+                    NSFilenamesPboardType
+                );
+                NSUUID = {length = 20, bytes = 0xf687ed3a268958dd0c67814a8e2f201b3e79860a};
+            },
+                        {
                 NSBundleIdentifier = "com.apple.FolderActionsSetup";
                 NSBundlePath = "/System/Library/CoreServices/Applications/Folder Actions Setup.app";
                 NSKeyEquivalent =                 {
@@ -272,7 +297,6 @@
                     English = "Folder Actions Setup\U2026";
                     default = "Folder Actions Setup";
                     en = "Folder Actions Setup\U2026";
-                    "en-US" = "Folder Actions Setup\U2026";
                     "en_US" = "Folder Actions Setup\U2026";
                 };
                 NSMessage = openFilesFromPasteboard;
@@ -307,7 +331,6 @@
                     English = "Preview/Open images";
                     default = "Preview/Open images";
                     en = "Preview/Open images";
-                    "en-US" = "Preview/Open images";
                     "en_US" = "Preview/Open images";
                 };
                 NSMessage = serviceOpenImage;
@@ -326,7 +349,6 @@
                     English = "Encode Selected Audio Files";
                     default = "Encode Selected Audio Files";
                     en = "Encode Selected Audio Files";
-                    "en-US" = "Encode Selected Audio Files";
                     "en_US" = "Encode Selected Audio Files";
                 };
                 NSMessage = runWorkflowAsService;
@@ -348,7 +370,6 @@
                     English = "Search With %WebSearchProvider@";
                     default = "Search With %WebSearchProvider@";
                     en = "Search With %WebSearchProvider@";
-                    "en-US" = "Search With %WebSearchProvider@";
                     "en_US" = "Search With %WebSearchProvider@";
                 };
                 NSMessage = searchWithWebSearchProvider;
@@ -367,7 +388,6 @@
                     English = "Add to Reading List";
                     default = "Add to Reading List";
                     en = "Add to Reading List";
-                    "en-US" = "Add to Reading List";
                     "en_US" = "Add to Reading List";
                 };
                 NSMessage = addToReadingList;
@@ -398,7 +418,6 @@
                     English = "Script Editor/Make New AppleScript";
                     default = "Script Editor/Make New AppleScript";
                     en = "Script Editor/Make New AppleScript";
-                    "en-US" = "Script Editor/Make New AppleScript";
                     "en_US" = "Script Editor/Make New AppleScript";
                 };
                 NSMessage = makeNewAppleScript;
@@ -417,7 +436,6 @@
                     English = "Script Editor/Run as AppleScript";
                     default = "Script Editor/Run as AppleScript";
                     en = "Script Editor/Run as AppleScript";
-                    "en-US" = "Script Editor/Run as AppleScript";
                     "en_US" = "Script Editor/Run as AppleScript";
                 };
                 NSMessage = runAsAppleScript;
@@ -435,14 +453,12 @@
                     English = "*";
                     default = "*";
                     en = "*";
-                    "en-US" = "*";
                     "en_US" = "*";
                 };
                 NSMenuItem =                 {
                     English = "Script Editor/Get Result of AppleScript";
                     default = "Script Editor/Get Result of AppleScript";
                     en = "Script Editor/Get Result of AppleScript";
-                    "en-US" = "Script Editor/Get Result of AppleScript";
                     "en_US" = "Script Editor/Get Result of AppleScript";
                 };
                 NSMessage = runAsAppleScript;
@@ -468,7 +484,6 @@
                     English = Spotlight;
                     default = "SEARCH_WITH_SPOTLIGHT";
                     en = Spotlight;
-                    "en-US" = Spotlight;
                     "en_US" = Spotlight;
                 };
                 NSMessage = doSearchWithSpotlight;
@@ -485,14 +500,12 @@
                     English = Y;
                     default = Y;
                     en = Y;
-                    "en-US" = Y;
                     "en_US" = Y;
                 };
                 NSMenuItem =                 {
                     English = "Make New Sticky Note";
                     default = "Make Sticky";
                     en = "Make New Sticky Note";
-                    "en-US" = "Make New Sticky Note";
                     "en_US" = "Make New Sticky Note";
                 };
                 NSMessage = makeStickyFromTextService;
@@ -513,7 +526,6 @@
                     English = Summarize;
                     default = Summarize;
                     en = Summarize;
-                    "en-US" = Summarize;
                     "en_US" = Summarize;
                 };
                 NSMessage = doSummarization;
@@ -532,7 +544,6 @@
                     English = "New Terminal at Folder";
                     default = "New Terminal at Folder";
                     en = "New Terminal at Folder";
-                    "en-US" = "New Terminal at Folder";
                     "en_US" = "New Terminal at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
@@ -558,7 +569,6 @@
                     English = "New Terminal Tab at Folder";
                     default = "New Terminal Tab at Folder";
                     en = "New Terminal Tab at Folder";
-                    "en-US" = "New Terminal Tab at Folder";
                     "en_US" = "New Terminal Tab at Folder";
                 };
                 NSMessage = newTerminalAtFolder;
@@ -586,7 +596,6 @@
                     English = "Open man Page in Terminal";
                     default = "Open man Page in Terminal";
                     en = "Open man Page in Terminal";
-                    "en-US" = "Open man Page in Terminal";
                     "en_US" = "Open man Page in Terminal";
                 };
                 NSMessage = openManPage;
@@ -609,7 +618,6 @@
                     English = "Search man Page Index in Terminal";
                     default = "Search man Page Index in Terminal";
                     en = "Search man Page Index in Terminal";
-                    "en-US" = "Search man Page Index in Terminal";
                     "en_US" = "Search man Page Index in Terminal";
                 };
                 NSMessage = searchManPages;
@@ -631,7 +639,6 @@
                     English = "New TextEdit Window Containing Selection";
                     default = "New TextEdit Window Containing Selection";
                     en = "New TextEdit Window Containing Selection";
-                    "en-US" = "New TextEdit Window Containing Selection";
                     "en_US" = "New TextEdit Window Containing Selection";
                 };
                 NSMessage = openSelection;
@@ -652,7 +659,6 @@
                     English = "Open Selected File in TextEdit";
                     default = "Open Selected File in TextEdit";
                     en = "Open Selected File in TextEdit";
-                    "en-US" = "Open Selected File in TextEdit";
                     "en_US" = "Open Selected File in TextEdit";
                 };
                 NSMessage = openFile;
@@ -664,6 +670,66 @@
                     "public.plain-text"
                 );
                 NSUUID = {length = 20, bytes = 0xa04c6e983615da28682c1d114f8217acc79fa0a6};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "System Trace";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x12e9673b38c072444224fb19bf02c166a586220a};
+                NSUserData = "System Trace.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Activity Monitor";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x95d6f603a621e547ec75050dababee9e9242828f};
+                NSUserData = "Activity Monitor.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Allocations & Leaks";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x40eb038b95f9ba86af82f7c3bdd4235be50a560b};
+                NSUserData = "Leaks.tracetemplate";
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.Instruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "File Activity";
+                };
+                NSMessage = targetFrontAppWithTemplate;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0xa559adcacba33987e0101dd1caf020227a5d9941};
+                NSUserData = "File Activity.tracetemplate";
             },
                         {
                 NSBundleIdentifier = "com.apple.dt.Xcode";
@@ -698,6 +764,62 @@
                 NSUUID = {length = 20, bytes = 0x67af8b5231b40cdeb6aad783a71a00800308b15a};
             },
                         {
+                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Time Profile Active Application";
+                };
+                NSMessage = timeProfileFrontMost;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x306caaccfdedbb479b1bf2ead5c85df11ad56db6};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Time Profile Entire System";
+                };
+                NSMessage = timeProfileSystem;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0xc2a175ddfbc7ea84d8d7f6966b3166ea61f00625};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Time Profile App Under Mouse";
+                };
+                NSMessage = timeProfileUnderMouse;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0xa878dc34bce6e06ff60982947a513df5446f124e};
+            },
+                        {
+                NSBundleIdentifier = "com.apple.dt.instruments.backgroundinstruments";
+                NSBundlePath = "/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Helpers/backgroundinstruments.app";
+                NSKeyEquivalent =                 {
+                };
+                NSMenuItem =                 {
+                    default = "Toggle Instruments Recording";
+                };
+                NSMessage = toggleRecordingState;
+                NSRequiredContext =                 {
+                    NSServiceCategory = "public.source-code";
+                };
+                NSUUID = {length = 20, bytes = 0x8b0daf73d22c80a10111697e41db80bbc8c1485b};
+            },
+                        {
                 NSBundleIdentifier = "com.apple.finder";
                 NSBundlePath = "/System/Library/CoreServices/Finder.app";
                 NSForbiddenContext =                 {
@@ -709,7 +831,6 @@
                     English = "Finder/Open";
                     default = "Finder/Open";
                     en = "Finder/Open";
-                    "en-US" = "Finder/Open";
                     "en_US" = "Finder/Open";
                 };
                 NSMessage = open;
@@ -735,7 +856,6 @@
                     English = "Finder/Show in Finder";
                     default = "Finder/Reveal";
                     en = "Finder/Show in Finder";
-                    "en-US" = "Finder/Show in Finder";
                     "en_US" = "Finder/Show in Finder";
                 };
                 NSMessage = reveal;
@@ -761,7 +881,6 @@
                     English = "Finder/Show Info in Finder";
                     default = "Finder/Show Info";
                     en = "Finder/Show Info in Finder";
-                    "en-US" = "Finder/Show Info in Finder";
                     "en_US" = "Finder/Show Info in Finder";
                 };
                 NSMessage = showInfo;
@@ -784,7 +903,6 @@
                     English = "Mail/New Email With Selection";
                     default = "Mail/New Email With Selection";
                     en = "Mail/New Email With Selection";
-                    "en-US" = "Mail/New Email With Selection";
                     "en_US" = "Mail/New Email With Selection";
                 };
                 NSMessage = mailSelection;
@@ -806,7 +924,6 @@
                     English = "Mail/New Email To Address";
                     default = "Mail/New Email To Address";
                     en = "Mail/New Email To Address";
-                    "en-US" = "Mail/New Email To Address";
                     "en_US" = "Mail/New Email To Address";
                 };
                 NSMessage = mailTo;
@@ -825,7 +942,6 @@
                     English = "Add to Music as a Spoken Track";
                     default = "Add to Music as a Spoken Track";
                     en = "Add to Music as a Spoken Track";
-                    "en-US" = "Add to Music as a Spoken Track";
                     "en_US" = "Add to Music as a Spoken Track";
                 };
                 NSMessage = runWorkflowAsService;
@@ -844,7 +960,6 @@
                     English = "Encode Selected Video Files";
                     default = "Encode Selected Video Files";
                     en = "Encode Selected Video Files";
-                    "en-US" = "Encode Selected Video Files";
                     "en_US" = "Encode Selected Video Files";
                 };
                 NSMessage = runWorkflowAsService;
@@ -865,7 +980,6 @@
                     English = "Set Desktop Picture";
                     default = "Set Desktop Picture";
                     en = "Set Desktop Picture";
-                    "en-US" = "Set Desktop Picture";
                     "en_US" = "Set Desktop Picture";
                 };
                 NSMessage = runWorkflowAsService;
@@ -883,7 +997,6 @@
                     English = "Show Map";
                     default = "Show Map";
                     en = "Show Map";
-                    "en-US" = "Show Map";
                     "en_US" = "Show Map";
                 };
                 NSMessage = runWorkflowAsService;
@@ -905,7 +1018,6 @@
                     English = "Speech/Start Speaking Text";
                     default = "Speech/Start Speaking Text";
                     en = "Speech/Start Speaking Text";
-                    "en-US" = "Speech/Start Speaking Text";
                     "en_US" = "Speech/Start Speaking Text";
                 };
                 NSMessage = doSpeakSelectedText;
@@ -924,7 +1036,6 @@
                     English = "Speech/Stop Speaking";
                     default = "Speech/Stop Speaking";
                     en = "Speech/Stop Speaking";
-                    "en-US" = "Speech/Stop Speaking";
                     "en_US" = "Speech/Stop Speaking";
                 };
                 NSMessage = doStopSpeaking;
@@ -943,7 +1054,6 @@
                     English = "Open URL";
                     default = "Open URL";
                     en = "Open URL";
-                    "en-US" = "Open URL";
                     "en_US" = "Open URL";
                 };
                 NSMessage = openURL;

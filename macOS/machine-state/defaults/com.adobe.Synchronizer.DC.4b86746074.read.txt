@@ -11,23 +11,32 @@
         DisableTryJoin = 0;
         UniqueIdForEureka = "64e775ae-a759-4a54-8916-0db2678bc936";
     };
+    AxonNotifInfra =     {
+        isAxonExpEnabled = 1;
+        isAxonInfraActive = 0;
+    };
     EnableAcroWebDetect = 1;
     EntitySyncCleanUpStatus =     {
         EntitySyncCleanedUp = 1;
     };
+    ExperimentStatus =     {
+        UseThreadPoolForCommandHandler = 1;
+    };
     ProcessInfo =     {
         BrokerExitReason = Running;
-        BrokerExitTimestamp = 1789707974;
-        Version = "26.2.21901";
+        BrokerExitTimestamp = 1793918026;
+        Version = "26.2.21931";
     };
     SophiaDTNotifications =     {
+        Pguid = "0B564CAC56BAC0507F000101@AdobeID";
         countryCode = KR;
         isDTNotificationsExpEnabled = 1;
         isUserLoggedIn = 1;
     };
     SynchronizerPings =     {
-        "pingLocation_2" = 1789707960;
-        "pingLocation_5" = 1789707961;
+        MAUSyncPingLastYearMonth = 202611;
+        "pingLocation_2" = 1793918030;
+        "pingLocation_5" = 1792371327;
         "pingLocation_7" = 1768652354;
     };
     WebServers =     {

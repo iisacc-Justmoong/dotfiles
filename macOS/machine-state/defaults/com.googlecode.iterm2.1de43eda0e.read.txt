@@ -20,6 +20,12 @@
     HapticFeedbackForEsc = 0;
     HotkeyMigratedFromSingleToMulti = 1;
     NSAutoFillHeuristicControllerEnabled = 0;
+    NSAutomaticCapitalizationEnabled = 0;
+    NSAutomaticDashSubstitutionEnabled = 0;
+    NSAutomaticPeriodSubstitutionEnabled = 0;
+    NSAutomaticQuoteSubstitutionEnabled = 0;
+    NSAutomaticSpellingCorrectionEnabled = 0;
+    NSEnableWindowTabIndexing = 0;
     NSOverlayScrollersFallBackForAccessoryViews = 0;
     NSQuotedKeystrokeBinding = "";
     NSRepeatCountBinding = "";
@@ -35,7 +41,8 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1028 182 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1538 108 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "342 191 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 0" = "1370 231 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
@@ -575,14 +582,19 @@
             "Working Directory" = "/Users/ymy";
         }
     );
+    NoSyncAISafetyCheckProviderMigrationDone = 1;
     NoSyncAllAppVersions =     (
         "3.6.10",
         "3.6.11",
         "3.7.0",
         "3.7.2",
         "3.6.9",
+        "3.7.4",
+        "3.7.6",
         "3.6.6",
-        "3.6.8"
+        "3.6.8",
+        "3.7.3",
+        "3.7.7"
     );
     NoSyncBFPRecents =     (
         "JetBrains Mono",
@@ -594,21 +606,22 @@
     NoSyncClaudeCodeReviewSystemPromptCommandBackfilled = 1;
     NoSyncConfirmRunOpenFile = 1;
     "NoSyncConfirmRunOpenFile_selection" = 0;
+    NoSyncDidMigrateKeyBindingFormat = 1;
     "NoSyncFrame_SharedPreferences" =     {
         screenFrame = "{{0, 0}, {2560, 1440}}";
         topLeft = "{818, 965}";
     };
     NoSyncIgnoreSystemWindowRestoration = 1;
     NoSyncInstallationId = "5E395F17-3A68-4107-85A8-61388C2E1C13";
-    NoSyncLastOSVersion = "Version 27.0 (Build 26A428)";
+    NoSyncLastOSVersion = "Version 27.2 (Build 26B123)";
     NoSyncLastShutdownWasClean = 0;
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 136;
+    NoSyncLaunchExperienceControllerRunCount = 148;
     NoSyncMigratedDynamicProfileTagToFlag = 1;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
     NoSyncPersistentRateLimitedUpdates =     {
-        CheckForUpdatedUv = "811571727.474668";
+        CheckForUpdatedUv = "815697209.251004";
     };
     NoSyncRecordedVariables =     {
         0 =         (
@@ -621,12 +634,32 @@
         1 =         (
                         {
                 isTerminal = 1;
+                name = "colors.ansi.black";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.yellow";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.red";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = id;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
                 name = "effective_root_pid";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.background";
                 nonterminalContext = 0;
             },
                         {
@@ -651,7 +684,27 @@
             },
                         {
                 isTerminal = 1;
+                name = "colors.ansi.blue";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = username;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.selectionText";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.magenta";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.white";
                 nonterminalContext = 0;
             },
                         {
@@ -670,14 +723,29 @@
                 nonterminalContext = 0;
             },
                         {
+                isTerminal = 1;
+                name = status;
+                nonterminalContext = 0;
+            },
+                        {
                 isTerminal = 0;
                 name = parentSession;
                 nonterminalContext = 1;
             },
                         {
+                isTerminal = 1;
+                name = "colors.indexed";
+                nonterminalContext = 0;
+            },
+                        {
                 isTerminal = 0;
                 name = tab;
                 nonterminalContext = 2;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightBlack";
+                nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
@@ -697,6 +765,16 @@
                         {
                 isTerminal = 1;
                 name = bellCount;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.green";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightGreen";
                 nonterminalContext = 0;
             },
                         {
@@ -766,6 +844,16 @@
             },
                         {
                 isTerminal = 1;
+                name = isFloating;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightBlue";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = tmuxClientName;
                 nonterminalContext = 0;
             },
@@ -781,12 +869,32 @@
             },
                         {
                 isTerminal = 1;
+                name = "colors.ansi.brightMagenta";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.cursor";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = selectionLength;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
+                name = "colors.link";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = isBroadcastSource;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightWhite";
                 nonterminalContext = 0;
             },
                         {
@@ -801,7 +909,27 @@
             },
                         {
                 isTerminal = 1;
+                name = "colors.cursorText";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.match";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.selectionBackground";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = rows;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightYellow";
                 nonterminalContext = 0;
             },
                         {
@@ -826,7 +954,27 @@
             },
                         {
                 isTerminal = 1;
+                name = "colors.ansi.brightCyan";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = aiTitle;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.cyan";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = jobName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.ansi.brightRed";
                 nonterminalContext = 0;
             },
                         {
@@ -887,6 +1035,16 @@
                         {
                 isTerminal = 1;
                 name = presentationName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.foreground";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "colors.bold";
                 nonterminalContext = 0;
             }
         );
@@ -969,6 +1127,11 @@
                         {
                 isTerminal = 1;
                 name = "currentTab.window";
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.isFloating";
                 nonterminalContext = 0;
             },
                         {
@@ -1177,22 +1340,32 @@
         4 =         (
                         {
                 isTerminal = 1;
-                name = effectiveTheme;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = appBundlePath;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
                 name = pid;
                 nonterminalContext = 0;
             },
                         {
                 isTerminal = 1;
                 name = localhostName;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = workingSessionCount;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = waitingSessionCount;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = effectiveTheme;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = appBundlePath;
                 nonterminalContext = 0;
             }
         );
@@ -1202,15 +1375,24 @@
     NoSyncSavedWindowPositions =     {
         1 = "{1787, 953}";
         2 = "{66, 1135}";
-        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1028, 1024}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1538, 950}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "{342, 1033}";
     };
     NoSyncSuppressedAlertsCatalog =     {
+        "NeverWarnAboutShortLivedSessions_A5BC6692-F4CB-432B-9A50-F74C22C672CC" =         {
+            count = 1;
+            episode = permanent;
+            lastSuppressed = "812189357.477204";
+            selectionLabel = OK;
+            title = "A session ended very soon after starting. Check that the command in profile \"Default\" is correct.";
+        };
     };
     NoSyncTipOfTheDayEligibilityBeganTime = "790339530.2609479";
     NoSyncUserHasSelectedCommand = 1;
     NoSyncWindowCornerRadiusCache =     {
         "mask_32783_tv_0_os_27_0_scale_1.0" = "31.5";
         "mask_32783_tv_0_os_27_0_scale_2.0" = "17.75";
+        "mask_32783_tv_0_os_27_2_scale_2.0" = "10.75";
     };
     NoSyncWindowRestoresWorkspaceAtLaunch = 0;
     NoSyncWorkgroupShortcutsBackfilled = 1;
@@ -1242,7 +1424,7 @@
     SUFeedAlternateAppNameKey = iTerm;
     SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=76";
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-09-19 04:35:28 +0000";
+    SULastCheckTime = "2026-11-05 22:27:42 +0000";
     SUSendProfileInfo = 0;
     SUUpdateGroupIdentifier = 118056111;
     SUUpdateRelaunchingMarker = 0;
@@ -1250,7 +1432,7 @@
     TabStyleWithAutomaticOption = 5;
     TripleClickSelectsFullWrappedLines = 0;
     VisualIndicatorForEsc = 0;
-    "iTerm Version" = "3.7.2";
+    "iTerm Version" = "3.7.7";
     kCPKSelectionViewPreferredModeKey = 0;
     kCPKSelectionViewShowHSBTextFieldsKey = 0;
 }

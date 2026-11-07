@@ -1,0 +1,16 @@
+{
+    "com.google.Gemini.OmahaMetrics.hadUpdateCheckStateAtBaseline" = 0;
+    "com.google.Gemini.OmahaMetrics.hasAttemptedLegacyCleanup" = 1;
+    "com.google.Gemini.OmahaMetrics.hasReportedInstall" = 1;
+    "com.google.Gemini.OmahaMetrics.isAppActive" = 0;
+    "com.google.Gemini.OmahaMetrics.lastActiveDay" = 7249;
+    "com.google.Gemini.OmahaMetrics.lastRollcallDay" = 7249;
+    "com.google.Gemini.OmahaMetrics.pendingUpdateReportFromVersion" = "1.138.0.1315";
+    "com.google.Gemini.OmahaMetrics.pingFreshness" = "DCD8EA15-4C40-4277-9E37-72EAAF19C2F3";
+    "com.google.Gemini.streamToCursorHoldShortcutMode" = none;
+    "com.google.Gemini.streamToCursorStartStopShortcutMode" = doubleTapFn;
+    hasCompletedInitialLoginItemRegistration = 1;
+    loginItemEnabled = 1;
+    "statusBar_isPastOnboarding" = 1;
+    "updater.driveUpdaterEnabled" = 0;
+}

@@ -2,13 +2,13 @@
     CCFilesEOL =     {
         "0B564CAC56BAC0507F000101@AdobeID" =         {
             Floodgate =             {
-                Expiry = 1789133998;
+                Expiry = 1792185419;
                 Payload = "{\"api_version\":\"0.1\",\"json_version\":\"0.1\",\"clients\":{\"dva-ccf-eol\":{\"analyticsVersion\":\"1.0\",\"releases\":[]},\"ccfiles_eol_prod\":{\"analyticsVersion\":\"1.0\",\"client_analytics_params\":{\"app_id\":657,\"safe_event_required\":false,\"analytics_required\":false},\"releases\":[{\"bit_index\":-2017,\"release_name\":\"ccfiles_eol_phase_cs_prod\",\"features\":[\"ccfiles_eol_phase\"],\"meta\":[{\"k\":\"ccfiles_eol_phase\",\"v\":\"NkU=\"}]}]}},\"ttl\":300}";
             };
         };
     };
     "FeatureCache_Floodgate" =     {
-        Expiry = 1789047898;
+        Expiry = 1792099319;
         "NewFG_Prod" =         {
             Payload = kOn;
             State = 1;
@@ -27,6 +27,8 @@
         };
     };
     "FirstLaunch26.5.0" = 0;
+    "FirstLaunch26.5.1" = 0;
+    "FirstLaunch26.5.2" = 0;
     Language = "en_US";
     PluginCache =     {
         "en_US" =         {
@@ -49,7 +51,7 @@
                     SaveRequiresActiveSequence = 1;
                     SaveSupportedExtensions = "*.aaf";
                 };
-                TimeStampHashGuid = "e5ced5de-7457-a70f-bde4-dd2800000026";
+                TimeStampHashGuid = "189cf9d7-bb90-15b4-060b-41f100000026";
             };
             "AEASCCDL_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -94,7 +96,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "91189721-9d84-de97-82c2-6f500000001b";
+                TimeStampHashGuid = "53df1f66-7cee-651b-f7a9-1d9e0000001b";
             };
             "AEArriRawMXFSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -119,7 +121,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "0ed3b0c1-d9b6-cda4-2541-aac20000002d";
+                TimeStampHashGuid = "8370efe8-d479-13ca-fc0c-f9f80000002d";
             };
             "AEArriRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -144,7 +146,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "60456e81-1283-6249-bf59-d4650000002a";
+                TimeStampHashGuid = "7db834dd-d9a9-09d6-ddad-50a90000002a";
             };
             "AEBlackAndWhite_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -171,7 +173,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "358af716-b22c-47df-db2b-ab0300000022";
+                TimeStampHashGuid = "451ea310-e13c-3984-650b-460800000022";
             };
             "AECanonRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -196,7 +198,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "921bc3c3-d6af-3725-381b-a42c0000002b";
+                TimeStampHashGuid = "e315b010-5700-ce3c-6f08-73090000002b";
             };
             "AEF65SourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -221,17 +223,17 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "6ae9d7a1-628b-f673-96c8-aa6600000026";
+                TimeStampHashGuid = "4a7f089a-ed25-1ad7-7708-f0b600000026";
             };
             "AEFilterCPUTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 1;
-                TimeStampHashGuid = "c9710704-76f5-0614-ead1-1a6600000022";
+                TimeStampHashGuid = "20036ce4-ca3f-7fc4-30f6-ba5200000022";
             };
             "AEFilterGPUTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 1;
-                TimeStampHashGuid = "8e294ff7-8cc8-6f92-1b44-dc7100000022";
+                TimeStampHashGuid = "8472f3c0-004e-c56f-85eb-42ea00000022";
             };
             "AEFilterHSLMask_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -256,7 +258,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "9b4af681-bbff-fac6-9f72-3b6000000022";
+                TimeStampHashGuid = "154b20bf-2e0b-52cb-3d4e-058700000022";
             };
             "AEFilterRenderTracer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -309,7 +311,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "db3266d2-774e-5b27-b5bc-ab2700000027";
+                TimeStampHashGuid = "fd74676c-79eb-e98c-390c-fce300000027";
             };
             "AEGraphicGroup_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -334,7 +336,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "dc7ea7e6-5b48-47e6-a96e-bb5000000021";
+                TimeStampHashGuid = "158b1f94-cfaf-6cb2-9d79-0cb600000021";
             };
             "AEMPEGSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -359,7 +361,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "d57c6483-572e-b306-b142-364200000027";
+                TimeStampHashGuid = "6209d051-16c9-4c38-3982-ad9900000027";
             };
             "AEProResRawSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -384,7 +386,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "a5088246-f374-1a42-43d8-239f0000002c";
+                TimeStampHashGuid = "859b3963-1a16-a11b-ab36-2a5e0000002c";
             };
             "AEProcAmp_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -411,7 +413,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "56902215-5229-3d3a-b6d6-2dc60000001c";
+                TimeStampHashGuid = "eb266647-c275-19d6-cc5e-dfd00000001c";
             };
             "AEREDSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -436,7 +438,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "8585412a-467a-bc05-e8b6-049700000026";
+                TimeStampHashGuid = "f8c999c4-43fc-662f-cc41-a8d600000026";
             };
             "AESimpleText_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -463,7 +465,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "feb831b3-a1d9-ac0b-82f0-108c0000001f";
+                TimeStampHashGuid = "81dbb802-743d-4a32-9bda-642f0000001f";
             };
             "AESonyRawMXFSourceSettings_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -488,7 +490,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "add65541-cc12-d9a1-d8c6-42820000002d";
+                TimeStampHashGuid = "36d2e6cb-20ce-61d7-8496-dd4c0000002d";
             };
             "AEText_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -529,7 +531,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "d4b1cec6-02ac-53a2-1288-dbec00000019";
+                TimeStampHashGuid = "2ae5bb50-92e5-e668-4e94-6a1f00000019";
             };
             "AETimecode_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -554,7 +556,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "8b6e7820-14fe-a0b4-56a8-2ce10000001d";
+                TimeStampHashGuid = "cdf3d68e-ab08-eb86-c317-91330000001d";
             };
             "AETrackMatteKey_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -581,7 +583,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "2b158c4b-4c88-ca6d-150a-38bf00000022";
+                TimeStampHashGuid = "14e47793-43a0-2350-565d-677c00000022";
             };
             "AEUltraKey_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -608,7 +610,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "9cb283e0-3a0b-0cf8-37f6-b5db0000001d";
+                TimeStampHashGuid = "66d62d10-05e1-921c-385a-77250000001d";
             };
             "ALEProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -629,7 +631,7 @@
                     SaveRequiresActiveSequence = 0;
                     SaveSupportedExtensions = "*.ale";
                 };
-                TimeStampHashGuid = "74102d92-03c8-b5c6-53ac-a81400000026";
+                TimeStampHashGuid = "b7187e4f-7d34-acd3-8598-a2fe00000026";
             };
             "AutoReframe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -674,7 +676,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "e27a2630-4da5-9230-de83-886f0000001e";
+                TimeStampHashGuid = "376327c6-291a-0ec3-b81c-8df90000001e";
             };
             "BarnDoors_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -699,7 +701,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "aae8f4b9-591c-b60d-4c53-9e810000001c";
+                TimeStampHashGuid = "af22207e-d446-14ce-43be-2e7b0000001c";
             };
             "CameraBlur_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -724,7 +726,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "698b8e43-c4dd-45c1-21aa-2ddf0000001d";
+                TimeStampHashGuid = "0f2f04e4-1f71-5469-173a-3a260000001d";
             };
             "CenterSplit_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -749,7 +751,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "db7b59f9-b203-f4b3-f9a7-6e6e0000001e";
+                TimeStampHashGuid = "da06a0fe-3b31-2510-8468-b3f60000001e";
             };
             "ClockWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -774,7 +776,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "768047e8-cc41-feb2-1e1e-6d2c0000001c";
+                TimeStampHashGuid = "7a84378d-7dcd-67c1-782f-f29f0000001c";
             };
             "ColorSpaceTransform_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -815,7 +817,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "bac16cad-e1df-fc4a-114e-4a8300000026";
+                TimeStampHashGuid = "d36033dc-63f7-434e-dc40-843600000026";
             };
             "Color_Key_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -842,7 +844,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "cdb6d8fa-cfb3-d520-a425-74ec0000001c";
+                TimeStampHashGuid = "ce209753-cfec-136f-1dda-25740000001c";
             };
             "ExporterNULL_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -850,7 +852,7 @@
                     "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "93c0e802-004f-e7c8-722e-64310000001f";
+                TimeStampHashGuid = "7a17fdf4-7715-1518-79a7-0c480000001f";
             };
             "ExporterQuickTimeHost_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -858,7 +860,7 @@
                     "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "bfbc7847-dc03-4758-544f-110100000028";
+                TimeStampHashGuid = "0bfba35e-8cd2-232b-a868-3ecd00000028";
             };
             "ExporterVFRaw_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -866,7 +868,7 @@
                     "Plugin Factory Guid" = "d3092dcf-904a-4a97-b4ca-66aed7540d57";
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "4677dfd1-062c-e588-a0c2-79b900000020";
+                TimeStampHashGuid = "8ea0cc65-f9fb-c539-705b-0c8000000020";
             };
             "FCPXProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -887,7 +889,7 @@
                     SaveRequiresActiveSequence = 0;
                     SaveSupportedExtensions = "*.xml";
                 };
-                TimeStampHashGuid = "4b49c2b8-25e9-a3c7-6bbe-ed7100000027";
+                TimeStampHashGuid = "052e65c1-31cc-18c9-b569-c86c00000027";
             };
             "GPUAcceleratedRenderer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "" =                 {
@@ -895,7 +897,7 @@
                 };
                 DoNotCache = 1;
                 Ignore = 0;
-                TimeStampHashGuid = "8a15fa59-52fe-1bff-413f-042a00000029";
+                TimeStampHashGuid = "40ca480c-c8ea-7eaf-131c-788c00000029";
             };
             "HorizontalFlip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -922,7 +924,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "a699fd7d-d709-3f98-3958-545400000021";
+                TimeStampHashGuid = "7a4fe433-280d-eaa1-eeea-f42700000021";
             };
             "IMFProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -937,7 +939,7 @@
                     OpenSupportedExtensions = "*.xml";
                     "Plugin Factory Guid" = "2d887736-82fa-4239-9b42-9019215e470d";
                 };
-                TimeStampHashGuid = "c4c9f907-bb31-2e2a-3f00-8d7c00000026";
+                TimeStampHashGuid = "caa9ada8-770d-54da-5b9b-bff700000026";
             };
             "ImporterAIDE_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -990,7 +992,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 848, bytes = 0x35003400 33003300 38003400 34003300 ... 32000a00 30000a00 };
                     ImpDrawType = 0;
-                    ImpFileInfoVersion = "91956700-4f4c-435f-a4d1-b66ec882777b";
+                    ImpFileInfoVersion = "7a034dac-1ed6-4c2b-b67c-e5cb3f2fc2b1";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 0;
@@ -999,7 +1001,7 @@
                     ImpPriority = 1;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "d4d74240-5748-3936-f8ab-66b500000025";
+                TimeStampHashGuid = "b41a7a5b-ab8a-718d-1217-694d00000025";
             };
             "ImporterColorMatte_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1028,7 +1030,7 @@
                     ImpDrawType = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "8c11102b-804a-7358-0d7a-021000000023";
+                TimeStampHashGuid = "d1ff6071-3055-05df-e189-a08f00000023";
             };
             "ImporterGraphics_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1056,7 +1058,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 256, bytes = 0x31003700 33003400 39003600 30003600 ... 30000a00 30000a00 };
                     ImpDrawType = 0;
-                    ImpFileInfoVersion = "fa99611c-90f6-4571-867d-6b53ff9d6bce";
+                    ImpFileInfoVersion = "d14d4abf-04ca-4a5b-808c-4e6ac33b7447";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 0;
@@ -1065,7 +1067,7 @@
                     ImpPriority = 1;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "5d5b844d-799c-8fb1-2370-bc3800000022";
+                TimeStampHashGuid = "e195a0d7-f5ae-d774-d3b5-3e3e00000022";
             };
             "ImporterJPEG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1112,7 +1114,7 @@
                     ImpPriority = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "7f01118e-ad38-8eb7-b6f2-1ffb0000001e";
+                TimeStampHashGuid = "cc6255e0-c57f-cffe-7f8f-bf410000001e";
             };
             "ImporterMP4_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -1135,7 +1137,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 134, bytes = 0x31003200 39003700 31003000 31003800 ... 32000a00 30000a00 };
                     ImpDrawType = 0;
-                    ImpFileInfoVersion = "8ca36b16-9a22-45c1-a2cd-5e2e3a8bf8b2";
+                    ImpFileInfoVersion = "ea181574-3ebd-496d-856b-f0fcee8e76f0";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 1;
                     ImpHasSetup = 1;
@@ -1144,7 +1146,7 @@
                     ImpPriority = 2;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "7d00576e-f4a1-b8ab-de9e-55980000001e";
+                TimeStampHashGuid = "b25ff35b-545e-ae47-aac6-baf40000001e";
             };
             "ImporterMPEG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1182,7 +1184,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 104, bytes = 0x39003400 33003800 37003000 30003300 ... 30000a00 30000a00 };
                     ImpDrawType = 0;
-                    ImpFileInfoVersion = "5a595840-8916-417f-9960-031a75b897cb";
+                    ImpFileInfoVersion = "cc440e8f-ea14-447b-9726-71d9c9fe6771";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 1;
@@ -1191,7 +1193,7 @@
                     ImpPriority = 3;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "59af99e8-bf7e-b4a1-398a-0a520000001e";
+                TimeStampHashGuid = "8681fdfb-1fcc-959d-88ac-44370000001e";
             };
             "ImporterQuickTime_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1219,7 +1221,7 @@
                     ImpCanValidatePrefs = 1;
                     ImpDesc0 = {length = 244, bytes = 0x31003300 37003900 30003900 31003400 ... 32000a00 30000a00 };
                     ImpDrawType = 0;
-                    ImpFileInfoVersion = "7d345202-84ab-4864-9b9c-d8c797271efa";
+                    ImpFileInfoVersion = "ecab2044-5ff2-45ff-921b-18ea8db5dc96";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 1;
@@ -1228,7 +1230,7 @@
                     ImpPriority = 10;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "6b97e771-99c2-3218-99f7-bf880000001e";
+                TimeStampHashGuid = "75d46200-3851-eef0-b5a1-8ce10000001e";
             };
             "ImporterSVG_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -1237,7 +1239,7 @@
                     ImpDrawType = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "56ecea5c-7961-55ee-e4b6-e93e0000001e";
+                TimeStampHashGuid = "04358356-f834-74e6-b9f9-88c30000001e";
             };
             "ImporterSensorManager_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -1269,7 +1271,7 @@
                     ImpPriority = 1;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "a928c3e1-80d0-c81d-94f6-d9bc00000028";
+                TimeStampHashGuid = "f6033624-221f-4f53-e85e-df4500000028";
             };
             "ImporterSyntheticCaption_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -1292,7 +1294,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 88, bytes = 0x31003300 39003600 39003200 30003300 ... 30000a00 30000a00 };
                     ImpDrawType = 1396916560;
-                    ImpFileInfoVersion = "33c0e2db-7338-45b6-9584-88505e2f1d53";
+                    ImpFileInfoVersion = "8d90d7da-5031-4140-912b-407ce16f96c5";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 0;
@@ -1301,7 +1303,7 @@
                     ImpPriority = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "01978f6c-9105-4ecd-33fd-ba8d0000002b";
+                TimeStampHashGuid = "9e5b31c6-da1f-25b6-43de-ce8a0000002b";
             };
             "ImporterSyntheticTranscript_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -1324,7 +1326,7 @@
                     ImpCanValidatePrefs = 0;
                     ImpDesc0 = {length = 94, bytes = 0x31003300 39003800 30003300 35003000 ... 30000a00 30000a00 };
                     ImpDrawType = 1398035024;
-                    ImpFileInfoVersion = "5cfa883d-bf1f-4cbd-b36d-faed72497541";
+                    ImpFileInfoVersion = "f50caf75-2eea-44ec-a728-361ea9549324";
                     ImpHasDescription = 1;
                     ImpHasPersistentData = 0;
                     ImpHasSetup = 0;
@@ -1333,7 +1335,7 @@
                     ImpPriority = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "681296c8-b53a-5d80-d631-f2640000002e";
+                TimeStampHashGuid = "899077d7-ad2f-b167-52a1-1e680000002e";
             };
             "ImporterTarga_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1357,7 +1359,7 @@
                     ImpDrawType = 0;
                     "Plugin Factory Guid" = "ba1058cd-0007-44e4-bf1a-0ef51307b979";
                 };
-                TimeStampHashGuid = "2a5d9065-6257-9331-f310-e7e800000020";
+                TimeStampHashGuid = "dd074dc6-39e1-eb2e-0024-940a00000020";
             };
             "ImporterWave_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 Importer =                 {
@@ -1387,7 +1389,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "e76b4d1b-3f3d-eccf-84e6-af9f00000018";
+                TimeStampHashGuid = "80c5b52d-98d0-2a63-046d-2cca00000018";
             };
             "LightingEffect_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1414,7 +1416,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "b70730d2-582f-069f-3356-4d8500000021";
+                TimeStampHashGuid = "b1661026-6015-2618-4e68-d3ff00000021";
             };
             "Luma_Key_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1441,7 +1443,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "7acff857-0e20-504b-1833-991d0000001b";
+                TimeStampHashGuid = "6304a0aa-3129-a5f2-b486-ac510000001b";
             };
             "NonAdditiveDissolve_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1466,7 +1468,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "81a234ba-bb1d-242b-7f3b-8e3400000026";
+                TimeStampHashGuid = "6f3b7586-7902-244f-8e0b-0ddf00000026";
             };
             "OTIOProjectConverter_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
@@ -1487,11 +1489,11 @@
                     SaveRequiresActiveSequence = 1;
                     SaveSupportedExtensions = "*.otio";
                 };
-                TimeStampHashGuid = "9a1e51ae-e01e-e064-20a1-0ae400000027";
+                TimeStampHashGuid = "5faef9dd-76ca-94c5-da7a-f44500000027";
             };
             "OpenEXR Premiere.bundle_6402177b-ccde-bfe7-3d72-aef8c087ab7c" =             {
                 DateHigh = 0;
-                DateLow = 1788740559;
+                DateLow = 1789790785;
                 DoNotCache = 1;
                 "Exporter 0" =                 {
                     HasPipl = 0;
@@ -1550,7 +1552,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "aab32a56-5ab7-4324-1e32-736f0000001b";
+                TimeStampHashGuid = "b4d9de49-4252-798b-c5e7-31860000001b";
             };
             "PlayerMediaCore_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 1;
@@ -1563,7 +1565,7 @@
                     PlayNumFormats = 4;
                     "Plugin Factory Guid" = "c9936cb9-1979-48c8-bf22-dbe0ec323274";
                 };
-                TimeStampHashGuid = "327beb60-1258-d877-e63a-25b900000022";
+                TimeStampHashGuid = "66b50992-bb75-1378-f9cc-60d500000022";
             };
             "RadialWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1588,7 +1590,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "b46aff32-5e18-192d-cdaf-a8500000001d";
+                TimeStampHashGuid = "4781900f-62e6-6243-550a-04560000001d";
             };
             "RegistrationFlags Guid" = "723eefcc-096c-3b57-7a96-434700000021";
             "Replicate_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
@@ -1614,7 +1616,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "d420771e-e9d9-9afc-3cbb-21de0000001c";
+                TimeStampHashGuid = "8a5ff815-665d-2ea8-ae85-64820000001c";
             };
             "SWAcceleratedRenderer_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "" =                 {
@@ -1622,7 +1624,7 @@
                 };
                 DoNotCache = 1;
                 Ignore = 0;
-                TimeStampHashGuid = "d0b4b4ca-b849-cf03-2c76-b81800000028";
+                TimeStampHashGuid = "7b8e950c-3f21-0451-cdc3-6dfe00000028";
             };
             "Split_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1647,12 +1649,12 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "6584acf3-ce71-db79-cb56-408100000018";
+                TimeStampHashGuid = "94e75796-b634-65f7-aa61-b9e900000018";
             };
             "TransmitDesktopAudio_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "026ffca3-420a-b810-c4b0-71c500000027";
+                TimeStampHashGuid = "47afb7af-325a-5f9a-989c-efe900000027";
                 Transmit =                 {
                     "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
                 };
@@ -1660,7 +1662,7 @@
             "TransmitFullScreen_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "2872cd9e-2de3-f5d0-6469-8f0000000025";
+                TimeStampHashGuid = "e6e82c93-85ce-b1c0-97d1-8bfa00000025";
                 Transmit =                 {
                     "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
                 };
@@ -1668,7 +1670,7 @@
             "TransmitSRT_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "a14741ff-5ca0-93a3-79a8-4abd0000001e";
+                TimeStampHashGuid = "a74f3b8f-324e-51ec-cf78-2c8c0000001e";
                 Transmit =                 {
                     "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
                 };
@@ -1676,7 +1678,7 @@
             "TransmitScopes_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "e1380834-ddcb-1b5d-d102-4d7900000021";
+                TimeStampHashGuid = "c985f792-58a4-c8bc-cb80-c76200000021";
                 Transmit =                 {
                     "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
                 };
@@ -1684,7 +1686,7 @@
             "TransmitTest_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "f2fbec02-601d-82c5-4d07-34510000001f";
+                TimeStampHashGuid = "d8326c58-2ed8-d953-aaec-83fc0000001f";
                 Transmit =                 {
                     "Plugin Factory Guid" = "6475d4e4-2ec3-4908-8665-df8e83b2ba4e";
                 };
@@ -1732,7 +1734,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "d8374f25-c2e7-306d-ebb2-dd9a00000020";
+                TimeStampHashGuid = "19d08fcc-48c4-63b7-8a64-8bed00000020";
             };
             "VRGradientWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1777,7 +1779,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "5e663fe9-328f-8bf9-1db4-530f00000021";
+                TimeStampHashGuid = "29ef26e4-0d35-ba1d-e725-dc4100000021";
             };
             "VRIrisWipe_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1822,7 +1824,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "66afd909-2489-b05b-9552-a1dc0000001d";
+                TimeStampHashGuid = "b6fe3257-c075-c62f-85e8-8d460000001d";
             };
             "VRLightLeaks_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1867,7 +1869,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "5d96e0e7-4e10-1f35-bbd1-470d0000001f";
+                TimeStampHashGuid = "e21fe95c-f64d-2aaf-19e7-77540000001f";
             };
             "VRLightRays_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1912,7 +1914,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "234b50d1-ffbf-69fe-2de5-c2610000001e";
+                TimeStampHashGuid = "45e1c4cb-5418-d8f3-d483-06790000001e";
             };
             "VRMobius_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1957,7 +1959,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "7dfce19a-31d3-ec33-74a7-7b390000001b";
+                TimeStampHashGuid = "f6c943d2-3985-952a-c97f-60e00000001b";
             };
             "VRProjection_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -1984,7 +1986,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "b3313157-9dd3-0c02-4cbd-68d70000001f";
+                TimeStampHashGuid = "41ee0b50-2528-b03c-1d2f-557e0000001f";
             };
             "VRRandomBlocks_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -2029,7 +2031,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "02daf76d-a51f-c48c-72be-5de400000021";
+                TimeStampHashGuid = "18c28d69-3a35-0020-c7fe-664c00000021";
             };
             "VRSphericalBlur_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -2074,7 +2076,7 @@
                     Version = 2;
                 };
                 Ignore = 0;
-                TimeStampHashGuid = "3fd2ac0b-f121-2b42-80f0-c0fa00000022";
+                TimeStampHashGuid = "9e8a513b-44dc-4382-95e0-15ea00000022";
             };
             Version = 53;
             "VerticalFlip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
@@ -2102,7 +2104,7 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "3cabe3bb-d044-3043-fd43-cfd50000001f";
+                TimeStampHashGuid = "85ea5cde-a800-dc64-c9a2-a0330000001f";
             };
             "Whip_00f48907-5c13-bfaa-3f5b-d4f4b7658605" =             {
                 "AfterEffects Video Filter.0" =                 {
@@ -2127,8 +2129,874 @@
                 };
                 DoNotCache = 0;
                 Ignore = 0;
-                TimeStampHashGuid = "08d5bc2a-d64a-7d23-d8d8-8d8100000017";
+                TimeStampHashGuid = "8ce456e3-4784-9e85-f95a-341400000017";
             };
+        };
+    };
+    PluginEffectTypeCache =     {
+        "ADBE Additive Dissolve" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "ADBE Cross Zoom" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "ADBE Film Dissolve" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "ADBE Iris Cross" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "ADBE Iris Diamond" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "ADBE Iris Round" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "ADBE Iris Square" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "ADBE Push" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "ADBE Slide" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "ADBE Wipe" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE 4ColorGradient" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE AEASCCDL" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE AECrop" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE AEFilterAutoFramer" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Alpha Adjust" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Alpha Glow" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Barn Doors" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Basic 3D" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Black & White" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Block Dissolve" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Brightness & Contrast 2" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Brush Strokes" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Camera Blur" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Center Split" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Cineon Converter" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Clock Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Color Emboss" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Color Key" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Corner Pin" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Cross Dissolve New" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE DigitalVideoLimiter" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Dip To Black" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Dip To White" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Drop Shadow" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Edge Feather" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Find Edges" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Gaussian Blur 2" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Geometry2" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Gradient Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Horizontal Flip" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Inset" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Invert" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Legacy Key Luma" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Legacy Key Track Matte" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE LightingEffect" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Linear Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Lumetri" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Magnify" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Mirror" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE MorphCut" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Mosaic" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Motion Blur" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Noise2" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Non-Additive Dissolve" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Offset" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE PPro Metadata" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE PPro SimpleText" =         {
+            "Effect Types0" = YUV;
+            Version = 3;
+        };
+        "AE.ADBE Posterize" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Posterize Time" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE ProcAmp" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE Radial Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Ramp" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Reduce Interlace Flicker" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Replicate" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Roughen Edges" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Sharpen" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Spherize" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Split" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Strobe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE SubspaceStabilizer" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Tint" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Turbulent Displace" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Twirl" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Ultra Key" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Unsharp Mask" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE VR Projection" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Vertical Flip" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Wave Warp" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.ADBE Whip" =         {
+            "Effect Types0" = YUV;
+            "Effect Types1" = 32BitColor;
+            Version = 3;
+        };
+        "AE.ADBE_Noise_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Custom_Impact_Fall" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Custom_Impact_Spinback_3D" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_3D_Blinds" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_3D_Block" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_3D_Flip" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_3D_Roll" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_3D_Rotate" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Animate" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Blur_To_Color" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Blur_dissolve" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Burn_Alpha" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Burn_White" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_C-Push" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Chaos" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Chroma_Leaks" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Clock_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Copy_Machine" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Dip_To_Black" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Dip_To_White" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Directional_Blur" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Dissolve" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Earthquake" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Film_Roll" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Flare" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Flash" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Flicker" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Fold" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Frame" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Glass" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Glitch" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Glow" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Grunge" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Kaleido" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Lens_Blur" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Light_Leaks" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Light_Sweep" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Linear_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Liquid_Distortion" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Luma_Fade" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Mirror" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Mosaic" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Page_Peel" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_PanelWipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Phosphore" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Plateau_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Pop" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Pull" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Push" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Radial_Blur" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Rays" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Roll" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Shape_Dissolve" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Shape_Flow" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Slice" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Solarize" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Spin" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Split" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Spring" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Star_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Stretch" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Stretch_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Stripes" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_TV_Power" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Text_Animator" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Typewriter" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_VHS_Damage" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Warp" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Wave" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.AE_Impact_Zoom_Blur" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Additive_Dissolve" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Alpha_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Auto_Align_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Bokeh_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Camera_Shake_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Channel_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Channel_Mix_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Clone_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Compound_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Crop_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Cross_Zoom" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Directional_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Echo_Glow_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Edge_Glow_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Film_Dissolve" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Flare_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Focus_Blur_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Glint_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Gradient_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Grow_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Light_Leaks_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Long_Shadow_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Magnifier_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Mosaic_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Move_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_RGB_Split_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Radial_Wipe" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Rotate_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Shrink_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Spacer_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Spin_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Stroke_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Twirl_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Vignette_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Volumetric_Rays_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Whip" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Wiggle_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Impact_Wonder_Glow_FX" =         {
+            "Effect Types0" = 32BitColor;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Blur" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Chroma Leaks" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Chromatic Aberrations" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Color Gradients" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Denoise" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Digital Glitch" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Fractal Noise" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Glow" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Gradient Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Iris Wipe" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Light Leaks" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Mobius Zoom" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Project 2D" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Radial Blur" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Random Blocks" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Rays" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Rotate Sphere" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "AE.Mettle SkyBox Sharpen" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Color Pass" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Color Replace" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Extract" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Gamma Correction" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Lens Distortion" =         {
+            "Effect Types0" = None;
+            Version = 3;
+        };
+        "PR.ADBE Levels" =         {
+            "Effect Types0" = None;
+            Version = 3;
         };
     };
     RecoveryOpenProjectInfos = "";

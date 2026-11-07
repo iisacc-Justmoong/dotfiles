@@ -20,3 +20,7 @@ fi
 if [[ -f "$HOME/.zprofile.local" ]]; then
   source "$HOME/.zprofile.local"
 fi
+
+# >>> Codex installer >>>
+export PATH="/Users/ymy/.local/bin:$PATH"
+# <<< Codex installer <<<

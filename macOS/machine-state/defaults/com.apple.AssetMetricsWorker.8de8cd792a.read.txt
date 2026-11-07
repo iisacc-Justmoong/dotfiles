@@ -1,7 +1,11 @@
 {
     AIRAssetStatus = {length = 554, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001a8 };
+    AIRAssetStatusV2 = {length = 536, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000019c };
     AssetBringUp = {length = 552, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001a6 };
     AssetPenetration = {length = 558, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ac };
+    assetBringUpV2 = {length = 532, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000198 };
     assetDownloadMetrics = {length = 562, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001b0 };
+    assetPenetrationV2 = {length = 538, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000019e };
     requestsWithNoAssets = {length = 590, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001ca };
+    requestsWithNoAssetsV2 = {length = 542, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001a2 };
 }

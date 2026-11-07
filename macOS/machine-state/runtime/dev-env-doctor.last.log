@@ -8,34 +8,57 @@
 === Core Toolchain Availability ===
 [OK] brew: /opt/homebrew/bin/brew
 [OK] git: /usr/bin/git
-[WARN] gh is not available
+[OK] gh: /opt/homebrew/bin/gh
 [WARN] dotnet is not available
-[OK] python3: /usr/bin/python3
-[OK] pip3: /usr/bin/pip3
+[OK] python3: /opt/homebrew/bin/python3
+[OK] pip3: /opt/homebrew/bin/pip3
 [WARN] node is not available
 [WARN] npm is not available
 [WARN] go is not available
-[WARN] cargo is not available
-[WARN] cmake is not available
-[WARN] ninja is not available
+[OK] cargo: /opt/homebrew/bin/cargo
+[OK] cmake: /opt/homebrew/bin/cmake
+[OK] ninja: /opt/homebrew/bin/ninja
 [WARN] qmake is not available
 [WARN] qtpaths is not available
 
 === Brewfile Drift ===
 [OK] Brewfile required entries are all installed
-[WARN] Extra formula: 1, extra cask: 0
-mas
+[WARN] Extra formula: 71, extra cask: 4
+brotli
+ca-certificates
+cairo
+certifi
+cmake
+curl
+dav1d
+ffmpeg
+fontconfig
+freetype
+gettext
+gh
+giflib
+git-lfs
+git-xet
+glib
+graphite2
+harfbuzz
+hf
+icu4c@78
+lm-studio
+netnewswire
+steam
+zed
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=
-LVRS_PREFIX=
-LVRS_HOST_PREFIX=
-JAVA_HOME=
-CMAKE_PREFIX_PATH=
-QML2_IMPORT_PATH=
-QT_QML_IMPORT_PATH=
+LVRS_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
+LVRS_HOST_PREFIX=/Users/ymy/.local/SDK/LVRS/platforms/macos
+JAVA_HOME=/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home
+CMAKE_PREFIX_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos:/Users/ymy/.local/SDK/LVRS:/Users/ymy/.local/SDK/iiXml/platforms/macos:/Users/ymy/.local/SDK/iiXml:/Users/ymy/.local/SDK/iiUpdateManager/platforms/macos:/Users/ymy/.local/SDK/iiUpdateManager:/Users/ymy/.local/SDK/iiSharedCanvas:/Users/ymy/.local/SDK/iiPaintEngine/platforms/macos:/Users/ymy/.local/SDK/iiPaintEngine:/Users/ymy/.local/SDK/iiLocalDiffusion:/Users/ymy/.local/SDK/iiLicenseManager/platforms/macos:/Users/ymy/.local/SDK/iiLicenseManager:/Users/ymy/.local/SDK/iiHtmlBlock/platforms/macos:/Users/ymy/.local/SDK/iiHtmlBlock:/Users/ymy/.local/SDK/iiGeneralDocument
+QML2_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
+QT_QML_IMPORT_PATH=/Users/ymy/.local/SDK/LVRS/platforms/macos/lib/qt6/qml
 DOTNET=
 [OK] zsh clean environment probe completed
 
 === Summary ===
-OK=11 WARN=11 FAIL=0
+OK=15 WARN=7 FAIL=0

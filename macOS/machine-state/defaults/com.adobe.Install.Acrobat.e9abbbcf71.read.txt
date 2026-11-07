@@ -1,26 +1,10 @@
 {
     DC =     {
         "events_arm" =         {
-            CreationTimeStamp = "Sep 19, 2026 at 01:49:04";
-            HammerInstallDoneTimeStamp = "Sep 19, 2026 at 01:50:21";
-            HammerInstallError = "1:1";
-            HammerInstallTrigerredTimeStamp = "Sep 19, 2026 at 01:49:18";
-            HammerTrigerredTimeStamp = "Sep 19, 2026 at 01:49:04";
-            HammerValidationDoneTimeStamp = "Sep 19, 2026 at 01:49:16";
+            CreationTimeStamp = "Nov 6, 2026 at 11:06:03";
+            HammerInstallError = "0:0:2122";
+            HammerLaunchError = 2122;
+            HammerTrigerredTimeStamp = "Nov 6, 2026 at 11:06:03";
         };
-        "events_installer" =         (
-                        {
-                EventString = "entryPackage/preinstallInstallStart.txt";
-                InstallerName = scafull;
-            },
-                        {
-                EventString = "exitPackage/postinstallUpdateMigrationStatus.txt";
-                InstallerName = scafull;
-            },
-                        {
-                EventString = "exitPackage/postinstallInstallSuccess.txt";
-                InstallerName = scafull;
-            }
-        );
     };
 }

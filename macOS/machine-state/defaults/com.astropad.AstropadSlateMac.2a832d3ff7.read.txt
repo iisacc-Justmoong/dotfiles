@@ -2,8 +2,11 @@
     MSAppCenter310AnalyticsUserDefaultsMigratedKey = 1;
     MSAppCenter310AppCenterUserDefaultsMigratedKey = 1;
     MSAppCenterInstallId = "A30F3204-48CF-4069-A553-9480F6375BDF";
-    MSAppCenterPastDevices = {length = 1158, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000390 };
-    MSAppCenterSessionIdHistory = {length = 502, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000017e };
-    MSAppCenterUserIdHistory = {length = 455, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000151 };
+    MSAppCenterPastDevices = {length = 1446, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000464 };
+    MSAppCenterSessionIdHistory = {length = 594, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
+    MSAppCenterUserIdHistory = {length = 505, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000173 };
+    SUEnableAutomaticChecks = 1;
     SUHasLaunchedBefore = 1;
+    SULastCheckTime = "2026-10-07 06:33:49 +0000";
+    SUSendProfileInfo = 0;
 }

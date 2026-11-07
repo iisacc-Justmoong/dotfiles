@@ -1,7 +1,7 @@
 {
     "ExtractedOrders.AutomaticOrderIngestionEnabled.ModificationDate" = "2025-08-11 10:21:10 +0000";
     "ExtractedOrders.AutomaticOrderIngestionEnabled.Value" = 1;
-    WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-09-12 23:59:59 +0000";
+    WeeklyTransactionsCountLastReportingDateIntervalEnd = "2026-10-31 23:59:59 +0000";
     postInstallTaskVersions =     {
         backfillLastNotifiedOrderUpdateDate = 1;
         backfillPlaceholderExternalAccountID = 1;
@@ -16,7 +16,7 @@
         populateExtractedOrdersAutomaticIngestionLocalConsent = 1;
         populateFoundInInsightOrderDetailsRelationship = 1;
         populateFullyQualifiedAccountIdentifierInApplications = 1;
-        populateMerchantNameFromBrand = 2;
+        populateMerchantNameFromBrand = 3;
         populateTransactionCategories = 4;
         populateTransactionsWithIsVisibleAndRemoveEmptyCurrencyCodes = 1;
         pruneEmptyFinHealthEntityGroups = 1;

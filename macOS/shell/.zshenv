@@ -90,7 +90,15 @@ if [[ -d /opt/local ]]; then
   _pathvar_prepend_unique PATH /opt/local/sbin
 fi
 
-if [[ -z "${JAVA_HOME:-}" ]]; then
+# Use system-installed toolchains, including when inheriting a retired Workspace path.
+typeset -a system_toolchain_path
+system_toolchain_path=( ${path:#/Volumes/Storage/Workspace/SDK/Toolchains/*} )
+path=( "${system_toolchain_path[@]}" )
+unset system_toolchain_path
+
+if [[ -d "${HOMEBREW_PREFIX:-/opt/homebrew}/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home" ]]; then
+  export JAVA_HOME="${HOMEBREW_PREFIX:-/opt/homebrew}/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home"
+elif [[ -z "${JAVA_HOME:-}" || ! -d "${JAVA_HOME:-}" ]]; then
   for jdk_candidate in \
     "${HOMEBREW_PREFIX:-/opt/homebrew}/opt/openjdk/libexec/openjdk.jdk/Contents/Home" \
     "${HOMEBREW_PREFIX:-/opt/homebrew}/opt/openjdk"; do
@@ -103,6 +111,27 @@ fi
 
 if [[ -n "${JAVA_HOME:-}" && -d "$JAVA_HOME" ]]; then
   _pathvar_prepend_unique PATH "$JAVA_HOME/bin"
+fi
+
+if [[ -d "${HOMEBREW_PREFIX:-/opt/homebrew}/share/android-commandlinetools/platforms" ]]; then
+  export ANDROID_HOME="${HOMEBREW_PREFIX:-/opt/homebrew}/share/android-commandlinetools"
+  export ANDROID_SDK_ROOT="$ANDROID_HOME"
+  export ANDROID_NDK_ROOT="$ANDROID_HOME/ndk/26.1.10909125"
+  export ANDROID_NDK_HOME="$ANDROID_NDK_ROOT"
+  export CMAKE_ANDROID_NDK="$ANDROID_NDK_ROOT"
+  export LVRS_BOOTSTRAP_ANDROID_SDK_ROOT="$ANDROID_HOME"
+  export LVRS_BOOTSTRAP_ANDROID_NDK="$ANDROID_NDK_ROOT"
+  _pathvar_prepend_unique PATH "$ANDROID_HOME/platform-tools"
+  _pathvar_prepend_unique PATH "$ANDROID_HOME/cmdline-tools/latest/bin"
+fi
+
+if [[ -f "${HOMEBREW_PREFIX:-/opt/homebrew}/share/emsdk/.emscripten" ]]; then
+  export EMSDK="${HOMEBREW_PREFIX:-/opt/homebrew}/share/emsdk"
+  export EMSDK_QUIET=1
+  export EMSDK_PYTHON="$EMSDK/python/3.13.3_64bit/bin/python3"
+  source "$EMSDK/emsdk_env.sh" >/dev/null
+  export LVRS_BOOTSTRAP_EMSDK_ROOT="$EMSDK"
+  export LVRS_BOOTSTRAP_EMSCRIPTEN_TOOLCHAIN_FILE="$EMSDK/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
 fi
 
 if [[ -z "${QT_PREFIX:-}" || ! -d "${QT_PREFIX:-}" ]]; then

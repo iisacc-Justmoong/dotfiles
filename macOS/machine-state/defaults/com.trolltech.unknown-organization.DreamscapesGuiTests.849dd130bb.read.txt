@@ -1,0 +1,3 @@
+{
+    "VideoGeneration.savedRecipe" = "{\"parameters\":{\"prompt\":\"\",\"negativePrompt\":\"\",\"width\":1024,\"height\":576,\"duration\":5,\"fps\":24,\"outputCount\":1,\"steps\":30,\"cfgScale\":3,\"seed\":-1,\"randomSeed\":true,\"interpolationFactor\":2,\"decodeTimestep\":0.05,\"decodeNoiseScale\":0.025,\"imageConditionNoise\":0,\"device\":\"auto\",\"precision\":\"auto\",\"offload\":\"auto\",\"cpuTextEncoding\":true,\"vaeTiling\":true,\"crf\":18,\"encodingPreset\":\"medium\"},\"timeline\":{\"shots\":[],\"keys\":[],\"selectedIds\":[],\"selectedKeyId\":\"\",\"playhead\":0,\"nextId\":1,\"compositionFrames\":120,\"fps\":24,\"markIn\":0,\"markOut\":119}}";
+}

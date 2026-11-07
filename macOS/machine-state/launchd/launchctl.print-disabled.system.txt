@@ -1,8 +1,18 @@
 
 	disabled services = {
+		"com.apple.AEServer" => enabled
+		"com.apple.screensharing" => enabled
+		"org.chromium.chromoting.broker" => enabled
 		"com.apple.CSCSupportd" => disabled
 		"com.apple.ftpd" => disabled
 		"com.apple.mdmclient.daemon.runatboot" => disabled
+		"com.openssh.sshd" => enabled
+		"com.autodesk.AdskLicensingService" => enabled
 		"org.pqrs.service.daemon.Karabiner-VirtualHIDDevice-Daemon" => enabled
+		"com.apple.smbd" => enabled
+		"com.google.keystone.daemon" => enabled
 		"org.pqrs.service.daemon.Karabiner-Core-Service" => enabled
+		"com.logi.optionsplus.updater" => enabled
+		"com.apple.bootpd" => disabled
+		"com.apple.ftp-proxy" => enabled
 	}

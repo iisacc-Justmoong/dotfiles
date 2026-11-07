@@ -1,24 +1,25 @@
 {
-    "BeaconStore::lastMetricsPublish" = "2026-09-15 04:24:22 +0000";
+    "BeaconStore::lastMetricsPublish" = "2026-11-04 22:05:37 +0000";
     "CC_OncePerBootBackingData" = {length = 84, bytes = 0x7b22626f 6f744461 7465223a 38303639 ... 52657365 74225d7d };
     CKPerBootTasks =     (
         CKAccountInfoCacheReset
     );
     CKStartupTime = 1780872460;
-    "CloudKitCoalescer.executeDate" = "2026-09-18 16:20:01 +0000";
-    "CloudKitCoalescer.requestDate" = "2026-09-18 16:20:01 +0000";
+    "CloudKitCoalescer.executeDate" = "2026-11-06 13:53:23 +0000";
+    "CloudKitCoalescer.requestDate" = "2026-11-06 13:53:23 +0000";
     "CloudKitStorage::modifiedCKZones" = {length = 42, bytes = 0x62706c69 73743030 a0080000 00000000 ... 00000000 00000009 };
-    "Daemon::LastLaunchBootSessionUUID" = "4DE7139A-5B68-4D30-9C8C-A86DFD3E41ED";
-    "Daemon::LastOSLaunchVersion" = 26A428;
+    "Daemon::LastLaunchBootSessionUUID" = "73DB4403-84CB-465F-8A9E-99F03425E28C";
+    "Daemon::LastOSLaunchVersion" = 26B123;
     "FMIPStateManager.fmipState" = 1;
-    OwnedDeviceLastPublishDate = "2026-09-19 04:37:21 +0000";
+    "IntentSessionService::donatedItemEntityFormatVersion" = 2;
+    OwnedDeviceLastPublishDate = "2026-11-06 17:52:16 +0000";
     PersistenceLayerVersion = 28;
     "ProductInfoManager.oneTimeMigration" = 1;
     "baseDate.LocalBeaconingManager" = "2026-09-19 03:36:41 +0000";
     lastLaunchLocale = en;
-    lastPairingEvents = {length = 115, bytes = 0x5b7b2264 61746122 3a227242 30473862 ... 70616972 6564225d };
+    lastPairingEvents = {length = 115, bytes = 0x5b7b2264 61746122 3a225747 5445784f ... 70616972 6564225d };
     lastPairingRetryAttempt = {length = 47, bytes = 0x5b7b2264 61746122 3a225747 5445784f ... 2e383535 3335375d };
-    lastProductInfoRefreshAttempt = "2026-09-17 05:21:50 +0000";
+    lastProductInfoRefreshAttempt = "2026-11-05 22:59:12 +0000";
     lastProductInfoRefreshLocale = "en_KR";
     retryPairingCount = {length = 32, bytes = 0x5b7b2264 61746122 3a225747 5445784f ... 65223a30 7d2c315d };
     "sharesremovalservice::findmyappstate" = 1;

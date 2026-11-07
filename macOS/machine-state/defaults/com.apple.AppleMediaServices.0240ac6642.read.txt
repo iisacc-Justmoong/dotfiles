@@ -2,15 +2,15 @@
     AMSCleanedUpUserDefaultsDataAfterMigrationToStorage = 1;
     AMSDeviceBiometricsState = 2;
     AMSDidSetUpServerDataCache = 1;
-    AMSFPCertExpiration = "2026-09-20 03:37:32 +0000";
+    AMSFPCertExpiration = "2026-11-07 11:29:56 +0000";
     AMSIncludeFullRequestInHARLogging = 0;
     AMSIncludeFullResponseInHARLogging = 0;
     AMSJSVersionMap =     {
-        analytics = "27.145.0";
-        internal = "24.0.44";
-        journeys = "2610.0.0";
+        analytics = "27.205.0";
+        internal = "24.0.51";
+        journeys = "2613.6.0";
     };
-    AMSLastMigratedBuildVersion = 26A428;
+    AMSLastMigratedBuildVersion = 26B123;
     AMSLogHARData = 0;
     AMSMediaRestrictionsAccountData =     {
         3fb2ce4c9640e88a03fe581a83f6fff0fc853ebcda72fba6847434ac44fec3ce5d672ad9e3750f2350eda320fb811bc0397654a34a5fc6ca6ed3861f8b571737 =         {
@@ -28,12 +28,12 @@
         "51A14ACE-1A05-4821-BC2A-8D1258E24C77"
     );
     "AMSSamplingSession-TLSSessionTickets" =     {
-        date = "2026-09-19 03:43:08 +0000";
+        date = "2026-11-05 06:16:11 +0000";
         duration = 1800;
         result = 1;
     };
     "AMSSamplingSession-xp_amp_appstore_log:qJO7Vty2LO98sz+eud1os9HfnMs" =     {
-        date = "2026-09-18 04:54:56 +0000";
+        date = "2026-11-01 07:38:36 +0000";
         duration = 60000;
         result = 0;
     };
@@ -43,7 +43,7 @@
         result = 0;
     };
     "AMSSamplingSession-xp_ase_ondevice/serversourceddata_log:VO74dV80uaijPbvToL+ZfjQHaYc" =     {
-        date = "2026-09-18 17:16:22 +0000";
+        date = "2026-11-06 17:36:08 +0000";
         duration = 86400000;
         result = 0;
     };

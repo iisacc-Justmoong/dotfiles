@@ -1,5 +1,7 @@
 {
-    "Account Status Server Change Token" = {length = 280, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000e0 };
+    "Account Status Server Change Tokens" =     {
+        "com.apple.siri.profile:2:zn:com.apple.assistant.account.status:__defaultOwner__" = {length = 278, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000de };
+    };
     Accounts =     {
         "044D5455-AF76-4CC0-B22B-DCFB67609DF3" =         {
             "Build Version" = 25E253;
@@ -15,12 +17,13 @@
             "Validation Version" = 1;
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
-            "Build Version" = 26A428;
+            "Build Version" = 26B123;
             "Needs Creation" = 1;
-            "Validation Expiration" = "2026-09-22 05:41:53 +0000";
+            "Validation Expiration" = "2026-11-08 23:39:32 +0000";
             "Validation Version" = 1;
         };
     };
+    AppAccessExclusionListMigrationPerformedV2 = 1;
     "Country Code" = KR;
     "Experiment Identifierinvocation_feedback_experiment" = "2892EF2B-1E6A-4462-ACBB-CAE577CBA1DC";
     "Experiment Identifiersiri_vox_sounds_experiment" = "133CC545-9939-43CD-B233-D903D43AA32E";
@@ -39,9 +42,11 @@
     "Is Trial config set to disable media entity sync" = 1;
     "Is Trial config set to disable sync for FullUoD en_US devices" = 1;
     "Is user data sync needed for peer watch" = 0;
-    "Key Value Server Change Token v2" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
-    "Last client experiment check date" = "2026-09-19 04:41:53 +0000";
-    "Last server experiment check date" = "2026-09-19 04:41:53 +0000";
+    "Key Value Server Change Tokens" =     {
+        "com.apple.siri.profile:2:zn:com.apple.assistant.backedup:__defaultOwner__" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
+    };
+    "Last client experiment check date" = "2026-11-05 22:33:29 +0000";
+    "Last server experiment check date" = "2026-11-05 22:33:29 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";

@@ -1,23 +1,34 @@
 {
     gameMetadataHintsCache =     (
                 {
+            key = "file:///System/Library/CoreServices/GameTrampoline.app/";
+            lastAccessDate = "2026-11-06 11:27:42 +0000";
+            sourceFiles =             (
+            );
+        },
+                {
+            hints = {length = 439, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000149 };
+            key = "file:///Users/ymy/Library/Application%20Support/Steam/steamapps/common/Geometry%20Dash/Geometry%20Dash.app/";
+            lastAccessDate = "2026-11-06 11:27:42 +0000";
+            sourceFiles =             (
+                                {
+                    modificationDate = "2026-11-06 11:27:42 +0000";
+                    url = "file:///Users/ymy/Library/Application%20Support/Steam/steamapps/appmanifest_322170.acf";
+                }
+            );
+        },
+                {
             key = "file:///System/Applications/Games.app/";
-            lastAccessDate = "2026-09-19 03:36:20 +0000";
+            lastAccessDate = "2026-11-06 11:27:42 +0000";
             sourceFiles =             (
             );
         },
                 {
             key = "file:///System/Applications/Chess.app/";
-            lastAccessDate = "2026-09-19 03:36:20 +0000";
-            sourceFiles =             (
-            );
-        },
-                {
-            key = "file:///System/Library/CoreServices/GameTrampoline.app/";
-            lastAccessDate = "2026-09-19 03:36:20 +0000";
+            lastAccessDate = "2026-11-06 11:27:42 +0000";
             sourceFiles =             (
             );
         }
     );
-    installedGames = {length = 656, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000204 };
+    installedGames = {length = 1040, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000342 };
 }

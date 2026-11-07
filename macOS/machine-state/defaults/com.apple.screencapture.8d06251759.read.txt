@@ -1,19 +1,18 @@
 {
-    "last-analytics-stamp" = "810961327.808118";
+    "last-analytics-stamp" = "815194927.817708";
     "last-selection" =     {
-        Height = 896;
-        Width = 637;
-        X = 952;
-        Y = 243;
+        Height = 518;
+        Width = 473;
+        X = 1190;
+        Y = 723;
     };
     "last-selection-display" = 0;
-    location = "~/Pictures";
     "location-last" = "~/Pictures";
     "location-screenrecording" = "~/Pictures";
-    "location-screenshot" = "~/Pictures";
-    style = selection;
-    target = file;
+    style = window;
+    target = clipboard;
     "target-screenrecording" = file;
-    "target-screenshot" = file;
+    "target-screenshot" = clipboard;
     video = 0;
+    "visual-intelligence-hint-count" = 4;
 }

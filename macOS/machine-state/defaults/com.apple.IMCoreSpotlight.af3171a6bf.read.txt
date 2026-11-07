@@ -1,6 +1,6 @@
 {
     IMCSDefaultsVersion = 2;
-    IMCSDoNotIndexProductBuildVersion = 26A428;
+    IMCSDoNotIndexProductBuildVersion = 26B123;
     IMCSLastDonationProgressRebuildDate = "2026-08-08 15:57:25 +0000";
     IMDCoreSpotlightLastFullReindexRequestTime = "2026-01-17 08:56:19 +0000";
     IMDIndexingLastThrottleState = 2;
@@ -18,11 +18,6 @@
             }
         );
     };
-    LastSpotlightFeatureCheckpoint = 3;
-    ReindexSchedulingContext = {length = 309, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000f1 };
-    ReindexSchedulingInProgress = 1;
-    ReindexSchedulingLastChatRowID = 946;
-    ReindexSchedulingLastRowID = 6911;
-    ReindexSchedulingUserInfoData = {length = 50, bytes = 0x62706c69 73743030 d1010251 66100108 ... 00000000 0000000f };
+    LastSpotlightFeatureCheckpoint = 50;
     ReindexVacuumRequirements = 0;
 }

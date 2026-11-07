@@ -8,7 +8,7 @@
         );
         failedToFetchFromServer = 0;
         notificationId = "";
-        retrievalDate = "2026-09-19 04:41:55 +0000";
+        retrievalDate = "2026-11-05 22:40:18 +0000";
         serverDict =         {
             actionBasedUniversalLinkInfo =             (
                                 {
@@ -322,10 +322,6 @@
                         sfSymbolId = "icloud.slash";
                     };
                     mesg =                     (
-                                                {
-                            format = "No Internet Connection";
-                            key = default;
-                        }
                     );
                     reason = WiFiConnectivityIssues;
                     title =                     (
@@ -353,10 +349,6 @@
                         sfSymbolId = "icloud.slash";
                     };
                     mesg =                     (
-                                                {
-                            format = "Accept Terms to continue to upload";
-                            key = default;
-                        }
                     );
                     reason = TermsNotAccepted;
                     title =                     (
@@ -579,7 +571,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-09-19 04:41:54 +0000";
+        retrievalDate = "2026-11-05 22:40:18 +0000";
         serverDict =         {
             type = None;
         };
@@ -588,7 +580,7 @@
         altDSID = "001733-08-edade07a-2c51-4283-acc3-0b2c241be1c3";
         callbackInterval = 604800;
         failedToFetchFromServer = 0;
-        retrievalDate = "2026-09-19 04:41:54 +0000";
+        retrievalDate = "2026-11-05 22:40:17 +0000";
         serverDict =         {
             callbackInterval = 604800;
             defaultOffers =             (
@@ -904,10 +896,6 @@
                                 sfSymbolId = "icloud.slash";
                             };
                             mesg =                             (
-                                                                {
-                                    format = "No Internet Connection";
-                                    key = default;
-                                }
                             );
                             reason = WiFiConnectivityIssues;
                             title =                             (
@@ -935,10 +923,6 @@
                                 sfSymbolId = "icloud.slash";
                             };
                             mesg =                             (
-                                                                {
-                                    format = "Accept Terms to continue to upload";
-                                    key = default;
-                                }
                             );
                             reason = TermsNotAccepted;
                             title =                             (
@@ -1163,7 +1147,7 @@
         );
         failedToFetchFromServer = 1;
         notificationId = "";
-        retrievalDate = "2026-09-19 04:41:54 +0000";
+        retrievalDate = "2026-11-05 22:40:18 +0000";
         serverDict =         {
             isPremiumOffer = 1;
             offerType = PremiumJourneys;

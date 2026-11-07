@@ -48,7 +48,7 @@
     NSGlassEverEditedInBuddy = 1;
     NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-09-18 13:10:14 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-11-06 00:50:04 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -63,14 +63,18 @@
         de,
         fr,
         it,
-        ro
+        ro,
+        fi,
+        nl
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
         cs,
         de,
         fr,
         it,
-        ro
+        ro,
+        fi,
+        nl
     );
     NSNavPanelFileLastListModeForOpenModeKey = 2;
     NSNavPanelFileLastListModeForSaveModeKey = 2;
@@ -395,6 +399,16 @@
         )
     );
     NSUserDictionaryReplacementItems =     (
+                {
+            on = 1;
+            replace = omw;
+            with = "On my way!";
+        },
+                {
+            on = 1;
+            replace = "\U3148\U3131\U3148";
+            with = "\Uc9c0\Uae08 \Uac00\Ub294 \Uc911!";
+        }
     );
     NSUserQuotesArray =     (
         "\U201c",
@@ -404,6 +418,7 @@
     );
     NavPanelFileListModeForOpenMode = 2;
     NavPanelFileListModeForSaveMode = 2;
+    SSPreferencesVisualLookUpInSSSEnabled = 1;
     WebAutomaticSpellingCorrectionEnabled = 0;
     WebKitDeveloperExtras = 1;
     "com.apple.finder.SyncExtensions" =     {

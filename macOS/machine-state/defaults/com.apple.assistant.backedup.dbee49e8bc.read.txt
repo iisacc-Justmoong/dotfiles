@@ -47,11 +47,11 @@
         allCapabilities =         {
             fullUODCapabilities = 15;
             hybridCapabilities = 9;
-            linwoodCapabilities = 8191;
+            linwoodCapabilities = 16383;
             saeCapabilities = 63;
             visualIntelligenceCapabilities = 21;
         };
-        bootUUID = "4DE7139A-5B68-4D30-9C8C-A86DFD3E41ED";
+        bootUUID = "73DB4403-84CB-465F-8A9E-99F03425E28C";
         currentOrchestrationMode = 5;
         desiredOrchestrationMode = 5;
         desiredOrchestrationModeIfEnabled = 5;

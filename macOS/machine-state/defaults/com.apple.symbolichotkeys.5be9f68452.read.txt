@@ -40,7 +40,7 @@
             enabled = 0;
         };
         160 =         {
-            enabled = 1;
+            enabled = 0;
             value =             {
                 parameters =                 (
                     32,
@@ -65,9 +65,9 @@
             enabled = 1;
             value =             {
                 parameters =                 (
-                    104,
-                    4,
-                    1048576
+                    65535,
+                    120,
+                    8388608
                 );
                 type = standard;
             };
@@ -86,12 +86,12 @@
             enabled = 1;
         };
         175 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    65535,
-                    0
+                    97,
+                    8388608
                 );
                 type = standard;
             };
@@ -198,12 +198,12 @@
             enabled = 0;
         };
         222 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    65535,
-                    0
+                    96,
+                    8388608
                 );
                 type = standard;
             };
@@ -628,18 +628,18 @@
             };
         };
         32 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
-                    126,
-                    8650752
+                    99,
+                    8388608
                 );
                 type = standard;
             };
         };
         33 =         {
-            enabled = 0;
+            enabled = 1;
             value =             {
                 parameters =                 (
                     65535,
@@ -785,9 +785,9 @@
             enabled = 1;
             value =             {
                 parameters =                 (
-                    32,
-                    49,
-                    524288
+                    65535,
+                    122,
+                    8388608
                 );
                 type = standard;
             };
