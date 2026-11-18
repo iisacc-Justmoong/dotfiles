@@ -19,7 +19,7 @@
     );
     "com.apple.identityservices.systemDSAccountStore" = {length = 959, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000002ef };
     hasRegIdentityContainer = 1;
-    hasUnregIdentityContainer = 0;
+    hasUnregIdentityContainer = 1;
     "ids-swift-data-force-version" = 3;
     "performed-user-intent-migrate" = 1;
     "persister-migration-IDSAccountHistoryTrackerLastGDRDateMap" = 1;

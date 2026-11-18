@@ -41,8 +41,9 @@
     "NSWindow Frame NSColorPanel" = "0 83 250 297 0 0 2560 1409 ";
     "NSWindow Frame SUStatusFrame" = "-1480 953 400 139 -2560 0 2560 1410 ";
     "NSWindow Frame SUUpdateAlert" = "-1590 756 620 402 -2560 0 2560 1410 ";
-    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1538 108 727 842 0 0 2560 1410 ";
-    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "342 191 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile  0" = "1319 93 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "1745 66 727 842 0 0 2560 1410 ";
+    "NSWindow Frame iTerm Profile A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "214 164 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 0" = "1370 231 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 1" = "1787 111 727 842 0 0 2560 1410 ";
     "NSWindow Frame iTerm Window 2" = "66 293 710 842 0 0 2560 1410 ";
@@ -600,9 +601,12 @@
         "JetBrains Mono",
         Monaco
     );
+    NoSyncBrowserUpsell = 1;
+    "NoSyncBrowserUpsell_selection" = 1;
     NoSyncClaudeCodeAutoRequestReviewBackfilled = 1;
     NoSyncClaudeCodeAutoSendClippingsBackfilled = 1;
     NoSyncClaudeCodeDiffModeBackfilled = 1;
+    NoSyncClaudeCodeReviewSettingsCommandBackfilled = 1;
     NoSyncClaudeCodeReviewSystemPromptCommandBackfilled = 1;
     NoSyncConfirmRunOpenFile = 1;
     "NoSyncConfirmRunOpenFile_selection" = 0;
@@ -613,15 +617,15 @@
     };
     NoSyncIgnoreSystemWindowRestoration = 1;
     NoSyncInstallationId = "5E395F17-3A68-4107-85A8-61388C2E1C13";
-    NoSyncLastOSVersion = "Version 27.2 (Build 26B123)";
-    NoSyncLastShutdownWasClean = 0;
+    NoSyncLastOSVersion = "Version 27.2.1 (Build 26B131)";
+    NoSyncLastShutdownWasClean = 1;
     NoSyncLastSystemPythonVersionRequirement = "1.17";
-    NoSyncLaunchExperienceControllerRunCount = 148;
+    NoSyncLaunchExperienceControllerRunCount = 151;
     NoSyncMigratedDynamicProfileTagToFlag = 1;
     NoSyncNextAnnoyanceTime = "791102264.871547";
     NoSyncPermissionToShowTip = 0;
     NoSyncPersistentRateLimitedUpdates =     {
-        CheckForUpdatedUv = "815697209.251004";
+        CheckForUpdatedUv = "816760506.275205";
     };
     NoSyncRecordedVariables =     {
         0 =         (
@@ -1208,6 +1212,11 @@
                 isTerminal = 1;
                 name = "currentTab.currentSession.jobName";
                 nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = "currentTab.currentSession.foregroundJobAncestors";
+                nonterminalContext = 0;
             }
         );
         2 =         (
@@ -1340,22 +1349,7 @@
         4 =         (
                         {
                 isTerminal = 1;
-                name = pid;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = localhostName;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
                 name = workingSessionCount;
-                nonterminalContext = 0;
-            },
-                        {
-                isTerminal = 1;
-                name = waitingSessionCount;
                 nonterminalContext = 0;
             },
                         {
@@ -1365,7 +1359,22 @@
             },
                         {
                 isTerminal = 1;
+                name = waitingSessionCount;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
                 name = appBundlePath;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = pid;
+                nonterminalContext = 0;
+            },
+                        {
+                isTerminal = 1;
+                name = localhostName;
                 nonterminalContext = 0;
             }
         );
@@ -1373,10 +1382,11 @@
     NoSyncRemoveDeprecatedKeyMappings = 1;
     NoSyncRestoreWindowsCount = 0;
     NoSyncSavedWindowPositions =     {
+        " 0" = "{1319, 935}";
         1 = "{1787, 953}";
         2 = "{66, 1135}";
-        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1538, 950}";
-        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "{342, 1033}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 0" = "{1745, 908}";
+        "A5BC6692-F4CB-432B-9A50-F74C22C672CC 1" = "{214, 1006}";
     };
     NoSyncSuppressedAlertsCatalog =     {
         "NeverWarnAboutShortLivedSessions_A5BC6692-F4CB-432B-9A50-F74C22C672CC" =         {
@@ -1386,12 +1396,21 @@
             selectionLabel = OK;
             title = "A session ended very soon after starting. Check that the command in profile \"Default\" is correct.";
         };
+        NoSyncBrowserUpsell =         {
+            count = 2;
+            episode = permanent;
+            heading = "Plugin Required";
+            lastSuppressed = "816674311.8888561";
+            selectionLabel = "Use System Browser";
+            title = "iTerm2 can display web pages! But first you must download the Browser Plugin.";
+        };
     };
     NoSyncTipOfTheDayEligibilityBeganTime = "790339530.2609479";
     NoSyncUserHasSelectedCommand = 1;
     NoSyncWindowCornerRadiusCache =     {
         "mask_32783_tv_0_os_27_0_scale_1.0" = "31.5";
         "mask_32783_tv_0_os_27_0_scale_2.0" = "17.75";
+        "mask_32783_tv_0_os_27_2_scale_1.0" = 15;
         "mask_32783_tv_0_os_27_2_scale_2.0" = "10.75";
     };
     NoSyncWindowRestoresWorkspaceAtLaunch = 0;
@@ -1424,7 +1443,7 @@
     SUFeedAlternateAppNameKey = iTerm;
     SUFeedURL = "https://iterm2.com/appcasts/final_modern.xml?shard=76";
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-11-05 22:27:42 +0000";
+    SULastCheckTime = "2026-11-18 05:55:07 +0000";
     SUSendProfileInfo = 0;
     SUUpdateGroupIdentifier = 118056111;
     SUUpdateRelaunchingMarker = 0;

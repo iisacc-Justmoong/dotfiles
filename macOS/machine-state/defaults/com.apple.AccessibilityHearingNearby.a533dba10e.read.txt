@@ -1,40 +1,60 @@
 {
     AccessibilityHearingNearby =     {
         IncomingData =         {
-            TimeStamp = "2026-11-05 08:26:10:60";
-            TotalCount = 6;
+            TimeStamp = "2026-11-18 01:41:47:81";
+            TotalCount = 10;
             "com.apple.heard.xpc" =             {
-                Count = 6;
+                Count = 10;
                 TimeStamps =                 (
                                         (
-                        "2026-11-05 08:26:10:60",
-                        786,
+                        "2026-11-18 01:41:47:81",
+                        1118,
                         "New XPC"
                     ),
                                         (
-                        "2026-11-05 08:26:10:60",
-                        786,
+                        "2026-11-18 01:41:47:81",
+                        1118,
                         "RegisterForDevicesUpdates (4)"
                     ),
                                         (
-                        "2026-11-05 10:14:06:41",
-                        786,
+                        "2026-11-18 02:52:29:44",
+                        1118,
                         "New XPC"
                     ),
                                         (
-                        "2026-11-05 10:14:06:41",
-                        786,
+                        "2026-11-18 02:52:29:44",
+                        1118,
                         "RegisterForDevicesUpdates (4)"
                     ),
                                         (
-                        "2026-11-06 07:35:04:97",
-                        1302,
+                        "2026-11-18 10:38:17:71",
+                        1118,
                         "New XPC"
                     ),
                                         (
-                        "2026-11-06 07:35:04:97",
-                        1302,
-                        "RegisterForAvailableDevicesUpdates (2)"
+                        "2026-11-18 10:38:17:72",
+                        1118,
+                        "RegisterForDevicesUpdates (4)"
+                    ),
+                                        (
+                        "2026-11-18 20:26:07:52",
+                        1118,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-11-18 20:26:07:53",
+                        1118,
+                        "RegisterForDevicesUpdates (4)"
+                    ),
+                                        (
+                        "2026-11-18 20:42:08:94",
+                        1118,
+                        "New XPC"
+                    ),
+                                        (
+                        "2026-11-18 20:42:08:94",
+                        1118,
+                        "RegisterForDevicesUpdates (4)"
                     )
                 );
             };

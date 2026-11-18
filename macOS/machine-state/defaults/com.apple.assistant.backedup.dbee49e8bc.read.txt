@@ -51,7 +51,7 @@
             saeCapabilities = 63;
             visualIntelligenceCapabilities = 21;
         };
-        bootUUID = "73DB4403-84CB-465F-8A9E-99F03425E28C";
+        bootUUID = "01A72E0B-CDAA-4B3A-8B03-98EAD948B171";
         currentOrchestrationMode = 5;
         desiredOrchestrationMode = 5;
         desiredOrchestrationModeIfEnabled = 5;
@@ -62,5 +62,5 @@
         status = 0;
         unavailabilityReasons = 0;
     };
-    "Use device speaker for TTS" = 3;
+    "Use device speaker for TTS" = 2;
 }

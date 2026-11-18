@@ -73,13 +73,14 @@
             };
         };
         164 =         {
-            enabled = 1;
+            enabled = 0;
             value =             {
                 parameters =                 (
-                    262144,
-                    9223372036854775807
+                    65535,
+                    65535,
+                    0
                 );
-                type = modifier;
+                type = standard;
             };
         };
         17 =         {

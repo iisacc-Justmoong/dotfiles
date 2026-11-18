@@ -1,7 +1,7 @@
 {
     ICDefaultsCachedSubscriptionStatus =     {
         lastKnownActiveDSID = 17533321770;
-        lastKnownOSVersion = 26B123;
+        lastKnownOSVersion = 26B131;
         responses =         {
             "{\"phoneNumber\":\"\",\"dsid\":\"17533321770\",\"storefrontID\":\"143466\"}" =             {
                 status =                 {
@@ -25,9 +25,7 @@
                     };
                     music =                     {
                         bundleAdamId = 6450018439;
-                        expirationDate = 1793610045000;
-                        gracePeriodDialogCount = 0;
-                        gracePeriodExpirationDate = 1796029245000;
+                        expirationDate = 1796202045000;
                         hasOfflineSlots = 1;
                         initialPurchaseTimestamp = 1679512430000;
                         isAdmin = 0;
@@ -70,7 +68,7 @@
             ICAgeVerificationStateKeyDSID = 17533321770;
             ICAgeVerificationStateKeyStatus = 3;
             ICAgeVerificationStateKeyTreatment = 1;
-            ICAgeVerificationStateKeyVerificationURL = "https://music.apple.com/account/age-verification";
+            ICAgeVerificationStateKeyVerificationURL = "https://apps.mzstatic.com/content/1ae2998afc5d4d6cabf5effc124a94f6/age-verification";
         };
     };
     ICDefaultsKeyMediaLibraryAccessApplicationIdentifiersWithTCCAcceptanceDates =     {

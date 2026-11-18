@@ -12,7 +12,7 @@
         TPSNotificationCount = 12;
     };
     "TPSAnalyticsUsageEventsProcessor_DateLastRun" = {length = 223, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000a8 };
-    TPSContentUpdatedNotificationDate = "2026-11-06 12:38:21 +0000";
+    TPSContentUpdatedNotificationDate = "2026-11-17 11:23:37 +0000";
     TPSCurrentWelcomeXPCActivityIdentifier = "com.apple.tipsd.showWelcomeNotification.reminderCount-0";
     TPSDCloudHintDisplayed =     (
         "CID-customizeface-learn-customize-applewatch",
@@ -48,8 +48,8 @@
     TPSFullTipUsageEventContextualInfo = {length = 4251, bytes = 0x62706c69 73743030 d4000100 02000300 ... 00000000 00000dcb };
     TPSLastMajorVersion = 27;
     TPSLastNotificationDate = "2026-10-02 16:45:55 +0000";
-    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 2908, bytes = 0x7b227665 7273696f 6e223a32 2c22646f ... 41594230 3d227d7d };
-    TPSTipKitProcessedDate = "2026-11-06 12:32:58 +0000";
+    "TPSSearchIndexLastClientState_com.apple.tips_tips" = {length = 2905, bytes = 0x7b227665 7273696f 6e223a32 2c22646f ... 44347855 3d227d7d };
+    TPSTipKitProcessedDate = "2026-11-18 11:23:36 +0000";
     TPSTipsAppInstalled = 1;
     TPSWelcomeDocumentCache = {length = 1298, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000408 };
     TPSWelcomeNotificationReminderState = 1;
@@ -73,7 +73,17 @@
         "doc2e043831-35d6-448e-b0c0-1646a6955ccd",
         "docd0999750-1c2b-43b1-9e3a-743fd842e968",
         "docb7837ce1-e4ba-4150-aef0-a6dab47d4bad",
-        "doc4da925a4-3dea-4316-a9a0-29333932b556"
+        "doc4da925a4-3dea-4316-a9a0-29333932b556",
+        "doc6285f6fe-1046-4de1-afca-45dc024a56d2",
+        "doc42b0506e-d723-4210-bc4d-13c23a00aa3a",
+        "doc7e367012-71c5-48df-966a-ad333e158dd1",
+        "doc2768ac32-a5cb-4796-9f9d-8aa15c1b6661",
+        "doc5ac3184c-9da2-4678-8d37-dd1ef6dcd88c",
+        "doc04cd22bc-18c8-4814-9518-cf44d4709ae1",
+        "doce4777ce5-013d-42d3-b06d-406b886d65fa",
+        "doc43cd8de1-3750-4a5d-a664-7264e3d84b6c",
+        "doca83c1483-5811-4d8b-930f-87ff410689e2",
+        "doc95cec375-6f4c-4e87-b87e-8bb2adcfad23"
     );
-    TPSWidgetUpdateDate = "2026-11-05 14:26:08 +0000";
+    TPSWidgetUpdateDate = "2026-11-18 03:23:40 +0000";
 }

@@ -13,14 +13,14 @@
     CloudKitLastSyncSinceInternetReachable = "813058165.41618";
     SubscriptionIDs =     {
         "7DEE64E7-6C19-4EDC-BA91-E4C81A08607E" =         (
-            "DatabaseSubscription-Shared",
-            "DatabaseSubscription-Private"
+            "DatabaseSubscription-Private",
+            "DatabaseSubscription-Shared"
         );
     };
-    SubscriptionIDsLastModifiedDate = "815019396.4799891";
+    SubscriptionIDsLastModifiedDate = "815917573.917616";
     ThrottlingPolicyCurrentBatchCount = 0;
     ThrottlingPolicyCurrentLevelIndex = 0;
-    ThrottlingPolicyStartTime = "815645829.624365";
+    ThrottlingPolicyStartTime = "816682637.8838381";
     analyticsActivityLastExecutionDate = "2026-03-26 23:43:18 +0000";
     cloudKitSchemaCatchUpSyncLastSuccessBuildVersion = 26A5353q;
     cloudKitSchemaCatchUpSyncLastSuccessDate = "2026-06-10 00:46:37 +0000";
@@ -29,7 +29,7 @@
     extraneousAlarmsCollectorContainerDeemedClean = 1;
     imageDeduplicationLastExecutionDate = "2026-08-12 18:47:58 +0000";
     isDatabaseMigrated = 1;
-    lastCloudConfigurationDownload = "2026-11-06 11:34:36 +0000";
+    lastCloudConfigurationDownload = "2026-11-18 08:16:56 +0000";
     lastDatabaseMigrationSystemBuildVersion = 25C56;
     lastDismissedNotificationsPermissionInlineRequestDate = "2026-05-11 07:33:16 +0000";
     lastExtraneousAlarmsCollectorExecutionDate = "2026-01-17 08:56:44 +0000";

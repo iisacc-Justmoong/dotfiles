@@ -12,3 +12,7 @@
 /macOS/launchd
 /machine-state/runtime/
 !/.gitconfig
+
+# secrets: never sync (2026-11-19)
+.config/cursor/statsig-cache.json
+.config/rclone/rclone.conf

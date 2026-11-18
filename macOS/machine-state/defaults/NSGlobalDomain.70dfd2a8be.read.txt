@@ -48,7 +48,7 @@
     NSGlassEverEditedInBuddy = 1;
     NSGlassTintAmount = 1;
     NSLinguisticDataAssetsRequestLastInterval = 86400;
-    NSLinguisticDataAssetsRequestTime = "2026-11-06 00:50:04 +0000";
+    NSLinguisticDataAssetsRequestTime = "2026-11-18 16:16:57 +0000";
     NSLinguisticDataAssetsRequested =     (
         en,
         "en_KR",
@@ -65,7 +65,8 @@
         it,
         ro,
         fi,
-        nl
+        nl,
+        tr
     );
     NSLinguisticDataAssetsRequestedByChecker =     (
         cs,
@@ -74,7 +75,8 @@
         it,
         ro,
         fi,
-        nl
+        nl,
+        tr
     );
     NSNavPanelFileLastListModeForOpenModeKey = 2;
     NSNavPanelFileLastListModeForSaveModeKey = 2;
@@ -421,16 +423,15 @@
     SSPreferencesVisualLookUpInSSSEnabled = 1;
     WebAutomaticSpellingCorrectionEnabled = 0;
     WebKitDeveloperExtras = 1;
+    "com.apple.VisualIntelligence.FeatureAwareness.Camera" = 1;
+    "com.apple.VisualIntelligence.FeatureAwareness.Screenshot" = 1;
     "com.apple.finder.SyncExtensions" =     {
         collaborationMap =         {
-            "com.adobe.acc.anc.AdobeCreativeCloud.AdobeContextMenuExtension" = 0;
-            "com.adobe.accmac.ACCFinderSync" = 1;
+            "com.google.GeminiMacOS.FinderSync" = 0;
         };
         dirMap =         {
-            "com.adobe.acc.anc.AdobeCreativeCloud.AdobeContextMenuExtension" =             (
+            "com.google.GeminiMacOS.FinderSync" =             (
                 "file:///"
-            );
-            "com.adobe.accmac.ACCFinderSync" =             (
             );
         };
     };

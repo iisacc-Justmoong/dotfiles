@@ -1,12 +1,20 @@
 {
+    AOAnalyticsAnonymousId = "F8665132-9E28-4BF0-93B7-84A22B8F08C5";
+    AOConnectivityConnectedTime = 162;
+    AOConnectivityIdleTime = 2895;
     MSAppCenter310AnalyticsUserDefaultsMigratedKey = 1;
     MSAppCenter310AppCenterUserDefaultsMigratedKey = 1;
     MSAppCenterInstallId = "A30F3204-48CF-4069-A553-9480F6375BDF";
-    MSAppCenterPastDevices = {length = 1446, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000464 };
-    MSAppCenterSessionIdHistory = {length = 594, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000001c8 };
-    MSAppCenterUserIdHistory = {length = 505, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000173 };
+    MSAppCenterPastDevices = {length = 1716, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 0000052a };
+    MSAppCenterSessionIdHistory = {length = 686, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000212 };
+    MSAppCenterUserIdHistory = {length = 555, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 00000195 };
+    "NSWindow Frame SUStatusFrame" = "1080 972 400 135 0 0 2560 1410 ";
+    "NSWindow Frame SUUpdateAlert" = "970 775 620 398 0 0 2560 1410 ";
+    SUAutomaticallyUpdate = 1;
     SUEnableAutomaticChecks = 1;
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-10-07 06:33:49 +0000";
+    SULastCheckTime = "2026-11-18 14:32:35 +0000";
     SUSendProfileInfo = 0;
+    SUUpdateGroupIdentifier = 256379220;
+    SUUpdateRelaunchingMarker = 0;
 }

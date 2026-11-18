@@ -1,84 +1,192 @@
 {
+    AVDesktopPlaybackControlsControllerShowsDurationInsteadOfTimeRemainingDefaultsKey = 1;
+    NSNavLastUserSetHideExtensionButtonState = 0;
+    NSNavPanelExpandedSizeForSaveMode = "{880, 448}";
+    NSNavPanelExpandedStateForSaveMode = 1;
+    NSOSPLastRootDirectory = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
+    "NSWindow Frame SettingsWindow" = "842 299 791 791 0 0 2560 1410 ";
     "WindowBoundsTracker.fullViewFrame" =     (
-        903,
-        57,
-        1028,
-        900
+        1078,
+        "266.25",
+        1482,
+        996
     );
+    "WindowBoundsTracker.minichatFrame" =     (
+        1071,
+        169,
+        400,
+        500
+    );
+    "WindowBoundsTracker.minichatSize" =     (
+        400,
+        500
+    );
+    "app_enableAccountDataCleanup" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "app_enableClearcutSpoolTrimming" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "app_enableCompileSafeIcons" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "app_enableDriveUpdater" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "app_enableFastLaunch" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
-    "app_enableLanguagePickerInSettings" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "app_enableKeepInDock" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "app_enableLanguagePickerInSettings" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "app_enableLoginItemConsent" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "app_enableMoveToApplicationsPrompt" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    areaScreenshotPromotionImpressionCount = 1;
+    areaScreenshotPromotionLastShownDate = "1794098616.87522";
+    areaScreenshotPromotionPermanentlyDismissed = 1;
     "com.google.Gemini.deviceID" = "B957A945-60B3-52CB-9913-D8AED2786E25";
-    "com.google.GeminiMacOS.firstExecution.systemSettingsClose" = "1.138.0.1315-PROD";
+    "com.google.GeminiMacOS.firstExecution.systemSettingsClose" = "1.141.3.1394-PROD";
+    "com.google.GeminiMacOS.hasRegisteredAccessibilityTCC" = 1;
+    "com.google.GeminiMacOS.wasPreviouslyTrustedAccessibility" = 1;
+    connectedFolderBannerImpressionCount = 1;
+    connectedFolderBannerLastShownDate = "1794139200.202799";
+    "discoveryInteractionRecords_114448048746050013777" = {length = 44, bytes = 0x0a2a0a0a 37303738 33343137 3033121c ... d70610fa c79aa301 };
+    finderExtensionPromotionImpressionCount = 1;
+    finderExtensionPromotionLastShownDate = "1794218459.762281";
+    finderExtensionPromotionPermanentlyDismissed = 1;
     hasCompletedSTCDiscoveryFlow = 1;
     shortcutsEverCustomized = 1;
     stcDiscoveryImpressionCount = 1;
     stcDiscoveryLastShownDate = "1793956561.489624";
     "user1_CodeModeDiscovery.hasDismissedPopover" = 1;
+    "user1_ConnectedFolderInputChip.hasDismissedConnectedFolderPopover" = 1;
     "user1_appMode" = chat;
+    "user1_com.google.Gemini.hasSeenArgonOnboarding" = 1;
+    "user1_com.google.Gemini.seenNewModelBadgeIDs" =     (
+        Flash4p0
+    );
+    "user1_com.google.Gemini.seenSoftBadgeIDs" =     (
+        Flash4p0,
+        Carbon4p0
+    );
+    "user1_com.google.Gemini.selectedBardModeID" = 56fdd199312815e2;
+    "user1_com.google.Gemini.selectedModeCategory" = 1;
+    "user1_connected_folders_bookmarks" =     {
+        "D936E01B-21BE-46CF-BDEB-940AC46744B1" = {length = 864, bytes = 0x626f6f6b 60030000 00000510 40000000 ... 7c010000 00000000 };
+    };
     "user1_disableAgentMode" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableActivityCenter" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableAsyncComponentPunctualRefresh" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableAutoUpdateOptIn" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableAutodeskBundledMcpTools" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableAvatar" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableBlenderBundledMcpTools" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableBlockRenderCache" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableBundledMcpConsentDialog" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableCenteredInputPlate" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableChatScrollPerf" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableChatScrollToBottomButton" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableChatTurnNavigationWidget" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableClientSideSkills" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableCodeMode" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableCodeModeDiscoveryPopover" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableConnectedAppsSidebarLink" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableConnectedFoldersPerChat" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableContentFittedTableColumns" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableCustomizePage" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableDeepThinkCard" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableDeferredChatHeightUpdates" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableDeferredRootViewRebuild" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableDeviceTriggerCoordinator" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableDiscoveryTooltips" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableDynamo" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableEditButtonOnGeneratedImage" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableEditorDownloadRequestPayload" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableEduFeedback" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
-    "user1_enableFileGen2" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableExpandMinichatSecondTurn" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableExpansionAutoExpand" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableExpansionPopover" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableFileGen2" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableFileGen2DocPDFExport" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableFileGen2DriveExport" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableFileGen2PopOutWindow" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableGeminiLive" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableGeneratedImageForbiddenGrace" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableGitBundledMcpTools" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableGranularPermissions" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableHighlightToAsk" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableHoldCmdQToQuit" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableHoverPrefetch" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableImageAspectRatioCompanion" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableImageFormatCompanion" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableImageGenTemplates" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
-    "user1_enableInactiveWindowDimming" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableInAppBrowser" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableInactiveWindowDimming" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableIncrementalNativeTextTable" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableInlineToSidePanel" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableIntuitiveEditBackgroundSaveProgressIndicator" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableIntuitiveImageEditing" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableJanusRequestConnectedFolders" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableKeepCodeModeWebViewAlive" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableLargerImagePreviewsInChat" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableLegacyLatexTypesetter" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableLocalCCTool" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableLocalMcpDirectTools" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableMacOSSystemVoice" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableMapContentView" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMarkAsUnread" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMauiContentBlock" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMauiContentBlockRendering" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMcpCustomLocal" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMcpToolUiFrame" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableMessagesBundledMcpTools" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableMiniAppContentBlock" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableMinichatPersistence" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableMosaicWatermark" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableNativeMaps" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableNativeSharingFlow" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableNotebookConsentFlow" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableObsidianBundledMcpTools" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableOngoingWorkQuitWarning" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableP42MentionsConvergence" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableP42SideNav" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enablePlugins" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enablePluginsInTaskMode" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableQueuedMessages" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableRageshakeFeedback" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableRecommendedSkillsInMentionsMenu" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableRemoteControl" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableRemyChatConvergence" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableRemyQuotaPreCheck" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableRemyQuotaStandardChatFallback" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableRemySteering" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableRenameNotebooksToProjects" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableReturnToNewChat" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableRichNativeTextTable" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableScheduledTasksFreeTierTimeWindows" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableScheduledTasksP42Refactor" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableSharedChatRendering" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableSidebarScrollPerf" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableSkillAutocomplete" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableSkillsMenuLink" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
-    "user1_enableSkillsSharing" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableSkillsSharing" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableSkillsSharingV2" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableSpotlightIndexing" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableStcAlwaysDelegateShortcut" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableStcTranscriptionHistory" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableSuperprojects" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableThinkingAndSourcesSidePanel" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableToolMention" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableTouchdownPrefetch" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableTranscriptionlessVoiceQuery" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableU18AgeVerification" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableUpdatePillPrompt" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableVideoAspectRatioCompanion" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableVideoDurationCompanion" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_enableVideoGenTemplates" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
+    "user1_enableVoiceSamplePreview" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
+    "user1_enableWideTablesAndScrolling" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enableWindowShareAttachmentChips" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a7472 75657d7d };
     "user1_enable_smart_model_selection" = 1;
     "user1_gemini_use_macos_system_voice" = 0;
     "user1_isSidebarVisible" = 1;
     "user1_maxActiveSkillCount" = {length = 27, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 30223a31 30307d7d };
+    "user1_modePickerDefaultUpsellURL" = {length = 142, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 67726164 65227d7d };
+    "user1_modePickerUpsellURLsJSON" = {length = 912, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 6e202020 20227d7d };
+    "user1_privacyHelpURL" = {length = 77, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 5f68656c 70227d7d };
     "user1_returnToNewChatInactivityIntervalSeconds" = {length = 28, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 223a3336 30307d7d };
     "user1_shouldSendCrashesAndUsageData" = 0;
+    "user1_sidebarWidth" = 230;
     "user1_skipCoworkOnboarding" = {length = 29, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 3a66616c 73657d7d };
     "user1_stcUseReasoning" = 0;
+    "user1_zeroStateModeDefaultBehavior" = {length = 25, bytes = 0x7b226465 6661756c 7456616c 7565223a ... 225f3022 3a307d7d };
 }

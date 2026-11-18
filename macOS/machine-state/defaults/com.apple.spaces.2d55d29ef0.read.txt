@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "83906.67864525004";
+            Age = "20783.57777245843";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -39,16 +39,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 4;
-                        id64 = 4;
+                        ManagedSpaceID = 445;
+                        id64 = 445;
                         type = 0;
                         uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                     };
                     "Display Identifier" = "2C9DB48E-D6CA-4EE6-8898-5FDC6078E8A1";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 4;
-                            id64 = 4;
+                            ManagedSpaceID = 445;
+                            id64 = 445;
                             type = 0;
                             uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                         }
@@ -56,8 +56,8 @@
                 },
                                 {
                     "Collapsed Space" =                     {
-                        ManagedSpaceID = 1505;
-                        id64 = 1505;
+                        ManagedSpaceID = 239;
+                        id64 = 239;
                         type = 0;
                         uuid = "AF01456E-BA79-4C67-B6E6-499DC2E4F7EE";
                     };
@@ -111,28 +111,41 @@
                         {
                 name = "";
                 windows =                 (
-                    87,
-                    2049,
-                    2029,
-                    1786,
-                    1987,
-                    86,
-                    30,
-                    28,
-                    52,
-                    15
+                    7200,
+                    18287,
+                    16779,
+                    16639,
+                    16404,
+                    15093,
+                    19051,
+                    18677,
+                    19246,
+                    17150,
+                    16422,
+                    9190,
+                    2258,
+                    75,
+                    36,
+                    34,
+                    7021,
+                    15,
+                    565
                 );
             },
                         {
                 name = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                 windows =                 (
-                    84,
-                    31,
-                    29,
-                    56,
-                    16
+                    12364,
+                    19264,
+                    13186,
+                    15233,
+                    11585,
+                    11580,
+                    11548,
+                    11511
                 );
             }
         );
     };
+    "spans-displays" = 0;
 }

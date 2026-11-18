@@ -23,7 +23,7 @@
 
 === Brewfile Drift ===
 [OK] Brewfile required entries are all installed
-[WARN] Extra formula: 71, extra cask: 4
+[WARN] Extra formula: 76, extra cask: 6
 brotli
 ca-certificates
 cairo
@@ -40,14 +40,16 @@ giflib
 git-lfs
 git-xet
 glib
+gmp
 graphite2
 harfbuzz
 hf
-icu4c@78
-lm-studio
+antigravity-ide
+cursor
+google-drive
+google-gemini
 netnewswire
 steam
-zed
 
 === Zsh Environment Snapshot ===
 QT_PREFIX=

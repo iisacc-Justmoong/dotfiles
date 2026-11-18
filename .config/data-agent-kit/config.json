@@ -1,0 +1,17 @@
+{
+  "projectId": "iisacc-account-integration",
+  "region": "",
+  "services": [
+    "AlloyDB",
+    "Apache Airflow",
+    "Apache Spark",
+    "BigQuery",
+    "Bigtable",
+    "Cloud SQL",
+    "Cloud Storage",
+    "Dataflow",
+    "Firestore",
+    "Knowledge Catalog",
+    "Spanner"
+  ]
+}
