@@ -656,40 +656,36 @@
             name = Applications;
         },
                 {
-            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
-            name = Social;
+            "file-bookmark" = {length = 1144, bytes = 0x626f6f6b 78040000 00000510 40000000 ... 04000000 00000000 };
+            name = resources;
+        },
+                {
+            "file-bookmark" = {length = 1096, bytes = 0x626f6f6b 48040000 00000510 40000000 ... 04000000 00000000 };
+            name = "iisacc.com-original";
+        },
+                {
+            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
+            name = ".Deprecated";
         },
                 {
             "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
-            name = Assets;
-        },
-                {
-            "file-bookmark" = {length = 948, bytes = 0x626f6f6b b4030000 00000510 40000000 ... 04000000 00000000 };
-            name = Workspace;
+            name = Service;
         },
                 {
             "file-bookmark" = {length = 680, bytes = 0x626f6f6b a8020000 00000510 40000000 ... 04000000 00000000 };
             name = Downloads;
         },
                 {
-            "file-bookmark" = {length = 748, bytes = 0x626f6f6b ec020000 00000510 40000000 ... 04000000 00000000 };
-            name = "2026-11-18-2007-spells-with-sources";
+            "file-bookmark" = {length = 1036, bytes = 0x626f6f6b 0c040000 00000510 40000000 ... 04000000 00000000 };
+            name = Social;
         },
                 {
-            "file-bookmark" = {length = 1152, bytes = 0x626f6f6b 80040000 00000510 40000000 ... 04000000 00000000 };
-            name = video;
+            "file-bookmark" = {length = 1104, bytes = 0x626f6f6b 50040000 00000510 40000000 ... 04000000 00000000 };
+            name = "2026-11-19-1001-biz-paint-engine";
         },
                 {
-            "file-bookmark" = {length = 1152, bytes = 0x626f6f6b 80040000 00000510 40000000 ... 04000000 00000000 };
-            name = images;
-        },
-                {
-            "file-bookmark" = {length = 1108, bytes = 0x626f6f6b 54040000 00000510 40000000 ... 04000000 00000000 };
-            name = "2026-11-18-1808-character-to-world";
-        },
-                {
-            "file-bookmark" = {length = 1040, bytes = 0x626f6f6b 10040000 00000510 40000000 ... 04000000 00000000 };
-            name = ActivityLog;
+            "file-bookmark" = {length = 992, bytes = 0x626f6f6b e0030000 00000510 40000000 ... 04000000 00000000 };
+            name = Assets;
         }
     );
     FXSidebarUpgradedToSixteen = 1;
@@ -944,7 +940,7 @@
         );
         "TB Display Mode" = 2;
         "TB Icon Size Mode" = 1;
-        "TB Is Shown" = 1;
+        "TB Is Shown" = 0;
         "TB Item Identifiers" =         (
             "com.apple.finder.BACK",
             "com.apple.finder.SWCH",
@@ -1314,16 +1310,16 @@
     };
     "PreferencesWindow.LastSelection" = GNRL;
     RecentMoveAndCopyDestinations =     (
+        "file:///Applications/",
         "file:///Volumes/Storage/Workspace/Assets/Social/",
+        "file:///Volumes/Storage/.Trashes/501/2026-11-18-1706-biz-congregation/",
         "file:///Volumes/Storage/Keys/",
         "file:///Volumes/Storage/",
-        "file:///Applications/",
         "file:///Users/ymy/Library/CloudStorage/GoogleDrive-andudyun0504@gmail.com/My%20Drive/",
         "file:///Volumes/Storage/Workspace/SDK/.Deprecated/",
         "file:///Volumes/Storage/Job/Resume/",
         "file:///Volumes/Storage/Assets/Artwork/World/",
-        "file:///Users/ymy/Library/Application%20Support/Codex%20Removal%20Recovery/figcraft-openpencil-20261028T113516Z-675648/files/usr/local/bin/",
-        "file:///Users/ymy/Downloads/"
+        "file:///Users/ymy/Library/Application%20Support/Codex%20Removal%20Recovery/figcraft-openpencil-20261028T113516Z-675648/files/usr/local/bin/"
     );
     RecentsArrangeGroupViewBy = "Date Last Opened";
     SGTRecentFileSearches =     (

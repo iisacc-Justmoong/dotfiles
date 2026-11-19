@@ -1,11 +1,11 @@
 {
     enterMissionControlByTopWindowDrag = 0;
     "last-analytics-stamp" =     (
-        "816509757.490194"
+        "816817339.9665281"
     );
     loc = "en_US:KR";
     mineffect = scale;
-    "mod-count" = 4974;
+    "mod-count" = 4996;
     "persistent-apps" =     (
                 {
             GUID = 1872216818;
@@ -57,7 +57,7 @@
                 "file-mod-date" = 123020329497301;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 156478126342790;
+                "parent-mod-date" = 94274115093877;
             };
             "tile-type" = "file-tile";
         },
@@ -90,10 +90,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Congregation;
-                "file-mod-date" = 192633160884833;
+                "file-mod-date" = 192272383756856;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 156478126342790;
+                "parent-mod-date" = 229788923240463;
             };
             "tile-type" = "file-tile";
         },
@@ -144,10 +144,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Figma;
-                "file-mod-date" = 3876804880;
+                "file-mod-date" = 3877759674;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 195029752124695;
+                "parent-mod-date" = 51779708664498;
             };
             "tile-type" = "file-tile";
         },
@@ -180,10 +180,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = "Antigravity IDE";
-                "file-mod-date" = 3875883888;
+                "file-mod-date" = 3877156898;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 82059227482513;
+                "parent-mod-date" = 3822103836798;
             };
             "tile-type" = "file-tile";
         },
@@ -198,10 +198,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Gemini;
-                "file-mod-date" = 3876683017;
+                "file-mod-date" = 252414810905477;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 191271656432998;
+                "parent-mod-date" = 193689723092158;
             };
             "tile-type" = "file-tile";
         },
@@ -224,24 +224,6 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 625969320;
-            "tile-data" =             {
-                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.meta.endo.vanilla";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///Applications/Meta%20AI.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = "Meta AI";
-                "file-mod-date" = 3876767323;
-                "file-type" = 41;
-                "is-beta" = 0;
-                "parent-mod-date" = 238099684791333;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
             GUID = 625969328;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
@@ -256,6 +238,24 @@
                 "file-type" = 41;
                 "is-beta" = 0;
                 "parent-mod-date" = 191271656432998;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 625969320;
+            "tile-data" =             {
+                book = {length = 584, bytes = 0x626f6f6b 48020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.meta.endo.vanilla";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Meta%20AI.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Meta AI";
+                "file-mod-date" = 3876767323;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 238099684791333;
             };
             "tile-type" = "file-tile";
         },
@@ -360,10 +360,10 @@
                     "_CFURLStringType" = 15;
                 };
                 "file-label" = Calendar;
-                "file-mod-date" = 3875555443;
+                "file-mod-date" = 3876787331;
                 "file-type" = 41;
                 "is-beta" = 0;
-                "parent-mod-date" = 3875555443;
+                "parent-mod-date" = 3876787331;
             };
             "tile-type" = "file-tile";
         },
@@ -554,25 +554,7 @@
             "tile-type" = "file-tile";
         },
                 {
-            GUID = 625969345;
-            "tile-data" =             {
-                book = {length = 540, bytes = 0x626f6f6b 1c020000 00000510 40000000 ... 04000000 00000000 };
-                "bundle-identifier" = "com.apple.Terminal";
-                "dock-extra" = 0;
-                "file-data" =                 {
-                    "_CFURLString" = "file:///System/Applications/Utilities/Terminal.app/";
-                    "_CFURLStringType" = 15;
-                };
-                "file-label" = Terminal;
-                "file-mod-date" = 3876787331;
-                "file-type" = 1;
-                "is-beta" = 0;
-                "parent-mod-date" = 3876787331;
-            };
-            "tile-type" = "file-tile";
-        },
-                {
-            GUID = 625969348;
+            GUID = 282096456;
             "tile-data" =             {
                 book = {length = 572, bytes = 0x626f6f6b 3c020000 00000510 40000000 ... 04000000 00000000 };
                 "bundle-identifier" = "com.valvesoftware.steam";
@@ -583,9 +565,27 @@
                 };
                 "file-label" = Steam;
                 "file-mod-date" = 3855341262;
+                "file-type" = 41;
+                "is-beta" = 0;
+                "parent-mod-date" = 94274115093877;
+            };
+            "tile-type" = "file-tile";
+        },
+                {
+            GUID = 774913577;
+            "tile-data" =             {
+                book = {length = 580, bytes = 0x626f6f6b 44020000 00000510 40000000 ... 04000000 00000000 };
+                "bundle-identifier" = "com.unicorn-soft.unicornhttpsformac";
+                "dock-extra" = 0;
+                "file-data" =                 {
+                    "_CFURLString" = "file:///Applications/Unicorn%20HTTPS.app/";
+                    "_CFURLStringType" = 15;
+                };
+                "file-label" = "Unicorn HTTPS";
+                "file-mod-date" = 270715666507107;
                 "file-type" = 1;
                 "is-beta" = 0;
-                "parent-mod-date" = 191271656432998;
+                "parent-mod-date" = 154652765368232;
             };
             "tile-type" = "file-tile";
         }

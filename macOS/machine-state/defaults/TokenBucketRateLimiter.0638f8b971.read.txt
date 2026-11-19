@@ -2,9 +2,9 @@
     SKDUserDefaultsRoot =     {
         SKDUserDefaultsMap =         {
             "InstantProcessing+Embedding" =             {
-                timestamp = "816705001.018903";
-                timestampLastReplenished = "816704945.3569771";
-                tokenCount = 365;
+                timestamp = "816750393.1836489";
+                timestampLastReplenished = "816750391.756977";
+                tokenCount = 413;
             };
             "InstantProcessing+FullEmbedding" =             {
                 timestamp = "808138291.540485";
@@ -12,18 +12,18 @@
                 tokenCount = 500;
             };
             "InstantProcessing+GLPEmbedding" =             {
-                timestamp = "816717133.965353";
-                timestampLastReplenished = "816717041.4363648";
+                timestamp = "816794481.9999";
+                timestampLastReplenished = "816794455.8363578";
                 tokenCount = 500;
             };
             "InstantProcessing+GLPIndexing" =             {
-                timestamp = "816717134.113591";
-                timestampLastReplenished = "816717127.8341385";
+                timestamp = "816794552.670435";
+                timestampLastReplenished = "816794542.2341324";
                 tokenCount = 1000;
             };
             "InstantProcessing+GLPMailAttachments" =             {
-                timestamp = "816717133.871731";
-                timestampLastReplenished = "816717041.4345957";
+                timestamp = "816794481.99347";
+                timestampLastReplenished = "816794455.8345886";
                 tokenCount = 500;
             };
             "InstantProcessing+Keyphrase" =             {
@@ -77,8 +77,8 @@
                 tokenCount = 1500;
             };
             "PriorityProcessing+GLPIndexing" =             {
-                timestamp = "816717134.181133";
-                timestampLastReplenished = "816717127.8344301";
+                timestamp = "816794356.033796";
+                timestampLastReplenished = "816794350.2344327";
                 tokenCount = 9000;
             };
             "PriorityProcessing+GLPMailAttachments" =             {
@@ -102,8 +102,8 @@
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5EventsandordersUrgent" =             {
-                timestamp = "816717146.978742";
-                timestampLastReplenished = "816717127.8371702";
+                timestamp = "816794355.385509";
+                timestampLastReplenished = "816794347.8371682";
                 tokenCount = 4000;
             };
             "PriorityProcessing+LSSR5IdentificationdocumentsBackground" =             {

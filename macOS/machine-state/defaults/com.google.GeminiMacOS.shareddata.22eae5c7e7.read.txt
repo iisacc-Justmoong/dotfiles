@@ -3,9 +3,9 @@
     "com.google.Gemini.OmahaMetrics.hasAttemptedLegacyCleanup" = 1;
     "com.google.Gemini.OmahaMetrics.hasReportedInstall" = 1;
     "com.google.Gemini.OmahaMetrics.isAppActive" = 0;
-    "com.google.Gemini.OmahaMetrics.lastActiveDay" = 7261;
-    "com.google.Gemini.OmahaMetrics.lastRollcallDay" = 7261;
-    "com.google.Gemini.OmahaMetrics.pingFreshness" = "02643574-026A-453F-81BF-48AFA7E31F6C";
+    "com.google.Gemini.OmahaMetrics.lastActiveDay" = 7262;
+    "com.google.Gemini.OmahaMetrics.lastRollcallDay" = 7262;
+    "com.google.Gemini.OmahaMetrics.pingFreshness" = "845C96BC-76D4-47F7-B9FE-C9FBC4D2B266";
     "com.google.Gemini.streamToCursorHoldShortcutMode" = none;
     "com.google.Gemini.streamToCursorStartStopShortcutMode" = doubleTapFn;
     hasCompletedInitialLoginItemRegistration = 1;
@@ -14,5 +14,5 @@
     "statusBar_isPastOnboarding" = 1;
     "statusBar_showInMenuBar" = 0;
     "updater.driveUpdaterEnabled" = 0;
-    "updater.pendingUpdate" = {length = 287, bytes = 0x7b227665 7273696f 6e223a22 312e3134 ... 36313431 37307d7d };
+    "updater.pendingUpdate" = {length = 289, bytes = 0x7b227665 7273696f 6e223a22 312e3134 ... 31393832 30347d7d };
 }

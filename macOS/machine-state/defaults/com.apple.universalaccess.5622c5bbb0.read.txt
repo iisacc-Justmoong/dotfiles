@@ -24,21 +24,6 @@
     History =     {
         MouseKeys =         (
                         {
-                Date = "2026-10-15 14:18:46";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-10-16 14:18:34";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
-                Date = "2026-10-17 14:19:08";
-                Reason = Reset;
-                State = 0;
-            },
-                        {
                 Date = "2026-10-18 14:18:39";
                 Reason = Reset;
                 State = 0;
@@ -272,6 +257,21 @@
                 Date = "2026-11-18 14:38:53";
                 Reason = Reset;
                 State = 0;
+            },
+                        {
+                Date = "2026-11-19 14:25:39";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-11-19 14:40:45";
+                Reason = Reset;
+                State = 0;
+            },
+                        {
+                Date = "2026-11-20 06:42:15";
+                Reason = Reset;
+                State = 0;
             }
         );
     };
@@ -319,20 +319,6 @@
         NSGlobalDomain
     );
     customFonts = 1;
-    displaysLastCursorLocation =     {
-        0 =         {
-            X = "1517.09765625";
-            Y = 1440;
-        };
-        3 =         {
-            X = "827.88671875";
-            Y = "1040.30859375";
-        };
-        4 =         {
-            X = "-287.2421875";
-            Y = "1189.4921875";
-        };
-    };
     dynamicTypeScanCache = {length = 30170, bytes = 0x5b7b2270 61746822 3a225c2f 53797374 ... 74657275 69227d5d };
     dynamicTypeScanCacheVersion = 1;
     grayscale = 0;

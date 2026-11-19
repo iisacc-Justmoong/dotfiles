@@ -21,9 +21,10 @@
     SUAutomaticallyUpdate = 1;
     SUEnableAutomaticChecks = 1;
     SUHasLaunchedBefore = 1;
-    SULastCheckTime = "2026-11-17 20:13:08 +0000";
+    SULastCheckTime = "2026-11-19 21:42:24 +0000";
     SUScheduledCheckInterval = 43200;
     SUUpdateGroupIdentifier = 3889185089;
+    VanillaToolbarChosenDisplayMode = 2;
     "connections.appleNotes.enabled" = 1;
     "connections.calendar.enabled" = 1;
     "connections.contacts.enabled" = 1;
@@ -34,7 +35,7 @@
     "endo_analytics_last_event_at" = "1794840692.328134";
     "endo_analytics_session_id" = "39D75147-3D9B-44F9-9CC4-4093435A2C50";
     "endo_analytics_session_started_at" = "1794840684.72698";
-    "endo_app_run_session_id" = "98032F41-2454-4A1C-83C4-E7433EE6319D";
+    "endo_app_run_session_id" = "40335EBB-16EF-45B8-BBA6-933E1F7AAADD";
     "endo_dev_enable_custom_reactions_native" = 1;
     "endo_dev_enable_custom_reactions_webkit" = 1;
     "endo_dev_reaction_overlay_mode" = native;
@@ -70,10 +71,10 @@
     "endo_vanilla_onboarding_v2_complete.com.meta.endo.vanilla" = 1;
     "endo_vanilla_quick_invoke_binding" = controlSpace;
     "endo_vanilla_region_block_v1" =     {
-        593a96daaf6f8ea6fe1841b0cedca4ed = {length = 74, bytes = 0x7b22626c 6f636b45 6e61626c 6564223a ... 2e373532 3732337d };
+        593a96daaf6f8ea6fe1841b0cedca4ed = {length = 74, bytes = 0x7b227265 67696f6e 41766169 6c61626c ... 2e343932 3936397d };
     };
     "endo_vanilla_working_window_enabled" = 1;
-    kFBPreviousAppSessionID = "UFS-24F3A451-29FC-43E7-A034-A6D3429A78E3-1";
+    kFBPreviousAppSessionID = "UFS-16962733-69A9-4AD5-8A51-A4C4A1792369-1";
     "tokenstorage_adopted_app_scoped_accounts" = 1;
     "tokenstorage_ar_keychain_purged_v2" = 1;
     "tokenstorage_migrated_to_keychain" = 1;

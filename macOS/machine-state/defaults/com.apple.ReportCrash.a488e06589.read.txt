@@ -2,23 +2,19 @@
     TrialCache =     {
         experiments =         (
         );
-        lastCheckTime = "816655219.024816";
+        lastCheckTime = "816758756.388086";
         rollouts =         (
                         {
-                deploymentId = 240000063;
+                deploymentId = 240000010;
                 factorPackIds =                 (
-                    6ada8a0c68b58914e2b611e8,
-                    6ada8a0ec9be315cf5a9f250,
-                    6ada8a0fc9be315cf5a9f251,
-                    6ada8a1119bfb0181cf7f080
                 );
-                rolloutId = 699d4a6bb3c59721f0815d4a;
+                rolloutId = 6246d6a916a70b047e454124;
             },
                         {
-                deploymentId = 240000006;
+                deploymentId = 240000001;
                 factorPackIds =                 (
                 );
-                rolloutId = 682ef9612c2ae30e2f38d3a4;
+                rolloutId = 6adedad91069c17630c67dd4;
             }
         );
     };

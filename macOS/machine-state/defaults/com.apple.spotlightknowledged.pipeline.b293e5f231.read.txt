@@ -28,7 +28,7 @@
                     "com.apple.shortcuts",
                     "com.apple.AppStore"
                 );
-                completedProcessingNoResultCount = 2788877;
+                completedProcessingNoResultCount = 2788996;
                 enabledDate = "2026-06-10 00:32:44 +0000";
                 errorProcessingCount = 71;
                 "itemsAwaitingRedonation_com.apple.AppStore" = 0;
@@ -49,7 +49,7 @@
                 "itemsAwaitingRedonation_com.gingerlabs.Notability" = 0;
                 "itemsAwaitingRedonation_com.google.GeminiMacOS" = 0;
                 "itemsAwaitingRedonation_com.google.drivefs" = 0;
-                itemsInstantProcessed = 34516;
+                itemsInstantProcessed = 34635;
                 itemsInstantUnprocessed = 20798;
                 "journalCookie_1" = "E21662D5-FE41-4ECE-8726-C8FD904B1470";
                 "journalCookie_2" = "8DD2DFEA-ED87-4D04-A1FD-337A657D971D";
@@ -79,7 +79,7 @@
                 "serialNumber_2" = 1968;
                 "serialNumber_3" = 960359;
                 "serialNumber_5" = 251933;
-                timeSpentProcessing = 57185;
+                timeSpentProcessing = 57197;
                 timestamp = "816717598.532676";
             };
             "pipeline:FullEmbedding" =             {
@@ -303,12 +303,12 @@
                 lastMetricsFetchJournalsPurged = 4593;
                 "lastMetricsFetchSerialNumber_3" = 962428;
                 loggingVersion = NA;
-                "prioritySerialNumber_1" = 2015;
-                "prioritySerialNumber_2" = 2014;
-                "prioritySerialNumber_3" = 962432;
-                "prioritySerialNumber_5" = 254755;
-                "serialNumber_3" = 962428;
-                timestamp = "816717598.25963";
+                "prioritySerialNumber_1" = 2026;
+                "prioritySerialNumber_2" = 2025;
+                "prioritySerialNumber_3" = 963446;
+                "prioritySerialNumber_5" = 312492;
+                "serialNumber_3" = 963401;
+                timestamp = "816794360.41759";
             };
             "pipeline:LSSR5IdentificationdocumentsBackground" =             {
                 awaitingRedonationBundles =                 (
@@ -406,18 +406,18 @@
                 "lastMetricsFetchSerialNumber_5" = 254753;
                 lastMetricsTimeSpentProcessing = 42368;
                 loggingVersion = 2;
-                "prioritySerialNumber_1" = 2015;
-                "prioritySerialNumber_2" = 2014;
-                "prioritySerialNumber_3" = 962432;
-                "prioritySerialNumber_5" = 254755;
+                "prioritySerialNumber_1" = 2026;
+                "prioritySerialNumber_2" = 2025;
+                "prioritySerialNumber_3" = 963406;
+                "prioritySerialNumber_5" = 312489;
                 processedRedonationsRequested = 130098;
                 redonationsRequested = 179064;
-                "serialNumber_1" = 2015;
-                "serialNumber_2" = 2014;
-                "serialNumber_3" = 962432;
-                "serialNumber_5" = 254755;
-                timeSpentProcessing = 42368;
-                timestamp = "816717598.451929";
+                "serialNumber_1" = 2026;
+                "serialNumber_2" = 2025;
+                "serialNumber_3" = 963406;
+                "serialNumber_5" = 312489;
+                timeSpentProcessing = 43600;
+                timestamp = "816794374.283975";
             };
             "pipeline:Unattributed" =             {
                 awaitingRedonationBundles =                 (

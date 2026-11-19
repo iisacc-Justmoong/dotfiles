@@ -17,29 +17,9 @@
             "Validation Version" = 1;
         };
         "B8BBA1CF-FEE7-4D3D-9D6A-E16AEDA37A25" =         {
-            "Ace Host" = se12sa;
             "Build Version" = 26B131;
-            "Connection Policy" =             {
-                "$class" = ConnectionPolicy;
-                "$group" = "com.apple.ace.system";
-                "$v" = "13.0";
-                disableMPTCP = 0;
-                enableOptimisticDNS = 1;
-                enableTCPNagle = 0;
-                enableTLS13 = 0;
-                enableTLS13ZeroRTT = 0;
-                enableTcpFastOpen = 0;
-                globalTimeout = 0;
-                mptcpFallbackPort = "-2147483648";
-                policyId = "odns_odns-on_v1";
-                routes =                 (
-                );
-                timeToLive = 43200;
-            };
-            "Connection Policy Date" = "2026-11-16 09:28:47 +0000";
-            "Connection Policy Hostname" = "https://guzzoni.apple.com";
-            "Last Assistant Data Anchor" = cdba57410121610f61236d62d3006940534809ee;
-            "Validation Expiration" = "2026-11-20 03:21:45 +0000";
+            "Needs Creation" = 1;
+            "Validation Expiration" = "2026-11-22 22:42:59 +0000";
             "Validation Version" = 1;
         };
     };
@@ -65,8 +45,8 @@
     "Key Value Server Change Tokens" =     {
         "com.apple.siri.profile:2:zn:com.apple.assistant.backedup:__defaultOwner__" = {length = 279, bytes = 0x62706c69 73743030 d4010203 04050607 ... 00000000 000000df };
     };
-    "Last client experiment check date" = "2026-11-14 17:48:49 +0000";
-    "Last server experiment check date" = "2026-11-11 05:24:02 +0000";
+    "Last client experiment check date" = "2026-11-19 21:42:58 +0000";
+    "Last server experiment check date" = "2026-11-19 21:42:58 +0000";
     "Manual Endpointing Threshold" = 2;
     "MultiUser Shared Data Needs Sync" = 0;
     "Myriad Device Adjust" = "-10";

@@ -3,6 +3,21 @@
     };
     LastSystemVersion = 26B131;
     RefreshingWaiters =     {
+        "com.apple.remindd.RDAutoCategorizationOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItemsOnLaunch = 1;
+        };
+        "com.apple.remindd.RDGroceryOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItemsOnLaunch = 1;
+        };
+        "com.apple.remindd.RDGrocerySectionCoalesceOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItemsOnLaunch = 1;
+        };
+        "com.apple.remindd.RDTemplateOperationQueue.babysitter" =         {
+            handleIncompleteOperationQueueItemsOnLaunch = 1;
+        };
+        "com.apple.remindd.assignmentNotificationEngine.babysitter" =         {
+            refreshFromLastConsumedOnLaunch = 1;
+        };
     };
     RestrictedWaiters =     {
     };

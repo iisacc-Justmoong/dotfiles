@@ -1,7 +1,7 @@
 {
     SpacesDisplayConfiguration =     {
         "Management Data" =         {
-            Age = "20783.57777245843";
+            Age = "9627.485741541672";
             "Management Mode" = 1;
             Monitors =             (
                                 {
@@ -39,16 +39,16 @@
                 },
                                 {
                     "Current Space" =                     {
-                        ManagedSpaceID = 445;
-                        id64 = 445;
+                        ManagedSpaceID = 6;
+                        id64 = 6;
                         type = 0;
                         uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                     };
                     "Display Identifier" = "2C9DB48E-D6CA-4EE6-8898-5FDC6078E8A1";
                     Spaces =                     (
                                                 {
-                            ManagedSpaceID = 445;
-                            id64 = 445;
+                            ManagedSpaceID = 6;
+                            id64 = 6;
                             type = 0;
                             uuid = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                         }
@@ -65,12 +65,12 @@
                 }
             );
             Primary =             {
-                CreatedCount = 0;
-                DeletedCount = 0;
-                LifetimeEntryCount = 0;
-                LifetimeMax = 0;
-                LifetimeMin = 0;
-                LifetimeSum = 0;
+                CreatedCount = 1;
+                DeletedCount = 1;
+                LifetimeEntryCount = 1;
+                LifetimeMax = "5.126744541666994";
+                LifetimeMin = "5.126744541666994";
+                LifetimeSum = "5.126744541666994";
                 PersistedCount = 0;
             };
             Secondary =             {
@@ -87,6 +87,12 @@
                 );
                 ManagedSpaceOrdering =                 (
                                         {
+                        ManagedDisplayID = Main;
+                        ManagedSpaceIDs =                         (
+                            ""
+                        );
+                    },
+                                        {
                         ManagedDisplayID = "6DBC93E4-D052-4D25-8120-4EDAF3D0A5F3";
                         ManagedSpaceIDs =                         (
                             ""
@@ -97,12 +103,6 @@
                         ManagedSpaceIDs =                         (
                             "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53"
                         );
-                    },
-                                        {
-                        ManagedDisplayID = Main;
-                        ManagedSpaceIDs =                         (
-                            ""
-                        );
                     }
                 );
             };
@@ -111,38 +111,26 @@
                         {
                 name = "";
                 windows =                 (
-                    7200,
-                    18287,
-                    16779,
-                    16639,
-                    16404,
-                    15093,
-                    19051,
-                    18677,
-                    19246,
-                    17150,
-                    16422,
-                    9190,
-                    2258,
-                    75,
-                    36,
-                    34,
-                    7021,
-                    15,
-                    565
+                    162,
+                    123,
+                    95,
+                    67,
+                    44,
+                    42,
+                    175,
+                    16
                 );
             },
                         {
                 name = "D792EFCF-FF85-4AC2-BD07-722CE0A3EE53";
                 windows =                 (
-                    12364,
-                    19264,
-                    13186,
-                    15233,
-                    11585,
-                    11580,
-                    11548,
-                    11511
+                    191,
+                    139,
+                    96,
+                    45,
+                    43,
+                    176,
+                    17
                 );
             }
         );
